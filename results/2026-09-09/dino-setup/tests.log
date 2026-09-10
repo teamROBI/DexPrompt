@@ -1,0 +1,5 @@
+................................................s....................... [ 80%]
+.................                                                        [100%]
+=========================== short test summary info ============================
+SKIPPED [1] tests/test_conditioning.py:127: render check runs explicitly with MUJOCO_GL=egl or osmesa
+88 passed, 1 skipped in 6.88s

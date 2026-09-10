@@ -1,0 +1,84 @@
+{
+  "candidate_manifest": "/home/yspark/projects/ICRA/out/offset-compare/manifests/baseline-pincer.json",
+  "candidate_manifest_sha256": "486397f4d81261cfd1ceb06b22f494f53c567eea38cf51f9bdf85269bd3381a1",
+  "execution": {
+    "policy_dt": 0.02,
+    "standoff": 0.1,
+    "overhead": 0.15,
+    "lift_height": 0.15,
+    "transit_ticks": 150,
+    "descend_ticks": 100,
+    "approach_ticks": 200,
+    "arrive_ticks": 50,
+    "close_ticks": 600,
+    "lift_ticks": 300,
+    "hold_ticks": 50,
+    "ready_ticks": 25,
+    "lift_force": null,
+    "preview_ticks": 2,
+    "closure_speed": 0.008,
+    "preload": 2.0,
+    "hold_force": 4.0,
+    "penetration_margin": 0.75,
+    "residual": 0.35,
+    "geometry_feedback": true
+  },
+  "quality_limits": {
+    "max_penetration": 0.002,
+    "max_digit_force": 30.0,
+    "max_table_penetration": 1e-06,
+    "max_approach_displacement": 0.01,
+    "min_contact_force": 0.1,
+    "min_lift": 0.1,
+    "min_hold_seconds": 0.5
+  },
+  "source_hashes": {
+    "scripts/collect_teacher_dataset.py": "a5c492fea948cb9ed62547f06d45922ac1dacafebb22a6237c55cfbf347dd3ee",
+    "scripts/collect_episodes.py": "b407f00ff1d6cb09304638875d097e8831a7228e1f5342e96abe06eb7d9c462f",
+    "src/icra/execution.py": "c70636bf1f5d09e65e624150a18f17860545eec3887f7cd97b3e3e11c2251ec0",
+    "src/icra/simulation.py": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25",
+    "src/icra/contact_control.py": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0",
+    "src/icra/dataset.py": "1223b3765a2d20bbafdd35160cbf327dc9b409e5268b9a277f34df9d54e7bb1e",
+    "src/icra/conditioning.py": "6dbe8661c015ac006755132f801660092f8666336461ce9fa9be29eec776d2a4",
+    "src/icra/scene.py": "1ade9cecc5ca53139513682247b1d3de3a4669bd6c90010eb8321ba1f5f5bfee",
+    "src/icra/arm.py": "54ea9a88d552204586347b17fc1cb6cedbd733a621df32a888f7702df2cabf67",
+    "src/icra/objects.py": "ee8ab21a246f029b6e63d09591549b30c6aa027e1f1d99577e6d021997f4464a"
+  },
+  "training_started": false,
+  "scene": {
+    "robot_base_pose": {
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "yaw_deg": 0.0
+    },
+    "table": {
+      "x": 0.35,
+      "y": 0.0,
+      "height": 0.8,
+      "size_x": 0.6,
+      "size_y": 1.6
+    },
+    "object_offset": [
+      0.0,
+      0.0
+    ],
+    "lift": -0.13,
+    "head": {
+      "head_joint1": 0.7,
+      "head_joint2": 0.0
+    },
+    "arm_init_pose": {
+      "arm_r_joint1": 1.0,
+      "arm_r_joint2": -0.2,
+      "arm_r_joint3": -0.2,
+      "arm_r_joint4": -2.5,
+      "arm_r_joint5": 0.0,
+      "arm_r_joint6": 0.0,
+      "arm_r_joint7": 0.0
+    }
+  },
+  "scope": "bounded dynamic path and contact feedback; no general motion-planning guarantee"
+}

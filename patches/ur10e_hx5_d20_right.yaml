@@ -1,0 +1,131 @@
+name: ur10e_hx5_d20_right
+profile: ur10e_gripper
+curobo:
+  robot_config: ../curobo_assets/ur10e_hx5_d20_right.yml
+  tool_frame: tool0
+  default_joint_position:
+  - 0.0
+  - -2.2
+  - 1.9
+  - -1.383
+  - -1.57
+  - 0.0
+graspgen:
+  gripper_name: hx5_d20_right
+grasp_to_tool_transform:
+  translation:
+  - 0.00039999999999999877
+  - 0.0204
+  - -6.016155777703619e-53
+  quaternion_xyzw:
+  - -0.0
+  - -0.0
+  - -0.7071067811865475
+  - 0.7071067811865476
+robot_base_pose:
+  translation:
+  - 0.0
+  - 0.0
+  - 0.3
+  quaternion_xyzw:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 1.0
+urdf_path: ${E2E}/curobo_assets/ur10e_hx5_d20_right.urdf
+asset_root_path: ${E2E}/curobo_assets
+gripper_joint_names:
+- finger_r_joint1
+- finger_r_joint2
+- finger_r_joint3
+- finger_r_joint4
+- finger_r_joint5
+- finger_r_joint6
+- finger_r_joint7
+- finger_r_joint8
+- finger_r_joint9
+- finger_r_joint10
+- finger_r_joint11
+- finger_r_joint12
+- finger_r_joint13
+- finger_r_joint14
+- finger_r_joint15
+- finger_r_joint16
+- finger_r_joint17
+- finger_r_joint18
+- finger_r_joint19
+- finger_r_joint20
+gripper_open:
+  finger_r_joint1: 0.0
+  finger_r_joint2: -1.5
+  finger_r_joint3: 0.7
+  finger_r_joint4: 0.7
+  finger_r_joint5: 0.0
+  finger_r_joint6: 0.0
+  finger_r_joint7: 0.0
+  finger_r_joint8: 0.0
+  finger_r_joint9: 0.0
+  finger_r_joint10: 0.0
+  finger_r_joint11: 0.0
+  finger_r_joint12: 0.0
+  finger_r_joint13: 0.0
+  finger_r_joint14: 0.0
+  finger_r_joint15: 0.0
+  finger_r_joint16: 0.0
+  finger_r_joint17: 0.0
+  finger_r_joint18: 0.0
+  finger_r_joint19: 0.0
+  finger_r_joint20: 0.0
+gripper_close:
+  finger_r_joint1: 0.0
+  finger_r_joint2: -1.5
+  finger_r_joint3: 1.0
+  finger_r_joint4: 1.349
+  finger_r_joint5: 0.0
+  finger_r_joint6: 0.0
+  finger_r_joint7: 1.57
+  finger_r_joint8: 1.57
+  finger_r_joint9: 0.0
+  finger_r_joint10: 0.0
+  finger_r_joint11: 1.57
+  finger_r_joint12: 1.57
+  finger_r_joint13: 0.0
+  finger_r_joint14: 0.0
+  finger_r_joint15: 1.57
+  finger_r_joint16: 1.57
+  finger_r_joint17: 0.0
+  finger_r_joint18: 0.0
+  finger_r_joint19: 1.57
+  finger_r_joint20: 1.57
+gripper_control_mode: velocity
+dynamic:
+  arm_kp: 2000.0
+  arm_kd: 100.0
+  finger_velocity_kd: 50.0
+  finger_effort_limit: 200.0
+gripper_body_keywords:
+- finger
+- hx5_d20_right_base
+coacd_link_keywords:
+- hx5_d20_right_base
+gripper_close_velocity:
+  finger_r_joint1: 0.0
+  finger_r_joint2: 0.0
+  finger_r_joint3: 1.0
+  finger_r_joint4: 1.0
+  finger_r_joint5: 0.0
+  finger_r_joint6: 0.0
+  finger_r_joint7: 1.0
+  finger_r_joint8: 1.0
+  finger_r_joint9: 0.0
+  finger_r_joint10: 0.0
+  finger_r_joint11: 1.0
+  finger_r_joint12: 1.0
+  finger_r_joint13: 0.0
+  finger_r_joint14: 0.0
+  finger_r_joint15: 1.0
+  finger_r_joint16: 1.0
+  finger_r_joint17: 0.0
+  finger_r_joint18: 0.0
+  finger_r_joint19: 1.0
+  finger_r_joint20: 1.0

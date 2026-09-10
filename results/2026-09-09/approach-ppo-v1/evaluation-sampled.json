@@ -1,0 +1,163 @@
+{
+  "policy": "out/rl-approach/ppo-v1/policy.pt",
+  "steps": 2000896,
+  "sampled": true,
+  "episodes": [
+    {
+      "status": "approach_timeout",
+      "success": false,
+      "approach_ticks": 600,
+      "handover_tick": null,
+      "executor_status": null,
+      "closest": 0.06423700034630066,
+      "position_error": 0.26686978660758137,
+      "orientation_error": 2.220283169291032,
+      "displacement": 9.447725950600604e-06,
+      "pushed": 2.4746447343500465e-05,
+      "return": -8.39736414890396,
+      "discounted_return": -4.810768226751656
+    },
+    {
+      "status": "approach_timeout",
+      "success": false,
+      "approach_ticks": 600,
+      "handover_tick": null,
+      "executor_status": null,
+      "closest": 0.03244542888867696,
+      "position_error": 0.2659011989804124,
+      "orientation_error": 2.265126106182273,
+      "displacement": 9.447725951164883e-06,
+      "pushed": 2.4746447343567598e-05,
+      "return": -8.407521030190845,
+      "discounted_return": -4.810768226751654
+    },
+    {
+      "status": "approach_timeout",
+      "success": false,
+      "approach_ticks": 600,
+      "handover_tick": null,
+      "executor_status": null,
+      "closest": 0.01905209112914257,
+      "position_error": 0.26418834990855944,
+      "orientation_error": 2.2389883851440895,
+      "displacement": 9.447725949754104e-06,
+      "pushed": 2.4746447343554713e-05,
+      "return": -8.463218347538561,
+      "discounted_return": -4.810768226751646
+    },
+    {
+      "status": "approach_timeout",
+      "success": false,
+      "approach_ticks": 600,
+      "handover_tick": null,
+      "executor_status": null,
+      "closest": 0.06635692411425086,
+      "position_error": 0.27593676082125623,
+      "orientation_error": 2.2143343443854087,
+      "displacement": 9.446044427836848e-06,
+      "pushed": 2.4746447343569184e-05,
+      "return": -8.42085173385965,
+      "discounted_return": -4.810768226751634
+    },
+    {
+      "status": "approach_timeout",
+      "success": false,
+      "approach_ticks": 600,
+      "handover_tick": null,
+      "executor_status": null,
+      "closest": 0.027746529063963084,
+      "position_error": 0.2614553922558223,
+      "orientation_error": 2.2383813955527554,
+      "displacement": 9.447725950606545e-06,
+      "pushed": 2.4746447343615635e-05,
+      "return": -8.484212552113483,
+      "discounted_return": -4.810768226751652
+    },
+    {
+      "status": "approach_timeout",
+      "success": false,
+      "approach_ticks": 600,
+      "handover_tick": null,
+      "executor_status": null,
+      "closest": 0.04708626120237314,
+      "position_error": 0.2701299851878627,
+      "orientation_error": 2.228477374576102,
+      "displacement": 9.447725950352674e-06,
+      "pushed": 2.474644734355996e-05,
+      "return": -8.427127320228909,
+      "discounted_return": -4.810768226751666
+    },
+    {
+      "status": "approach_timeout",
+      "success": false,
+      "approach_ticks": 600,
+      "handover_tick": null,
+      "executor_status": null,
+      "closest": 0.021735534017143107,
+      "position_error": 0.27251240432346197,
+      "orientation_error": 2.2149328879951997,
+      "displacement": 9.447725949731384e-06,
+      "pushed": 2.474644734363041e-05,
+      "return": -8.417921451773143,
+      "discounted_return": -4.810768226751675
+    },
+    {
+      "status": "approach_timeout",
+      "success": false,
+      "approach_ticks": 600,
+      "handover_tick": null,
+      "executor_status": null,
+      "closest": 0.037779300251274565,
+      "position_error": 0.27014619452539185,
+      "orientation_error": 2.239979818649288,
+      "displacement": 9.447725949951278e-06,
+      "pushed": 2.474644734360957e-05,
+      "return": -8.439074376359976,
+      "discounted_return": -4.81076822675165
+    },
+    {
+      "status": "approach_timeout",
+      "success": false,
+      "approach_ticks": 600,
+      "handover_tick": null,
+      "executor_status": null,
+      "closest": 0.053066180616128014,
+      "position_error": 0.26310677963382395,
+      "orientation_error": 2.246085798292122,
+      "displacement": 9.44772595048361e-06,
+      "pushed": 2.4746447343569194e-05,
+      "return": -8.455885921378155,
+      "discounted_return": -4.8107682267516445
+    },
+    {
+      "status": "approach_timeout",
+      "success": false,
+      "approach_ticks": 600,
+      "handover_tick": null,
+      "executor_status": null,
+      "closest": 0.031124878829418407,
+      "position_error": 0.26679721343858476,
+      "orientation_error": 2.241146401839795,
+      "displacement": 9.447725950028241e-06,
+      "pushed": 2.4746447343564474e-05,
+      "return": -8.39444878713456,
+      "discounted_return": -4.810768226751673
+    }
+  ],
+  "summary": {
+    "episodes": 10,
+    "handover_rate": 0.0,
+    "success_rate": 0.0,
+    "statuses": {
+      "approach_timeout": 10
+    },
+    "closest_m": {
+      "min": 0.01905209112914257,
+      "median": 0.03511236456997576,
+      "max": 0.06635692411425086
+    },
+    "mean_approach_ticks": 600.0,
+    "mean_discounted_return": -4.810768226751655,
+    "max_object_push_m": 2.474644734363041e-05
+  }
+}

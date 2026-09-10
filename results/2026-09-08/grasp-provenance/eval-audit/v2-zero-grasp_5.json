@@ -1,0 +1,94 @@
+{
+  "grasp": "/home/yspark/projects/Dexonomy/output/offcmp8_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_1_grasp.npy",
+  "settings": {
+    "miu_coef": [
+      0.6,
+      0.02
+    ],
+    "hard": false,
+    "trans_thre": 0.05,
+    "rot_thre": 15.0,
+    "skip_pregrasp": false,
+    "obj_mass": 0.1,
+    "skip_traj": true
+  },
+  "held": false,
+  "directions": [
+    {
+      "direction": "+x",
+      "held": false,
+      "steps": [
+        {
+          "trans_m": 0.0158072040896389,
+          "rot_deg": 41.1015625
+        }
+      ],
+      "worst_trans_m": 0.0158072040896389,
+      "worst_rot_deg": 41.1015625
+    },
+    {
+      "direction": "-x",
+      "held": false,
+      "steps": [
+        {
+          "trans_m": 0.023328518130473486,
+          "rot_deg": 16.648799896240234
+        }
+      ],
+      "worst_trans_m": 0.023328518130473486,
+      "worst_rot_deg": 16.648799896240234
+    },
+    {
+      "direction": "+y",
+      "held": false,
+      "steps": [
+        {
+          "trans_m": 0.02597432654144241,
+          "rot_deg": 14.778148651123047
+        },
+        {
+          "trans_m": 0.03224104563054098,
+          "rot_deg": 26.22259521484375
+        }
+      ],
+      "worst_trans_m": 0.03224104563054098,
+      "worst_rot_deg": 26.22259521484375
+    },
+    {
+      "direction": "-y",
+      "held": false,
+      "steps": [
+        {
+          "trans_m": 0.17296588335309593,
+          "rot_deg": 12.549521446228027
+        }
+      ],
+      "worst_trans_m": 0.17296588335309593,
+      "worst_rot_deg": 12.549521446228027
+    },
+    {
+      "direction": "+z",
+      "held": false,
+      "steps": [
+        {
+          "trans_m": 0.026337592829494452,
+          "rot_deg": 57.254337310791016
+        }
+      ],
+      "worst_trans_m": 0.026337592829494452,
+      "worst_rot_deg": 57.254337310791016
+    },
+    {
+      "direction": "-z",
+      "held": false,
+      "steps": [
+        {
+          "trans_m": 0.12639485105712522,
+          "rot_deg": 67.70677185058594
+        }
+      ],
+      "worst_trans_m": 0.12639485105712522,
+      "worst_rot_deg": 67.70677185058594
+    }
+  ]
+}

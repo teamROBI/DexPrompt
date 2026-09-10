@@ -1,0 +1,19 @@
+{
+  "/home/yspark/projects/Dexonomy/output/multi3_can_26_Sphere_4_Finger_s1_hx5_d20/grasp_data/26_Sphere_4_Finger/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_28_grasp.npy": "hand_through_table",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_26_Sphere_4_Finger_s1_hx5_d20/grasp_data/26_Sphere_4_Finger/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_31_grasp.npy": "hand_through_table",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_26_Sphere_4_Finger_s1_hx5_d20/grasp_data/26_Sphere_4_Finger/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_32_grasp.npy": "open_hand_inside_object",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_26_Sphere_4_Finger_s1_hx5_d20/grasp_data/26_Sphere_4_Finger/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_36_grasp.npy": "hand_through_table",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_26_Sphere_4_Finger_s1_hx5_d20/grasp_data/26_Sphere_4_Finger/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_40_grasp.npy": "hand_through_table",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_26_Sphere_4_Finger_s1_hx5_d20/grasp_data/26_Sphere_4_Finger/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_54_grasp.npy": "open_hand_inside_object",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_26_Sphere_4_Finger_s1_hx5_d20/grasp_data/26_Sphere_4_Finger/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_55_grasp.npy": "hand_through_table",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_26_Sphere_4_Finger_s1_hx5_d20/grasp_data/26_Sphere_4_Finger/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_60_grasp.npy": "hand_through_table",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_26_Sphere_4_Finger_s1_hx5_d20/grasp_data/26_Sphere_4_Finger/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_62_grasp.npy": "open_hand_inside_object",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_26_Sphere_4_Finger_s1_hx5_d20/grasp_data/26_Sphere_4_Finger/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_68_grasp.npy": "kept",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_26_Sphere_4_Finger_s1_hx5_d20/grasp_data/26_Sphere_4_Finger/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_77_grasp.npy": "open_hand_inside_object",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_26_Sphere_4_Finger_s1_hx5_d20/grasp_data/26_Sphere_4_Finger/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_79_grasp.npy": "hand_through_table",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_26_Sphere_4_Finger_s1_hx5_d20/grasp_data/26_Sphere_4_Finger/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_86_grasp.npy": "hand_through_table",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_26_Sphere_4_Finger_s1_hx5_d20/grasp_data/26_Sphere_4_Finger/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_91_grasp.npy": "hand_through_table",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_26_Sphere_4_Finger_s1_hx5_d20/grasp_data/26_Sphere_4_Finger/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_92_grasp.npy": "open_hand_inside_object",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_26_Sphere_4_Finger_s1_hx5_d20/grasp_data/26_Sphere_4_Finger/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_98_grasp.npy": "open_hand_inside_object",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_26_Sphere_4_Finger_s1_hx5_d20/grasp_data/26_Sphere_4_Finger/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_99_grasp.npy": "hand_through_table"
+}

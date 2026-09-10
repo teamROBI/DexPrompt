@@ -1,0 +1,299 @@
+{
+  "episode_id": "teacher_0000_yaw_000",
+  "passed": true,
+  "ticks": 1124,
+  "numeric_atol": 1e-09,
+  "right_state_comparison": "exact stored float32 values",
+  "right_state_mismatched_values": 0,
+  "max_absolute_errors": {
+    "right_state": 0.0,
+    "timestamp": 0.0,
+    "group_forces_min": 0.0,
+    "group_forces_max": 0.0,
+    "digit_force_max": 0.0,
+    "target_height_min": 0.0,
+    "object_xy_displacement_max": 0.0,
+    "non_target_displacement_max": 0.0,
+    "robot_object_penetration_max": 0.0,
+    "robot_table_penetration_max": 0.0,
+    "robot_obstacle_penetration_max": 0.0
+  },
+  "boolean_mismatches": {
+    "contact_groups": 0
+  },
+  "initial_measurement_errors": {
+    "initial_target_height": 0.0,
+    "initial_robot_object_penetration": 0.0,
+    "initial_robot_table_penetration": 0.0
+  },
+  "initial_contact_mismatches": 0,
+  "original_accepted": false,
+  "replayed_quality": {
+    "accepted": false,
+    "reasons": [
+      "execution_terminated_early",
+      "incomplete_full_approach",
+      "insufficient_contact_preserving_hold"
+    ],
+    "limits": {
+      "max_penetration": 0.002,
+      "max_digit_force": 30.0,
+      "max_table_penetration": 1e-06,
+      "max_approach_displacement": 0.01,
+      "min_contact_force": 0.1,
+      "min_lift": 0.1,
+      "min_hold_seconds": 0.5
+    },
+    "frames": 1124,
+    "duration_seconds": 22.479999999999997,
+    "max_robot_object_penetration": 0.00199975182038074,
+    "max_robot_table_penetration": 0.0,
+    "max_digit_force": 29.12987587822606,
+    "max_approach_displacement": 2.9196960683107402e-05,
+    "max_robot_obstacle_penetration": 0.0,
+    "max_non_target_displacement": 0.0,
+    "max_interval_minimum_rise": 0.08424714234713149,
+    "longest_contact_preserving_hold_seconds": 0.0,
+    "terminal_contact_preserving_hold_seconds": 0.0,
+    "max_contact_groups": 5,
+    "required_contact_groups": 5
+  },
+  "quality_acceptance_matches": true,
+  "quality_reasons_match": true,
+  "observed_quality_violations": [],
+  "original_stop_reason": "no_quality_feasible_command",
+  "images_verified": false,
+  "training_started": false,
+  "scope": "stored commands; same archived initial state, phases and stop metadata",
+  "dataset_manifest_sha256": "15f4ef899b98e9ed3084880a67f4e53fcc8b2555be89fcd2234a16edf4b0aaf5",
+  "episode_sha256": "6b94a43034684e60417463ac2ae5cbb8c80bed93a1bde2ce64555a8f3fdd1c0d",
+  "compiled_profile": {
+    "actuator_force_limits": [
+      [
+        -61.4,
+        61.4
+      ],
+      [
+        -61.4,
+        61.4
+      ],
+      [
+        -31.7,
+        31.7
+      ],
+      [
+        -31.7,
+        31.7
+      ],
+      [
+        -31.7,
+        31.7
+      ],
+      [
+        -31.7,
+        31.7
+      ],
+      [
+        -5.1,
+        5.1
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ]
+    ],
+    "actuator_kp": [
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      200.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0
+    ],
+    "actuator_kv": [
+      76.69613914658487,
+      76.61867714729803,
+      35.05071945329333,
+      49.486099138808804,
+      34.82238704850415,
+      37.646980286379545,
+      10.539745185258433,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0
+    ],
+    "contact_solimp": [
+      [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ]
+    ],
+    "contact_solref": [
+      [
+        0.02,
+        1.0
+      ]
+    ],
+    "force_semantics": "sum of nonnegative contact-normal forces per whole digit, N",
+    "geom_condim": [
+      3,
+      4
+    ],
+    "geom_friction": [
+      [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      [
+        1.0,
+        0.05,
+        0.0001
+      ],
+      [
+        1.8,
+        0.005,
+        0.0001
+      ],
+      [
+        5.0,
+        1.0,
+        0.3
+      ]
+    ],
+    "integrator": 3,
+    "iterations": 100,
+    "mujoco_version": "3.3.3",
+    "note": "object anti-spin friction also mixes into finger-object contacts; defaults unchanged",
+    "solver": 2,
+    "target_mass_kg": 0.09528842996904349,
+    "timestep": 0.002,
+    "tolerance": 1e-08
+  },
+  "replay_source_hashes": {
+    "scripts/replay_teacher_dataset.py": "af0439d1c52d137cd41f34501535f009b2fa2da16c3e45b26123ec7f093119b2",
+    "scripts/replay_hx5_student.py": "9c4ad0819204eb6b735b17a7314c8713fdc118d2ae591d3cd7ef53ba5c5a92ad",
+    "src/icra/execution.py": "47520c8029f46050e49392b8ae08c27fcbff64da71ef8dfbb822b0ffa36cc4fe",
+    "src/icra/simulation.py": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25",
+    "src/icra/dataset.py": "1223b3765a2d20bbafdd35160cbf327dc9b409e5268b9a277f34df9d54e7bb1e",
+    "src/icra/conditioning.py": "6dbe8661c015ac006755132f801660092f8666336461ce9fa9be29eec776d2a4",
+    "scripts/collect_episodes.py": "b407f00ff1d6cb09304638875d097e8831a7228e1f5342e96abe06eb7d9c462f"
+  }
+}

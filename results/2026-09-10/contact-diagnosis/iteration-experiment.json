@@ -1,0 +1,8 @@
+{
+ "recorded_at": "2026-09-10T14:10:39+09:00",
+ "question": "The optimisation stops with the missing digits about a centimetre short, nothing penetrating, and 0.13-0.25 rad of joint travel unused. Does giving it more iterations close that gap?",
+ "single_factor": "op.grasp.step, 50 -> 100. Dexonomy's own config annotates this value '50 # outer ADMM iterations, 100 for better quality', so 100 is the documented alternative rather than a number picked to suit the result.",
+ "held_fixed": "the same candidates, the same initialisations, the same templates, the same table-aware scenes, the same object scale and resting pose, the same filters and thresholds",
+ "run_on": "copies under iter100_*, so no original init or refined file is written to; the positives are run too, as a control that more iterations does not break what already worked",
+ "read_out": "required groups satisfied at the refiner's own 2 mm threshold, and the gap from each required digit to the object"
+}

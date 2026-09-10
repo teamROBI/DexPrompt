@@ -1,0 +1,15 @@
+{
+  "/home/yspark/projects/Dexonomy/output/multi3_can_3_Medium_Wrap_s1_hx5_d20/grasp_data/3_Medium_Wrap/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_11_grasp.npy": "hand_through_table",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_3_Medium_Wrap_s1_hx5_d20/grasp_data/3_Medium_Wrap/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_14_grasp.npy": "hand_through_table",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_3_Medium_Wrap_s1_hx5_d20/grasp_data/3_Medium_Wrap/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_22_grasp.npy": "kept",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_3_Medium_Wrap_s1_hx5_d20/grasp_data/3_Medium_Wrap/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_27_grasp.npy": "kept",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_3_Medium_Wrap_s1_hx5_d20/grasp_data/3_Medium_Wrap/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_36_grasp.npy": "kept",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_3_Medium_Wrap_s1_hx5_d20/grasp_data/3_Medium_Wrap/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_43_grasp.npy": "hand_through_table",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_3_Medium_Wrap_s1_hx5_d20/grasp_data/3_Medium_Wrap/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_51_grasp.npy": "hand_through_table",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_3_Medium_Wrap_s1_hx5_d20/grasp_data/3_Medium_Wrap/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_57_grasp.npy": "hand_through_table",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_3_Medium_Wrap_s1_hx5_d20/grasp_data/3_Medium_Wrap/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_58_grasp.npy": "kept",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_3_Medium_Wrap_s1_hx5_d20/grasp_data/3_Medium_Wrap/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_59_grasp.npy": "open_hand_inside_object",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_3_Medium_Wrap_s1_hx5_d20/grasp_data/3_Medium_Wrap/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_61_grasp.npy": "kept",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_3_Medium_Wrap_s1_hx5_d20/grasp_data/3_Medium_Wrap/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_63_grasp.npy": "kept",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_3_Medium_Wrap_s1_hx5_d20/grasp_data/3_Medium_Wrap/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_64_grasp.npy": "open_hand_inside_object"
+}

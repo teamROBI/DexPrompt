@@ -1,0 +1,9 @@
+{
+  "epoch": 0,
+  "optimizer_steps": 130,
+  "total_steps": 6255,
+  "train_loss": 0.5703662510040518,
+  "elapsed_seconds": 106.70304859615862,
+  "seconds_per_step": 0.8207926815089125,
+  "estimated_remaining_seconds": 5027.355174242089
+}

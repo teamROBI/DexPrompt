@@ -1,0 +1,38 @@
+{
+  "architecture": "hx5_dexgraspvla_style_rdt",
+  "training_ready": true,
+  "missing": [],
+  "dependencies": {
+    "torch": {
+      "imported": true,
+      "version": "2.6.0+cu124"
+    },
+    "numpy": {
+      "imported": true,
+      "version": "2.2.6"
+    },
+    "scipy": {
+      "imported": true,
+      "version": "1.15.3"
+    },
+    "torchvision": {
+      "imported": true,
+      "version": "0.21.0+cu124"
+    },
+    "omegaconf": {
+      "imported": true,
+      "version": "2.3.1"
+    }
+  },
+  "episode_counts": {
+    "train": 4,
+    "val": 0,
+    "test": 0
+  },
+  "observation_version": 2,
+  "unreferenced_prefix_frames": 0,
+  "cache_sha256": "3684ad8b60b3643793b990bac0b6d225fea195700b8f3f6750c3e7d906d5ac41",
+  "optimizer_steps": 0,
+  "pretrained_policy_loaded": false,
+  "scope": "HX5 architectural adaptation; language grounding is external"
+}

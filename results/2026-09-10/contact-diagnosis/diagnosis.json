@@ -1,0 +1,2778 @@
+{
+ "contact_threshold_m": 0.005,
+ "candidates": [
+  {
+   "candidate": {
+    "object": "bottle",
+    "object_id": "core_bottle_6444875e3217bf891f5f48a891d827bd",
+    "grasp_type": "33_Inferior_Pincer",
+    "refined_path": "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_17_grasp.npy",
+    "sha256": "001f489f7472f4e9d59757f4b53a18dc821c2cd27e36b1efc5d5f10b82d36a0e",
+    "seen_in": [
+     "out/offset-compare-93/executed-zero"
+    ],
+    "candidate_id": "001f489f7472f4e9d59757f4b53a18dc821c2cd27e36b1efc5d5f10b82d36a0e",
+    "init_path": "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/init_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_17_grasp.npy",
+    "control": "positive"
+   },
+   "template": "33_Inferior_Pincer",
+   "required_groups": [
+    [
+     "finger_r_link3",
+     "finger_r_link4"
+    ],
+    [
+     "finger_r_link7",
+     "finger_r_link8"
+    ]
+   ],
+   "required_digits": [
+    1,
+    2
+   ],
+   "hand_bodies_with_targets": [
+    "finger_r_link3",
+    "finger_r_link4",
+    "finger_r_link7",
+    "finger_r_link8"
+   ],
+   "mapping": {
+    "finger_r_link3": {
+     "resolves": true,
+     "body_id": 5,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 1
+    },
+    "finger_r_link4": {
+     "resolves": true,
+     "body_id": 6,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 1
+    },
+    "finger_r_link7": {
+     "resolves": true,
+     "body_id": 9,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 2
+    },
+    "finger_r_link8": {
+     "resolves": true,
+     "body_id": 10,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 2
+    }
+   },
+   "object_targets_on_surface": {
+    "object": "core_bottle_6444875e3217bf891f5f48a891d827bd",
+    "scale": [
+     0.11,
+     0.11,
+     0.11
+    ],
+    "scaled_once_mm": {
+     "median": 3.252218934495932e-07,
+     "max": 7.286803757919763e-07
+    },
+    "unscaled_mm": {
+     "median": 143.20007923322714,
+     "max": 153.9033425954439
+    },
+    "scaled_twice_mm": {
+     "median": 28.47168142560763,
+     "max": 37.59176281820671
+    }
+   },
+   "required_preserved_in_refined": true,
+   "states": {
+    "initialised": {
+     "contacts": {
+      "hand_object_bodies": [
+       "finger_r_link17",
+       "finger_r_link7",
+       "finger_r_link8",
+       "hx5_r_base"
+      ],
+      "hand_object_pairs": 17,
+      "hand_hand_pairs": 0,
+      "min_hand_object_distance_mm": -20.33308982849121,
+      "all_contact_pairs": 17,
+      "pairs_touching_the_world": []
+     },
+     "penetration": {
+      "into_object_max_mm": 20.33308845068855,
+      "into_world_max_mm": 0.0
+     },
+     "joints": {
+      "tightest": [
+       {
+        "joint": "hand-finger_r_joint5",
+        "margin_rad": 0.09997917737960815
+       },
+       {
+        "joint": "hand-finger_r_joint3",
+        "margin_rad": 0.12198708951473236
+       },
+       {
+        "joint": "hand-finger_r_joint15",
+        "margin_rad": 0.13447196781635284
+       },
+       {
+        "joint": "hand-finger_r_joint19",
+        "margin_rad": 0.14002305269241333
+       },
+       {
+        "joint": "hand-finger_r_joint7",
+        "margin_rad": 0.19418951869010925
+       }
+      ],
+      "at_limit_within_1e-3": 0,
+      "joints": 20
+     },
+     "contact_target_residuals": {
+      "finger_r_link3": {
+       "distance_to_link_surface_mm": 4.089660204316224e-06,
+       "digit": 1
+      },
+      "finger_r_link4": {
+       "distance_to_link_surface_mm": 0.41848852077679977,
+       "digit": 1
+      },
+      "finger_r_link7": {
+       "distance_to_link_surface_mm": 5.5197302911772795e-06,
+       "digit": 2
+      },
+      "finger_r_link8": {
+       "distance_to_link_surface_mm": 0.3383948987013608,
+       "digit": 2
+      }
+     },
+     "groups_satisfied": [
+      false,
+      true
+     ],
+     "groups_satisfied_count": 1
+    },
+    "refined": {
+     "contacts": {
+      "hand_object_bodies": [
+       "finger_r_link3",
+       "finger_r_link4",
+       "finger_r_link8",
+       "hx5_r_base"
+      ],
+      "hand_object_pairs": 14,
+      "hand_hand_pairs": 0,
+      "min_hand_object_distance_mm": 0.8515461087226868,
+      "all_contact_pairs": 14,
+      "pairs_touching_the_world": []
+     },
+     "penetration": {
+      "into_object_max_mm": 0.0,
+      "into_world_max_mm": 0.0
+     },
+     "joints": {
+      "tightest": [
+       {
+        "joint": "hand-finger_r_joint7",
+        "margin_rad": 0.10195501148700714
+       },
+       {
+        "joint": "hand-finger_r_joint3",
+        "margin_rad": 0.10440666973590851
+       },
+       {
+        "joint": "hand-finger_r_joint5",
+        "margin_rad": 0.11615760650634765
+       },
+       {
+        "joint": "hand-finger_r_joint15",
+        "margin_rad": 0.13480453193187714
+       },
+       {
+        "joint": "hand-finger_r_joint19",
+        "margin_rad": 0.14037983119487762
+       }
+      ],
+      "at_limit_within_1e-3": 0,
+      "joints": 20
+     },
+     "contact_target_residuals": {
+      "finger_r_link3": {
+       "distance_to_link_surface_mm": 0.24499216670105045,
+       "digit": 1
+      },
+      "finger_r_link4": {
+       "distance_to_link_surface_mm": 6.777589364056261,
+       "digit": 1
+      },
+      "finger_r_link7": {
+       "distance_to_link_surface_mm": 23.657767299569407,
+       "digit": 2
+      },
+      "finger_r_link8": {
+       "distance_to_link_surface_mm": 31.808338716621996,
+       "digit": 2
+      }
+     },
+     "groups_satisfied": [
+      true,
+      true
+     ],
+     "groups_satisfied_count": 2
+    }
+   }
+  },
+  {
+   "candidate": {
+    "object": "bottle",
+    "object_id": "core_bottle_6444875e3217bf891f5f48a891d827bd",
+    "grasp_type": "33_Inferior_Pincer",
+    "refined_path": "/home/yspark/projects/Dexonomy/output/big1_offset_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_2_grasp.npy",
+    "sha256": "05b63bfb299053e9edf05f61741c849b103d7863c3e462a90fd30f4c73d983a9",
+    "seen_in": [
+     "out/offset-compare-93/executed-offset",
+     "out/rl-approach/baseline-recheck",
+     "out/rl-approach/baseline-recheck2",
+     "out/student-visibility-v2-collection-check"
+    ],
+    "candidate_id": "05b63bfb299053e9edf05f61741c849b103d7863c3e462a90fd30f4c73d983a9",
+    "init_path": "/home/yspark/projects/Dexonomy/output/big1_offset_s0_hx5_d20/init_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_2_grasp.npy",
+    "control": "positive"
+   },
+   "template": "33_Inferior_Pincer",
+   "required_groups": [
+    [
+     "finger_r_link3",
+     "finger_r_link4"
+    ],
+    [
+     "finger_r_link7",
+     "finger_r_link8"
+    ]
+   ],
+   "required_digits": [
+    1,
+    2
+   ],
+   "hand_bodies_with_targets": [
+    "finger_r_link3",
+    "finger_r_link4",
+    "finger_r_link7",
+    "finger_r_link8"
+   ],
+   "mapping": {
+    "finger_r_link3": {
+     "resolves": true,
+     "body_id": 5,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 1
+    },
+    "finger_r_link4": {
+     "resolves": true,
+     "body_id": 6,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 1
+    },
+    "finger_r_link7": {
+     "resolves": true,
+     "body_id": 9,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 2
+    },
+    "finger_r_link8": {
+     "resolves": true,
+     "body_id": 10,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 2
+    }
+   },
+   "object_targets_on_surface": {
+    "object": "core_bottle_6444875e3217bf891f5f48a891d827bd",
+    "scale": [
+     0.11,
+     0.11,
+     0.11
+    ],
+    "scaled_once_mm": {
+     "median": 7.952672768278916e-07,
+     "max": 1.6092649476895829e-06
+    },
+    "unscaled_mm": {
+     "median": 139.88246596065252,
+     "max": 141.5169736512766
+    },
+    "scaled_twice_mm": {
+     "median": 27.325660603755388,
+     "max": 28.58232249834013
+    }
+   },
+   "required_preserved_in_refined": true,
+   "states": {
+    "initialised": {
+     "contacts": {
+      "hand_object_bodies": [],
+      "hand_object_pairs": 0,
+      "hand_hand_pairs": 0,
+      "min_hand_object_distance_mm": null,
+      "all_contact_pairs": 0,
+      "pairs_touching_the_world": []
+     },
+     "penetration": {
+      "into_object_max_mm": 0.0,
+      "into_world_max_mm": 0.0
+     },
+     "joints": {
+      "tightest": [
+       {
+        "joint": "hand-finger_r_joint3",
+        "margin_rad": 0.09997261315584183
+       },
+       {
+        "joint": "hand-finger_r_joint4",
+        "margin_rad": 0.09998491406440735
+       },
+       {
+        "joint": "hand-finger_r_joint15",
+        "margin_rad": 0.13406921923160553
+       },
+       {
+        "joint": "hand-finger_r_joint19",
+        "margin_rad": 0.13943161070346832
+       },
+       {
+        "joint": "hand-finger_r_joint7",
+        "margin_rad": 0.15959925949573517
+       }
+      ],
+      "at_limit_within_1e-3": 0,
+      "joints": 20
+     },
+     "contact_target_residuals": {
+      "finger_r_link3": {
+       "distance_to_link_surface_mm": 2.5603989919175975e-06,
+       "digit": 1
+      },
+      "finger_r_link4": {
+       "distance_to_link_surface_mm": 0.9662902345219788,
+       "digit": 1
+      },
+      "finger_r_link7": {
+       "distance_to_link_surface_mm": 0.011509250408134086,
+       "digit": 2
+      },
+      "finger_r_link8": {
+       "distance_to_link_surface_mm": 0.48910923132454737,
+       "digit": 2
+      }
+     },
+     "groups_satisfied": [
+      false,
+      false
+     ],
+     "groups_satisfied_count": 0
+    },
+    "refined": {
+     "contacts": {
+      "hand_object_bodies": [
+       "finger_r_link4",
+       "finger_r_link8"
+      ],
+      "hand_object_pairs": 8,
+      "hand_hand_pairs": 0,
+      "min_hand_object_distance_mm": 0.8464651703834534,
+      "all_contact_pairs": 8,
+      "pairs_touching_the_world": []
+     },
+     "penetration": {
+      "into_object_max_mm": 0.0,
+      "into_world_max_mm": 0.0
+     },
+     "joints": {
+      "tightest": [
+       {
+        "joint": "hand-finger_r_joint4",
+        "margin_rad": 0.11585782468318939
+       },
+       {
+        "joint": "hand-finger_r_joint15",
+        "margin_rad": 0.13409221172332764
+       },
+       {
+        "joint": "hand-finger_r_joint19",
+        "margin_rad": 0.1394287645816803
+       },
+       {
+        "joint": "hand-finger_r_joint5",
+        "margin_rad": 0.16769908394813537
+       },
+       {
+        "joint": "hand-finger_r_joint3",
+        "margin_rad": 0.18045006692409515
+       }
+      ],
+      "at_limit_within_1e-3": 0,
+      "joints": 20
+     },
+     "contact_target_residuals": {
+      "finger_r_link3": {
+       "distance_to_link_surface_mm": 4.416131541676383,
+       "digit": 1
+      },
+      "finger_r_link4": {
+       "distance_to_link_surface_mm": 0.8046868571289395,
+       "digit": 1
+      },
+      "finger_r_link7": {
+       "distance_to_link_surface_mm": 0.36265891344649087,
+       "digit": 2
+      },
+      "finger_r_link8": {
+       "distance_to_link_surface_mm": 0.7365382514714632,
+       "digit": 2
+      }
+     },
+     "groups_satisfied": [
+      true,
+      true
+     ],
+     "groups_satisfied_count": 2
+    }
+   }
+  },
+  {
+   "candidate": {
+    "object": "bottle",
+    "object_id": "core_bottle_6444875e3217bf891f5f48a891d827bd",
+    "grasp_type": "33_Inferior_Pincer",
+    "refined_path": "/home/yspark/projects/Dexonomy/output/offcmp5_zero_s3_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_4_grasp.npy",
+    "sha256": "099b9a058a5236df8e0d2ad0c59d6c0380ae9c4f76c5126c602688f647aa07b7",
+    "seen_in": [
+     "out/offset-compare/executed-zero-distinct"
+    ],
+    "candidate_id": "099b9a058a5236df8e0d2ad0c59d6c0380ae9c4f76c5126c602688f647aa07b7",
+    "init_path": "/home/yspark/projects/Dexonomy/output/offcmp5_zero_s3_hx5_d20/init_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_4_grasp.npy",
+    "control": "positive"
+   },
+   "template": "33_Inferior_Pincer",
+   "required_groups": [
+    [
+     "finger_r_link3",
+     "finger_r_link4"
+    ],
+    [
+     "finger_r_link7",
+     "finger_r_link8"
+    ]
+   ],
+   "required_digits": [
+    1,
+    2
+   ],
+   "hand_bodies_with_targets": [
+    "finger_r_link3",
+    "finger_r_link4",
+    "finger_r_link7",
+    "finger_r_link8"
+   ],
+   "mapping": {
+    "finger_r_link3": {
+     "resolves": true,
+     "body_id": 5,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 1
+    },
+    "finger_r_link4": {
+     "resolves": true,
+     "body_id": 6,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 1
+    },
+    "finger_r_link7": {
+     "resolves": true,
+     "body_id": 9,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 2
+    },
+    "finger_r_link8": {
+     "resolves": true,
+     "body_id": 10,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 2
+    }
+   },
+   "object_targets_on_surface": {
+    "object": "core_bottle_6444875e3217bf891f5f48a891d827bd",
+    "scale": [
+     0.11,
+     0.11,
+     0.11
+    ],
+    "scaled_once_mm": {
+     "median": 1.0374456784631916e-06,
+     "max": 1.669413697914407e-06
+    },
+    "unscaled_mm": {
+     "median": 138.96669582520542,
+     "max": 139.38856475530972
+    },
+    "scaled_twice_mm": {
+     "median": 28.831541778937936,
+     "max": 29.25213320393243
+    }
+   },
+   "required_preserved_in_refined": true,
+   "states": {
+    "initialised": {
+     "contacts": {
+      "hand_object_bodies": [
+       "finger_r_link2",
+       "finger_r_link3",
+       "finger_r_link6",
+       "finger_r_link7"
+      ],
+      "hand_object_pairs": 17,
+      "hand_hand_pairs": 6,
+      "min_hand_object_distance_mm": -1.8337398767471313,
+      "all_contact_pairs": 23,
+      "pairs_touching_the_world": []
+     },
+     "penetration": {
+      "into_object_max_mm": 6.54463191101462,
+      "into_world_max_mm": 0.0
+     },
+     "joints": {
+      "tightest": [
+       {
+        "joint": "hand-finger_r_joint19",
+        "margin_rad": 0.008799999952316284
+       },
+       {
+        "joint": "hand-finger_r_joint7",
+        "margin_rad": 0.011699999682605267
+       },
+       {
+        "joint": "hand-finger_r_joint15",
+        "margin_rad": 0.020999999716877937
+       },
+       {
+        "joint": "hand-finger_r_joint5",
+        "margin_rad": 0.08919997539520264
+       },
+       {
+        "joint": "hand-finger_r_joint3",
+        "margin_rad": 0.2199999988079071
+       }
+      ],
+      "at_limit_within_1e-3": 0,
+      "joints": 20
+     },
+     "contact_target_residuals": {
+      "finger_r_link3": {
+       "distance_to_link_surface_mm": 0.00020415289368121885,
+       "digit": 1
+      },
+      "finger_r_link4": {
+       "distance_to_link_surface_mm": 0.00039187987637134423,
+       "digit": 1
+      },
+      "finger_r_link7": {
+       "distance_to_link_surface_mm": 0.00020937633486705986,
+       "digit": 2
+      },
+      "finger_r_link8": {
+       "distance_to_link_surface_mm": 1.9015123898930415e-05,
+       "digit": 2
+      }
+     },
+     "groups_satisfied": [
+      true,
+      true
+     ],
+     "groups_satisfied_count": 2
+    },
+    "refined": {
+     "contacts": {
+      "hand_object_bodies": [
+       "finger_r_link3",
+       "finger_r_link4",
+       "finger_r_link7",
+       "finger_r_link8"
+      ],
+      "hand_object_pairs": 17,
+      "hand_hand_pairs": 1,
+      "min_hand_object_distance_mm": 0.8295141458511353,
+      "all_contact_pairs": 18,
+      "pairs_touching_the_world": []
+     },
+     "penetration": {
+      "into_object_max_mm": 0.0,
+      "into_world_max_mm": 0.0
+     },
+     "joints": {
+      "tightest": [
+       {
+        "joint": "hand-finger_r_joint5",
+        "margin_rad": 0.11106942620277405
+       },
+       {
+        "joint": "hand-finger_r_joint15",
+        "margin_rad": 0.1283341944217682
+       },
+       {
+        "joint": "hand-finger_r_joint19",
+        "margin_rad": 0.1332332044839859
+       },
+       {
+        "joint": "hand-finger_r_joint7",
+        "margin_rad": 0.13827286660671234
+       },
+       {
+        "joint": "hand-finger_r_joint3",
+        "margin_rad": 0.14403651654720306
+       }
+      ],
+      "at_limit_within_1e-3": 0,
+      "joints": 20
+     },
+     "contact_target_residuals": {
+      "finger_r_link3": {
+       "distance_to_link_surface_mm": 17.0956287410041,
+       "digit": 1
+      },
+      "finger_r_link4": {
+       "distance_to_link_surface_mm": 2.470563784805574,
+       "digit": 1
+      },
+      "finger_r_link7": {
+       "distance_to_link_surface_mm": 14.630977983922858,
+       "digit": 2
+      },
+      "finger_r_link8": {
+       "distance_to_link_surface_mm": 0.9843138717995059,
+       "digit": 2
+      }
+     },
+     "groups_satisfied": [
+      true,
+      true
+     ],
+     "groups_satisfied_count": 2
+    }
+   }
+  },
+  {
+   "candidate": {
+    "object": "can",
+    "object_id": "core_can_7bd05573c09fb0c2af39ccaab9314b14",
+    "grasp_type": "10_Power_Disk",
+    "refined_path": "/home/yspark/projects/Dexonomy/output/multi3_can_10_Power_Disk_s1_hx5_d20/grasp_data/10_Power_Disk/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_96_grasp.npy",
+    "sha256": "9d7009a7406f73040402123e28d35aa6250ad16e641f583081a2637d0265219e",
+    "seen_in": [
+     "out/multiobject/can/executed-all",
+     "out/multiobject/can/reproduce",
+     "out/tabletop/tab_can_base",
+     "out/teacher-expansion/can-yaw000",
+     "out/teacher-expansion/can-yawp15",
+     "out/teacher-expansion/can-yawp15-reproduce"
+    ],
+    "candidate_id": "9d7009a7406f73040402123e28d35aa6250ad16e641f583081a2637d0265219e",
+    "init_path": "/home/yspark/projects/Dexonomy/output/multi3_can_10_Power_Disk_s1_hx5_d20/init_data/10_Power_Disk/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_96_grasp.npy",
+    "control": "positive"
+   },
+   "template": "10_Power_Disk",
+   "required_groups": [
+    [
+     "finger_r_link3",
+     "finger_r_link4"
+    ],
+    [
+     "finger_r_link7",
+     "finger_r_link8"
+    ],
+    [
+     "finger_r_link11",
+     "finger_r_link12"
+    ],
+    [
+     "finger_r_link15",
+     "finger_r_link16"
+    ],
+    [
+     "finger_r_link19",
+     "finger_r_link20"
+    ]
+   ],
+   "required_digits": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "hand_bodies_with_targets": [
+    "finger_r_link11",
+    "finger_r_link12",
+    "finger_r_link15",
+    "finger_r_link16",
+    "finger_r_link19",
+    "finger_r_link20",
+    "finger_r_link3",
+    "finger_r_link4",
+    "finger_r_link7",
+    "finger_r_link8"
+   ],
+   "mapping": {
+    "finger_r_link11": {
+     "resolves": true,
+     "body_id": 13,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 3
+    },
+    "finger_r_link12": {
+     "resolves": true,
+     "body_id": 14,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 3
+    },
+    "finger_r_link15": {
+     "resolves": true,
+     "body_id": 17,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 4
+    },
+    "finger_r_link16": {
+     "resolves": true,
+     "body_id": 18,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 4
+    },
+    "finger_r_link19": {
+     "resolves": true,
+     "body_id": 21,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 5
+    },
+    "finger_r_link20": {
+     "resolves": true,
+     "body_id": 22,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 5
+    },
+    "finger_r_link3": {
+     "resolves": true,
+     "body_id": 5,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 1
+    },
+    "finger_r_link4": {
+     "resolves": true,
+     "body_id": 6,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 1
+    },
+    "finger_r_link7": {
+     "resolves": true,
+     "body_id": 9,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 2
+    },
+    "finger_r_link8": {
+     "resolves": true,
+     "body_id": 10,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 2
+    }
+   },
+   "object_targets_on_surface": {
+    "object": "core_can_7bd05573c09fb0c2af39ccaab9314b14",
+    "scale": [
+     0.08,
+     0.08,
+     0.08
+    ],
+    "scaled_once_mm": {
+     "median": 1.512924916676835e-06,
+     "max": 3.3261607244942758e-06
+    },
+    "unscaled_mm": {
+     "median": 443.1994188296811,
+     "max": 466.93630475824074
+    },
+    "scaled_twice_mm": {
+     "median": 51.73884806987897,
+     "max": 63.1712982712563
+    }
+   },
+   "required_preserved_in_refined": true,
+   "states": {
+    "initialised": {
+     "contacts": {
+      "hand_object_bodies": [
+       "finger_r_link12",
+       "finger_r_link16",
+       "finger_r_link19",
+       "finger_r_link20",
+       "finger_r_link4"
+      ],
+      "hand_object_pairs": 34,
+      "hand_hand_pairs": 0,
+      "min_hand_object_distance_mm": -24.52179718017578,
+      "all_contact_pairs": 34,
+      "pairs_touching_the_world": []
+     },
+     "penetration": {
+      "into_object_max_mm": 24.52179847963594,
+      "into_world_max_mm": 0.0
+     },
+     "joints": {
+      "tightest": [
+       {
+        "joint": "hand-finger_r_joint5",
+        "margin_rad": 0.10746593799591064
+       },
+       {
+        "joint": "hand-finger_r_joint15",
+        "margin_rad": 0.15006136894226074
+       },
+       {
+        "joint": "hand-finger_r_joint11",
+        "margin_rad": 0.16708803176879883
+       },
+       {
+        "joint": "hand-finger_r_joint9",
+        "margin_rad": 0.1847174021244049
+       },
+       {
+        "joint": "hand-finger_r_joint7",
+        "margin_rad": 0.23238402605056763
+       }
+      ],
+      "at_limit_within_1e-3": 0,
+      "joints": 20
+     },
+     "contact_target_residuals": {
+      "finger_r_link11": {
+       "distance_to_link_surface_mm": 0.00018300790791125326,
+       "digit": 3
+      },
+      "finger_r_link12": {
+       "distance_to_link_surface_mm": 0.00026793615112975333,
+       "digit": 3
+      },
+      "finger_r_link15": {
+       "distance_to_link_surface_mm": 0.000133856476055093,
+       "digit": 4
+      },
+      "finger_r_link16": {
+       "distance_to_link_surface_mm": 0.00028318188021553525,
+       "digit": 4
+      },
+      "finger_r_link19": {
+       "distance_to_link_surface_mm": 0.00019401080399255227,
+       "digit": 5
+      },
+      "finger_r_link20": {
+       "distance_to_link_surface_mm": 0.22550637475406304,
+       "digit": 5
+      },
+      "finger_r_link3": {
+       "distance_to_link_surface_mm": 0.00013918990733813888,
+       "digit": 1
+      },
+      "finger_r_link4": {
+       "distance_to_link_surface_mm": 9.122968772692069e-05,
+       "digit": 1
+      },
+      "finger_r_link7": {
+       "distance_to_link_surface_mm": 0.0001831862768552407,
+       "digit": 2
+      },
+      "finger_r_link8": {
+       "distance_to_link_surface_mm": 0.0001431471457712475,
+       "digit": 2
+      }
+     },
+     "groups_satisfied": [
+      true,
+      false,
+      true,
+      true,
+      true
+     ],
+     "groups_satisfied_count": 4
+    },
+    "refined": {
+     "contacts": {
+      "hand_object_bodies": [
+       "finger_r_link10",
+       "finger_r_link11",
+       "finger_r_link12",
+       "finger_r_link14",
+       "finger_r_link15",
+       "finger_r_link16",
+       "finger_r_link18",
+       "finger_r_link19",
+       "finger_r_link4",
+       "finger_r_link6",
+       "finger_r_link7",
+       "finger_r_link8"
+      ],
+      "hand_object_pairs": 28,
+      "hand_hand_pairs": 0,
+      "min_hand_object_distance_mm": 0.8002508878707886,
+      "all_contact_pairs": 28,
+      "pairs_touching_the_world": []
+     },
+     "penetration": {
+      "into_object_max_mm": 0.0,
+      "into_world_max_mm": 0.0
+     },
+     "joints": {
+      "tightest": [
+       {
+        "joint": "hand-finger_r_joint5",
+        "margin_rad": 0.10602988328933716
+       },
+       {
+        "joint": "hand-finger_r_joint19",
+        "margin_rad": 0.11051160097122192
+       },
+       {
+        "joint": "hand-finger_r_joint11",
+        "margin_rad": 0.13795572519302368
+       },
+       {
+        "joint": "hand-finger_r_joint15",
+        "margin_rad": 0.14062215387821198
+       },
+       {
+        "joint": "hand-finger_r_joint3",
+        "margin_rad": 0.14230526983737946
+       }
+      ],
+      "at_limit_within_1e-3": 0,
+      "joints": 20
+     },
+     "contact_target_residuals": {
+      "finger_r_link11": {
+       "distance_to_link_surface_mm": 1.0660832643532432,
+       "digit": 3
+      },
+      "finger_r_link12": {
+       "distance_to_link_surface_mm": 18.971535366713876,
+       "digit": 3
+      },
+      "finger_r_link15": {
+       "distance_to_link_surface_mm": 1.9983708048169675,
+       "digit": 4
+      },
+      "finger_r_link16": {
+       "distance_to_link_surface_mm": 8.898104001855454,
+       "digit": 4
+      },
+      "finger_r_link19": {
+       "distance_to_link_surface_mm": 17.522806952104464,
+       "digit": 5
+      },
+      "finger_r_link20": {
+       "distance_to_link_surface_mm": 28.890386625825023,
+       "digit": 5
+      },
+      "finger_r_link3": {
+       "distance_to_link_surface_mm": 19.280597182741186,
+       "digit": 1
+      },
+      "finger_r_link4": {
+       "distance_to_link_surface_mm": 35.771352755259144,
+       "digit": 1
+      },
+      "finger_r_link7": {
+       "distance_to_link_surface_mm": 3.2734593277230504,
+       "digit": 2
+      },
+      "finger_r_link8": {
+       "distance_to_link_surface_mm": 8.561064692737514,
+       "digit": 2
+      }
+     },
+     "groups_satisfied": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "groups_satisfied_count": 5
+    }
+   }
+  },
+  {
+   "candidate": {
+    "object": "can",
+    "object_id": "core_can_7bd05573c09fb0c2af39ccaab9314b14",
+    "grasp_type": "10_Power_Disk",
+    "refined_path": "/home/yspark/projects/Dexonomy/output/tab_can_table_hx5_d20/grasp_data/10_Power_Disk/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_96_grasp.npy",
+    "sha256": "d0402dcb263355358713dcc7dc60ebf078d29cf68c3d14896caa2579adb9b908",
+    "seen_in": [
+     "out/tabletop/tab_can_table",
+     "out/tabletop/tab_can_table_reproduce"
+    ],
+    "candidate_id": "d0402dcb263355358713dcc7dc60ebf078d29cf68c3d14896caa2579adb9b908",
+    "init_path": "/home/yspark/projects/Dexonomy/output/tab_can_table_hx5_d20/init_data/10_Power_Disk/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_96_grasp.npy",
+    "control": "positive"
+   },
+   "template": "10_Power_Disk",
+   "required_groups": [
+    [
+     "finger_r_link3",
+     "finger_r_link4"
+    ],
+    [
+     "finger_r_link7",
+     "finger_r_link8"
+    ],
+    [
+     "finger_r_link11",
+     "finger_r_link12"
+    ],
+    [
+     "finger_r_link15",
+     "finger_r_link16"
+    ],
+    [
+     "finger_r_link19",
+     "finger_r_link20"
+    ]
+   ],
+   "required_digits": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "hand_bodies_with_targets": [
+    "finger_r_link11",
+    "finger_r_link12",
+    "finger_r_link15",
+    "finger_r_link16",
+    "finger_r_link19",
+    "finger_r_link20",
+    "finger_r_link3",
+    "finger_r_link4",
+    "finger_r_link7",
+    "finger_r_link8"
+   ],
+   "mapping": {
+    "finger_r_link11": {
+     "resolves": true,
+     "body_id": 13,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 3
+    },
+    "finger_r_link12": {
+     "resolves": true,
+     "body_id": 14,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 3
+    },
+    "finger_r_link15": {
+     "resolves": true,
+     "body_id": 17,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 4
+    },
+    "finger_r_link16": {
+     "resolves": true,
+     "body_id": 18,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 4
+    },
+    "finger_r_link19": {
+     "resolves": true,
+     "body_id": 21,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 5
+    },
+    "finger_r_link20": {
+     "resolves": true,
+     "body_id": 22,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 5
+    },
+    "finger_r_link3": {
+     "resolves": true,
+     "body_id": 5,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 1
+    },
+    "finger_r_link4": {
+     "resolves": true,
+     "body_id": 6,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 1
+    },
+    "finger_r_link7": {
+     "resolves": true,
+     "body_id": 9,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 2
+    },
+    "finger_r_link8": {
+     "resolves": true,
+     "body_id": 10,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 2
+    }
+   },
+   "object_targets_on_surface": {
+    "object": "core_can_7bd05573c09fb0c2af39ccaab9314b14",
+    "scale": [
+     0.08,
+     0.08,
+     0.08
+    ],
+    "scaled_once_mm": {
+     "median": 1.512924916676835e-06,
+     "max": 3.3261607244942758e-06
+    },
+    "unscaled_mm": {
+     "median": 443.1994188296811,
+     "max": 466.93630475824074
+    },
+    "scaled_twice_mm": {
+     "median": 51.73884806987897,
+     "max": 63.1712982712563
+    }
+   },
+   "required_preserved_in_refined": true,
+   "states": {
+    "initialised": {
+     "contacts": {
+      "hand_object_bodies": [
+       "finger_r_link12",
+       "finger_r_link16",
+       "finger_r_link19",
+       "finger_r_link20",
+       "finger_r_link4"
+      ],
+      "hand_object_pairs": 34,
+      "hand_hand_pairs": 0,
+      "min_hand_object_distance_mm": -24.52179718017578,
+      "all_contact_pairs": 34,
+      "pairs_touching_the_world": []
+     },
+     "penetration": {
+      "into_object_max_mm": 24.52179847963594,
+      "into_world_max_mm": 0.0
+     },
+     "joints": {
+      "tightest": [
+       {
+        "joint": "hand-finger_r_joint5",
+        "margin_rad": 0.10746593799591064
+       },
+       {
+        "joint": "hand-finger_r_joint15",
+        "margin_rad": 0.15006136894226074
+       },
+       {
+        "joint": "hand-finger_r_joint11",
+        "margin_rad": 0.16708803176879883
+       },
+       {
+        "joint": "hand-finger_r_joint9",
+        "margin_rad": 0.1847174021244049
+       },
+       {
+        "joint": "hand-finger_r_joint7",
+        "margin_rad": 0.23238402605056763
+       }
+      ],
+      "at_limit_within_1e-3": 0,
+      "joints": 20
+     },
+     "contact_target_residuals": {
+      "finger_r_link11": {
+       "distance_to_link_surface_mm": 0.00018300790791125326,
+       "digit": 3
+      },
+      "finger_r_link12": {
+       "distance_to_link_surface_mm": 0.00026793615112975333,
+       "digit": 3
+      },
+      "finger_r_link15": {
+       "distance_to_link_surface_mm": 0.000133856476055093,
+       "digit": 4
+      },
+      "finger_r_link16": {
+       "distance_to_link_surface_mm": 0.00028318188021553525,
+       "digit": 4
+      },
+      "finger_r_link19": {
+       "distance_to_link_surface_mm": 0.00019401080399255227,
+       "digit": 5
+      },
+      "finger_r_link20": {
+       "distance_to_link_surface_mm": 0.22550637475406304,
+       "digit": 5
+      },
+      "finger_r_link3": {
+       "distance_to_link_surface_mm": 0.00013918990733813888,
+       "digit": 1
+      },
+      "finger_r_link4": {
+       "distance_to_link_surface_mm": 9.122968772692069e-05,
+       "digit": 1
+      },
+      "finger_r_link7": {
+       "distance_to_link_surface_mm": 0.0001831862768552407,
+       "digit": 2
+      },
+      "finger_r_link8": {
+       "distance_to_link_surface_mm": 0.0001431471457712475,
+       "digit": 2
+      }
+     },
+     "groups_satisfied": [
+      true,
+      false,
+      true,
+      true,
+      true
+     ],
+     "groups_satisfied_count": 4
+    },
+    "refined": {
+     "contacts": {
+      "hand_object_bodies": [
+       "finger_r_link12",
+       "finger_r_link16",
+       "finger_r_link19",
+       "finger_r_link20",
+       "finger_r_link4",
+       "finger_r_link7",
+       "finger_r_link8"
+      ],
+      "hand_object_pairs": 14,
+      "hand_hand_pairs": 0,
+      "min_hand_object_distance_mm": 0.639849066734314,
+      "all_contact_pairs": 18,
+      "pairs_touching_the_world": [
+       "world|hand-finger_r_link20",
+       "world|hand-finger_r_link4"
+      ]
+     },
+     "penetration": {
+      "into_object_max_mm": 0.0,
+      "into_world_max_mm": 0.0
+     },
+     "joints": {
+      "tightest": [
+       {
+        "joint": "hand-finger_r_joint11",
+        "margin_rad": 0.09999419003725052
+       },
+       {
+        "joint": "hand-finger_r_joint15",
+        "margin_rad": 0.1057487353682518
+       },
+       {
+        "joint": "hand-finger_r_joint19",
+        "margin_rad": 0.11035890132188797
+       },
+       {
+        "joint": "hand-finger_r_joint5",
+        "margin_rad": 0.11822356309890747
+       },
+       {
+        "joint": "hand-finger_r_joint3",
+        "margin_rad": 0.14497266709804535
+       }
+      ],
+      "at_limit_within_1e-3": 0,
+      "joints": 20
+     },
+     "contact_target_residuals": {
+      "finger_r_link11": {
+       "distance_to_link_surface_mm": 1.070217208595045,
+       "digit": 3
+      },
+      "finger_r_link12": {
+       "distance_to_link_surface_mm": 17.87505920086972,
+       "digit": 3
+      },
+      "finger_r_link15": {
+       "distance_to_link_surface_mm": 1.2824016412046928,
+       "digit": 4
+      },
+      "finger_r_link16": {
+       "distance_to_link_surface_mm": 5.524532682912907,
+       "digit": 4
+      },
+      "finger_r_link19": {
+       "distance_to_link_surface_mm": 17.763716855257865,
+       "digit": 5
+      },
+      "finger_r_link20": {
+       "distance_to_link_surface_mm": 23.536664007367587,
+       "digit": 5
+      },
+      "finger_r_link3": {
+       "distance_to_link_surface_mm": 24.108556584815602,
+       "digit": 1
+      },
+      "finger_r_link4": {
+       "distance_to_link_surface_mm": 30.732323646254734,
+       "digit": 1
+      },
+      "finger_r_link7": {
+       "distance_to_link_surface_mm": 3.4801555254653813,
+       "digit": 2
+      },
+      "finger_r_link8": {
+       "distance_to_link_surface_mm": 0.686069351130805,
+       "digit": 2
+      }
+     },
+     "groups_satisfied": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "groups_satisfied_count": 5
+    }
+   }
+  },
+  {
+   "candidate": {
+    "object": "bowl",
+    "experiment": "exp5_bowl_10_Power_Disk_s0_hx5_d20",
+    "grasp_type": "10_Power_Disk",
+    "init_path": "third_party/dexonomy/output/exp5_bowl_10_Power_Disk_s0_hx5_d20/init_data/10_Power_Disk/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71/tabletop/scale005/0_35_grasp.npy",
+    "refined_path": null,
+    "sha256": "498809d217d3639de5648756f47b8a48e20f48cc11f9aaa998917b60ebae374a",
+    "first_failing_group": "['finger_r_link3', 'finger_r_link4']",
+    "contacts_seen": "{'finger_r_link12'}",
+    "control": "negative"
+   },
+   "template": "10_Power_Disk",
+   "required_groups": [
+    [
+     "finger_r_link3",
+     "finger_r_link4"
+    ],
+    [
+     "finger_r_link7",
+     "finger_r_link8"
+    ],
+    [
+     "finger_r_link11",
+     "finger_r_link12"
+    ],
+    [
+     "finger_r_link15",
+     "finger_r_link16"
+    ],
+    [
+     "finger_r_link19",
+     "finger_r_link20"
+    ]
+   ],
+   "required_digits": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "hand_bodies_with_targets": [
+    "finger_r_link11",
+    "finger_r_link12",
+    "finger_r_link15",
+    "finger_r_link16",
+    "finger_r_link19",
+    "finger_r_link20",
+    "finger_r_link3",
+    "finger_r_link4",
+    "finger_r_link7",
+    "finger_r_link8"
+   ],
+   "mapping": {
+    "finger_r_link11": {
+     "resolves": true,
+     "body_id": 13,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 3
+    },
+    "finger_r_link12": {
+     "resolves": true,
+     "body_id": 14,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 3
+    },
+    "finger_r_link15": {
+     "resolves": true,
+     "body_id": 17,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 4
+    },
+    "finger_r_link16": {
+     "resolves": true,
+     "body_id": 18,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 4
+    },
+    "finger_r_link19": {
+     "resolves": true,
+     "body_id": 21,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 5
+    },
+    "finger_r_link20": {
+     "resolves": true,
+     "body_id": 22,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 5
+    },
+    "finger_r_link3": {
+     "resolves": true,
+     "body_id": 5,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 1
+    },
+    "finger_r_link4": {
+     "resolves": true,
+     "body_id": 6,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 1
+    },
+    "finger_r_link7": {
+     "resolves": true,
+     "body_id": 9,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 2
+    },
+    "finger_r_link8": {
+     "resolves": true,
+     "body_id": 10,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 2
+    }
+   },
+   "object_targets_on_surface": {
+    "object": "core_bowl_2e545ccae1cdc69d879b85bd5ada6e71",
+    "scale": [
+     0.05,
+     0.05,
+     0.05
+    ],
+    "scaled_once_mm": {
+     "median": 6.343581621314303e-07,
+     "max": 2.3162651086508646e-06
+    },
+    "unscaled_mm": {
+     "median": 78.87036234256162,
+     "max": 96.76152404957742
+    },
+    "scaled_twice_mm": {
+     "median": 31.84327257528033,
+     "max": 32.782217923108576
+    }
+   },
+   "states": {
+    "initialised": {
+     "contacts": {
+      "hand_object_bodies": [
+       "finger_r_link4",
+       "finger_r_link8"
+      ],
+      "hand_object_pairs": 25,
+      "hand_hand_pairs": 0,
+      "min_hand_object_distance_mm": -11.359994888305664,
+      "all_contact_pairs": 33,
+      "pairs_touching_the_world": [
+       "world|hand-finger_r_link12",
+       "world|hand-finger_r_link16",
+       "world|hand-finger_r_link20",
+       "world|hand-finger_r_link4",
+       "world|hand-finger_r_link8"
+      ]
+     },
+     "penetration": {
+      "into_object_max_mm": 11.359995206453606,
+      "into_world_max_mm": 0.7823749989126992
+     },
+     "joints": {
+      "tightest": [
+       {
+        "joint": "hand-finger_r_joint7",
+        "margin_rad": 0.1043558195233345
+       },
+       {
+        "joint": "hand-finger_r_joint15",
+        "margin_rad": 0.14272964000701904
+       },
+       {
+        "joint": "hand-finger_r_joint11",
+        "margin_rad": 0.18127211928367615
+       },
+       {
+        "joint": "hand-finger_r_joint5",
+        "margin_rad": 0.2526955458164215
+       },
+       {
+        "joint": "hand-finger_r_joint3",
+        "margin_rad": 0.26988279819488525
+       }
+      ],
+      "at_limit_within_1e-3": 0,
+      "joints": 20
+     },
+     "contact_target_residuals": {
+      "finger_r_link11": {
+       "distance_to_link_surface_mm": 0.46776850217925514,
+       "digit": 3
+      },
+      "finger_r_link12": {
+       "distance_to_link_surface_mm": 0.4521488658573673,
+       "digit": 3
+      },
+      "finger_r_link15": {
+       "distance_to_link_surface_mm": 0.37447644171403993,
+       "digit": 4
+      },
+      "finger_r_link16": {
+       "distance_to_link_surface_mm": 0.04328221525791436,
+       "digit": 4
+      },
+      "finger_r_link19": {
+       "distance_to_link_surface_mm": 0.10917151308400105,
+       "digit": 5
+      },
+      "finger_r_link20": {
+       "distance_to_link_surface_mm": 2.319553980073005e-05,
+       "digit": 5
+      },
+      "finger_r_link3": {
+       "distance_to_link_surface_mm": 0.2058319308010131,
+       "digit": 1
+      },
+      "finger_r_link4": {
+       "distance_to_link_surface_mm": 0.27770444559953544,
+       "digit": 1
+      },
+      "finger_r_link7": {
+       "distance_to_link_surface_mm": 0.6511514533844023,
+       "digit": 2
+      },
+      "finger_r_link8": {
+       "distance_to_link_surface_mm": 0.0689153672144247,
+       "digit": 2
+      }
+     },
+     "groups_satisfied": [
+      true,
+      true,
+      false,
+      false,
+      false
+     ],
+     "groups_satisfied_count": 2
+    }
+   }
+  },
+  {
+   "candidate": {
+    "object": "bowl",
+    "experiment": "exp5_bowl_26_Sphere_4_Finger_s1_hx5_d20",
+    "grasp_type": "26_Sphere_4_Finger",
+    "init_path": "third_party/dexonomy/output/exp5_bowl_26_Sphere_4_Finger_s1_hx5_d20/init_data/26_Sphere_4_Finger/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71/tabletop/scale005/0_17_grasp.npy",
+    "refined_path": null,
+    "sha256": "806273bc9ff039c5e1c33942e3ef73ff65f7546a8d845e587b1fe2bd0e8ec665",
+    "first_failing_group": "['finger_r_link7', 'finger_r_link8']",
+    "contacts_seen": "{'finger_r_link12', 'finger_r_link16', 'finger_r_link4'}",
+    "control": "negative"
+   },
+   "template": "26_Sphere_4_Finger",
+   "required_groups": [
+    [
+     "finger_r_link3",
+     "finger_r_link4"
+    ],
+    [
+     "finger_r_link7",
+     "finger_r_link8"
+    ],
+    [
+     "finger_r_link11",
+     "finger_r_link12"
+    ],
+    [
+     "finger_r_link15",
+     "finger_r_link16"
+    ],
+    [
+     "finger_r_link19",
+     "finger_r_link20"
+    ]
+   ],
+   "required_digits": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "hand_bodies_with_targets": [
+    "finger_r_link11",
+    "finger_r_link12",
+    "finger_r_link15",
+    "finger_r_link16",
+    "finger_r_link19",
+    "finger_r_link20",
+    "finger_r_link3",
+    "finger_r_link4",
+    "finger_r_link7",
+    "finger_r_link8"
+   ],
+   "mapping": {
+    "finger_r_link11": {
+     "resolves": true,
+     "body_id": 13,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 3
+    },
+    "finger_r_link12": {
+     "resolves": true,
+     "body_id": 14,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 3
+    },
+    "finger_r_link15": {
+     "resolves": true,
+     "body_id": 17,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 4
+    },
+    "finger_r_link16": {
+     "resolves": true,
+     "body_id": 18,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 4
+    },
+    "finger_r_link19": {
+     "resolves": true,
+     "body_id": 21,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 5
+    },
+    "finger_r_link20": {
+     "resolves": true,
+     "body_id": 22,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 5
+    },
+    "finger_r_link3": {
+     "resolves": true,
+     "body_id": 5,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 1
+    },
+    "finger_r_link4": {
+     "resolves": true,
+     "body_id": 6,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 1
+    },
+    "finger_r_link7": {
+     "resolves": true,
+     "body_id": 9,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 2
+    },
+    "finger_r_link8": {
+     "resolves": true,
+     "body_id": 10,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 2
+    }
+   },
+   "object_targets_on_surface": {
+    "object": "core_bowl_2e545ccae1cdc69d879b85bd5ada6e71",
+    "scale": [
+     0.05,
+     0.05,
+     0.05
+    ],
+    "scaled_once_mm": {
+     "median": 5.355508768834923e-07,
+     "max": 9.087653160774006e-07
+    },
+    "unscaled_mm": {
+     "median": 79.4832153928294,
+     "max": 100.21928762167168
+    },
+    "scaled_twice_mm": {
+     "median": 29.86092559901827,
+     "max": 33.05473444172391
+    }
+   },
+   "states": {
+    "initialised": {
+     "contacts": {
+      "hand_object_bodies": [
+       "finger_r_link3",
+       "finger_r_link4"
+      ],
+      "hand_object_pairs": 38,
+      "hand_hand_pairs": 1,
+      "min_hand_object_distance_mm": -12.998699188232422,
+      "all_contact_pairs": 53,
+      "pairs_touching_the_world": [
+       "world|hand-finger_r_link16",
+       "world|hand-finger_r_link19",
+       "world|hand-finger_r_link20",
+       "world|hand-finger_r_link3",
+       "world|hand-finger_r_link4"
+      ]
+     },
+     "penetration": {
+      "into_object_max_mm": 12.998699401708336,
+      "into_world_max_mm": 1.432022202755014
+     },
+     "joints": {
+      "tightest": [
+       {
+        "joint": "hand-finger_r_joint18",
+        "margin_rad": 0.0999673744201659
+       },
+       {
+        "joint": "hand-finger_r_joint15",
+        "margin_rad": 0.13810640573501587
+       },
+       {
+        "joint": "hand-finger_r_joint7",
+        "margin_rad": 0.20384784042835236
+       },
+       {
+        "joint": "hand-finger_r_joint19",
+        "margin_rad": 0.2064294070005417
+       },
+       {
+        "joint": "hand-finger_r_joint11",
+        "margin_rad": 0.21160835027694702
+       }
+      ],
+      "at_limit_within_1e-3": 0,
+      "joints": 20
+     },
+     "contact_target_residuals": {
+      "finger_r_link11": {
+       "distance_to_link_surface_mm": 0.7466108240891102,
+       "digit": 3
+      },
+      "finger_r_link12": {
+       "distance_to_link_surface_mm": 1.250882515704902,
+       "digit": 3
+      },
+      "finger_r_link15": {
+       "distance_to_link_surface_mm": 1.529191812634649e-05,
+       "digit": 4
+      },
+      "finger_r_link16": {
+       "distance_to_link_surface_mm": 0.07748922670283187,
+       "digit": 4
+      },
+      "finger_r_link19": {
+       "distance_to_link_surface_mm": 0.25395782090566843,
+       "digit": 5
+      },
+      "finger_r_link20": {
+       "distance_to_link_surface_mm": 1.8264735034375044e-05,
+       "digit": 5
+      },
+      "finger_r_link3": {
+       "distance_to_link_surface_mm": 1.651409106171008e-05,
+       "digit": 1
+      },
+      "finger_r_link4": {
+       "distance_to_link_surface_mm": 0.45110999387632544,
+       "digit": 1
+      },
+      "finger_r_link7": {
+       "distance_to_link_surface_mm": 0.05872834804216508,
+       "digit": 2
+      },
+      "finger_r_link8": {
+       "distance_to_link_surface_mm": 0.1509997480095653,
+       "digit": 2
+      }
+     },
+     "groups_satisfied": [
+      true,
+      false,
+      false,
+      false,
+      false
+     ],
+     "groups_satisfied_count": 1
+    }
+   }
+  },
+  {
+   "candidate": {
+    "object": "bowl",
+    "experiment": "exp5_bowl_10_Power_Disk_s1_hx5_d20",
+    "grasp_type": "10_Power_Disk",
+    "init_path": "third_party/dexonomy/output/exp5_bowl_10_Power_Disk_s1_hx5_d20/init_data/10_Power_Disk/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71/tabletop/scale005/0_24_grasp.npy",
+    "refined_path": null,
+    "sha256": "9c474332264e88caeace237b19121cbd97f7c97894ccdb220f06d4ee626c8643",
+    "first_failing_group": "['finger_r_link7', 'finger_r_link8']",
+    "contacts_seen": "{'finger_r_link4', 'finger_r_link16', 'finger_r_link12'}",
+    "control": "negative"
+   },
+   "template": "10_Power_Disk",
+   "required_groups": [
+    [
+     "finger_r_link3",
+     "finger_r_link4"
+    ],
+    [
+     "finger_r_link7",
+     "finger_r_link8"
+    ],
+    [
+     "finger_r_link11",
+     "finger_r_link12"
+    ],
+    [
+     "finger_r_link15",
+     "finger_r_link16"
+    ],
+    [
+     "finger_r_link19",
+     "finger_r_link20"
+    ]
+   ],
+   "required_digits": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "hand_bodies_with_targets": [
+    "finger_r_link11",
+    "finger_r_link12",
+    "finger_r_link15",
+    "finger_r_link16",
+    "finger_r_link19",
+    "finger_r_link20",
+    "finger_r_link3",
+    "finger_r_link4",
+    "finger_r_link7",
+    "finger_r_link8"
+   ],
+   "mapping": {
+    "finger_r_link11": {
+     "resolves": true,
+     "body_id": 13,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 3
+    },
+    "finger_r_link12": {
+     "resolves": true,
+     "body_id": 14,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 3
+    },
+    "finger_r_link15": {
+     "resolves": true,
+     "body_id": 17,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 4
+    },
+    "finger_r_link16": {
+     "resolves": true,
+     "body_id": 18,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 4
+    },
+    "finger_r_link19": {
+     "resolves": true,
+     "body_id": 21,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 5
+    },
+    "finger_r_link20": {
+     "resolves": true,
+     "body_id": 22,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 5
+    },
+    "finger_r_link3": {
+     "resolves": true,
+     "body_id": 5,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 1
+    },
+    "finger_r_link4": {
+     "resolves": true,
+     "body_id": 6,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 1
+    },
+    "finger_r_link7": {
+     "resolves": true,
+     "body_id": 9,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 2
+    },
+    "finger_r_link8": {
+     "resolves": true,
+     "body_id": 10,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 2
+    }
+   },
+   "object_targets_on_surface": {
+    "object": "core_bowl_2e545ccae1cdc69d879b85bd5ada6e71",
+    "scale": [
+     0.05,
+     0.05,
+     0.05
+    ],
+    "scaled_once_mm": {
+     "median": 8.347648702804487e-07,
+     "max": 0.02712285264994995
+    },
+    "unscaled_mm": {
+     "median": 76.66077663552056,
+     "max": 85.95968449155122
+    },
+    "scaled_twice_mm": {
+     "median": 29.400892440036728,
+     "max": 33.052964943123214
+    }
+   },
+   "states": {
+    "initialised": {
+     "contacts": {
+      "hand_object_bodies": [
+       "finger_r_link12",
+       "finger_r_link4",
+       "finger_r_link8"
+      ],
+      "hand_object_pairs": 71,
+      "hand_hand_pairs": 1,
+      "min_hand_object_distance_mm": -15.08419132232666,
+      "all_contact_pairs": 82,
+      "pairs_touching_the_world": [
+       "world|hand-finger_r_link12",
+       "world|hand-finger_r_link16",
+       "world|hand-finger_r_link20",
+       "world|hand-finger_r_link3",
+       "world|hand-finger_r_link4",
+       "world|hand-finger_r_link8"
+      ]
+     },
+     "penetration": {
+      "into_object_max_mm": 15.084191347855807,
+      "into_world_max_mm": 0.6202785157677475
+     },
+     "joints": {
+      "tightest": [
+       {
+        "joint": "hand-finger_r_joint5",
+        "margin_rad": 0.1482421013355255
+       },
+       {
+        "joint": "hand-finger_r_joint11",
+        "margin_rad": 0.15775342285633087
+       },
+       {
+        "joint": "hand-finger_r_joint15",
+        "margin_rad": 0.2281888723373413
+       },
+       {
+        "joint": "hand-finger_r_joint7",
+        "margin_rad": 0.27379122376441956
+       },
+       {
+        "joint": "hand-finger_r_joint9",
+        "margin_rad": 0.2814772578716278
+       }
+      ],
+      "at_limit_within_1e-3": 0,
+      "joints": 20
+     },
+     "contact_target_residuals": {
+      "finger_r_link11": {
+       "distance_to_link_surface_mm": 6.537726936164567e-05,
+       "digit": 3
+      },
+      "finger_r_link12": {
+       "distance_to_link_surface_mm": 0.5710067695017664,
+       "digit": 3
+      },
+      "finger_r_link15": {
+       "distance_to_link_surface_mm": 4.5811671202394316e-05,
+       "digit": 4
+      },
+      "finger_r_link16": {
+       "distance_to_link_surface_mm": 0.4024179041012861,
+       "digit": 4
+      },
+      "finger_r_link19": {
+       "distance_to_link_surface_mm": 7.445941125956639e-05,
+       "digit": 5
+      },
+      "finger_r_link20": {
+       "distance_to_link_surface_mm": 0.28978585465679363,
+       "digit": 5
+      },
+      "finger_r_link3": {
+       "distance_to_link_surface_mm": 2.111623208695785e-05,
+       "digit": 1
+      },
+      "finger_r_link4": {
+       "distance_to_link_surface_mm": 0.38109609370402914,
+       "digit": 1
+      },
+      "finger_r_link7": {
+       "distance_to_link_surface_mm": 5.472316907170043e-05,
+       "digit": 2
+      },
+      "finger_r_link8": {
+       "distance_to_link_surface_mm": 0.4850874064485041,
+       "digit": 2
+      }
+     },
+     "groups_satisfied": [
+      true,
+      true,
+      true,
+      false,
+      false
+     ],
+     "groups_satisfied_count": 3
+    }
+   }
+  },
+  {
+   "candidate": {
+    "object": "hammer",
+    "experiment": "exp5_hammer_2_Small_Diameter_s0_hx5_d20",
+    "grasp_type": "2_Small_Diameter",
+    "init_path": "third_party/dexonomy/output/exp5_hammer_2_Small_Diameter_s0_hx5_d20/init_data/2_Small_Diameter/ddg_gd_hammer_poisson_005/tabletop/scale008/0_15_grasp.npy",
+    "refined_path": null,
+    "sha256": "0320c3b1fa51669777381efe6b45ad3a2669b77364b36caf88dbf47aad11db49",
+    "first_failing_group": "['finger_r_link7', 'finger_r_link8']",
+    "contacts_seen": "{'finger_r_link4', 'finger_r_link11', 'finger_r_link12', 'finger_r_link15'}",
+    "control": "negative"
+   },
+   "template": "2_Small_Diameter",
+   "required_groups": [
+    [
+     "finger_r_link7",
+     "finger_r_link8"
+    ],
+    [
+     "finger_r_link11",
+     "finger_r_link12"
+    ],
+    [
+     "finger_r_link15",
+     "finger_r_link16"
+    ],
+    [
+     "finger_r_link19",
+     "finger_r_link20"
+    ]
+   ],
+   "required_digits": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "hand_bodies_with_targets": [
+    "finger_r_link11",
+    "finger_r_link12",
+    "finger_r_link15",
+    "finger_r_link16",
+    "finger_r_link19",
+    "finger_r_link20",
+    "finger_r_link7",
+    "finger_r_link8"
+   ],
+   "mapping": {
+    "finger_r_link11": {
+     "resolves": true,
+     "body_id": 13,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 3
+    },
+    "finger_r_link12": {
+     "resolves": true,
+     "body_id": 14,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 3
+    },
+    "finger_r_link15": {
+     "resolves": true,
+     "body_id": 17,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 4
+    },
+    "finger_r_link16": {
+     "resolves": true,
+     "body_id": 18,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 4
+    },
+    "finger_r_link19": {
+     "resolves": true,
+     "body_id": 21,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 5
+    },
+    "finger_r_link20": {
+     "resolves": true,
+     "body_id": 22,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 5
+    },
+    "finger_r_link7": {
+     "resolves": true,
+     "body_id": 9,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 2
+    },
+    "finger_r_link8": {
+     "resolves": true,
+     "body_id": 10,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 2
+    }
+   },
+   "object_targets_on_surface": {
+    "object": "ddg_gd_hammer_poisson_005",
+    "scale": [
+     0.08,
+     0.08,
+     0.08
+    ],
+    "scaled_once_mm": {
+     "median": 4.655461654813614e-07,
+     "max": 1.543459812875483e-06
+    },
+    "unscaled_mm": {
+     "median": 52.03926451274402,
+     "max": 60.35686874808944
+    },
+    "scaled_twice_mm": {
+     "median": 26.872281003997195,
+     "max": 39.085703044457034
+    }
+   },
+   "states": {
+    "initialised": {
+     "contacts": {
+      "hand_object_bodies": [
+       "finger_r_link11",
+       "finger_r_link12",
+       "finger_r_link3",
+       "finger_r_link4",
+       "finger_r_link7"
+      ],
+      "hand_object_pairs": 5,
+      "hand_hand_pairs": 22,
+      "min_hand_object_distance_mm": -4.566991329193115,
+      "all_contact_pairs": 27,
+      "pairs_touching_the_world": []
+     },
+     "penetration": {
+      "into_object_max_mm": 13.69687710575554,
+      "into_world_max_mm": 0.0
+     },
+     "joints": {
+      "tightest": [
+       {
+        "joint": "hand-finger_r_joint5",
+        "margin_rad": 1.516342162943829e-08
+       },
+       {
+        "joint": "hand-finger_r_joint9",
+        "margin_rad": 1.516342162943829e-08
+       },
+       {
+        "joint": "hand-finger_r_joint13",
+        "margin_rad": 1.516342162943829e-08
+       },
+       {
+        "joint": "hand-finger_r_joint17",
+        "margin_rad": 1.516342162943829e-08
+       },
+       {
+        "joint": "hand-finger_r_joint19",
+        "margin_rad": 0.08690004901885984
+       }
+      ],
+      "at_limit_within_1e-3": 4,
+      "joints": 20
+     },
+     "contact_target_residuals": {
+      "finger_r_link11": {
+       "distance_to_link_surface_mm": 0.000391079853603901,
+       "digit": 3
+      },
+      "finger_r_link12": {
+       "distance_to_link_surface_mm": 0.0007807043461221693,
+       "digit": 3
+      },
+      "finger_r_link15": {
+       "distance_to_link_surface_mm": 0.00025346866344882416,
+       "digit": 4
+      },
+      "finger_r_link16": {
+       "distance_to_link_surface_mm": 0.0001556761575783855,
+       "digit": 4
+      },
+      "finger_r_link19": {
+       "distance_to_link_surface_mm": 0.0001592923216433669,
+       "digit": 5
+      },
+      "finger_r_link20": {
+       "distance_to_link_surface_mm": 0.00047316993710020083,
+       "digit": 5
+      },
+      "finger_r_link7": {
+       "distance_to_link_surface_mm": 0.0006845500288347147,
+       "digit": 2
+      },
+      "finger_r_link8": {
+       "distance_to_link_surface_mm": 8.69469117270383e-05,
+       "digit": 2
+      }
+     },
+     "groups_satisfied": [
+      true,
+      true,
+      false,
+      false
+     ],
+     "groups_satisfied_count": 2
+    }
+   }
+  },
+  {
+   "candidate": {
+    "object": "hammer",
+    "experiment": "exp5_hammer_2_Small_Diameter_s1_hx5_d20",
+    "grasp_type": "2_Small_Diameter",
+    "init_path": "third_party/dexonomy/output/exp5_hammer_2_Small_Diameter_s1_hx5_d20/init_data/2_Small_Diameter/ddg_gd_hammer_poisson_005/tabletop/scale008/0_6_grasp.npy",
+    "refined_path": null,
+    "sha256": "033e81faac1014a82423aa5680093a701b798db54ebbef294c33c8a7f9e0efbc",
+    "first_failing_group": "['finger_r_link7', 'finger_r_link8']",
+    "contacts_seen": "{'finger_r_link16'}",
+    "control": "negative"
+   },
+   "template": "2_Small_Diameter",
+   "required_groups": [
+    [
+     "finger_r_link7",
+     "finger_r_link8"
+    ],
+    [
+     "finger_r_link11",
+     "finger_r_link12"
+    ],
+    [
+     "finger_r_link15",
+     "finger_r_link16"
+    ],
+    [
+     "finger_r_link19",
+     "finger_r_link20"
+    ]
+   ],
+   "required_digits": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "hand_bodies_with_targets": [
+    "finger_r_link11",
+    "finger_r_link12",
+    "finger_r_link15",
+    "finger_r_link16",
+    "finger_r_link19",
+    "finger_r_link20",
+    "finger_r_link7",
+    "finger_r_link8"
+   ],
+   "mapping": {
+    "finger_r_link11": {
+     "resolves": true,
+     "body_id": 13,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 3
+    },
+    "finger_r_link12": {
+     "resolves": true,
+     "body_id": 14,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 3
+    },
+    "finger_r_link15": {
+     "resolves": true,
+     "body_id": 17,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 4
+    },
+    "finger_r_link16": {
+     "resolves": true,
+     "body_id": 18,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 4
+    },
+    "finger_r_link19": {
+     "resolves": true,
+     "body_id": 21,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 5
+    },
+    "finger_r_link20": {
+     "resolves": true,
+     "body_id": 22,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 5
+    },
+    "finger_r_link7": {
+     "resolves": true,
+     "body_id": 9,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 2
+    },
+    "finger_r_link8": {
+     "resolves": true,
+     "body_id": 10,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 2
+    }
+   },
+   "object_targets_on_surface": {
+    "object": "ddg_gd_hammer_poisson_005",
+    "scale": [
+     0.08,
+     0.08,
+     0.08
+    ],
+    "scaled_once_mm": {
+     "median": 6.809766177706229e-07,
+     "max": 1.3146548146198167e-06
+    },
+    "unscaled_mm": {
+     "median": 53.232415166781706,
+     "max": 62.01129377550496
+    },
+    "scaled_twice_mm": {
+     "median": 29.14764243065749,
+     "max": 35.00936625849631
+    }
+   },
+   "states": {
+    "initialised": {
+     "contacts": {
+      "hand_object_bodies": [
+       "finger_r_link16",
+       "finger_r_link3",
+       "finger_r_link4"
+      ],
+      "hand_object_pairs": 3,
+      "hand_hand_pairs": 0,
+      "min_hand_object_distance_mm": -12.407910346984863,
+      "all_contact_pairs": 9,
+      "pairs_touching_the_world": [
+       "world|hand-finger_r_link16",
+       "world|hand-finger_r_link4"
+      ]
+     },
+     "penetration": {
+      "into_object_max_mm": 12.407910449539417,
+      "into_world_max_mm": 0.0
+     },
+     "joints": {
+      "tightest": [
+       {
+        "joint": "hand-finger_r_joint19",
+        "margin_rad": 0.0999938781738281
+       },
+       {
+        "joint": "hand-finger_r_joint11",
+        "margin_rad": 0.10098462657928464
+       },
+       {
+        "joint": "hand-finger_r_joint5",
+        "margin_rad": 0.14139534559249878
+       },
+       {
+        "joint": "hand-finger_r_joint9",
+        "margin_rad": 0.16808562006950378
+       },
+       {
+        "joint": "hand-finger_r_joint7",
+        "margin_rad": 0.24942582206726072
+       }
+      ],
+      "at_limit_within_1e-3": 0,
+      "joints": 20
+     },
+     "contact_target_residuals": {
+      "finger_r_link11": {
+       "distance_to_link_surface_mm": 0.00018398753695971615,
+       "digit": 3
+      },
+      "finger_r_link12": {
+       "distance_to_link_surface_mm": 0.00016768580096635668,
+       "digit": 3
+      },
+      "finger_r_link15": {
+       "distance_to_link_surface_mm": 0.0002413709567940077,
+       "digit": 4
+      },
+      "finger_r_link16": {
+       "distance_to_link_surface_mm": 0.35199418769377355,
+       "digit": 4
+      },
+      "finger_r_link19": {
+       "distance_to_link_surface_mm": 0.00013215761874580656,
+       "digit": 5
+      },
+      "finger_r_link20": {
+       "distance_to_link_surface_mm": 9.122740470049553e-05,
+       "digit": 5
+      },
+      "finger_r_link7": {
+       "distance_to_link_surface_mm": 0.00018984547003000532,
+       "digit": 2
+      },
+      "finger_r_link8": {
+       "distance_to_link_surface_mm": 0.00016116441648157255,
+       "digit": 2
+      }
+     },
+     "groups_satisfied": [
+      false,
+      false,
+      true,
+      false
+     ],
+     "groups_satisfied_count": 1
+    }
+   }
+  },
+  {
+   "candidate": {
+    "object": "hammer",
+    "experiment": "exp5_hammer_2_Small_Diameter_s0_hx5_d20",
+    "grasp_type": "2_Small_Diameter",
+    "init_path": "third_party/dexonomy/output/exp5_hammer_2_Small_Diameter_s0_hx5_d20/init_data/2_Small_Diameter/ddg_gd_hammer_poisson_005/tabletop/scale008/0_29_grasp.npy",
+    "refined_path": null,
+    "sha256": "03fa5b0e3e6ca2a71d7f1cedf99535b452811b58fbd521a414dbe3dbb6538551",
+    "first_failing_group": "['finger_r_link7', 'finger_r_link8']",
+    "contacts_seen": "{'finger_r_link11', 'finger_r_link16'}",
+    "control": "negative"
+   },
+   "template": "2_Small_Diameter",
+   "required_groups": [
+    [
+     "finger_r_link7",
+     "finger_r_link8"
+    ],
+    [
+     "finger_r_link11",
+     "finger_r_link12"
+    ],
+    [
+     "finger_r_link15",
+     "finger_r_link16"
+    ],
+    [
+     "finger_r_link19",
+     "finger_r_link20"
+    ]
+   ],
+   "required_digits": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "hand_bodies_with_targets": [
+    "finger_r_link11",
+    "finger_r_link12",
+    "finger_r_link15",
+    "finger_r_link16",
+    "finger_r_link19",
+    "finger_r_link20",
+    "finger_r_link7",
+    "finger_r_link8"
+   ],
+   "mapping": {
+    "finger_r_link11": {
+     "resolves": true,
+     "body_id": 13,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 3
+    },
+    "finger_r_link12": {
+     "resolves": true,
+     "body_id": 14,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 3
+    },
+    "finger_r_link15": {
+     "resolves": true,
+     "body_id": 17,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 4
+    },
+    "finger_r_link16": {
+     "resolves": true,
+     "body_id": 18,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 4
+    },
+    "finger_r_link19": {
+     "resolves": true,
+     "body_id": 21,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 5
+    },
+    "finger_r_link20": {
+     "resolves": true,
+     "body_id": 22,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 5
+    },
+    "finger_r_link7": {
+     "resolves": true,
+     "body_id": 9,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 2
+    },
+    "finger_r_link8": {
+     "resolves": true,
+     "body_id": 10,
+     "geoms": 2,
+     "collidable_geoms": 1,
+     "digit": 2
+    }
+   },
+   "object_targets_on_surface": {
+    "object": "ddg_gd_hammer_poisson_005",
+    "scale": [
+     0.08,
+     0.08,
+     0.08
+    ],
+    "scaled_once_mm": {
+     "median": 9.021685816617741e-07,
+     "max": 2.264639977730757e-06
+    },
+    "unscaled_mm": {
+     "median": 55.9704361139996,
+     "max": 61.39221799845423
+    },
+    "scaled_twice_mm": {
+     "median": 30.4078342210599,
+     "max": 43.541445459612504
+    }
+   },
+   "states": {
+    "initialised": {
+     "contacts": {
+      "hand_object_bodies": [
+       "finger_r_link11",
+       "finger_r_link16",
+       "finger_r_link3",
+       "finger_r_link4"
+      ],
+      "hand_object_pairs": 4,
+      "hand_hand_pairs": 0,
+      "min_hand_object_distance_mm": -18.96587562561035,
+      "all_contact_pairs": 14,
+      "pairs_touching_the_world": [
+       "world|hand-finger_r_link15",
+       "world|hand-finger_r_link16",
+       "world|hand-finger_r_link3",
+       "world|hand-finger_r_link4"
+      ]
+     },
+     "penetration": {
+      "into_object_max_mm": 18.96587665735737,
+      "into_world_max_mm": 0.0
+     },
+     "joints": {
+      "tightest": [
+       {
+        "joint": "hand-finger_r_joint19",
+        "margin_rad": 0.0999938781738281
+       },
+       {
+        "joint": "hand-finger_r_joint11",
+        "margin_rad": 0.10098462657928464
+       },
+       {
+        "joint": "hand-finger_r_joint5",
+        "margin_rad": 0.14139534559249878
+       },
+       {
+        "joint": "hand-finger_r_joint9",
+        "margin_rad": 0.16808562006950378
+       },
+       {
+        "joint": "hand-finger_r_joint7",
+        "margin_rad": 0.24942582206726072
+       }
+      ],
+      "at_limit_within_1e-3": 0,
+      "joints": 20
+     },
+     "contact_target_residuals": {
+      "finger_r_link11": {
+       "distance_to_link_surface_mm": 0.00021180138709217446,
+       "digit": 3
+      },
+      "finger_r_link12": {
+       "distance_to_link_surface_mm": 0.00019245971042137426,
+       "digit": 3
+      },
+      "finger_r_link15": {
+       "distance_to_link_surface_mm": 0.0002726543935621602,
+       "digit": 4
+      },
+      "finger_r_link16": {
+       "distance_to_link_surface_mm": 0.35203211632238185,
+       "digit": 4
+      },
+      "finger_r_link19": {
+       "distance_to_link_surface_mm": 0.00014309107279344545,
+       "digit": 5
+      },
+      "finger_r_link20": {
+       "distance_to_link_surface_mm": 0.00013144228019383776,
+       "digit": 5
+      },
+      "finger_r_link7": {
+       "distance_to_link_surface_mm": 0.00013804636682706215,
+       "digit": 2
+      },
+      "finger_r_link8": {
+       "distance_to_link_surface_mm": 8.03756542293792e-05,
+       "digit": 2
+      }
+     },
+     "groups_satisfied": [
+      false,
+      true,
+      true,
+      false
+     ],
+     "groups_satisfied_count": 2
+    }
+   }
+  }
+ ]
+}

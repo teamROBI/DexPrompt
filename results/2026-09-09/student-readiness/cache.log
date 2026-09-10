@@ -1,0 +1,10 @@
+{"cached_episode": "teacher_0002_yaw_000", "cache_bytes": 28258456}
+{"cached_episode": "teacher_0004_yaw_000", "cache_bytes": 56516912}
+{"cached_episode": "teacher_0006_yaw_000", "cache_bytes": 84688332}
+{"cached_episode": "teacher_0008_yaw_000", "cache_bytes": 113352956}
+{"cached_episode": "teacher_0009_yaw_000", "cache_bytes": 141553388}
+{"cached_episode": "teacher_0012_yaw_000", "cache_bytes": 170101964}
+{"cached_episode": "teacher_0013_yaw_000", "cache_bytes": 198476468}
+{"cached_episode": "teacher_0016_yaw_000", "cache_bytes": 226734924}
+{"cached_episode": "teacher_0017_yaw_000", "cache_bytes": 255805716}
+{"cache": "out/student-review-20260909/cache", "episodes": 9, "total_bytes": 255805716, "optimizer_steps": 0}

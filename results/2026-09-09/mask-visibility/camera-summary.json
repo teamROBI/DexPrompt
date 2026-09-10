@@ -1,0 +1,197 @@
+{
+  "mujoco_version": "3.3.3",
+  "backend": "egl",
+  "manifest_sha256": "c6f1c6b13e862ad6e0cea1cf996f3b25bfa300710fe415712cf53360bc5d121d",
+  "high_resolution": 256,
+  "camera_checks": true,
+  "episodes": [
+    {
+      "episode_id": "teacher_0006_yaw_000",
+      "episode_sha256": "365e4cf313e8346d3606213a4b6d1edf3fdca88df3d3c6e51a68bd0c48965fe9",
+      "frames": 971,
+      "empty_frames": 565,
+      "max_state_error": 0.0,
+      "max_timestamp_error": 0.0,
+      "mask_mismatch_frames": 0,
+      "mask_mismatch_pixels": 0,
+      "causes": {
+        "resolution_sensitive_occlusion": 149,
+        "occluded_at_tested_resolution": 416
+      },
+      "occluder_pixels": {
+        "finger_r_link5": 28395,
+        "finger_r_link6": 8663,
+        "object_core_bottle_6444875e3217bf891f5f48a891d827bd": 521,
+        "hx5_r_base": 294923,
+        "finger_r_link9": 59890,
+        "finger_r_link4": 552,
+        "finger_r_link7": 1486,
+        "finger_r_link10": 27735,
+        "finger_r_link2": 216,
+        "finger_r_link13": 48326,
+        "finger_r_link12": 2,
+        "finger_r_link8": 17,
+        "finger_r_link14": 10983,
+        "finger_r_link15": 547,
+        "finger_r_link11": 270,
+        "finger_r_link17": 13013,
+        "finger_r_link3": 538,
+        "finger_r_link16": 69,
+        "finger_r_link18": 3035,
+        "finger_r_link1": 379
+      },
+      "wrist_recovers_empty": 276,
+      "head_high_recovers_empty": 149,
+      "either_camera_high_recovers_empty": 319,
+      "empty_runs": [
+        [
+          110,
+          112
+        ],
+        [
+          116,
+          116
+        ],
+        [
+          124,
+          145
+        ],
+        [
+          147,
+          149
+        ],
+        [
+          151,
+          162
+        ],
+        [
+          167,
+          690
+        ]
+      ]
+    },
+    {
+      "episode_id": "teacher_0008_yaw_000",
+      "episode_sha256": "08bcea675c6433fb6972eb9790d018c1d990713785b32c3cc11130a5b4b7d452",
+      "frames": 988,
+      "empty_frames": 80,
+      "max_state_error": 0.0,
+      "max_timestamp_error": 0.0,
+      "mask_mismatch_frames": 0,
+      "mask_mismatch_pixels": 0,
+      "causes": {
+        "resolution_sensitive_occlusion": 6,
+        "occluded_at_tested_resolution": 74
+      },
+      "occluder_pixels": {
+        "hx5_r_base": 69517,
+        "object_core_bottle_6444875e3217bf891f5f48a891d827bd": 33,
+        "finger_r_link1": 1,
+        "finger_r_link4": 1
+      },
+      "wrist_recovers_empty": 17,
+      "head_high_recovers_empty": 6,
+      "either_camera_high_recovers_empty": 23,
+      "empty_runs": [
+        [
+          84,
+          121
+        ],
+        [
+          135,
+          176
+        ]
+      ]
+    },
+    {
+      "episode_id": "teacher_0009_yaw_000",
+      "episode_sha256": "0d91509288da4c6c8b44112ef494582c029b572a4cceb2c8a1f3d944e449f8a6",
+      "frames": 972,
+      "empty_frames": 12,
+      "max_state_error": 0.0,
+      "max_timestamp_error": 0.0,
+      "mask_mismatch_frames": 0,
+      "mask_mismatch_pixels": 0,
+      "causes": {
+        "resolution_sensitive_occlusion": 11,
+        "occluded_at_tested_resolution": 1
+      },
+      "occluder_pixels": {
+        "arm_r_link7": 10357,
+        "object_core_bottle_6444875e3217bf891f5f48a891d827bd": 65,
+        "finger_r_link4": 50
+      },
+      "wrist_recovers_empty": 0,
+      "head_high_recovers_empty": 11,
+      "either_camera_high_recovers_empty": 11,
+      "empty_runs": [
+        [
+          203,
+          214
+        ]
+      ]
+    },
+    {
+      "episode_id": "teacher_0016_yaw_000",
+      "episode_sha256": "59eeb946dee1dccff923388059f1c02eba2647ce3f517fbb97d4c593287b3983",
+      "frames": 974,
+      "empty_frames": 433,
+      "max_state_error": 0.0,
+      "max_timestamp_error": 0.0,
+      "mask_mismatch_frames": 0,
+      "mask_mismatch_pixels": 0,
+      "causes": {
+        "resolution_sensitive_occlusion": 75,
+        "occluded_at_tested_resolution": 358
+      },
+      "occluder_pixels": {
+        "finger_r_link6": 5059,
+        "finger_r_link7": 205,
+        "object_core_bottle_6444875e3217bf891f5f48a891d827bd": 293,
+        "finger_r_link10": 24143,
+        "finger_r_link15": 414,
+        "finger_r_link14": 63152,
+        "finger_r_link19": 3785,
+        "finger_r_link18": 44733,
+        "finger_r_link16": 166,
+        "hx5_r_base": 184468,
+        "finger_r_link3": 1994,
+        "finger_r_link4": 1506,
+        "finger_r_link8": 983,
+        "finger_r_link9": 17209,
+        "finger_r_link13": 84935,
+        "finger_r_link17": 81199,
+        "finger_r_link12": 122,
+        "finger_r_link5": 17,
+        "finger_r_link2": 72,
+        "finger_r_link11": 50
+      },
+      "wrist_recovers_empty": 400,
+      "head_high_recovers_empty": 75,
+      "either_camera_high_recovers_empty": 401,
+      "empty_runs": [
+        [
+          97,
+          99
+        ],
+        [
+          107,
+          136
+        ],
+        [
+          447,
+          818
+        ],
+        [
+          830,
+          849
+        ],
+        [
+          871,
+          878
+        ]
+      ]
+    }
+  ],
+  "completed": true
+}

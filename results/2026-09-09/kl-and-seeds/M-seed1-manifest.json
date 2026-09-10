@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "arguments": {
+    "manifest": "/home/yspark/projects/ICRA/out/rl-approach/candidate.json",
+    "scene": "/home/yspark/projects/ICRA/model/graspgen/ffw_sh5/scene.yaml",
+    "out": "/home/yspark/projects/ICRA/out/rl-approach/M-seed1",
+    "workers": 16,
+    "steps": 102400,
+    "check": false,
+    "check_rollouts": 2,
+    "approach_steps": 600,
+    "yaw": 0.0,
+    "init_policy": "/home/yspark/projects/ICRA/out/rl-approach/bc-v1/policy.pt",
+    "policy_lr": 3e-05,
+    "critic_lr": 0.0003,
+    "demos": null,
+    "demo_beta": 0.0,
+    "demo_batch": 256,
+    "demo_seed": 0,
+    "checkpoint_every": 10,
+    "max_actor_updates": 0,
+    "kl_limit": 0.03,
+    "critic_warmup": 40,
+    "exploration_std": null,
+    "seed": 1,
+    "device": "cuda:0",
+    "width": 64,
+    "height": 64
+  },
+  "candidate": {
+    "object_name": "core_bottle_6444875e3217bf891f5f48a891d827bd",
+    "template": "33_Inferior_Pincer",
+    "source": "/home/yspark/projects/Dexonomy/output/big1_offset_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_2_grasp.npy",
+    "source_sha256": "05b63bfb299053e9edf05f61741c849b103d7863c3e462a90fd30f4c73d983a9"
+  },
+  "handover": {
+    "position": 0.005,
+    "orientation": 0.05,
+    "displacement": 0.005,
+    "steady": 5
+  },
+  "weights": {
+    "closing": 20.0,
+    "turning": 4.0,
+    "disturbance": -5.0,
+    "success": 25.0,
+    "failure": -25.0,
+    "time": -0.01
+  },
+  "approach_ticks": 600,
+  "executor": {
+    "close_ticks": 600,
+    "lift_ticks": 300,
+    "hold_ticks": 50,
+    "policy_dt": 0.02
+  },
+  "observation_size": 42,
+  "action_size": 7,
+  "gamma": 0.999,
+  "gae_lambda": 0.95,
+  "rollout_steps": 64,
+  "critic_warmup_updates": 40,
+  "epochs": 5,
+  "learning_rate": 0.0003,
+  "code_sha256": {
+    "scripts/train_approach_rl.py": "42300e674522d0dee414a56917d6e724de31f2a01417f85efea3ce830b41cc10",
+    "scripts/train_grasp_rl.py": "6c0e62f4d77b69eb08b51cf4407ba3ed6b29c29fb690a4f351a88e8dffaa3dbf",
+    "src/icra/approach_env.py": "17159e6c1440f06488bcf6d9ecb15f8022331ec4d8239568b8d391377a495a15",
+    "src/icra/execution.py": "675967c933d33e14e7f3e0ef68555280bf0c499212ef3dd92c2a079a7e0c4424",
+    "src/icra/ppo.py": "50b8d51d2027fe6930e9a20c9ab300c7ad9730845d1de395b37bd147ec6e93da",
+    "src/icra/contact_control.py": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0",
+    "src/icra/scene.py": "1ade9cecc5ca53139513682247b1d3de3a4669bd6c90010eb8321ba1f5f5bfee",
+    "src/icra/arm.py": "54ea9a88d552204586347b17fc1cb6cedbd733a621df32a888f7702df2cabf67",
+    "src/icra/simulation.py": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25",
+    "scripts/collect_episodes.py": "b407f00ff1d6cb09304638875d097e8831a7228e1f5342e96abe06eb7d9c462f"
+  },
+  "torch_version": "2.6.0+cu124",
+  "training_started": true,
+  "initialised_from": {
+    "path": "out/rl-approach/bc-v1/policy.pt",
+    "steps": 0,
+    "observation_size": 42,
+    "action_size": 7,
+    "exploration_std": 0.049999985843896866,
+    "manifest": "behaviour_cloning"
+  },
+  "learning_rates": {
+    "policy_lr": 3e-05,
+    "critic_lr": 0.0003
+  },
+  "demo_beta": 0.0,
+  "demo_batch": 256,
+  "demo_seed": 0,
+  "checkpoint_every_actor_updates": 10,
+  "kl_limit": 0.03,
+  "max_actor_updates": 0,
+  "training_started_at": "2026-09-09T17:32:10+0900"
+}

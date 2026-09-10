@@ -1,0 +1,204 @@
+{
+  "checked": true,
+  "training_started": false,
+  "in_process": {
+    "scripted_approach": {
+      "status": "completed",
+      "success": true,
+      "terminated": true,
+      "truncated": false,
+      "approach_ticks": 451,
+      "handover_tick": 451,
+      "executor_status": "completed",
+      "executor_ticks": 474,
+      "position_error": 0.0026541228444637585,
+      "orientation_error": 0.0025573054940774124,
+      "displacement": 1.0192455205959867e-05,
+      "final_position_error": 0.14901016947632909,
+      "final_displacement": 0.14618792184143356,
+      "closest": 0.0026541228444637585,
+      "pushed": 2.4746447343621957e-05,
+      "return": 35.70839168922935,
+      "discounted_return": 25.738251642681032,
+      "gamma": 0.999,
+      "quality_failure": null,
+      "arrival": {
+        "position_error": 0.0026541228444637585,
+        "orientation_error": 0.0025573054940774124,
+        "displacement": 1.0192455205959867e-05,
+        "tick": 451
+      },
+      "direction": [
+        0,
+        1
+      ],
+      "exhausted": false,
+      "max_rate": 0.009222637816503317,
+      "through": "step",
+      "max_action": 0.18445275633006633
+    },
+    "held_still": {
+      "status": "approach_timeout",
+      "success": false,
+      "terminated": true,
+      "truncated": false,
+      "approach_ticks": 20,
+      "handover_tick": null,
+      "executor_status": null,
+      "executor_ticks": 0,
+      "position_error": 0.30385144265952424,
+      "orientation_error": 1.8388334873403722,
+      "displacement": 8.915776423797966e-06,
+      "final_position_error": 0.30385144265952424,
+      "final_displacement": 8.915776423797966e-06,
+      "closest": 0.30385144265952424,
+      "pushed": 2.4746447343578027e-05,
+      "return": -11.512116172144651,
+      "discounted_return": -11.294696935194109,
+      "gamma": 0.999,
+      "quality_failure": null,
+      "arrival": null
+    }
+  },
+  "rollouts": [
+    {
+      "rollout": 0,
+      "shape": [
+        64,
+        4
+      ],
+      "observation_size": 42,
+      "action_size": 7,
+      "reward_finite": true,
+      "value_finite": true,
+      "advantage_finite": true,
+      "return_finite": true,
+      "advantage_range": [
+        -9.611924171447754,
+        -0.05200865492224693
+      ],
+      "terminated": 3,
+      "truncated": 0,
+      "losses": {
+        "loss": 8.017041206359863,
+        "policy_loss": -8.940696716308594e-08,
+        "value_loss": 16.051677703857422,
+        "entropy": 2.932570457458496,
+        "ratio": 0.9999998807907104,
+        "log_probability": -2.961738109588623,
+        "value": 0.1764165312051773
+      },
+      "losses_finite": true,
+      "episodes": [
+        {
+          "status": "quality_table_collision",
+          "success": false,
+          "terminated": true,
+          "truncated": false,
+          "approach_ticks": 7,
+          "handover_tick": null,
+          "executor_status": null,
+          "executor_ticks": 0,
+          "position_error": 0.37989950771169656,
+          "orientation_error": 2.1400607540469423,
+          "displacement": 1.0886450698527009e-05
+        },
+        {
+          "status": "quality_table_collision",
+          "success": false,
+          "terminated": true,
+          "truncated": false,
+          "approach_ticks": 18,
+          "handover_tick": null,
+          "executor_status": null,
+          "executor_ticks": 0,
+          "position_error": 0.49632861746261375,
+          "orientation_error": 2.22690015886689,
+          "displacement": 1.1945677162443552e-05
+        },
+        {
+          "status": "quality_table_collision",
+          "success": false,
+          "terminated": true,
+          "truncated": false,
+          "approach_ticks": 13,
+          "handover_tick": null,
+          "executor_status": null,
+          "executor_ticks": 0,
+          "position_error": 0.40206095965933225,
+          "orientation_error": 2.193517194878803,
+          "displacement": 7.944698392131197e-06
+        }
+      ]
+    },
+    {
+      "rollout": 1,
+      "shape": [
+        64,
+        4
+      ],
+      "observation_size": 42,
+      "action_size": 7,
+      "reward_finite": true,
+      "value_finite": true,
+      "advantage_finite": true,
+      "return_finite": true,
+      "advantage_range": [
+        -3.0998430252075195,
+        2.1515016555786133
+      ],
+      "terminated": 0,
+      "truncated": 0,
+      "losses": {
+        "loss": 1.0943459272384644,
+        "policy_loss": -1.4901161193847656e-08,
+        "value_loss": 2.206287384033203,
+        "entropy": 2.932570457458496,
+        "ratio": 0.9999999403953552,
+        "log_probability": -2.863179922103882,
+        "value": 0.05689094588160515
+      },
+      "losses_finite": true,
+      "episodes": []
+    },
+    {
+      "rollout": 2,
+      "shape": [
+        64,
+        4
+      ],
+      "observation_size": 42,
+      "action_size": 7,
+      "reward_finite": true,
+      "value_finite": true,
+      "advantage_finite": true,
+      "return_finite": true,
+      "advantage_range": [
+        -0.6034275889396667,
+        2.8342673778533936
+      ],
+      "terminated": 0,
+      "truncated": 0,
+      "losses": {
+        "loss": 0.6647893786430359,
+        "policy_loss": 2.9802322387695312e-08,
+        "value_loss": 1.347174048423767,
+        "entropy": 2.932570457458496,
+        "ratio": 1.0,
+        "log_probability": -2.839630603790283,
+        "value": -0.1318054050207138
+      },
+      "losses_finite": true,
+      "episodes": []
+    }
+  ],
+  "workers": 4,
+  "steps_collected": 768,
+  "steps_per_second": 292.17654822922407,
+  "backward_calls": 0,
+  "optimizer_steps": 0,
+  "observation_size": 42,
+  "action_size": 7,
+  "problems": [],
+  "passed": true
+}

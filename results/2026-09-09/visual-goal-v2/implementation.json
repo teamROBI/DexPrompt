@@ -1,0 +1,25 @@
+{
+  "implementation_complete": true,
+  "training_started": false,
+  "tests_passed": 142,
+  "source_sha256": {
+    "src/icra/visual_observation.py": "513523968710d257c666df1b2ecd8127beba0b4bac59a227725d8754e1355f55",
+    "src/icra/goal_memory.py": "cf59cb35b8bb676e410721bfe82fa5df1d7131235aa4193d8f502ab127df4898",
+    "src/icra/student.py": "d7743791ef90bf16ad6211ee036816c99e24be249ca14e52b799b72610bff9bd",
+    "src/icra/student_data.py": "aa127dab97d51ae53dbe6747162f35b49d74831b521e552f9e52a474947e2d98",
+    "src/icra/student_inference.py": "9e53dfafa8d1b8d8dc735f467ad6d35aa52a928e6074c82aac5f0e093e65599d",
+    "src/icra/student_cache.py": "ce79f1103d10b167ffdf5c4a08bd7c0274a2b65a9d99cbe630542be4a3d03f75",
+    "src/icra/dataset.py": "95091ac9d209843a96f48460592d3e1369809684ebbcd9efc35e0b0ac9aa8cea",
+    "src/icra/execution.py": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94",
+    "scripts/prepare_visual_dataset.py": "e7c2636bd8ba53ec890117af6a2d0ff09110597e34c29ebf36b00d8bab6be5f7",
+    "scripts/collect_teacher_dataset.py": "d37fd23284640828a6ce9fed49dc3dc0b2a40e9c26d634ac0933efe3c0b3bb04",
+    "scripts/collect_episodes.py": "ddac9c49c70d54af5e5868f82e3aa35c25405fd945edfe7f848a55ce1e7f822a",
+    "scripts/train_hx5_student.py": "32838b7a3e9b9d02cb15259596bca289d27d64b8899ccee3820c5e86a1275224",
+    "scripts/evaluate_hx5_student.py": "a2da7ea9d8b8f505557155ac6319333a7c8980c2ef12137fa2af04b92263db54",
+    "scripts/replay_hx5_student.py": "1353a9693abd7ac00e28b12326bea4940123e8e1dfa30840b3aba549fd5c23ba",
+    "configs/visual_student_256.json": "b66d40d406687767d4a3fe29f1511d32af50a20671c1c00af6958c61f3f4cfd7",
+    "configs/hx5_student.visibility.local.json": "e05cf7a805a986302b54251e439869a6ade24edf75bc060edbc48f2f9d7ac3c4",
+    "tests/test_visual_goal_memory.py": "1c3790a8cdd236c7664e8ebc97bc09f09057d8a56f9167eced60f7b4c2499461",
+    "tests/test_visual_observation.py": "362d298daf7c49ab4ebeba778ae60fc1d6415db3ed38ebd14fd3d3edc7d0424e"
+  }
+}

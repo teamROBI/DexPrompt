@@ -1,0 +1,13 @@
+annotation	refiner	template	inits	grasps
+old	grasp	10_Power_Disk	500	11
+old	grasp_admm	10_Power_Disk	500	103
+old	grasp	6_Prismatic_4_Finger	500	9
+old	grasp_admm	6_Prismatic_4_Finger	500	72
+old	grasp	9_Palmar_Pinch	500	1
+old	grasp_admm	9_Palmar_Pinch	500	100
+new	grasp	10_Power_Disk	500	8
+new	grasp_admm	10_Power_Disk	500	99
+new	grasp	6_Prismatic_4_Finger	500	14
+new	grasp_admm	6_Prismatic_4_Finger	500	87
+new	grasp	9_Palmar_Pinch	500	4
+new	grasp_admm	9_Palmar_Pinch	500	139

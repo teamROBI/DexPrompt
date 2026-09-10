@@ -1,0 +1,7 @@
+watching out/rl-approach/M-seed0/checkpoints
+  00040960: completed (closest 3.2 mm)
+  00051200: completed (closest 2.2 mm)
+  00061440: completed (closest 3.7 mm)
+  00072704: quality_penetration (closest 4.9 mm)   FAILED
+  wrote out/rl-approach/M-seed0/STOP: policy_step_00072704.pt failed the mean-action check: quality_penetration
+  baseline still completes

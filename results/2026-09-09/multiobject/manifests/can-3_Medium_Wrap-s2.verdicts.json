@@ -1,0 +1,12 @@
+{
+  "/home/yspark/projects/Dexonomy/output/multi3_can_3_Medium_Wrap_s2_hx5_d20/grasp_data/3_Medium_Wrap/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_22_grasp.npy": "hand_through_table",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_3_Medium_Wrap_s2_hx5_d20/grasp_data/3_Medium_Wrap/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_24_grasp.npy": "hand_through_table",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_3_Medium_Wrap_s2_hx5_d20/grasp_data/3_Medium_Wrap/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_34_grasp.npy": "kept",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_3_Medium_Wrap_s2_hx5_d20/grasp_data/3_Medium_Wrap/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_37_grasp.npy": "hand_through_table",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_3_Medium_Wrap_s2_hx5_d20/grasp_data/3_Medium_Wrap/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_39_grasp.npy": "hand_through_table",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_3_Medium_Wrap_s2_hx5_d20/grasp_data/3_Medium_Wrap/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_43_grasp.npy": "hand_through_table",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_3_Medium_Wrap_s2_hx5_d20/grasp_data/3_Medium_Wrap/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_47_grasp.npy": "hand_through_table",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_3_Medium_Wrap_s2_hx5_d20/grasp_data/3_Medium_Wrap/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_49_grasp.npy": "hand_through_table",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_3_Medium_Wrap_s2_hx5_d20/grasp_data/3_Medium_Wrap/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_52_grasp.npy": "open_hand_inside_object",
+  "/home/yspark/projects/Dexonomy/output/multi3_can_3_Medium_Wrap_s2_hx5_d20/grasp_data/3_Medium_Wrap/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_72_grasp.npy": "hand_through_table"
+}

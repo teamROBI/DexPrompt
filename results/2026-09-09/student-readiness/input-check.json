@@ -1,0 +1,347 @@
+{
+  "data": "/home/yspark/projects/ICRA/out/offset-compare-93/executed-offset",
+  "source_manifest_sha256": "c6f1c6b13e862ad6e0cea1cf996f3b25bfa300710fe415712cf53360bc5d121d",
+  "cache_sha256": "83fac9e4a454dd646bae1efe60aebc87337c8a54e5e515387981a3be55965564",
+  "episodes": [
+    {
+      "episode_id": "teacher_0002_yaw_000",
+      "frames": 974,
+      "sample_frames": [
+        0,
+        487,
+        973
+      ],
+      "head_shape": [
+        974,
+        64,
+        64,
+        4
+      ],
+      "visible_target_pixels_min_max": [
+        35,
+        126
+      ],
+      "action_float32_cast_error_max_rad": 1.1911642872064476e-07,
+      "max_timestamp_interval_error_s": 1.1084883011491797e-14
+    },
+    {
+      "episode_id": "teacher_0004_yaw_000",
+      "frames": 974,
+      "sample_frames": [
+        0,
+        487,
+        973
+      ],
+      "head_shape": [
+        974,
+        64,
+        64,
+        4
+      ],
+      "visible_target_pixels_min_max": [
+        28,
+        109
+      ],
+      "action_float32_cast_error_max_rad": 1.1687196632692576e-07,
+      "max_timestamp_interval_error_s": 1.1084883011491797e-14
+    },
+    {
+      "episode_id": "teacher_0006_yaw_000",
+      "frames": 971,
+      "sample_frames": [
+        0,
+        485,
+        970
+      ],
+      "head_shape": [
+        971,
+        64,
+        64,
+        4
+      ],
+      "visible_target_pixels_min_max": [
+        0,
+        52
+      ],
+      "action_float32_cast_error_max_rad": 1.17854630055092e-07,
+      "max_timestamp_interval_error_s": 1.1084883011491797e-14
+    },
+    {
+      "episode_id": "teacher_0008_yaw_000",
+      "frames": 988,
+      "sample_frames": [
+        0,
+        494,
+        987
+      ],
+      "head_shape": [
+        988,
+        64,
+        64,
+        4
+      ],
+      "visible_target_pixels_min_max": [
+        0,
+        52
+      ],
+      "action_float32_cast_error_max_rad": 1.190392677763441e-07,
+      "max_timestamp_interval_error_s": 1.1084883011491797e-14
+    },
+    {
+      "episode_id": "teacher_0009_yaw_000",
+      "frames": 972,
+      "sample_frames": [
+        0,
+        486,
+        971
+      ],
+      "head_shape": [
+        972,
+        64,
+        64,
+        4
+      ],
+      "visible_target_pixels_min_max": [
+        0,
+        116
+      ],
+      "action_float32_cast_error_max_rad": 1.1890444229223363e-07,
+      "max_timestamp_interval_error_s": 1.1084883011491797e-14
+    },
+    {
+      "episode_id": "teacher_0012_yaw_000",
+      "frames": 984,
+      "sample_frames": [
+        0,
+        492,
+        983
+      ],
+      "head_shape": [
+        984,
+        64,
+        64,
+        4
+      ],
+      "visible_target_pixels_min_max": [
+        49,
+        117
+      ],
+      "action_float32_cast_error_max_rad": 1.1541894728850366e-07,
+      "max_timestamp_interval_error_s": 1.1084883011491797e-14
+    },
+    {
+      "episode_id": "teacher_0013_yaw_000",
+      "frames": 978,
+      "sample_frames": [
+        0,
+        489,
+        977
+      ],
+      "head_shape": [
+        978,
+        64,
+        64,
+        4
+      ],
+      "visible_target_pixels_min_max": [
+        29,
+        122
+      ],
+      "action_float32_cast_error_max_rad": 1.143863288532998e-07,
+      "max_timestamp_interval_error_s": 1.1084883011491797e-14
+    },
+    {
+      "episode_id": "teacher_0016_yaw_000",
+      "frames": 974,
+      "sample_frames": [
+        0,
+        487,
+        973
+      ],
+      "head_shape": [
+        974,
+        64,
+        64,
+        4
+      ],
+      "visible_target_pixels_min_max": [
+        0,
+        52
+      ],
+      "action_float32_cast_error_max_rad": 1.1906817398710245e-07,
+      "max_timestamp_interval_error_s": 1.1084883011491797e-14
+    },
+    {
+      "episode_id": "teacher_0017_yaw_000",
+      "frames": 1002,
+      "sample_frames": [
+        0,
+        501,
+        1001
+      ],
+      "head_shape": [
+        1002,
+        64,
+        64,
+        4
+      ],
+      "visible_target_pixels_min_max": [
+        44,
+        75
+      ],
+      "action_float32_cast_error_max_rad": 1.1870652016909844e-07,
+      "max_timestamp_interval_error_s": 1.1084883011491797e-14
+    }
+  ],
+  "total_frames": 8817,
+  "normalizer": {
+    "fit_split": "train",
+    "fit_frames": 8817,
+    "action_center": [
+      -0.03418412047449643,
+      -0.5201254970086115,
+      0.45768949639797246,
+      -1.7740994736275455,
+      1.465846987964223,
+      -0.7835940509907017,
+      -0.17976222810254683,
+      -0.01180216776822235,
+      -0.9464130500792722,
+      0.12731969108224372,
+      0.40846054313590974,
+      -0.3751577018966086,
+      1.0372551891536652,
+      0.3044921052055068,
+      0.47098597840530315,
+      -0.3310000001176198,
+      0.28780000700950625,
+      0.13639999967219696,
+      0.3152999939925749,
+      -0.2976999941330083,
+      0.17919999876536918,
+      0.008400000969544706,
+      0.31330000677108766,
+      -0.27368980655670166,
+      0.20406757532087208,
+      0.004857208506469024,
+      0.31869766553447476
+    ],
+    "action_scale": [
+      1.0300616220198127,
+      0.3832860190625275,
+      0.6531027531742503,
+      1.0301065611834115,
+      1.5608791224141496,
+      0.7828931845418522,
+      1.2978204503042636,
+      0.26986265194918485,
+      0.3845130500792722,
+      0.12731969108224372,
+      0.37669712603497274,
+      0.23574229810339145,
+      0.45785518915366524,
+      0.29979210520550675,
+      0.24200647237235912,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05
+    ],
+    "state_center": [
+      0.014722943305969238,
+      -0.5167554765939713,
+      0.46693138778209686,
+      -1.7763282656669617,
+      1.3960552923381329,
+      -0.7819424101617187,
+      -0.1782780885696411,
+      -0.010673120617866516,
+      -0.9458449482917786,
+      0.1270496165248005,
+      0.40974374674260616,
+      -0.38938911259174347,
+      1.0364807844161987,
+      0.30425534886308014,
+      0.4718383848667145,
+      -0.32949240505695343,
+      0.2895315885543823,
+      0.13641394674777985,
+      0.3153017461299896,
+      -0.30053016543388367,
+      0.17924963682889938,
+      0.008415749296545982,
+      0.3133021593093872,
+      -0.2571877986192703,
+      0.20409579575061798,
+      0.0048757737968117,
+      0.31869959831237793
+    ],
+    "state_scale": [
+      0.981611967086792,
+      0.3798137754201889,
+      0.6611988097429276,
+      1.0421577095985413,
+      1.4846691377460957,
+      0.7875201276037842,
+      1.2939318418502808,
+      0.2628484219312668,
+      0.3839786648750305,
+      0.1270583653954418,
+      0.37540618516504765,
+      0.22133062779903412,
+      0.4570978879928589,
+      0.29956259089522064,
+      0.24036076664924622,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05
+    ]
+  },
+  "goal_channel_check": "passed; pixel-subset fixture, not semantic/physical part success",
+  "data_alignment": "same-frame state and future action chunks; no episode crossing",
+  "privileged_fields_in_model_inputs": [],
+  "optimizer_steps": 0,
+  "split": {
+    "by": "object",
+    "counts": {
+      "test": 0,
+      "train": 9,
+      "val": 0
+    },
+    "fractions": [
+      0.8,
+      0.1,
+      0.1
+    ],
+    "group_counts": {
+      "test": 0,
+      "train": 1,
+      "val": 0
+    },
+    "groups": {
+      "core_bottle_6444875e3217bf891f5f48a891d827bd": "train"
+    },
+    "seed": 0,
+    "warnings": [
+      "No val split: only 1 independent object groups.",
+      "No test split: only 1 independent object groups."
+    ]
+  }
+}

@@ -1,0 +1,1205 @@
+{
+  "seed": 0,
+  "variants": [
+    {
+      "pose_index": 0,
+      "variant_id": "grasp_1_r300_d30",
+      "prediction_id": "grasp_1",
+      "extra_roll_index": 0,
+      "roll_deg": 299.99999999999994,
+      "depth_mm": 30.0,
+      "thumb_gap_mm": 0.0030101109444977585,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ]
+    },
+    {
+      "pose_index": 1,
+      "variant_id": "grasp_1_r300_d15",
+      "prediction_id": "grasp_1",
+      "extra_roll_index": 0,
+      "roll_deg": 299.99999999999994,
+      "depth_mm": 15.0,
+      "thumb_gap_mm": 0.055020500746140726,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ]
+    },
+    {
+      "pose_index": 2,
+      "variant_id": "grasp_1_r330_d15",
+      "prediction_id": "grasp_1",
+      "extra_roll_index": 0,
+      "roll_deg": 330.0,
+      "depth_mm": 15.0,
+      "thumb_gap_mm": 0.134024432976555,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ]
+    },
+    {
+      "pose_index": 3,
+      "variant_id": "grasp_5_r150_d-15",
+      "prediction_id": "grasp_5",
+      "extra_roll_index": 0,
+      "roll_deg": 149.99999999999997,
+      "depth_mm": -15.0,
+      "thumb_gap_mm": 0.0022080680771033446,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ]
+    },
+    {
+      "pose_index": 4,
+      "variant_id": "grasp_5_r270_d30",
+      "prediction_id": "grasp_5",
+      "extra_roll_index": 0,
+      "roll_deg": 270.0,
+      "depth_mm": 30.0,
+      "thumb_gap_mm": 0.015379001616160272,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ]
+    },
+    {
+      "pose_index": 5,
+      "variant_id": "grasp_5_r300_d15",
+      "prediction_id": "grasp_5",
+      "extra_roll_index": 0,
+      "roll_deg": 299.99999999999994,
+      "depth_mm": 15.0,
+      "thumb_gap_mm": 0.036376338982573635,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ]
+    },
+    {
+      "pose_index": 6,
+      "variant_id": "grasp_6_r90_d30",
+      "prediction_id": "grasp_6",
+      "extra_roll_index": 0,
+      "roll_deg": 90.0,
+      "depth_mm": 30.0,
+      "thumb_gap_mm": 0.025479376343720217,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ]
+    },
+    {
+      "pose_index": 7,
+      "variant_id": "grasp_6_r0_d0",
+      "prediction_id": "grasp_6",
+      "extra_roll_index": 0,
+      "roll_deg": 0.0,
+      "depth_mm": 0.0,
+      "thumb_gap_mm": 0.04064940345474881,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ]
+    },
+    {
+      "pose_index": 8,
+      "variant_id": "grasp_6_r0_d15",
+      "prediction_id": "grasp_6",
+      "extra_roll_index": 0,
+      "roll_deg": 0.0,
+      "depth_mm": 15.0,
+      "thumb_gap_mm": 0.11549336569117392,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ]
+    },
+    {
+      "pose_index": 9,
+      "variant_id": "grasp_7_r30_d0",
+      "prediction_id": "grasp_7",
+      "extra_roll_index": 0,
+      "roll_deg": 29.999999999999996,
+      "depth_mm": 0.0,
+      "thumb_gap_mm": 16.876168976323513,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ]
+    },
+    {
+      "pose_index": 10,
+      "variant_id": "grasp_7_r30_d15",
+      "prediction_id": "grasp_7",
+      "extra_roll_index": 0,
+      "roll_deg": 29.999999999999996,
+      "depth_mm": 15.0,
+      "thumb_gap_mm": 17.329722749498995,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ]
+    },
+    {
+      "pose_index": 11,
+      "variant_id": "grasp_7_r60_d15",
+      "prediction_id": "grasp_7",
+      "extra_roll_index": 0,
+      "roll_deg": 59.99999999999999,
+      "depth_mm": 15.0,
+      "thumb_gap_mm": 19.50770298663213,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ]
+    },
+    {
+      "pose_index": 12,
+      "variant_id": "grasp_8_r330_d15",
+      "prediction_id": "grasp_8",
+      "extra_roll_index": 0,
+      "roll_deg": 330.0,
+      "depth_mm": 15.0,
+      "thumb_gap_mm": 0.008304559155657422,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ]
+    },
+    {
+      "pose_index": 13,
+      "variant_id": "grasp_8_r330_d30",
+      "prediction_id": "grasp_8",
+      "extra_roll_index": 0,
+      "roll_deg": 330.0,
+      "depth_mm": 30.0,
+      "thumb_gap_mm": 0.020413263315943342,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ]
+    },
+    {
+      "pose_index": 14,
+      "variant_id": "grasp_8_r300_d15",
+      "prediction_id": "grasp_8",
+      "extra_roll_index": 0,
+      "roll_deg": 299.99999999999994,
+      "depth_mm": 15.0,
+      "thumb_gap_mm": 0.04255301791169483,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ]
+    },
+    {
+      "pose_index": 15,
+      "variant_id": "grasp_9_r330_d15",
+      "prediction_id": "grasp_9",
+      "extra_roll_index": 0,
+      "roll_deg": 330.0,
+      "depth_mm": 15.0,
+      "thumb_gap_mm": 0.03275818472095609,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ]
+    },
+    {
+      "pose_index": 16,
+      "variant_id": "grasp_9_r300_d30",
+      "prediction_id": "grasp_9",
+      "extra_roll_index": 0,
+      "roll_deg": 299.99999999999994,
+      "depth_mm": 30.0,
+      "thumb_gap_mm": 0.12772175613880057,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ]
+    },
+    {
+      "pose_index": 17,
+      "variant_id": "grasp_9_r330_d30",
+      "prediction_id": "grasp_9",
+      "extra_roll_index": 0,
+      "roll_deg": 330.0,
+      "depth_mm": 30.0,
+      "thumb_gap_mm": 0.4671151493890502,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ]
+    }
+  ],
+  "templates": [
+    {
+      "pose_index": 0,
+      "path": "/home/yspark/projects/ICRA/third_party/dexonomy/output/offcmp8_offset_s0_hx5_d20/new_tmpl/33_Inferior_Pincer/core_bottle_e56e77c6eb21d9bdf577ff4de1ac394c/floating/scale011/0_6_grasp.npy",
+      "sha256": "d4925cb2eedbb6cdfe1b2e1f861da03a7d113d68b9e025cccf32d5055b06fda3",
+      "contact_index": 2,
+      "contacts": 4,
+      "n_evo": 2.0
+    },
+    {
+      "pose_index": 1,
+      "path": "/home/yspark/projects/ICRA/third_party/dexonomy/output/offcmp8_offset_s0_hx5_d20/new_tmpl/33_Inferior_Pincer/core_camera_1ab3abb5c090d9b68e940c4e64a94e1e/floating/scale008/0_59_grasp.npy",
+      "sha256": "90bb6bf7d0c2626e2af6bafd9e69d0a876230619c46e9908c8ed015774c364c1",
+      "contact_index": 1,
+      "contacts": 4,
+      "n_evo": 2.0
+    },
+    {
+      "pose_index": 2,
+      "path": "/home/yspark/projects/ICRA/third_party/dexonomy/output/offcmp8_offset_s0_hx5_d20/new_tmpl/33_Inferior_Pincer/core_cellphone_325ecc3acd232a5e981b9cd34407d026/floating/scale014/0_99_grasp.npy",
+      "sha256": "4fa0be60f81706478ff5c37714b93d9bc75425b794b5327410ade7d7b71d27dd",
+      "contact_index": 0,
+      "contacts": 4,
+      "n_evo": 2.0
+    },
+    {
+      "pose_index": 3,
+      "path": "/home/yspark/projects/ICRA/third_party/dexonomy/output/offcmp8_offset_s0_hx5_d20/new_tmpl/33_Inferior_Pincer/core_mug_10f6e09036350e92b3f21f1137c3c347/floating/scale005/0_99_grasp.npy",
+      "sha256": "087aea57a2b26d59932de51108752b4dc6cf08806d5c10a2e2fe52ae0fe13276",
+      "contact_index": 0,
+      "contacts": 4,
+      "n_evo": 2.0
+    },
+    {
+      "pose_index": 4,
+      "path": "/home/yspark/projects/ICRA/third_party/dexonomy/output/offcmp8_offset_s0_hx5_d20/new_tmpl/33_Inferior_Pincer/core_cellphone_d9d06d2772ecc526c0dc3ed657ab97f0/floating/scale014/0_48_grasp.npy",
+      "sha256": "215fc702b899bccb7be48b07c8af9c762a03ef56e22268444bc0463d74bbf680",
+      "contact_index": 3,
+      "contacts": 4,
+      "n_evo": 2.0
+    },
+    {
+      "pose_index": 5,
+      "path": "/home/yspark/projects/ICRA/third_party/dexonomy/output/offcmp8_offset_s0_hx5_d20/new_tmpl/33_Inferior_Pincer/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_84_grasp.npy",
+      "sha256": "a7bb1f81b2dd2e6a119cfa2a7bc3e059db5c35cb510d5d130edd01b7d19bbbe5",
+      "contact_index": 3,
+      "contacts": 4,
+      "n_evo": 5.0
+    },
+    {
+      "pose_index": 6,
+      "path": "/home/yspark/projects/ICRA/third_party/dexonomy/output/offcmp8_offset_s0_hx5_d20/new_tmpl/33_Inferior_Pincer/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_85_grasp.npy",
+      "sha256": "8e9e1bd3b5562ef374a6f0ec3dde90f30773a0429b61f826120a3507bc187c76",
+      "contact_index": 2,
+      "contacts": 4,
+      "n_evo": 6.0
+    },
+    {
+      "pose_index": 7,
+      "path": "/home/yspark/projects/ICRA/third_party/dexonomy/output/offcmp8_offset_s0_hx5_d20/new_tmpl/33_Inferior_Pincer/core_can_f8fd565d00a7a6f9fef1ca8c5a3d2e08/floating/scale008/0_27_grasp.npy",
+      "sha256": "f5e483e0afe306b94d74428d4c0c6f7cf29b35c8bb7dfd5b911654a9fe9bb737",
+      "contact_index": 2,
+      "contacts": 4,
+      "n_evo": 6.0
+    },
+    {
+      "pose_index": 8,
+      "path": "/home/yspark/projects/ICRA/third_party/dexonomy/output/offcmp8_offset_s0_hx5_d20/new_tmpl/33_Inferior_Pincer/core_can_d44cec47dbdead7ca46192d8b30882/floating/scale008/0_67_grasp.npy",
+      "sha256": "a3445da5e5bcd57b58262d64b1c29947522366c8821215f2b7573910165e2508",
+      "contact_index": 2,
+      "contacts": 4,
+      "n_evo": 6.0
+    },
+    {
+      "pose_index": 9,
+      "path": "/home/yspark/projects/ICRA/third_party/dexonomy/output/offcmp8_offset_s0_hx5_d20/new_tmpl/33_Inferior_Pincer/core_bottle_e56e77c6eb21d9bdf577ff4de1ac394c/floating/scale011/0_7_grasp.npy",
+      "sha256": "990a4c9084e26502ac6c1625bf9cd5b8c4b91dbb87bf42505659e12c3c2fcbcc",
+      "contact_index": 3,
+      "contacts": 4,
+      "n_evo": 6.0
+    },
+    {
+      "pose_index": 10,
+      "path": "/home/yspark/projects/ICRA/third_party/dexonomy/output/offcmp8_offset_s0_hx5_d20/new_tmpl/33_Inferior_Pincer/core_cellphone_c3a90bcecce7f4817b6fd5468f603b31/floating/scale011/0_17_grasp.npy",
+      "sha256": "47a5d944737ace70652a94970025998b6efd6a3dfbd4170dec6b0655eb48bc6e",
+      "contact_index": 3,
+      "contacts": 4,
+      "n_evo": 2.0
+    },
+    {
+      "pose_index": 11,
+      "path": "/home/yspark/projects/ICRA/third_party/dexonomy/output/offcmp8_offset_s0_hx5_d20/new_tmpl/33_Inferior_Pincer/core_cellphone_396fba35f02a9cc9bc1f690a77fffa14/floating/scale011/0_88_grasp.npy",
+      "sha256": "abf5d5e04c01f69b2c3506ff68bf96c45c5de59d0e5f764b0183b1f036bb0216",
+      "contact_index": 0,
+      "contacts": 4,
+      "n_evo": 2.0
+    },
+    {
+      "pose_index": 12,
+      "path": "/home/yspark/projects/ICRA/third_party/dexonomy/assets/hand/hx5_d20/init_tmpl/33_Inferior_Pincer.npy",
+      "sha256": "6b50ec3aa3734f50050074aca70db9d5cf1c9cfe8366e2a3ba20870d030dd9c1",
+      "contact_index": 3,
+      "contacts": 4,
+      "n_evo": 0.0
+    },
+    {
+      "pose_index": 13,
+      "path": "/home/yspark/projects/ICRA/third_party/dexonomy/output/offcmp8_offset_s0_hx5_d20/new_tmpl/33_Inferior_Pincer/core_bottle_c553b7e594942f0a4c0bba210aa0d1/floating/scale011/0_2_grasp.npy",
+      "sha256": "98f8e55149951ec361984c6950b0c7b1b8a8d7ac32ba2a60580aef27320eba94",
+      "contact_index": 0,
+      "contacts": 4,
+      "n_evo": 6.0
+    },
+    {
+      "pose_index": 14,
+      "path": "/home/yspark/projects/ICRA/third_party/dexonomy/output/offcmp8_offset_s0_hx5_d20/new_tmpl/33_Inferior_Pincer/core_jar_a3b9caa337ca7c8e6597d391ab6fcc1/floating/scale008/0_29_grasp.npy",
+      "sha256": "c19753f9bcc5e62e3357cc8bb87b13b5e49c333dd255a0eb4201ca52a6e417c8",
+      "contact_index": 2,
+      "contacts": 4,
+      "n_evo": 6.0
+    },
+    {
+      "pose_index": 15,
+      "path": "/home/yspark/projects/ICRA/third_party/dexonomy/output/offcmp8_offset_s0_hx5_d20/new_tmpl/33_Inferior_Pincer/core_cellphone_c864337d009c823290a9c3b0b32f8569/floating/scale014/0_17_grasp.npy",
+      "sha256": "d4713e17ea2e84bfec9f28091319427761966eae93a426805671d018b681a781",
+      "contact_index": 0,
+      "contacts": 4,
+      "n_evo": 1.0
+    },
+    {
+      "pose_index": 16,
+      "path": "/home/yspark/projects/ICRA/third_party/dexonomy/output/offcmp8_offset_s0_hx5_d20/new_tmpl/33_Inferior_Pincer/core_cellphone_6f63df7ca322514f41ced50d3a574698/floating/scale011/0_59_grasp.npy",
+      "sha256": "0c1853455bf789630b49b8ee448ec25752671465a1a82705ddc258719436aecd",
+      "contact_index": 3,
+      "contacts": 4,
+      "n_evo": 1.0
+    },
+    {
+      "pose_index": 17,
+      "path": "/home/yspark/projects/ICRA/third_party/dexonomy/output/offcmp8_offset_s0_hx5_d20/new_tmpl/33_Inferior_Pincer/core_jar_5e1c630396c0a1ce30cbeaf8f6d93761/floating/scale011/0_93_grasp.npy",
+      "sha256": "0449b245566d1bdbb349ac49a94d4e2e30efabbcc775b0be1bffb8eef87fd9ae",
+      "contact_index": 2,
+      "contacts": 4,
+      "n_evo": 5.0
+    }
+  ],
+  "filters": [
+    {
+      "filter": "pose",
+      "seeds_in": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "seeds_passed": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "seeds_after_padding": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "padded_back": 0
+    },
+    {
+      "filter": "loss",
+      "seeds_in": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "seeds_passed": [
+        6,
+        7,
+        8,
+        13,
+        14
+      ],
+      "loss_dist_max": [
+        0.00014910715981386602,
+        0.0004935172037221491,
+        0.00015256591723300517,
+        0.0001776168355718255,
+        1.2744464584102388e-05,
+        0.0004037812177557498,
+        0.0007386275101453066,
+        0.0005128949414938688,
+        0.0009065484046004713,
+        0.0003176287282258272,
+        0.00037539031472988427,
+        0.0002929488255176693,
+        0.00022749867639504373,
+        0.00047687883488833904,
+        7.833880226826295e-05,
+        0.0003861437435261905,
+        0.00023095497454050928,
+        0.0011603106977418065
+      ],
+      "loss_normal_max": [
+        1.2322171926498413,
+        0.9772019386291504,
+        2.9840023517608643,
+        1.4929713010787964,
+        3.57194447517395,
+        0.3432837426662445,
+        0.14489862322807312,
+        0.03236750513315201,
+        0.17675012350082397,
+        0.7226458787918091,
+        1.650583267211914,
+        1.8479793071746826,
+        3.543870449066162,
+        0.1185167133808136,
+        0.039554376155138016,
+        3.6473631858825684,
+        1.0398664474487305,
+        0.43522149324417114
+      ],
+      "seeds_after_padding": [
+        6,
+        7,
+        8,
+        13,
+        14,
+        1,
+        0,
+        15,
+        17,
+        16,
+        3,
+        2,
+        9,
+        12,
+        4,
+        10,
+        5,
+        11
+      ],
+      "padded_back": 13
+    },
+    {
+      "filter": "collision",
+      "seeds_in": [
+        6,
+        7,
+        8,
+        13,
+        14,
+        1,
+        0,
+        15,
+        17,
+        16,
+        3,
+        2,
+        9,
+        12,
+        4,
+        10,
+        5,
+        11
+      ],
+      "seeds_passed": [
+        6,
+        7,
+        8,
+        13,
+        14,
+        0,
+        17,
+        2,
+        9,
+        5
+      ],
+      "seeds_after_padding": [
+        6,
+        7,
+        8,
+        13,
+        14,
+        0,
+        17,
+        2,
+        9,
+        5,
+        10,
+        4,
+        16,
+        1,
+        3,
+        15,
+        12,
+        11
+      ],
+      "padded_back": 8
+    },
+    {
+      "filter": "qp",
+      "seeds_in": [
+        6,
+        7,
+        8,
+        13,
+        14,
+        0,
+        17,
+        2,
+        9,
+        5,
+        10,
+        4,
+        16,
+        1,
+        3,
+        15,
+        12,
+        11
+      ],
+      "seeds_passed": [
+        6,
+        7,
+        8,
+        14,
+        9,
+        5,
+        10,
+        15,
+        12
+      ],
+      "qp_error": [
+        0.00037110690027475357,
+        0.0005838043289259076,
+        0.004277331754565239,
+        0.01176302507519722,
+        0.007689798250794411,
+        0.06407483667135239,
+        0.1613810658454895,
+        0.010975509881973267,
+        0.00736294174566865,
+        0.003747633658349514,
+        0.005732101388275623,
+        0.3879707455635071,
+        0.020275291055440903,
+        0.14869995415210724,
+        0.010875058360397816,
+        0.00443567568436265,
+        0.0028138700872659683,
+        0.05434640124440193
+      ],
+      "seeds_after_padding": [
+        6,
+        7,
+        8,
+        14,
+        9,
+        5,
+        10,
+        15,
+        12,
+        17,
+        11,
+        4,
+        16,
+        2,
+        1,
+        0,
+        13,
+        3
+      ],
+      "padded_back": 9
+    },
+    {
+      "filter": "fps",
+      "seeds_in": [
+        6,
+        7,
+        8,
+        14,
+        9,
+        5,
+        10,
+        15,
+        12,
+        17,
+        11,
+        4,
+        16,
+        2,
+        1,
+        0,
+        13,
+        3
+      ],
+      "seeds_passed": [
+        6,
+        7,
+        8,
+        14,
+        9,
+        5,
+        10,
+        15,
+        12,
+        17,
+        11,
+        4,
+        16,
+        2,
+        1,
+        0,
+        13,
+        3
+      ],
+      "seeds_after_padding": [
+        6,
+        7,
+        8,
+        14,
+        9,
+        5,
+        10,
+        15,
+        12,
+        17,
+        11,
+        4,
+        16,
+        2,
+        1,
+        0,
+        13,
+        3
+      ],
+      "padded_back": 0
+    }
+  ],
+  "qp_error": [
+    [
+      0.00037110690027475357,
+      0.0005838043289259076,
+      0.004277331754565239,
+      0.01176302507519722,
+      0.007689798250794411,
+      0.06407483667135239,
+      0.1613810658454895,
+      0.010975509881973267,
+      0.00736294174566865,
+      0.003747633658349514,
+      0.005732101388275623,
+      0.3879707455635071,
+      0.020275291055440903,
+      0.14869995415210724,
+      0.010875058360397816,
+      0.00443567568436265,
+      0.0028138700872659683,
+      0.05434640124440193
+    ]
+  ],
+  "init_files": {
+    "0_0_grasp.npy": {
+      "pose_index": 6,
+      "variant_id": "grasp_6_r90_d30",
+      "prediction_id": "grasp_6",
+      "extra_roll_index": 0,
+      "roll_deg": 90.0,
+      "depth_mm": 30.0,
+      "thumb_gap_mm": 0.025479376343720217,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ],
+      "seed_id": 6,
+      "template": {
+        "pose_index": 6,
+        "path": "/home/yspark/projects/ICRA/third_party/dexonomy/output/offcmp8_offset_s0_hx5_d20/new_tmpl/33_Inferior_Pincer/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_85_grasp.npy",
+        "sha256": "8e9e1bd3b5562ef374a6f0ec3dde90f30773a0429b61f826120a3507bc187c76",
+        "contact_index": 2,
+        "contacts": 4,
+        "n_evo": 6.0
+      }
+    },
+    "0_1_grasp.npy": {
+      "pose_index": 7,
+      "variant_id": "grasp_6_r0_d0",
+      "prediction_id": "grasp_6",
+      "extra_roll_index": 0,
+      "roll_deg": 0.0,
+      "depth_mm": 0.0,
+      "thumb_gap_mm": 0.04064940345474881,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ],
+      "seed_id": 7,
+      "template": {
+        "pose_index": 7,
+        "path": "/home/yspark/projects/ICRA/third_party/dexonomy/output/offcmp8_offset_s0_hx5_d20/new_tmpl/33_Inferior_Pincer/core_can_f8fd565d00a7a6f9fef1ca8c5a3d2e08/floating/scale008/0_27_grasp.npy",
+        "sha256": "f5e483e0afe306b94d74428d4c0c6f7cf29b35c8bb7dfd5b911654a9fe9bb737",
+        "contact_index": 2,
+        "contacts": 4,
+        "n_evo": 6.0
+      }
+    },
+    "0_2_grasp.npy": {
+      "pose_index": 8,
+      "variant_id": "grasp_6_r0_d15",
+      "prediction_id": "grasp_6",
+      "extra_roll_index": 0,
+      "roll_deg": 0.0,
+      "depth_mm": 15.0,
+      "thumb_gap_mm": 0.11549336569117392,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ],
+      "seed_id": 8,
+      "template": {
+        "pose_index": 8,
+        "path": "/home/yspark/projects/ICRA/third_party/dexonomy/output/offcmp8_offset_s0_hx5_d20/new_tmpl/33_Inferior_Pincer/core_can_d44cec47dbdead7ca46192d8b30882/floating/scale008/0_67_grasp.npy",
+        "sha256": "a3445da5e5bcd57b58262d64b1c29947522366c8821215f2b7573910165e2508",
+        "contact_index": 2,
+        "contacts": 4,
+        "n_evo": 6.0
+      }
+    },
+    "0_3_grasp.npy": {
+      "pose_index": 14,
+      "variant_id": "grasp_8_r300_d15",
+      "prediction_id": "grasp_8",
+      "extra_roll_index": 0,
+      "roll_deg": 299.99999999999994,
+      "depth_mm": 15.0,
+      "thumb_gap_mm": 0.04255301791169483,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ],
+      "seed_id": 14,
+      "template": {
+        "pose_index": 14,
+        "path": "/home/yspark/projects/ICRA/third_party/dexonomy/output/offcmp8_offset_s0_hx5_d20/new_tmpl/33_Inferior_Pincer/core_jar_a3b9caa337ca7c8e6597d391ab6fcc1/floating/scale008/0_29_grasp.npy",
+        "sha256": "c19753f9bcc5e62e3357cc8bb87b13b5e49c333dd255a0eb4201ca52a6e417c8",
+        "contact_index": 2,
+        "contacts": 4,
+        "n_evo": 6.0
+      }
+    },
+    "0_4_grasp.npy": {
+      "pose_index": 9,
+      "variant_id": "grasp_7_r30_d0",
+      "prediction_id": "grasp_7",
+      "extra_roll_index": 0,
+      "roll_deg": 29.999999999999996,
+      "depth_mm": 0.0,
+      "thumb_gap_mm": 16.876168976323513,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ],
+      "seed_id": 9,
+      "template": {
+        "pose_index": 9,
+        "path": "/home/yspark/projects/ICRA/third_party/dexonomy/output/offcmp8_offset_s0_hx5_d20/new_tmpl/33_Inferior_Pincer/core_bottle_e56e77c6eb21d9bdf577ff4de1ac394c/floating/scale011/0_7_grasp.npy",
+        "sha256": "990a4c9084e26502ac6c1625bf9cd5b8c4b91dbb87bf42505659e12c3c2fcbcc",
+        "contact_index": 3,
+        "contacts": 4,
+        "n_evo": 6.0
+      }
+    },
+    "0_5_grasp.npy": {
+      "pose_index": 5,
+      "variant_id": "grasp_5_r300_d15",
+      "prediction_id": "grasp_5",
+      "extra_roll_index": 0,
+      "roll_deg": 299.99999999999994,
+      "depth_mm": 15.0,
+      "thumb_gap_mm": 0.036376338982573635,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ],
+      "seed_id": 5,
+      "template": {
+        "pose_index": 5,
+        "path": "/home/yspark/projects/ICRA/third_party/dexonomy/output/offcmp8_offset_s0_hx5_d20/new_tmpl/33_Inferior_Pincer/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_84_grasp.npy",
+        "sha256": "a7bb1f81b2dd2e6a119cfa2a7bc3e059db5c35cb510d5d130edd01b7d19bbbe5",
+        "contact_index": 3,
+        "contacts": 4,
+        "n_evo": 5.0
+      }
+    },
+    "0_6_grasp.npy": {
+      "pose_index": 10,
+      "variant_id": "grasp_7_r30_d15",
+      "prediction_id": "grasp_7",
+      "extra_roll_index": 0,
+      "roll_deg": 29.999999999999996,
+      "depth_mm": 15.0,
+      "thumb_gap_mm": 17.329722749498995,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ],
+      "seed_id": 10,
+      "template": {
+        "pose_index": 10,
+        "path": "/home/yspark/projects/ICRA/third_party/dexonomy/output/offcmp8_offset_s0_hx5_d20/new_tmpl/33_Inferior_Pincer/core_cellphone_c3a90bcecce7f4817b6fd5468f603b31/floating/scale011/0_17_grasp.npy",
+        "sha256": "47a5d944737ace70652a94970025998b6efd6a3dfbd4170dec6b0655eb48bc6e",
+        "contact_index": 3,
+        "contacts": 4,
+        "n_evo": 2.0
+      }
+    },
+    "0_7_grasp.npy": {
+      "pose_index": 15,
+      "variant_id": "grasp_9_r330_d15",
+      "prediction_id": "grasp_9",
+      "extra_roll_index": 0,
+      "roll_deg": 330.0,
+      "depth_mm": 15.0,
+      "thumb_gap_mm": 0.03275818472095609,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ],
+      "seed_id": 15,
+      "template": {
+        "pose_index": 15,
+        "path": "/home/yspark/projects/ICRA/third_party/dexonomy/output/offcmp8_offset_s0_hx5_d20/new_tmpl/33_Inferior_Pincer/core_cellphone_c864337d009c823290a9c3b0b32f8569/floating/scale014/0_17_grasp.npy",
+        "sha256": "d4713e17ea2e84bfec9f28091319427761966eae93a426805671d018b681a781",
+        "contact_index": 0,
+        "contacts": 4,
+        "n_evo": 1.0
+      }
+    },
+    "0_8_grasp.npy": {
+      "pose_index": 12,
+      "variant_id": "grasp_8_r330_d15",
+      "prediction_id": "grasp_8",
+      "extra_roll_index": 0,
+      "roll_deg": 330.0,
+      "depth_mm": 15.0,
+      "thumb_gap_mm": 0.008304559155657422,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ],
+      "seed_id": 12,
+      "template": {
+        "pose_index": 12,
+        "path": "/home/yspark/projects/ICRA/third_party/dexonomy/assets/hand/hx5_d20/init_tmpl/33_Inferior_Pincer.npy",
+        "sha256": "6b50ec3aa3734f50050074aca70db9d5cf1c9cfe8366e2a3ba20870d030dd9c1",
+        "contact_index": 3,
+        "contacts": 4,
+        "n_evo": 0.0
+      }
+    },
+    "0_9_grasp.npy": {
+      "pose_index": 17,
+      "variant_id": "grasp_9_r330_d30",
+      "prediction_id": "grasp_9",
+      "extra_roll_index": 0,
+      "roll_deg": 330.0,
+      "depth_mm": 30.0,
+      "thumb_gap_mm": 0.4671151493890502,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ],
+      "seed_id": 17,
+      "template": {
+        "pose_index": 17,
+        "path": "/home/yspark/projects/ICRA/third_party/dexonomy/output/offcmp8_offset_s0_hx5_d20/new_tmpl/33_Inferior_Pincer/core_jar_5e1c630396c0a1ce30cbeaf8f6d93761/floating/scale011/0_93_grasp.npy",
+        "sha256": "0449b245566d1bdbb349ac49a94d4e2e30efabbcc775b0be1bffb8eef87fd9ae",
+        "contact_index": 2,
+        "contacts": 4,
+        "n_evo": 5.0
+      }
+    },
+    "0_10_grasp.npy": {
+      "pose_index": 11,
+      "variant_id": "grasp_7_r60_d15",
+      "prediction_id": "grasp_7",
+      "extra_roll_index": 0,
+      "roll_deg": 59.99999999999999,
+      "depth_mm": 15.0,
+      "thumb_gap_mm": 19.50770298663213,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ],
+      "seed_id": 11,
+      "template": {
+        "pose_index": 11,
+        "path": "/home/yspark/projects/ICRA/third_party/dexonomy/output/offcmp8_offset_s0_hx5_d20/new_tmpl/33_Inferior_Pincer/core_cellphone_396fba35f02a9cc9bc1f690a77fffa14/floating/scale011/0_88_grasp.npy",
+        "sha256": "abf5d5e04c01f69b2c3506ff68bf96c45c5de59d0e5f764b0183b1f036bb0216",
+        "contact_index": 0,
+        "contacts": 4,
+        "n_evo": 2.0
+      }
+    },
+    "0_11_grasp.npy": {
+      "pose_index": 4,
+      "variant_id": "grasp_5_r270_d30",
+      "prediction_id": "grasp_5",
+      "extra_roll_index": 0,
+      "roll_deg": 270.0,
+      "depth_mm": 30.0,
+      "thumb_gap_mm": 0.015379001616160272,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ],
+      "seed_id": 4,
+      "template": {
+        "pose_index": 4,
+        "path": "/home/yspark/projects/ICRA/third_party/dexonomy/output/offcmp8_offset_s0_hx5_d20/new_tmpl/33_Inferior_Pincer/core_cellphone_d9d06d2772ecc526c0dc3ed657ab97f0/floating/scale014/0_48_grasp.npy",
+        "sha256": "215fc702b899bccb7be48b07c8af9c762a03ef56e22268444bc0463d74bbf680",
+        "contact_index": 3,
+        "contacts": 4,
+        "n_evo": 2.0
+      }
+    },
+    "0_12_grasp.npy": {
+      "pose_index": 16,
+      "variant_id": "grasp_9_r300_d30",
+      "prediction_id": "grasp_9",
+      "extra_roll_index": 0,
+      "roll_deg": 299.99999999999994,
+      "depth_mm": 30.0,
+      "thumb_gap_mm": 0.12772175613880057,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ],
+      "seed_id": 16,
+      "template": {
+        "pose_index": 16,
+        "path": "/home/yspark/projects/ICRA/third_party/dexonomy/output/offcmp8_offset_s0_hx5_d20/new_tmpl/33_Inferior_Pincer/core_cellphone_6f63df7ca322514f41ced50d3a574698/floating/scale011/0_59_grasp.npy",
+        "sha256": "0c1853455bf789630b49b8ee448ec25752671465a1a82705ddc258719436aecd",
+        "contact_index": 3,
+        "contacts": 4,
+        "n_evo": 1.0
+      }
+    },
+    "0_13_grasp.npy": {
+      "pose_index": 2,
+      "variant_id": "grasp_1_r330_d15",
+      "prediction_id": "grasp_1",
+      "extra_roll_index": 0,
+      "roll_deg": 330.0,
+      "depth_mm": 15.0,
+      "thumb_gap_mm": 0.134024432976555,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ],
+      "seed_id": 2,
+      "template": {
+        "pose_index": 2,
+        "path": "/home/yspark/projects/ICRA/third_party/dexonomy/output/offcmp8_offset_s0_hx5_d20/new_tmpl/33_Inferior_Pincer/core_cellphone_325ecc3acd232a5e981b9cd34407d026/floating/scale014/0_99_grasp.npy",
+        "sha256": "4fa0be60f81706478ff5c37714b93d9bc75425b794b5327410ade7d7b71d27dd",
+        "contact_index": 0,
+        "contacts": 4,
+        "n_evo": 2.0
+      }
+    },
+    "0_14_grasp.npy": {
+      "pose_index": 1,
+      "variant_id": "grasp_1_r300_d15",
+      "prediction_id": "grasp_1",
+      "extra_roll_index": 0,
+      "roll_deg": 299.99999999999994,
+      "depth_mm": 15.0,
+      "thumb_gap_mm": 0.055020500746140726,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ],
+      "seed_id": 1,
+      "template": {
+        "pose_index": 1,
+        "path": "/home/yspark/projects/ICRA/third_party/dexonomy/output/offcmp8_offset_s0_hx5_d20/new_tmpl/33_Inferior_Pincer/core_camera_1ab3abb5c090d9b68e940c4e64a94e1e/floating/scale008/0_59_grasp.npy",
+        "sha256": "90bb6bf7d0c2626e2af6bafd9e69d0a876230619c46e9908c8ed015774c364c1",
+        "contact_index": 1,
+        "contacts": 4,
+        "n_evo": 2.0
+      }
+    },
+    "0_15_grasp.npy": {
+      "pose_index": 0,
+      "variant_id": "grasp_1_r300_d30",
+      "prediction_id": "grasp_1",
+      "extra_roll_index": 0,
+      "roll_deg": 299.99999999999994,
+      "depth_mm": 30.0,
+      "thumb_gap_mm": 0.0030101109444977585,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ],
+      "seed_id": 0,
+      "template": {
+        "pose_index": 0,
+        "path": "/home/yspark/projects/ICRA/third_party/dexonomy/output/offcmp8_offset_s0_hx5_d20/new_tmpl/33_Inferior_Pincer/core_bottle_e56e77c6eb21d9bdf577ff4de1ac394c/floating/scale011/0_6_grasp.npy",
+        "sha256": "d4925cb2eedbb6cdfe1b2e1f861da03a7d113d68b9e025cccf32d5055b06fda3",
+        "contact_index": 2,
+        "contacts": 4,
+        "n_evo": 2.0
+      }
+    },
+    "0_16_grasp.npy": {
+      "pose_index": 13,
+      "variant_id": "grasp_8_r330_d30",
+      "prediction_id": "grasp_8",
+      "extra_roll_index": 0,
+      "roll_deg": 330.0,
+      "depth_mm": 30.0,
+      "thumb_gap_mm": 0.020413263315943342,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ],
+      "seed_id": 13,
+      "template": {
+        "pose_index": 13,
+        "path": "/home/yspark/projects/ICRA/third_party/dexonomy/output/offcmp8_offset_s0_hx5_d20/new_tmpl/33_Inferior_Pincer/core_bottle_c553b7e594942f0a4c0bba210aa0d1/floating/scale011/0_2_grasp.npy",
+        "sha256": "98f8e55149951ec361984c6950b0c7b1b8a8d7ac32ba2a60580aef27320eba94",
+        "contact_index": 0,
+        "contacts": 4,
+        "n_evo": 6.0
+      }
+    },
+    "0_17_grasp.npy": {
+      "pose_index": 3,
+      "variant_id": "grasp_5_r150_d-15",
+      "prediction_id": "grasp_5",
+      "extra_roll_index": 0,
+      "roll_deg": 149.99999999999997,
+      "depth_mm": -15.0,
+      "thumb_gap_mm": 0.0022080680771033446,
+      "grip_offset": [
+        -0.09462283269893337,
+        -0.04937560623257232,
+        0.043825768994112016
+      ],
+      "seed_id": 3,
+      "template": {
+        "pose_index": 3,
+        "path": "/home/yspark/projects/ICRA/third_party/dexonomy/output/offcmp8_offset_s0_hx5_d20/new_tmpl/33_Inferior_Pincer/core_mug_10f6e09036350e92b3f21f1137c3c347/floating/scale005/0_99_grasp.npy",
+        "sha256": "087aea57a2b26d59932de51108752b4dc6cf08806d5c10a2e2fe52ae0fe13276",
+        "contact_index": 0,
+        "contacts": 4,
+        "n_evo": 2.0
+      }
+    }
+  },
+  "surviving_init_files": [
+    "0_0_grasp.npy",
+    "0_10_grasp.npy",
+    "0_11_grasp.npy",
+    "0_13_grasp.npy",
+    "0_14_grasp.npy",
+    "0_15_grasp.npy",
+    "0_17_grasp.npy",
+    "0_3_grasp.npy",
+    "0_8_grasp.npy",
+    "0_9_grasp.npy"
+  ]
+}

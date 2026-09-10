@@ -1,0 +1,123 @@
+Actual full DINO forward on initial and occluded-or-final can observations with causal references.
+/home/yspark/projects/ICRA/out/student-assets/dinov2/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/yspark/projects/ICRA/out/student-assets/dinov2/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/yspark/projects/ICRA/out/student-assets/dinov2/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+{
+  "architecture": "hx5_dexgraspvla_style_rdt",
+  "data_scope": "accepted training episodes; forward-only",
+  "data_io": "verified_memmap",
+  "cache_sha256": "9b06ea4925b8e942dad1464ba24948ba54797819b569d606ac243511439dcab0",
+  "vision": "local pretrained DINOv2",
+  "full_training_architecture_checked": true,
+  "optimizer_steps": 0,
+  "backward_calls": 0,
+  "model_unchanged": true,
+  "loss_finite": true,
+  "random_initialization_loss": 1.3167665004730225,
+  "prediction_shape": [
+    2,
+    64,
+    27
+  ],
+  "parameter_count": 557518875,
+  "config": {
+    "architecture": "hx5_dexgraspvla_style_rdt",
+    "action_dim": 27,
+    "state_dim": 27,
+    "action_horizon": 64,
+    "execute_steps": 8,
+    "image_size": 518,
+    "patch_size": 14,
+    "embedding_dim": 1024,
+    "layers": 12,
+    "heads": 8,
+    "mask_layers": 4,
+    "dropout": 0.1,
+    "diffusion_steps": 50,
+    "inference_steps": 16,
+    "noise_assignment": true,
+    "vision": {
+      "backend": "dinov2_local",
+      "source": "out/student-assets/dinov2",
+      "head_model": "dinov2_vitb14",
+      "head_weights": "out/student-assets/dinov2_vitb14_pretrain.pth",
+      "wrist_model": "dinov2_vitl14",
+      "wrist_weights": "out/student-assets/dinov2_vitl14_pretrain.pth"
+    },
+    "training": {
+      "seed": 42,
+      "batch_size": 8,
+      "num_workers": 0,
+      "epochs": 125,
+      "learning_rate": 0.0001,
+      "weight_decay": 0.0001,
+      "betas": [
+        0.95,
+        0.999
+      ],
+      "warmup_steps": 2000,
+      "gradient_clip": 1.0
+    },
+    "observation_version": 2,
+    "goal_image_size": 224
+  }
+}
+{
+  "completed": true,
+  "config_sha256": "e05cf7a805a986302b54251e439869a6ade24edf75bc060edbc48f2f9d7ac3c4",
+  "dataset_sha256": "ed6388e608b1b4e2b00fa0d986d7bc35177ead7b1a7be811a45454b74b92d579",
+  "encoders": [
+    {
+      "name": "dinov2_vitb14",
+      "frozen": true,
+      "weights_sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73"
+    },
+    {
+      "name": "dinov2_vitl14",
+      "frozen": true,
+      "weights_sha256": "d5383ea8f4877b2472eb973e0fd72d557c7da5d3611bd527ceeb1d7162cbf428"
+    }
+  ],
+  "online_offline_equal_observations": 3,
+  "memories": [
+    {
+      "episode_id": "teacher_0008_yaw_000",
+      "first_reference_ticks": [
+        0,
+        44
+      ],
+      "excluded_invisible_prefix": 0,
+      "both_masks_empty_frames": 0
+    }
+  ],
+  "full_model_sample_indices": [
+    0,
+    1250
+  ],
+  "sample_visibility": [
+    [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    ]
+  ],
+  "training_started": false,
+  "full_check_seconds": 128.58854029886425,
+  "backward_calls": 0,
+  "optimizer_steps": 0,
+  "downloads": 0
+}

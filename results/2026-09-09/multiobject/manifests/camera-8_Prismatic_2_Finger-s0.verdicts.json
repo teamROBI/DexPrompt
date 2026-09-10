@@ -1,0 +1,6 @@
+{
+  "/home/yspark/projects/Dexonomy/output/multi3_camera_8_Prismatic_2_Finger_s0_hx5_d20/grasp_data/8_Prismatic_2_Finger/core_camera_1ab3abb5c090d9b68e940c4e64a94e1e/floating/scale008/0_27_grasp.npy": "open_hand_inside_object",
+  "/home/yspark/projects/Dexonomy/output/multi3_camera_8_Prismatic_2_Finger_s0_hx5_d20/grasp_data/8_Prismatic_2_Finger/core_camera_1ab3abb5c090d9b68e940c4e64a94e1e/floating/scale008/0_51_grasp.npy": "hand_through_table",
+  "/home/yspark/projects/Dexonomy/output/multi3_camera_8_Prismatic_2_Finger_s0_hx5_d20/grasp_data/8_Prismatic_2_Finger/core_camera_1ab3abb5c090d9b68e940c4e64a94e1e/floating/scale008/0_57_grasp.npy": "hand_through_table",
+  "/home/yspark/projects/Dexonomy/output/multi3_camera_8_Prismatic_2_Finger_s0_hx5_d20/grasp_data/8_Prismatic_2_Finger/core_camera_1ab3abb5c090d9b68e940c4e64a94e1e/floating/scale008/0_60_grasp.npy": "hand_through_table"
+}

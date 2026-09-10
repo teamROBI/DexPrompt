@@ -1,0 +1,58 @@
+{
+  "architecture": "hx5_dexgraspvla_style_rdt",
+  "data_scope": "synthetic shape fixture; not demonstrations",
+  "data_io": "small_diagnostic_fixture_or_npz",
+  "cache_sha256": null,
+  "vision": "random patch fixture only",
+  "full_training_architecture_checked": false,
+  "optimizer_steps": 0,
+  "backward_calls": 0,
+  "model_unchanged": true,
+  "loss_finite": true,
+  "random_initialization_loss": 1.2926225662231445,
+  "prediction_shape": [
+    2,
+    8,
+    27
+  ],
+  "parameter_count": 123835,
+  "config": {
+    "architecture": "hx5_dexgraspvla_style_rdt",
+    "action_dim": 27,
+    "state_dim": 27,
+    "action_horizon": 8,
+    "execute_steps": 2,
+    "image_size": 28,
+    "patch_size": 14,
+    "embedding_dim": 32,
+    "layers": 2,
+    "heads": 4,
+    "mask_layers": 1,
+    "dropout": 0.1,
+    "diffusion_steps": 8,
+    "inference_steps": 4,
+    "noise_assignment": true,
+    "vision": {
+      "backend": "dinov2_local",
+      "source": null,
+      "head_model": "dinov2_vitb14",
+      "head_weights": null,
+      "wrist_model": "dinov2_vitl14",
+      "wrist_weights": null
+    },
+    "training": {
+      "seed": 42,
+      "batch_size": 8,
+      "num_workers": 0,
+      "epochs": 125,
+      "learning_rate": 0.0001,
+      "weight_decay": 0.0001,
+      "betas": [
+        0.95,
+        0.999
+      ],
+      "warmup_steps": 2000,
+      "gradient_clip": 1.0
+    }
+  }
+}

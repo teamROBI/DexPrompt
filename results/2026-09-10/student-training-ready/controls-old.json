@@ -1,0 +1,190 @@
+{
+  "completed": true,
+  "training_started": false,
+  "mode": "controls",
+  "scope": "train-task diagnosis",
+  "dataset_sha256": "267c23e2fa9a7d4104aa37d8b7436457301c4828d1af92c207f2ee986607946f",
+  "episodes": [
+    {
+      "episode_id": "source0_teacher_0002_yaw_000",
+      "object_id": "core_bottle_6444875e3217bf891f5f48a891d827bd",
+      "outcome": {
+        "recorded_actions": {
+          "ticks": 974,
+          "seed": 0,
+          "failure_reason": null,
+          "terminal_lift_seconds": 2.7600000000000002,
+          "terminal_teacher_contact_lift_seconds": 2.7600000000000002,
+          "longest_lift_seconds": 2.7600000000000002,
+          "longest_teacher_contact_lift_seconds": 2.7600000000000002,
+          "sustained_lift": true,
+          "teacher_compliant_lift": true,
+          "max_height_m": 0.14641263817472594,
+          "max_penetration_m": 0.0017611118693082056,
+          "max_digit_force_n": 8.768535717600162,
+          "saturated_command_ticks": 0,
+          "required_contact_groups": 2,
+          "max_simultaneous_contact_groups": 2,
+          "terminal_contact_groups": 2,
+          "all_contact_groups_ticks": 375
+        },
+        "stationary": {
+          "ticks": 974,
+          "seed": 0,
+          "failure_reason": null,
+          "terminal_lift_seconds": 0.0,
+          "terminal_teacher_contact_lift_seconds": 0.0,
+          "longest_lift_seconds": 0.0,
+          "longest_teacher_contact_lift_seconds": 0.0,
+          "sustained_lift": false,
+          "teacher_compliant_lift": false,
+          "max_height_m": 4.924585579324514e-07,
+          "max_penetration_m": 0.0,
+          "max_digit_force_n": 0.0,
+          "saturated_command_ticks": 0,
+          "required_contact_groups": 2,
+          "max_simultaneous_contact_groups": 0,
+          "terminal_contact_groups": 0,
+          "all_contact_groups_ticks": 0
+        },
+        "passed": true
+      }
+    },
+    {
+      "episode_id": "source0_teacher_0006_yaw_000",
+      "object_id": "core_bottle_6444875e3217bf891f5f48a891d827bd",
+      "outcome": {
+        "recorded_actions": {
+          "ticks": 971,
+          "seed": 0,
+          "failure_reason": null,
+          "terminal_lift_seconds": 2.7800000000000002,
+          "terminal_teacher_contact_lift_seconds": 2.7800000000000002,
+          "longest_lift_seconds": 2.7800000000000002,
+          "longest_teacher_contact_lift_seconds": 2.7800000000000002,
+          "sustained_lift": true,
+          "teacher_compliant_lift": true,
+          "max_height_m": 0.14737278761395656,
+          "max_penetration_m": 0.0018540081942561408,
+          "max_digit_force_n": 12.255576036085428,
+          "saturated_command_ticks": 0,
+          "required_contact_groups": 2,
+          "max_simultaneous_contact_groups": 2,
+          "terminal_contact_groups": 2,
+          "all_contact_groups_ticks": 374
+        },
+        "stationary": {
+          "ticks": 971,
+          "seed": 0,
+          "failure_reason": null,
+          "terminal_lift_seconds": 0.0,
+          "terminal_teacher_contact_lift_seconds": 0.0,
+          "longest_lift_seconds": 0.0,
+          "longest_teacher_contact_lift_seconds": 0.0,
+          "sustained_lift": false,
+          "teacher_compliant_lift": false,
+          "max_height_m": 4.924585579324514e-07,
+          "max_penetration_m": 0.0,
+          "max_digit_force_n": 0.0,
+          "saturated_command_ticks": 0,
+          "required_contact_groups": 2,
+          "max_simultaneous_contact_groups": 0,
+          "terminal_contact_groups": 0,
+          "all_contact_groups_ticks": 0
+        },
+        "passed": true
+      }
+    },
+    {
+      "episode_id": "source0_teacher_0016_yaw_000",
+      "object_id": "core_bottle_6444875e3217bf891f5f48a891d827bd",
+      "outcome": {
+        "recorded_actions": {
+          "ticks": 953,
+          "seed": 0,
+          "failure_reason": "approach_displacement",
+          "terminal_lift_seconds": 0.0,
+          "terminal_teacher_contact_lift_seconds": 0.0,
+          "longest_lift_seconds": 2.52,
+          "longest_teacher_contact_lift_seconds": 2.52,
+          "sustained_lift": false,
+          "teacher_compliant_lift": false,
+          "max_height_m": 0.15254050137339825,
+          "max_penetration_m": 0.0012210717011323987,
+          "max_digit_force_n": 5.910464043719983,
+          "saturated_command_ticks": 0,
+          "required_contact_groups": 2,
+          "max_simultaneous_contact_groups": 2,
+          "terminal_contact_groups": 2,
+          "all_contact_groups_ticks": 353
+        },
+        "stationary": {
+          "ticks": 974,
+          "seed": 0,
+          "failure_reason": null,
+          "terminal_lift_seconds": 0.0,
+          "terminal_teacher_contact_lift_seconds": 0.0,
+          "longest_lift_seconds": 0.0,
+          "longest_teacher_contact_lift_seconds": 0.0,
+          "sustained_lift": false,
+          "teacher_compliant_lift": false,
+          "max_height_m": 4.924585579324514e-07,
+          "max_penetration_m": 0.0,
+          "max_digit_force_n": 0.0,
+          "saturated_command_ticks": 0,
+          "required_contact_groups": 2,
+          "max_simultaneous_contact_groups": 0,
+          "terminal_contact_groups": 0,
+          "all_contact_groups_ticks": 0
+        },
+        "passed": false
+      }
+    },
+    {
+      "episode_id": "source1_teacher_0008_yaw_000",
+      "object_id": "core_can_7bd05573c09fb0c2af39ccaab9314b14",
+      "outcome": {
+        "recorded_actions": {
+          "ticks": 785,
+          "seed": 0,
+          "failure_reason": "approach_displacement",
+          "terminal_lift_seconds": 0.0,
+          "terminal_teacher_contact_lift_seconds": 0.0,
+          "longest_lift_seconds": 0.0,
+          "longest_teacher_contact_lift_seconds": 0.0,
+          "sustained_lift": false,
+          "teacher_compliant_lift": false,
+          "max_height_m": 0.04373061832799263,
+          "max_penetration_m": 0.0019998037298956995,
+          "max_digit_force_n": 22.70363698978101,
+          "saturated_command_ticks": 0,
+          "required_contact_groups": 5,
+          "max_simultaneous_contact_groups": 5,
+          "terminal_contact_groups": 5,
+          "all_contact_groups_ticks": 123
+        },
+        "stationary": {
+          "ticks": 1251,
+          "seed": 0,
+          "failure_reason": null,
+          "terminal_lift_seconds": 0.0,
+          "terminal_teacher_contact_lift_seconds": 0.0,
+          "longest_lift_seconds": 0.0,
+          "longest_teacher_contact_lift_seconds": 0.0,
+          "sustained_lift": false,
+          "teacher_compliant_lift": false,
+          "max_height_m": -1.8649579106577718e-06,
+          "max_penetration_m": 0.0,
+          "max_digit_force_n": 0.0,
+          "saturated_command_ticks": 0,
+          "required_contact_groups": 5,
+          "max_simultaneous_contact_groups": 0,
+          "terminal_contact_groups": 0,
+          "all_contact_groups_ticks": 0
+        },
+        "passed": false
+      }
+    }
+  ],
+  "checks_passed": false
+}

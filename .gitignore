@@ -1,0 +1,20 @@
+.venv/
+.venv-student/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+out/
+model/graspgen/
+data
+modules/graspgenx
+third_party/dexonomy
+third_party/dexlearn
+third_party/graspvla
+third_party/dexgraspvla
+third_party/robotis_mujoco_menagerie
+ref/
+
+# Diagnostics written while chasing a specific question. Kept out of the tree,
+# listed in HANDOVER.md under "Diagnostics worth keeping".
+scratchpad/

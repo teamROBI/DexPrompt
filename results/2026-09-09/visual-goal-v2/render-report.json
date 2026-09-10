@@ -1,0 +1,47 @@
+{
+  "completed": true,
+  "training_started": false,
+  "source_manifest_sha256": "c6f1c6b13e862ad6e0cea1cf996f3b25bfa300710fe415712cf53360bc5d121d",
+  "visual_profile": {
+    "version": 2,
+    "width": 256,
+    "height": 256,
+    "head_tilt_down_degrees": 20
+  },
+  "episodes": [
+    {
+      "episode_id": "teacher_0002_yaw_000",
+      "frames": 974,
+      "state_mismatches": 0,
+      "max_signal_error": 0.0,
+      "head_original_empty": 0,
+      "head_profile_empty": 0,
+      "both_profile_empty": 0,
+      "gained_head_frames": 0,
+      "lost_head_frames": 0
+    },
+    {
+      "episode_id": "teacher_0006_yaw_000",
+      "frames": 971,
+      "state_mismatches": 0,
+      "max_signal_error": 0.0,
+      "head_original_empty": 416,
+      "head_profile_empty": 157,
+      "both_profile_empty": 157,
+      "gained_head_frames": 261,
+      "lost_head_frames": 2
+    },
+    {
+      "episode_id": "teacher_0016_yaw_000",
+      "frames": 974,
+      "state_mismatches": 0,
+      "max_signal_error": 0.0,
+      "head_original_empty": 358,
+      "head_profile_empty": 356,
+      "both_profile_empty": 30,
+      "gained_head_frames": 13,
+      "lost_head_frames": 11
+    }
+  ],
+  "dataset_training_ready": false
+}

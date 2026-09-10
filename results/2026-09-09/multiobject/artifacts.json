@@ -1,0 +1,19 @@
+{
+  "out/multiobject/can/executed-all/episodes/teacher_0008_yaw_000.npz": {
+    "sha256": "b4ddabc29bd969e8e582c61e5d9a095abe1b7f6611d16fba3b813645cdb91a9e",
+    "bytes": 1496212
+  },
+  "out/multiobject/can/reproduce/episodes/teacher_0000_yaw_000.npz": {
+    "sha256": "b4ddabc29bd969e8e582c61e5d9a095abe1b7f6611d16fba3b813645cdb91a9e",
+    "bytes": 1496212
+  },
+  "out/multiobject/manifests/can-distinct.json": {
+    "sha256": "efa3aa19bfaf2c98f4045d87a3a177db24fb299379514d7abe121ebb72f35c15"
+  },
+  "out/multiobject/manifests/camera-distinct.json": {
+    "sha256": "90d1948969eb58a53911469a49cdcbbc61979c5db3ac4c01f2d00c21719c720a"
+  },
+  "out/multiobject/manifests/camera-distinct2.json": {
+    "sha256": "4f8ab83a7e4c44c9beac4f9d1ebfccef16190e040c4e2b48d9953ef7f244ed7e"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "architecture": "hx5_dexgraspvla_style_rdt",
+  "training_ready": false,
+  "missing": [
+    "validation split is empty; collect additional split groups"
+  ],
+  "dependencies": {
+    "torch": {
+      "imported": true,
+      "version": "2.6.0+cu124"
+    },
+    "numpy": {
+      "imported": true,
+      "version": "2.2.6"
+    },
+    "scipy": {
+      "imported": true,
+      "version": "1.15.3"
+    },
+    "torchvision": {
+      "imported": true,
+      "version": "0.21.0+cu124"
+    },
+    "omegaconf": {
+      "imported": true,
+      "version": "2.3.1"
+    }
+  },
+  "episode_counts": {
+    "train": 3,
+    "val": 0,
+    "test": 0
+  },
+  "observation_version": 2,
+  "unreferenced_prefix_frames": 0,
+  "cache_sha256": "6aca7ee147370c789e2a3f5676fcbd7e366ebace872bb036f18121d1d2f821da",
+  "optimizer_steps": 0,
+  "pretrained_policy_loaded": false,
+  "scope": "HX5 architectural adaptation; language grounding is external"
+}

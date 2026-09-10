@@ -1,0 +1,36 @@
+=== A-seed0 ===
+5 candidate(s): the starting policy and 4 checkpoint(s)
+  baseline               mean completes                  sampled 13/20
+  step_00040960          mean completes                  sampled 13/20
+  step_00051200          mean completes                  sampled 14/20
+  step_00061440          mean completes                  sampled 20/20
+  step_00071680          mean quality_penetration       
+
+selected: step_00061440 (out/rl-approach/A-seed0/checkpoints/policy_step_00061440.pt)
+  improves on the starting policy: 20/20 against 13/20
+out/rl-approach/A-seed0/selection.json
+=== A-seed1 ===
+8 candidate(s): the starting policy and 7 checkpoint(s)
+  baseline               mean completes                  sampled 13/20
+  step_00040960          mean completes                  sampled 13/20
+  step_00051200          mean completes                  sampled 9/20
+  step_00061440          mean quality_approach_displacement
+  step_00071680          mean quality_approach_displacement
+  step_00081920          mean quality_approach_displacement
+  step_00092160          mean quality_approach_displacement
+  step_00102400          mean quality_penetration       
+
+selected: baseline (out/rl-approach/bc-v1/policy.pt)
+  no checkpoint beat the policy the run started from; the run preserved it at best
+out/rl-approach/A-seed1/selection.json
+=== B-seed0 ===
+4 candidate(s): the starting policy and 3 checkpoint(s)
+  baseline               mean completes                  sampled 13/20
+  step_00040960          mean completes                  sampled 13/20
+  step_00051200          mean quality_approach_displacement
+  step_00061440          mean quality_approach_displacement
+
+selected: baseline (out/rl-approach/bc-v1/policy.pt)
+  no checkpoint beat the policy the run started from; the run preserved it at best
+out/rl-approach/B-seed0/selection.json
+SELECTDONE

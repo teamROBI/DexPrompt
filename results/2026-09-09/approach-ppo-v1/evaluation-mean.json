@@ -1,0 +1,95 @@
+{
+  "policy": "out/rl-approach/ppo-v1/policy.pt",
+  "steps": 2000896,
+  "sampled": false,
+  "episodes": [
+    {
+      "status": "approach_timeout",
+      "success": false,
+      "approach_ticks": 600,
+      "handover_tick": null,
+      "executor_status": null,
+      "closest": 0.018158860769813722,
+      "position_error": 0.26939541972069225,
+      "orientation_error": 2.238581949304566,
+      "displacement": 9.447725951192409e-06,
+      "pushed": 2.474644734362539e-05,
+      "return": -8.467383674149717,
+      "discounted_return": -4.810768226751657
+    },
+    {
+      "status": "approach_timeout",
+      "success": false,
+      "approach_ticks": 600,
+      "handover_tick": null,
+      "executor_status": null,
+      "closest": 0.018158860769813722,
+      "position_error": 0.26939541972069225,
+      "orientation_error": 2.238581949304566,
+      "displacement": 9.447725951192409e-06,
+      "pushed": 2.474644734362539e-05,
+      "return": -8.467383674149717,
+      "discounted_return": -4.810768226751657
+    },
+    {
+      "status": "approach_timeout",
+      "success": false,
+      "approach_ticks": 600,
+      "handover_tick": null,
+      "executor_status": null,
+      "closest": 0.018158860769813722,
+      "position_error": 0.26939541972069225,
+      "orientation_error": 2.238581949304566,
+      "displacement": 9.447725951192409e-06,
+      "pushed": 2.474644734362539e-05,
+      "return": -8.467383674149717,
+      "discounted_return": -4.810768226751657
+    }
+  ],
+  "summary": {
+    "episodes": 3,
+    "handover_rate": 0.0,
+    "success_rate": 0.0,
+    "statuses": {
+      "approach_timeout": 3
+    },
+    "closest_m": {
+      "min": 0.018158860769813722,
+      "median": 0.018158860769813722,
+      "max": 0.018158860769813722
+    },
+    "mean_approach_ticks": 600.0,
+    "mean_discounted_return": -4.810768226751657,
+    "max_object_push_m": 2.474644734362539e-05
+  },
+  "references": {
+    "recorded_approach": {
+      "status": "completed",
+      "success": true,
+      "approach_ticks": 451,
+      "handover_tick": 451,
+      "executor_status": "completed",
+      "closest": 0.0026541228444637585,
+      "position_error": 0.0026541228444637585,
+      "orientation_error": 0.0025573054940774124,
+      "displacement": 1.0192455205959867e-05,
+      "pushed": 2.4746447343621957e-05,
+      "return": 35.70839168922935,
+      "discounted_return": 25.738251642681032
+    },
+    "zero_actions": {
+      "status": "approach_timeout",
+      "success": false,
+      "approach_ticks": 600,
+      "handover_tick": null,
+      "executor_status": null,
+      "closest": 0.30364136169362693,
+      "position_error": 0.30364136169362693,
+      "orientation_error": 1.8388329616392103,
+      "displacement": 9.447725950152513e-06,
+      "pushed": 2.4746447343578027e-05,
+      "return": -9.52303598504114,
+      "discounted_return": -4.810768226751634
+    }
+  }
+}

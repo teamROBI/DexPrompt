@@ -1,0 +1,14 @@
+teacher_0008_yaw_000: 0/1251
+teacher_0008_yaw_000: 100/1251
+teacher_0008_yaw_000: 200/1251
+teacher_0008_yaw_000: 300/1251
+teacher_0008_yaw_000: 400/1251
+teacher_0008_yaw_000: 500/1251
+teacher_0008_yaw_000: 600/1251
+teacher_0008_yaw_000: 700/1251
+teacher_0008_yaw_000: 800/1251
+teacher_0008_yaw_000: 900/1251
+teacher_0008_yaw_000: 1000/1251
+teacher_0008_yaw_000: 1100/1251
+teacher_0008_yaw_000: 1200/1251
+{"episode_id": "teacher_0008_yaw_000", "frames": 1251, "state_mismatches": 0, "max_signal_error": 0.0, "head_original_empty": 35, "head_profile_empty": 0, "both_profile_empty": 0, "gained_head_frames": 35, "lost_head_frames": 0}

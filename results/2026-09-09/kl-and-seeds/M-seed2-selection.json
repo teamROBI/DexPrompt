@@ -1,0 +1,124 @@
+{
+  "run": "out/rl-approach/M-seed2",
+  "baseline": "out/rl-approach/bc-v1/policy.pt",
+  "seeds": "100-119",
+  "std": 0.05,
+  "candidates": [
+    {
+      "name": "baseline",
+      "policy": "out/rl-approach/bc-v1/policy.pt",
+      "sha256": "f9caf903f63ae1e93ffa265521f03247259092716461a47cb709edeead737f82",
+      "steps": 0,
+      "mean_action_status": "completed",
+      "mean_action_completes": true,
+      "sampled_completed": 13,
+      "sampled_episodes": 20,
+      "sampled_statuses": {
+        "completed": 13,
+        "quality_approach_displacement": 4,
+        "quality_penetration": 3
+      },
+      "median_closest_m": 0.004169133013047009
+    },
+    {
+      "name": "step_00040960",
+      "policy": "out/rl-approach/M-seed2/checkpoints/policy_step_00040960.pt",
+      "sha256": "7bc719cf7e0a21b4c315616de0b1c18b3d08577f95cc80e6735624cdabf8eea9",
+      "steps": 40960,
+      "mean_action_status": "completed",
+      "mean_action_completes": true,
+      "sampled_completed": 13,
+      "sampled_episodes": 20,
+      "sampled_statuses": {
+        "completed": 13,
+        "quality_approach_displacement": 4,
+        "quality_penetration": 3
+      },
+      "median_closest_m": 0.004169133013047009
+    },
+    {
+      "name": "step_00056320",
+      "policy": "out/rl-approach/M-seed2/checkpoints/policy_step_00056320.pt",
+      "sha256": "ceb5a41228f9956d44a20d15b406c95012d2aec7733f7568344ae2c2b12c504a",
+      "steps": 56320,
+      "mean_action_status": "completed",
+      "mean_action_completes": true,
+      "sampled_completed": 5,
+      "sampled_episodes": 20,
+      "sampled_statuses": {
+        "quality_approach_displacement": 10,
+        "quality_penetration": 5,
+        "completed": 5
+      },
+      "median_closest_m": 0.0053064908421647005
+    },
+    {
+      "name": "step_00057344",
+      "policy": "out/rl-approach/M-seed2/checkpoints/policy_step_00057344.pt",
+      "sha256": "574b1e3933aeb19aa1d02a5a6b101089d39f1faf4d5c1ab1424c195fc7c3db17",
+      "steps": 57344,
+      "mean_action_status": "completed",
+      "mean_action_completes": true,
+      "sampled_completed": 5,
+      "sampled_episodes": 20,
+      "sampled_statuses": {
+        "quality_approach_displacement": 10,
+        "quality_penetration": 5,
+        "completed": 5
+      },
+      "median_closest_m": 0.0053064908421647005
+    },
+    {
+      "name": "step_00071680",
+      "policy": "out/rl-approach/M-seed2/checkpoints/policy_step_00071680.pt",
+      "sha256": "9f5318e75154f5f2dc46f50398f95a4770c579f2bbffc72ea5ec71266c409452",
+      "steps": 71680,
+      "mean_action_status": "completed",
+      "mean_action_completes": true,
+      "sampled_completed": 13,
+      "sampled_episodes": 20,
+      "sampled_statuses": {
+        "completed": 13,
+        "quality_approach_displacement": 7
+      },
+      "median_closest_m": 0.003726698106022646
+    },
+    {
+      "name": "step_00083968",
+      "policy": "out/rl-approach/M-seed2/checkpoints/policy_step_00083968.pt",
+      "sha256": "218d44ed6ec674f8a6b86538a5581868c67de7317226bdaa9a8fe85d8c503c04",
+      "steps": 83968,
+      "mean_action_status": "completed",
+      "mean_action_completes": true,
+      "sampled_completed": 13,
+      "sampled_episodes": 20,
+      "sampled_statuses": {
+        "completed": 13,
+        "quality_penetration": 1,
+        "quality_approach_displacement": 6
+      },
+      "median_closest_m": 0.0039021830528943166
+    },
+    {
+      "name": "step_00099328",
+      "policy": "out/rl-approach/M-seed2/checkpoints/policy_step_00099328.pt",
+      "sha256": "8508e35f8217fa8e488277627ad8089e4bcbc9b5556702898752fdb4f1ed6999",
+      "steps": 99328,
+      "mean_action_status": "completed",
+      "mean_action_completes": true,
+      "sampled_completed": 17,
+      "sampled_episodes": 20,
+      "sampled_statuses": {
+        "completed": 17,
+        "quality_approach_displacement": 3
+      },
+      "median_closest_m": 0.0033416410614242388
+    }
+  ],
+  "selected": "step_00099328",
+  "selected_policy": "out/rl-approach/M-seed2/checkpoints/policy_step_00099328.pt",
+  "selected_sha256": "8508e35f8217fa8e488277627ad8089e4bcbc9b5556702898752fdb4f1ed6999",
+  "improved_on_baseline": true,
+  "baseline_completed": 13,
+  "selected_completed": 17
+}

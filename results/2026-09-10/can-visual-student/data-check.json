@@ -1,0 +1,59 @@
+{
+  "training_started": false,
+  "non_visual_arrays_exact": {
+    "right_state": true,
+    "action": true,
+    "timestamp": true,
+    "control_dt": true,
+    "phase": true,
+    "contact_groups": true,
+    "group_forces_min": true,
+    "group_forces_max": true,
+    "digit_force_max": true,
+    "target_height_min": true,
+    "object_xy_displacement_max": true,
+    "non_target_displacement_max": true,
+    "robot_object_penetration_max": true,
+    "robot_table_penetration_max": true,
+    "robot_obstacle_penetration_max": true
+  },
+  "quality_verdict_exact": true,
+  "first_references": [
+    {
+      "camera": "head",
+      "first_visible_tick": 0,
+      "first_visible_pixels": 1347
+    },
+    {
+      "camera": "wrist",
+      "first_visible_tick": 44,
+      "first_visible_pixels": 3
+    }
+  ],
+  "files": {
+    "out/multiobject/can/executed-all/manifest.json": {
+      "sha256": "4e19dda5c78e1811f656dd9d52958e99c6ec947e75af713c6223aa31a4d9ea7e",
+      "bytes": 420635
+    },
+    "out/multiobject/can/executed-all/episodes/teacher_0008_yaw_000.npz": {
+      "sha256": "b4ddabc29bd969e8e582c61e5d9a095abe1b7f6611d16fba3b813645cdb91a9e",
+      "bytes": 1496212
+    },
+    "out/student-can-visibility-v2/manifest.json": {
+      "sha256": "ed6388e608b1b4e2b00fa0d986d7bc35177ead7b1a7be811a45454b74b92d579",
+      "bytes": 18626
+    },
+    "out/student-can-visibility-v2/episodes/teacher_0008_yaw_000.npz": {
+      "sha256": "dcee8579cf9db46ca77ec19d0b819f9e61103ab200598d768fc4109c60ef35f1",
+      "bytes": 32270735
+    },
+    "configs/hx5_student.visibility.local.json": {
+      "sha256": "e05cf7a805a986302b54251e439869a6ade24edf75bc060edbc48f2f9d7ac3c4",
+      "bytes": 956
+    },
+    "out/student-can-visibility-v2-cache/manifest.json": {
+      "sha256": "9b06ea4925b8e942dad1464ba24948ba54797819b569d606ac243511439dcab0",
+      "bytes": 4024
+    }
+  }
+}

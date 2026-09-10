@@ -1,0 +1,83 @@
+{
+  "passed": true,
+  "training_started": false,
+  "episodes": [
+    {
+      "episode": "source0_teacher_0002_yaw_000",
+      "checked_ticks": [
+        0,
+        1,
+        344,
+        345,
+        346,
+        973
+      ],
+      "reference_ticks": [
+        0,
+        345
+      ],
+      "reference_pixels": [
+        861,
+        920
+      ]
+    },
+    {
+      "episode": "source0_teacher_0006_yaw_000",
+      "checked_ticks": [
+        0,
+        1,
+        450,
+        451,
+        452,
+        970
+      ],
+      "reference_ticks": [
+        0,
+        451
+      ],
+      "reference_pixels": [
+        861,
+        2943
+      ]
+    },
+    {
+      "episode": "source0_teacher_0016_yaw_000",
+      "checked_ticks": [
+        0,
+        1,
+        456,
+        457,
+        458,
+        973
+      ],
+      "reference_ticks": [
+        0,
+        457
+      ],
+      "reference_pixels": [
+        861,
+        2060
+      ]
+    },
+    {
+      "episode": "source1_teacher_0008_yaw_000",
+      "checked_ticks": [
+        0,
+        1,
+        394,
+        395,
+        396,
+        1250
+      ],
+      "reference_ticks": [
+        0,
+        395
+      ],
+      "reference_pixels": [
+        1347,
+        1637
+      ]
+    }
+  ],
+  "observations_compared": 24
+}

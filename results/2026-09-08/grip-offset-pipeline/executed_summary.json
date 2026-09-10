@@ -1,0 +1,48 @@
+{
+  "baseline": [
+    {
+      "episode": "teacher_0000_yaw_000",
+      "accepted": true,
+      "sha": "d83891fd5b06",
+      "ticks": 955,
+      "rise_cm": 14.7,
+      "peak_force_N": 5.94,
+      "groups_at_end": 2,
+      "groups": 2
+    }
+  ],
+  "offset": [
+    {
+      "episode": "teacher_0000_yaw_000",
+      "accepted": true,
+      "sha": "e3b26fc6ab88",
+      "ticks": 973,
+      "rise_cm": 15.08,
+      "peak_force_N": 10.47,
+      "groups_at_end": 2,
+      "groups": 2
+    }
+  ],
+  "zero": [
+    {
+      "episode": "teacher_0000_yaw_000",
+      "accepted": true,
+      "sha": "db639b34413b",
+      "ticks": 1112,
+      "rise_cm": 14.39,
+      "peak_force_N": 12.15,
+      "groups_at_end": 2,
+      "groups": 2
+    },
+    {
+      "episode": "teacher_0001_yaw_000",
+      "accepted": true,
+      "sha": "95b4669f7c85",
+      "ticks": 1000,
+      "rise_cm": 13.95,
+      "peak_force_N": 20.54,
+      "groups_at_end": 2,
+      "groups": 2
+    }
+  ]
+}

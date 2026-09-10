@@ -1,0 +1,1803 @@
+{
+    "template": "33_Inferior_Pincer",
+    "camera": "head",
+    "objects": [
+        "out/offset-compare/objects"
+    ],
+    "candidates": 93,
+    "settings": {
+        "roll_steps": 12,
+        "depth_span": 0.03,
+        "depth_steps": 5,
+        "iterations": 120,
+        "damping": 0.05,
+        "thumb_reach": 0.05
+    },
+    "prediction_offsets": {
+        "camera": "head",
+        "zero_offset": false,
+        "objects": {
+            "core_bottle_6444875e3217bf891f5f48a891d827bd": {
+                "status": "measured",
+                "applied": true,
+                "centre": [
+                    0.3499881287182316,
+                    -5.7191613118179765e-06,
+                    0.8780122989604217
+                ],
+                "shift": [
+                    -0.09462283269893337,
+                    -0.04937560623257232,
+                    0.043825768994112016
+                ]
+            }
+        }
+    },
+    "candidate_digest": {
+        "core_bottle_6444875e3217bf891f5f48a891d827bd.yml": "a351f449654cd914284c9bab8659db55266e4c0f3e733c79e1629b5653e6a6b4"
+    },
+    "arms": {
+        "offset": {
+            "core_bottle_6444875e3217bf891f5f48a891d827bd": {
+                "object": "core_bottle_6444875e3217bf891f5f48a891d827bd",
+                "template": "33_Inferior_Pincer",
+                "grip_offset": [
+                    -0.09462283269893337,
+                    -0.04937560623257232,
+                    0.043825768994112016
+                ],
+                "grip_offset_applied": true,
+                "settings": {
+                    "roll_steps": 12,
+                    "depth_span": 0.03,
+                    "depth_steps": 5,
+                    "iterations": 120,
+                    "damping": 0.05,
+                    "thumb_reach": 0.05,
+                    "max_per_object": 93
+                },
+                "candidates_tried": 93,
+                "kept": 165,
+                "stages": {
+                    "out_of_reach": 0,
+                    "ik_failure": 3672,
+                    "collision": 398,
+                    "thumb_far": 41,
+                    "passed": 1469
+                },
+                "blocking_contacts": {
+                    "world x hx5_r_base": 76,
+                    "world x arm_r_link6": 134,
+                    "world x arm_r_link7": 101,
+                    "world x arm_r_link5": 19,
+                    "world x finger_r_link4": 20,
+                    "world x finger_r_link13": 4,
+                    "world x finger_r_link5": 6,
+                    "world x finger_r_link20": 9,
+                    "world x finger_r_link17": 11,
+                    "world x finger_r_link16": 14,
+                    "world x finger_r_link15": 1,
+                    "world x finger_r_link8": 1,
+                    "world x finger_r_link9": 1,
+                    "world x finger_r_link11": 1
+                },
+                "per_candidate": {
+                    "grasp_0": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_1": {
+                        "out_of_reach": 0,
+                        "ik_failure": 45,
+                        "collision": 5,
+                        "thumb_far": 0,
+                        "passed": 10,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.0030101109444977585
+                    },
+                    "grasp_2": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_3": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_4": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_5": {
+                        "out_of_reach": 0,
+                        "ik_failure": 0,
+                        "collision": 25,
+                        "thumb_far": 0,
+                        "passed": 35,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.0022080680771033446
+                    },
+                    "grasp_6": {
+                        "out_of_reach": 0,
+                        "ik_failure": 43,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 17,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.025479376343720217
+                    },
+                    "grasp_7": {
+                        "out_of_reach": 0,
+                        "ik_failure": 54,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 6,
+                        "kept": 3,
+                        "nearest_thumb_mm": 16.876168976323513
+                    },
+                    "grasp_8": {
+                        "out_of_reach": 0,
+                        "ik_failure": 45,
+                        "collision": 5,
+                        "thumb_far": 0,
+                        "passed": 10,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.008304559155657422
+                    },
+                    "grasp_9": {
+                        "out_of_reach": 0,
+                        "ik_failure": 46,
+                        "collision": 4,
+                        "thumb_far": 0,
+                        "passed": 10,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.03275818472095609
+                    },
+                    "grasp_10": {
+                        "out_of_reach": 0,
+                        "ik_failure": 17,
+                        "collision": 18,
+                        "thumb_far": 0,
+                        "passed": 25,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.005403842909277862
+                    },
+                    "grasp_11": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_12": {
+                        "out_of_reach": 0,
+                        "ik_failure": 46,
+                        "collision": 5,
+                        "thumb_far": 0,
+                        "passed": 9,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.02910392179843978
+                    },
+                    "grasp_13": {
+                        "out_of_reach": 0,
+                        "ik_failure": 0,
+                        "collision": 15,
+                        "thumb_far": 0,
+                        "passed": 45,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.03969983874019079
+                    },
+                    "grasp_14": {
+                        "out_of_reach": 0,
+                        "ik_failure": 56,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 4,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.21653439772643665
+                    },
+                    "grasp_15": {
+                        "out_of_reach": 0,
+                        "ik_failure": 52,
+                        "collision": 7,
+                        "thumb_far": 0,
+                        "passed": 1,
+                        "kept": 1,
+                        "nearest_thumb_mm": 0.027544683205095816
+                    },
+                    "grasp_16": {
+                        "out_of_reach": 0,
+                        "ik_failure": 58,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 2,
+                        "kept": 2,
+                        "nearest_thumb_mm": 0.04407449583639446
+                    },
+                    "grasp_17": {
+                        "out_of_reach": 0,
+                        "ik_failure": 0,
+                        "collision": 20,
+                        "thumb_far": 0,
+                        "passed": 40,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.021684074907624702
+                    },
+                    "grasp_18": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_19": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_20": {
+                        "out_of_reach": 0,
+                        "ik_failure": 0,
+                        "collision": 11,
+                        "thumb_far": 0,
+                        "passed": 49,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.010006785158174845
+                    },
+                    "grasp_21": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_22": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_23": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_24": {
+                        "out_of_reach": 0,
+                        "ik_failure": 40,
+                        "collision": 4,
+                        "thumb_far": 2,
+                        "passed": 14,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.01480127289485078
+                    },
+                    "grasp_25": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_26": {
+                        "out_of_reach": 0,
+                        "ik_failure": 45,
+                        "collision": 6,
+                        "thumb_far": 0,
+                        "passed": 9,
+                        "kept": 3,
+                        "nearest_thumb_mm": 1.5766802454344322
+                    },
+                    "grasp_27": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_28": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_29": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_30": {
+                        "out_of_reach": 0,
+                        "ik_failure": 21,
+                        "collision": 5,
+                        "thumb_far": 1,
+                        "passed": 33,
+                        "kept": 3,
+                        "nearest_thumb_mm": 3.250259987342586
+                    },
+                    "grasp_31": {
+                        "out_of_reach": 0,
+                        "ik_failure": 36,
+                        "collision": 13,
+                        "thumb_far": 0,
+                        "passed": 11,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.010133522010740014
+                    },
+                    "grasp_32": {
+                        "out_of_reach": 0,
+                        "ik_failure": 48,
+                        "collision": 7,
+                        "thumb_far": 0,
+                        "passed": 5,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.03573778906454985
+                    },
+                    "grasp_33": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_34": {
+                        "out_of_reach": 0,
+                        "ik_failure": 32,
+                        "collision": 8,
+                        "thumb_far": 0,
+                        "passed": 20,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.10788724396681486
+                    },
+                    "grasp_35": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_36": {
+                        "out_of_reach": 0,
+                        "ik_failure": 30,
+                        "collision": 11,
+                        "thumb_far": 0,
+                        "passed": 19,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.051203958254115105
+                    },
+                    "grasp_37": {
+                        "out_of_reach": 0,
+                        "ik_failure": 29,
+                        "collision": 11,
+                        "thumb_far": 0,
+                        "passed": 20,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.09356350019642785
+                    },
+                    "grasp_38": {
+                        "out_of_reach": 0,
+                        "ik_failure": 26,
+                        "collision": 14,
+                        "thumb_far": 0,
+                        "passed": 20,
+                        "kept": 3,
+                        "nearest_thumb_mm": -0.041192818853298285
+                    },
+                    "grasp_39": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_40": {
+                        "out_of_reach": 0,
+                        "ik_failure": 0,
+                        "collision": 21,
+                        "thumb_far": 0,
+                        "passed": 39,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.006543907597277174
+                    },
+                    "grasp_41": {
+                        "out_of_reach": 0,
+                        "ik_failure": 31,
+                        "collision": 9,
+                        "thumb_far": 0,
+                        "passed": 20,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.10771204508501331
+                    },
+                    "grasp_42": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_43": {
+                        "out_of_reach": 0,
+                        "ik_failure": 0,
+                        "collision": 4,
+                        "thumb_far": 3,
+                        "passed": 53,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.04280606392985028
+                    },
+                    "grasp_44": {
+                        "out_of_reach": 0,
+                        "ik_failure": 24,
+                        "collision": 5,
+                        "thumb_far": 1,
+                        "passed": 30,
+                        "kept": 3,
+                        "nearest_thumb_mm": 4.378960517175555
+                    },
+                    "grasp_45": {
+                        "out_of_reach": 0,
+                        "ik_failure": 58,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 2,
+                        "kept": 2,
+                        "nearest_thumb_mm": 18.5178864636149
+                    },
+                    "grasp_46": {
+                        "out_of_reach": 0,
+                        "ik_failure": 38,
+                        "collision": 7,
+                        "thumb_far": 0,
+                        "passed": 15,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.0034645818100474653
+                    },
+                    "grasp_47": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_48": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_49": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_50": {
+                        "out_of_reach": 0,
+                        "ik_failure": 29,
+                        "collision": 8,
+                        "thumb_far": 2,
+                        "passed": 21,
+                        "kept": 3,
+                        "nearest_thumb_mm": 5.834523630755603
+                    },
+                    "grasp_51": {
+                        "out_of_reach": 0,
+                        "ik_failure": 0,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 60,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.0034706331394144846
+                    },
+                    "grasp_52": {
+                        "out_of_reach": 0,
+                        "ik_failure": 2,
+                        "collision": 2,
+                        "thumb_far": 3,
+                        "passed": 53,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.03768356929430673
+                    },
+                    "grasp_53": {
+                        "out_of_reach": 0,
+                        "ik_failure": 3,
+                        "collision": 0,
+                        "thumb_far": 8,
+                        "passed": 49,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.10923437751188105
+                    },
+                    "grasp_54": {
+                        "out_of_reach": 0,
+                        "ik_failure": 48,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 12,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.0702434438044772
+                    },
+                    "grasp_55": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_56": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_57": {
+                        "out_of_reach": 0,
+                        "ik_failure": 59,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 1,
+                        "kept": 1,
+                        "nearest_thumb_mm": 20.387459543833465
+                    },
+                    "grasp_58": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_59": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_60": {
+                        "out_of_reach": 0,
+                        "ik_failure": 43,
+                        "collision": 11,
+                        "thumb_far": 0,
+                        "passed": 6,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.628083883035159
+                    },
+                    "grasp_61": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_62": {
+                        "out_of_reach": 0,
+                        "ik_failure": 49,
+                        "collision": 1,
+                        "thumb_far": 0,
+                        "passed": 10,
+                        "kept": 3,
+                        "nearest_thumb_mm": 15.266044722946624
+                    },
+                    "grasp_63": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_64": {
+                        "out_of_reach": 0,
+                        "ik_failure": 0,
+                        "collision": 6,
+                        "thumb_far": 1,
+                        "passed": 53,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.007571081882894036
+                    },
+                    "grasp_65": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_66": {
+                        "out_of_reach": 0,
+                        "ik_failure": 0,
+                        "collision": 9,
+                        "thumb_far": 0,
+                        "passed": 51,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.022955932780179558
+                    },
+                    "grasp_67": {
+                        "out_of_reach": 0,
+                        "ik_failure": 43,
+                        "collision": 10,
+                        "thumb_far": 0,
+                        "passed": 7,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.0234943713897943
+                    },
+                    "grasp_68": {
+                        "out_of_reach": 0,
+                        "ik_failure": 46,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 14,
+                        "kept": 3,
+                        "nearest_thumb_mm": 26.148468342174272
+                    },
+                    "grasp_69": {
+                        "out_of_reach": 0,
+                        "ik_failure": 36,
+                        "collision": 5,
+                        "thumb_far": 1,
+                        "passed": 18,
+                        "kept": 3,
+                        "nearest_thumb_mm": 28.05220495288295
+                    },
+                    "grasp_70": {
+                        "out_of_reach": 0,
+                        "ik_failure": 0,
+                        "collision": 25,
+                        "thumb_far": 0,
+                        "passed": 35,
+                        "kept": 3,
+                        "nearest_thumb_mm": -0.019215350204356316
+                    },
+                    "grasp_71": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_72": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_73": {
+                        "out_of_reach": 0,
+                        "ik_failure": 0,
+                        "collision": 19,
+                        "thumb_far": 6,
+                        "passed": 35,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.002815240790929021
+                    },
+                    "grasp_74": {
+                        "out_of_reach": 0,
+                        "ik_failure": 0,
+                        "collision": 1,
+                        "thumb_far": 1,
+                        "passed": 58,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.00374075283526565
+                    },
+                    "grasp_75": {
+                        "out_of_reach": 0,
+                        "ik_failure": 0,
+                        "collision": 4,
+                        "thumb_far": 0,
+                        "passed": 56,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.0025806841066629838
+                    },
+                    "grasp_76": {
+                        "out_of_reach": 0,
+                        "ik_failure": 58,
+                        "collision": 2,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_77": {
+                        "out_of_reach": 0,
+                        "ik_failure": 2,
+                        "collision": 1,
+                        "thumb_far": 0,
+                        "passed": 57,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.005824547816993556
+                    },
+                    "grasp_78": {
+                        "out_of_reach": 0,
+                        "ik_failure": 30,
+                        "collision": 5,
+                        "thumb_far": 1,
+                        "passed": 24,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.05652618677986955
+                    },
+                    "grasp_79": {
+                        "out_of_reach": 0,
+                        "ik_failure": 47,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 13,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.11428845080631585
+                    },
+                    "grasp_80": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_81": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_82": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_83": {
+                        "out_of_reach": 0,
+                        "ik_failure": 21,
+                        "collision": 5,
+                        "thumb_far": 1,
+                        "passed": 33,
+                        "kept": 3,
+                        "nearest_thumb_mm": 1.8251900119091429
+                    },
+                    "grasp_84": {
+                        "out_of_reach": 0,
+                        "ik_failure": 0,
+                        "collision": 8,
+                        "thumb_far": 0,
+                        "passed": 52,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.0077511910249530025
+                    },
+                    "grasp_85": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_86": {
+                        "out_of_reach": 0,
+                        "ik_failure": 0,
+                        "collision": 15,
+                        "thumb_far": 2,
+                        "passed": 43,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.002898807011062478
+                    },
+                    "grasp_87": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_88": {
+                        "out_of_reach": 0,
+                        "ik_failure": 14,
+                        "collision": 2,
+                        "thumb_far": 3,
+                        "passed": 41,
+                        "kept": 3,
+                        "nearest_thumb_mm": 9.259646417294249
+                    },
+                    "grasp_89": {
+                        "out_of_reach": 0,
+                        "ik_failure": 47,
+                        "collision": 8,
+                        "thumb_far": 0,
+                        "passed": 5,
+                        "kept": 3,
+                        "nearest_thumb_mm": 12.822875537733529
+                    },
+                    "grasp_90": {
+                        "out_of_reach": 0,
+                        "ik_failure": 1,
+                        "collision": 0,
+                        "thumb_far": 4,
+                        "passed": 55,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.09517956994440228
+                    },
+                    "grasp_91": {
+                        "out_of_reach": 0,
+                        "ik_failure": 20,
+                        "collision": 8,
+                        "thumb_far": 1,
+                        "passed": 31,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.022299282764677873
+                    },
+                    "grasp_92": {
+                        "out_of_reach": 0,
+                        "ik_failure": 54,
+                        "collision": 3,
+                        "thumb_far": 0,
+                        "passed": 3,
+                        "kept": 3,
+                        "nearest_thumb_mm": 11.248094269341296
+                    }
+                }
+            }
+        },
+        "zero": {
+            "core_bottle_6444875e3217bf891f5f48a891d827bd": {
+                "object": "core_bottle_6444875e3217bf891f5f48a891d827bd",
+                "template": "33_Inferior_Pincer",
+                "grip_offset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "grip_offset_applied": false,
+                "settings": {
+                    "roll_steps": 12,
+                    "depth_span": 0.03,
+                    "depth_steps": 5,
+                    "iterations": 120,
+                    "damping": 0.05,
+                    "thumb_reach": 0.05,
+                    "max_per_object": 93
+                },
+                "candidates_tried": 93,
+                "kept": 112,
+                "stages": {
+                    "out_of_reach": 0,
+                    "ik_failure": 3617,
+                    "collision": 452,
+                    "thumb_far": 850,
+                    "passed": 661
+                },
+                "blocking_contacts": {
+                    "world x arm_r_link7": 125,
+                    "world x finger_r_link4": 92,
+                    "world x arm_r_link6": 195,
+                    "world x arm_r_link5": 24,
+                    "world x finger_r_link8": 14,
+                    "world x finger_r_link3": 2
+                },
+                "per_candidate": {
+                    "grasp_0": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_1": {
+                        "out_of_reach": 0,
+                        "ik_failure": 50,
+                        "collision": 0,
+                        "thumb_far": 7,
+                        "passed": 3,
+                        "kept": 3,
+                        "nearest_thumb_mm": 26.57132211054172
+                    },
+                    "grasp_2": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_3": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_4": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_5": {
+                        "out_of_reach": 0,
+                        "ik_failure": 0,
+                        "collision": 15,
+                        "thumb_far": 23,
+                        "passed": 22,
+                        "kept": 3,
+                        "nearest_thumb_mm": 19.31506061772004
+                    },
+                    "grasp_6": {
+                        "out_of_reach": 0,
+                        "ik_failure": 54,
+                        "collision": 4,
+                        "thumb_far": 0,
+                        "passed": 2,
+                        "kept": 2,
+                        "nearest_thumb_mm": 21.338630269083943
+                    },
+                    "grasp_7": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_8": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_9": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_10": {
+                        "out_of_reach": 0,
+                        "ik_failure": 2,
+                        "collision": 24,
+                        "thumb_far": 13,
+                        "passed": 21,
+                        "kept": 3,
+                        "nearest_thumb_mm": 5.686694904779324
+                    },
+                    "grasp_11": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_12": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_13": {
+                        "out_of_reach": 0,
+                        "ik_failure": 0,
+                        "collision": 0,
+                        "thumb_far": 20,
+                        "passed": 40,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.006817950798292963
+                    },
+                    "grasp_14": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_15": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_16": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_17": {
+                        "out_of_reach": 0,
+                        "ik_failure": 0,
+                        "collision": 0,
+                        "thumb_far": 29,
+                        "passed": 31,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.18957334479741889
+                    },
+                    "grasp_18": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_19": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_20": {
+                        "out_of_reach": 0,
+                        "ik_failure": 0,
+                        "collision": 0,
+                        "thumb_far": 17,
+                        "passed": 43,
+                        "kept": 3,
+                        "nearest_thumb_mm": -14.722643391437677
+                    },
+                    "grasp_21": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_22": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_23": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_24": {
+                        "out_of_reach": 0,
+                        "ik_failure": 26,
+                        "collision": 34,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_25": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_26": {
+                        "out_of_reach": 0,
+                        "ik_failure": 52,
+                        "collision": 8,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_27": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_28": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_29": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_30": {
+                        "out_of_reach": 0,
+                        "ik_failure": 18,
+                        "collision": 0,
+                        "thumb_far": 19,
+                        "passed": 23,
+                        "kept": 3,
+                        "nearest_thumb_mm": 13.265520808623204
+                    },
+                    "grasp_31": {
+                        "out_of_reach": 0,
+                        "ik_failure": 21,
+                        "collision": 39,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_32": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_33": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_34": {
+                        "out_of_reach": 0,
+                        "ik_failure": 4,
+                        "collision": 54,
+                        "thumb_far": 0,
+                        "passed": 2,
+                        "kept": 2,
+                        "nearest_thumb_mm": 31.443020610832075
+                    },
+                    "grasp_35": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_36": {
+                        "out_of_reach": 0,
+                        "ik_failure": 20,
+                        "collision": 39,
+                        "thumb_far": 0,
+                        "passed": 1,
+                        "kept": 1,
+                        "nearest_thumb_mm": 13.030159053846965
+                    },
+                    "grasp_37": {
+                        "out_of_reach": 0,
+                        "ik_failure": 0,
+                        "collision": 56,
+                        "thumb_far": 0,
+                        "passed": 4,
+                        "kept": 3,
+                        "nearest_thumb_mm": 28.599654070352184
+                    },
+                    "grasp_38": {
+                        "out_of_reach": 0,
+                        "ik_failure": 14,
+                        "collision": 16,
+                        "thumb_far": 15,
+                        "passed": 15,
+                        "kept": 3,
+                        "nearest_thumb_mm": 10.25979271752537
+                    },
+                    "grasp_39": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_40": {
+                        "out_of_reach": 0,
+                        "ik_failure": 0,
+                        "collision": 8,
+                        "thumb_far": 22,
+                        "passed": 30,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.07759473265921543
+                    },
+                    "grasp_41": {
+                        "out_of_reach": 0,
+                        "ik_failure": 1,
+                        "collision": 51,
+                        "thumb_far": 5,
+                        "passed": 3,
+                        "kept": 3,
+                        "nearest_thumb_mm": 33.83727740224295
+                    },
+                    "grasp_42": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_43": {
+                        "out_of_reach": 0,
+                        "ik_failure": 0,
+                        "collision": 0,
+                        "thumb_far": 45,
+                        "passed": 15,
+                        "kept": 3,
+                        "nearest_thumb_mm": 28.046159919866724
+                    },
+                    "grasp_44": {
+                        "out_of_reach": 0,
+                        "ik_failure": 0,
+                        "collision": 0,
+                        "thumb_far": 31,
+                        "passed": 29,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.0066533540970325645
+                    },
+                    "grasp_45": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_46": {
+                        "out_of_reach": 0,
+                        "ik_failure": 17,
+                        "collision": 38,
+                        "thumb_far": 2,
+                        "passed": 3,
+                        "kept": 3,
+                        "nearest_thumb_mm": 29.751336539435624
+                    },
+                    "grasp_47": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_48": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_49": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_50": {
+                        "out_of_reach": 0,
+                        "ik_failure": 7,
+                        "collision": 48,
+                        "thumb_far": 1,
+                        "passed": 4,
+                        "kept": 3,
+                        "nearest_thumb_mm": 13.321365096858006
+                    },
+                    "grasp_51": {
+                        "out_of_reach": 0,
+                        "ik_failure": 0,
+                        "collision": 0,
+                        "thumb_far": 26,
+                        "passed": 34,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.021491966426178642
+                    },
+                    "grasp_52": {
+                        "out_of_reach": 0,
+                        "ik_failure": 1,
+                        "collision": 0,
+                        "thumb_far": 43,
+                        "passed": 16,
+                        "kept": 3,
+                        "nearest_thumb_mm": 26.78062701701553
+                    },
+                    "grasp_53": {
+                        "out_of_reach": 0,
+                        "ik_failure": 1,
+                        "collision": 0,
+                        "thumb_far": 48,
+                        "passed": 11,
+                        "kept": 3,
+                        "nearest_thumb_mm": 32.288180013197994
+                    },
+                    "grasp_54": {
+                        "out_of_reach": 0,
+                        "ik_failure": 43,
+                        "collision": 0,
+                        "thumb_far": 7,
+                        "passed": 10,
+                        "kept": 3,
+                        "nearest_thumb_mm": 30.709333928467306
+                    },
+                    "grasp_55": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_56": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_57": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_58": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_59": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_60": {
+                        "out_of_reach": 0,
+                        "ik_failure": 26,
+                        "collision": 2,
+                        "thumb_far": 10,
+                        "passed": 22,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.009148392806968145
+                    },
+                    "grasp_61": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_62": {
+                        "out_of_reach": 0,
+                        "ik_failure": 59,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 1,
+                        "kept": 1,
+                        "nearest_thumb_mm": 30.79838939524284
+                    },
+                    "grasp_63": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_64": {
+                        "out_of_reach": 0,
+                        "ik_failure": 2,
+                        "collision": 0,
+                        "thumb_far": 36,
+                        "passed": 22,
+                        "kept": 3,
+                        "nearest_thumb_mm": 14.508591637006953
+                    },
+                    "grasp_65": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_66": {
+                        "out_of_reach": 0,
+                        "ik_failure": 0,
+                        "collision": 0,
+                        "thumb_far": 38,
+                        "passed": 22,
+                        "kept": 3,
+                        "nearest_thumb_mm": 18.15107846193086
+                    },
+                    "grasp_67": {
+                        "out_of_reach": 0,
+                        "ik_failure": 57,
+                        "collision": 3,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_68": {
+                        "out_of_reach": 0,
+                        "ik_failure": 49,
+                        "collision": 0,
+                        "thumb_far": 7,
+                        "passed": 4,
+                        "kept": 3,
+                        "nearest_thumb_mm": 41.68685502593498
+                    },
+                    "grasp_69": {
+                        "out_of_reach": 0,
+                        "ik_failure": 50,
+                        "collision": 0,
+                        "thumb_far": 9,
+                        "passed": 1,
+                        "kept": 1,
+                        "nearest_thumb_mm": 48.47441194301271
+                    },
+                    "grasp_70": {
+                        "out_of_reach": 0,
+                        "ik_failure": 0,
+                        "collision": 10,
+                        "thumb_far": 31,
+                        "passed": 19,
+                        "kept": 3,
+                        "nearest_thumb_mm": 14.886143204733264
+                    },
+                    "grasp_71": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_72": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_73": {
+                        "out_of_reach": 0,
+                        "ik_failure": 0,
+                        "collision": 0,
+                        "thumb_far": 36,
+                        "passed": 24,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.01080704738363682
+                    },
+                    "grasp_74": {
+                        "out_of_reach": 0,
+                        "ik_failure": 3,
+                        "collision": 0,
+                        "thumb_far": 35,
+                        "passed": 22,
+                        "kept": 3,
+                        "nearest_thumb_mm": 25.632154828689004
+                    },
+                    "grasp_75": {
+                        "out_of_reach": 0,
+                        "ik_failure": 0,
+                        "collision": 0,
+                        "thumb_far": 33,
+                        "passed": 27,
+                        "kept": 3,
+                        "nearest_thumb_mm": 13.932478290165184
+                    },
+                    "grasp_76": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_77": {
+                        "out_of_reach": 0,
+                        "ik_failure": 12,
+                        "collision": 0,
+                        "thumb_far": 24,
+                        "passed": 24,
+                        "kept": 3,
+                        "nearest_thumb_mm": 17.893764379892424
+                    },
+                    "grasp_78": {
+                        "out_of_reach": 0,
+                        "ik_failure": 35,
+                        "collision": 1,
+                        "thumb_far": 15,
+                        "passed": 9,
+                        "kept": 3,
+                        "nearest_thumb_mm": 19.662707260319912
+                    },
+                    "grasp_79": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_80": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_81": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_82": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_83": {
+                        "out_of_reach": 0,
+                        "ik_failure": 4,
+                        "collision": 0,
+                        "thumb_far": 35,
+                        "passed": 21,
+                        "kept": 3,
+                        "nearest_thumb_mm": 20.213204455217944
+                    },
+                    "grasp_84": {
+                        "out_of_reach": 0,
+                        "ik_failure": 0,
+                        "collision": 0,
+                        "thumb_far": 39,
+                        "passed": 21,
+                        "kept": 3,
+                        "nearest_thumb_mm": 13.935880362261603
+                    },
+                    "grasp_85": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_86": {
+                        "out_of_reach": 0,
+                        "ik_failure": 0,
+                        "collision": 0,
+                        "thumb_far": 37,
+                        "passed": 23,
+                        "kept": 3,
+                        "nearest_thumb_mm": 0.014532291872560148
+                    },
+                    "grasp_87": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_88": {
+                        "out_of_reach": 0,
+                        "ik_failure": 27,
+                        "collision": 0,
+                        "thumb_far": 26,
+                        "passed": 7,
+                        "kept": 3,
+                        "nearest_thumb_mm": 39.4484967538605
+                    },
+                    "grasp_89": {
+                        "out_of_reach": 0,
+                        "ik_failure": 59,
+                        "collision": 1,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    },
+                    "grasp_90": {
+                        "out_of_reach": 0,
+                        "ik_failure": 3,
+                        "collision": 0,
+                        "thumb_far": 45,
+                        "passed": 12,
+                        "kept": 3,
+                        "nearest_thumb_mm": 35.446014686198296
+                    },
+                    "grasp_91": {
+                        "out_of_reach": 0,
+                        "ik_failure": 20,
+                        "collision": 1,
+                        "thumb_far": 21,
+                        "passed": 18,
+                        "kept": 3,
+                        "nearest_thumb_mm": 3.571463668685108
+                    },
+                    "grasp_92": {
+                        "out_of_reach": 0,
+                        "ik_failure": 60,
+                        "collision": 0,
+                        "thumb_far": 0,
+                        "passed": 0,
+                        "kept": 0,
+                        "nearest_thumb_mm": null
+                    }
+                }
+            }
+        }
+    }
+}

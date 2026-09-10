@@ -1,0 +1,102 @@
+{
+  "policy": "out/rl-approach/bc-v1/policy.pt",
+  "steps": 0,
+  "sampled": false,
+  "episodes": [
+    {
+      "status": "completed",
+      "success": true,
+      "approach_ticks": 447,
+      "handover_tick": 447,
+      "executor_status": "completed",
+      "closest": 0.0031585139533908805,
+      "position_error": 0.0031585139533908805,
+      "orientation_error": 0.008686347981064801,
+      "displacement": 1.4113741431617413e-05,
+      "pushed": 2.47464473435033e-05,
+      "return": 35.742110624272435,
+      "discounted_return": 25.827697490856494
+    },
+    {
+      "status": "completed",
+      "success": true,
+      "approach_ticks": 447,
+      "handover_tick": 447,
+      "executor_status": "completed",
+      "closest": 0.0031585139533908805,
+      "position_error": 0.0031585139533908805,
+      "orientation_error": 0.008686347981064801,
+      "displacement": 1.4113741431617413e-05,
+      "pushed": 2.47464473435033e-05,
+      "return": 35.742110624272435,
+      "discounted_return": 25.827697490856494
+    },
+    {
+      "status": "completed",
+      "success": true,
+      "approach_ticks": 447,
+      "handover_tick": 447,
+      "executor_status": "completed",
+      "closest": 0.0031585139533908805,
+      "position_error": 0.0031585139533908805,
+      "orientation_error": 0.008686347981064801,
+      "displacement": 1.4113741431617413e-05,
+      "pushed": 2.47464473435033e-05,
+      "return": 35.742110624272435,
+      "discounted_return": 25.827697490856494
+    }
+  ],
+  "summary": {
+    "episodes": 3,
+    "handover_rate": 1.0,
+    "success_rate": 1.0,
+    "statuses": {
+      "completed": 3
+    },
+    "closest_m": {
+      "min": 0.0031585139533908805,
+      "median": 0.0031585139533908805,
+      "max": 0.0031585139533908805
+    },
+    "mean_approach_ticks": 447.0,
+    "mean_discounted_return": 25.827697490856494,
+    "max_object_push_m": 2.47464473435033e-05
+  },
+  "nearest": {
+    "tick": 446,
+    "position_error": 0.003445740858465223,
+    "orientation_error": 0.008316599986589013,
+    "displacement": 1.0084814128003137e-05,
+    "action_max": 0.005918106064200401
+  },
+  "references": {
+    "recorded_approach": {
+      "status": "completed",
+      "success": true,
+      "approach_ticks": 451,
+      "handover_tick": 451,
+      "executor_status": "completed",
+      "closest": 0.0026541228444637585,
+      "position_error": 0.0026541228444637585,
+      "orientation_error": 0.0025573054940774124,
+      "displacement": 1.0192455205959867e-05,
+      "pushed": 2.4746447343621957e-05,
+      "return": 35.70839168922935,
+      "discounted_return": 25.738251642681032
+    },
+    "zero_actions": {
+      "status": "approach_timeout",
+      "success": false,
+      "approach_ticks": 600,
+      "handover_tick": null,
+      "executor_status": null,
+      "closest": 0.30364136169362693,
+      "position_error": 0.30364136169362693,
+      "orientation_error": 1.8388329616392103,
+      "displacement": 9.447725950152513e-06,
+      "pushed": 2.4746447343578027e-05,
+      "return": -9.52303598504114,
+      "discounted_return": -4.810768226751634
+    }
+  }
+}

@@ -1,0 +1,431 @@
+{
+  "scene": "/home/yspark/projects/ICRA/model/graspgen/ffw_sh5/scene.yaml",
+  "rest_index": 0,
+  "yaw_rad": 0.0,
+  "objects": {
+    "core_bottle_6444875e3217bf891f5f48a891d827bd": {
+      "records": {
+        "scene_build": {
+          "object": "core_bottle_6444875e3217bf891f5f48a891d827bd",
+          "asset": "out/multiobject/objects/core_bottle_6444875e3217bf891f5f48a891d827bd",
+          "mesh": "out/multiobject/objects/core_bottle_6444875e3217bf891f5f48a891d827bd/mesh/simplified.obj",
+          "mesh_sha256": "9af4a38d03bae0ec812a1e6f577ac5068d954a52fe43f9ff72f22e00fc65c0e7",
+          "asset_scale": 0.11,
+          "compiled_scale": [
+            0.11,
+            0.11,
+            0.11
+          ],
+          "rest_index": 0,
+          "yaw_rad": 0.0,
+          "world_transform": [
+            [
+              0.9999999988589633,
+              4.7770885383632293e-05,
+              1.261484162615585e-07,
+              0.35
+            ],
+            [
+              1.280976607544625e-07,
+              -4.080402605279102e-05,
+              -0.9999999991675075,
+              0.0
+            ],
+            [
+              -4.777088019650012e-05,
+              0.9999999980264869,
+              -4.080403212557079e-05,
+              0.9022841763253717
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "scene": {
+            "path": "/home/yspark/projects/ICRA/model/graspgen/ffw_sh5/scene.yaml",
+            "sha256": "d497c25cf3d82f3cce990e238d521c47037349ac2f0eced255b009492e979695"
+          }
+        },
+        "executor_placed": {
+          "object": "core_bottle_6444875e3217bf891f5f48a891d827bd",
+          "asset": "out/multiobject/objects/core_bottle_6444875e3217bf891f5f48a891d827bd",
+          "mesh": "out/multiobject/objects/core_bottle_6444875e3217bf891f5f48a891d827bd/mesh/simplified.obj",
+          "mesh_sha256": "9af4a38d03bae0ec812a1e6f577ac5068d954a52fe43f9ff72f22e00fc65c0e7",
+          "asset_scale": 0.11,
+          "compiled_scale": [
+            0.11,
+            0.11,
+            0.11
+          ],
+          "rest_index": 0,
+          "yaw_rad": 0.0,
+          "world_transform": [
+            [
+              0.9999999988589633,
+              4.7770885383632293e-05,
+              1.261484162615585e-07,
+              0.35
+            ],
+            [
+              1.280976607544625e-07,
+              -4.080402605279102e-05,
+              -0.9999999991675075,
+              0.0
+            ],
+            [
+              -4.777088019650012e-05,
+              0.9999999980264869,
+              -4.080403212557079e-05,
+              0.9022841763253717
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "scene": {
+            "path": "/home/yspark/projects/ICRA/model/graspgen/ffw_sh5/scene.yaml",
+            "sha256": "d497c25cf3d82f3cce990e238d521c47037349ac2f0eced255b009492e979695"
+          }
+        },
+        "executor_settled": {
+          "object": "core_bottle_6444875e3217bf891f5f48a891d827bd",
+          "asset": "out/multiobject/objects/core_bottle_6444875e3217bf891f5f48a891d827bd",
+          "mesh": "out/multiobject/objects/core_bottle_6444875e3217bf891f5f48a891d827bd/mesh/simplified.obj",
+          "mesh_sha256": "9af4a38d03bae0ec812a1e6f577ac5068d954a52fe43f9ff72f22e00fc65c0e7",
+          "asset_scale": 0.11,
+          "compiled_scale": [
+            0.11,
+            0.11,
+            0.11
+          ],
+          "rest_index": 0,
+          "yaw_rad": 0.0,
+          "world_transform": [
+            [
+              0.9999999954592083,
+              9.529561726887284e-05,
+              -5.733534820546649e-07,
+              0.35000483466261206
+            ],
+            [
+              -5.712397740545661e-07,
+              -2.2180563109147962e-05,
+              -0.9999999997538481,
+              1.9100751358114057e-06
+            ],
+            [
+              -9.529562996271875e-05,
+              0.9999999952133839,
+              -2.2180508571783768e-05,
+              0.9021798708382728
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "scene": {
+            "path": "/home/yspark/projects/ICRA/model/graspgen/ffw_sh5/scene.yaml",
+            "sha256": "d497c25cf3d82f3cce990e238d521c47037349ac2f0eced255b009492e979695"
+          }
+        }
+      },
+      "problems": [],
+      "settling": {
+        "position_mm": 0.10443494141591218,
+        "rotation_deg": 0.0029248498274944278
+      }
+    },
+    "core_camera_1ab3abb5c090d9b68e940c4e64a94e1e": {
+      "records": {
+        "scene_build": {
+          "object": "core_camera_1ab3abb5c090d9b68e940c4e64a94e1e",
+          "asset": "out/multiobject/objects/core_camera_1ab3abb5c090d9b68e940c4e64a94e1e",
+          "mesh": "out/multiobject/objects/core_camera_1ab3abb5c090d9b68e940c4e64a94e1e/mesh/simplified.obj",
+          "mesh_sha256": "99d8255560f5c71eb134600a91a003c09c83e50bdb76cf6e955d6170153f3913",
+          "asset_scale": 0.08,
+          "compiled_scale": [
+            0.08,
+            0.08,
+            0.08
+          ],
+          "rest_index": 0,
+          "yaw_rad": 0.0,
+          "world_transform": [
+            [
+              -0.05294963866696688,
+              0.002480267827269164,
+              -0.9985941037461319,
+              0.35
+            ],
+            [
+              -0.16075040921346873,
+              0.9869340687434861,
+              0.010974966566142219,
+              0.0
+            ],
+            [
+              0.9855737626899053,
+              0.16110553132940722,
+              -0.05185909825989456,
+              0.8223070411041545
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "scene": {
+            "path": "/home/yspark/projects/ICRA/model/graspgen/ffw_sh5/scene.yaml",
+            "sha256": "d497c25cf3d82f3cce990e238d521c47037349ac2f0eced255b009492e979695"
+          }
+        },
+        "executor_placed": {
+          "object": "core_camera_1ab3abb5c090d9b68e940c4e64a94e1e",
+          "asset": "out/multiobject/objects/core_camera_1ab3abb5c090d9b68e940c4e64a94e1e",
+          "mesh": "out/multiobject/objects/core_camera_1ab3abb5c090d9b68e940c4e64a94e1e/mesh/simplified.obj",
+          "mesh_sha256": "99d8255560f5c71eb134600a91a003c09c83e50bdb76cf6e955d6170153f3913",
+          "asset_scale": 0.08,
+          "compiled_scale": [
+            0.08,
+            0.08,
+            0.08
+          ],
+          "rest_index": 0,
+          "yaw_rad": 0.0,
+          "world_transform": [
+            [
+              -0.05294963866696688,
+              0.002480267827269164,
+              -0.9985941037461319,
+              0.35
+            ],
+            [
+              -0.16075040921346873,
+              0.9869340687434861,
+              0.010974966566142219,
+              0.0
+            ],
+            [
+              0.9855737626899053,
+              0.16110553132940722,
+              -0.05185909825989456,
+              0.8223070411041545
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "scene": {
+            "path": "/home/yspark/projects/ICRA/model/graspgen/ffw_sh5/scene.yaml",
+            "sha256": "d497c25cf3d82f3cce990e238d521c47037349ac2f0eced255b009492e979695"
+          }
+        },
+        "executor_settled": {
+          "object": "core_camera_1ab3abb5c090d9b68e940c4e64a94e1e",
+          "asset": "out/multiobject/objects/core_camera_1ab3abb5c090d9b68e940c4e64a94e1e",
+          "mesh": "out/multiobject/objects/core_camera_1ab3abb5c090d9b68e940c4e64a94e1e/mesh/simplified.obj",
+          "mesh_sha256": "99d8255560f5c71eb134600a91a003c09c83e50bdb76cf6e955d6170153f3913",
+          "asset_scale": 0.08,
+          "compiled_scale": [
+            0.08,
+            0.08,
+            0.08
+          ],
+          "rest_index": 0,
+          "yaw_rad": 0.0,
+          "world_transform": [
+            [
+              -0.05315126280594495,
+              0.0024474975378706576,
+              -0.9985834732349305,
+              0.34999542942575873
+            ],
+            [
+              -0.16001759436253177,
+              0.9870535769505191,
+              0.01093644017108776,
+              1.6620239417487138e-05
+            ],
+            [
+              0.985682156050602,
+              0.16037221076293007,
+              -0.052071501403826666,
+              0.8222666086727933
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "scene": {
+            "path": "/home/yspark/projects/ICRA/model/graspgen/ffw_sh5/scene.yaml",
+            "sha256": "d497c25cf3d82f3cce990e238d521c47037349ac2f0eced255b009492e979695"
+          }
+        }
+      },
+      "problems": [],
+      "settling": {
+        "position_mm": 0.043953430047810736,
+        "rotation_deg": 0.0441818196014458
+      }
+    },
+    "core_can_7bd05573c09fb0c2af39ccaab9314b14": {
+      "records": {
+        "scene_build": {
+          "object": "core_can_7bd05573c09fb0c2af39ccaab9314b14",
+          "asset": "out/multiobject/objects/core_can_7bd05573c09fb0c2af39ccaab9314b14",
+          "mesh": "out/multiobject/objects/core_can_7bd05573c09fb0c2af39ccaab9314b14/mesh/simplified.obj",
+          "mesh_sha256": "118b3eea82212a05ca3d0be3261ffd0ebed4f8446bd7997a58ed6c5e7880f679",
+          "asset_scale": 0.08,
+          "compiled_scale": [
+            0.08,
+            0.08,
+            0.08
+          ],
+          "rest_index": 0,
+          "yaw_rad": 0.0,
+          "world_transform": [
+            [
+              0.04349582543865614,
+              -1.4919705984436043e-05,
+              0.9990536086451078,
+              0.35
+            ],
+            [
+              0.00015639111814086675,
+              0.999999987737901,
+              8.125034489076397e-06,
+              0.0
+            ],
+            [
+              -0.9990535965158367,
+              0.0001558897058568564,
+              0.04349582723861557,
+              0.8378870668764178
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "scene": {
+            "path": "/home/yspark/projects/ICRA/model/graspgen/ffw_sh5/scene.yaml",
+            "sha256": "d497c25cf3d82f3cce990e238d521c47037349ac2f0eced255b009492e979695"
+          }
+        },
+        "executor_placed": {
+          "object": "core_can_7bd05573c09fb0c2af39ccaab9314b14",
+          "asset": "out/multiobject/objects/core_can_7bd05573c09fb0c2af39ccaab9314b14",
+          "mesh": "out/multiobject/objects/core_can_7bd05573c09fb0c2af39ccaab9314b14/mesh/simplified.obj",
+          "mesh_sha256": "118b3eea82212a05ca3d0be3261ffd0ebed4f8446bd7997a58ed6c5e7880f679",
+          "asset_scale": 0.08,
+          "compiled_scale": [
+            0.08,
+            0.08,
+            0.08
+          ],
+          "rest_index": 0,
+          "yaw_rad": 0.0,
+          "world_transform": [
+            [
+              0.04349582543865614,
+              -1.4919705984436043e-05,
+              0.9990536086451078,
+              0.35
+            ],
+            [
+              0.00015639111814086675,
+              0.999999987737901,
+              8.125034489076397e-06,
+              0.0
+            ],
+            [
+              -0.9990535965158367,
+              0.0001558897058568564,
+              0.04349582723861557,
+              0.8378870668764178
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "scene": {
+            "path": "/home/yspark/projects/ICRA/model/graspgen/ffw_sh5/scene.yaml",
+            "sha256": "d497c25cf3d82f3cce990e238d521c47037349ac2f0eced255b009492e979695"
+          }
+        },
+        "executor_settled": {
+          "object": "core_can_7bd05573c09fb0c2af39ccaab9314b14",
+          "asset": "out/multiobject/objects/core_can_7bd05573c09fb0c2af39ccaab9314b14",
+          "mesh": "out/multiobject/objects/core_can_7bd05573c09fb0c2af39ccaab9314b14/mesh/simplified.obj",
+          "mesh_sha256": "118b3eea82212a05ca3d0be3261ffd0ebed4f8446bd7997a58ed6c5e7880f679",
+          "asset_scale": 0.08,
+          "compiled_scale": [
+            0.08,
+            0.08,
+            0.08
+          ],
+          "rest_index": 0,
+          "yaw_rad": 0.0,
+          "world_transform": [
+            [
+              0.04355028288354549,
+              -1.5428619702046354e-05,
+              0.9990512362350199,
+              0.34999859819673823
+            ],
+            [
+              0.001102491185802904,
+              0.9999993917245018,
+              -3.2616137710750424e-05,
+              -2.687508126053531e-05
+            ],
+            [
+              -0.999050628033409,
+              0.0011028656241384757,
+              0.0435502734028926,
+              0.8353796815403192
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "scene": {
+            "path": "/home/yspark/projects/ICRA/model/graspgen/ffw_sh5/scene.yaml",
+            "sha256": "d497c25cf3d82f3cce990e238d521c47037349ac2f0eced255b009492e979695"
+          }
+        }
+      },
+      "problems": [],
+      "settling": {
+        "position_mm": 2.5075297523115343,
+        "rotation_deg": 0.05434760285371029
+      }
+    }
+  },
+  "agreed": true
+}

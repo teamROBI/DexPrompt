@@ -1,0 +1,5 @@
+watching out/rl-approach/M-seed1/checkpoints
+  00040960: completed (closest 3.2 mm)
+  00053248: quality_approach_displacement (closest 6.8 mm)   FAILED
+  wrote out/rl-approach/M-seed1/STOP: policy_step_00053248.pt failed the mean-action check: quality_approach_displacement
+  baseline still completes

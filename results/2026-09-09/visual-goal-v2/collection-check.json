@@ -1,0 +1,54 @@
+{
+  "completed": true,
+  "frames": 974,
+  "all_arrays_equal_to_rerender": true,
+  "array_equal": {
+    "rgbm": true,
+    "right_cam_img": true,
+    "right_state": true,
+    "part_mask": true,
+    "wrist_mask": true,
+    "wrist_part_mask": true,
+    "target_pixels": true,
+    "target_visible": true,
+    "action": true,
+    "timestamp": true,
+    "control_dt": true,
+    "phase": true,
+    "contact_groups": true,
+    "group_forces_min": true,
+    "group_forces_max": true,
+    "digit_force_max": true,
+    "target_height_min": true,
+    "object_xy_displacement_max": true,
+    "non_target_displacement_max": true,
+    "robot_object_penetration_max": true,
+    "robot_table_penetration_max": true,
+    "robot_obstacle_penetration_max": true
+  },
+  "image_shape": [
+    974,
+    256,
+    256,
+    4
+  ],
+  "profile": {
+    "head_fovy": 60.0,
+    "head_quat": [
+      0.5792279653399943,
+      0.40557978767504993,
+      -0.40557978767306396,
+      -0.5792279653371581
+    ],
+    "head_tilt_down_degrees": 20,
+    "height": 256,
+    "original_head_quat": [
+      0.5,
+      0.5000000000024483,
+      -0.5,
+      -0.49999999999755174
+    ],
+    "version": 2,
+    "width": 256
+  }
+}

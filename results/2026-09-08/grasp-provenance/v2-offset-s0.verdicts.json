@@ -1,0 +1,9 @@
+{
+  "/home/yspark/projects/Dexonomy/output/offcmp8_offset_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_0_grasp.npy": "kept",
+  "/home/yspark/projects/Dexonomy/output/offcmp8_offset_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_10_grasp.npy": "kept",
+  "/home/yspark/projects/Dexonomy/output/offcmp8_offset_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_11_grasp.npy": "kept",
+  "/home/yspark/projects/Dexonomy/output/offcmp8_offset_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_13_grasp.npy": "hand_through_table",
+  "/home/yspark/projects/Dexonomy/output/offcmp8_offset_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_17_grasp.npy": "open_hand_inside_object",
+  "/home/yspark/projects/Dexonomy/output/offcmp8_offset_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_3_grasp.npy": "kept",
+  "/home/yspark/projects/Dexonomy/output/offcmp8_offset_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_9_grasp.npy": "hand_through_table"
+}

@@ -1,0 +1,8 @@
+# Install into a separate user-managed training environment. No automatic downloads.
+# DINOv2 also needs a local checkout and matching pretrained weights; configure paths.
+torch>=2.6,<3
+torchvision>=0.21,<1
+numpy>=1.24,<3
+scipy>=1.10,<2
+omegaconf>=2.3,<3
+# Full DINOv2 optional xformers acceleration is not required by this adapter.

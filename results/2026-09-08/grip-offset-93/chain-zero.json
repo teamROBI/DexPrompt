@@ -1,0 +1,1939 @@
+{
+  "summary": {
+    "predictions_total": 93,
+    "predictions_filtered": 40,
+    "predictions_refined": 23,
+    "predictions_executed": 16,
+    "select_verdicts": {
+      "kept": 32,
+      "open_hand_inside_object": 26,
+      "hand_through_table": 2
+    },
+    "predictions_completed": 14,
+    "predictions_held_every_direction": 5,
+    "completed": [
+      "grasp_10",
+      "grasp_20",
+      "grasp_51",
+      "grasp_53",
+      "grasp_64",
+      "grasp_66",
+      "grasp_73",
+      "grasp_74",
+      "grasp_75",
+      "grasp_77",
+      "grasp_83",
+      "grasp_84",
+      "grasp_86",
+      "grasp_90"
+    ],
+    "held_every_direction": [
+      "grasp_20",
+      "grasp_51",
+      "grasp_66",
+      "grasp_75",
+      "grasp_77"
+    ],
+    "variants": 112,
+    "alignment_runs": 3,
+    "initialisations": 300,
+    "refined_files": 60,
+    "selected": 32,
+    "executions": 32,
+    "stopped_at": {
+      "completed": 24,
+      "approach": 7,
+      "lift": 1
+    },
+    "approach_attempt_reasons": {
+      "quality_approach_displacement": 15,
+      "quality_penetration": 13,
+      "ik_failure": 9,
+      "quality_table_collision": 5
+    },
+    "filters": [
+      {
+        "pose": 112,
+        "loss": 15,
+        "collision": 48,
+        "qp": 39,
+        "fps": 100
+      },
+      {
+        "pose": 112,
+        "loss": 14,
+        "collision": 39,
+        "qp": 36,
+        "fps": 100
+      },
+      {
+        "pose": 112,
+        "loss": 13,
+        "collision": 51,
+        "qp": 37,
+        "fps": 100
+      }
+    ]
+  },
+  "alignments": [
+    {
+      "experiment": "big1_zero_s0",
+      "seed": 0,
+      "variants": 112,
+      "initialisations": 100,
+      "filters": {
+        "pose": 112,
+        "loss": 15,
+        "collision": 48,
+        "qp": 39,
+        "fps": 100
+      }
+    },
+    {
+      "experiment": "big1_zero_s1",
+      "seed": 1,
+      "variants": 112,
+      "initialisations": 100,
+      "filters": {
+        "pose": 112,
+        "loss": 14,
+        "collision": 39,
+        "qp": 36,
+        "fps": 100
+      }
+    },
+    {
+      "experiment": "big1_zero_s2",
+      "seed": 2,
+      "variants": 112,
+      "initialisations": 100,
+      "filters": {
+        "pose": 112,
+        "loss": 13,
+        "collision": 51,
+        "qp": 37,
+        "fps": 100
+      }
+    }
+  ],
+  "outcomes": [
+    {
+      "episode_id": "teacher_0000_yaw_000",
+      "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_10_grasp.npy",
+      "candidate_id": "c12526a583a5e5c3627416f06b95260d6beec79bd3639df6689b62de2ddefb68",
+      "status": "completed",
+      "accepted": true,
+      "stopped_at": "completed",
+      "approach_attempts": [
+        "ik_failure",
+        "quality_approach_displacement",
+        "quality_penetration",
+        "passed"
+      ],
+      "held_every_direction": false,
+      "parents": [
+        {
+          "prediction_id": "grasp_64",
+          "variant_id": "grasp_64_r30_d30",
+          "align_seed": 0,
+          "experiment": "big1_zero_s0",
+          "template_sha256": "e32605ea328fe5af61401f3022dd66954a0a3c23da99163554a93ab3871bc370",
+          "contact_index": 0,
+          "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_10_grasp.npy"
+        }
+      ]
+    },
+    {
+      "episode_id": "teacher_0001_yaw_000",
+      "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_12_grasp.npy",
+      "candidate_id": "81d41a6ee376f98eec8179f13ed9de9850f1dc51b53d16c6888bd55704e00765",
+      "status": "completed",
+      "accepted": true,
+      "stopped_at": "completed",
+      "approach_attempts": [
+        "passed"
+      ],
+      "held_every_direction": false,
+      "parents": [
+        {
+          "prediction_id": "grasp_53",
+          "variant_id": "grasp_53_r240_d30",
+          "align_seed": 0,
+          "experiment": "big1_zero_s0",
+          "template_sha256": "b3dc241670a3b5fb5cd0b46cd133ae46a656a0de122bfa9093c32a3e60c5a92e",
+          "contact_index": 0,
+          "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_12_grasp.npy"
+        }
+      ]
+    },
+    {
+      "episode_id": "teacher_0002_yaw_000",
+      "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_14_grasp.npy",
+      "candidate_id": "33c0fe683ec7773d4ba8164afa7694762f0b23a1390d11acd93d0fa051ed9542",
+      "status": "completed",
+      "accepted": true,
+      "stopped_at": "completed",
+      "approach_attempts": [
+        "passed"
+      ],
+      "held_every_direction": false,
+      "parents": [
+        {
+          "prediction_id": "grasp_53",
+          "variant_id": "grasp_53_r210_d30",
+          "align_seed": 0,
+          "experiment": "big1_zero_s0",
+          "template_sha256": "dc87869fb2e957cdd6bc44a492dde92d33d50e7138bb661f645a5a2d0968640e",
+          "contact_index": 1,
+          "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_14_grasp.npy"
+        }
+      ]
+    },
+    {
+      "episode_id": "teacher_0003_yaw_000",
+      "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_23_grasp.npy",
+      "candidate_id": "e0b607c8c502f9203428ea391a088b1770da5ed4f34be944b16342396a3ad0a8",
+      "status": "completed",
+      "accepted": true,
+      "stopped_at": "completed",
+      "approach_attempts": [
+        "passed"
+      ],
+      "held_every_direction": true,
+      "parents": [
+        {
+          "prediction_id": "grasp_51",
+          "variant_id": "grasp_51_r30_d30",
+          "align_seed": 0,
+          "experiment": "big1_zero_s0",
+          "template_sha256": "50aa4ac8b2b2f3adb35779bb580bcc3feea0a85b7689290d7a11560c0f7da556",
+          "contact_index": 0,
+          "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_23_grasp.npy"
+        }
+      ]
+    },
+    {
+      "episode_id": "teacher_0004_yaw_000",
+      "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_34_grasp.npy",
+      "candidate_id": "57aa0452d81de8b0fe0ebb0963a4d0371c8b77df39460caffb2355c06a8538ef",
+      "status": "no_validated_home_path",
+      "accepted": false,
+      "stopped_at": "approach",
+      "approach_attempts": [
+        "quality_approach_displacement",
+        "quality_penetration",
+        "quality_penetration",
+        "quality_approach_displacement",
+        "quality_penetration",
+        "quality_approach_displacement"
+      ],
+      "held_every_direction": null,
+      "parents": [
+        {
+          "prediction_id": "grasp_51",
+          "variant_id": "grasp_51_r0_d15",
+          "align_seed": 0,
+          "experiment": "big1_zero_s0",
+          "template_sha256": "c8fa3c8107cf4dc4301c8a234ae67681949fbbdd2cb206626ddb200419b64fff",
+          "contact_index": 3,
+          "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_34_grasp.npy"
+        }
+      ]
+    },
+    {
+      "episode_id": "teacher_0005_yaw_000",
+      "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_41_grasp.npy",
+      "candidate_id": "7352b5c128f72bd63fb1230863cb0a08f7f99a6933e513eb3672bcf16d6278fc",
+      "status": "no_validated_home_path",
+      "accepted": false,
+      "stopped_at": "approach",
+      "approach_attempts": [
+        "ik_failure",
+        "quality_approach_displacement",
+        "quality_penetration",
+        "ik_failure",
+        "ik_failure",
+        "quality_approach_displacement"
+      ],
+      "held_every_direction": null,
+      "parents": [
+        {
+          "prediction_id": "grasp_83",
+          "variant_id": "grasp_83_r60_d30",
+          "align_seed": 0,
+          "experiment": "big1_zero_s0",
+          "template_sha256": "cd13ad8b90b8cad887b516590d069a2f274739198d31cbd6a7e3a399eecdc711",
+          "contact_index": 3,
+          "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_41_grasp.npy"
+        }
+      ]
+    },
+    {
+      "episode_id": "teacher_0006_yaw_000",
+      "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_43_grasp.npy",
+      "candidate_id": "18330a2dee0f617600f995eb64e54af562c77d0bfdd74e4fa92f9e3074b93a57",
+      "status": "completed",
+      "accepted": true,
+      "stopped_at": "completed",
+      "approach_attempts": [
+        "passed"
+      ],
+      "held_every_direction": false,
+      "parents": [
+        {
+          "prediction_id": "grasp_90",
+          "variant_id": "grasp_90_r210_d30",
+          "align_seed": 0,
+          "experiment": "big1_zero_s0",
+          "template_sha256": "b163af4cab39879a675879e9eb2a576e0b54dbc0aae6a9ca1e787ee077a65d78",
+          "contact_index": 0,
+          "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_43_grasp.npy"
+        }
+      ]
+    },
+    {
+      "episode_id": "teacher_0007_yaw_000",
+      "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_53_grasp.npy",
+      "candidate_id": "8748c8496df4749c06ce3d4740475846dfbee0640b8a393fe863772c9205e16f",
+      "status": "completed",
+      "accepted": true,
+      "stopped_at": "completed",
+      "approach_attempts": [
+        "passed"
+      ],
+      "held_every_direction": true,
+      "parents": [
+        {
+          "prediction_id": "grasp_20",
+          "variant_id": "grasp_20_r240_d30",
+          "align_seed": 0,
+          "experiment": "big1_zero_s0",
+          "template_sha256": "8716a1a2c153120aee7d5e15dde68b62c71332e1d0326db2d817a685c4729c04",
+          "contact_index": 1,
+          "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_53_grasp.npy"
+        }
+      ]
+    },
+    {
+      "episode_id": "teacher_0008_yaw_000",
+      "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_5_grasp.npy",
+      "candidate_id": "93f884ac9be46884eb6dec4e0ea00678303aa27252a8b532e443b955ff6d98c8",
+      "status": "completed",
+      "accepted": true,
+      "stopped_at": "completed",
+      "approach_attempts": [
+        "passed"
+      ],
+      "held_every_direction": false,
+      "parents": [
+        {
+          "prediction_id": "grasp_84",
+          "variant_id": "grasp_84_r30_d30",
+          "align_seed": 0,
+          "experiment": "big1_zero_s0",
+          "template_sha256": "6b11a13eb8b2ffcd7f30fe354ddcbd9a3982f9a5fa52c103128d97649cd5ddeb",
+          "contact_index": 3,
+          "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_5_grasp.npy"
+        }
+      ]
+    },
+    {
+      "episode_id": "teacher_0009_yaw_000",
+      "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_6_grasp.npy",
+      "candidate_id": "fb97bed56bfd7e7fc105dc4776420e3f817fe8ac43ba1cf3f447201d6ee1c7a3",
+      "status": "completed",
+      "accepted": true,
+      "stopped_at": "completed",
+      "approach_attempts": [
+        "passed"
+      ],
+      "held_every_direction": false,
+      "parents": [
+        {
+          "prediction_id": "grasp_86",
+          "variant_id": "grasp_86_r210_d30",
+          "align_seed": 0,
+          "experiment": "big1_zero_s0",
+          "template_sha256": "51721cf02d051f5706bf77f5c98a5be71bbdab89d613850fbd95a437bb996679",
+          "contact_index": 0,
+          "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_6_grasp.npy"
+        }
+      ]
+    },
+    {
+      "episode_id": "teacher_0010_yaw_000",
+      "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_84_grasp.npy",
+      "candidate_id": "482c2bf51c72440fcbd705ed76f58b5714de4f2f78b2bc3380e699412cb9fa98",
+      "status": "completed",
+      "accepted": true,
+      "stopped_at": "completed",
+      "approach_attempts": [
+        "passed"
+      ],
+      "held_every_direction": false,
+      "parents": [
+        {
+          "prediction_id": "grasp_74",
+          "variant_id": "grasp_74_r240_d30",
+          "align_seed": 0,
+          "experiment": "big1_zero_s0",
+          "template_sha256": "0b8d0e48631ea050e9c1ccc981f3f0d4f9983779865bb438af3f03f6f393342c",
+          "contact_index": 1,
+          "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_84_grasp.npy"
+        }
+      ]
+    },
+    {
+      "episode_id": "teacher_0011_yaw_000",
+      "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_92_grasp.npy",
+      "candidate_id": "322aa538e84a347915c909e0380c236fe0a21518f4c5f1daf760645c920e2dcc",
+      "status": "no_validated_home_path",
+      "accepted": false,
+      "stopped_at": "approach",
+      "approach_attempts": [
+        "quality_table_collision",
+        "quality_penetration",
+        "ik_failure",
+        "quality_approach_displacement",
+        "ik_failure",
+        "quality_approach_displacement"
+      ],
+      "held_every_direction": null,
+      "parents": [
+        {
+          "prediction_id": "grasp_90",
+          "variant_id": "grasp_90_r180_d30",
+          "align_seed": 0,
+          "experiment": "big1_zero_s0",
+          "template_sha256": "1e2cdb5ea905380890341e5a7db47b018c76eaa921fb5fa3dd86b4cff7fecf4c",
+          "contact_index": 3,
+          "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_92_grasp.npy"
+        }
+      ]
+    },
+    {
+      "episode_id": "teacher_0012_yaw_000",
+      "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_25_grasp.npy",
+      "candidate_id": "8924c8ccba81468eaded6834f04752d078116fc66609b6716b0e93ebc4af59ab",
+      "status": "completed",
+      "accepted": true,
+      "stopped_at": "completed",
+      "approach_attempts": [
+        "passed"
+      ],
+      "held_every_direction": false,
+      "parents": [
+        {
+          "prediction_id": "grasp_20",
+          "variant_id": "grasp_20_r210_d15",
+          "align_seed": 1,
+          "experiment": "big1_zero_s1",
+          "template_sha256": "e6a5ccee8d8fdbe82e523f38c7d5230cf50b6349f20f9623910cf017eb5537f2",
+          "contact_index": 0,
+          "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_25_grasp.npy"
+        }
+      ]
+    },
+    {
+      "episode_id": "teacher_0013_yaw_000",
+      "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_27_grasp.npy",
+      "candidate_id": "e5b60b95824879955bf0cc2ca0fdf7ed8dd9e87be4f09858bd7c2f5a87433bc7",
+      "status": "completed",
+      "accepted": true,
+      "stopped_at": "completed",
+      "approach_attempts": [
+        "passed"
+      ],
+      "held_every_direction": true,
+      "parents": [
+        {
+          "prediction_id": "grasp_75",
+          "variant_id": "grasp_75_r180_d30",
+          "align_seed": 1,
+          "experiment": "big1_zero_s1",
+          "template_sha256": "50aa4ac8b2b2f3adb35779bb580bcc3feea0a85b7689290d7a11560c0f7da556",
+          "contact_index": 0,
+          "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_27_grasp.npy"
+        }
+      ]
+    },
+    {
+      "episode_id": "teacher_0014_yaw_000",
+      "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_29_grasp.npy",
+      "candidate_id": "ec8ff3f87b94a49e72776deda71253836fb821eaa66c4d944acc0f66d0b0d6c1",
+      "status": "completed",
+      "accepted": true,
+      "stopped_at": "completed",
+      "approach_attempts": [
+        "passed"
+      ],
+      "held_every_direction": false,
+      "parents": [
+        {
+          "prediction_id": "grasp_64",
+          "variant_id": "grasp_64_r30_d30",
+          "align_seed": 1,
+          "experiment": "big1_zero_s1",
+          "template_sha256": "86f4af1206097231973ba3b0a4909ad1e2bbe004fcc0c63550bdcd1bc148a551",
+          "contact_index": 0,
+          "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_29_grasp.npy"
+        }
+      ]
+    },
+    {
+      "episode_id": "teacher_0015_yaw_000",
+      "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_33_grasp.npy",
+      "candidate_id": "f0f3992bb0d0f5395c9ec1dc7ad58069b986633075f057e872eae0a0d6d1f49f",
+      "status": "completed",
+      "accepted": true,
+      "stopped_at": "completed",
+      "approach_attempts": [
+        "passed"
+      ],
+      "held_every_direction": false,
+      "parents": [
+        {
+          "prediction_id": "grasp_77",
+          "variant_id": "grasp_77_r240_d30",
+          "align_seed": 1,
+          "experiment": "big1_zero_s1",
+          "template_sha256": "c1124677eb9dad147ab84afee808650b2227fdb37985bac921bef87bc1bfc7b9",
+          "contact_index": 1,
+          "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_33_grasp.npy"
+        }
+      ]
+    },
+    {
+      "episode_id": "teacher_0016_yaw_000",
+      "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_37_grasp.npy",
+      "candidate_id": "05d6f12929748d380ff9a0e5b316e0afc8232c5c8195063a86435b97e686ec14",
+      "status": "no_validated_home_path",
+      "accepted": false,
+      "stopped_at": "approach",
+      "approach_attempts": [
+        "quality_approach_displacement",
+        "quality_penetration",
+        "quality_penetration",
+        "quality_approach_displacement",
+        "quality_approach_displacement",
+        "quality_table_collision"
+      ],
+      "held_every_direction": null,
+      "parents": [
+        {
+          "prediction_id": "grasp_74",
+          "variant_id": "grasp_74_r210_d30",
+          "align_seed": 1,
+          "experiment": "big1_zero_s1",
+          "template_sha256": "ad44c5d8420d13cd7e5908a91707414c552bebba51bafba1b79f18fd7545e61e",
+          "contact_index": 3,
+          "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_37_grasp.npy"
+        }
+      ]
+    },
+    {
+      "episode_id": "teacher_0017_yaw_000",
+      "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_48_grasp.npy",
+      "candidate_id": "af782c03547bdb193cb20d852c8923e1f4cef470a219347f20510fdd026ce87a",
+      "status": "no_validated_home_path",
+      "accepted": false,
+      "stopped_at": "approach",
+      "approach_attempts": [
+        "ik_failure",
+        "quality_penetration",
+        "quality_penetration",
+        "quality_table_collision",
+        "quality_penetration",
+        "quality_table_collision"
+      ],
+      "held_every_direction": null,
+      "parents": [
+        {
+          "prediction_id": "grasp_86",
+          "variant_id": "grasp_86_r210_d15",
+          "align_seed": 1,
+          "experiment": "big1_zero_s1",
+          "template_sha256": "90bb6bf7d0c2626e2af6bafd9e69d0a876230619c46e9908c8ed015774c364c1",
+          "contact_index": 2,
+          "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_48_grasp.npy"
+        }
+      ]
+    },
+    {
+      "episode_id": "teacher_0018_yaw_000",
+      "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_49_grasp.npy",
+      "candidate_id": "860ecaca6f2c38f01b57c95e37a7a2bb276291ff2fbd4bda29aae0d522230d94",
+      "status": "lift_timeout",
+      "accepted": false,
+      "stopped_at": "lift",
+      "approach_attempts": [
+        "quality_approach_displacement",
+        "quality_penetration",
+        "quality_approach_displacement",
+        "passed"
+      ],
+      "held_every_direction": null,
+      "parents": [
+        {
+          "prediction_id": "grasp_54",
+          "variant_id": "grasp_54_r180_d30",
+          "align_seed": 1,
+          "experiment": "big1_zero_s1",
+          "template_sha256": "a11aad8ce6dc04255e7dbbdc990aaaf005795363adb03c4a1766fefe3c12ef84",
+          "contact_index": 1,
+          "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_49_grasp.npy"
+        }
+      ]
+    },
+    {
+      "episode_id": "teacher_0019_yaw_000",
+      "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_4_grasp.npy",
+      "candidate_id": "747e903c2844685d2726a7732b7af40f9863f6decda24cabc956adbb08108c9f",
+      "status": "completed",
+      "accepted": true,
+      "stopped_at": "completed",
+      "approach_attempts": [
+        "passed"
+      ],
+      "held_every_direction": true,
+      "parents": [
+        {
+          "prediction_id": "grasp_66",
+          "variant_id": "grasp_66_r30_d30",
+          "align_seed": 1,
+          "experiment": "big1_zero_s1",
+          "template_sha256": "06f87acc393c6090e56305f6693ff79171d96d28ec9b112040f9ebd732242ec9",
+          "contact_index": 1,
+          "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_4_grasp.npy"
+        }
+      ]
+    },
+    {
+      "episode_id": "teacher_0020_yaw_000",
+      "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_81_grasp.npy",
+      "candidate_id": "152d58855e667e0664323c0e161d6770aa8f17670dcd45b7c7dca559200f8505",
+      "status": "completed",
+      "accepted": true,
+      "stopped_at": "completed",
+      "approach_attempts": [
+        "passed"
+      ],
+      "held_every_direction": false,
+      "parents": [
+        {
+          "prediction_id": "grasp_74",
+          "variant_id": "grasp_74_r240_d30",
+          "align_seed": 1,
+          "experiment": "big1_zero_s1",
+          "template_sha256": "de5126806c0c4c621b5e7d05d9379ac0f496dad06174970f8e657cc0d3f4f058",
+          "contact_index": 3,
+          "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_81_grasp.npy"
+        }
+      ]
+    },
+    {
+      "episode_id": "teacher_0021_yaw_000",
+      "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_85_grasp.npy",
+      "candidate_id": "70f7793eb1a581dc76832d25ad711525d6b0e587b1677f72e0ee9a69b9756095",
+      "status": "completed",
+      "accepted": true,
+      "stopped_at": "completed",
+      "approach_attempts": [
+        "passed"
+      ],
+      "held_every_direction": false,
+      "parents": [
+        {
+          "prediction_id": "grasp_51",
+          "variant_id": "grasp_51_r0_d15",
+          "align_seed": 1,
+          "experiment": "big1_zero_s1",
+          "template_sha256": "de5126806c0c4c621b5e7d05d9379ac0f496dad06174970f8e657cc0d3f4f058",
+          "contact_index": 0,
+          "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_85_grasp.npy"
+        }
+      ]
+    },
+    {
+      "episode_id": "teacher_0022_yaw_000",
+      "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_86_grasp.npy",
+      "candidate_id": "a9b3f93488e9f0cf8c3d7159d199d1a854950b9046c69f61e1ec2e173b348cff",
+      "status": "completed",
+      "accepted": true,
+      "stopped_at": "completed",
+      "approach_attempts": [
+        "quality_approach_displacement",
+        "quality_approach_displacement",
+        "quality_table_collision",
+        "passed"
+      ],
+      "held_every_direction": false,
+      "parents": [
+        {
+          "prediction_id": "grasp_10",
+          "variant_id": "grasp_10_r210_d30",
+          "align_seed": 1,
+          "experiment": "big1_zero_s1",
+          "template_sha256": "0c1853455bf789630b49b8ee448ec25752671465a1a82705ddc258719436aecd",
+          "contact_index": 0,
+          "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_86_grasp.npy"
+        }
+      ]
+    },
+    {
+      "episode_id": "teacher_0023_yaw_000",
+      "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_8_grasp.npy",
+      "candidate_id": "c3dd06cff01645c46440972a4923d19b052678ccf3fbdab750f864bea5bdd509",
+      "status": "completed",
+      "accepted": true,
+      "stopped_at": "completed",
+      "approach_attempts": [
+        "passed"
+      ],
+      "held_every_direction": false,
+      "parents": [
+        {
+          "prediction_id": "grasp_83",
+          "variant_id": "grasp_83_r30_d30",
+          "align_seed": 1,
+          "experiment": "big1_zero_s1",
+          "template_sha256": "a3445da5e5bcd57b58262d64b1c29947522366c8821215f2b7573910165e2508",
+          "contact_index": 1,
+          "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_8_grasp.npy"
+        }
+      ]
+    },
+    {
+      "episode_id": "teacher_0024_yaw_000",
+      "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_17_grasp.npy",
+      "candidate_id": "001f489f7472f4e9d59757f4b53a18dc821c2cd27e36b1efc5d5f10b82d36a0e",
+      "status": "completed",
+      "accepted": true,
+      "stopped_at": "completed",
+      "approach_attempts": [
+        "passed"
+      ],
+      "held_every_direction": true,
+      "parents": [
+        {
+          "prediction_id": "grasp_75",
+          "variant_id": "grasp_75_r210_d30",
+          "align_seed": 2,
+          "experiment": "big1_zero_s2",
+          "template_sha256": "a08503b3225d91ef76bccb38612bcb2a911c2c1fc55d62c2466a81c059b29193",
+          "contact_index": 3,
+          "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_17_grasp.npy"
+        }
+      ]
+    },
+    {
+      "episode_id": "teacher_0025_yaw_000",
+      "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_23_grasp.npy",
+      "candidate_id": "53e45d66e39e1ee52aac3949b5ce3012c1683d0bcd070291eca965f93bc6cf61",
+      "status": "completed",
+      "accepted": true,
+      "stopped_at": "completed",
+      "approach_attempts": [
+        "ik_failure",
+        "quality_approach_displacement",
+        "quality_approach_displacement",
+        "passed"
+      ],
+      "held_every_direction": false,
+      "parents": [
+        {
+          "prediction_id": "grasp_66",
+          "variant_id": "grasp_66_r210_d30",
+          "align_seed": 2,
+          "experiment": "big1_zero_s2",
+          "template_sha256": "a24743aa4cf5798530e6eab0e630ae0f7ba8a6802ce5ecd2c2788d0924fbef03",
+          "contact_index": 2,
+          "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_23_grasp.npy"
+        }
+      ]
+    },
+    {
+      "episode_id": "teacher_0026_yaw_000",
+      "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_3_grasp.npy",
+      "candidate_id": "6f52cd27cdfaea1eb52773c744bebd7ad169869dc0faa90bac4c0cfccb6326f1",
+      "status": "completed",
+      "accepted": true,
+      "stopped_at": "completed",
+      "approach_attempts": [
+        "passed"
+      ],
+      "held_every_direction": false,
+      "parents": [
+        {
+          "prediction_id": "grasp_73",
+          "variant_id": "grasp_73_r180_d0",
+          "align_seed": 2,
+          "experiment": "big1_zero_s2",
+          "template_sha256": "0eb3b6ca4375532d678bf6e6dc7ad395483081b4ba3bf8736989aa0c36c1ee60",
+          "contact_index": 0,
+          "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_3_grasp.npy"
+        }
+      ]
+    },
+    {
+      "episode_id": "teacher_0027_yaw_000",
+      "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_43_grasp.npy",
+      "candidate_id": "31efcfe836100d2ffd25ddd7ce8cbae942fcf0b4fa3d19b390198479312197cb",
+      "status": "no_validated_home_path",
+      "accepted": false,
+      "stopped_at": "approach",
+      "approach_attempts": [
+        "ik_failure",
+        "quality_table_collision",
+        "ik_failure",
+        "quality_penetration",
+        "ik_failure",
+        "quality_approach_displacement"
+      ],
+      "held_every_direction": null,
+      "parents": [
+        {
+          "prediction_id": "grasp_83",
+          "variant_id": "grasp_83_r30_d30",
+          "align_seed": 2,
+          "experiment": "big1_zero_s2",
+          "template_sha256": "bc0a5b70bbc3b7dac71c3778e868ee6e02dfe2f5e06b374810ba2fcb21a60700",
+          "contact_index": 1,
+          "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_43_grasp.npy"
+        }
+      ]
+    },
+    {
+      "episode_id": "teacher_0028_yaw_000",
+      "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_5_grasp.npy",
+      "candidate_id": "0e9e6b1d436761052dde660cc32c90bee394fddb1b5a8e70f91f05f0cb0198ef",
+      "status": "completed",
+      "accepted": true,
+      "stopped_at": "completed",
+      "approach_attempts": [
+        "ik_failure",
+        "quality_approach_displacement",
+        "quality_penetration",
+        "passed"
+      ],
+      "held_every_direction": false,
+      "parents": [
+        {
+          "prediction_id": "grasp_64",
+          "variant_id": "grasp_64_r30_d30",
+          "align_seed": 2,
+          "experiment": "big1_zero_s2",
+          "template_sha256": "6b44d7f023d805d9fecbe12731299365bc124b9d95e289f9bdea488ab304cc1a",
+          "contact_index": 0,
+          "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_5_grasp.npy"
+        }
+      ]
+    },
+    {
+      "episode_id": "teacher_0029_yaw_000",
+      "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_65_grasp.npy",
+      "candidate_id": "408c569672d856411c989e2aa398beaa2f994416bccca9ec6d9a69def8e3cd81",
+      "status": "completed",
+      "accepted": true,
+      "stopped_at": "completed",
+      "approach_attempts": [
+        "passed"
+      ],
+      "held_every_direction": false,
+      "parents": [
+        {
+          "prediction_id": "grasp_66",
+          "variant_id": "grasp_66_r30_d30",
+          "align_seed": 2,
+          "experiment": "big1_zero_s2",
+          "template_sha256": "844d51c59d1e37c519b0f81094ab90cc5293e2870ad44cb97ad1cb1ccca4c4d7",
+          "contact_index": 3,
+          "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_65_grasp.npy"
+        }
+      ]
+    },
+    {
+      "episode_id": "teacher_0030_yaw_000",
+      "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_6_grasp.npy",
+      "candidate_id": "0a3041891d62730ad08af18d06e388c73940fad1c277aa6231e1b9053997c2c9",
+      "status": "no_validated_home_path",
+      "accepted": false,
+      "stopped_at": "approach",
+      "approach_attempts": [
+        "quality_approach_displacement",
+        "quality_penetration",
+        "quality_penetration",
+        "quality_approach_displacement",
+        "quality_approach_displacement",
+        "quality_approach_displacement"
+      ],
+      "held_every_direction": null,
+      "parents": [
+        {
+          "prediction_id": "grasp_30",
+          "variant_id": "grasp_30_r180_d30",
+          "align_seed": 2,
+          "experiment": "big1_zero_s2",
+          "template_sha256": "53babbcaaf2b7ecac6b120e07f13079bba8ec8eb7af75fe13f865ea138c65e4e",
+          "contact_index": 1,
+          "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_6_grasp.npy"
+        }
+      ]
+    },
+    {
+      "episode_id": "teacher_0031_yaw_000",
+      "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_91_grasp.npy",
+      "candidate_id": "271e367f54173dca72e1c6743cd0e3a798b3635c03e85dc8a234ddaa18d1edd5",
+      "status": "completed",
+      "accepted": true,
+      "stopped_at": "completed",
+      "approach_attempts": [
+        "passed"
+      ],
+      "held_every_direction": true,
+      "parents": [
+        {
+          "prediction_id": "grasp_77",
+          "variant_id": "grasp_77_r210_d30",
+          "align_seed": 2,
+          "experiment": "big1_zero_s2",
+          "template_sha256": "90bb6bf7d0c2626e2af6bafd9e69d0a876230619c46e9908c8ed015774c364c1",
+          "contact_index": 0,
+          "source": "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_91_grasp.npy"
+        }
+      ]
+    }
+  ],
+  "predictions": {
+    "grasp_0": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_1": {
+      "variants": [
+        "grasp_1_r0_d15",
+        "grasp_1_r0_d30",
+        "grasp_1_r330_d30"
+      ],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_10": {
+      "variants": [
+        "grasp_10_r210_d30",
+        "grasp_10_r240_d30",
+        "grasp_10_r90_d30"
+      ],
+      "refined": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_86_grasp.npy"
+      ],
+      "executed": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_86_grasp.npy"
+      ],
+      "statuses": [
+        "completed"
+      ],
+      "held_every_direction": [
+        false
+      ]
+    },
+    "grasp_11": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_12": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_13": {
+      "variants": [
+        "grasp_13_r150_d30",
+        "grasp_13_r180_d30",
+        "grasp_13_r210_d30"
+      ],
+      "refined": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_51_grasp.npy"
+      ],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_14": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_15": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_16": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_17": {
+      "variants": [
+        "grasp_17_r180_d30",
+        "grasp_17_r210_d15",
+        "grasp_17_r210_d30"
+      ],
+      "refined": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_15_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_56_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_88_grasp.npy"
+      ],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_18": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_19": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_2": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_20": {
+      "variants": [
+        "grasp_20_r210_d15",
+        "grasp_20_r210_d30",
+        "grasp_20_r240_d30"
+      ],
+      "refined": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_1_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_53_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_25_grasp.npy"
+      ],
+      "executed": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_53_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_25_grasp.npy"
+      ],
+      "statuses": [
+        "completed",
+        "completed"
+      ],
+      "held_every_direction": [
+        true,
+        false
+      ]
+    },
+    "grasp_21": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_22": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_23": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_24": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_25": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_26": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_27": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_28": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_29": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_3": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_30": {
+      "variants": [
+        "grasp_30_r0_d30",
+        "grasp_30_r180_d30",
+        "grasp_30_r30_d30"
+      ],
+      "refined": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_9_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_6_grasp.npy"
+      ],
+      "executed": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_6_grasp.npy"
+      ],
+      "statuses": [
+        "no_validated_home_path"
+      ],
+      "held_every_direction": [
+        null
+      ]
+    },
+    "grasp_31": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_32": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_33": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_34": {
+      "variants": [
+        "grasp_34_r270_d15",
+        "grasp_34_r270_d30"
+      ],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_35": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_36": {
+      "variants": [
+        "grasp_36_r90_d30"
+      ],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_37": {
+      "variants": [
+        "grasp_37_r270_d15",
+        "grasp_37_r270_d30",
+        "grasp_37_r300_d30"
+      ],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_38": {
+      "variants": [
+        "grasp_38_r180_d30",
+        "grasp_38_r210_d30",
+        "grasp_38_r240_d30"
+      ],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_39": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_4": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_40": {
+      "variants": [
+        "grasp_40_r180_d30",
+        "grasp_40_r210_d15",
+        "grasp_40_r210_d30"
+      ],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_41": {
+      "variants": [
+        "grasp_41_r120_d15",
+        "grasp_41_r120_d30",
+        "grasp_41_r150_d30"
+      ],
+      "refined": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_47_grasp.npy"
+      ],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_42": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_43": {
+      "variants": [
+        "grasp_43_r180_d30",
+        "grasp_43_r210_d30",
+        "grasp_43_r30_d30"
+      ],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_44": {
+      "variants": [
+        "grasp_44_r210_d30",
+        "grasp_44_r240_d15",
+        "grasp_44_r240_d30"
+      ],
+      "refined": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_46_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_14_grasp.npy"
+      ],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_45": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_46": {
+      "variants": [
+        "grasp_46_r300_d0",
+        "grasp_46_r300_d15",
+        "grasp_46_r300_d30"
+      ],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_47": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_48": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_49": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_5": {
+      "variants": [
+        "grasp_5_r0_d30",
+        "grasp_5_r240_d30",
+        "grasp_5_r30_d30"
+      ],
+      "refined": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_62_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_83_grasp.npy"
+      ],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_50": {
+      "variants": [
+        "grasp_50_r240_d30",
+        "grasp_50_r270_d15",
+        "grasp_50_r270_d30"
+      ],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_51": {
+      "variants": [
+        "grasp_51_r0_d15",
+        "grasp_51_r0_d30",
+        "grasp_51_r30_d30"
+      ],
+      "refined": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_23_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_34_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_48_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_3_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_85_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_31_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_75_grasp.npy"
+      ],
+      "executed": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_23_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_34_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_85_grasp.npy"
+      ],
+      "statuses": [
+        "completed",
+        "no_validated_home_path",
+        "completed"
+      ],
+      "held_every_direction": [
+        true,
+        null,
+        false
+      ]
+    },
+    "grasp_52": {
+      "variants": [
+        "grasp_52_r0_d30",
+        "grasp_52_r30_d30",
+        "grasp_52_r60_d30"
+      ],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_53": {
+      "variants": [
+        "grasp_53_r180_d30",
+        "grasp_53_r210_d30",
+        "grasp_53_r240_d30"
+      ],
+      "refined": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_12_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_14_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_7_grasp.npy"
+      ],
+      "executed": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_12_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_14_grasp.npy"
+      ],
+      "statuses": [
+        "completed",
+        "completed"
+      ],
+      "held_every_direction": [
+        false,
+        false
+      ]
+    },
+    "grasp_54": {
+      "variants": [
+        "grasp_54_r180_d30",
+        "grasp_54_r210_d30",
+        "grasp_54_r240_d30"
+      ],
+      "refined": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_49_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_69_grasp.npy"
+      ],
+      "executed": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_49_grasp.npy"
+      ],
+      "statuses": [
+        "lift_timeout"
+      ],
+      "held_every_direction": [
+        null
+      ]
+    },
+    "grasp_55": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_56": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_57": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_58": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_59": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_6": {
+      "variants": [
+        "grasp_6_r210_d30",
+        "grasp_6_r240_d30"
+      ],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_60": {
+      "variants": [
+        "grasp_60_r180_d30",
+        "grasp_60_r210_d15",
+        "grasp_60_r210_d30"
+      ],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_61": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_62": {
+      "variants": [
+        "grasp_62_r210_d30"
+      ],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_63": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_64": {
+      "variants": [
+        "grasp_64_r0_d30",
+        "grasp_64_r210_d30",
+        "grasp_64_r30_d30"
+      ],
+      "refined": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_10_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_29_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_5_grasp.npy"
+      ],
+      "executed": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_10_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_29_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_5_grasp.npy"
+      ],
+      "statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "held_every_direction": [
+        false,
+        false,
+        false
+      ]
+    },
+    "grasp_65": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_66": {
+      "variants": [
+        "grasp_66_r180_d30",
+        "grasp_66_r210_d30",
+        "grasp_66_r30_d30"
+      ],
+      "refined": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_4_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_61_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_23_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_65_grasp.npy"
+      ],
+      "executed": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_4_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_23_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_65_grasp.npy"
+      ],
+      "statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "held_every_direction": [
+        true,
+        false,
+        false
+      ]
+    },
+    "grasp_67": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_68": {
+      "variants": [
+        "grasp_68_r180_d30",
+        "grasp_68_r210_d30",
+        "grasp_68_r30_d30"
+      ],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_69": {
+      "variants": [
+        "grasp_69_r90_d30"
+      ],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_7": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_70": {
+      "variants": [
+        "grasp_70_r0_d30",
+        "grasp_70_r150_d30",
+        "grasp_70_r30_d30"
+      ],
+      "refined": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_78_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_64_grasp.npy"
+      ],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_71": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_72": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_73": {
+      "variants": [
+        "grasp_73_r180_d-30",
+        "grasp_73_r180_d0",
+        "grasp_73_r180_d30"
+      ],
+      "refined": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_5_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_3_grasp.npy"
+      ],
+      "executed": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_3_grasp.npy"
+      ],
+      "statuses": [
+        "completed"
+      ],
+      "held_every_direction": [
+        false
+      ]
+    },
+    "grasp_74": {
+      "variants": [
+        "grasp_74_r210_d30",
+        "grasp_74_r240_d30",
+        "grasp_74_r30_d30"
+      ],
+      "refined": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_84_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_37_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_81_grasp.npy"
+      ],
+      "executed": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_84_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_37_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_81_grasp.npy"
+      ],
+      "statuses": [
+        "completed",
+        "no_validated_home_path",
+        "completed"
+      ],
+      "held_every_direction": [
+        false,
+        null,
+        false
+      ]
+    },
+    "grasp_75": {
+      "variants": [
+        "grasp_75_r0_d30",
+        "grasp_75_r180_d30",
+        "grasp_75_r210_d30"
+      ],
+      "refined": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_27_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_17_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_18_grasp.npy"
+      ],
+      "executed": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_27_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_17_grasp.npy"
+      ],
+      "statuses": [
+        "completed",
+        "completed"
+      ],
+      "held_every_direction": [
+        true,
+        true
+      ]
+    },
+    "grasp_76": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_77": {
+      "variants": [
+        "grasp_77_r180_d30",
+        "grasp_77_r210_d30",
+        "grasp_77_r240_d30"
+      ],
+      "refined": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_33_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_91_grasp.npy"
+      ],
+      "executed": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_33_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_91_grasp.npy"
+      ],
+      "statuses": [
+        "completed",
+        "completed"
+      ],
+      "held_every_direction": [
+        false,
+        true
+      ]
+    },
+    "grasp_78": {
+      "variants": [
+        "grasp_78_r0_d30",
+        "grasp_78_r180_d30",
+        "grasp_78_r30_d30"
+      ],
+      "refined": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_7_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_4_grasp.npy"
+      ],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_79": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_8": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_80": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_81": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_82": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_83": {
+      "variants": [
+        "grasp_83_r210_d30",
+        "grasp_83_r30_d30",
+        "grasp_83_r60_d30"
+      ],
+      "refined": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_41_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_8_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_43_grasp.npy"
+      ],
+      "executed": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_41_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_8_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_43_grasp.npy"
+      ],
+      "statuses": [
+        "no_validated_home_path",
+        "completed",
+        "no_validated_home_path"
+      ],
+      "held_every_direction": [
+        null,
+        false,
+        null
+      ]
+    },
+    "grasp_84": {
+      "variants": [
+        "grasp_84_r0_d30",
+        "grasp_84_r180_d30",
+        "grasp_84_r30_d30"
+      ],
+      "refined": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_5_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_44_grasp.npy"
+      ],
+      "executed": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_5_grasp.npy"
+      ],
+      "statuses": [
+        "completed"
+      ],
+      "held_every_direction": [
+        false
+      ]
+    },
+    "grasp_85": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_86": {
+      "variants": [
+        "grasp_86_r210_d0",
+        "grasp_86_r210_d15",
+        "grasp_86_r210_d30"
+      ],
+      "refined": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_6_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_8_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_15_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_48_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_9_grasp.npy"
+      ],
+      "executed": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_6_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s1_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_48_grasp.npy"
+      ],
+      "statuses": [
+        "completed",
+        "no_validated_home_path"
+      ],
+      "held_every_direction": [
+        false,
+        null
+      ]
+    },
+    "grasp_87": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_88": {
+      "variants": [
+        "grasp_88_r150_d30",
+        "grasp_88_r180_d30",
+        "grasp_88_r30_d30"
+      ],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_89": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_9": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_90": {
+      "variants": [
+        "grasp_90_r180_d30",
+        "grasp_90_r210_d30",
+        "grasp_90_r30_d30"
+      ],
+      "refined": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_43_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_92_grasp.npy"
+      ],
+      "executed": [
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_43_grasp.npy",
+        "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_92_grasp.npy"
+      ],
+      "statuses": [
+        "completed",
+        "no_validated_home_path"
+      ],
+      "held_every_direction": [
+        false,
+        null
+      ]
+    },
+    "grasp_91": {
+      "variants": [
+        "grasp_91_r150_d30",
+        "grasp_91_r180_d30",
+        "grasp_91_r210_d30"
+      ],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    },
+    "grasp_92": {
+      "variants": [],
+      "refined": [],
+      "executed": [],
+      "statuses": [],
+      "held_every_direction": []
+    }
+  }
+}

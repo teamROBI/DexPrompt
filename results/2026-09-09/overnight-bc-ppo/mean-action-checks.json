@@ -1,0 +1,162 @@
+{
+  "out/rl-approach/A-seed0/eval-mean-00040960.json": {
+    "steps": 40960,
+    "status": "completed",
+    "success": true,
+    "approach_ticks": 447,
+    "closest_m": 0.0031585139533908805,
+    "handover_tick": 447
+  },
+  "out/rl-approach/A-seed0/eval-mean-00051200.json": {
+    "steps": 51200,
+    "status": "completed",
+    "success": true,
+    "approach_ticks": 452,
+    "closest_m": 0.002212515832848372,
+    "handover_tick": 452
+  },
+  "out/rl-approach/A-seed0/eval-mean-00061440.json": {
+    "steps": 61440,
+    "status": "completed",
+    "success": true,
+    "approach_ticks": 434,
+    "closest_m": 0.0037449560352066265,
+    "handover_tick": 434
+  },
+  "out/rl-approach/A-seed0/eval-mean-00071680.json": {
+    "steps": 71680,
+    "status": "quality_penetration",
+    "success": false,
+    "approach_ticks": 536,
+    "closest_m": 0.004231494489137718,
+    "handover_tick": null
+  },
+  "out/rl-approach/A-seed0/eval-mean-051200.json": {
+    "steps": 51200,
+    "status": "completed",
+    "success": true,
+    "approach_ticks": 452,
+    "closest_m": 0.002212515832848372,
+    "handover_tick": 452
+  },
+  "out/rl-approach/A-seed0/eval-mean-071680-recheck.json": {
+    "steps": 71680,
+    "status": "quality_penetration",
+    "success": false,
+    "approach_ticks": 536,
+    "closest_m": 0.004231494489137718,
+    "handover_tick": null
+  },
+  "out/rl-approach/A-seed1/eval-mean-00040960.json": {
+    "steps": 40960,
+    "status": "completed",
+    "success": true,
+    "approach_ticks": 447,
+    "closest_m": 0.0031585139533908805,
+    "handover_tick": 447
+  },
+  "out/rl-approach/A-seed1/eval-mean-00051200.json": {
+    "steps": 51200,
+    "status": "completed",
+    "success": true,
+    "approach_ticks": 447,
+    "closest_m": 0.004226590836828077,
+    "handover_tick": 447
+  },
+  "out/rl-approach/A-seed1/eval-mean-00061440.json": {
+    "steps": 61440,
+    "status": "quality_approach_displacement",
+    "success": false,
+    "approach_ticks": 444,
+    "closest_m": 0.010791566365475161,
+    "handover_tick": null
+  },
+  "out/rl-approach/A-seed1/eval-mean-00071680.json": {
+    "steps": 71680,
+    "status": "quality_approach_displacement",
+    "success": false,
+    "approach_ticks": 409,
+    "closest_m": 0.024383298938127494,
+    "handover_tick": null
+  },
+  "out/rl-approach/A-seed1/eval-mean-00081920.json": {
+    "steps": 81920,
+    "status": "quality_approach_displacement",
+    "success": false,
+    "approach_ticks": 381,
+    "closest_m": 0.04654325795199642,
+    "handover_tick": null
+  },
+  "out/rl-approach/A-seed1/eval-mean-00092160.json": {
+    "steps": 92160,
+    "status": "quality_approach_displacement",
+    "success": false,
+    "approach_ticks": 398,
+    "closest_m": 0.07543882172476574,
+    "handover_tick": null
+  },
+  "out/rl-approach/A-seed1/eval-mean-00102400.json": {
+    "steps": 102400,
+    "status": "quality_penetration",
+    "success": false,
+    "approach_ticks": 388,
+    "closest_m": 0.11317522350564227,
+    "handover_tick": null
+  },
+  "out/rl-approach/A-seed1/eval-mean-061440-recheck.json": {
+    "steps": 61440,
+    "status": "quality_approach_displacement",
+    "success": false,
+    "approach_ticks": 444,
+    "closest_m": 0.010791566365475161,
+    "handover_tick": null
+  },
+  "out/rl-approach/B-seed0/eval-mean-00040960.json": {
+    "steps": 40960,
+    "status": "completed",
+    "success": true,
+    "approach_ticks": 447,
+    "closest_m": 0.0031585139533908805,
+    "handover_tick": 447
+  },
+  "out/rl-approach/B-seed0/eval-mean-00051200.json": {
+    "steps": 51200,
+    "status": "quality_approach_displacement",
+    "success": false,
+    "approach_ticks": 565,
+    "closest_m": 0.008028967723195614,
+    "handover_tick": null
+  },
+  "out/rl-approach/B-seed0/eval-mean-00061440.json": {
+    "steps": 61440,
+    "status": "quality_approach_displacement",
+    "success": false,
+    "approach_ticks": 537,
+    "closest_m": 0.007699186254023923,
+    "handover_tick": null
+  },
+  "out/rl-approach/B-seed0/eval-mean-051200-recheck.json": {
+    "steps": 51200,
+    "status": "quality_approach_displacement",
+    "success": false,
+    "approach_ticks": 565,
+    "closest_m": 0.008028967723195614,
+    "handover_tick": null
+  },
+  "out/rl-approach/bc-v1/eval-mean-recheck-A30.json": {
+    "steps": 0,
+    "status": "completed",
+    "success": true,
+    "approach_ticks": 447,
+    "closest_m": 0.0031585139533908805,
+    "handover_tick": 447
+  },
+  "out/rl-approach/bc-v1/eval-mean-recheck-B10.json": {
+    "steps": 0,
+    "status": "completed",
+    "success": true,
+    "approach_ticks": 447,
+    "closest_m": 0.0031585139533908805,
+    "handover_tick": 447
+  }
+}

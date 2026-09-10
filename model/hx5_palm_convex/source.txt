@@ -1,0 +1,1 @@
+/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/hx5_d20/hx5_d20_right/hx5_d20_base_unit.stl

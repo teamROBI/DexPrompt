@@ -1,0 +1,74 @@
+[
+  {
+    "episode_id": "teacher_0002_yaw_000",
+    "zero_mask_frames": 0,
+    "frames": 974,
+    "zero_mask_phases": {}
+  },
+  {
+    "episode_id": "teacher_0004_yaw_000",
+    "zero_mask_frames": 0,
+    "frames": 974,
+    "zero_mask_phases": {}
+  },
+  {
+    "episode_id": "teacher_0006_yaw_000",
+    "zero_mask_frames": 565,
+    "frames": 971,
+    "zero_mask_phases": {
+      "approach": 200,
+      "arrive": 50,
+      "close": 122,
+      "descend": 95,
+      "lift": 69,
+      "transit": 29
+    }
+  },
+  {
+    "episode_id": "teacher_0008_yaw_000",
+    "zero_mask_frames": 80,
+    "frames": 988,
+    "zero_mask_phases": {
+      "descend": 27,
+      "transit": 53
+    }
+  },
+  {
+    "episode_id": "teacher_0009_yaw_000",
+    "zero_mask_frames": 12,
+    "frames": 972,
+    "zero_mask_phases": {
+      "descend": 12
+    }
+  },
+  {
+    "episode_id": "teacher_0012_yaw_000",
+    "zero_mask_frames": 0,
+    "frames": 984,
+    "zero_mask_phases": {}
+  },
+  {
+    "episode_id": "teacher_0013_yaw_000",
+    "zero_mask_frames": 0,
+    "frames": 978,
+    "zero_mask_phases": {}
+  },
+  {
+    "episode_id": "teacher_0016_yaw_000",
+    "zero_mask_frames": 433,
+    "frames": 974,
+    "zero_mask_phases": {
+      "approach": 3,
+      "arrive": 50,
+      "close": 125,
+      "lift": 222,
+      "transit": 33
+    }
+  },
+  {
+    "episode_id": "teacher_0017_yaw_000",
+    "zero_mask_frames": 0,
+    "frames": 1002,
+    "zero_mask_phases": {}
+  }
+]

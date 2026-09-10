@@ -1,0 +1,26 @@
+continuing from out/rl-approach/bc-v1/policy.pt (exploration std 0.050)
+
+     steps  actor    reward  handover  success       KL    std   steps/s
+     5,120      0     0.004     0.000    0.000   0.0000  0.050       421
+    10,240      0     0.019     0.812    0.812   0.0000  0.050        39
+    15,360      0     0.149     0.885    0.885   0.0000  0.050        34
+    20,480      0     0.006     0.812    0.812   0.0000  0.050        39
+    25,600      0     0.028     0.792    0.792   0.0000  0.050        35
+    30,720      0    -0.041     0.741    0.741   0.0000  0.050        36
+    35,840      0     0.033     0.692    0.692   0.0000  0.050        40
+critic warm-up finished after 40 updates; the policy starts learning now
+    40,960      0    -0.020     0.684    0.684   0.0000  0.050        38
+attempt 1: KL 0.0333 over the 0.01 limit; the update was undone
+attempt 2: KL 0.0274 over the 0.01 limit; the update was undone
+attempt 3: KL 0.0383 over the 0.01 limit; the update was undone
+attempt 4: KL 0.0108 over the 0.01 limit; the update was undone
+attempt 5: KL 0.0190 over the 0.01 limit; the update was undone
+    46,080      0     0.080     0.692    0.692   0.0190  0.050        37
+attempt 6: KL 0.0211 over the 0.01 limit; the update was undone
+attempt 7: KL 0.0329 over the 0.01 limit; the update was undone
+attempt 8: KL 0.0252 over the 0.01 limit; the update was undone
+attempt 9: KL 0.0150 over the 0.01 limit; the update was undone
+attempt 10: KL 0.0311 over the 0.01 limit; the update was undone
+    51,200      0     0.067     0.704    0.704   0.0311  0.050        37
+stopping: 10 policy updates attempted, the limit for this run
+51,200 steps, 98 episodes, 69 handovers, 69 successes; policy updates: 10 attempted, 0 accepted, 10 cancelled

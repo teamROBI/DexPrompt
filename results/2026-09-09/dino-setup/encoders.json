@@ -1,0 +1,28 @@
+{
+  "encoders": [
+    {
+      "name": "dinov2_vitb14",
+      "weights": "out/student-assets/dinov2_vitb14_pretrain.pth",
+      "strict_loaded": true,
+      "frozen": true,
+      "embedding_width": 768,
+      "parameters": 86580480,
+      "seconds": 2.78367174603045
+    },
+    {
+      "name": "dinov2_vitl14",
+      "weights": "out/student-assets/dinov2_vitl14_pretrain.pth",
+      "strict_loaded": true,
+      "frozen": true,
+      "embedding_width": 1024,
+      "parameters": 304368640,
+      "seconds": 5.097141703125089
+    }
+  ],
+  "full_check_seconds": 96.2396208201535,
+  "downloads_during_check": 0,
+  "backward_calls": 0,
+  "optimizer_steps": 0,
+  "device": "cpu",
+  "fixture_used": false
+}

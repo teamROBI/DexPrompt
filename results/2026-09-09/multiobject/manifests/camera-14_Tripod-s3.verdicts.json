@@ -1,0 +1,5 @@
+{
+  "/home/yspark/projects/Dexonomy/output/multi3_camera_14_Tripod_s3_hx5_d20/grasp_data/14_Tripod/core_camera_1ab3abb5c090d9b68e940c4e64a94e1e/floating/scale008/0_22_grasp.npy": "hand_through_table",
+  "/home/yspark/projects/Dexonomy/output/multi3_camera_14_Tripod_s3_hx5_d20/grasp_data/14_Tripod/core_camera_1ab3abb5c090d9b68e940c4e64a94e1e/floating/scale008/0_43_grasp.npy": "hand_through_table",
+  "/home/yspark/projects/Dexonomy/output/multi3_camera_14_Tripod_s3_hx5_d20/grasp_data/14_Tripod/core_camera_1ab3abb5c090d9b68e940c4e64a94e1e/floating/scale008/0_46_grasp.npy": "hand_through_table"
+}

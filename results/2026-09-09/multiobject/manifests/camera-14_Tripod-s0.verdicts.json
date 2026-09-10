@@ -1,0 +1,9 @@
+{
+  "/home/yspark/projects/Dexonomy/output/multi3_camera_14_Tripod_s0_hx5_d20/grasp_data/14_Tripod/core_camera_1ab3abb5c090d9b68e940c4e64a94e1e/floating/scale008/0_29_grasp.npy": "open_hand_inside_object",
+  "/home/yspark/projects/Dexonomy/output/multi3_camera_14_Tripod_s0_hx5_d20/grasp_data/14_Tripod/core_camera_1ab3abb5c090d9b68e940c4e64a94e1e/floating/scale008/0_32_grasp.npy": "hand_through_table",
+  "/home/yspark/projects/Dexonomy/output/multi3_camera_14_Tripod_s0_hx5_d20/grasp_data/14_Tripod/core_camera_1ab3abb5c090d9b68e940c4e64a94e1e/floating/scale008/0_42_grasp.npy": "open_hand_inside_object",
+  "/home/yspark/projects/Dexonomy/output/multi3_camera_14_Tripod_s0_hx5_d20/grasp_data/14_Tripod/core_camera_1ab3abb5c090d9b68e940c4e64a94e1e/floating/scale008/0_56_grasp.npy": "hand_through_table",
+  "/home/yspark/projects/Dexonomy/output/multi3_camera_14_Tripod_s0_hx5_d20/grasp_data/14_Tripod/core_camera_1ab3abb5c090d9b68e940c4e64a94e1e/floating/scale008/0_60_grasp.npy": "hand_through_table",
+  "/home/yspark/projects/Dexonomy/output/multi3_camera_14_Tripod_s0_hx5_d20/grasp_data/14_Tripod/core_camera_1ab3abb5c090d9b68e940c4e64a94e1e/floating/scale008/0_62_grasp.npy": "hand_through_table",
+  "/home/yspark/projects/Dexonomy/output/multi3_camera_14_Tripod_s0_hx5_d20/grasp_data/14_Tripod/core_camera_1ab3abb5c090d9b68e940c4e64a94e1e/floating/scale008/0_85_grasp.npy": "hand_through_table"
+}

@@ -1,0 +1,70 @@
+{
+  "out/rl-approach/bc-v1/policy.pt": {
+    "sha256": "f9caf903f63ae1e93ffa265521f03247259092716461a47cb709edeead737f82",
+    "bytes": 2301342
+  },
+  "out/rl-approach/demos.npz": {
+    "sha256": "8c9176448dc4cc02231491fc3fe838e7034da2af9af1f75a15d62fa321a36ef9",
+    "bytes": 710710
+  },
+  "out/rl-approach/archive-ppo-bc-v2/policy.pt": {
+    "sha256": "abc412de6222537408df216f5badf4097b9f96834d41399fe9673620ad2fa400",
+    "bytes": 6897922
+  },
+  "out/rl-approach/A-seed0/checkpoints/policy_step_00040960.pt": {
+    "sha256": "bb31402ded5609320df22143c33414dbf576c3d9114573472981f529da53d5dc",
+    "bytes": 4589056
+  },
+  "out/rl-approach/A-seed0/checkpoints/policy_step_00051200.pt": {
+    "sha256": "b7a0f0cb652f48c076ea1f96073442b53896d703c648f481ef7052ad4998a298",
+    "bytes": 6901138
+  },
+  "out/rl-approach/A-seed0/checkpoints/policy_step_00061440.pt": {
+    "sha256": "fdd5e8ab63638706169cde35c51bcca39576959f5975468bf81ac674033196ee",
+    "bytes": 6901138
+  },
+  "out/rl-approach/A-seed0/checkpoints/policy_step_00071680.pt": {
+    "sha256": "0780e6e97a46b3ff81aaba0b10e83221820d4af5fc812fcafa2d95bb7a35bc44",
+    "bytes": 6901138
+  },
+  "out/rl-approach/B-seed0/checkpoints/policy_step_00040960.pt": {
+    "sha256": "adee35804000990511a3a214e7a22dc84ed4d0fc6553df6eeec88268a232372e",
+    "bytes": 4589312
+  },
+  "out/rl-approach/B-seed0/checkpoints/policy_step_00051200.pt": {
+    "sha256": "a4735c1a2b25b1a5c5c418b93b9d151b4ba8f337b3e01fe22894e888aee83112",
+    "bytes": 6901394
+  },
+  "out/rl-approach/B-seed0/checkpoints/policy_step_00061440.pt": {
+    "sha256": "f2236b6e691d2bb312737b2363fb49b0daada2bccd072289bcac17ef364ed210",
+    "bytes": 6901394
+  },
+  "out/rl-approach/A-seed1/checkpoints/policy_step_00040960.pt": {
+    "sha256": "db2c0114d54a181845e4222095f4b11245e2bfae62ea9c0201ffbf1386c75154",
+    "bytes": 4589056
+  },
+  "out/rl-approach/A-seed1/checkpoints/policy_step_00051200.pt": {
+    "sha256": "3c6c362e5f33650d2d5c760d7f2667c5b85854700906010e7562d3cdcf9f5d75",
+    "bytes": 6901138
+  },
+  "out/rl-approach/A-seed1/checkpoints/policy_step_00061440.pt": {
+    "sha256": "23381d16810d193e65e4d5313d11ee652ae554a5bc9110b20010289f9fe4e6ee",
+    "bytes": 6901138
+  },
+  "out/rl-approach/A-seed1/checkpoints/policy_step_00071680.pt": {
+    "sha256": "5913f22dd1b0bbeb7eb4e0011da550874147dccf52758912735cfd15cd8f7593",
+    "bytes": 6901138
+  },
+  "out/rl-approach/A-seed1/checkpoints/policy_step_00081920.pt": {
+    "sha256": "bbd561f1d00b356d35a1fb6a6fb1e9803cd4e7a1112edf71400d2918ad891c64",
+    "bytes": 6901138
+  },
+  "out/rl-approach/A-seed1/checkpoints/policy_step_00092160.pt": {
+    "sha256": "891ceebf4e27f615f54cc0cf407f9970ce47693d413aa7fd808d7b37fc5b6ea1",
+    "bytes": 6901138
+  },
+  "out/rl-approach/A-seed1/checkpoints/policy_step_00102400.pt": {
+    "sha256": "1171b674b4b71b8eebb5bf11b7b15439ff4d07c4ecdf3f1684f93e96549bdd65",
+    "bytes": 6901138
+  }
+}

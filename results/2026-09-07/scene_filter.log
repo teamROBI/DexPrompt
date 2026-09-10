@@ -1,0 +1,16 @@
+4495 grasps to check
+
+  500/4495  kept 190
+  1000/4495  kept 395
+  1500/4495  kept 570
+  2000/4495  kept 754
+  2500/4495  kept 958
+  3000/4495  kept 1118
+  3500/4495  kept 1322
+  4000/4495  kept 1491
+
+  2435  blocked by the table or closes on nothing
+  1662  kept
+   398  object not in the scene
+
+kept 1662 of 4495 (37.0%) -> third_party/dexonomy/output/feasible_hx5_d20/succ_grasp

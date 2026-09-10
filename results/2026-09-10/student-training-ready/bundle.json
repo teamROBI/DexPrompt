@@ -1,0 +1,41 @@
+{
+  "completed": true,
+  "training_started": false,
+  "scope": "train-task diagnosis only; no independent validation/test",
+  "episodes": 4,
+  "duplicates_removed": [],
+  "objects": [
+    "core_bottle_6444875e3217bf891f5f48a891d827bd",
+    "core_can_7bd05573c09fb0c2af39ccaab9314b14"
+  ],
+  "validation": {
+    "valid": true,
+    "accepted_episodes": 4,
+    "rejected_episodes": 0,
+    "training_ready": false,
+    "split": {
+      "by": "object",
+      "counts": {
+        "test": 0,
+        "train": 4,
+        "val": 0
+      },
+      "fractions": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "group_counts": {
+        "test": 0,
+        "train": 2,
+        "val": 0
+      },
+      "groups": {
+        "core_bottle_6444875e3217bf891f5f48a891d827bd": "train",
+        "core_can_7bd05573c09fb0c2af39ccaab9314b14": "train"
+      },
+      "seed": 0,
+      "warnings": []
+    }
+  }
+}

@@ -1,0 +1,140 @@
+{
+ "recorded_at": "2026-09-10T13:44:43+09:00",
+ "question": "Is 'required contact bodies not achieved' a mapping, transform or contact-test fault, or an optimisation outcome?",
+ "selection_rule": "Positives: every teacher candidate that produced an accepted episode on the bottle or the can anywhere in out/, de-duplicated by the teacher file's sha256, ordered by that hash, first three per object. Negatives: every candidate the refiner rejected with 'required contact bodies not achieved' in a recorded run, same de-duplication and order, first three per object. Fixed before any measurement was taken.",
+ "held_fixed": "placement (rest 0, yaw 0), object scale, align seeds, the table-aware scene, the contact criterion, and the refiner's settings. Only logging verbosity was changed to record the rejection reasons, and that changed no result.",
+ "rejection_census": "Across all bowl and hammer refinements (2 objects x 2 types x 3 seeds), every single rejection was the required-contact check: 0 collision, 0 force-closure, 0 joint-limit rejections.",
+ "positive": [
+  {
+   "object": "bottle",
+   "object_id": "core_bottle_6444875e3217bf891f5f48a891d827bd",
+   "grasp_type": "33_Inferior_Pincer",
+   "refined_path": "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_17_grasp.npy",
+   "sha256": "001f489f7472f4e9d59757f4b53a18dc821c2cd27e36b1efc5d5f10b82d36a0e",
+   "seen_in": [
+    "out/offset-compare-93/executed-zero"
+   ],
+   "candidate_id": "001f489f7472f4e9d59757f4b53a18dc821c2cd27e36b1efc5d5f10b82d36a0e",
+   "init_path": "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/init_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_17_grasp.npy"
+  },
+  {
+   "object": "bottle",
+   "object_id": "core_bottle_6444875e3217bf891f5f48a891d827bd",
+   "grasp_type": "33_Inferior_Pincer",
+   "refined_path": "/home/yspark/projects/Dexonomy/output/big1_offset_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_2_grasp.npy",
+   "sha256": "05b63bfb299053e9edf05f61741c849b103d7863c3e462a90fd30f4c73d983a9",
+   "seen_in": [
+    "out/offset-compare-93/executed-offset",
+    "out/rl-approach/baseline-recheck",
+    "out/rl-approach/baseline-recheck2",
+    "out/student-visibility-v2-collection-check"
+   ],
+   "candidate_id": "05b63bfb299053e9edf05f61741c849b103d7863c3e462a90fd30f4c73d983a9",
+   "init_path": "/home/yspark/projects/Dexonomy/output/big1_offset_s0_hx5_d20/init_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_2_grasp.npy"
+  },
+  {
+   "object": "bottle",
+   "object_id": "core_bottle_6444875e3217bf891f5f48a891d827bd",
+   "grasp_type": "33_Inferior_Pincer",
+   "refined_path": "/home/yspark/projects/Dexonomy/output/offcmp5_zero_s3_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_4_grasp.npy",
+   "sha256": "099b9a058a5236df8e0d2ad0c59d6c0380ae9c4f76c5126c602688f647aa07b7",
+   "seen_in": [
+    "out/offset-compare/executed-zero-distinct"
+   ],
+   "candidate_id": "099b9a058a5236df8e0d2ad0c59d6c0380ae9c4f76c5126c602688f647aa07b7",
+   "init_path": "/home/yspark/projects/Dexonomy/output/offcmp5_zero_s3_hx5_d20/init_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_4_grasp.npy"
+  },
+  {
+   "object": "can",
+   "object_id": "core_can_7bd05573c09fb0c2af39ccaab9314b14",
+   "grasp_type": "10_Power_Disk",
+   "refined_path": "/home/yspark/projects/Dexonomy/output/multi3_can_10_Power_Disk_s1_hx5_d20/grasp_data/10_Power_Disk/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_96_grasp.npy",
+   "sha256": "9d7009a7406f73040402123e28d35aa6250ad16e641f583081a2637d0265219e",
+   "seen_in": [
+    "out/multiobject/can/executed-all",
+    "out/multiobject/can/reproduce",
+    "out/tabletop/tab_can_base",
+    "out/teacher-expansion/can-yaw000",
+    "out/teacher-expansion/can-yawp15",
+    "out/teacher-expansion/can-yawp15-reproduce"
+   ],
+   "candidate_id": "9d7009a7406f73040402123e28d35aa6250ad16e641f583081a2637d0265219e",
+   "init_path": "/home/yspark/projects/Dexonomy/output/multi3_can_10_Power_Disk_s1_hx5_d20/init_data/10_Power_Disk/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_96_grasp.npy"
+  },
+  {
+   "object": "can",
+   "object_id": "core_can_7bd05573c09fb0c2af39ccaab9314b14",
+   "grasp_type": "10_Power_Disk",
+   "refined_path": "/home/yspark/projects/Dexonomy/output/tab_can_table_hx5_d20/grasp_data/10_Power_Disk/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_96_grasp.npy",
+   "sha256": "d0402dcb263355358713dcc7dc60ebf078d29cf68c3d14896caa2579adb9b908",
+   "seen_in": [
+    "out/tabletop/tab_can_table",
+    "out/tabletop/tab_can_table_reproduce"
+   ],
+   "candidate_id": "d0402dcb263355358713dcc7dc60ebf078d29cf68c3d14896caa2579adb9b908",
+   "init_path": "/home/yspark/projects/Dexonomy/output/tab_can_table_hx5_d20/init_data/10_Power_Disk/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_96_grasp.npy"
+  }
+ ],
+ "negative": [
+  {
+   "object": "bowl",
+   "experiment": "exp5_bowl_10_Power_Disk_s0_hx5_d20",
+   "grasp_type": "10_Power_Disk",
+   "init_path": "third_party/dexonomy/output/exp5_bowl_10_Power_Disk_s0_hx5_d20/init_data/10_Power_Disk/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71/tabletop/scale005/0_35_grasp.npy",
+   "refined_path": null,
+   "sha256": "498809d217d3639de5648756f47b8a48e20f48cc11f9aaa998917b60ebae374a",
+   "first_failing_group": "['finger_r_link3', 'finger_r_link4']",
+   "contacts_seen": "{'finger_r_link12'}"
+  },
+  {
+   "object": "bowl",
+   "experiment": "exp5_bowl_26_Sphere_4_Finger_s1_hx5_d20",
+   "grasp_type": "26_Sphere_4_Finger",
+   "init_path": "third_party/dexonomy/output/exp5_bowl_26_Sphere_4_Finger_s1_hx5_d20/init_data/26_Sphere_4_Finger/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71/tabletop/scale005/0_17_grasp.npy",
+   "refined_path": null,
+   "sha256": "806273bc9ff039c5e1c33942e3ef73ff65f7546a8d845e587b1fe2bd0e8ec665",
+   "first_failing_group": "['finger_r_link7', 'finger_r_link8']",
+   "contacts_seen": "{'finger_r_link12', 'finger_r_link16', 'finger_r_link4'}"
+  },
+  {
+   "object": "bowl",
+   "experiment": "exp5_bowl_10_Power_Disk_s1_hx5_d20",
+   "grasp_type": "10_Power_Disk",
+   "init_path": "third_party/dexonomy/output/exp5_bowl_10_Power_Disk_s1_hx5_d20/init_data/10_Power_Disk/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71/tabletop/scale005/0_24_grasp.npy",
+   "refined_path": null,
+   "sha256": "9c474332264e88caeace237b19121cbd97f7c97894ccdb220f06d4ee626c8643",
+   "first_failing_group": "['finger_r_link7', 'finger_r_link8']",
+   "contacts_seen": "{'finger_r_link4', 'finger_r_link16', 'finger_r_link12'}"
+  },
+  {
+   "object": "hammer",
+   "experiment": "exp5_hammer_2_Small_Diameter_s0_hx5_d20",
+   "grasp_type": "2_Small_Diameter",
+   "init_path": "third_party/dexonomy/output/exp5_hammer_2_Small_Diameter_s0_hx5_d20/init_data/2_Small_Diameter/ddg_gd_hammer_poisson_005/tabletop/scale008/0_15_grasp.npy",
+   "refined_path": null,
+   "sha256": "0320c3b1fa51669777381efe6b45ad3a2669b77364b36caf88dbf47aad11db49",
+   "first_failing_group": "['finger_r_link7', 'finger_r_link8']",
+   "contacts_seen": "{'finger_r_link4', 'finger_r_link11', 'finger_r_link12', 'finger_r_link15'}"
+  },
+  {
+   "object": "hammer",
+   "experiment": "exp5_hammer_2_Small_Diameter_s1_hx5_d20",
+   "grasp_type": "2_Small_Diameter",
+   "init_path": "third_party/dexonomy/output/exp5_hammer_2_Small_Diameter_s1_hx5_d20/init_data/2_Small_Diameter/ddg_gd_hammer_poisson_005/tabletop/scale008/0_6_grasp.npy",
+   "refined_path": null,
+   "sha256": "033e81faac1014a82423aa5680093a701b798db54ebbef294c33c8a7f9e0efbc",
+   "first_failing_group": "['finger_r_link7', 'finger_r_link8']",
+   "contacts_seen": "{'finger_r_link16'}"
+  },
+  {
+   "object": "hammer",
+   "experiment": "exp5_hammer_2_Small_Diameter_s0_hx5_d20",
+   "grasp_type": "2_Small_Diameter",
+   "init_path": "third_party/dexonomy/output/exp5_hammer_2_Small_Diameter_s0_hx5_d20/init_data/2_Small_Diameter/ddg_gd_hammer_poisson_005/tabletop/scale008/0_29_grasp.npy",
+   "refined_path": null,
+   "sha256": "03fa5b0e3e6ca2a71d7f1cedf99535b452811b58fbd521a414dbe3dbb6538551",
+   "first_failing_group": "['finger_r_link7', 'finger_r_link8']",
+   "contacts_seen": "{'finger_r_link11', 'finger_r_link16'}"
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+  "source_run": "/home/yspark/projects/ICRA/out/contact-approach-v3",
+  "trial": "axis_x_home",
+  "identical_initial_state": true,
+  "episodes": [
+    {
+      "sustained_lift": true,
+      "teacher_compliant_lift": false,
+      "max_height_m": 0.14291867312298479,
+      "final_height_m": 0.1427397533192829,
+      "longest_lift_ticks": 103,
+      "longest_teacher_ticks": 0,
+      "max_contact_groups": 3,
+      "required_groups": 5,
+      "table_collision_ticks": 0,
+      "approach_ticks": 500,
+      "approach_table_collision_ticks": 0,
+      "max_approach_xy_displacement_m": 0.0029913833958745703,
+      "max_table_depth_m": 0.0,
+      "contact_ticks_per_group": [
+        281,
+        0,
+        171,
+        0,
+        288
+      ],
+      "initial_robot_object_depth_m": 0.0,
+      "clear_initialization": true,
+      "whole_episode_teacher_success": false,
+      "max_height_trace_error_m": 3.412637150645992e-08
+    },
+    {
+      "sustained_lift": true,
+      "teacher_compliant_lift": false,
+      "max_height_m": 0.14291867312298479,
+      "final_height_m": 0.1427397533192829,
+      "longest_lift_ticks": 103,
+      "longest_teacher_ticks": 0,
+      "max_contact_groups": 3,
+      "required_groups": 5,
+      "table_collision_ticks": 0,
+      "approach_ticks": 500,
+      "approach_table_collision_ticks": 0,
+      "max_approach_xy_displacement_m": 0.0029913833958745703,
+      "max_table_depth_m": 0.0,
+      "contact_ticks_per_group": [
+        281,
+        0,
+        171,
+        0,
+        288
+      ],
+      "initial_robot_object_depth_m": 0.0,
+      "clear_initialization": true,
+      "whole_episode_teacher_success": false,
+      "max_height_trace_error_m": 3.412637150645992e-08
+    }
+  ]
+}

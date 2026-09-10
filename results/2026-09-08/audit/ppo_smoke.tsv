@@ -1,0 +1,2 @@
+steps	reward	cumulative_lift_rate	contact_fraction	reached_episode_rate	episodes	steps_per_s	window_lift_rate	window_episodes
+64	0.0010	0.0000	0.0000	0.0000	8	67	0.0	8

@@ -1,0 +1,127 @@
+{
+  "candidates": 704,
+  "passed": true,
+  "max_position_error_m": 2.2987007359244158e-08,
+  "max_rotation_matrix_abs_error": 4.968529516480302e-06,
+  "max_contact_frame_orthogonality_error": 5.868859979694982e-06,
+  "position_tolerance_m": 1e-06,
+  "rotation_matrix_tolerance": 1e-05,
+  "mujoco_version": "3.3.3",
+  "input_sha256": {
+    "/home/yspark/projects/ICRA/model/graspgen/ffw_sh5/scene.yaml": "d497c25cf3d82f3cce990e238d521c47037349ac2f0eced255b009492e979695",
+    "/home/yspark/projects/ICRA/out/reachable/10_Power_Disk/GranolaBars.yml": "e1496453cdb7b537052930fe4394ecfccb785ff5d2120c8b4e2d2abe8d266e1b",
+    "/home/yspark/projects/ICRA/third_party/dexonomy/assets/hand/hx5_d20/init_tmpl/10_Power_Disk.npy": "218d1c0448a68c3d89f9a4602129a9403895ba1093372fed9b6d113647821d87",
+    "/home/yspark/projects/ICRA/third_party/dexonomy/assets/object/icra/GranolaBars/scene_cfg.npy": "2be7c9255b34a14ab25c32deea62607a9560e59ae777f3135edc82ac557231d6",
+    "/home/yspark/projects/ICRA/out/reachable/10_Power_Disk/Mustard.yml": "70770358296bc4e8acbd6599956225277f8476cb42e458717db1dfecbfc96489",
+    "/home/yspark/projects/ICRA/third_party/dexonomy/assets/object/icra/Mustard/scene_cfg.npy": "bc349b9b47a9bf7cf7cca19b0c70800f21bb31a9b787aafbe7bc9835e4a7e0eb",
+    "/home/yspark/projects/ICRA/out/reachable/11_Power_Sphere/GranolaBars.yml": "721d7ac3ceaccbd58bc1ab08f1a376fe5a3d2a506515ce38df182c6c8934c1a2",
+    "/home/yspark/projects/ICRA/third_party/dexonomy/assets/hand/hx5_d20/init_tmpl/11_Power_Sphere.npy": "abe078bee01c8cf1842d22131655b9b95f020af81af30cfe1fa7ca4235289bb6",
+    "/home/yspark/projects/ICRA/out/reachable/13_Precision_Sphere/GranolaBars.yml": "79019c5b472c09f819fec280799ead9cf490516b7a8e58607fe34fa24258608a",
+    "/home/yspark/projects/ICRA/third_party/dexonomy/assets/hand/hx5_d20/init_tmpl/13_Precision_Sphere.npy": "c1d5ab2ff5d5e76286bd1c5bd0f68a147a342c78112c9c2547b2182cdea63f8d",
+    "/home/yspark/projects/ICRA/out/reachable/13_Precision_Sphere/Mustard.yml": "57c828d5e7707e1d50b471b7ea3c9cb67df9d2f21b52327ef1eccb0b11937682",
+    "/home/yspark/projects/ICRA/out/reachable/14_Tripod/GranolaBars.yml": "493affe86430accc0082a61e350b9c242d34305de0d04913b49f0c3c3a466160",
+    "/home/yspark/projects/ICRA/third_party/dexonomy/assets/hand/hx5_d20/init_tmpl/14_Tripod.npy": "2aa3f914be3f5687312d021f72bf5833539d25124d5839d966ccf33c06b8848d",
+    "/home/yspark/projects/ICRA/out/reachable/14_Tripod/Mustard.yml": "37d56b26993fdea993f50ffbd55a1999bf9c3e3518f45db9d6d66e47637150d7",
+    "/home/yspark/projects/ICRA/out/reachable/1_Large_Diameter/GranolaBars.yml": "6d1f13fa1756f4a85b22fb7b8aed804c23c7db64bffb95ab9f93bb34a6afa157",
+    "/home/yspark/projects/ICRA/third_party/dexonomy/assets/hand/hx5_d20/init_tmpl/1_Large_Diameter.npy": "08f364dfe14160d07980f09b64ada1be541a22f016e7ca7b86a80d86aadb46da",
+    "/home/yspark/projects/ICRA/out/reachable/1_Large_Diameter/Mustard.yml": "21d36c4bd7e6b36e805fab65815313be2ab91888ce928d827874f130bcc85edc",
+    "/home/yspark/projects/ICRA/out/reachable/22_Parallel_Extension/GranolaBars.yml": "d3dbbcab4c0bfeef3e701e539b0fb2f205a22da596ea72a3c045f55d0a2d813d",
+    "/home/yspark/projects/ICRA/third_party/dexonomy/assets/hand/hx5_d20/init_tmpl/22_Parallel_Extension.npy": "7f304f2e0105bdeb53536c171a295ce366285b6953118d2f0c752f2553e7da51",
+    "/home/yspark/projects/ICRA/out/reachable/26_Sphere_4_Finger/GranolaBars.yml": "dfe29fb31872ff68a6a86a3cd1c94f4d4ab57ae02ebe300df05b5635b978c652",
+    "/home/yspark/projects/ICRA/third_party/dexonomy/assets/hand/hx5_d20/init_tmpl/26_Sphere_4_Finger.npy": "a8243b139cd4554583da91c888ef8812e709ae55780e3dc20a69774199612b01",
+    "/home/yspark/projects/ICRA/out/reachable/26_Sphere_4_Finger/Mustard.yml": "4c1c0e278071b2c64a1aaedfceaae13961e11b393c0a6f878c6564e923cdb4e5",
+    "/home/yspark/projects/ICRA/out/reachable/2_Small_Diameter/GranolaBars.yml": "4f765202f4f779d2d15f5ac3b8be3d3ec574880696e0674e60627d7e8bc8a8b1",
+    "/home/yspark/projects/ICRA/third_party/dexonomy/assets/hand/hx5_d20/init_tmpl/2_Small_Diameter.npy": "9ee627c87e79ad4cf86c85bfec1fa2727794b14affcc876100f2794cd3d2814d",
+    "/home/yspark/projects/ICRA/out/reachable/6_Prismatic_4_Finger/GranolaBars.yml": "05106ae26b80cb8bf24528f129bb29faec751d73627087e2ae8b028a70d5877a",
+    "/home/yspark/projects/ICRA/third_party/dexonomy/assets/hand/hx5_d20/init_tmpl/6_Prismatic_4_Finger.npy": "c2c574b3a021fa14653a744562a07f23436bf97fe5ec381b3921a6c9fa3c2add",
+    "/home/yspark/projects/ICRA/out/reachable/6_Prismatic_4_Finger/Mustard.yml": "0f95d8e2e04512c79cd4704f6dc02d90e62b985470367f17454f36ab527b61c0",
+    "/home/yspark/projects/ICRA/out/reachable/7_Prismatic_3_Finger/GranolaBars.yml": "6a0c8104909d7bab836f829ce2ce1955dae7ff1d5ab306d095f4a22d9b61112e",
+    "/home/yspark/projects/ICRA/third_party/dexonomy/assets/hand/hx5_d20/init_tmpl/7_Prismatic_3_Finger.npy": "cf3ea6b3655279c9b3662744043c39d11232bb07a73423d74c13d68fba526eba",
+    "/home/yspark/projects/ICRA/out/reachable/8_Prismatic_2_Finger/GranolaBars.yml": "07b2eae59d11a09fa8dd630f89ba59b148d1aa12309dc74c4e47a610df9051dc",
+    "/home/yspark/projects/ICRA/third_party/dexonomy/assets/hand/hx5_d20/init_tmpl/8_Prismatic_2_Finger.npy": "54362f0f538c374ced0163e607c5db4410002ed64bbde02ec511378db58bf2e2",
+    "/home/yspark/projects/ICRA/out/reachable/8_Prismatic_2_Finger/Mustard.yml": "977b5be4811a98d802a4f7bb6fef0946e87531962e890f03863c5cf160e0bf3f",
+    "/home/yspark/projects/ICRA/out/reachable/9_Palmar_Pinch/GranolaBars.yml": "78fe0c7eeafa349a5cb999a614f9884bbb4f84c424fc5ffa07634ad735a2c9da",
+    "/home/yspark/projects/ICRA/third_party/dexonomy/assets/hand/hx5_d20/init_tmpl/9_Palmar_Pinch.npy": "4daa9e4a5fda742c63e5f1c6840b2eb099fd96e5d3dd1d4a3663732c97c9cd68"
+  },
+  "code_sha256": {
+    "/home/yspark/projects/ICRA/scripts/audit_grasp_alignment.py": "bcc1cacaf10a71d888de8f76b5f127c527ad031a13926c25c505ebe059111811",
+    "/home/yspark/projects/ICRA/scripts/align_grasps.py": "07651f40ae13834ce08aecdbeabd084d591cf2b33414d6e7e710d4bcf2648aa9",
+    "/home/yspark/projects/ICRA/scripts/filter_grasps.py": "862e5f80b4335d7638a6f7308203a023819347443a65824152b8ef9678df75a6",
+    "/home/yspark/projects/ICRA/src/icra/grasp_frames.py": "26bab5f3238ae06384b6247897ae750cb1f1a3bf65a44c818065f8396bf735d4"
+  },
+  "scope": "coordinate roundtrip only; no optimization, physics rollout, or training",
+  "worst_position_cases": [
+    {
+      "file": "/home/yspark/projects/ICRA/out/reachable/6_Prismatic_4_Finger/GranolaBars.yml",
+      "candidate": "grasp_2_r180_d-15",
+      "position_error_m": 2.2987007359244158e-08,
+      "rotation_matrix_max_abs_error": 9.558336601656059e-07,
+      "contact_frame_orthogonality_error": 9.645141546556447e-07
+    },
+    {
+      "file": "/home/yspark/projects/ICRA/out/reachable/1_Large_Diameter/GranolaBars.yml",
+      "candidate": "grasp_15_r30_d-30",
+      "position_error_m": 2.251047911118536e-08,
+      "rotation_matrix_max_abs_error": 2.3701101956041803e-06,
+      "contact_frame_orthogonality_error": 3.4163133649133383e-06
+    },
+    {
+      "file": "/home/yspark/projects/ICRA/out/reachable/1_Large_Diameter/GranolaBars.yml",
+      "candidate": "grasp_19_r330_d-30",
+      "position_error_m": 2.182840352395799e-08,
+      "rotation_matrix_max_abs_error": 2.3550501970240432e-06,
+      "contact_frame_orthogonality_error": 3.4163133649133383e-06
+    },
+    {
+      "file": "/home/yspark/projects/ICRA/out/reachable/10_Power_Disk/GranolaBars.yml",
+      "candidate": "grasp_27_r270_d-15",
+      "position_error_m": 2.1619318337165166e-08,
+      "rotation_matrix_max_abs_error": 1.628296954099872e-06,
+      "contact_frame_orthogonality_error": 1.6745029571556527e-06
+    },
+    {
+      "file": "/home/yspark/projects/ICRA/out/reachable/1_Large_Diameter/GranolaBars.yml",
+      "candidate": "grasp_27_r0_d-15",
+      "position_error_m": 2.137559926156881e-08,
+      "rotation_matrix_max_abs_error": 2.3637238511827293e-06,
+      "contact_frame_orthogonality_error": 3.4163133649133383e-06
+    }
+  ],
+  "worst_rotation_cases": [
+    {
+      "file": "/home/yspark/projects/ICRA/out/reachable/10_Power_Disk/GranolaBars.yml",
+      "candidate": "grasp_12_r30_d-30",
+      "position_error_m": 9.023424571350411e-09,
+      "rotation_matrix_max_abs_error": 4.968529516480302e-06,
+      "contact_frame_orthogonality_error": 5.868859979694982e-06
+    },
+    {
+      "file": "/home/yspark/projects/ICRA/out/reachable/10_Power_Disk/GranolaBars.yml",
+      "candidate": "grasp_23_r0_d-15",
+      "position_error_m": 9.787715368826289e-09,
+      "rotation_matrix_max_abs_error": 4.904982250586443e-06,
+      "contact_frame_orthogonality_error": 5.868859979694982e-06
+    },
+    {
+      "file": "/home/yspark/projects/ICRA/out/reachable/10_Power_Disk/GranolaBars.yml",
+      "candidate": "grasp_19_r30_d-30",
+      "position_error_m": 9.713207119200294e-09,
+      "rotation_matrix_max_abs_error": 4.896752707511665e-06,
+      "contact_frame_orthogonality_error": 5.868859979694982e-06
+    },
+    {
+      "file": "/home/yspark/projects/ICRA/out/reachable/10_Power_Disk/GranolaBars.yml",
+      "candidate": "grasp_6_r90_d-15",
+      "position_error_m": 6.686459740500325e-09,
+      "rotation_matrix_max_abs_error": 4.8105408932339055e-06,
+      "contact_frame_orthogonality_error": 5.868859979694982e-06
+    },
+    {
+      "file": "/home/yspark/projects/ICRA/out/reachable/10_Power_Disk/Mustard.yml",
+      "candidate": "grasp_14_r90_d30",
+      "position_error_m": 4.4837759862215015e-09,
+      "rotation_matrix_max_abs_error": 4.790793498576917e-06,
+      "contact_frame_orthogonality_error": 5.868859979694982e-06
+    }
+  ]
+}

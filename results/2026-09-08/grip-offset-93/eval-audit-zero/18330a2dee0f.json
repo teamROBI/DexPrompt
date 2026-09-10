@@ -1,0 +1,126 @@
+{
+  "grasp": "/home/yspark/projects/Dexonomy/output/big1_zero_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_43_grasp.npy",
+  "settings": {
+    "miu_coef": [
+      0.6,
+      0.02
+    ],
+    "hard": false,
+    "trans_thre": 0.05,
+    "rot_thre": 15.0,
+    "skip_pregrasp": false,
+    "obj_mass": 0.1,
+    "skip_traj": true
+  },
+  "held": false,
+  "directions": [
+    {
+      "direction": "+x",
+      "held": true,
+      "steps": [
+        {
+          "trans_m": 0.0026371539987369227,
+          "rot_deg": 1.2978248596191406
+        },
+        {
+          "trans_m": 0.002636530919093814,
+          "rot_deg": 1.2972216606140137
+        },
+        {
+          "trans_m": 0.0026367535705674396,
+          "rot_deg": 1.296014428138733
+        },
+        {
+          "trans_m": 0.0026370769662457994,
+          "rot_deg": 1.295410394668579
+        },
+        {
+          "trans_m": 0.002637402424290603,
+          "rot_deg": 1.2948060035705566
+        },
+        {
+          "trans_m": 0.0026377294961436146,
+          "rot_deg": 1.2942012548446655
+        },
+        {
+          "trans_m": 0.002638058183245376,
+          "rot_deg": 1.2935965061187744
+        },
+        {
+          "trans_m": 0.0026383884815723156,
+          "rot_deg": 1.292991280555725
+        },
+        {
+          "trans_m": 0.002638720387044462,
+          "rot_deg": 1.2923856973648071
+        },
+        {
+          "trans_m": 0.0026390538955876753,
+          "rot_deg": 1.2917799949645996
+        }
+      ],
+      "worst_trans_m": 0.0026390538955876753,
+      "worst_rot_deg": 1.2978248596191406
+    },
+    {
+      "direction": "-x",
+      "held": false,
+      "steps": [
+        {
+          "trans_m": 0.15473426487784994,
+          "rot_deg": 51.64611053466797
+        }
+      ],
+      "worst_trans_m": 0.15473426487784994,
+      "worst_rot_deg": 51.64611053466797
+    },
+    {
+      "direction": "+y",
+      "held": false,
+      "steps": [
+        {
+          "trans_m": 0.02962442777117691,
+          "rot_deg": 18.354846954345703
+        }
+      ],
+      "worst_trans_m": 0.02962442777117691,
+      "worst_rot_deg": 18.354846954345703
+    },
+    {
+      "direction": "-y",
+      "held": false,
+      "steps": [
+        {
+          "trans_m": 0.19207999999999986,
+          "rot_deg": 0.0
+        }
+      ],
+      "worst_trans_m": 0.19207999999999986,
+      "worst_rot_deg": 0.0
+    },
+    {
+      "direction": "+z",
+      "held": false,
+      "steps": [
+        {
+          "trans_m": 0.06440892951168856,
+          "rot_deg": 69.33602905273438
+        }
+      ],
+      "worst_trans_m": 0.06440892951168856,
+      "worst_rot_deg": 69.33602905273438
+    },
+    {
+      "direction": "-z",
+      "held": false,
+      "steps": [
+        {
+          "trans_m": 0.023456281148391378,
+          "rot_deg": 46.13327407836914
+        }
+      ],
+      "worst_trans_m": 0.023456281148391378,
+      "worst_rot_deg": 46.13327407836914
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+# Tested runtime for the archived MuJoCo models and trained student.
+# Install torch/torchvision separately from the CUDA 12.4 wheel index.
+mujoco==3.3.3
+numpy==2.2.6
+scipy==1.15.3
+omegaconf==2.3.1
+PyYAML==6.0.3
+pillow==12.3.0
+PyOpenGL==3.1.10
+pytest==9.1.1

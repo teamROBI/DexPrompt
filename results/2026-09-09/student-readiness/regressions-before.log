@@ -1,0 +1,121 @@
+FFFF                                                                     [100%]
+=================================== FAILURES ===================================
+________ test_padding_values_cannot_change_valid_denoising_loss[False] _________
+
+assignment = False
+
+    @pytest.mark.parametrize("assignment", [False, True])
+    def test_padding_values_cannot_change_valid_denoising_loss(assignment):
+        """Exercise real self-attention, not a constant prediction test double."""
+        sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
+        from train_hx5_student import fixture_batch
+    
+        torch.set_num_threads(1)
+        torch.manual_seed(7)
+        settings = config()
+        settings["noise_assignment"] = assignment
+        normalizer = {
+            f"{name}_{part}": [value] * 27
+            for name in ("action", "state")
+            for part, value in (("center", 0.0), ("scale", 1.0))
+        }
+        model = HX5DiffusionStudent(settings, normalizer, fixture=True).eval()
+        batch = fixture_batch(settings)
+        batch["valid_mask"][:, 2:] = False
+        with torch.no_grad():
+            expected = model.compute_loss(batch, generator=torch.Generator().manual_seed(5))
+            batch["action"][:, 2:] = 100
+            actual = model.compute_loss(batch, generator=torch.Generator().manual_seed(5))
+>       assert torch.equal(expected, actual)
+E       assert False
+E        +  where False = <built-in method equal of type object at 0x7fac1821fec0>(tensor(1.2671), tensor(1.1862))
+E        +    where <built-in method equal of type object at 0x7fac1821fec0> = torch.equal
+
+tests/test_student.py:226: AssertionError
+_________ test_padding_values_cannot_change_valid_denoising_loss[True] _________
+
+assignment = True
+
+    @pytest.mark.parametrize("assignment", [False, True])
+    def test_padding_values_cannot_change_valid_denoising_loss(assignment):
+        """Exercise real self-attention, not a constant prediction test double."""
+        sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
+        from train_hx5_student import fixture_batch
+    
+        torch.set_num_threads(1)
+        torch.manual_seed(7)
+        settings = config()
+        settings["noise_assignment"] = assignment
+        normalizer = {
+            f"{name}_{part}": [value] * 27
+            for name in ("action", "state")
+            for part, value in (("center", 0.0), ("scale", 1.0))
+        }
+        model = HX5DiffusionStudent(settings, normalizer, fixture=True).eval()
+        batch = fixture_batch(settings)
+        batch["valid_mask"][:, 2:] = False
+        with torch.no_grad():
+            expected = model.compute_loss(batch, generator=torch.Generator().manual_seed(5))
+            batch["action"][:, 2:] = 100
+            actual = model.compute_loss(batch, generator=torch.Generator().manual_seed(5))
+>       assert torch.equal(expected, actual)
+E       assert False
+E        +  where False = <built-in method equal of type object at 0x7fac1821fec0>(tensor(1.2543), tensor(1.2536))
+E        +    where <built-in method equal of type object at 0x7fac1821fec0> = torch.equal
+
+tests/test_student.py:226: AssertionError
+__________ test_validation_mean_weights_real_targets_not_batch_count ___________
+
+    def test_validation_mean_weights_real_targets_not_batch_count():
+        sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
+>       from train_hx5_student import DiffusionLossMean
+E       ImportError: cannot import name 'DiffusionLossMean' from 'train_hx5_student' (/home/yspark/projects/ICRA/scripts/train_hx5_student.py)
+
+tests/test_student.py:231: ImportError
+_____________ test_preflight_detects_present_but_broken_dependency _____________
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7fab57dbf370>
+
+    def test_preflight_detects_present_but_broken_dependency(monkeypatch):
+        sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
+        import train_hx5_student as trainer
+    
+        original = trainer.importlib.import_module
+    
+        def broken(name, *args, **kwargs):
+            if name == "torchvision":
+                raise RuntimeError("operator torchvision::nms does not exist")
+            return original(name, *args, **kwargs)
+    
+        monkeypatch.setattr(trainer.importlib, "import_module", broken)
+        args = SimpleNamespace(data=None, cache=None, out=None, allow_train_only_diagnostic=False)
+        report = trainer.inspect(args, config())
+        assert not report["training_ready"]
+>       assert any("torchvision::nms" in reason for reason in report["missing"])
+E       assert False
+E        +  where False = any(<generator object test_preflight_detects_present_but_broken_dependency.<locals>.<genexpr> at 0x7fab5835ad50>)
+
+tests/test_student.py:257: AssertionError
+----------------------------- Captured stdout call -----------------------------
+{
+  "architecture": "hx5_dexgraspvla_style_rdt",
+  "training_ready": false,
+  "missing": [
+    "Python package torchvision",
+    "vision.source: local DINOv2 checkout with hubconf.py",
+    "vision.head_weights: local pretrained DINOv2 weights",
+    "vision.wrist_weights: local pretrained DINOv2 weights",
+    "--cache: prepare an explicit memmap cache before shuffled training",
+    "--data: prepared teacher dataset manifest"
+  ],
+  "episode_counts": {},
+  "cache_sha256": null,
+  "optimizer_steps": 0,
+  "pretrained_policy_loaded": false,
+  "scope": "HX5 architectural adaptation; language grounding is external"
+}
+=========================== short test summary info ============================
+FAILED tests/test_student.py::test_padding_values_cannot_change_valid_denoising_loss[False]
+FAILED tests/test_student.py::test_padding_values_cannot_change_valid_denoising_loss[True]
+FAILED tests/test_student.py::test_validation_mean_weights_real_targets_not_batch_count
+FAILED tests/test_student.py::test_preflight_detects_present_but_broken_dependency

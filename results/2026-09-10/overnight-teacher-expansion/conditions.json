@@ -1,0 +1,963 @@
+{
+ "plan": {
+  "recorded_at": "2026-09-10T03:46:44+09:00",
+  "purpose": "P3: a full demonstration on at least one object other than the bottle and the can, at the default resting pose.",
+  "marking": "development objects; not to be reused as held-out evaluation shapes",
+  "order_rule": "Chosen for shapes unlike the bottle's and the can's cylinders, before running anything: a cylinder with a handle, a shallow open dish, an elongated tool. Run in the recorded order and not reordered by result.",
+  "objects": [
+   {
+    "short": "mug",
+    "name": "core_mug_10f6e09036350e92b3f21f1137c3c347",
+    "shape": "cylinder with a handle",
+    "grasp_types": [
+     "3_Medium_Wrap",
+     "10_Power_Disk"
+    ],
+    "type_reason": "the body takes a wrap; Power Disk is the type that completed on the can",
+    "scale": 0.05,
+    "extents_mm": [
+     47.6,
+     63.2,
+     63.3
+    ],
+    "rest_poses_available": 8,
+    "mesh_sha256": "fd76ac5230bc729d2b912e289c3241bc9afe8921f5edb305faa4b2c1ffcc8019"
+   },
+   {
+    "short": "bowl",
+    "name": "core_bowl_2e545ccae1cdc69d879b85bd5ada6e71",
+    "shape": "shallow open dish, thin rim",
+    "grasp_types": [
+     "10_Power_Disk",
+     "26_Sphere_4_Finger"
+    ],
+    "type_reason": "a shallow bowl is a disk; the sphere grasp cups it from outside",
+    "scale": 0.05,
+    "extents_mm": [
+     70.0,
+     21.7,
+     69.8
+    ],
+    "rest_poses_available": 2,
+    "mesh_sha256": "d62d0e031ecec8da34d2bb26be284b18f97749765c47ad4f4e365ccba9e0f324"
+   },
+   {
+    "short": "hammer",
+    "name": "ddg_gd_hammer_poisson_005",
+    "shape": "elongated shaft with a heavy head",
+    "grasp_types": [
+     "3_Medium_Wrap",
+     "2_Small_Diameter"
+    ],
+    "type_reason": "the shaft is a small cylinder; both types are shaft grasps",
+    "scale": 0.08,
+    "extents_mm": [
+     61.3,
+     33.2,
+     144.2
+    ],
+    "rest_poses_available": 4,
+    "mesh_sha256": "6dced944e19ca82fc4f6b7a53ce31a93bb89d8c7457dcde4224b26fc773e1f91"
+   }
+  ],
+  "grasp_types_rule": "At most two per object, picked from the shape alone: the type that fits the body and one alternative. Not widened on failure beyond the branch rule below.",
+  "align_seeds": [
+   0,
+   1,
+   2
+  ],
+  "prediction_cap": 100,
+  "first_run_unique_candidates": 12,
+  "rest_index": 0,
+  "yaw_rad": 0.0,
+  "refinement": {
+   "scene": "table-aware",
+   "why": "The static screen's largest loss after refinement was hand_through_table (can 104/165, camera 39/63); with the table in the refinement scene the can's went to 0/7. Fixed before running.",
+   "configs": "out/teacher-expansion/scene_cfg/<object>/tabletop/scale###.npy",
+   "patch": "ICRA_DEXONOMY_TABLE_SCENE=1 with scripts/dexonomy_table_scene on PYTHONPATH"
+  },
+  "branch_rules": {
+   "zero_refined_with_table": "If an object refines 0 with the table, first check the log for errors (a path or config fault) and only then re-run that object floating, recording both.",
+   "repeated_execution_failure": "If an object's executions keep failing, identify the failing stage and move to the next object rather than widening seeds or types.",
+   "no_success_anywhere": "Pick the single object that got furthest and raise its candidate budget to at most 24, adding at most one grasp type, with the reason recorded."
+  },
+  "not_changed": [
+   "reward",
+   "closure control",
+   "success criteria",
+   "rest index",
+   "yaw",
+   "visual/mask/goal-memory/student files"
+  ],
+  "outputs": "out/teacher-expansion/ (new directory); out/multiobject, out/tabletop and every checkpoint left untouched",
+  "code_state": {
+   "align_grasps.py": "3290361b82676a93360d278e86a4731266cde1d5fd19c1a882de51826d5c1a37",
+   "collect_teacher_dataset.py": "d37fd23284640828a6ce9fed49dc3dc0b2a40e9c26d634ac0933efe3c0b3bb04",
+   "execution.py": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94",
+   "sitecustomize.py": "d28885602092a1d50136e96e04d0c4f8426b64e7a34803580f7191336f653868"
+  }
+ },
+ "expansion": {
+  "decided_at": "2026-09-10T04:27:31+09:00",
+  "rule_applied": "plan.json branch_rules.no_success_anywhere",
+  "state_when_decided": {
+   "mug": "9 distinct candidates executed, 0 completed; 3 of 9 reached all five contact groups and one lifted 51.7 mm before dropping the object",
+   "bowl": "0 candidates: every aligned pose failed the reach recheck, both types, all three seeds",
+   "hammer": "0 candidates: 3_Medium_Wrap all reach failures; 2_Small_Diameter reached 9-12 initialisations but the refiner returned none, and a floating control returned none either, so the table is not the cause"
+  },
+  "object_chosen": "mug",
+  "why": "It is the only object of the three that produced executable candidates at all, and the only one whose failures are late (contact and lift) rather than at alignment.",
+  "extra_grasp_type": "1_Large_Diameter",
+  "why_that_type": "The mug's body is a large-diameter cylinder at 47.6-63.3 mm. Six of nine mug attempts never closed all five groups and three took them and lost them under load, so the change sought is more of the hand on the body than either 3_Medium_Wrap or 10_Power_Disk puts there. Chosen from the shape and the recorded failure modes before running it.",
+  "budget": 24,
+  "unchanged": "align seeds 0-2, prediction cap, rest 0, yaw 0, table-aware refinement, closure control, success criteria"
+ },
+ "placement": {
+  "scene": "/home/yspark/projects/ICRA/model/graspgen/ffw_sh5/scene.yaml",
+  "rest_index": 0,
+  "yaw_rad": 0.0,
+  "objects": {
+   "core_bowl_2e545ccae1cdc69d879b85bd5ada6e71": {
+    "records": {
+     "scene_build": {
+      "object": "core_bowl_2e545ccae1cdc69d879b85bd5ada6e71",
+      "asset": "out/teacher-expansion/objects/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71",
+      "mesh": "out/teacher-expansion/objects/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71/mesh/simplified.obj",
+      "mesh_sha256": "d62d0e031ecec8da34d2bb26be284b18f97749765c47ad4f4e365ccba9e0f324",
+      "asset_scale": 0.05,
+      "compiled_scale": [
+       0.05,
+       0.05,
+       0.05
+      ],
+      "rest_index": 0,
+      "yaw_rad": 0.0,
+      "world_transform": [
+       [
+        0.0008149563859171649,
+        3.349435871879969e-06,
+        -0.9999996679173793,
+        0.35
+       ],
+       [
+        -0.9999996678821611,
+        9.039050018144756e-06,
+        -0.0008149563556127948,
+        0.0
+       ],
+       [
+        9.03631737236843e-06,
+        0.9999999999535376,
+        3.3568011910123374e-06,
+        0.8108055629451918
+       ],
+       [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ]
+      ],
+      "scene": {
+       "path": "/home/yspark/projects/ICRA/model/graspgen/ffw_sh5/scene.yaml",
+       "sha256": "d497c25cf3d82f3cce990e238d521c47037349ac2f0eced255b009492e979695"
+      }
+     },
+     "executor_placed": {
+      "object": "core_bowl_2e545ccae1cdc69d879b85bd5ada6e71",
+      "asset": "out/teacher-expansion/objects/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71",
+      "mesh": "out/teacher-expansion/objects/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71/mesh/simplified.obj",
+      "mesh_sha256": "d62d0e031ecec8da34d2bb26be284b18f97749765c47ad4f4e365ccba9e0f324",
+      "asset_scale": 0.05,
+      "compiled_scale": [
+       0.05,
+       0.05,
+       0.05
+      ],
+      "rest_index": 0,
+      "yaw_rad": 0.0,
+      "world_transform": [
+       [
+        0.0008149563859171649,
+        3.349435871879969e-06,
+        -0.9999996679173793,
+        0.35
+       ],
+       [
+        -0.9999996678821611,
+        9.039050018144756e-06,
+        -0.0008149563556127948,
+        0.0
+       ],
+       [
+        9.03631737236843e-06,
+        0.9999999999535376,
+        3.3568011910123374e-06,
+        0.8108055629451918
+       ],
+       [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ]
+      ],
+      "scene": {
+       "path": "/home/yspark/projects/ICRA/model/graspgen/ffw_sh5/scene.yaml",
+       "sha256": "d497c25cf3d82f3cce990e238d521c47037349ac2f0eced255b009492e979695"
+      }
+     },
+     "executor_settled": {
+      "object": "core_bowl_2e545ccae1cdc69d879b85bd5ada6e71",
+      "asset": "out/teacher-expansion/objects/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71",
+      "mesh": "out/teacher-expansion/objects/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71/mesh/simplified.obj",
+      "mesh_sha256": "d62d0e031ecec8da34d2bb26be284b18f97749765c47ad4f4e365ccba9e0f324",
+      "asset_scale": 0.05,
+      "compiled_scale": [
+       0.05,
+       0.05,
+       0.05
+      ],
+      "rest_index": 0,
+      "yaw_rad": 0.0,
+      "world_transform": [
+       [
+        0.0008154288854770042,
+        1.6279604427738015e-05,
+        -0.9999996674052991,
+        0.35000021103104345
+       ],
+       [
+        -0.9999996670362031,
+        3.1686890408499924e-05,
+        -0.0008154283693257991,
+        1.6431683848276854e-07
+       ],
+       [
+        3.167360501832306e-05,
+        0.9999999993654585,
+        1.6305437412877932e-05,
+        0.8107431238784916
+       ],
+       [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ]
+      ],
+      "scene": {
+       "path": "/home/yspark/projects/ICRA/model/graspgen/ffw_sh5/scene.yaml",
+       "sha256": "d497c25cf3d82f3cce990e238d521c47037349ac2f0eced255b009492e979695"
+      }
+     }
+    },
+    "problems": [],
+    "settling": {
+     "position_mm": 0.06243963952906846,
+     "rotation_deg": 0.0014944614473866766
+    }
+   },
+   "core_mug_10f6e09036350e92b3f21f1137c3c347": {
+    "records": {
+     "scene_build": {
+      "object": "core_mug_10f6e09036350e92b3f21f1137c3c347",
+      "asset": "out/teacher-expansion/objects/core_mug_10f6e09036350e92b3f21f1137c3c347",
+      "mesh": "out/teacher-expansion/objects/core_mug_10f6e09036350e92b3f21f1137c3c347/mesh/simplified.obj",
+      "mesh_sha256": "fd76ac5230bc729d2b912e289c3241bc9afe8921f5edb305faa4b2c1ffcc8019",
+      "asset_scale": 0.05,
+      "compiled_scale": [
+       0.05,
+       0.05,
+       0.05
+      ],
+      "rest_index": 0,
+      "yaw_rad": 0.0,
+      "world_transform": [
+       [
+        7.089530629222907e-10,
+        0.00011688028074469115,
+        -0.9999999931695003,
+        0.35
+       ],
+       [
+        0.9999999999663727,
+        -8.200925263657233e-06,
+        -2.4957330646557807e-10,
+        0.0
+       ],
+       [
+        -8.200925236900858e-06,
+        -0.9999999931358727,
+        -0.00011688028074652301,
+        0.8314354932975306
+       ],
+       [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ]
+      ],
+      "scene": {
+       "path": "/home/yspark/projects/ICRA/model/graspgen/ffw_sh5/scene.yaml",
+       "sha256": "d497c25cf3d82f3cce990e238d521c47037349ac2f0eced255b009492e979695"
+      }
+     },
+     "executor_placed": {
+      "object": "core_mug_10f6e09036350e92b3f21f1137c3c347",
+      "asset": "out/teacher-expansion/objects/core_mug_10f6e09036350e92b3f21f1137c3c347",
+      "mesh": "out/teacher-expansion/objects/core_mug_10f6e09036350e92b3f21f1137c3c347/mesh/simplified.obj",
+      "mesh_sha256": "fd76ac5230bc729d2b912e289c3241bc9afe8921f5edb305faa4b2c1ffcc8019",
+      "asset_scale": 0.05,
+      "compiled_scale": [
+       0.05,
+       0.05,
+       0.05
+      ],
+      "rest_index": 0,
+      "yaw_rad": 0.0,
+      "world_transform": [
+       [
+        7.089530629222907e-10,
+        0.00011688028074469115,
+        -0.9999999931695003,
+        0.35
+       ],
+       [
+        0.9999999999663727,
+        -8.200925263657233e-06,
+        -2.4957330646557807e-10,
+        0.0
+       ],
+       [
+        -8.200925236900858e-06,
+        -0.9999999931358727,
+        -0.00011688028074652301,
+        0.8314354932975306
+       ],
+       [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ]
+      ],
+      "scene": {
+       "path": "/home/yspark/projects/ICRA/model/graspgen/ffw_sh5/scene.yaml",
+       "sha256": "d497c25cf3d82f3cce990e238d521c47037349ac2f0eced255b009492e979695"
+      }
+     },
+     "executor_settled": {
+      "object": "core_mug_10f6e09036350e92b3f21f1137c3c347",
+      "asset": "out/teacher-expansion/objects/core_mug_10f6e09036350e92b3f21f1137c3c347",
+      "mesh": "out/teacher-expansion/objects/core_mug_10f6e09036350e92b3f21f1137c3c347/mesh/simplified.obj",
+      "mesh_sha256": "fd76ac5230bc729d2b912e289c3241bc9afe8921f5edb305faa4b2c1ffcc8019",
+      "asset_scale": 0.05,
+      "compiled_scale": [
+       0.05,
+       0.05,
+       0.05
+      ],
+      "rest_index": 0,
+      "yaw_rad": 0.0,
+      "world_transform": [
+       [
+        1.4131710524001306e-09,
+        0.00017143851063594617,
+        -0.9999999853044195,
+        0.34999828474396566
+       ],
+       [
+        0.9999999998521132,
+        -1.7198136301299627e-05,
+        -1.5352519255884545e-09,
+        2.8286533572160167e-07
+       ],
+       [
+        -1.7198136311680212e-05,
+        -0.9999999851565317,
+        -0.00017143851063491922,
+        0.8314222914070203
+       ],
+       [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ]
+      ],
+      "scene": {
+       "path": "/home/yspark/projects/ICRA/model/graspgen/ffw_sh5/scene.yaml",
+       "sha256": "d497c25cf3d82f3cce990e238d521c47037349ac2f0eced255b009492e979695"
+      }
+     }
+    },
+    "problems": [],
+    "settling": {
+     "position_mm": 0.013315856303997,
+     "rotation_deg": 0.0031681748904680575
+    }
+   },
+   "ddg_gd_hammer_poisson_005": {
+    "records": {
+     "scene_build": {
+      "object": "ddg_gd_hammer_poisson_005",
+      "asset": "out/teacher-expansion/objects/ddg_gd_hammer_poisson_005",
+      "mesh": "out/teacher-expansion/objects/ddg_gd_hammer_poisson_005/mesh/simplified.obj",
+      "mesh_sha256": "6dced944e19ca82fc4f6b7a53ce31a93bb89d8c7457dcde4224b26fc773e1f91",
+      "asset_scale": 0.08,
+      "compiled_scale": [
+       0.08,
+       0.08,
+       0.08
+      ],
+      "rest_index": 0,
+      "yaw_rad": 0.0,
+      "world_transform": [
+       [
+        0.6723526486391818,
+        -0.09118397017709817,
+        -0.7345933565249673,
+        0.35
+       ],
+       [
+        0.7301585639461694,
+        -0.08145770524124529,
+        0.6784048302841723,
+        0.0
+       ],
+       [
+        -0.1216979349206192,
+        -0.9924969147758451,
+        0.011810452848399322,
+        0.8129838199512879
+       ],
+       [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ]
+      ],
+      "scene": {
+       "path": "/home/yspark/projects/ICRA/model/graspgen/ffw_sh5/scene.yaml",
+       "sha256": "d497c25cf3d82f3cce990e238d521c47037349ac2f0eced255b009492e979695"
+      }
+     },
+     "executor_placed": {
+      "object": "ddg_gd_hammer_poisson_005",
+      "asset": "out/teacher-expansion/objects/ddg_gd_hammer_poisson_005",
+      "mesh": "out/teacher-expansion/objects/ddg_gd_hammer_poisson_005/mesh/simplified.obj",
+      "mesh_sha256": "6dced944e19ca82fc4f6b7a53ce31a93bb89d8c7457dcde4224b26fc773e1f91",
+      "asset_scale": 0.08,
+      "compiled_scale": [
+       0.08,
+       0.08,
+       0.08
+      ],
+      "rest_index": 0,
+      "yaw_rad": 0.0,
+      "world_transform": [
+       [
+        0.6723526486391818,
+        -0.09118397017709817,
+        -0.7345933565249673,
+        0.35
+       ],
+       [
+        0.7301585639461694,
+        -0.08145770524124529,
+        0.6784048302841723,
+        0.0
+       ],
+       [
+        -0.1216979349206192,
+        -0.9924969147758451,
+        0.011810452848399322,
+        0.8129838199512879
+       ],
+       [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ]
+      ],
+      "scene": {
+       "path": "/home/yspark/projects/ICRA/model/graspgen/ffw_sh5/scene.yaml",
+       "sha256": "d497c25cf3d82f3cce990e238d521c47037349ac2f0eced255b009492e979695"
+      }
+     },
+     "executor_settled": {
+      "object": "ddg_gd_hammer_poisson_005",
+      "asset": "out/teacher-expansion/objects/ddg_gd_hammer_poisson_005",
+      "mesh": "out/teacher-expansion/objects/ddg_gd_hammer_poisson_005/mesh/simplified.obj",
+      "mesh_sha256": "6dced944e19ca82fc4f6b7a53ce31a93bb89d8c7457dcde4224b26fc773e1f91",
+      "asset_scale": 0.08,
+      "compiled_scale": [
+       0.08,
+       0.08,
+       0.08
+      ],
+      "rest_index": 0,
+      "yaw_rad": 0.0,
+      "world_transform": [
+       [
+        0.6706818315350477,
+        -0.10471336502397405,
+        -0.734316683750378,
+        0.35016903515464665
+       ],
+       [
+        0.731866401544583,
+        -0.06761339528109014,
+        0.6780855396399108,
+        -0.0001915666893933979
+       ],
+       [
+        -0.12065426282970582,
+        -0.9922013605936659,
+        0.03128911787029555,
+        0.8098924408073845
+       ],
+       [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ]
+      ],
+      "scene": {
+       "path": "/home/yspark/projects/ICRA/model/graspgen/ffw_sh5/scene.yaml",
+       "sha256": "d497c25cf3d82f3cce990e238d521c47037349ac2f0eced255b009492e979695"
+      }
+     }
+    },
+    "problems": [],
+    "settling": {
+     "position_mm": 3.1019180665117685,
+     "rotation_deg": 1.1177930929297035
+    }
+   }
+  },
+  "agreed": true
+ },
+ "table_check": {
+  "core_bowl_2e545ccae1cdc69d879b85bd5ada6e71": {
+   "source_config": "/data1/yspark/sim/dexonomy_assets/DGN_5k/scene_cfg/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71/floating/scale005.npy",
+   "tabletop_config": "out/teacher-expansion/scene_cfg/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71/tabletop/scale005.npy",
+   "scene_id": "core_bowl_2e545ccae1cdc69d879b85bd5ada6e71/tabletop/scale005",
+   "rest_index": 0,
+   "scale": 0.05,
+   "plane_point": [
+    -9.764249615985676e-08,
+    -0.010805562944689696,
+    -3.6272126563978434e-08
+   ],
+   "plane_quat": [
+    0.7071079679939942,
+    -0.7071055943482397,
+    6.38963056660478e-06,
+    0.0
+   ],
+   "object_origin_above_table_m": {
+    "refiner": 0.010805562945191742,
+    "executor": 0.010805562945191749,
+    "resting_height": 0.010805562945191747
+   },
+   "table_normal_angle_rad": 3.332000937312528e-08,
+   "same_table": true
+  },
+  "core_mug_10f6e09036350e92b3f21f1137c3c347": {
+   "source_config": "/data1/yspark/sim/dexonomy_assets/DGN_5k/scene_cfg/core_mug_10f6e09036350e92b3f21f1137c3c347/floating/scale005.npy",
+   "tabletop_config": "out/teacher-expansion/scene_cfg/core_mug_10f6e09036350e92b3f21f1137c3c347/tabletop/scale005.npy",
+   "scene_id": "core_mug_10f6e09036350e92b3f21f1137c3c347/tabletop/scale005",
+   "rest_index": 0,
+   "scale": 0.05,
+   "plane_point": [
+    2.578001303181465e-07,
+    0.03143549308175338,
+    3.67418928202082e-06
+   ],
+   "plane_quat": [
+    0.7070654565594523,
+    0.7071481033749166,
+    -5.799268767000849e-06,
+    0.0
+   ],
+   "object_origin_above_table_m": {
+    "refiner": 0.03143549329753061,
+    "executor": 0.03143549329753059,
+    "resting_height": 0.031435493297530606
+   },
+   "table_normal_angle_rad": 0.0,
+   "same_table": true
+  },
+  "ddg_gd_hammer_poisson_005": {
+   "source_config": "/data1/yspark/sim/dexonomy_assets/DGN_5k/scene_cfg/ddg_gd_hammer_poisson_005/floating/scale008.npy",
+   "tabletop_config": "out/teacher-expansion/scene_cfg/ddg_gd_hammer_poisson_005/tabletop/scale008.npy",
+   "scene_id": "ddg_gd_hammer_poisson_005/tabletop/scale008",
+   "rest_index": 0,
+   "scale": 0.08,
+   "plane_point": [
+    0.0015801040754528616,
+    0.012886401243658219,
+    -0.00015334479332679112
+   ],
+   "plane_quat": [
+    0.7112701501006489,
+    0.6976933550743003,
+    -0.08554972741608678,
+    0.0
+   ],
+   "object_origin_above_table_m": {
+    "refiner": 0.012983819951287806,
+    "executor": 0.012983819951287834,
+    "resting_height": 0.012983819951287815
+   },
+   "table_normal_angle_rad": 3.6500241499888574e-08,
+   "same_table": true
+  }
+ },
+ "yaw_transfer": {
+  "mug": {
+   "object": "core_mug_10f6e09036350e92b3f21f1137c3c347",
+   "candidate": "029ce40fd04181f43beb89cb2414cd9d27513a924be9932268e743836d6cdd36",
+   "teacher_frame_is_object_relative": {
+    "configuration": "/data1/yspark/sim/dexonomy_assets/DGN_5k/scene_cfg/core_mug_10f6e09036350e92b3f21f1137c3c347/floating/scale005.npy",
+    "object": "core_mug_10f6e09036350e92b3f21f1137c3c347",
+    "pose": [
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "at_the_origin": true
+   },
+   "yaws": [
+    {
+     "yaw_rad": 0.2618,
+     "reset_position_error_m": 0.0,
+     "reset_rotation_error_rad": 0.0,
+     "target_position_error_m": 0.0,
+     "target_rotation_error_rad": 0.0,
+     "settling": {
+      "position_mm": 0.013315856303848806,
+      "rotation_deg": 0.0031681767310968176
+     },
+     "agrees": true
+    },
+    {
+     "yaw_rad": -0.2618,
+     "reset_position_error_m": 0.0,
+     "reset_rotation_error_rad": 0.0,
+     "target_position_error_m": 1.1102230246251565e-16,
+     "target_rotation_error_rad": 2.1073424255447017e-08,
+     "settling": {
+      "position_mm": 0.013315856304027065,
+      "rotation_deg": 0.0031681771912538403
+     },
+     "agrees": true
+    },
+    {
+     "yaw_rad": 0.0,
+     "reset_position_error_m": 0.0,
+     "reset_rotation_error_rad": 0.0,
+     "target_position_error_m": 0.0,
+     "target_rotation_error_rad": 0.0,
+     "settling": {
+      "position_mm": 0.013315856303997,
+      "rotation_deg": 0.003168176961175337
+     },
+     "agrees": true
+    }
+   ],
+   "verified": true
+  },
+  "can": {
+   "object": "core_can_7bd05573c09fb0c2af39ccaab9314b14",
+   "candidate": "7ca6609c2b4025beef6bce36f361ad532e7193793def815a6e221bb1d596a6bf",
+   "teacher_frame_is_object_relative": {
+    "configuration": "/data1/yspark/sim/dexonomy_assets/DGN_5k/scene_cfg/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008.npy",
+    "object": "core_can_7bd05573c09fb0c2af39ccaab9314b14",
+    "pose": [
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "at_the_origin": true
+   },
+   "yaws": [
+    {
+     "yaw_rad": 0.2618,
+     "reset_position_error_m": 0.0,
+     "reset_rotation_error_rad": 0.0,
+     "target_position_error_m": 5.551115123125783e-17,
+     "target_rotation_error_rad": 0.0,
+     "settling": {
+      "position_mm": 2.507529752311413,
+      "rotation_deg": 0.05434760289394737
+     },
+     "agrees": true
+    },
+    {
+     "yaw_rad": -0.2618,
+     "reset_position_error_m": 0.0,
+     "reset_rotation_error_rad": 0.0,
+     "target_position_error_m": 2.6020852139652106e-18,
+     "target_rotation_error_rad": 0.0,
+     "settling": {
+      "position_mm": 2.5075297523115325,
+      "rotation_deg": 0.05434760289394737
+     },
+     "agrees": true
+    }
+   ],
+   "verified": true
+  }
+ },
+ "opt_steps_diagnostic": {
+  "decided_at": "2026-09-10T05:16:26+09:00",
+  "status": "diagnostic, reported separately from the fixed-condition funnel",
+  "question": "The filter hands alignment poses that are reachable and clear of the table. The matcher then moves the hand to meet the template's contact set, and for the bowl and the hammer every result drives fingertips through the table. Does moving the hand less preserve the clearance the filter established?",
+  "what_changes": "op.matcher.opt_step only (--opt-steps), from the fixed 25 to 10 and 4. Nothing else: same objects, same types, same seed 0, same filtered inputs, same table-aware scene, rest 0, yaw 0.",
+  "not_changed": [
+   "closure control",
+   "success criteria",
+   "reward",
+   "rest",
+   "yaw",
+   "candidate selection rule"
+  ],
+  "read_out": "op=init's collision filter pass count before padding, and the alignment's own kept count. A win is a nonzero kept count for an object that had none; fewer steps do not guarantee reachability, so the reach recheck stays the arbiter.",
+  "diagnostic_result": {
+   "kept_by_the_reach_recheck, seed 0": {
+    "mug/3_Medium_Wrap": {
+     "25": 15,
+     "10": 23,
+     "4": 27
+    },
+    "hammer/3_Medium_Wrap": {
+     "25": 0,
+     "10": 1,
+     "4": 9
+    },
+    "bowl/10_Power_Disk": {
+     "25": 0,
+     "10": 0,
+     "4": 1
+    },
+    "bowl/26_Sphere_4_Finger": {
+     "25": 0,
+     "10": 0,
+     "4": 0
+    }
+   },
+   "reading": "Monotone in every row: the matcher was spending its steps destroying the clearance the filter had established. It does not follow that the grasps are better -- fewer steps also match the template's contact set less well, and the refiner and the executor are the arbiters of that."
+  },
+  "follow_up": {
+   "condition": "opt_step=4, everything else as plan.json fixed it",
+   "scope": "all three objects, both planned types each, align seeds 0/1/2, table-aware refinement, rest 0, yaw 0, the same candidate selection rule, budget 24",
+   "reported": "separately from the fixed-condition funnel, as a second condition; the first is not restated with these numbers"
+  },
+  "follow_up_result": {
+   "reach_kept_per_seed": {
+    "mug/3_Medium_Wrap": {
+     "25": [
+      15,
+      12,
+      15
+     ],
+     "4": [
+      27,
+      26,
+      27
+     ]
+    },
+    "mug/10_Power_Disk": {
+     "25": [
+      14,
+      17,
+      13
+     ],
+     "4": [
+      25,
+      24,
+      23
+     ]
+    },
+    "mug/1_Large_Diameter": {
+     "25": [
+      13,
+      10,
+      10
+     ],
+     "4": [
+      19,
+      20,
+      18
+     ]
+    },
+    "hammer/3_Medium_Wrap": {
+     "25": [
+      0,
+      0,
+      0
+     ],
+     "4": [
+      9,
+      9,
+      6
+     ]
+    },
+    "hammer/2_Small_Diameter": {
+     "25": [
+      9,
+      8,
+      12
+     ],
+     "4": [
+      42,
+      37,
+      40
+     ]
+    },
+    "bowl/10_Power_Disk": {
+     "25": [
+      0,
+      0,
+      0
+     ],
+     "4": [
+      1,
+      2,
+      1
+     ]
+    },
+    "bowl/26_Sphere_4_Finger": {
+     "25": [
+      0,
+      0,
+      0
+     ],
+     "4": [
+      0,
+      2,
+      0
+     ]
+    }
+   },
+   "refined_per_seed": {
+    "mug/3_Medium_Wrap": {
+     "25": [
+      3,
+      0,
+      2
+     ],
+     "4": [
+      1,
+      1,
+      1
+     ]
+    },
+    "mug/10_Power_Disk": {
+     "25": [
+      2,
+      1,
+      1
+     ],
+     "4": [
+      1,
+      2,
+      1
+     ]
+    },
+    "mug/1_Large_Diameter": {
+     "25": [
+      1,
+      3,
+      4
+     ],
+     "4": [
+      3,
+      5,
+      5
+     ]
+    },
+    "hammer/3_Medium_Wrap": {
+     "25": [
+      0,
+      0,
+      0
+     ],
+     "4": [
+      0,
+      0,
+      0
+     ]
+    },
+    "hammer/2_Small_Diameter": {
+     "25": [
+      0,
+      0,
+      0
+     ],
+     "4": [
+      0,
+      0,
+      0
+     ]
+    },
+    "bowl/10_Power_Disk": {
+     "25": [
+      0,
+      0,
+      0
+     ],
+     "4": [
+      0,
+      0,
+      0
+     ]
+    },
+    "bowl/26_Sphere_4_Finger": {
+     "25": [
+      0,
+      0,
+      0
+     ],
+     "4": [
+      0,
+      0,
+      0
+     ]
+    }
+   },
+   "static_screen_mug": {
+    "25": {
+     "kept": 17
+    },
+    "4": {
+     "kept": 16,
+     "open_hand_inside_object": 4
+    }
+   },
+   "why_the_refiner_rejects": {
+    "how_found": "one refinement re-run per case with hydra.verbose=true, which turns on the per-candidate rejection messages",
+    "hammer/2_Small_Diameter": "42 of 42 rejected as required contact bodies not achieved: the type asks for finger_r_link7/link8 and the hand contacts ring and little finger links instead",
+    "hammer/3_Medium_Wrap": "9 of 9, same reason, across three required pairs",
+    "bowl/10_Power_Disk": "2 of 2, same reason",
+    "reading": "Not collision, not force closure, not joint limits. At this resting pose the hand can be placed clear of the table but cannot then bring the grasp type's required fingers onto the object. That is the type knowledge being enforced, so the rejection is correct, and more candidates cannot fix it."
+   },
+   "stopped_here": "The mechanism is established for all three objects. Trying further grasp types would be the unbounded widening the plan rules out, and a success found that way would be weak evidence."
+  }
+ }
+}

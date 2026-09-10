@@ -1,0 +1,77 @@
+{
+  "offset": [
+    {
+      "prediction": "grasp_6",
+      "variant": "grasp_6_r90_d30",
+      "align_run": "s0",
+      "status": "completed",
+      "accepted": true,
+      "rise_cm": 14.76,
+      "peak_force_N": 20.56,
+      "ticks": 977
+    },
+    {
+      "prediction": "grasp_7",
+      "variant": "grasp_7_r60_d15",
+      "align_run": "s0",
+      "status": "completed",
+      "accepted": true,
+      "rise_cm": 14.74,
+      "peak_force_N": 12.26,
+      "ticks": 971
+    },
+    {
+      "prediction": "grasp_5",
+      "variant": "grasp_5_r270_d30",
+      "align_run": "s0",
+      "status": "lift_timeout",
+      "accepted": false,
+      "rise_cm": 4.88,
+      "peak_force_N": 15.64,
+      "ticks": 1450
+    },
+    {
+      "prediction": "grasp_8",
+      "variant": "grasp_8_r300_d15",
+      "align_run": "s0",
+      "status": "no_validated_home_path",
+      "accepted": false
+    },
+    {
+      "prediction": "grasp_1",
+      "variant": "grasp_1_r330_d15",
+      "align_run": "s1",
+      "status": "completed",
+      "accepted": true,
+      "rise_cm": 10.72,
+      "peak_force_N": 14.08,
+      "ticks": 1055
+    },
+    {
+      "prediction": "grasp_9",
+      "variant": "grasp_9_r300_d30",
+      "align_run": "s1",
+      "status": "no_validated_home_path",
+      "accepted": false
+    },
+    {
+      "prediction": "grasp_5",
+      "variant": "grasp_5_r150_d-15",
+      "align_run": "s1",
+      "status": "no_validated_home_path",
+      "accepted": false
+    }
+  ],
+  "zero": [
+    {
+      "prediction": "grasp_5",
+      "variant": "grasp_5_r30_d30",
+      "align_run": "s0",
+      "status": "completed",
+      "accepted": true,
+      "rise_cm": 15.37,
+      "peak_force_N": 8.69,
+      "ticks": 1243
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "architecture": "hx5_dexgraspvla_style_rdt",
+  "training_ready": false,
+  "missing": [
+    "Python package torchvision",
+    "vision.source: local DINOv2 checkout with hubconf.py",
+    "vision.head_weights: local pretrained DINOv2 weights",
+    "vision.wrist_weights: local pretrained DINOv2 weights",
+    "--cache: prepare an explicit memmap cache before shuffled training",
+    "dataset: dataset has no accepted training episodes"
+  ],
+  "episode_counts": {},
+  "cache_sha256": null,
+  "optimizer_steps": 0,
+  "pretrained_policy_loaded": false,
+  "scope": "HX5 architectural adaptation; language grounding is external"
+}

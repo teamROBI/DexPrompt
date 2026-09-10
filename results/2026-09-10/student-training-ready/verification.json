@@ -1,0 +1,83 @@
+{
+  "completed": true,
+  "config_sha256": "5335f9369c80509e06f0c90169ae6c9c7fa9d91707c02c9a8197b9769186fb89",
+  "dataset_sha256": "267c23e2fa9a7d4104aa37d8b7436457301c4828d1af92c207f2ee986607946f",
+  "encoders": [
+    {
+      "name": "dinov2_vitb14",
+      "frozen": true,
+      "weights_sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73"
+    },
+    {
+      "name": "dinov2_vitl14",
+      "frozen": true,
+      "weights_sha256": "d5383ea8f4877b2472eb973e0fd72d557c7da5d3611bd527ceeb1d7162cbf428"
+    }
+  ],
+  "online_offline_equal_observations": 14,
+  "memories": [
+    {
+      "episode_id": "source0_teacher_0002_yaw_000",
+      "first_reference_ticks": [
+        0,
+        345
+      ],
+      "excluded_invisible_prefix": 0,
+      "both_masks_empty_frames": 0
+    },
+    {
+      "episode_id": "source0_teacher_0006_yaw_000",
+      "first_reference_ticks": [
+        0,
+        451
+      ],
+      "excluded_invisible_prefix": 0,
+      "both_masks_empty_frames": 157
+    },
+    {
+      "episode_id": "source0_teacher_0016_yaw_000",
+      "first_reference_ticks": [
+        0,
+        457
+      ],
+      "excluded_invisible_prefix": 0,
+      "both_masks_empty_frames": 30
+    },
+    {
+      "episode_id": "source1_teacher_0008_yaw_000",
+      "first_reference_ticks": [
+        0,
+        395
+      ],
+      "excluded_invisible_prefix": 0,
+      "both_masks_empty_frames": 0
+    }
+  ],
+  "full_model_sample_indices": [
+    1240,
+    4169
+  ],
+  "sample_visibility": [
+    [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    ]
+  ],
+  "training_started": false,
+  "full_check_seconds": 134.2127735777758,
+  "backward_calls": 0,
+  "optimizer_steps": 0,
+  "downloads": 0
+}

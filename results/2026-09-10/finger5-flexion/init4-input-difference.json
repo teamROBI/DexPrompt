@@ -1,0 +1,58 @@
+[
+ {
+  "object": "bottle",
+  "candidate": "c08784b1",
+  "differing_fields": {
+   "hand_cpn_w": 1.4901161193847656e-08
+  }
+ },
+ {
+  "object": "can",
+  "candidate": "94999d95",
+  "differing_fields": {
+   "hand_cpn_w": 2.9802322387695312e-08
+  }
+ },
+ {
+  "object": "bowl",
+  "candidate": "498809d2",
+  "differing_fields": {
+   "hand_cpn_w": 2.9802322387695312e-08
+  }
+ },
+ {
+  "object": "bowl",
+  "candidate": "806273bc",
+  "differing_fields": {
+   "hand_cpn_w": 2.9802322387695312e-08
+  }
+ },
+ {
+  "object": "bowl",
+  "candidate": "9c474332",
+  "differing_fields": {
+   "hand_cpn_w": 5.960464477539063e-08
+  }
+ },
+ {
+  "object": "hammer",
+  "candidate": "0320c3b1",
+  "differing_fields": {
+   "hand_cpn_w": 7.450580596923828e-09
+  }
+ },
+ {
+  "object": "hammer",
+  "candidate": "033e81fa",
+  "differing_fields": {
+   "hand_cpn_w": 2.9802322387695312e-08
+  }
+ },
+ {
+  "object": "hammer",
+  "candidate": "03fa5b0e",
+  "differing_fields": {
+   "hand_cpn_w": 2.9802322387695312e-08
+  }
+ }
+]

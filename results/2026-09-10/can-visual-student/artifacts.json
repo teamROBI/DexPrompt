@@ -1,0 +1,20 @@
+{
+  "completed": true,
+  "training_started": false,
+  "production_code_changed": false,
+  "files": {
+    "README.md": "37c3ab034af0de1dd43dc9a3cdb6db953f5ca9ae5a6d34f6ab2a9a96a0c47095",
+    "cache.log": "ed85463b183bb7a93a94972fc42efcb583720bd63e8431ab4a49451ed886c475",
+    "data-check.json": "3bbcef808f7f82201c812ff7c02d99c78d74c5a3d05a87d72fe59ed49e72d065",
+    "diagnostic-preflight.json": "0a3a350bbb2415d9dd57d489a193856c8fbc59a486624512a9e7a629439aafea",
+    "diagnostic-preflight.log": "0a3a350bbb2415d9dd57d489a193856c8fbc59a486624512a9e7a629439aafea",
+    "full-model.json": "fd93104697cb27fa48bf3b330baa0ed5b03f25252a6afac32c4eabffdbb5f4f0",
+    "full-model.log": "22e485d36a756785c55544f1471907d7a38eb966c86c0306fa8d3f4d68702bf5",
+    "preflight.json": "afa365bea25bb87422bf699c5551421dab4337afca8d0fb017822a7f2bc164f3",
+    "preflight.log": "afa365bea25bb87422bf699c5551421dab4337afca8d0fb017822a7f2bc164f3",
+    "render-report.json": "d1bc5d6c354fc4cade9c890f40a29e5c710f7dc830b517f822fc53d7a6ae30a7",
+    "render.log": "93ada5803e6d1a97d5c61437ee6e5c7379bc474e5244842194d280aa2cfdb8cf",
+    "verification.json": "a9e75adc7b1486e2b28432b7894d91ed1c5db7c8cb3bee3f4d4e83f8c86e3e42",
+    "verify_student.py": "64654642425e3a0784908b35f0ece1d18441df4c582ee9f0971332f446b1424a"
+  }
+}

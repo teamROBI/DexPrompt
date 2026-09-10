@@ -1,0 +1,66 @@
+{
+  "run": "out/rl-approach/M-seed1",
+  "baseline": "out/rl-approach/bc-v1/policy.pt",
+  "seeds": "100-119",
+  "std": 0.05,
+  "candidates": [
+    {
+      "name": "baseline",
+      "policy": "out/rl-approach/bc-v1/policy.pt",
+      "sha256": "f9caf903f63ae1e93ffa265521f03247259092716461a47cb709edeead737f82",
+      "steps": 0,
+      "mean_action_status": "completed",
+      "mean_action_completes": true,
+      "sampled_completed": 13,
+      "sampled_episodes": 20,
+      "sampled_statuses": {
+        "completed": 13,
+        "quality_approach_displacement": 4,
+        "quality_penetration": 3
+      },
+      "median_closest_m": 0.004169133013047009
+    },
+    {
+      "name": "step_00040960",
+      "policy": "out/rl-approach/M-seed1/checkpoints/policy_step_00040960.pt",
+      "sha256": "7b1b0d0ff0141fb2c16880cb1c2575efccb672f59e9d1be136487437bf617090",
+      "steps": 40960,
+      "mean_action_status": "completed",
+      "mean_action_completes": true,
+      "sampled_completed": 13,
+      "sampled_episodes": 20,
+      "sampled_statuses": {
+        "completed": 13,
+        "quality_approach_displacement": 4,
+        "quality_penetration": 3
+      },
+      "median_closest_m": 0.004169133013047009
+    },
+    {
+      "name": "step_00053248",
+      "policy": "out/rl-approach/M-seed1/checkpoints/policy_step_00053248.pt",
+      "sha256": "29cdaadf28daf54891784d81e6f702c76fa4b27b1fb4ebec34af8cbb4b7b61f3",
+      "steps": 53248,
+      "mean_action_status": "quality_approach_displacement",
+      "mean_action_completes": false,
+      "sampled_completed": null,
+      "sampled_episodes": null
+    },
+    {
+      "name": "step_00064512",
+      "policy": "out/rl-approach/M-seed1/checkpoints/policy_step_00064512.pt",
+      "sha256": "aeeaec992e597079f3e9511f1b8b6ac5b6375b2b4af8967fe950c4bbc1c124c1",
+      "steps": 64512,
+      "mean_action_status": "quality_approach_displacement",
+      "mean_action_completes": false,
+      "sampled_completed": null,
+      "sampled_episodes": null
+    }
+  ],
+  "selected": "baseline",
+  "selected_policy": "out/rl-approach/bc-v1/policy.pt",
+  "selected_sha256": "f9caf903f63ae1e93ffa265521f03247259092716461a47cb709edeead737f82",
+  "improved_on_baseline": false,
+  "baseline_completed": 13,
+  "selected_completed": 13
+}

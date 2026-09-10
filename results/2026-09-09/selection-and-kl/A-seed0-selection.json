@@ -1,0 +1,85 @@
+{
+  "run": "out/rl-approach/A-seed0",
+  "baseline": "out/rl-approach/bc-v1/policy.pt",
+  "seeds": "100-119",
+  "std": 0.05,
+  "candidates": [
+    {
+      "name": "baseline",
+      "policy": "out/rl-approach/bc-v1/policy.pt",
+      "sha256": "f9caf903f63ae1e93ffa265521f03247259092716461a47cb709edeead737f82",
+      "steps": 0,
+      "mean_action_status": "completed",
+      "mean_action_completes": true,
+      "sampled_completed": 13,
+      "sampled_episodes": 20,
+      "sampled_statuses": {
+        "completed": 13,
+        "quality_approach_displacement": 4,
+        "quality_penetration": 3
+      },
+      "median_closest_m": 0.004169133013047009
+    },
+    {
+      "name": "step_00040960",
+      "policy": "out/rl-approach/A-seed0/checkpoints/policy_step_00040960.pt",
+      "sha256": "bb31402ded5609320df22143c33414dbf576c3d9114573472981f529da53d5dc",
+      "steps": 40960,
+      "mean_action_status": "completed",
+      "mean_action_completes": true,
+      "sampled_completed": 13,
+      "sampled_episodes": 20,
+      "sampled_statuses": {
+        "completed": 13,
+        "quality_approach_displacement": 4,
+        "quality_penetration": 3
+      },
+      "median_closest_m": 0.004169133013047009
+    },
+    {
+      "name": "step_00051200",
+      "policy": "out/rl-approach/A-seed0/checkpoints/policy_step_00051200.pt",
+      "sha256": "b7a0f0cb652f48c076ea1f96073442b53896d703c648f481ef7052ad4998a298",
+      "steps": 51200,
+      "mean_action_status": "completed",
+      "mean_action_completes": true,
+      "sampled_completed": 14,
+      "sampled_episodes": 20,
+      "sampled_statuses": {
+        "completed": 14,
+        "quality_approach_displacement": 6
+      },
+      "median_closest_m": 0.00283498638818717
+    },
+    {
+      "name": "step_00061440",
+      "policy": "out/rl-approach/A-seed0/checkpoints/policy_step_00061440.pt",
+      "sha256": "fdd5e8ab63638706169cde35c51bcca39576959f5975468bf81ac674033196ee",
+      "steps": 61440,
+      "mean_action_status": "completed",
+      "mean_action_completes": true,
+      "sampled_completed": 20,
+      "sampled_episodes": 20,
+      "sampled_statuses": {
+        "completed": 20
+      },
+      "median_closest_m": 0.0026591738906137237
+    },
+    {
+      "name": "step_00071680",
+      "policy": "out/rl-approach/A-seed0/checkpoints/policy_step_00071680.pt",
+      "sha256": "0780e6e97a46b3ff81aaba0b10e83221820d4af5fc812fcafa2d95bb7a35bc44",
+      "steps": 71680,
+      "mean_action_status": "quality_penetration",
+      "mean_action_completes": false,
+      "sampled_completed": null,
+      "sampled_episodes": null
+    }
+  ],
+  "selected": "step_00061440",
+  "selected_policy": "out/rl-approach/A-seed0/checkpoints/policy_step_00061440.pt",
+  "selected_sha256": "fdd5e8ab63638706169cde35c51bcca39576959f5975468bf81ac674033196ee",
+  "improved_on_baseline": true,
+  "baseline_completed": 13,
+  "selected_completed": 20
+}

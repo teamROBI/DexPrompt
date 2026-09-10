@@ -1,0 +1,82 @@
+[
+  {
+    "run": "bc-v1",
+    "steps": 0,
+    "actor_updates": 0,
+    "action_drift_mean": 0.0,
+    "action_drift_max": 0.0,
+    "demo_action_error": 0.011670339852571487,
+    "weight_l2_from_bc": 0.0,
+    "std": 0.049999985843896866
+  },
+  {
+    "run": "A-seed0",
+    "steps": 40960,
+    "actor_updates": 0,
+    "action_drift_mean": 0.0,
+    "action_drift_max": 0.0,
+    "demo_action_error": 0.011670339852571487,
+    "weight_l2_from_bc": 0.0,
+    "std": 0.049999985843896866
+  },
+  {
+    "run": "A-seed0",
+    "steps": 51200,
+    "actor_updates": 10,
+    "action_drift_mean": 0.009202349931001663,
+    "action_drift_max": 0.05893111228942871,
+    "demo_action_error": 0.01589641533792019,
+    "weight_l2_from_bc": 0.12597729615258013,
+    "std": 0.049997277557849884
+  },
+  {
+    "run": "A-seed0",
+    "steps": 61440,
+    "actor_updates": 20,
+    "action_drift_mean": 0.014806230552494526,
+    "action_drift_max": 0.057917386293411255,
+    "demo_action_error": 0.019413849338889122,
+    "weight_l2_from_bc": 0.16641860993392066,
+    "std": 0.049995627254247665
+  },
+  {
+    "run": "A-seed0",
+    "steps": 71680,
+    "actor_updates": 30,
+    "action_drift_mean": 0.02038935199379921,
+    "action_drift_max": 0.07804130017757416,
+    "demo_action_error": 0.024652574211359024,
+    "weight_l2_from_bc": 0.19543960849239886,
+    "std": 0.04999985173344612
+  },
+  {
+    "run": "B-seed0",
+    "steps": 40960,
+    "actor_updates": 0,
+    "action_drift_mean": 0.0,
+    "action_drift_max": 0.0,
+    "demo_action_error": 0.011670339852571487,
+    "weight_l2_from_bc": 0.0,
+    "std": 0.049999985843896866
+  },
+  {
+    "run": "B-seed0",
+    "steps": 51200,
+    "actor_updates": 10,
+    "action_drift_mean": 0.006505078636109829,
+    "action_drift_max": 0.03592942655086517,
+    "demo_action_error": 0.013481534086167812,
+    "weight_l2_from_bc": 0.10148638967551057,
+    "std": 0.04999978467822075
+  },
+  {
+    "run": "B-seed0",
+    "steps": 61440,
+    "actor_updates": 20,
+    "action_drift_mean": 0.012861072085797787,
+    "action_drift_max": 0.05868558585643768,
+    "demo_action_error": 0.01806686259806156,
+    "weight_l2_from_bc": 0.1456868716729746,
+    "std": 0.04999968037009239
+  }
+]

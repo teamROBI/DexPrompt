@@ -1,0 +1,38 @@
+diff --git a/end2end/dynamic_playback.py b/end2end/dynamic_playback.py
+index 29662a6..b5707cf 100644
+--- a/end2end/dynamic_playback.py
++++ b/end2end/dynamic_playback.py
+@@ -1344,6 +1344,7 @@ def simulate_and_export(
+         # comparing the current gripper target to the open value.
+         if layout.velocity_close_drives:
+             vel_targets = control.joint_target_vel.numpy()
++            measured_q = states[0].joint_q.numpy()
+             for k, (q_off, close_vel) in enumerate(layout.velocity_close_drives):
+                 name, _, open_v, close_v = layout.gripper_drives[k]
+                 target = gripper_q[name]
+@@ -1351,7 +1352,24 @@ def simulate_and_export(
+                 # tolerance). For pre-grasp frames the trajectory holds
+                 # target == open_v so target_vel = 0 (no closing pressure).
+                 is_open = abs(target - open_v) < 1e-6
+-                vel_targets[q_off] = 0.0 if is_open else close_vel
++                # ...and stop once the joint has actually reached its close
++                # pose. A velocity servo carries no position feedback, so
++                # without this it keeps driving for the whole phase and only
++                # the joint-limit constraint opposes it -- which is far too
++                # soft to hold. Measured on the HX5-D20: -1.17 Nm of limit
++                # force against +1.35 Nm from the actuator, so the joint
++                # coasts through its own limit at a near-constant rate.
++                # Twelve of its twenty finger joints finished 6-7 rad (up to
++                # 391 deg) outside their URDF range. The comment above --
++                # "contact equilibrium stops the motion" -- only holds for a
++                # parallel jaw squeezing an object; a multi-finger hand
++                # closing into free space has nothing to stop it.
++                reached = (
++                    measured_q[q_off] >= close_v
++                    if close_v > open_v
++                    else measured_q[q_off] <= close_v
++                )
++                vel_targets[q_off] = 0.0 if (is_open or reached) else close_vel
+             control.joint_target_vel.assign(vel_targets)
+ 
+         for s in range(sim_substeps):

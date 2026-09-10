@@ -1,0 +1,22 @@
+{
+  "policy_dt": 0.02,
+  "standoff": 0.1,
+  "overhead": 0.15,
+  "lift_height": 0.15,
+  "transit_ticks": 150,
+  "descend_ticks": 100,
+  "approach_ticks": 200,
+  "arrive_ticks": 50,
+  "close_ticks": 600,
+  "lift_ticks": 300,
+  "hold_ticks": 50,
+  "ready_ticks": 25,
+  "lift_force": 1.5,
+  "preview_ticks": 2,
+  "closure_speed": 0.008,
+  "preload": 2.0,
+  "hold_force": 4.0,
+  "penetration_margin": 0.75,
+  "residual": 0.35,
+  "geometry_feedback": true
+}

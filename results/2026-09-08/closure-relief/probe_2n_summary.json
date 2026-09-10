@@ -1,0 +1,10 @@
+{
+  "scope": "headless fixed-model feedback diagnostic; no training images or dataset",
+  "status": "lift_timeout",
+  "ticks": 1450,
+  "max_rise": 0.07690575919578713,
+  "depth": 0.00199975182038074,
+  "force": 19.684375707412755,
+  "max_groups": 5,
+  "hold_ticks": 0
+}

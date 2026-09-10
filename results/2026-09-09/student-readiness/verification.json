@@ -1,0 +1,20 @@
+{
+  "tests": {
+    "passed": 88,
+    "skipped": 1,
+    "scope": "student, inference, cache, conditioning, dataset, recording"
+  },
+  "ruff": "passed",
+  "git_diff_check": "passed",
+  "document_links": "passed",
+  "training_started": false,
+  "full_pretrained_dino_forward": false,
+  "source_sha256": {
+    "src/icra/student.py": "60113cdc6fb0be4f63f4f76a49fc71400a9643fd57698ae7143662cb3ba3438f",
+    "scripts/train_hx5_student.py": "d41e6ecf9f194d80498c80c946cb071020a8c3222d939086a5ee0c7e54929e47",
+    "tests/test_student.py": "75808db977b0b32d1b00bca3654ed82c3c87bf75734eb9c47b95c05dbf92b4cd",
+    "tests/test_student_inference.py": "83a9b4b39b68b8ab6f587486c9acf2dd6cef949411c5042139610b24e26e7c31",
+    "configs/STUDENT_GOAL_CONTRACT.md": "7697b115bee1afd3cf04ec207ef842eeae8ff2d91f40d4f56763088c7d769796",
+    "PAPER_TODO.md": "6162c11b88f295809924f26378368780d5fefbdded3f6dcd3235f9b27328f871"
+  }
+}

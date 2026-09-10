@@ -1,0 +1,703 @@
+{
+  "counts": {
+    "positive": {
+      "planned": 10,
+      "run": 10,
+      "passed": 9
+    },
+    "negative": {
+      "planned": 30,
+      "run": 28,
+      "passed": 0
+    }
+  },
+  "max_target_drift": 5.960464477539063e-08,
+  "negative_digit5_min_gap_mm": 2.186613258545264,
+  "filters": {
+    "{\"collision\": \"passed\", \"contact\": \"passed\", \"limit\": \"passed\", \"qp\": \"passed\"}": 9,
+    "{\"collision\": \"passed\", \"contact\": \"passed\", \"limit\": \"passed\", \"qp\": \"rejected\"}": 1,
+    "{\"collision\": \"passed\", \"contact\": \"rejected\", \"limit\": \"passed\", \"qp\": \"not_run\"}": 28
+  },
+  "rows": [
+    {
+      "sha256": "c08784b1d4d16ab07ec8ec671191d595c6c1096a4d1a627ef138378eab68fd43",
+      "control": "positive",
+      "variant": "original",
+      "target_drift": 0.0,
+      "changed_qpos_indices": [],
+      "satisfied": 2,
+      "required": 2,
+      "passed": true,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "passed",
+        "limit": "passed",
+        "qp": "passed"
+      }
+    },
+    {
+      "sha256": "c08784b1d4d16ab07ec8ec671191d595c6c1096a4d1a627ef138378eab68fd43",
+      "control": "positive",
+      "variant": "pip_minus_030",
+      "target_drift": 0.0,
+      "changed_qpos_indices": [
+        24
+      ],
+      "satisfied": 2,
+      "required": 2,
+      "passed": true,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "passed",
+        "limit": "passed",
+        "qp": "passed"
+      }
+    },
+    {
+      "sha256": "c08784b1d4d16ab07ec8ec671191d595c6c1096a4d1a627ef138378eab68fd43",
+      "control": "positive",
+      "variant": "pip_minus_015",
+      "target_drift": 0.0,
+      "changed_qpos_indices": [
+        24
+      ],
+      "satisfied": 2,
+      "required": 2,
+      "passed": true,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "passed",
+        "limit": "passed",
+        "qp": "passed"
+      }
+    },
+    {
+      "sha256": "c08784b1d4d16ab07ec8ec671191d595c6c1096a4d1a627ef138378eab68fd43",
+      "control": "positive",
+      "variant": "pip_plus_015",
+      "target_drift": 0.0,
+      "changed_qpos_indices": [
+        24
+      ],
+      "satisfied": 2,
+      "required": 2,
+      "passed": true,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "passed",
+        "limit": "passed",
+        "qp": "passed"
+      }
+    },
+    {
+      "sha256": "c08784b1d4d16ab07ec8ec671191d595c6c1096a4d1a627ef138378eab68fd43",
+      "control": "positive",
+      "variant": "pip_plus_030",
+      "target_drift": 0.0,
+      "changed_qpos_indices": [
+        24
+      ],
+      "satisfied": 2,
+      "required": 2,
+      "passed": true,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "passed",
+        "limit": "passed",
+        "qp": "passed"
+      }
+    },
+    {
+      "sha256": "94999d95ee76f61bcf75417dc94025e13aedceb3d911b3431b8ef94aaeca235e",
+      "control": "positive",
+      "variant": "original",
+      "target_drift": 0.0,
+      "changed_qpos_indices": [],
+      "satisfied": 5,
+      "required": 5,
+      "passed": true,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "passed",
+        "limit": "passed",
+        "qp": "passed"
+      }
+    },
+    {
+      "sha256": "94999d95ee76f61bcf75417dc94025e13aedceb3d911b3431b8ef94aaeca235e",
+      "control": "positive",
+      "variant": "pip_minus_030",
+      "target_drift": 9.313225746154785e-10,
+      "changed_qpos_indices": [
+        24
+      ],
+      "satisfied": 5,
+      "required": 5,
+      "passed": true,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "passed",
+        "limit": "passed",
+        "qp": "passed"
+      }
+    },
+    {
+      "sha256": "94999d95ee76f61bcf75417dc94025e13aedceb3d911b3431b8ef94aaeca235e",
+      "control": "positive",
+      "variant": "pip_minus_015",
+      "target_drift": 2.9802322387695312e-08,
+      "changed_qpos_indices": [
+        24
+      ],
+      "satisfied": 5,
+      "required": 5,
+      "passed": true,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "passed",
+        "limit": "passed",
+        "qp": "passed"
+      }
+    },
+    {
+      "sha256": "94999d95ee76f61bcf75417dc94025e13aedceb3d911b3431b8ef94aaeca235e",
+      "control": "positive",
+      "variant": "pip_plus_015",
+      "target_drift": 2.9802322387695312e-08,
+      "changed_qpos_indices": [
+        24
+      ],
+      "satisfied": 5,
+      "required": 5,
+      "passed": true,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "passed",
+        "limit": "passed",
+        "qp": "passed"
+      }
+    },
+    {
+      "sha256": "94999d95ee76f61bcf75417dc94025e13aedceb3d911b3431b8ef94aaeca235e",
+      "control": "positive",
+      "variant": "pip_plus_030",
+      "target_drift": 5.960464477539063e-08,
+      "changed_qpos_indices": [
+        24
+      ],
+      "satisfied": 5,
+      "required": 5,
+      "passed": false,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "passed",
+        "limit": "passed",
+        "qp": "rejected"
+      }
+    },
+    {
+      "sha256": "498809d217d3639de5648756f47b8a48e20f48cc11f9aaa998917b60ebae374a",
+      "control": "negative",
+      "variant": "original",
+      "target_drift": 0.0,
+      "changed_qpos_indices": [],
+      "satisfied": 4,
+      "required": 5,
+      "passed": false,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "rejected",
+        "limit": "passed",
+        "qp": "not_run"
+      }
+    },
+    {
+      "sha256": "498809d217d3639de5648756f47b8a48e20f48cc11f9aaa998917b60ebae374a",
+      "control": "negative",
+      "variant": "pip_minus_030",
+      "target_drift": 1.4901161193847656e-08,
+      "changed_qpos_indices": [
+        24
+      ],
+      "satisfied": 4,
+      "required": 5,
+      "passed": false,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "rejected",
+        "limit": "passed",
+        "qp": "not_run"
+      }
+    },
+    {
+      "sha256": "498809d217d3639de5648756f47b8a48e20f48cc11f9aaa998917b60ebae374a",
+      "control": "negative",
+      "variant": "pip_minus_015",
+      "target_drift": 5.960464477539063e-08,
+      "changed_qpos_indices": [
+        24
+      ],
+      "satisfied": 4,
+      "required": 5,
+      "passed": false,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "rejected",
+        "limit": "passed",
+        "qp": "not_run"
+      }
+    },
+    {
+      "sha256": "498809d217d3639de5648756f47b8a48e20f48cc11f9aaa998917b60ebae374a",
+      "control": "negative",
+      "variant": "pip_plus_015",
+      "target_drift": 2.2351741790771484e-08,
+      "changed_qpos_indices": [
+        24
+      ],
+      "satisfied": 4,
+      "required": 5,
+      "passed": false,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "rejected",
+        "limit": "passed",
+        "qp": "not_run"
+      }
+    },
+    {
+      "sha256": "498809d217d3639de5648756f47b8a48e20f48cc11f9aaa998917b60ebae374a",
+      "control": "negative",
+      "variant": "pip_plus_030",
+      "target_drift": 2.9802322387695312e-08,
+      "changed_qpos_indices": [
+        24
+      ],
+      "satisfied": 4,
+      "required": 5,
+      "passed": false,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "rejected",
+        "limit": "passed",
+        "qp": "not_run"
+      }
+    },
+    {
+      "sha256": "806273bc9ff039c5e1c33942e3ef73ff65f7546a8d845e587b1fe2bd0e8ec665",
+      "control": "negative",
+      "variant": "original",
+      "target_drift": 0.0,
+      "changed_qpos_indices": [],
+      "satisfied": 3,
+      "required": 5,
+      "passed": false,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "rejected",
+        "limit": "passed",
+        "qp": "not_run"
+      }
+    },
+    {
+      "sha256": "806273bc9ff039c5e1c33942e3ef73ff65f7546a8d845e587b1fe2bd0e8ec665",
+      "control": "negative",
+      "variant": "pip_minus_030",
+      "target_drift": 5.960464477539063e-08,
+      "changed_qpos_indices": [
+        24
+      ],
+      "satisfied": 3,
+      "required": 5,
+      "passed": false,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "rejected",
+        "limit": "passed",
+        "qp": "not_run"
+      }
+    },
+    {
+      "sha256": "806273bc9ff039c5e1c33942e3ef73ff65f7546a8d845e587b1fe2bd0e8ec665",
+      "control": "negative",
+      "variant": "pip_minus_015",
+      "target_drift": 5.960464477539063e-08,
+      "changed_qpos_indices": [
+        24
+      ],
+      "satisfied": 3,
+      "required": 5,
+      "passed": false,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "rejected",
+        "limit": "passed",
+        "qp": "not_run"
+      }
+    },
+    {
+      "sha256": "806273bc9ff039c5e1c33942e3ef73ff65f7546a8d845e587b1fe2bd0e8ec665",
+      "control": "negative",
+      "variant": "pip_plus_015",
+      "not_run": "out_of_range: finger_r_joint18 1.9071+0.15 = 2.0571 outside [0.0000, 2.0071]"
+    },
+    {
+      "sha256": "806273bc9ff039c5e1c33942e3ef73ff65f7546a8d845e587b1fe2bd0e8ec665",
+      "control": "negative",
+      "variant": "pip_plus_030",
+      "not_run": "out_of_range: finger_r_joint18 1.9071+0.30 = 2.2071 outside [0.0000, 2.0071]"
+    },
+    {
+      "sha256": "9c474332264e88caeace237b19121cbd97f7c97894ccdb220f06d4ee626c8643",
+      "control": "negative",
+      "variant": "original",
+      "target_drift": 0.0,
+      "changed_qpos_indices": [],
+      "satisfied": 3,
+      "required": 5,
+      "passed": false,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "rejected",
+        "limit": "passed",
+        "qp": "not_run"
+      }
+    },
+    {
+      "sha256": "9c474332264e88caeace237b19121cbd97f7c97894ccdb220f06d4ee626c8643",
+      "control": "negative",
+      "variant": "pip_minus_030",
+      "target_drift": 1.4901161193847656e-08,
+      "changed_qpos_indices": [
+        24
+      ],
+      "satisfied": 3,
+      "required": 5,
+      "passed": false,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "rejected",
+        "limit": "passed",
+        "qp": "not_run"
+      }
+    },
+    {
+      "sha256": "9c474332264e88caeace237b19121cbd97f7c97894ccdb220f06d4ee626c8643",
+      "control": "negative",
+      "variant": "pip_minus_015",
+      "target_drift": 1.4901161193847656e-08,
+      "changed_qpos_indices": [
+        24
+      ],
+      "satisfied": 3,
+      "required": 5,
+      "passed": false,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "rejected",
+        "limit": "passed",
+        "qp": "not_run"
+      }
+    },
+    {
+      "sha256": "9c474332264e88caeace237b19121cbd97f7c97894ccdb220f06d4ee626c8643",
+      "control": "negative",
+      "variant": "pip_plus_015",
+      "target_drift": 2.9802322387695312e-08,
+      "changed_qpos_indices": [
+        24
+      ],
+      "satisfied": 3,
+      "required": 5,
+      "passed": false,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "rejected",
+        "limit": "passed",
+        "qp": "not_run"
+      }
+    },
+    {
+      "sha256": "9c474332264e88caeace237b19121cbd97f7c97894ccdb220f06d4ee626c8643",
+      "control": "negative",
+      "variant": "pip_plus_030",
+      "target_drift": 1.4901161193847656e-08,
+      "changed_qpos_indices": [
+        24
+      ],
+      "satisfied": 3,
+      "required": 5,
+      "passed": false,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "rejected",
+        "limit": "passed",
+        "qp": "not_run"
+      }
+    },
+    {
+      "sha256": "0320c3b1fa51669777381efe6b45ad3a2669b77364b36caf88dbf47aad11db49",
+      "control": "negative",
+      "variant": "original",
+      "target_drift": 0.0,
+      "changed_qpos_indices": [],
+      "satisfied": 3,
+      "required": 4,
+      "passed": false,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "rejected",
+        "limit": "passed",
+        "qp": "not_run"
+      }
+    },
+    {
+      "sha256": "0320c3b1fa51669777381efe6b45ad3a2669b77364b36caf88dbf47aad11db49",
+      "control": "negative",
+      "variant": "pip_minus_030",
+      "target_drift": 9.15786557698084e-09,
+      "changed_qpos_indices": [
+        24
+      ],
+      "satisfied": 3,
+      "required": 4,
+      "passed": false,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "rejected",
+        "limit": "passed",
+        "qp": "not_run"
+      }
+    },
+    {
+      "sha256": "0320c3b1fa51669777381efe6b45ad3a2669b77364b36caf88dbf47aad11db49",
+      "control": "negative",
+      "variant": "pip_minus_015",
+      "target_drift": 1.1842061553579697e-08,
+      "changed_qpos_indices": [
+        24
+      ],
+      "satisfied": 3,
+      "required": 4,
+      "passed": false,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "rejected",
+        "limit": "passed",
+        "qp": "not_run"
+      }
+    },
+    {
+      "sha256": "0320c3b1fa51669777381efe6b45ad3a2669b77364b36caf88dbf47aad11db49",
+      "control": "negative",
+      "variant": "pip_plus_015",
+      "target_drift": 5.960464477539063e-08,
+      "changed_qpos_indices": [
+        24
+      ],
+      "satisfied": 3,
+      "required": 4,
+      "passed": false,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "rejected",
+        "limit": "passed",
+        "qp": "not_run"
+      }
+    },
+    {
+      "sha256": "0320c3b1fa51669777381efe6b45ad3a2669b77364b36caf88dbf47aad11db49",
+      "control": "negative",
+      "variant": "pip_plus_030",
+      "target_drift": 2.9802322387695312e-08,
+      "changed_qpos_indices": [
+        24
+      ],
+      "satisfied": 3,
+      "required": 4,
+      "passed": false,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "rejected",
+        "limit": "passed",
+        "qp": "not_run"
+      }
+    },
+    {
+      "sha256": "033e81faac1014a82423aa5680093a701b798db54ebbef294c33c8a7f9e0efbc",
+      "control": "negative",
+      "variant": "original",
+      "target_drift": 0.0,
+      "changed_qpos_indices": [],
+      "satisfied": 3,
+      "required": 4,
+      "passed": false,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "rejected",
+        "limit": "passed",
+        "qp": "not_run"
+      }
+    },
+    {
+      "sha256": "033e81faac1014a82423aa5680093a701b798db54ebbef294c33c8a7f9e0efbc",
+      "control": "negative",
+      "variant": "pip_minus_030",
+      "target_drift": 1.2426170314938645e-08,
+      "changed_qpos_indices": [
+        24
+      ],
+      "satisfied": 3,
+      "required": 4,
+      "passed": false,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "rejected",
+        "limit": "passed",
+        "qp": "not_run"
+      }
+    },
+    {
+      "sha256": "033e81faac1014a82423aa5680093a701b798db54ebbef294c33c8a7f9e0efbc",
+      "control": "negative",
+      "variant": "pip_minus_015",
+      "target_drift": 2.9802322387695312e-08,
+      "changed_qpos_indices": [
+        24
+      ],
+      "satisfied": 3,
+      "required": 4,
+      "passed": false,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "rejected",
+        "limit": "passed",
+        "qp": "not_run"
+      }
+    },
+    {
+      "sha256": "033e81faac1014a82423aa5680093a701b798db54ebbef294c33c8a7f9e0efbc",
+      "control": "negative",
+      "variant": "pip_plus_015",
+      "target_drift": 3.725290298461914e-08,
+      "changed_qpos_indices": [
+        24
+      ],
+      "satisfied": 3,
+      "required": 4,
+      "passed": false,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "rejected",
+        "limit": "passed",
+        "qp": "not_run"
+      }
+    },
+    {
+      "sha256": "033e81faac1014a82423aa5680093a701b798db54ebbef294c33c8a7f9e0efbc",
+      "control": "negative",
+      "variant": "pip_plus_030",
+      "target_drift": 1.672030691679538e-08,
+      "changed_qpos_indices": [
+        24
+      ],
+      "satisfied": 3,
+      "required": 4,
+      "passed": false,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "rejected",
+        "limit": "passed",
+        "qp": "not_run"
+      }
+    },
+    {
+      "sha256": "03fa5b0e3e6ca2a71d7f1cedf99535b452811b58fbd521a414dbe3dbb6538551",
+      "control": "negative",
+      "variant": "original",
+      "target_drift": 0.0,
+      "changed_qpos_indices": [],
+      "satisfied": 3,
+      "required": 4,
+      "passed": false,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "rejected",
+        "limit": "passed",
+        "qp": "not_run"
+      }
+    },
+    {
+      "sha256": "03fa5b0e3e6ca2a71d7f1cedf99535b452811b58fbd521a414dbe3dbb6538551",
+      "control": "negative",
+      "variant": "pip_minus_030",
+      "target_drift": 3.944819582102355e-09,
+      "changed_qpos_indices": [
+        24
+      ],
+      "satisfied": 3,
+      "required": 4,
+      "passed": false,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "rejected",
+        "limit": "passed",
+        "qp": "not_run"
+      }
+    },
+    {
+      "sha256": "03fa5b0e3e6ca2a71d7f1cedf99535b452811b58fbd521a414dbe3dbb6538551",
+      "control": "negative",
+      "variant": "pip_minus_015",
+      "target_drift": 1.021760454023024e-08,
+      "changed_qpos_indices": [
+        24
+      ],
+      "satisfied": 3,
+      "required": 4,
+      "passed": false,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "rejected",
+        "limit": "passed",
+        "qp": "not_run"
+      }
+    },
+    {
+      "sha256": "03fa5b0e3e6ca2a71d7f1cedf99535b452811b58fbd521a414dbe3dbb6538551",
+      "control": "negative",
+      "variant": "pip_plus_015",
+      "target_drift": 1.4901161193847656e-08,
+      "changed_qpos_indices": [
+        24
+      ],
+      "satisfied": 3,
+      "required": 4,
+      "passed": false,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "rejected",
+        "limit": "passed",
+        "qp": "not_run"
+      }
+    },
+    {
+      "sha256": "03fa5b0e3e6ca2a71d7f1cedf99535b452811b58fbd521a414dbe3dbb6538551",
+      "control": "negative",
+      "variant": "pip_plus_030",
+      "target_drift": 2.660692643985385e-08,
+      "changed_qpos_indices": [
+        24
+      ],
+      "satisfied": 3,
+      "required": 4,
+      "passed": false,
+      "filter_status": {
+        "collision": "passed",
+        "contact": "rejected",
+        "limit": "passed",
+        "qp": "not_run"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1390 @@
+{
+ "set": "finger5",
+ "perturbations": [
+  {
+   "name": "pip_minus_030",
+   "kind": "flex",
+   "amount": -0.3,
+   "units": "radians added to finger_r_joint18"
+  },
+  {
+   "name": "pip_minus_015",
+   "kind": "flex",
+   "amount": -0.15,
+   "units": "radians added to finger_r_joint18"
+  },
+  {
+   "name": "pip_plus_015",
+   "kind": "flex",
+   "amount": 0.15,
+   "units": "radians added to finger_r_joint18"
+  },
+  {
+   "name": "pip_plus_030",
+   "kind": "flex",
+   "amount": 0.3,
+   "units": "radians added to finger_r_joint18"
+  }
+ ],
+ "note": "Fixed before running; deterministic, so no seed is involved.",
+ "candidates": [
+  {
+   "control": "positive",
+   "object": "bottle",
+   "grasp_type": "33_Inferior_Pincer",
+   "sha256": "001f489f7472f4e9d59757f4b53a18dc821c2cd27e36b1efc5d5f10b82d36a0e",
+   "source_init": "/home/yspark/projects/Dexonomy/output/big1_zero_s2_hx5_d20/init_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_17_grasp.npy",
+   "source_init_sha256": "c08784b1d4d16ab07ec8ec671191d595c6c1096a4d1a627ef138378eab68fd43",
+   "experiment": "big1_zero_s2_hx5_d20",
+   "variants": [
+    {
+     "variant": "original",
+     "kind": "none",
+     "amount": 0.0,
+     "path": "third_party/dexonomy/output/flex5_original_big1_zero_s2_hx5_d20/init_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_17_grasp.npy",
+     "link_frame_target_drift": 0.0,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": false,
+     "changed_joint": null,
+     "changed_index": null,
+     "joint_value_before": null,
+     "joint_value_after": null,
+     "other_joints_unchanged": null,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 0.09997917737960815,
+      "into_object_mm": 20.332919250449702,
+      "into_world_mm": 0.0,
+      "into_hand_mm": 0.0
+     }
+    },
+    {
+     "variant": "pip_minus_030",
+     "kind": "flex",
+     "amount": -0.3,
+     "path": "third_party/dexonomy/output/flex5_pip_minus_030_big1_zero_s2_hx5_d20/init_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_17_grasp.npy",
+     "link_frame_target_drift": 0.0,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": true,
+     "changed_joint": "finger_r_joint18",
+     "changed_index": 24,
+     "joint_value_before": 0.49120214581489563,
+     "joint_value_after": 0.19120214879512787,
+     "other_joints_unchanged": true,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 0.09997917737960815,
+      "into_object_mm": 20.332919250449702,
+      "into_world_mm": 0.0,
+      "into_hand_mm": 0.0
+     }
+    },
+    {
+     "variant": "pip_minus_015",
+     "kind": "flex",
+     "amount": -0.15,
+     "path": "third_party/dexonomy/output/flex5_pip_minus_015_big1_zero_s2_hx5_d20/init_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_17_grasp.npy",
+     "link_frame_target_drift": 0.0,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": true,
+     "changed_joint": "finger_r_joint18",
+     "changed_index": 24,
+     "joint_value_before": 0.49120214581489563,
+     "joint_value_after": 0.34120213985443115,
+     "other_joints_unchanged": true,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 0.09997917737960815,
+      "into_object_mm": 20.332919250449702,
+      "into_world_mm": 0.0,
+      "into_hand_mm": 0.0
+     }
+    },
+    {
+     "variant": "pip_plus_015",
+     "kind": "flex",
+     "amount": 0.15,
+     "path": "third_party/dexonomy/output/flex5_pip_plus_015_big1_zero_s2_hx5_d20/init_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_17_grasp.npy",
+     "link_frame_target_drift": 0.0,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": true,
+     "changed_joint": "finger_r_joint18",
+     "changed_index": 24,
+     "joint_value_before": 0.49120214581489563,
+     "joint_value_after": 0.6412021517753601,
+     "other_joints_unchanged": true,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 0.09997917737960815,
+      "into_object_mm": 20.332919250449702,
+      "into_world_mm": 0.0,
+      "into_hand_mm": 0.0
+     }
+    },
+    {
+     "variant": "pip_plus_030",
+     "kind": "flex",
+     "amount": 0.3,
+     "path": "third_party/dexonomy/output/flex5_pip_plus_030_big1_zero_s2_hx5_d20/init_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_17_grasp.npy",
+     "link_frame_target_drift": 0.0,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": true,
+     "changed_joint": "finger_r_joint18",
+     "changed_index": 24,
+     "joint_value_before": 0.49120214581489563,
+     "joint_value_after": 0.7912021279335022,
+     "other_joints_unchanged": true,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 0.09997917737960815,
+      "into_object_mm": 20.332919250449702,
+      "into_world_mm": 0.0,
+      "into_hand_mm": 0.0
+     }
+    }
+   ]
+  },
+  {
+   "control": "positive",
+   "object": "can",
+   "grasp_type": "10_Power_Disk",
+   "sha256": "9d7009a7406f73040402123e28d35aa6250ad16e641f583081a2637d0265219e",
+   "source_init": "/home/yspark/projects/Dexonomy/output/multi3_can_10_Power_Disk_s1_hx5_d20/init_data/10_Power_Disk/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_96_grasp.npy",
+   "source_init_sha256": "94999d95ee76f61bcf75417dc94025e13aedceb3d911b3431b8ef94aaeca235e",
+   "experiment": "multi3_can_10_Power_Disk_s1_hx5_d20",
+   "variants": [
+    {
+     "variant": "original",
+     "kind": "none",
+     "amount": 0.0,
+     "path": "third_party/dexonomy/output/flex5_original_multi3_can_10_Power_Disk_s1_hx5_d20/init_data/10_Power_Disk/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_96_grasp.npy",
+     "link_frame_target_drift": 0.0,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": false,
+     "changed_joint": null,
+     "changed_index": null,
+     "joint_value_before": null,
+     "joint_value_after": null,
+     "other_joints_unchanged": null,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 0.10746593799591064,
+      "into_object_mm": 24.521840768850506,
+      "into_world_mm": 0.0,
+      "into_hand_mm": 0.0
+     }
+    },
+    {
+     "variant": "pip_minus_030",
+     "kind": "flex",
+     "amount": -0.3,
+     "path": "third_party/dexonomy/output/flex5_pip_minus_030_multi3_can_10_Power_Disk_s1_hx5_d20/init_data/10_Power_Disk/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_96_grasp.npy",
+     "link_frame_target_drift": 9.313225746154785e-10,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": true,
+     "changed_joint": "finger_r_joint18",
+     "changed_index": 24,
+     "joint_value_before": 1.024221420288086,
+     "joint_value_after": 0.724221408367157,
+     "other_joints_unchanged": true,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 0.10746593799591064,
+      "into_object_mm": 24.521840768850506,
+      "into_world_mm": 0.0,
+      "into_hand_mm": 0.8242236348944963
+     }
+    },
+    {
+     "variant": "pip_minus_015",
+     "kind": "flex",
+     "amount": -0.15,
+     "path": "third_party/dexonomy/output/flex5_pip_minus_015_multi3_can_10_Power_Disk_s1_hx5_d20/init_data/10_Power_Disk/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_96_grasp.npy",
+     "link_frame_target_drift": 2.9802322387695312e-08,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": true,
+     "changed_joint": "finger_r_joint18",
+     "changed_index": 24,
+     "joint_value_before": 1.024221420288086,
+     "joint_value_after": 0.8742214441299438,
+     "other_joints_unchanged": true,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 0.10746593799591064,
+      "into_object_mm": 26.38869169282232,
+      "into_world_mm": 0.0,
+      "into_hand_mm": 0.0
+     }
+    },
+    {
+     "variant": "pip_plus_015",
+     "kind": "flex",
+     "amount": 0.15,
+     "path": "third_party/dexonomy/output/flex5_pip_plus_015_multi3_can_10_Power_Disk_s1_hx5_d20/init_data/10_Power_Disk/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_96_grasp.npy",
+     "link_frame_target_drift": 2.9802322387695312e-08,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": true,
+     "changed_joint": "finger_r_joint18",
+     "changed_index": 24,
+     "joint_value_before": 1.024221420288086,
+     "joint_value_after": 1.174221396446228,
+     "other_joints_unchanged": true,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 0.10746593799591064,
+      "into_object_mm": 24.521840768850506,
+      "into_world_mm": 0.0,
+      "into_hand_mm": 0.0
+     }
+    },
+    {
+     "variant": "pip_plus_030",
+     "kind": "flex",
+     "amount": 0.3,
+     "path": "third_party/dexonomy/output/flex5_pip_plus_030_multi3_can_10_Power_Disk_s1_hx5_d20/init_data/10_Power_Disk/core_can_7bd05573c09fb0c2af39ccaab9314b14/floating/scale008/0_96_grasp.npy",
+     "link_frame_target_drift": 5.960464477539063e-08,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": true,
+     "changed_joint": "finger_r_joint18",
+     "changed_index": 24,
+     "joint_value_before": 1.024221420288086,
+     "joint_value_after": 1.3242213726043701,
+     "other_joints_unchanged": true,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 0.10746593799591064,
+      "into_object_mm": 24.521840768850506,
+      "into_world_mm": 0.0,
+      "into_hand_mm": 0.0
+     }
+    }
+   ]
+  },
+  {
+   "control": "negative",
+   "object": "bowl",
+   "grasp_type": "10_Power_Disk",
+   "sha256": "498809d217d3639de5648756f47b8a48e20f48cc11f9aaa998917b60ebae374a",
+   "source_init": "third_party/dexonomy/output/exp5_bowl_10_Power_Disk_s0_hx5_d20/init_data/10_Power_Disk/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71/tabletop/scale005/0_35_grasp.npy",
+   "source_init_sha256": "498809d217d3639de5648756f47b8a48e20f48cc11f9aaa998917b60ebae374a",
+   "experiment": "exp5_bowl_10_Power_Disk_s0_hx5_d20",
+   "variants": [
+    {
+     "variant": "original",
+     "kind": "none",
+     "amount": 0.0,
+     "path": "third_party/dexonomy/output/flex5_original_exp5_bowl_10_Power_Disk_s0_hx5_d20/init_data/10_Power_Disk/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71/tabletop/scale005/0_35_grasp.npy",
+     "link_frame_target_drift": 0.0,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": false,
+     "changed_joint": null,
+     "changed_index": null,
+     "joint_value_before": null,
+     "joint_value_after": null,
+     "other_joints_unchanged": null,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 0.1043558195233345,
+      "into_object_mm": 11.359885793118522,
+      "into_world_mm": 0.7823749989126992,
+      "into_hand_mm": 0.0
+     }
+    },
+    {
+     "variant": "pip_minus_030",
+     "kind": "flex",
+     "amount": -0.3,
+     "path": "third_party/dexonomy/output/flex5_pip_minus_030_exp5_bowl_10_Power_Disk_s0_hx5_d20/init_data/10_Power_Disk/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71/tabletop/scale005/0_35_grasp.npy",
+     "link_frame_target_drift": 1.4901161193847656e-08,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": true,
+     "changed_joint": "finger_r_joint18",
+     "changed_index": 24,
+     "joint_value_before": 0.9450964331626892,
+     "joint_value_after": 0.6450964212417603,
+     "other_joints_unchanged": true,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 0.1043558195233345,
+      "into_object_mm": 11.359885793118522,
+      "into_world_mm": 0.7823749989126992,
+      "into_hand_mm": 0.0
+     }
+    },
+    {
+     "variant": "pip_minus_015",
+     "kind": "flex",
+     "amount": -0.15,
+     "path": "third_party/dexonomy/output/flex5_pip_minus_015_exp5_bowl_10_Power_Disk_s0_hx5_d20/init_data/10_Power_Disk/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71/tabletop/scale005/0_35_grasp.npy",
+     "link_frame_target_drift": 5.960464477539063e-08,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": true,
+     "changed_joint": "finger_r_joint18",
+     "changed_index": 24,
+     "joint_value_before": 0.9450964331626892,
+     "joint_value_after": 0.7950964570045471,
+     "other_joints_unchanged": true,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 0.1043558195233345,
+      "into_object_mm": 11.359885793118522,
+      "into_world_mm": 0.7823749989126992,
+      "into_hand_mm": 0.0
+     }
+    },
+    {
+     "variant": "pip_plus_015",
+     "kind": "flex",
+     "amount": 0.15,
+     "path": "third_party/dexonomy/output/flex5_pip_plus_015_exp5_bowl_10_Power_Disk_s0_hx5_d20/init_data/10_Power_Disk/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71/tabletop/scale005/0_35_grasp.npy",
+     "link_frame_target_drift": 2.2351741790771484e-08,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": true,
+     "changed_joint": "finger_r_joint18",
+     "changed_index": 24,
+     "joint_value_before": 0.9450964331626892,
+     "joint_value_after": 1.095096468925476,
+     "other_joints_unchanged": true,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 0.1043558195233345,
+      "into_object_mm": 11.359885793118522,
+      "into_world_mm": 0.7823749989126992,
+      "into_hand_mm": 0.0
+     }
+    },
+    {
+     "variant": "pip_plus_030",
+     "kind": "flex",
+     "amount": 0.3,
+     "path": "third_party/dexonomy/output/flex5_pip_plus_030_exp5_bowl_10_Power_Disk_s0_hx5_d20/init_data/10_Power_Disk/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71/tabletop/scale005/0_35_grasp.npy",
+     "link_frame_target_drift": 2.9802322387695312e-08,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": true,
+     "changed_joint": "finger_r_joint18",
+     "changed_index": 24,
+     "joint_value_before": 0.9450964331626892,
+     "joint_value_after": 1.2450964450836182,
+     "other_joints_unchanged": true,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 0.1043558195233345,
+      "into_object_mm": 11.359885793118522,
+      "into_world_mm": 0.7823749989126992,
+      "into_hand_mm": 0.0
+     }
+    }
+   ]
+  },
+  {
+   "control": "negative",
+   "object": "bowl",
+   "grasp_type": "26_Sphere_4_Finger",
+   "sha256": "806273bc9ff039c5e1c33942e3ef73ff65f7546a8d845e587b1fe2bd0e8ec665",
+   "source_init": "third_party/dexonomy/output/exp5_bowl_26_Sphere_4_Finger_s1_hx5_d20/init_data/26_Sphere_4_Finger/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71/tabletop/scale005/0_17_grasp.npy",
+   "source_init_sha256": "806273bc9ff039c5e1c33942e3ef73ff65f7546a8d845e587b1fe2bd0e8ec665",
+   "experiment": "exp5_bowl_26_Sphere_4_Finger_s1_hx5_d20",
+   "variants": [
+    {
+     "variant": "original",
+     "kind": "none",
+     "amount": 0.0,
+     "path": "third_party/dexonomy/output/flex5_original_exp5_bowl_26_Sphere_4_Finger_s1_hx5_d20/init_data/26_Sphere_4_Finger/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71/tabletop/scale005/0_17_grasp.npy",
+     "link_frame_target_drift": 0.0,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": false,
+     "changed_joint": null,
+     "changed_index": null,
+     "joint_value_before": null,
+     "joint_value_after": null,
+     "other_joints_unchanged": null,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 0.0999673744201659,
+      "into_object_mm": 12.99880011822004,
+      "into_world_mm": 1.432022202755014,
+      "into_hand_mm": 0.0
+     }
+    },
+    {
+     "variant": "pip_minus_030",
+     "kind": "flex",
+     "amount": -0.3,
+     "path": "third_party/dexonomy/output/flex5_pip_minus_030_exp5_bowl_26_Sphere_4_Finger_s1_hx5_d20/init_data/26_Sphere_4_Finger/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71/tabletop/scale005/0_17_grasp.npy",
+     "link_frame_target_drift": 5.960464477539063e-08,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": true,
+     "changed_joint": "finger_r_joint18",
+     "changed_index": 24,
+     "joint_value_before": 1.907132625579834,
+     "joint_value_after": 1.6071326732635498,
+     "other_joints_unchanged": true,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 0.13810640573501587,
+      "into_object_mm": 12.99880011822004,
+      "into_world_mm": 1.432022202755014,
+      "into_hand_mm": 0.0
+     }
+    },
+    {
+     "variant": "pip_minus_015",
+     "kind": "flex",
+     "amount": -0.15,
+     "path": "third_party/dexonomy/output/flex5_pip_minus_015_exp5_bowl_26_Sphere_4_Finger_s1_hx5_d20/init_data/26_Sphere_4_Finger/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71/tabletop/scale005/0_17_grasp.npy",
+     "link_frame_target_drift": 5.960464477539063e-08,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": true,
+     "changed_joint": "finger_r_joint18",
+     "changed_index": 24,
+     "joint_value_before": 1.907132625579834,
+     "joint_value_after": 1.757132649421692,
+     "other_joints_unchanged": true,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 0.13810640573501587,
+      "into_object_mm": 12.99880011822004,
+      "into_world_mm": 1.432022202755014,
+      "into_hand_mm": 0.0
+     }
+    },
+    {
+     "variant": "pip_plus_015",
+     "kind": "flex",
+     "amount": 0.15,
+     "joint": "finger_r_joint18",
+     "path": null,
+     "not_run": "out_of_range: finger_r_joint18 1.9071+0.15 = 2.0571 outside [0.0000, 2.0071]"
+    },
+    {
+     "variant": "pip_plus_030",
+     "kind": "flex",
+     "amount": 0.3,
+     "joint": "finger_r_joint18",
+     "path": null,
+     "not_run": "out_of_range: finger_r_joint18 1.9071+0.30 = 2.2071 outside [0.0000, 2.0071]"
+    }
+   ]
+  },
+  {
+   "control": "negative",
+   "object": "bowl",
+   "grasp_type": "10_Power_Disk",
+   "sha256": "9c474332264e88caeace237b19121cbd97f7c97894ccdb220f06d4ee626c8643",
+   "source_init": "third_party/dexonomy/output/exp5_bowl_10_Power_Disk_s1_hx5_d20/init_data/10_Power_Disk/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71/tabletop/scale005/0_24_grasp.npy",
+   "source_init_sha256": "9c474332264e88caeace237b19121cbd97f7c97894ccdb220f06d4ee626c8643",
+   "experiment": "exp5_bowl_10_Power_Disk_s1_hx5_d20",
+   "variants": [
+    {
+     "variant": "original",
+     "kind": "none",
+     "amount": 0.0,
+     "path": "third_party/dexonomy/output/flex5_original_exp5_bowl_10_Power_Disk_s1_hx5_d20/init_data/10_Power_Disk/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71/tabletop/scale005/0_24_grasp.npy",
+     "link_frame_target_drift": 0.0,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": false,
+     "changed_joint": null,
+     "changed_index": null,
+     "joint_value_before": null,
+     "joint_value_after": null,
+     "other_joints_unchanged": null,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 0.1482421013355255,
+      "into_object_mm": 15.083877620687684,
+      "into_world_mm": 0.6202785157677475,
+      "into_hand_mm": 0.0
+     }
+    },
+    {
+     "variant": "pip_minus_030",
+     "kind": "flex",
+     "amount": -0.3,
+     "path": "third_party/dexonomy/output/flex5_pip_minus_030_exp5_bowl_10_Power_Disk_s1_hx5_d20/init_data/10_Power_Disk/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71/tabletop/scale005/0_24_grasp.npy",
+     "link_frame_target_drift": 1.4901161193847656e-08,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": true,
+     "changed_joint": "finger_r_joint18",
+     "changed_index": 24,
+     "joint_value_before": 0.9635688662528992,
+     "joint_value_after": 0.6635688543319702,
+     "other_joints_unchanged": true,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 0.1482421013355255,
+      "into_object_mm": 15.083877620687684,
+      "into_world_mm": 0.6202785157677475,
+      "into_hand_mm": 4.021591905359719
+     }
+    },
+    {
+     "variant": "pip_minus_015",
+     "kind": "flex",
+     "amount": -0.15,
+     "path": "third_party/dexonomy/output/flex5_pip_minus_015_exp5_bowl_10_Power_Disk_s1_hx5_d20/init_data/10_Power_Disk/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71/tabletop/scale005/0_24_grasp.npy",
+     "link_frame_target_drift": 1.4901161193847656e-08,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": true,
+     "changed_joint": "finger_r_joint18",
+     "changed_index": 24,
+     "joint_value_before": 0.9635688662528992,
+     "joint_value_after": 0.8135688900947571,
+     "other_joints_unchanged": true,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 0.1482421013355255,
+      "into_object_mm": 15.083877620687684,
+      "into_world_mm": 0.6202785157677475,
+      "into_hand_mm": 2.1993557834095254
+     }
+    },
+    {
+     "variant": "pip_plus_015",
+     "kind": "flex",
+     "amount": 0.15,
+     "path": "third_party/dexonomy/output/flex5_pip_plus_015_exp5_bowl_10_Power_Disk_s1_hx5_d20/init_data/10_Power_Disk/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71/tabletop/scale005/0_24_grasp.npy",
+     "link_frame_target_drift": 2.9802322387695312e-08,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": true,
+     "changed_joint": "finger_r_joint18",
+     "changed_index": 24,
+     "joint_value_before": 0.9635688662528992,
+     "joint_value_after": 1.113568902015686,
+     "other_joints_unchanged": true,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 0.1482421013355255,
+      "into_object_mm": 15.083877620687684,
+      "into_world_mm": 0.6202785157677475,
+      "into_hand_mm": 0.0
+     }
+    },
+    {
+     "variant": "pip_plus_030",
+     "kind": "flex",
+     "amount": 0.3,
+     "path": "third_party/dexonomy/output/flex5_pip_plus_030_exp5_bowl_10_Power_Disk_s1_hx5_d20/init_data/10_Power_Disk/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71/tabletop/scale005/0_24_grasp.npy",
+     "link_frame_target_drift": 1.4901161193847656e-08,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": true,
+     "changed_joint": "finger_r_joint18",
+     "changed_index": 24,
+     "joint_value_before": 0.9635688662528992,
+     "joint_value_after": 1.2635688781738281,
+     "other_joints_unchanged": true,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 0.1482421013355255,
+      "into_object_mm": 15.083877620687684,
+      "into_world_mm": 0.6202785157677475,
+      "into_hand_mm": 0.0
+     }
+    }
+   ]
+  },
+  {
+   "control": "negative",
+   "object": "hammer",
+   "grasp_type": "2_Small_Diameter",
+   "sha256": "0320c3b1fa51669777381efe6b45ad3a2669b77364b36caf88dbf47aad11db49",
+   "source_init": "third_party/dexonomy/output/exp5_hammer_2_Small_Diameter_s0_hx5_d20/init_data/2_Small_Diameter/ddg_gd_hammer_poisson_005/tabletop/scale008/0_15_grasp.npy",
+   "source_init_sha256": "0320c3b1fa51669777381efe6b45ad3a2669b77364b36caf88dbf47aad11db49",
+   "experiment": "exp5_hammer_2_Small_Diameter_s0_hx5_d20",
+   "variants": [
+    {
+     "variant": "original",
+     "kind": "none",
+     "amount": 0.0,
+     "path": "third_party/dexonomy/output/flex5_original_exp5_hammer_2_Small_Diameter_s0_hx5_d20/init_data/2_Small_Diameter/ddg_gd_hammer_poisson_005/tabletop/scale008/0_15_grasp.npy",
+     "link_frame_target_drift": 0.0,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": false,
+     "changed_joint": null,
+     "changed_index": null,
+     "joint_value_before": null,
+     "joint_value_after": null,
+     "other_joints_unchanged": null,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 1.516342162943829e-08,
+      "into_object_mm": 4.5670543311921445,
+      "into_world_mm": 0.0,
+      "into_hand_mm": 13.69687710575554
+     }
+    },
+    {
+     "variant": "pip_minus_030",
+     "kind": "flex",
+     "amount": -0.3,
+     "path": "third_party/dexonomy/output/flex5_pip_minus_030_exp5_hammer_2_Small_Diameter_s0_hx5_d20/init_data/2_Small_Diameter/ddg_gd_hammer_poisson_005/tabletop/scale008/0_15_grasp.npy",
+     "link_frame_target_drift": 9.15786557698084e-09,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": true,
+     "changed_joint": "finger_r_joint18",
+     "changed_index": 24,
+     "joint_value_before": 0.8349000215530396,
+     "joint_value_after": 0.5349000096321106,
+     "other_joints_unchanged": true,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 1.516342162943829e-08,
+      "into_object_mm": 4.5670543311921445,
+      "into_world_mm": 0.0,
+      "into_hand_mm": 13.69687710575554
+     }
+    },
+    {
+     "variant": "pip_minus_015",
+     "kind": "flex",
+     "amount": -0.15,
+     "path": "third_party/dexonomy/output/flex5_pip_minus_015_exp5_hammer_2_Small_Diameter_s0_hx5_d20/init_data/2_Small_Diameter/ddg_gd_hammer_poisson_005/tabletop/scale008/0_15_grasp.npy",
+     "link_frame_target_drift": 1.1842061553579697e-08,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": true,
+     "changed_joint": "finger_r_joint18",
+     "changed_index": 24,
+     "joint_value_before": 0.8349000215530396,
+     "joint_value_after": 0.6849000453948975,
+     "other_joints_unchanged": true,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 1.516342162943829e-08,
+      "into_object_mm": 4.5670543311921445,
+      "into_world_mm": 0.0,
+      "into_hand_mm": 13.69687710575554
+     }
+    },
+    {
+     "variant": "pip_plus_015",
+     "kind": "flex",
+     "amount": 0.15,
+     "path": "third_party/dexonomy/output/flex5_pip_plus_015_exp5_hammer_2_Small_Diameter_s0_hx5_d20/init_data/2_Small_Diameter/ddg_gd_hammer_poisson_005/tabletop/scale008/0_15_grasp.npy",
+     "link_frame_target_drift": 5.960464477539063e-08,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": true,
+     "changed_joint": "finger_r_joint18",
+     "changed_index": 24,
+     "joint_value_before": 0.8349000215530396,
+     "joint_value_after": 0.9848999977111816,
+     "other_joints_unchanged": true,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 1.516342162943829e-08,
+      "into_object_mm": 4.5670543311921445,
+      "into_world_mm": 0.0,
+      "into_hand_mm": 13.69687710575554
+     }
+    },
+    {
+     "variant": "pip_plus_030",
+     "kind": "flex",
+     "amount": 0.3,
+     "path": "third_party/dexonomy/output/flex5_pip_plus_030_exp5_hammer_2_Small_Diameter_s0_hx5_d20/init_data/2_Small_Diameter/ddg_gd_hammer_poisson_005/tabletop/scale008/0_15_grasp.npy",
+     "link_frame_target_drift": 2.9802322387695312e-08,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": true,
+     "changed_joint": "finger_r_joint18",
+     "changed_index": 24,
+     "joint_value_before": 0.8349000215530396,
+     "joint_value_after": 1.1348999738693237,
+     "other_joints_unchanged": true,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 1.516342162943829e-08,
+      "into_object_mm": 4.5670543311921445,
+      "into_world_mm": 0.0,
+      "into_hand_mm": 13.69687710575554
+     }
+    }
+   ]
+  },
+  {
+   "control": "negative",
+   "object": "hammer",
+   "grasp_type": "2_Small_Diameter",
+   "sha256": "033e81faac1014a82423aa5680093a701b798db54ebbef294c33c8a7f9e0efbc",
+   "source_init": "third_party/dexonomy/output/exp5_hammer_2_Small_Diameter_s1_hx5_d20/init_data/2_Small_Diameter/ddg_gd_hammer_poisson_005/tabletop/scale008/0_6_grasp.npy",
+   "source_init_sha256": "033e81faac1014a82423aa5680093a701b798db54ebbef294c33c8a7f9e0efbc",
+   "experiment": "exp5_hammer_2_Small_Diameter_s1_hx5_d20",
+   "variants": [
+    {
+     "variant": "original",
+     "kind": "none",
+     "amount": 0.0,
+     "path": "third_party/dexonomy/output/flex5_original_exp5_hammer_2_Small_Diameter_s1_hx5_d20/init_data/2_Small_Diameter/ddg_gd_hammer_poisson_005/tabletop/scale008/0_6_grasp.npy",
+     "link_frame_target_drift": 0.0,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": false,
+     "changed_joint": null,
+     "changed_index": null,
+     "joint_value_before": null,
+     "joint_value_after": null,
+     "other_joints_unchanged": null,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 0.0999938781738281,
+      "into_object_mm": 12.407878622556732,
+      "into_world_mm": 0.0,
+      "into_hand_mm": 0.0
+     }
+    },
+    {
+     "variant": "pip_minus_030",
+     "kind": "flex",
+     "amount": -0.3,
+     "path": "third_party/dexonomy/output/flex5_pip_minus_030_exp5_hammer_2_Small_Diameter_s1_hx5_d20/init_data/2_Small_Diameter/ddg_gd_hammer_poisson_005/tabletop/scale008/0_6_grasp.npy",
+     "link_frame_target_drift": 1.2426170314938645e-08,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": true,
+     "changed_joint": "finger_r_joint18",
+     "changed_index": 24,
+     "joint_value_before": 1.0812139511108398,
+     "joint_value_after": 0.7812139391899109,
+     "other_joints_unchanged": true,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 0.0999938781738281,
+      "into_object_mm": 12.407878622556732,
+      "into_world_mm": 0.0,
+      "into_hand_mm": 0.0
+     }
+    },
+    {
+     "variant": "pip_minus_015",
+     "kind": "flex",
+     "amount": -0.15,
+     "path": "third_party/dexonomy/output/flex5_pip_minus_015_exp5_hammer_2_Small_Diameter_s1_hx5_d20/init_data/2_Small_Diameter/ddg_gd_hammer_poisson_005/tabletop/scale008/0_6_grasp.npy",
+     "link_frame_target_drift": 2.9802322387695312e-08,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": true,
+     "changed_joint": "finger_r_joint18",
+     "changed_index": 24,
+     "joint_value_before": 1.0812139511108398,
+     "joint_value_after": 0.9312139749526978,
+     "other_joints_unchanged": true,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 0.0999938781738281,
+      "into_object_mm": 12.407878622556732,
+      "into_world_mm": 0.0,
+      "into_hand_mm": 0.0
+     }
+    },
+    {
+     "variant": "pip_plus_015",
+     "kind": "flex",
+     "amount": 0.15,
+     "path": "third_party/dexonomy/output/flex5_pip_plus_015_exp5_hammer_2_Small_Diameter_s1_hx5_d20/init_data/2_Small_Diameter/ddg_gd_hammer_poisson_005/tabletop/scale008/0_6_grasp.npy",
+     "link_frame_target_drift": 3.725290298461914e-08,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": true,
+     "changed_joint": "finger_r_joint18",
+     "changed_index": 24,
+     "joint_value_before": 1.0812139511108398,
+     "joint_value_after": 1.231213927268982,
+     "other_joints_unchanged": true,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 0.0999938781738281,
+      "into_object_mm": 12.407878622556732,
+      "into_world_mm": 0.0,
+      "into_hand_mm": 0.0
+     }
+    },
+    {
+     "variant": "pip_plus_030",
+     "kind": "flex",
+     "amount": 0.3,
+     "path": "third_party/dexonomy/output/flex5_pip_plus_030_exp5_hammer_2_Small_Diameter_s1_hx5_d20/init_data/2_Small_Diameter/ddg_gd_hammer_poisson_005/tabletop/scale008/0_6_grasp.npy",
+     "link_frame_target_drift": 1.672030691679538e-08,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": true,
+     "changed_joint": "finger_r_joint18",
+     "changed_index": 24,
+     "joint_value_before": 1.0812139511108398,
+     "joint_value_after": 1.381213903427124,
+     "other_joints_unchanged": true,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 0.0999938781738281,
+      "into_object_mm": 12.407878622556732,
+      "into_world_mm": 0.0,
+      "into_hand_mm": 0.0
+     }
+    }
+   ]
+  },
+  {
+   "control": "negative",
+   "object": "hammer",
+   "grasp_type": "2_Small_Diameter",
+   "sha256": "03fa5b0e3e6ca2a71d7f1cedf99535b452811b58fbd521a414dbe3dbb6538551",
+   "source_init": "third_party/dexonomy/output/exp5_hammer_2_Small_Diameter_s0_hx5_d20/init_data/2_Small_Diameter/ddg_gd_hammer_poisson_005/tabletop/scale008/0_29_grasp.npy",
+   "source_init_sha256": "03fa5b0e3e6ca2a71d7f1cedf99535b452811b58fbd521a414dbe3dbb6538551",
+   "experiment": "exp5_hammer_2_Small_Diameter_s0_hx5_d20",
+   "variants": [
+    {
+     "variant": "original",
+     "kind": "none",
+     "amount": 0.0,
+     "path": "third_party/dexonomy/output/flex5_original_exp5_hammer_2_Small_Diameter_s0_hx5_d20/init_data/2_Small_Diameter/ddg_gd_hammer_poisson_005/tabletop/scale008/0_29_grasp.npy",
+     "link_frame_target_drift": 0.0,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": false,
+     "changed_joint": null,
+     "changed_index": null,
+     "joint_value_before": null,
+     "joint_value_after": null,
+     "other_joints_unchanged": null,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 0.0999938781738281,
+      "into_object_mm": 18.965672461807614,
+      "into_world_mm": 0.0,
+      "into_hand_mm": 0.0
+     }
+    },
+    {
+     "variant": "pip_minus_030",
+     "kind": "flex",
+     "amount": -0.3,
+     "path": "third_party/dexonomy/output/flex5_pip_minus_030_exp5_hammer_2_Small_Diameter_s0_hx5_d20/init_data/2_Small_Diameter/ddg_gd_hammer_poisson_005/tabletop/scale008/0_29_grasp.npy",
+     "link_frame_target_drift": 3.944819582102355e-09,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": true,
+     "changed_joint": "finger_r_joint18",
+     "changed_index": 24,
+     "joint_value_before": 1.0812139511108398,
+     "joint_value_after": 0.7812139391899109,
+     "other_joints_unchanged": true,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 0.0999938781738281,
+      "into_object_mm": 18.965672461807614,
+      "into_world_mm": 0.0,
+      "into_hand_mm": 0.0
+     }
+    },
+    {
+     "variant": "pip_minus_015",
+     "kind": "flex",
+     "amount": -0.15,
+     "path": "third_party/dexonomy/output/flex5_pip_minus_015_exp5_hammer_2_Small_Diameter_s0_hx5_d20/init_data/2_Small_Diameter/ddg_gd_hammer_poisson_005/tabletop/scale008/0_29_grasp.npy",
+     "link_frame_target_drift": 1.021760454023024e-08,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": true,
+     "changed_joint": "finger_r_joint18",
+     "changed_index": 24,
+     "joint_value_before": 1.0812139511108398,
+     "joint_value_after": 0.9312139749526978,
+     "other_joints_unchanged": true,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 0.0999938781738281,
+      "into_object_mm": 18.965672461807614,
+      "into_world_mm": 0.0,
+      "into_hand_mm": 0.0
+     }
+    },
+    {
+     "variant": "pip_plus_015",
+     "kind": "flex",
+     "amount": 0.15,
+     "path": "third_party/dexonomy/output/flex5_pip_plus_015_exp5_hammer_2_Small_Diameter_s0_hx5_d20/init_data/2_Small_Diameter/ddg_gd_hammer_poisson_005/tabletop/scale008/0_29_grasp.npy",
+     "link_frame_target_drift": 1.4901161193847656e-08,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": true,
+     "changed_joint": "finger_r_joint18",
+     "changed_index": 24,
+     "joint_value_before": 1.0812139511108398,
+     "joint_value_after": 1.231213927268982,
+     "other_joints_unchanged": true,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 0.0999938781738281,
+      "into_object_mm": 18.965672461807614,
+      "into_world_mm": 0.0,
+      "into_hand_mm": 0.0
+     }
+    },
+    {
+     "variant": "pip_plus_030",
+     "kind": "flex",
+     "amount": 0.3,
+     "path": "third_party/dexonomy/output/flex5_pip_plus_030_exp5_hammer_2_Small_Diameter_s0_hx5_d20/init_data/2_Small_Diameter/ddg_gd_hammer_poisson_005/tabletop/scale008/0_29_grasp.npy",
+     "link_frame_target_drift": 2.660692643985385e-08,
+     "link_frame_targets_preserved": true,
+     "fields_unchanged": {
+      "obj_cpn_w": true,
+      "hand_cbody": true,
+      "required_cbody": true,
+      "tmpl_name": true,
+      "obj_pose": true,
+      "obj_scale": true,
+      "ext_wrench": true,
+      "ext_center": true,
+      "scene_path": true
+     },
+     "root_moved_mm": 0.0,
+     "finger_joints_changed": true,
+     "changed_joint": "finger_r_joint18",
+     "changed_index": 24,
+     "joint_value_before": 1.0812139511108398,
+     "joint_value_after": 1.381213903427124,
+     "other_joints_unchanged": true,
+     "initial_state": {
+      "joints_outside_range": [],
+      "tightest_margin_rad": 0.0999938781738281,
+      "into_object_mm": 18.965672461807614,
+      "into_world_mm": 0.0,
+      "into_hand_mm": 0.0
+     }
+    }
+   ]
+  }
+ ]
+}

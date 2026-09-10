@@ -1,0 +1,111 @@
+{
+  "run": "out/rl-approach/A-seed1",
+  "baseline": "out/rl-approach/bc-v1/policy.pt",
+  "seeds": "100-119",
+  "std": 0.05,
+  "candidates": [
+    {
+      "name": "baseline",
+      "policy": "out/rl-approach/bc-v1/policy.pt",
+      "sha256": "f9caf903f63ae1e93ffa265521f03247259092716461a47cb709edeead737f82",
+      "steps": 0,
+      "mean_action_status": "completed",
+      "mean_action_completes": true,
+      "sampled_completed": 13,
+      "sampled_episodes": 20,
+      "sampled_statuses": {
+        "completed": 13,
+        "quality_approach_displacement": 4,
+        "quality_penetration": 3
+      },
+      "median_closest_m": 0.004169133013047009
+    },
+    {
+      "name": "step_00040960",
+      "policy": "out/rl-approach/A-seed1/checkpoints/policy_step_00040960.pt",
+      "sha256": "db2c0114d54a181845e4222095f4b11245e2bfae62ea9c0201ffbf1386c75154",
+      "steps": 40960,
+      "mean_action_status": "completed",
+      "mean_action_completes": true,
+      "sampled_completed": 13,
+      "sampled_episodes": 20,
+      "sampled_statuses": {
+        "completed": 13,
+        "quality_approach_displacement": 4,
+        "quality_penetration": 3
+      },
+      "median_closest_m": 0.004169133013047009
+    },
+    {
+      "name": "step_00051200",
+      "policy": "out/rl-approach/A-seed1/checkpoints/policy_step_00051200.pt",
+      "sha256": "3c6c362e5f33650d2d5c760d7f2667c5b85854700906010e7562d3cdcf9f5d75",
+      "steps": 51200,
+      "mean_action_status": "completed",
+      "mean_action_completes": true,
+      "sampled_completed": 9,
+      "sampled_episodes": 20,
+      "sampled_statuses": {
+        "completed": 9,
+        "quality_approach_displacement": 11
+      },
+      "median_closest_m": 0.004272242772349187
+    },
+    {
+      "name": "step_00061440",
+      "policy": "out/rl-approach/A-seed1/checkpoints/policy_step_00061440.pt",
+      "sha256": "23381d16810d193e65e4d5313d11ee652ae554a5bc9110b20010289f9fe4e6ee",
+      "steps": 61440,
+      "mean_action_status": "quality_approach_displacement",
+      "mean_action_completes": false,
+      "sampled_completed": null,
+      "sampled_episodes": null
+    },
+    {
+      "name": "step_00071680",
+      "policy": "out/rl-approach/A-seed1/checkpoints/policy_step_00071680.pt",
+      "sha256": "5913f22dd1b0bbeb7eb4e0011da550874147dccf52758912735cfd15cd8f7593",
+      "steps": 71680,
+      "mean_action_status": "quality_approach_displacement",
+      "mean_action_completes": false,
+      "sampled_completed": null,
+      "sampled_episodes": null
+    },
+    {
+      "name": "step_00081920",
+      "policy": "out/rl-approach/A-seed1/checkpoints/policy_step_00081920.pt",
+      "sha256": "bbd561f1d00b356d35a1fb6a6fb1e9803cd4e7a1112edf71400d2918ad891c64",
+      "steps": 81920,
+      "mean_action_status": "quality_approach_displacement",
+      "mean_action_completes": false,
+      "sampled_completed": null,
+      "sampled_episodes": null
+    },
+    {
+      "name": "step_00092160",
+      "policy": "out/rl-approach/A-seed1/checkpoints/policy_step_00092160.pt",
+      "sha256": "891ceebf4e27f615f54cc0cf407f9970ce47693d413aa7fd808d7b37fc5b6ea1",
+      "steps": 92160,
+      "mean_action_status": "quality_approach_displacement",
+      "mean_action_completes": false,
+      "sampled_completed": null,
+      "sampled_episodes": null
+    },
+    {
+      "name": "step_00102400",
+      "policy": "out/rl-approach/A-seed1/checkpoints/policy_step_00102400.pt",
+      "sha256": "1171b674b4b71b8eebb5bf11b7b15439ff4d07c4ecdf3f1684f93e96549bdd65",
+      "steps": 102400,
+      "mean_action_status": "quality_penetration",
+      "mean_action_completes": false,
+      "sampled_completed": null,
+      "sampled_episodes": null
+    }
+  ],
+  "selected": "baseline",
+  "selected_policy": "out/rl-approach/bc-v1/policy.pt",
+  "selected_sha256": "f9caf903f63ae1e93ffa265521f03247259092716461a47cb709edeead737f82",
+  "improved_on_baseline": false,
+  "baseline_completed": 13,
+  "selected_completed": 13
+}

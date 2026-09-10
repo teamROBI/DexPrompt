@@ -1,0 +1,324 @@
+{
+ "can": {
+  "without_table": {
+   "refinement": {
+    "initialisations": 12,
+    "initialisation_names": [
+     "0_26_grasp.npy",
+     "0_45_grasp.npy",
+     "0_46_grasp.npy",
+     "0_57_grasp.npy",
+     "0_69_grasp.npy",
+     "0_75_grasp.npy",
+     "0_80_grasp.npy",
+     "0_84_grasp.npy",
+     "0_86_grasp.npy",
+     "0_93_grasp.npy",
+     "0_96_grasp.npy",
+     "0_9_grasp.npy"
+    ],
+    "refined": 7,
+    "refined_names": [
+     "0_26_grasp.npy",
+     "0_57_grasp.npy",
+     "0_69_grasp.npy",
+     "0_75_grasp.npy",
+     "0_86_grasp.npy",
+     "0_96_grasp.npy",
+     "0_9_grasp.npy"
+    ],
+    "errors": 0,
+    "log": "third_party/dexonomy/output/tab_can_base_hx5_d20/log/grasp_admm_0/main.log"
+   },
+   "static_screen": {
+    "judged": 7,
+    "verdicts": {
+     "hand_through_table": 4,
+     "kept": 3
+    },
+    "by_name": {
+     "0_26_grasp.npy": "hand_through_table",
+     "0_57_grasp.npy": "hand_through_table",
+     "0_69_grasp.npy": "kept",
+     "0_75_grasp.npy": "hand_through_table",
+     "0_86_grasp.npy": "hand_through_table",
+     "0_96_grasp.npy": "kept",
+     "0_9_grasp.npy": "kept"
+    },
+    "selected": 3
+   },
+   "executions": [
+    {
+     "episode_id": "teacher_0000_yaw_000",
+     "candidate_id": "7ca6609c2b4025beef6bce36f361ad532e7193793def815a6e221bb1d596a6bf",
+     "accepted": false,
+     "status": "no_quality_feasible_command",
+     "groups_required": 5,
+     "max_groups_at_once": 3,
+     "ticks_all_groups": 0,
+     "groups_at_end": 3,
+     "rise_mm": 2.378900844380638,
+     "ticks": 620
+    },
+    {
+     "episode_id": "teacher_0001_yaw_000",
+     "candidate_id": "9d7009a7406f73040402123e28d35aa6250ad16e641f583081a2637d0265219e",
+     "accepted": true,
+     "status": "completed",
+     "groups_required": 5,
+     "max_groups_at_once": 5,
+     "ticks_all_groups": 493,
+     "groups_at_end": 5,
+     "rise_mm": 108.74988215209369,
+     "ticks": 1251
+    },
+    {
+     "episode_id": "teacher_0002_yaw_000",
+     "candidate_id": "9a75586e83359d6716bf7ce921c9e9ea1cdd4ab61a608943ab6b57ac69a28bf7",
+     "accepted": false,
+     "status": "no_quality_feasible_command",
+     "groups_required": 5,
+     "max_groups_at_once": 4,
+     "ticks_all_groups": 0,
+     "groups_at_end": 2,
+     "rise_mm": 3.2031235072845776,
+     "ticks": 632
+    }
+   ],
+   "attempts": 3,
+   "candidates_attempted": 3,
+   "completed": 1,
+   "outcomes": {
+    "contacts_never_all_taken": 2,
+    "completed": 1
+   }
+  },
+  "with_table": {
+   "refinement": {
+    "initialisations": 12,
+    "initialisation_names": [
+     "0_26_grasp.npy",
+     "0_45_grasp.npy",
+     "0_46_grasp.npy",
+     "0_57_grasp.npy",
+     "0_69_grasp.npy",
+     "0_75_grasp.npy",
+     "0_80_grasp.npy",
+     "0_84_grasp.npy",
+     "0_86_grasp.npy",
+     "0_93_grasp.npy",
+     "0_96_grasp.npy",
+     "0_9_grasp.npy"
+    ],
+    "refined": 7,
+    "refined_names": [
+     "0_26_grasp.npy",
+     "0_57_grasp.npy",
+     "0_69_grasp.npy",
+     "0_75_grasp.npy",
+     "0_86_grasp.npy",
+     "0_96_grasp.npy",
+     "0_9_grasp.npy"
+    ],
+    "errors": 0,
+    "log": "third_party/dexonomy/output/tab_can_table_hx5_d20/log/grasp_admm_0/main.log"
+   },
+   "static_screen": {
+    "judged": 7,
+    "verdicts": {
+     "kept": 7
+    },
+    "by_name": {
+     "0_26_grasp.npy": "kept",
+     "0_57_grasp.npy": "kept",
+     "0_69_grasp.npy": "kept",
+     "0_75_grasp.npy": "kept",
+     "0_86_grasp.npy": "kept",
+     "0_96_grasp.npy": "kept",
+     "0_9_grasp.npy": "kept"
+    },
+    "selected": 7
+   },
+   "executions": [
+    {
+     "episode_id": "teacher_0000_yaw_000",
+     "candidate_id": "994b3f30de07c8a2b2665a853f2cc8c6ae216db9479aef2938519fd50b9ca1b3",
+     "accepted": false,
+     "status": "closure_timeout",
+     "groups_required": 5,
+     "max_groups_at_once": 5,
+     "ticks_all_groups": 52,
+     "groups_at_end": 4,
+     "rise_mm": 8.56917276528435,
+     "ticks": 1100
+    },
+    {
+     "episode_id": "teacher_0001_yaw_000",
+     "candidate_id": "7e4303d16713310bde4caf55d4db1f2b88e375a42e413edc41030872d75b17da",
+     "accepted": false,
+     "status": "no_quality_feasible_command",
+     "groups_required": 5,
+     "max_groups_at_once": 5,
+     "ticks_all_groups": 108,
+     "groups_at_end": 2,
+     "rise_mm": 3.9219703437787246,
+     "ticks": 1061
+    },
+    {
+     "episode_id": "teacher_0002_yaw_000",
+     "candidate_id": "d2477adda9120ace7df919b3583b9745614f457544bc75c5b1aaf37e2ca68639",
+     "accepted": false,
+     "status": "lift_timeout",
+     "groups_required": 5,
+     "max_groups_at_once": 5,
+     "ticks_all_groups": 382,
+     "groups_at_end": 2,
+     "rise_mm": 147.33345046410062,
+     "ticks": 1450
+    },
+    {
+     "episode_id": "teacher_0003_yaw_000",
+     "candidate_id": "5abec504724d36cb5a2fdb18f276bb19f292ef81069ef57c82ca6786e42e6747",
+     "accepted": false,
+     "status": "closure_timeout",
+     "groups_required": 5,
+     "max_groups_at_once": 5,
+     "ticks_all_groups": 58,
+     "groups_at_end": 4,
+     "rise_mm": 2.237427727391217,
+     "ticks": 1100
+    },
+    {
+     "episode_id": "teacher_0004_yaw_000",
+     "candidate_id": "c384be53f422de4e35a98da3c916f213e5c2dda8e8cad38b003004b638906cf4",
+     "accepted": false,
+     "status": "no_quality_feasible_command",
+     "groups_required": 5,
+     "max_groups_at_once": 3,
+     "ticks_all_groups": 0,
+     "groups_at_end": 2,
+     "rise_mm": 2.3115590454168,
+     "ticks": 613
+    },
+    {
+     "episode_id": "teacher_0005_yaw_000",
+     "candidate_id": "d0402dcb263355358713dcc7dc60ebf078d29cf68c3d14896caa2579adb9b908",
+     "accepted": true,
+     "status": "completed",
+     "groups_required": 5,
+     "max_groups_at_once": 5,
+     "ticks_all_groups": 596,
+     "groups_at_end": 5,
+     "rise_mm": 108.68054150430429,
+     "ticks": 1296
+    },
+    {
+     "episode_id": "teacher_0006_yaw_000",
+     "candidate_id": "1137e8e56e7bc066a3f58b355057b7fc2bf7bbd415902b992315bacda6d827f8",
+     "accepted": false,
+     "status": "lift_timeout",
+     "groups_required": 5,
+     "max_groups_at_once": 5,
+     "ticks_all_groups": 61,
+     "groups_at_end": 4,
+     "rise_mm": 4.866732242763461,
+     "ticks": 1450
+    }
+   ],
+   "attempts": 7,
+   "candidates_attempted": 7,
+   "completed": 1,
+   "outcomes": {
+    "contacts_taken_then_lost": 5,
+    "contacts_never_all_taken": 1,
+    "completed": 1
+   }
+  },
+  "arms": {
+   "without_table": "tab_can_base",
+   "with_table": "tab_can_table"
+  },
+  "same_initialisations": true
+ },
+ "camera": {
+  "without_table": {
+   "refinement": {
+    "initialisations": 12,
+    "initialisation_names": [
+     "0_10_grasp.npy",
+     "0_16_grasp.npy",
+     "0_24_grasp.npy",
+     "0_51_grasp.npy",
+     "0_52_grasp.npy",
+     "0_54_grasp.npy",
+     "0_60_grasp.npy",
+     "0_60_grasp_s0.npy",
+     "0_62_grasp.npy",
+     "0_62_grasp_s1.npy",
+     "0_68_grasp.npy",
+     "0_83_grasp.npy"
+    ],
+    "refined": 1,
+    "refined_names": [
+     "0_60_grasp.npy"
+    ],
+    "errors": 0,
+    "log": "third_party/dexonomy/output/tab_camera_base_hx5_d20/log/grasp_admm_0/main.log"
+   },
+   "static_screen": {
+    "judged": 1,
+    "verdicts": {
+     "open_hand_inside_object": 1
+    },
+    "by_name": {
+     "0_60_grasp.npy": "open_hand_inside_object"
+    },
+    "selected": 0
+   },
+   "executions": [],
+   "attempts": 0,
+   "candidates_attempted": 0,
+   "completed": 0,
+   "outcomes": {}
+  },
+  "with_table": {
+   "refinement": {
+    "initialisations": 12,
+    "initialisation_names": [
+     "0_10_grasp.npy",
+     "0_16_grasp.npy",
+     "0_24_grasp.npy",
+     "0_51_grasp.npy",
+     "0_52_grasp.npy",
+     "0_54_grasp.npy",
+     "0_60_grasp.npy",
+     "0_60_grasp_s0.npy",
+     "0_62_grasp.npy",
+     "0_62_grasp_s1.npy",
+     "0_68_grasp.npy",
+     "0_83_grasp.npy"
+    ],
+    "refined": 0,
+    "refined_names": [],
+    "errors": 0,
+    "log": "third_party/dexonomy/output/tab_camera_table_hx5_d20/log/grasp_admm_0/main.log"
+   },
+   "static_screen": {
+    "judged": 0,
+    "verdicts": {},
+    "by_name": {},
+    "selected": 0
+   },
+   "executions": [],
+   "attempts": 0,
+   "candidates_attempted": 0,
+   "completed": 0,
+   "outcomes": {}
+  },
+  "arms": {
+   "without_table": "tab_camera_base",
+   "with_table": "tab_camera_table"
+  },
+  "same_initialisations": true
+ }
+}

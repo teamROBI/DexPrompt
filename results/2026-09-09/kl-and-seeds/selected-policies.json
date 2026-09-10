@@ -1,0 +1,17 @@
+{
+  "M-seed0": {
+    "selected": "step_00061440",
+    "policy": "out/rl-approach/M-seed0/checkpoints/policy_step_00061440.pt",
+    "sha256": "0cf04b0bcc4ebffb1ebc72d26adac2d35ee564040a33b4620609ed59227798e1"
+  },
+  "M-seed1": {
+    "selected": "baseline",
+    "policy": "out/rl-approach/bc-v1/policy.pt",
+    "sha256": "f9caf903f63ae1e93ffa265521f03247259092716461a47cb709edeead737f82"
+  },
+  "M-seed2": {
+    "selected": "step_00099328",
+    "policy": "out/rl-approach/M-seed2/checkpoints/policy_step_00099328.pt",
+    "sha256": "8508e35f8217fa8e488277627ad8089e4bcbc9b5556702898752fdb4f1ed6999"
+  }
+}

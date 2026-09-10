@@ -1,0 +1,959 @@
+{
+ "mug": {
+  "object": "core_mug_10f6e09036350e92b3f21f1137c3c347",
+  "scale": 0.05,
+  "types": {
+   "10_Power_Disk": {
+    "predicted": 107,
+    "reachable": 25,
+    "produced": [
+     25,
+     25,
+     25
+    ],
+    "kept": [
+     14,
+     17,
+     13
+    ],
+    "reasons": {
+     "ik_failure": 16,
+     "kept": 44,
+     "collision world | finger_r_link8": 5,
+     "collision world | finger_r_link4": 3,
+     "collision world | arm_r_link7": 6,
+     "collision world | arm_r_link6": 1
+    },
+    "refined": [
+     2,
+     1,
+     1
+    ],
+    "refiner_errors": [
+     0,
+     0,
+     0
+    ],
+    "screen": {
+     "kept": 4
+    }
+   },
+   "1_Large_Diameter": {
+    "predicted": 79,
+    "reachable": 21,
+    "produced": [
+     21,
+     21,
+     21
+    ],
+    "kept": [
+     13,
+     10,
+     10
+    ],
+    "reasons": {
+     "kept": 33,
+     "collision world | finger_r_link12": 1,
+     "ik_failure": 11,
+     "collision world | finger_r_link4": 10,
+     "collision world | arm_r_link6": 2,
+     "collision world | finger_r_link20": 1,
+     "collision world | arm_r_link7": 3,
+     "collision world | finger_r_link16": 1,
+     "collision world | finger_r_link8": 1
+    },
+    "refined": [
+     1,
+     3,
+     4
+    ],
+    "refiner_errors": [
+     0,
+     0,
+     0
+    ],
+    "screen": {
+     "kept": 8
+    }
+   },
+   "3_Medium_Wrap": {
+    "predicted": 104,
+    "reachable": 33,
+    "produced": [
+     33,
+     33,
+     33
+    ],
+    "kept": [
+     15,
+     12,
+     15
+    ],
+    "reasons": {
+     "kept": 42,
+     "ik_failure": 23,
+     "collision world | finger_r_link8": 4,
+     "collision world | finger_r_link19": 2,
+     "collision world | arm_r_link6": 2,
+     "collision world | finger_r_link20": 6,
+     "collision world | finger_r_link12": 6,
+     "collision world | finger_r_link4": 5,
+     "collision world | arm_r_link7": 6,
+     "collision world | arm_r_link5": 1,
+     "collision world | finger_r_link16": 2
+    },
+    "refined": [
+     3,
+     0,
+     2
+    ],
+    "refiner_errors": [
+     0,
+     0,
+     0
+    ],
+    "screen": {
+     "kept": 5
+    }
+   }
+  },
+  "executions": {
+   "executed": {
+    "attempts": 9,
+    "distinct_candidates": 9,
+    "attempts_without_a_candidate_id": 0,
+    "completed": 0,
+    "outcomes": {
+     "contacts_taken_then_lost": 3,
+     "contacts_never_all_taken": 6
+    },
+    "no_quality_feasible_command": 2,
+    "episodes": [
+     {
+      "episode_id": "teacher_0000_yaw_000",
+      "candidate_id": "029ce40fd04181f43beb89cb2414cd9d27513a924be9932268e743836d6cdd36",
+      "status": "lift_timeout",
+      "accepted": false,
+      "sha256": "bc2efdd9e6221d784b35a6ba6ebfaf59527826a1b76ba3dd9d46a7eec998681e",
+      "groups_required": 5,
+      "max_groups_at_once": 5,
+      "ticks_all_groups": 89,
+      "groups_at_end": 4,
+      "peak_rise_mm": 21.703298067519917,
+      "final_rise_mm": 21.500855485858338,
+      "trailing_hold_ticks": 0,
+      "final_phase": "lift",
+      "outcome": "contacts_taken_then_lost"
+     },
+     {
+      "episode_id": "teacher_0001_yaw_000",
+      "candidate_id": "43f47b6aeee7b4eb1da31462c748ebaa379948f4a398a85d0feaef9830daa531",
+      "status": "no_quality_feasible_command",
+      "accepted": false,
+      "sha256": "a69054f1394619a09ce755799d186c1592074674738dc071954f9057184d08a1",
+      "groups_required": 5,
+      "max_groups_at_once": 0,
+      "ticks_all_groups": 0,
+      "groups_at_end": 0,
+      "peak_rise_mm": 0.0,
+      "final_rise_mm": 0.0,
+      "trailing_hold_ticks": 0,
+      "final_phase": "close",
+      "outcome": "contacts_never_all_taken"
+     },
+     {
+      "episode_id": "teacher_0002_yaw_000",
+      "candidate_id": "71074e1c8fd68588b54687abf941471527605a63d62d70d5e95090bc5a92433f",
+      "status": "closure_timeout",
+      "accepted": false,
+      "sha256": "dcbe345f4bb2d3a2fca25dad0e9c6a8c97ddf93034691506bb81e31f53c5b35b",
+      "groups_required": 5,
+      "max_groups_at_once": 4,
+      "ticks_all_groups": 0,
+      "groups_at_end": 3,
+      "peak_rise_mm": 1.993492761919513,
+      "final_rise_mm": 1.9365421570337604,
+      "trailing_hold_ticks": 0,
+      "final_phase": "close",
+      "outcome": "contacts_never_all_taken"
+     },
+     {
+      "episode_id": "teacher_0003_yaw_000",
+      "candidate_id": "787f7c4242f7cb5f386d18c6a61391ecbc691b41a307acb80adc3baa22182c58",
+      "status": "closure_timeout",
+      "accepted": false,
+      "sha256": "23ab4dd79b3a305831225124d1b17bbfd0a4d5f05f91d096a44fc7eda41bd09d",
+      "groups_required": 5,
+      "max_groups_at_once": 4,
+      "ticks_all_groups": 0,
+      "groups_at_end": 2,
+      "peak_rise_mm": 0.2470845249982201,
+      "final_rise_mm": 0.17068142685305876,
+      "trailing_hold_ticks": 0,
+      "final_phase": "close",
+      "outcome": "contacts_never_all_taken"
+     },
+     {
+      "episode_id": "teacher_0004_yaw_000",
+      "candidate_id": "8ad4e66ccb8faa8389ca8c5fc3832ac34d5c601a62eab1a869da07aaeb013df5",
+      "status": "closure_timeout",
+      "accepted": false,
+      "sha256": "812bd7ffca48733184be349ef863e05633620093877f2f17c97d7df0cd1dd02d",
+      "groups_required": 5,
+      "max_groups_at_once": 4,
+      "ticks_all_groups": 0,
+      "groups_at_end": 4,
+      "peak_rise_mm": 0.8011314775828726,
+      "final_rise_mm": 0.8010781194807137,
+      "trailing_hold_ticks": 0,
+      "final_phase": "close",
+      "outcome": "contacts_never_all_taken"
+     },
+     {
+      "episode_id": "teacher_0005_yaw_000",
+      "candidate_id": "9d624b380656476bcb6fbae274590b44dea715f2721dd45b0258183c23fa98be",
+      "status": "lift_timeout",
+      "accepted": false,
+      "sha256": "74b32ac56903ea2994c479c27b6e1897ddba2df728d3ddbb3c376c8884aa7ff2",
+      "groups_required": 5,
+      "max_groups_at_once": 5,
+      "ticks_all_groups": 54,
+      "groups_at_end": 3,
+      "peak_rise_mm": 21.045769173678064,
+      "final_rise_mm": 19.644073707238196,
+      "trailing_hold_ticks": 0,
+      "final_phase": "lift",
+      "outcome": "contacts_taken_then_lost"
+     },
+     {
+      "episode_id": "teacher_0006_yaw_000",
+      "candidate_id": "a91fd7d5e8b272c4a1f2944269a26d6c60ca6effe65189035262655434019221",
+      "status": "closure_timeout",
+      "accepted": false,
+      "sha256": "d3cd176b6f176a59186aebd77ba6414c065d30ddaec96bd9adc091a6e4a66869",
+      "groups_required": 5,
+      "max_groups_at_once": 4,
+      "ticks_all_groups": 0,
+      "groups_at_end": 4,
+      "peak_rise_mm": 0.4758987373854051,
+      "final_rise_mm": 0.28759807100675605,
+      "trailing_hold_ticks": 0,
+      "final_phase": "close",
+      "outcome": "contacts_never_all_taken"
+     },
+     {
+      "episode_id": "teacher_0007_yaw_000",
+      "candidate_id": "aee346a382ce50dd74a69654d70fabbb283888f9320015d0a9d0266adf7b1c6f",
+      "status": "no_quality_feasible_command",
+      "accepted": false,
+      "sha256": "52c256676019bfcbc770d58ba177aa9109d6515b505aad38dc97aa81f8779a73",
+      "groups_required": 5,
+      "max_groups_at_once": 4,
+      "ticks_all_groups": 0,
+      "groups_at_end": 3,
+      "peak_rise_mm": 1.630022969669409,
+      "final_rise_mm": 0.555131172936485,
+      "trailing_hold_ticks": 0,
+      "final_phase": "close",
+      "outcome": "contacts_never_all_taken"
+     },
+     {
+      "episode_id": "teacher_0008_yaw_000",
+      "candidate_id": "f123a17f9225775222d51e79dc58650f629d0144cc8ed56bb4a6dec61b91baed",
+      "status": "lift_timeout",
+      "accepted": false,
+      "sha256": "3b64dc3980ad0ce3505c85c7ce0dd4cb6545f1fcdcf0ffc2167f22e6c62ca377",
+      "groups_required": 5,
+      "max_groups_at_once": 5,
+      "ticks_all_groups": 155,
+      "groups_at_end": 0,
+      "peak_rise_mm": 51.744191276584694,
+      "final_rise_mm": -1.3322676295501878e-12,
+      "trailing_hold_ticks": 0,
+      "final_phase": "lift",
+      "outcome": "contacts_taken_then_lost"
+     }
+    ]
+   },
+   "executed-opt4": {
+    "attempts": 15,
+    "distinct_candidates": 15,
+    "attempts_without_a_candidate_id": 0,
+    "completed": 0,
+    "outcomes": {
+     "contacts_never_all_taken": 9,
+     "all_contacts_present_at_termination": 1,
+     "contacts_taken_then_lost": 3,
+     "no_validated_home_path": 2
+    },
+    "no_quality_feasible_command": 1,
+    "episodes": [
+     {
+      "episode_id": "teacher_0000_yaw_000",
+      "candidate_id": "11dcadb1545ea68d29ec6292931b1c25911b06a1f8ecd5f7833c9610f7f97ef4",
+      "status": "closure_timeout",
+      "accepted": false,
+      "sha256": "50a1b659031159173b19954a91efac66d5b2448f8b821c1241c6340bdc7fb80e",
+      "groups_required": 5,
+      "max_groups_at_once": 4,
+      "ticks_all_groups": 0,
+      "groups_at_end": 2,
+      "peak_rise_mm": 2.120522745446607,
+      "final_rise_mm": 2.120522745446607,
+      "trailing_hold_ticks": 0,
+      "final_phase": "close",
+      "outcome": "contacts_never_all_taken"
+     },
+     {
+      "episode_id": "teacher_0001_yaw_000",
+      "candidate_id": "35d9a0344dec29e830707333f50f86d57d0787fad98bdb76fb87932e26c2db46",
+      "status": "closure_timeout",
+      "accepted": false,
+      "sha256": "dad514d9369d6ff1c55b2cef4226b5f337989e97a7f6348abe2227fdb1650e76",
+      "groups_required": 5,
+      "max_groups_at_once": 5,
+      "ticks_all_groups": 82,
+      "groups_at_end": 5,
+      "peak_rise_mm": 1.974556399408467,
+      "final_rise_mm": 1.974556399408467,
+      "trailing_hold_ticks": 3,
+      "final_phase": "close",
+      "outcome": "all_contacts_present_at_termination"
+     },
+     {
+      "episode_id": "teacher_0002_yaw_000",
+      "candidate_id": "41c1b7f197aa797f24dda13b6a70aad4730d91097441e30e17b28307ee22c406",
+      "status": "closure_timeout",
+      "accepted": false,
+      "sha256": "2547fa9050b817070f0362ba12db6c75f1e23c2403594c8fe992e3416e6aa563",
+      "groups_required": 5,
+      "max_groups_at_once": 4,
+      "ticks_all_groups": 0,
+      "groups_at_end": 2,
+      "peak_rise_mm": 4.534755493475928,
+      "final_rise_mm": 3.4855436205273316,
+      "trailing_hold_ticks": 0,
+      "final_phase": "close",
+      "outcome": "contacts_never_all_taken"
+     },
+     {
+      "episode_id": "teacher_0003_yaw_000",
+      "candidate_id": "575d5a3a1f3e95d0ca7a30e23adedcbd919562c0a456c3d50c2f22e1ab011d7d",
+      "status": "lift_timeout",
+      "accepted": false,
+      "sha256": "9c12a75a5b0b484d5343c89c0b94183bfdae8926d987b7216b4b23dc462837f5",
+      "groups_required": 5,
+      "max_groups_at_once": 5,
+      "ticks_all_groups": 194,
+      "groups_at_end": 0,
+      "peak_rise_mm": 83.33642130890229,
+      "final_rise_mm": -0.002071096533273753,
+      "trailing_hold_ticks": 0,
+      "final_phase": "lift",
+      "outcome": "contacts_taken_then_lost"
+     },
+     {
+      "episode_id": "teacher_0004_yaw_000",
+      "candidate_id": "6956ac6a51b7dfe1672d1ddc1e2e4e8d8e8bf2c318d4e4f4936ea97e567d7cd0",
+      "status": "closure_timeout",
+      "accepted": false,
+      "sha256": "a33ef2c77f62151ef03f97924fac304d7b6ac54f845fa496c48997ba2d624073",
+      "groups_required": 5,
+      "max_groups_at_once": 4,
+      "ticks_all_groups": 0,
+      "groups_at_end": 4,
+      "peak_rise_mm": 1.2801013977166154,
+      "final_rise_mm": 0.8300701938112054,
+      "trailing_hold_ticks": 0,
+      "final_phase": "close",
+      "outcome": "contacts_never_all_taken"
+     },
+     {
+      "episode_id": "teacher_0005_yaw_000",
+      "candidate_id": "6cff2d34e7ace78f555f7739d443a813b9331dcaa3cc8188b509af8183c15f8e",
+      "status": "lift_timeout",
+      "accepted": false,
+      "sha256": "8baed73eaa1e88c9a3326b1cb28197ebc5019f386984531cec2d239948736635",
+      "groups_required": 5,
+      "max_groups_at_once": 5,
+      "ticks_all_groups": 157,
+      "groups_at_end": 0,
+      "peak_rise_mm": 81.34553168853753,
+      "final_rise_mm": -1.4432899320127035e-12,
+      "trailing_hold_ticks": 0,
+      "final_phase": "lift",
+      "outcome": "contacts_taken_then_lost"
+     },
+     {
+      "episode_id": "teacher_0006_yaw_000",
+      "candidate_id": "81b3cc443d1abbb60a3d5b1712d99e73879b20fdc3b3607b400e4d6909bfff7c",
+      "status": "closure_timeout",
+      "accepted": false,
+      "sha256": "a63dee0d27b31c7b817731462a102b4f7a8d0efe29cc4eb3dbf9c0ab69c3b1e8",
+      "groups_required": 5,
+      "max_groups_at_once": 4,
+      "ticks_all_groups": 0,
+      "groups_at_end": 4,
+      "peak_rise_mm": 3.236076196579396,
+      "final_rise_mm": 2.710834804725004,
+      "trailing_hold_ticks": 0,
+      "final_phase": "close",
+      "outcome": "contacts_never_all_taken"
+     },
+     {
+      "episode_id": "teacher_0007_yaw_000",
+      "candidate_id": "92afe03a897ce24cab2992602e2d8ea8bc5306e0737bf0e639ce37855304cdad",
+      "status": "closure_timeout",
+      "accepted": false,
+      "sha256": "73088efdb02c46d8e46bb69f61f41ea8f8470d671c56eecaa78627729e249154",
+      "groups_required": 5,
+      "max_groups_at_once": 0,
+      "ticks_all_groups": 0,
+      "groups_at_end": 0,
+      "peak_rise_mm": 0.0,
+      "final_rise_mm": 0.0,
+      "trailing_hold_ticks": 0,
+      "final_phase": "close",
+      "outcome": "contacts_never_all_taken"
+     },
+     {
+      "episode_id": "teacher_0008_yaw_000",
+      "candidate_id": "c176f05332202df36fbdf4db11985f6c39c3c4dee69639941e16187957a8d5e8",
+      "status": "no_quality_feasible_command",
+      "accepted": false,
+      "sha256": "f962d0d1b7e5ac4a5bc3f97a8629d6ff342d3ecfe06858c24c061589dfad92d3",
+      "groups_required": 5,
+      "max_groups_at_once": 5,
+      "ticks_all_groups": 50,
+      "groups_at_end": 3,
+      "peak_rise_mm": 5.028204659340729,
+      "final_rise_mm": 1.464102615933327,
+      "trailing_hold_ticks": 0,
+      "final_phase": "lift",
+      "outcome": "contacts_taken_then_lost"
+     },
+     {
+      "episode_id": "teacher_0009_yaw_000",
+      "candidate_id": "c410078454fac3262b5715792856bd8ab11bbd514e612d3ae2c683e30d3000d2",
+      "status": "closure_timeout",
+      "accepted": false,
+      "sha256": "9742093e6fb43a96f2e76f193d8f1b01e2bb3174ef4d5b583a09d4beeda097ae",
+      "groups_required": 5,
+      "max_groups_at_once": 4,
+      "ticks_all_groups": 0,
+      "groups_at_end": 2,
+      "peak_rise_mm": 1.8019057406504224,
+      "final_rise_mm": 1.8019057406504224,
+      "trailing_hold_ticks": 0,
+      "final_phase": "close",
+      "outcome": "contacts_never_all_taken"
+     },
+     {
+      "episode_id": "teacher_0010_yaw_000",
+      "candidate_id": "caa072925f241a0aed5d0ab4bda2afeffd6d14eb756213ef5771ecf8ea0c6fb0",
+      "status": "closure_timeout",
+      "accepted": false,
+      "sha256": "db9f0675967407c79b0c6bae75a7345f26949ff02680445d5989fd044b94ec17",
+      "groups_required": 5,
+      "max_groups_at_once": 4,
+      "ticks_all_groups": 0,
+      "groups_at_end": 3,
+      "peak_rise_mm": 2.7996722806862273,
+      "final_rise_mm": 0.7142597378658744,
+      "trailing_hold_ticks": 0,
+      "final_phase": "close",
+      "outcome": "contacts_never_all_taken"
+     },
+     {
+      "episode_id": "teacher_0011_yaw_000",
+      "candidate_id": "index_0011",
+      "status": "no_validated_home_path",
+      "accepted": false,
+      "outcome": "no_validated_home_path"
+     },
+     {
+      "episode_id": "teacher_0012_yaw_000",
+      "candidate_id": "index_0012",
+      "status": "no_validated_home_path",
+      "accepted": false,
+      "outcome": "no_validated_home_path"
+     },
+     {
+      "episode_id": "teacher_0013_yaw_000",
+      "candidate_id": "dfba571a75c6e64c233a6c2ed8a131931d64883a44ac8a310a19f45b6bc4c4f1",
+      "status": "closure_timeout",
+      "accepted": false,
+      "sha256": "306fc6196f78cef91036214ae9f804067e731edd9e08e299c0149d1d8601b43a",
+      "groups_required": 5,
+      "max_groups_at_once": 4,
+      "ticks_all_groups": 0,
+      "groups_at_end": 3,
+      "peak_rise_mm": 0.627667863170922,
+      "final_rise_mm": 0.6244670594643953,
+      "trailing_hold_ticks": 0,
+      "final_phase": "close",
+      "outcome": "contacts_never_all_taken"
+     },
+     {
+      "episode_id": "teacher_0014_yaw_000",
+      "candidate_id": "fb1b9a942122891e761860ae67550fd4d2f07ea89ba0c206d43d87f51296826a",
+      "status": "closure_timeout",
+      "accepted": false,
+      "sha256": "64e46c2fb31f06b73319e2c0e99147bfc12c3a5e71aaaa882d99e5dd498bbd4d",
+      "groups_required": 5,
+      "max_groups_at_once": 4,
+      "ticks_all_groups": 0,
+      "groups_at_end": 4,
+      "peak_rise_mm": 0.8126896994675725,
+      "final_rise_mm": 0.8126896994675725,
+      "trailing_hold_ticks": 0,
+      "final_phase": "close",
+      "outcome": "contacts_never_all_taken"
+     }
+    ]
+   },
+   "executed-wide": {
+    "attempts": 17,
+    "distinct_candidates": 17,
+    "attempts_without_a_candidate_id": 0,
+    "completed": 0,
+    "outcomes": {
+     "contacts_taken_then_lost": 8,
+     "contacts_never_all_taken": 9
+    },
+    "no_quality_feasible_command": 2,
+    "episodes": [
+     {
+      "episode_id": "teacher_0000_yaw_000",
+      "candidate_id": "029ce40fd04181f43beb89cb2414cd9d27513a924be9932268e743836d6cdd36",
+      "status": "lift_timeout",
+      "accepted": false,
+      "sha256": "bc2efdd9e6221d784b35a6ba6ebfaf59527826a1b76ba3dd9d46a7eec998681e",
+      "groups_required": 5,
+      "max_groups_at_once": 5,
+      "ticks_all_groups": 89,
+      "groups_at_end": 4,
+      "peak_rise_mm": 21.703298067519917,
+      "final_rise_mm": 21.500855485858338,
+      "trailing_hold_ticks": 0,
+      "final_phase": "lift",
+      "outcome": "contacts_taken_then_lost"
+     },
+     {
+      "episode_id": "teacher_0001_yaw_000",
+      "candidate_id": "43326f53409a5634ee0a2479244d6fd573d95beed67a2a56c300af7b1bc58f5f",
+      "status": "closure_timeout",
+      "accepted": false,
+      "sha256": "333e4d1206f56fa95f750948cbbda0cf6eecce2fcb670f1f8f4328a36641e5e0",
+      "groups_required": 5,
+      "max_groups_at_once": 4,
+      "ticks_all_groups": 0,
+      "groups_at_end": 4,
+      "peak_rise_mm": 0.5341537253203965,
+      "final_rise_mm": 0.5341537253203965,
+      "trailing_hold_ticks": 0,
+      "final_phase": "close",
+      "outcome": "contacts_never_all_taken"
+     },
+     {
+      "episode_id": "teacher_0002_yaw_000",
+      "candidate_id": "43f47b6aeee7b4eb1da31462c748ebaa379948f4a398a85d0feaef9830daa531",
+      "status": "no_quality_feasible_command",
+      "accepted": false,
+      "sha256": "a69054f1394619a09ce755799d186c1592074674738dc071954f9057184d08a1",
+      "groups_required": 5,
+      "max_groups_at_once": 0,
+      "ticks_all_groups": 0,
+      "groups_at_end": 0,
+      "peak_rise_mm": 0.0,
+      "final_rise_mm": 0.0,
+      "trailing_hold_ticks": 0,
+      "final_phase": "close",
+      "outcome": "contacts_never_all_taken"
+     },
+     {
+      "episode_id": "teacher_0003_yaw_000",
+      "candidate_id": "4f8c079456bbe6191fcbdc828565b064f5a33300954b4bfcad0df4f9e6256c7a",
+      "status": "closure_timeout",
+      "accepted": false,
+      "sha256": "5d10ca9fa61eff94c3b2d26976b5446c237190d856504288227d41252aaaaf41",
+      "groups_required": 5,
+      "max_groups_at_once": 4,
+      "ticks_all_groups": 0,
+      "groups_at_end": 4,
+      "peak_rise_mm": 0.5167530368148654,
+      "final_rise_mm": 0.04422573806894814,
+      "trailing_hold_ticks": 0,
+      "final_phase": "close",
+      "outcome": "contacts_never_all_taken"
+     },
+     {
+      "episode_id": "teacher_0004_yaw_000",
+      "candidate_id": "71074e1c8fd68588b54687abf941471527605a63d62d70d5e95090bc5a92433f",
+      "status": "closure_timeout",
+      "accepted": false,
+      "sha256": "dcbe345f4bb2d3a2fca25dad0e9c6a8c97ddf93034691506bb81e31f53c5b35b",
+      "groups_required": 5,
+      "max_groups_at_once": 4,
+      "ticks_all_groups": 0,
+      "groups_at_end": 3,
+      "peak_rise_mm": 1.993492761919513,
+      "final_rise_mm": 1.9365421570337604,
+      "trailing_hold_ticks": 0,
+      "final_phase": "close",
+      "outcome": "contacts_never_all_taken"
+     },
+     {
+      "episode_id": "teacher_0005_yaw_000",
+      "candidate_id": "711cb332fb9d273af261a9ef5867e7d1b3bb9587a865094c0af182b451df79e6",
+      "status": "closure_timeout",
+      "accepted": false,
+      "sha256": "dd31b34fd101ac2b1867f8b5b10e43f8b18406cf750bc025ca027217ec72c4c5",
+      "groups_required": 5,
+      "max_groups_at_once": 5,
+      "ticks_all_groups": 15,
+      "groups_at_end": 4,
+      "peak_rise_mm": 4.566008023328627,
+      "final_rise_mm": 3.822448875753004,
+      "trailing_hold_ticks": 0,
+      "final_phase": "close",
+      "outcome": "contacts_taken_then_lost"
+     },
+     {
+      "episode_id": "teacher_0006_yaw_000",
+      "candidate_id": "787f7c4242f7cb5f386d18c6a61391ecbc691b41a307acb80adc3baa22182c58",
+      "status": "closure_timeout",
+      "accepted": false,
+      "sha256": "23ab4dd79b3a305831225124d1b17bbfd0a4d5f05f91d096a44fc7eda41bd09d",
+      "groups_required": 5,
+      "max_groups_at_once": 4,
+      "ticks_all_groups": 0,
+      "groups_at_end": 2,
+      "peak_rise_mm": 0.2470845249982201,
+      "final_rise_mm": 0.17068142685305876,
+      "trailing_hold_ticks": 0,
+      "final_phase": "close",
+      "outcome": "contacts_never_all_taken"
+     },
+     {
+      "episode_id": "teacher_0007_yaw_000",
+      "candidate_id": "8ad4e66ccb8faa8389ca8c5fc3832ac34d5c601a62eab1a869da07aaeb013df5",
+      "status": "closure_timeout",
+      "accepted": false,
+      "sha256": "812bd7ffca48733184be349ef863e05633620093877f2f17c97d7df0cd1dd02d",
+      "groups_required": 5,
+      "max_groups_at_once": 4,
+      "ticks_all_groups": 0,
+      "groups_at_end": 4,
+      "peak_rise_mm": 0.8011314775828726,
+      "final_rise_mm": 0.8010781194807137,
+      "trailing_hold_ticks": 0,
+      "final_phase": "close",
+      "outcome": "contacts_never_all_taken"
+     },
+     {
+      "episode_id": "teacher_0008_yaw_000",
+      "candidate_id": "9d624b380656476bcb6fbae274590b44dea715f2721dd45b0258183c23fa98be",
+      "status": "lift_timeout",
+      "accepted": false,
+      "sha256": "74b32ac56903ea2994c479c27b6e1897ddba2df728d3ddbb3c376c8884aa7ff2",
+      "groups_required": 5,
+      "max_groups_at_once": 5,
+      "ticks_all_groups": 54,
+      "groups_at_end": 3,
+      "peak_rise_mm": 21.045769173678064,
+      "final_rise_mm": 19.644073707238196,
+      "trailing_hold_ticks": 0,
+      "final_phase": "lift",
+      "outcome": "contacts_taken_then_lost"
+     },
+     {
+      "episode_id": "teacher_0009_yaw_000",
+      "candidate_id": "a30550ca5b429f44f1fa2dd1bde7b57fb341a8bfc7c10e4c4f9a8e86d6d7e4b6",
+      "status": "lift_timeout",
+      "accepted": false,
+      "sha256": "969f27343cff12a99efabbe5fb506fa300c4ab4b042fe190b0b527cace8b2470",
+      "groups_required": 5,
+      "max_groups_at_once": 5,
+      "ticks_all_groups": 65,
+      "groups_at_end": 4,
+      "peak_rise_mm": 18.981220431940393,
+      "final_rise_mm": 18.944399618474606,
+      "trailing_hold_ticks": 0,
+      "final_phase": "lift",
+      "outcome": "contacts_taken_then_lost"
+     },
+     {
+      "episode_id": "teacher_0010_yaw_000",
+      "candidate_id": "a91fd7d5e8b272c4a1f2944269a26d6c60ca6effe65189035262655434019221",
+      "status": "closure_timeout",
+      "accepted": false,
+      "sha256": "d3cd176b6f176a59186aebd77ba6414c065d30ddaec96bd9adc091a6e4a66869",
+      "groups_required": 5,
+      "max_groups_at_once": 4,
+      "ticks_all_groups": 0,
+      "groups_at_end": 4,
+      "peak_rise_mm": 0.4758987373854051,
+      "final_rise_mm": 0.28759807100675605,
+      "trailing_hold_ticks": 0,
+      "final_phase": "close",
+      "outcome": "contacts_never_all_taken"
+     },
+     {
+      "episode_id": "teacher_0011_yaw_000",
+      "candidate_id": "ab3e93445d0c4aac2acc8f27c716ab542feab530c0e0a5fdc57dee0ea8cc8d64",
+      "status": "lift_timeout",
+      "accepted": false,
+      "sha256": "1ec660fa7ef322b1b5b0cd2e2b2e101b8700f04e22bb2746c627c3cc79c84177",
+      "groups_required": 5,
+      "max_groups_at_once": 5,
+      "ticks_all_groups": 49,
+      "groups_at_end": 2,
+      "peak_rise_mm": 11.039536389009896,
+      "final_rise_mm": 2.926025077236938,
+      "trailing_hold_ticks": 0,
+      "final_phase": "lift",
+      "outcome": "contacts_taken_then_lost"
+     },
+     {
+      "episode_id": "teacher_0012_yaw_000",
+      "candidate_id": "aee346a382ce50dd74a69654d70fabbb283888f9320015d0a9d0266adf7b1c6f",
+      "status": "no_quality_feasible_command",
+      "accepted": false,
+      "sha256": "52c256676019bfcbc770d58ba177aa9109d6515b505aad38dc97aa81f8779a73",
+      "groups_required": 5,
+      "max_groups_at_once": 4,
+      "ticks_all_groups": 0,
+      "groups_at_end": 3,
+      "peak_rise_mm": 1.630022969669409,
+      "final_rise_mm": 0.555131172936485,
+      "trailing_hold_ticks": 0,
+      "final_phase": "close",
+      "outcome": "contacts_never_all_taken"
+     },
+     {
+      "episode_id": "teacher_0013_yaw_000",
+      "candidate_id": "c1a8a17e26d688ad34f7f3793e99a53c1316521e606115901bf3b091ddcc8f40",
+      "status": "lift_timeout",
+      "accepted": false,
+      "sha256": "43380b376620ac627363bba950baad188b75a764275a4c7ec460d687473643a3",
+      "groups_required": 5,
+      "max_groups_at_once": 5,
+      "ticks_all_groups": 331,
+      "groups_at_end": 0,
+      "peak_rise_mm": 143.70882280464502,
+      "final_rise_mm": -1.4432899320127035e-12,
+      "trailing_hold_ticks": 0,
+      "final_phase": "lift",
+      "outcome": "contacts_taken_then_lost"
+     },
+     {
+      "episode_id": "teacher_0014_yaw_000",
+      "candidate_id": "efa9098d49069387f341fe1f7bbce8f952a4e2ed2e056c724111cab817e9eac4",
+      "status": "closure_timeout",
+      "accepted": false,
+      "sha256": "76d2b20ffe06eecb53eb739d85b8874deba2cbac3103d1b390656064ecaec383",
+      "groups_required": 5,
+      "max_groups_at_once": 5,
+      "ticks_all_groups": 97,
+      "groups_at_end": 3,
+      "peak_rise_mm": 0.20180092186816712,
+      "final_rise_mm": 0.010998453886190696,
+      "trailing_hold_ticks": 0,
+      "final_phase": "close",
+      "outcome": "contacts_taken_then_lost"
+     },
+     {
+      "episode_id": "teacher_0015_yaw_000",
+      "candidate_id": "f123a17f9225775222d51e79dc58650f629d0144cc8ed56bb4a6dec61b91baed",
+      "status": "lift_timeout",
+      "accepted": false,
+      "sha256": "3b64dc3980ad0ce3505c85c7ce0dd4cb6545f1fcdcf0ffc2167f22e6c62ca377",
+      "groups_required": 5,
+      "max_groups_at_once": 5,
+      "ticks_all_groups": 155,
+      "groups_at_end": 0,
+      "peak_rise_mm": 51.744191276584694,
+      "final_rise_mm": -1.3322676295501878e-12,
+      "trailing_hold_ticks": 0,
+      "final_phase": "lift",
+      "outcome": "contacts_taken_then_lost"
+     },
+     {
+      "episode_id": "teacher_0016_yaw_000",
+      "candidate_id": "fa4045c7abd3b405aaaf29f6d40661e7376b97040987db8cd7805392e1d4cbcf",
+      "status": "closure_timeout",
+      "accepted": false,
+      "sha256": "622c8de516b42f69c6f8841ac36ec65cb7930e7345c756db911df936fe939533",
+      "groups_required": 5,
+      "max_groups_at_once": 0,
+      "ticks_all_groups": 0,
+      "groups_at_end": 0,
+      "peak_rise_mm": 0.0,
+      "final_rise_mm": 0.0,
+      "trailing_hold_ticks": 0,
+      "final_phase": "close",
+      "outcome": "contacts_never_all_taken"
+     }
+    ]
+   }
+  }
+ },
+ "bowl": {
+  "object": "core_bowl_2e545ccae1cdc69d879b85bd5ada6e71",
+  "scale": 0.05,
+  "types": {
+   "10_Power_Disk": {
+    "predicted": 119,
+    "reachable": 49,
+    "produced": [
+     49,
+     49,
+     49
+    ],
+    "kept": [
+     0,
+     0,
+     0
+    ],
+    "reasons": {
+     "ik_failure": 27,
+     "collision world | finger_r_link20": 35,
+     "collision world | finger_r_link16": 20,
+     "collision world | finger_r_link4": 38,
+     "collision world | finger_r_link19": 3,
+     "collision world | finger_r_link8": 13,
+     "collision world | arm_r_link6": 1,
+     "collision world | finger_r_link12": 6,
+     "collision world | finger_r_link3": 4
+    },
+    "refined": [
+     0,
+     0,
+     0
+    ],
+    "refiner_errors": [
+     0,
+     0,
+     0
+    ],
+    "screen": {}
+   },
+   "26_Sphere_4_Finger": {
+    "predicted": 96,
+    "reachable": 41,
+    "produced": [
+     41,
+     41,
+     41
+    ],
+    "kept": [
+     0,
+     0,
+     0
+    ],
+    "reasons": {
+     "collision world | finger_r_link4": 52,
+     "collision world | finger_r_link16": 26,
+     "ik_failure": 24,
+     "collision world | finger_r_link12": 8,
+     "collision world | arm_r_link6": 3,
+     "collision world | hx5_r_base": 1,
+     "collision world | finger_r_link19": 2,
+     "collision world | finger_r_link20": 5,
+     "collision world | finger_r_link8": 1,
+     "collision world | finger_r_link18": 1
+    },
+    "refined": [
+     0,
+     0,
+     0
+    ],
+    "refiner_errors": [
+     0,
+     0,
+     0
+    ],
+    "screen": {}
+   }
+  },
+  "executions": {}
+ },
+ "hammer": {
+  "object": "ddg_gd_hammer_poisson_005",
+  "scale": 0.08,
+  "types": {
+   "2_Small_Diameter": {
+    "predicted": 88,
+    "reachable": 59,
+    "produced": [
+     59,
+     59,
+     59
+    ],
+    "kept": [
+     9,
+     8,
+     12
+    ],
+    "reasons": {
+     "collision world | finger_r_link20": 45,
+     "collision world | arm_r_link6": 26,
+     "ik_failure": 22,
+     "kept": 29,
+     "collision world | finger_r_link4": 42,
+     "collision world | arm_r_link7": 3,
+     "collision world | finger_r_link16": 10
+    },
+    "refined": [
+     0,
+     0,
+     0
+    ],
+    "refiner_errors": [
+     0,
+     0,
+     0
+    ],
+    "screen": {}
+   },
+   "3_Medium_Wrap": {
+    "predicted": 104,
+    "reachable": 32,
+    "produced": [
+     32,
+     32,
+     32
+    ],
+    "kept": [
+     0,
+     0,
+     0
+    ],
+    "reasons": {
+     "collision world | finger_r_link4": 28,
+     "collision world | finger_r_link12": 5,
+     "collision world | finger_r_link20": 32,
+     "collision world | finger_r_link8": 21,
+     "collision world | arm_r_link6": 4,
+     "collision world | finger_r_link16": 2,
+     "ik_failure": 2,
+     "collision world | arm_r_link7": 1,
+     "collision world | finger_r_link3": 1
+    },
+    "refined": [
+     0,
+     0,
+     0
+    ],
+    "refiner_errors": [
+     0,
+     0,
+     0
+    ],
+    "screen": {}
+   }
+  },
+  "executions": {}
+ }
+}

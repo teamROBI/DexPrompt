@@ -1,0 +1,425 @@
+[
+ {
+  "control": "positive",
+  "object": "bottle",
+  "sha256": "c08784b1d4d16ab07ec8ec671191d595c6c1096a4d1a627ef138378eab68fd43",
+  "fresh_input_bytes_equal_source": true,
+  "fresh": {
+   "bodies": [
+    "finger_r_link3",
+    "finger_r_link4",
+    "finger_r_link8",
+    "hx5_r_base"
+   ],
+   "groups_satisfied": 2,
+   "passed": true,
+   "filter_status": {
+    "collision": "passed",
+    "contact": "passed",
+    "limit": "passed",
+    "qp": "passed"
+   },
+   "threshold_m": 0.002
+  },
+  "references": {
+   "iter400": {
+    "input_bytes_equal_source": true,
+    "max_hand_qpos_difference": 0.0,
+    "same_contact_bodies": true,
+    "groups_satisfied": 2,
+    "same_verdict": true,
+    "filter_status": null,
+    "threshold_m": 0.002,
+    "bodies_only_in_reference": [],
+    "bodies_only_in_fresh": []
+   },
+   "init4_original": {
+    "input_bytes_equal_source": false,
+    "max_hand_qpos_difference": 3.813580923273108e-09,
+    "same_contact_bodies": true,
+    "groups_satisfied": 2,
+    "same_verdict": true,
+    "filter_status": {
+     "collision": "passed",
+     "contact": "passed",
+     "limit": "passed",
+     "qp": "passed"
+    },
+    "threshold_m": 0.002,
+    "bodies_only_in_reference": [],
+    "bodies_only_in_fresh": []
+   }
+  }
+ },
+ {
+  "control": "positive",
+  "object": "can",
+  "sha256": "94999d95ee76f61bcf75417dc94025e13aedceb3d911b3431b8ef94aaeca235e",
+  "fresh_input_bytes_equal_source": true,
+  "fresh": {
+   "bodies": [
+    "finger_r_link11",
+    "finger_r_link12",
+    "finger_r_link15",
+    "finger_r_link16",
+    "finger_r_link19",
+    "finger_r_link4",
+    "finger_r_link7",
+    "finger_r_link8"
+   ],
+   "groups_satisfied": 5,
+   "passed": true,
+   "filter_status": {
+    "collision": "passed",
+    "contact": "passed",
+    "limit": "passed",
+    "qp": "passed"
+   },
+   "threshold_m": 0.002
+  },
+  "references": {
+   "iter400": {
+    "input_bytes_equal_source": true,
+    "max_hand_qpos_difference": 0.0,
+    "same_contact_bodies": true,
+    "groups_satisfied": 5,
+    "same_verdict": true,
+    "filter_status": null,
+    "threshold_m": 0.002,
+    "bodies_only_in_reference": [],
+    "bodies_only_in_fresh": []
+   },
+   "init4_original": {
+    "input_bytes_equal_source": false,
+    "max_hand_qpos_difference": 1.0608087075425487e-08,
+    "same_contact_bodies": true,
+    "groups_satisfied": 5,
+    "same_verdict": true,
+    "filter_status": {
+     "collision": "passed",
+     "contact": "passed",
+     "limit": "passed",
+     "qp": "passed"
+    },
+    "threshold_m": 0.002,
+    "bodies_only_in_reference": [],
+    "bodies_only_in_fresh": []
+   }
+  }
+ },
+ {
+  "control": "negative",
+  "object": "bowl",
+  "sha256": "498809d217d3639de5648756f47b8a48e20f48cc11f9aaa998917b60ebae374a",
+  "fresh_input_bytes_equal_source": true,
+  "fresh": {
+   "bodies": [
+    "finger_r_link12",
+    "finger_r_link16",
+    "finger_r_link4",
+    "finger_r_link8"
+   ],
+   "groups_satisfied": 4,
+   "passed": false,
+   "filter_status": {
+    "collision": "passed",
+    "contact": "rejected",
+    "limit": "passed",
+    "qp": "not_run"
+   },
+   "threshold_m": 0.002
+  },
+  "references": {
+   "iter400": {
+    "input_bytes_equal_source": true,
+    "max_hand_qpos_difference": 0.0,
+    "same_contact_bodies": true,
+    "groups_satisfied": 4,
+    "same_verdict": true,
+    "filter_status": null,
+    "threshold_m": 0.002,
+    "bodies_only_in_reference": [],
+    "bodies_only_in_fresh": []
+   },
+   "init4_original": {
+    "input_bytes_equal_source": false,
+    "max_hand_qpos_difference": 0.0,
+    "same_contact_bodies": true,
+    "groups_satisfied": 4,
+    "same_verdict": true,
+    "filter_status": {
+     "collision": "passed",
+     "contact": "rejected",
+     "limit": "passed",
+     "qp": "not_run"
+    },
+    "threshold_m": 0.002,
+    "bodies_only_in_reference": [],
+    "bodies_only_in_fresh": []
+   }
+  }
+ },
+ {
+  "control": "negative",
+  "object": "bowl",
+  "sha256": "806273bc9ff039c5e1c33942e3ef73ff65f7546a8d845e587b1fe2bd0e8ec665",
+  "fresh_input_bytes_equal_source": true,
+  "fresh": {
+   "bodies": [
+    "finger_r_link12",
+    "finger_r_link16",
+    "finger_r_link4"
+   ],
+   "groups_satisfied": 3,
+   "passed": false,
+   "filter_status": {
+    "collision": "passed",
+    "contact": "rejected",
+    "limit": "passed",
+    "qp": "not_run"
+   },
+   "threshold_m": 0.002
+  },
+  "references": {
+   "iter400": {
+    "input_bytes_equal_source": true,
+    "max_hand_qpos_difference": 0.0,
+    "same_contact_bodies": true,
+    "groups_satisfied": 3,
+    "same_verdict": true,
+    "filter_status": null,
+    "threshold_m": 0.002,
+    "bodies_only_in_reference": [],
+    "bodies_only_in_fresh": []
+   },
+   "init4_original": {
+    "input_bytes_equal_source": false,
+    "max_hand_qpos_difference": 0.0,
+    "same_contact_bodies": true,
+    "groups_satisfied": 3,
+    "same_verdict": true,
+    "filter_status": {
+     "collision": "passed",
+     "contact": "rejected",
+     "limit": "passed",
+     "qp": "not_run"
+    },
+    "threshold_m": 0.002,
+    "bodies_only_in_reference": [],
+    "bodies_only_in_fresh": []
+   }
+  }
+ },
+ {
+  "control": "negative",
+  "object": "bowl",
+  "sha256": "9c474332264e88caeace237b19121cbd97f7c97894ccdb220f06d4ee626c8643",
+  "fresh_input_bytes_equal_source": true,
+  "fresh": {
+   "bodies": [
+    "finger_r_link16",
+    "finger_r_link4",
+    "finger_r_link8"
+   ],
+   "groups_satisfied": 3,
+   "passed": false,
+   "filter_status": {
+    "collision": "passed",
+    "contact": "rejected",
+    "limit": "passed",
+    "qp": "not_run"
+   },
+   "threshold_m": 0.002
+  },
+  "references": {
+   "iter400": {
+    "input_bytes_equal_source": true,
+    "max_hand_qpos_difference": 0.0,
+    "same_contact_bodies": true,
+    "groups_satisfied": 3,
+    "same_verdict": true,
+    "filter_status": null,
+    "threshold_m": 0.002,
+    "bodies_only_in_reference": [],
+    "bodies_only_in_fresh": []
+   },
+   "init4_original": {
+    "input_bytes_equal_source": false,
+    "max_hand_qpos_difference": 0.10626587955652655,
+    "same_contact_bodies": false,
+    "groups_satisfied": 4,
+    "same_verdict": true,
+    "filter_status": {
+     "collision": "passed",
+     "contact": "rejected",
+     "limit": "passed",
+     "qp": "not_run"
+    },
+    "threshold_m": 0.002,
+    "bodies_only_in_reference": [
+     "finger_r_link12"
+    ],
+    "bodies_only_in_fresh": []
+   }
+  }
+ },
+ {
+  "control": "negative",
+  "object": "hammer",
+  "sha256": "0320c3b1fa51669777381efe6b45ad3a2669b77364b36caf88dbf47aad11db49",
+  "fresh_input_bytes_equal_source": true,
+  "fresh": {
+   "bodies": [
+    "finger_r_link11",
+    "finger_r_link15",
+    "finger_r_link16",
+    "finger_r_link7"
+   ],
+   "groups_satisfied": 3,
+   "passed": false,
+   "filter_status": {
+    "collision": "passed",
+    "contact": "rejected",
+    "limit": "passed",
+    "qp": "not_run"
+   },
+   "threshold_m": 0.002
+  },
+  "references": {
+   "iter400": {
+    "input_bytes_equal_source": true,
+    "max_hand_qpos_difference": 0.0,
+    "same_contact_bodies": true,
+    "groups_satisfied": 3,
+    "same_verdict": true,
+    "filter_status": null,
+    "threshold_m": 0.002,
+    "bodies_only_in_reference": [],
+    "bodies_only_in_fresh": []
+   },
+   "init4_original": {
+    "input_bytes_equal_source": false,
+    "max_hand_qpos_difference": 0.0020647121765382526,
+    "same_contact_bodies": true,
+    "groups_satisfied": 3,
+    "same_verdict": true,
+    "filter_status": {
+     "collision": "passed",
+     "contact": "rejected",
+     "limit": "passed",
+     "qp": "not_run"
+    },
+    "threshold_m": 0.002,
+    "bodies_only_in_reference": [],
+    "bodies_only_in_fresh": []
+   }
+  }
+ },
+ {
+  "control": "negative",
+  "object": "hammer",
+  "sha256": "033e81faac1014a82423aa5680093a701b798db54ebbef294c33c8a7f9e0efbc",
+  "fresh_input_bytes_equal_source": true,
+  "fresh": {
+   "bodies": [
+    "finger_r_link11",
+    "finger_r_link12",
+    "finger_r_link16",
+    "finger_r_link7",
+    "finger_r_link8"
+   ],
+   "groups_satisfied": 3,
+   "passed": false,
+   "filter_status": {
+    "collision": "passed",
+    "contact": "rejected",
+    "limit": "passed",
+    "qp": "not_run"
+   },
+   "threshold_m": 0.002
+  },
+  "references": {
+   "iter400": {
+    "input_bytes_equal_source": true,
+    "max_hand_qpos_difference": 0.0,
+    "same_contact_bodies": true,
+    "groups_satisfied": 3,
+    "same_verdict": true,
+    "filter_status": null,
+    "threshold_m": 0.002,
+    "bodies_only_in_reference": [],
+    "bodies_only_in_fresh": []
+   },
+   "init4_original": {
+    "input_bytes_equal_source": false,
+    "max_hand_qpos_difference": 0.004262051144132251,
+    "same_contact_bodies": false,
+    "groups_satisfied": 3,
+    "same_verdict": true,
+    "filter_status": {
+     "collision": "passed",
+     "contact": "rejected",
+     "limit": "passed",
+     "qp": "not_run"
+    },
+    "threshold_m": 0.002,
+    "bodies_only_in_reference": [],
+    "bodies_only_in_fresh": [
+     "finger_r_link7"
+    ]
+   }
+  }
+ },
+ {
+  "control": "negative",
+  "object": "hammer",
+  "sha256": "03fa5b0e3e6ca2a71d7f1cedf99535b452811b58fbd521a414dbe3dbb6538551",
+  "fresh_input_bytes_equal_source": true,
+  "fresh": {
+   "bodies": [
+    "finger_r_link11",
+    "finger_r_link12",
+    "finger_r_link16",
+    "finger_r_link7"
+   ],
+   "groups_satisfied": 3,
+   "passed": false,
+   "filter_status": {
+    "collision": "passed",
+    "contact": "rejected",
+    "limit": "passed",
+    "qp": "not_run"
+   },
+   "threshold_m": 0.002
+  },
+  "references": {
+   "iter400": {
+    "input_bytes_equal_source": true,
+    "max_hand_qpos_difference": 0.0,
+    "same_contact_bodies": true,
+    "groups_satisfied": 3,
+    "same_verdict": true,
+    "filter_status": null,
+    "threshold_m": 0.002,
+    "bodies_only_in_reference": [],
+    "bodies_only_in_fresh": []
+   },
+   "init4_original": {
+    "input_bytes_equal_source": false,
+    "max_hand_qpos_difference": 0.0035417595530345958,
+    "same_contact_bodies": true,
+    "groups_satisfied": 3,
+    "same_verdict": true,
+    "filter_status": {
+     "collision": "passed",
+     "contact": "rejected",
+     "limit": "passed",
+     "qp": "not_run"
+    },
+    "threshold_m": 0.002,
+    "bodies_only_in_reference": [],
+    "bodies_only_in_fresh": []
+   }
+  }
+ }
+]

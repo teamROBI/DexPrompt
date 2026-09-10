@@ -1,0 +1,51 @@
+# DexLearn, configured for the HX5-D20 and the data this project generates.
+#
+# Kept here rather than in the checkout: third_party holds code we use as given,
+# and this is ours. It is merged over DexLearn's own base config by
+# scripts/train_dexlearn.py.
+
+data:
+  num_workers: 4
+  num_points: 1024
+  # pregrasp, grasp, squeeze -- the three poses a Dexonomy grasp records.
+  traj_length: 3
+  # The hand's twenty joints. DexLearn is hand-agnostic apart from this number.
+  joint_num: 20
+  # Null means every type present in grasp_path, which is what we want: the set
+  # changes as templates are added and a stale list would silently drop them.
+  grasp_type_lst: null
+  grasp_type_cond: true
+  split_path: valid_split
+  pc_path: vision_data/simulated
+  test_split: test
+  test_scene_cfg: "**/scene_cfg.npy"
+  mini_test: false
+
+algo:
+  # Small because the dataset is small; the shipped 256 would be most of an
+  # epoch in one step.
+  batch_size: 32
+  # DexLearn ships 10.0, which is loose enough on a dataset this size for the
+  # weights to diverge -- and once they have, every gradient after is NaN. It
+  # zeroes those and carries on, so it does not crash; it simply stops learning,
+  # on 261 steps out of every 300. At 1.0 there are none, at any learning rate
+  # from 3e-5 to the shipped 1e-3.
+  grad_clip: 1.0
+  max_iter: 20000
+  val_every: 500
+  save_every: 2000
+  log_every: 50
+  model:
+    backbone:
+      # Not the shipped sparse U-Net: MinkowskiEngine does not build here. See
+      # src/icra/dexlearn_shim.py for what this is and what it costs.
+      name: DensePointNet
+      out_feat_dim: 512
+    grasp_type_emb:
+      # The point of this run. With the predictor on, the model decides which
+      # grasp type suits an object from its point cloud alone, which is the
+      # question a fixed ranking cannot answer at run time.
+      use_predictor: true
+
+wandb:
+  mode: disabled

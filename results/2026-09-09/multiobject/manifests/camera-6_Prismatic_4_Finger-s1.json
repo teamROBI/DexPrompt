@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "teacher": "Dexonomy",
+  "candidates": [],
+  "scope": "static candidate filters; full dynamic paths remain unvalidated"
+}

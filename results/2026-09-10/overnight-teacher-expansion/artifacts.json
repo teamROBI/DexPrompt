@@ -1,0 +1,17 @@
+{
+ "can_yaw000_demonstration": {
+  "path": "out/teacher-expansion/can-yaw000/episodes/teacher_0001_yaw_000.npz",
+  "sha256": "b4ddabc29bd969e8e582c61e5d9a095abe1b7f6611d16fba3b813645cdb91a9e",
+  "bytes": 1496212
+ },
+ "can_yawp15_demonstration": {
+  "path": "out/teacher-expansion/can-yawp15/episodes/teacher_0001_yaw_000.npz",
+  "sha256": "ef930020122a451f9395883e174bf725f8b26567a1e546379c357f3728f5f894",
+  "bytes": 1658384
+ },
+ "can_yawp15_reproduce": {
+  "path": "out/teacher-expansion/can-yawp15-reproduce/episodes/teacher_0001_yaw_000.npz",
+  "sha256": "ef930020122a451f9395883e174bf725f8b26567a1e546379c357f3728f5f894",
+  "bytes": 1658384
+ }
+}

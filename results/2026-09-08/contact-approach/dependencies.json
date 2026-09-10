@@ -1,0 +1,10 @@
+{
+  "scripts/validate_teacher_execution.py": "71d996c0cdc64fad9b607749445672a34745fc35510e647e7367e0eeb3d7315a",
+  "scripts/replay_teacher_execution.py": "b0867a003e4fecbdbd070ca4c7ffcb902c914818b26a136f98346852e0ec3844",
+  "scripts/fixed_student_experiment.py": "06c011c719cc6e13f5d06eb1e1c7155d384c305ab3ece2a9b7e71b11f43b1649",
+  "scripts/collect_episodes.py": "debf11f71d219c8b828ca0921ed37e044ef524f73af6798eb0670fc063fef358",
+  "src/icra/scene.py": "1ade9cecc5ca53139513682247b1d3de3a4669bd6c90010eb8321ba1f5f5bfee",
+  "src/icra/arm.py": "9ac831ac54cd2f851e21d75b61cd6a418bbac89c937baae02a1e1a69319872de",
+  "src/icra/probe.py": "93abe0a9728e0b74cb3473687bcdc3911c0109b47dad3173a75b5548eb999a34",
+  "src/icra/objects.py": "ee8ab21a246f029b6e63d09591549b30c6aa027e1f1d99577e6d021997f4464a"
+}

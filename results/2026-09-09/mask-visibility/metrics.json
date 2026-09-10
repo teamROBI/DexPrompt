@@ -1,0 +1,92 @@
+{
+  "frames": 8817,
+  "empty_frames": 1090,
+  "causes": {
+    "resolution_sensitive_occlusion": 241,
+    "occluded_at_tested_resolution": 849
+  },
+  "replay_exact": true,
+  "comparisons": {
+    "head_256": {
+      "nonzero_frames": 241,
+      "at_least_10_pixels": 16,
+      "visible_pixel_median_when_nonzero": 4.0
+    },
+    "head_448": {
+      "nonzero_frames": 250,
+      "at_least_10_pixels": 71,
+      "visible_pixel_median_when_nonzero": 9.0
+    },
+    "wrist_64": {
+      "nonzero_frames": 691,
+      "at_least_10_pixels": 684,
+      "visible_pixel_median_when_nonzero": 137.0
+    },
+    "wrist_256": {
+      "nonzero_frames": 693,
+      "at_least_10_pixels": 692,
+      "visible_pixel_median_when_nonzero": 2164.0
+    },
+    "head_tilt_down_20_256": {
+      "nonzero_frames": 505,
+      "at_least_10_pixels": 317,
+      "visible_pixel_median_when_nonzero": 50.0
+    },
+    "head_fovy_90_256": {
+      "nonzero_frames": 467,
+      "at_least_10_pixels": 283,
+      "visible_pixel_median_when_nonzero": 28.0
+    }
+  },
+  "by_episode": [
+    {
+      "episode_id": "teacher_0006_yaw_000",
+      "empty_frames": 565,
+      "head256": 149,
+      "wrist256": 276,
+      "tilted_head256": 408,
+      "both_head_wrist_zero_max_run": 237
+    },
+    {
+      "episode_id": "teacher_0008_yaw_000",
+      "empty_frames": 80,
+      "head256": 6,
+      "wrist256": 17,
+      "tilted_head256": 8,
+      "both_head_wrist_zero_max_run": 35
+    },
+    {
+      "episode_id": "teacher_0009_yaw_000",
+      "empty_frames": 12,
+      "head256": 11,
+      "wrist256": 0,
+      "tilted_head256": 12,
+      "both_head_wrist_zero_max_run": 1
+    },
+    {
+      "episode_id": "teacher_0016_yaw_000",
+      "empty_frames": 433,
+      "head256": 75,
+      "wrist256": 400,
+      "tilted_head256": 77,
+      "both_head_wrist_zero_max_run": 30
+    }
+  ],
+  "source_hashes": {
+    "out/mask-visibility-20260909/frames.jsonl": "bf5060943694a44c24d85b68045dde37aba06e079ce81f84205810d16a1b0104",
+    "out/mask-visibility-20260909/summary.json": "25da800547859f7ef0f7d0787ed1e9b8feb8b05f8aa408e6502717bfecc4c631",
+    "out/mask-camera-checks-20260909/frames.jsonl": "56b212a7bbeae2f5cd349829e75b280cc29caca47c1fadd69c711d16f4046763",
+    "out/mask-camera-checks-20260909/summary.json": "5ab36fb5ffff99b46aae5893f1fadb16c41e43c38dd9ab842717c857c9e656f5",
+    "scripts/audit_mask_visibility.py": "5c50ff961076b5d17194d49f07ab2627f44bb3e3c293bcfbf747c61a1de38de7",
+    "tests/test_mask_visibility_audit.py": "f07a3c6afbe04cec3fc968b9f4ccbea75f3b8461b3e9f3bd736aa24c6af68d47"
+  },
+  "either_head_or_wrist_256": 754,
+  "either_tilted_head_or_wrist_256": 848,
+  "head_alone_64_min": 52,
+  "head_alone_256_range": [
+    860,
+    2141
+  ],
+  "head_alone_border_frames": 1062,
+  "tilted_head_alone_border_frames": 0
+}

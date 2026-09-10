@@ -1,0 +1,68 @@
+Starting full pretrained-DINO student forward on CPU; no learning.
+/home/yspark/projects/ICRA/out/student-assets/dinov2/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/yspark/projects/ICRA/out/student-assets/dinov2/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/yspark/projects/ICRA/out/student-assets/dinov2/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+{"name": "dinov2_vitb14", "weights": "out/student-assets/dinov2_vitb14_pretrain.pth", "strict_loaded": true, "frozen": true, "embedding_width": 768, "parameters": 86580480, "seconds": 2.78367174603045}
+{"name": "dinov2_vitl14", "weights": "out/student-assets/dinov2_vitl14_pretrain.pth", "strict_loaded": true, "frozen": true, "embedding_width": 1024, "parameters": 304368640, "seconds": 5.097141703125089}
+{
+  "architecture": "hx5_dexgraspvla_style_rdt",
+  "data_scope": "accepted training episodes; forward-only",
+  "data_io": "verified_memmap",
+  "cache_sha256": "83fac9e4a454dd646bae1efe60aebc87337c8a54e5e515387981a3be55965564",
+  "vision": "local pretrained DINOv2",
+  "full_training_architecture_checked": true,
+  "optimizer_steps": 0,
+  "backward_calls": 0,
+  "model_unchanged": true,
+  "loss_finite": true,
+  "random_initialization_loss": 1.4047014713287354,
+  "prediction_shape": [
+    2,
+    64,
+    27
+  ],
+  "parameter_count": 554994715,
+  "config": {
+    "architecture": "hx5_dexgraspvla_style_rdt",
+    "action_dim": 27,
+    "state_dim": 27,
+    "action_horizon": 64,
+    "execute_steps": 8,
+    "image_size": 518,
+    "patch_size": 14,
+    "embedding_dim": 1024,
+    "layers": 12,
+    "heads": 8,
+    "mask_layers": 4,
+    "dropout": 0.1,
+    "diffusion_steps": 50,
+    "inference_steps": 16,
+    "noise_assignment": true,
+    "vision": {
+      "backend": "dinov2_local",
+      "source": "out/student-assets/dinov2",
+      "head_model": "dinov2_vitb14",
+      "head_weights": "out/student-assets/dinov2_vitb14_pretrain.pth",
+      "wrist_model": "dinov2_vitl14",
+      "wrist_weights": "out/student-assets/dinov2_vitl14_pretrain.pth"
+    },
+    "training": {
+      "seed": 42,
+      "batch_size": 8,
+      "num_workers": 0,
+      "epochs": 125,
+      "learning_rate": 0.0001,
+      "weight_decay": 0.0001,
+      "betas": [
+        0.95,
+        0.999
+      ],
+      "warmup_steps": 2000,
+      "gradient_clip": 1.0
+    }
+  }
+}
+{"encoders": [{"name": "dinov2_vitb14", "weights": "out/student-assets/dinov2_vitb14_pretrain.pth", "strict_loaded": true, "frozen": true, "embedding_width": 768, "parameters": 86580480, "seconds": 2.78367174603045}, {"name": "dinov2_vitl14", "weights": "out/student-assets/dinov2_vitl14_pretrain.pth", "strict_loaded": true, "frozen": true, "embedding_width": 1024, "parameters": 304368640, "seconds": 5.097141703125089}], "full_check_seconds": 96.2396208201535, "downloads_during_check": 0, "backward_calls": 0, "optimizer_steps": 0, "device": "cpu", "fixture_used": false}

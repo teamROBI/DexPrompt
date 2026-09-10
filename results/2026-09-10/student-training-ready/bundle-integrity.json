@@ -1,0 +1,22 @@
+[
+  {
+    "episode": "source0_teacher_0002_yaw_000",
+    "npz_byte_identical_to_source": true,
+    "local_archives_verified": 19
+  },
+  {
+    "episode": "source0_teacher_0006_yaw_000",
+    "npz_byte_identical_to_source": true,
+    "local_archives_verified": 19
+  },
+  {
+    "episode": "source0_teacher_0016_yaw_000",
+    "npz_byte_identical_to_source": true,
+    "local_archives_verified": 19
+  },
+  {
+    "episode": "source1_teacher_0008_yaw_000",
+    "npz_byte_identical_to_source": true,
+    "local_archives_verified": 19
+  }
+]

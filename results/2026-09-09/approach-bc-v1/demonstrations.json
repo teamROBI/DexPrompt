@@ -1,0 +1,42 @@
+{
+  "manifest": "/home/yspark/projects/ICRA/out/rl-approach/candidate.json",
+  "candidate": {
+    "object_name": "core_bottle_6444875e3217bf891f5f48a891d827bd",
+    "template": "33_Inferior_Pincer",
+    "source": "/home/yspark/projects/Dexonomy/output/big1_offset_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_2_grasp.npy",
+    "source_sha256": "05b63bfb299053e9edf05f61741c849b103d7863c3e462a90fd30f4c73d983a9"
+  },
+  "yaw_rad": 0.0,
+  "approach_ticks": 600,
+  "noise": 0.05,
+  "seed": 0,
+  "episodes_kept": 9,
+  "episodes_discarded": [],
+  "handover_ticks": [
+    451,
+    455,
+    444,
+    442,
+    445,
+    453,
+    442,
+    449,
+    449
+  ],
+  "pairs": 4030,
+  "observation_size": 42,
+  "action_size": 7,
+  "action_max": 0.26884859800338745,
+  "code_sha256": {
+    "scripts/train_approach_rl.py": "9f38aa2eae7ee0eb74c2cbd2a4100570fe0be4f7f8758dfe679cb932c2c07713",
+    "scripts/train_grasp_rl.py": "6c0e62f4d77b69eb08b51cf4407ba3ed6b29c29fb690a4f351a88e8dffaa3dbf",
+    "src/icra/approach_env.py": "64fe09b6f68cd939a6edaa593323cd00a1eb6b37fed0024c97406c2edbbe4ac1",
+    "src/icra/execution.py": "675967c933d33e14e7f3e0ef68555280bf0c499212ef3dd92c2a079a7e0c4424",
+    "src/icra/ppo.py": "50b8d51d2027fe6930e9a20c9ab300c7ad9730845d1de395b37bd147ec6e93da",
+    "src/icra/contact_control.py": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0",
+    "src/icra/scene.py": "1ade9cecc5ca53139513682247b1d3de3a4669bd6c90010eb8321ba1f5f5bfee",
+    "src/icra/arm.py": "54ea9a88d552204586347b17fc1cb6cedbd733a621df32a888f7702df2cabf67",
+    "src/icra/simulation.py": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25",
+    "scripts/collect_episodes.py": "b407f00ff1d6cb09304638875d097e8831a7228e1f5342e96abe06eb7d9c462f"
+  }
+}
