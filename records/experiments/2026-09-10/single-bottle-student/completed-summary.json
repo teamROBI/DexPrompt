@@ -1,0 +1,120 @@
+{
+  "training_updates": 6331,
+  "evaluations": [
+    {
+      "epoch": 1,
+      "preselected_final": false,
+      "attempts": 3,
+      "compliant_successes": 0,
+      "initial_action_errors": [
+        {
+          "seed": 1000,
+          "ticks": 17,
+          "first_command_max_error_rad": 0.42274888081553574
+        },
+        {
+          "seed": 1001,
+          "ticks": 12,
+          "first_command_max_error_rad": 1.24187069850958
+        },
+        {
+          "seed": 1002,
+          "ticks": 12,
+          "first_command_max_error_rad": 1.1444733690142082
+        }
+      ]
+    },
+    {
+      "epoch": 3,
+      "preselected_final": false,
+      "attempts": 3,
+      "compliant_successes": 0,
+      "initial_action_errors": [
+        {
+          "seed": 1000,
+          "ticks": 12,
+          "first_command_max_error_rad": 0.9389076577404799
+        },
+        {
+          "seed": 1001,
+          "ticks": 359,
+          "first_command_max_error_rad": 1.6459495993236364
+        },
+        {
+          "seed": 1002,
+          "ticks": 13,
+          "first_command_max_error_rad": 1.5407921643832982
+        }
+      ]
+    },
+    {
+      "epoch": 6,
+      "preselected_final": false,
+      "attempts": 3,
+      "compliant_successes": 0,
+      "initial_action_errors": [
+        {
+          "seed": 1000,
+          "ticks": 14,
+          "first_command_max_error_rad": 0.7261247606853308
+        },
+        {
+          "seed": 1001,
+          "ticks": 13,
+          "first_command_max_error_rad": 1.5428805323222936
+        },
+        {
+          "seed": 1002,
+          "ticks": 14,
+          "first_command_max_error_rad": 1.5832983227351964
+        }
+      ]
+    },
+    {
+      "epoch": 9,
+      "preselected_final": false,
+      "attempts": 3,
+      "compliant_successes": 0,
+      "initial_action_errors": [
+        {
+          "seed": 1000,
+          "ticks": 19,
+          "first_command_max_error_rad": 0.5277403565028967
+        },
+        {
+          "seed": 1001,
+          "ticks": 17,
+          "first_command_max_error_rad": 1.17111435252226
+        },
+        {
+          "seed": 1002,
+          "ticks": 16,
+          "first_command_max_error_rad": 1.1904821367839635
+        }
+      ]
+    },
+    {
+      "epoch": 13,
+      "preselected_final": true,
+      "attempts": 3,
+      "compliant_successes": 0,
+      "initial_action_errors": [
+        {
+          "seed": 1000,
+          "ticks": 213,
+          "first_command_max_error_rad": 0.41417181211507936
+        },
+        {
+          "seed": 1001,
+          "ticks": 18,
+          "first_command_max_error_rad": 0.9176544668058219
+        },
+        {
+          "seed": 1002,
+          "ticks": 24,
+          "first_command_max_error_rad": 0.8596385838369193
+        }
+      ]
+    }
+  ]
+}

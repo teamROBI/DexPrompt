@@ -1,0 +1,30 @@
+{
+  "started_at": 1789211316.618408,
+  "completed": true,
+  "root_free_before": 16504958976,
+  "moved": [
+    {
+      "source": "/home/yspark/projects/ICRA/out/teacher-expansion",
+      "destination": "/data1/yspark/sim/icra/archive-outputs-20260912/teacher-expansion",
+      "file_count": 538,
+      "all_file_hashes_equal": true,
+      "backup_removed": true
+    },
+    {
+      "source": "/home/yspark/projects/ICRA/out/offset-compare-93",
+      "destination": "/data1/yspark/sim/icra/archive-outputs-20260912/offset-compare-93",
+      "file_count": 277,
+      "all_file_hashes_equal": true,
+      "backup_removed": true
+    },
+    {
+      "source": "/home/yspark/projects/ICRA/out/candidate_screen_all",
+      "destination": "/data1/yspark/sim/icra/archive-outputs-20260912/candidate_screen_all",
+      "file_count": 93,
+      "all_file_hashes_equal": true,
+      "backup_removed": true
+    }
+  ],
+  "finished_at": 1789211597.9280198,
+  "root_free_after": 43003310080
+}

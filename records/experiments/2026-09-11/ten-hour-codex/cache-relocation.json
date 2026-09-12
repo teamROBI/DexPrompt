@@ -1,0 +1,23 @@
+[
+  {
+    "cache": "student-bottle-can-v1-cache",
+    "destination": "/data1/yspark/sim/icra/student-caches/student-bottle-can-v1-cache",
+    "verified_files": 45,
+    "bytes": 2734373516,
+    "seconds": 5.8683576583862305
+  },
+  {
+    "cache": "student-visibility-v2-cache",
+    "destination": "/data1/yspark/sim/icra/student-caches/student-visibility-v2-cache",
+    "verified_files": 34,
+    "bytes": 1914062298,
+    "seconds": 4.127626419067383
+  },
+  {
+    "cache": "student-can-visibility-v2-cache",
+    "destination": "/data1/yspark/sim/icra/student-caches/student-can-visibility-v2-cache",
+    "verified_files": 12,
+    "bytes": 820311152,
+    "seconds": 1.7908885478973389
+  }
+]

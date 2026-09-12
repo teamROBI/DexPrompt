@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "loss": 0.16048039495944977,
+  "output_shape": [
+    2,
+    8,
+    27
+  ],
+  "backward_calls": 0,
+  "optimizer_steps": 0,
+  "versions": {
+    "torch": "2.6.0+cu124",
+    "numpy": "2.2.6",
+    "mujoco": "3.3.3",
+    "diffusers": "0.32.1",
+    "zarr": "2.18.3",
+    "einops": "0.4.1",
+    "omegaconf": "2.3.1"
+  },
+  "parameters": 66768061
+}

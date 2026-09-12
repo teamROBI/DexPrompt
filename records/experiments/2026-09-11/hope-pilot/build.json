@@ -1,0 +1,132 @@
+{
+  "training_started": false,
+  "grasp_generation_started": false,
+  "objects": [
+    {
+      "object": "AlphabetSoup",
+      "unit_to_m": 0.001,
+      "upright_x_degrees": 90,
+      "source_sha256": "545beda7b87c97a90816df6e1578b3fad5a6a1ad91dc74a244dbd22861341968",
+      "status": "geometry_built",
+      "timeout": false,
+      "exit_code": 0,
+      "method": "coacd_default_seed_0",
+      "command": [
+        "/home/yspark/projects/ICRA/third_party/dexonomy/.venv/bin/python",
+        "/home/yspark/projects/ICRA/scripts/build_object_assets.py",
+        "--mesh",
+        "/home/yspark/projects/ICRA/out/hope-audit/source/full/AlphabetSoup.obj",
+        "--scale",
+        "0.001",
+        "--out",
+        "out/hope-pilot-v1/work"
+      ],
+      "elapsed_seconds": 275.23114295024425,
+      "extent_error_mm": 6.000000013273166e-06,
+      "parts": 63,
+      "mesh_sha256": "2ce98dbb16c57ba7f7660bc45bbcb16cc4ec5a1ca43ac39609316be6f594cb0f"
+    },
+    {
+      "object": "Peaches",
+      "unit_to_m": 0.001,
+      "upright_x_degrees": 90,
+      "source_sha256": "bdbbaee7f79ba80a65351ce54051a387ecbe985e369235f14d852d91c017f491",
+      "status": "geometry_built",
+      "timeout": false,
+      "exit_code": 0,
+      "method": "coacd_default_seed_0",
+      "command": [
+        "/home/yspark/projects/ICRA/third_party/dexonomy/.venv/bin/python",
+        "/home/yspark/projects/ICRA/scripts/build_object_assets.py",
+        "--mesh",
+        "/home/yspark/projects/ICRA/out/hope-audit/source/full/Peaches.obj",
+        "--scale",
+        "0.001",
+        "--out",
+        "out/hope-pilot-v1/work"
+      ],
+      "elapsed_seconds": 131.1051797089167,
+      "extent_error_mm": 3.999999997006398e-06,
+      "parts": 45,
+      "mesh_sha256": "bdfb2fff37f75f5b14475a5ffbffc617575c296022d19d07fd51c6237e995593"
+    },
+    {
+      "object": "Mustard",
+      "unit_to_m": 0.001,
+      "upright_x_degrees": 90,
+      "source_sha256": "2ed5664a3175243d0e6ae35efe5ad4f34d2efabcf3d0cb47408553d0f5d594cf",
+      "status": "geometry_built",
+      "timeout": false,
+      "exit_code": 0,
+      "method": "copy_existing",
+      "elapsed_seconds": 0.005510722752660513,
+      "extent_error_mm": 2.999999992425728e-06,
+      "parts": 2,
+      "mesh_sha256": "802cedf3b44f44c22e01fe35d8cb0c160092c533144d0402499a40b26c7a8b15"
+    },
+    {
+      "object": "BBQSauce",
+      "unit_to_m": 0.001,
+      "upright_x_degrees": 90,
+      "source_sha256": "7a8c57fab8a99bb544cd3f755388ae9547bda65a52c92694726fef1fe020e2fc",
+      "status": "geometry_built",
+      "timeout": false,
+      "exit_code": 0,
+      "method": "coacd_default_seed_0",
+      "command": [
+        "/home/yspark/projects/ICRA/third_party/dexonomy/.venv/bin/python",
+        "/home/yspark/projects/ICRA/scripts/build_object_assets.py",
+        "--mesh",
+        "/home/yspark/projects/ICRA/out/hope-audit/source/full/BBQSauce.obj",
+        "--scale",
+        "0.001",
+        "--out",
+        "out/hope-pilot-v1/work"
+      ],
+      "elapsed_seconds": 9.460637575015426,
+      "extent_error_mm": 7.999999994012796e-06,
+      "parts": 2,
+      "mesh_sha256": "e521e889ce5f2c161e9b8b4e055215349dda1da442a594080a6e2f4d1b3086f0"
+    },
+    {
+      "object": "ChocolatePudding",
+      "unit_to_m": 0.001,
+      "upright_x_degrees": 90,
+      "source_sha256": "a7666f48f521e7056eacdfe95986596cc5ee3f1c4ced7eeb5a61e155fb13ccd5",
+      "status": "geometry_built",
+      "timeout": false,
+      "exit_code": 0,
+      "method": "copy_existing",
+      "elapsed_seconds": 0.004192092921584845,
+      "extent_error_mm": 3.999999989900971e-06,
+      "parts": 1,
+      "mesh_sha256": "dc8130c98c5b07652fb4b9ca9e8200f76fbf772ebba4b977cd188abb46b2c693"
+    },
+    {
+      "object": "Raisins",
+      "unit_to_m": 0.001,
+      "upright_x_degrees": 90,
+      "source_sha256": "c294af2b5e6e0e21d9d228826fb7e51ca4a784cbd6978adbb8a08284fab95d53",
+      "status": "geometry_built",
+      "timeout": false,
+      "exit_code": 0,
+      "method": "coacd_default_seed_0",
+      "command": [
+        "/home/yspark/projects/ICRA/third_party/dexonomy/.venv/bin/python",
+        "/home/yspark/projects/ICRA/scripts/build_object_assets.py",
+        "--mesh",
+        "/home/yspark/projects/ICRA/out/hope-audit/source/full/Raisins.obj",
+        "--scale",
+        "0.001",
+        "--out",
+        "out/hope-pilot-v1/work"
+      ],
+      "elapsed_seconds": 23.905932816676795,
+      "extent_error_mm": 9.000000005698894e-06,
+      "parts": 7,
+      "mesh_sha256": "ccb4e3cce996940aa8c4640af1cf0e4022ba7e201a1bc04221188d580555e63f"
+    }
+  ],
+  "completed": true,
+  "all_geometry_built": true
+}

@@ -1,0 +1,123 @@
+{
+  "completed": true,
+  "training_started": false,
+  "rows": [
+    {
+      "frame": 0,
+      "phase": "transit",
+      "first_error_min_rad": 0.15752607583999634,
+      "first_error_max_rad": 0.169822096824646,
+      "arm_first8_median_rmse_rad": 0.06439238206123271,
+      "hand_first8_median_rmse_rad": 0.0004830059895050021,
+      "previous_command_arm_first8_rmse_rad": 0.029181305372638227,
+      "nearest_arm_ticks": [
+        13,
+        13,
+        12
+      ]
+    },
+    {
+      "frame": 8,
+      "phase": "transit",
+      "first_error_min_rad": 0.07853269577026367,
+      "first_error_max_rad": 0.09130263328552246,
+      "arm_first8_median_rmse_rad": 0.026768150326959863,
+      "hand_first8_median_rmse_rad": 0.00036675564047995203,
+      "previous_command_arm_first8_rmse_rad": 0.03181640067768901,
+      "nearest_arm_ticks": [
+        14,
+        15,
+        14
+      ]
+    },
+    {
+      "frame": 16,
+      "phase": "transit",
+      "first_error_min_rad": 0.09911322593688965,
+      "first_error_max_rad": 0.1147620677947998,
+      "arm_first8_median_rmse_rad": 0.03611274731381479,
+      "hand_first8_median_rmse_rad": 0.00018673685995474688,
+      "previous_command_arm_first8_rmse_rad": 0.03189769545885124,
+      "nearest_arm_ticks": [
+        24,
+        25,
+        24
+      ]
+    },
+    {
+      "frame": 32,
+      "phase": "transit",
+      "first_error_min_rad": 0.10401377081871033,
+      "first_error_max_rad": 0.11753100156784058,
+      "arm_first8_median_rmse_rad": 0.0360882049455815,
+      "hand_first8_median_rmse_rad": 0.00017212045684841386,
+      "previous_command_arm_first8_rmse_rad": 0.031907481871379935,
+      "nearest_arm_ticks": [
+        40,
+        41,
+        40
+      ]
+    },
+    {
+      "frame": 64,
+      "phase": "transit",
+      "first_error_min_rad": 0.13825684040784836,
+      "first_error_max_rad": 0.16007495298981667,
+      "arm_first8_median_rmse_rad": 0.05203430929775542,
+      "hand_first8_median_rmse_rad": 0.00015631074881845378,
+      "previous_command_arm_first8_rmse_rad": 0.031788498960880304,
+      "nearest_arm_ticks": [
+        75,
+        76,
+        74
+      ]
+    },
+    {
+      "frame": 200,
+      "phase": "descend",
+      "first_error_min_rad": 0.06819760799407959,
+      "first_error_max_rad": 0.07038009166717529,
+      "arm_first8_median_rmse_rad": 0.03859488176038094,
+      "hand_first8_median_rmse_rad": 6.446256770663097e-05,
+      "previous_command_arm_first8_rmse_rad": 0.011833718560384319,
+      "nearest_arm_ticks": [
+        217,
+        218,
+        218
+      ]
+    },
+    {
+      "frame": 450,
+      "phase": "arrive",
+      "first_error_min_rad": 0.0026077330112457275,
+      "first_error_max_rad": 0.0031011104583740234,
+      "arm_first8_median_rmse_rad": 0.0011908942495395182,
+      "hand_first8_median_rmse_rad": 0.0006694087115414081,
+      "previous_command_arm_first8_rmse_rad": 0.0004461718649298741,
+      "nearest_arm_ticks": [
+        627,
+        456,
+        627
+      ]
+    },
+    {
+      "frame": 700,
+      "phase": "lift",
+      "first_error_min_rad": 0.04601395130157471,
+      "first_error_max_rad": 0.04635727405548096,
+      "arm_first8_median_rmse_rad": 0.02695584256832331,
+      "hand_first8_median_rmse_rad": 0.0030929664723105847,
+      "previous_command_arm_first8_rmse_rad": 0.005191251400743147,
+      "nearest_arm_ticks": [
+        730,
+        730,
+        730
+      ]
+    }
+  ],
+  "previous_case_comparisons": 12,
+  "max_previous_first_error_difference_rad": 0.0,
+  "preprocessing_equal_all": true,
+  "parameters_unchanged": true,
+  "seconds": 63.99239540100098
+}

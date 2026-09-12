@@ -1,0 +1,11 @@
+{
+  "pid": 2044640,
+  "command": [
+    "scripts/train_hx5_student.py",
+    "prepare-cache",
+    "--data",
+    "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/AlphabetSoup-yaw_plus15-1443cca6/visual",
+    "--out",
+    "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/AlphabetSoup-yaw_plus15-1443cca6/cache"
+  ]
+}

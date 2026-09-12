@@ -1,0 +1,113 @@
+{
+  "scope": "offline archived-signal audit; not new policy evaluation",
+  "training_started": false,
+  "criterion_changed": false,
+  "ticks_are_zero_based": true,
+  "source_hashes": {
+    "scripts/replay_hx5_student.py": "747062e1f4fd4f117eb28c5d865e31d68c6cf17879d340eab34d9f96893566e1",
+    "src/icra/execution.py": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94"
+  },
+  "episodes": [
+    {
+      "object": "core_bottle_6444875e3217bf891f5f48a891d827bd",
+      "episode_id": "source0_teacher_0002_yaw_000",
+      "episode_sha256": "298bc83eda8bbb53a2b811545aa7a6c57bf75ba8aca6bdb1cd80867a1c3c2d78",
+      "source_manifest": "/home/yspark/projects/ICRA/out/student-bottle-can-v1/manifest.json",
+      "teacher_quality_accepted": true,
+      "teacher_phase_violation_count": 0,
+      "first_guard_violation": null,
+      "guard_violation_ticks": 0,
+      "first_all_groups_tick": 599,
+      "first_xy_over_limit_tick": null,
+      "sustained_acquisition_tick": 624,
+      "xy_mm_at_first_guard_violation": null,
+      "groups_at_first_guard_violation": null,
+      "group_min_forces_at_first_guard_violation": null,
+      "max_xy_displacement_mm": 8.712114715626909
+    },
+    {
+      "object": "core_bottle_6444875e3217bf891f5f48a891d827bd",
+      "episode_id": "source0_teacher_0006_yaw_000",
+      "episode_sha256": "114e8e84bda23d0d5f9f4f148db777d93b4474cf81a83ca2e1f99cf5b814401f",
+      "source_manifest": "/home/yspark/projects/ICRA/out/student-bottle-can-v1/manifest.json",
+      "teacher_quality_accepted": true,
+      "teacher_phase_violation_count": 0,
+      "first_guard_violation": null,
+      "guard_violation_ticks": 0,
+      "first_all_groups_tick": 597,
+      "first_xy_over_limit_tick": null,
+      "sustained_acquisition_tick": 621,
+      "xy_mm_at_first_guard_violation": null,
+      "groups_at_first_guard_violation": null,
+      "group_min_forces_at_first_guard_violation": null,
+      "max_xy_displacement_mm": 2.3700949611342366
+    },
+    {
+      "object": "core_bottle_6444875e3217bf891f5f48a891d827bd",
+      "episode_id": "source0_teacher_0016_yaw_000",
+      "episode_sha256": "b761eb8971c505c7214fec7417bb4f493875c5c590eea3ab1c5422bf8483c70f",
+      "source_manifest": "/home/yspark/projects/ICRA/out/student-bottle-can-v1/manifest.json",
+      "teacher_quality_accepted": true,
+      "teacher_phase_violation_count": 0,
+      "first_guard_violation": null,
+      "guard_violation_ticks": 0,
+      "first_all_groups_tick": 600,
+      "first_xy_over_limit_tick": 952,
+      "sustained_acquisition_tick": 624,
+      "xy_mm_at_first_guard_violation": null,
+      "groups_at_first_guard_violation": null,
+      "group_min_forces_at_first_guard_violation": null,
+      "max_xy_displacement_mm": 10.123513316369506
+    },
+    {
+      "object": "core_can_7bd05573c09fb0c2af39ccaab9314b14",
+      "episode_id": "source1_teacher_0008_yaw_000",
+      "episode_sha256": "dcee8579cf9db46ca77ec19d0b819f9e61103ab200598d768fc4109c60ef35f1",
+      "source_manifest": "/home/yspark/projects/ICRA/out/student-bottle-can-v1/manifest.json",
+      "teacher_quality_accepted": true,
+      "teacher_phase_violation_count": 0,
+      "first_guard_violation": null,
+      "guard_violation_ticks": 0,
+      "first_all_groups_tick": 611,
+      "first_xy_over_limit_tick": 784,
+      "sustained_acquisition_tick": 635,
+      "xy_mm_at_first_guard_violation": null,
+      "groups_at_first_guard_violation": null,
+      "group_min_forces_at_first_guard_violation": null,
+      "max_xy_displacement_mm": 33.6719266978092
+    },
+    {
+      "object": "AlphabetSoup",
+      "episode_id": "teacher_0007_yaw_000",
+      "episode_sha256": "a2e828078f112040d86172b51e4a3c0c424e972ae194952837bcbe99395696a6",
+      "source_manifest": "/home/yspark/projects/ICRA/out/hope-student-intake-v2/AlphabetSoup-3149fd178f3b/visual/manifest.json",
+      "teacher_quality_accepted": true,
+      "teacher_phase_violation_count": 0,
+      "first_guard_violation": [
+        621,
+        "approach_displacement",
+        "close"
+      ],
+      "guard_violation_ticks": 91,
+      "first_all_groups_tick": 600,
+      "first_xy_over_limit_tick": 621,
+      "sustained_acquisition_tick": 712,
+      "xy_mm_at_first_guard_violation": 10.00193909981136,
+      "groups_at_first_guard_violation": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "group_min_forces_at_first_guard_violation": [
+        1.9976885046318706,
+        4.2467060540958315,
+        2.1224005709415614,
+        0.35159609950110643,
+        2.446660931256032
+      ],
+      "max_xy_displacement_mm": 49.78400839173025
+    }
+  ]
+}

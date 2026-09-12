@@ -1,0 +1,112 @@
+{
+  "training_started": false,
+  "policy_loaded": false,
+  "completed": true,
+  "data": "/data1/yspark/projects/dexprompt/student-data/hope-pilot-v1/Peaches",
+  "code": "/home/yspark/projects/DexPrompt/out/student-x0-code-v1",
+  "stages": [
+    {
+      "stage": "cache",
+      "exit_code": 0,
+      "seconds": 10.287673234939575
+    },
+    {
+      "stage": "preflight",
+      "exit_code": 0,
+      "seconds": 14.873952627182007
+    },
+    {
+      "stage": "controls",
+      "exit_code": 0,
+      "seconds": 48.06374192237854
+    },
+    {
+      "stage": "full-model",
+      "exit_code": 0,
+      "seconds": 32.91221642494202
+    }
+  ],
+  "scope": "diagnostic data integration; no independent generalization test",
+  "upstream_end_states": [
+    {
+      "phase": "completed",
+      "running": false,
+      "training_started": true,
+      "updated_at": 1789070850.91262
+    },
+    {
+      "phase": "failed",
+      "running": false,
+      "error": "RuntimeError('x0-command-audit failed with exit 2')",
+      "updated_at": 1789070940.481252
+    }
+  ],
+  "full_model": {
+    "architecture": "hx5_dexgraspvla_style_rdt",
+    "data_scope": "accepted training episodes; forward-only",
+    "data_io": "verified_memmap",
+    "cache_sha256": "f7b418a0baf5e840b1b797b0f7f0b43bd85175775994c90f5b60e42175dc26c2",
+    "vision": "local pretrained DINOv2",
+    "full_training_architecture_checked": true,
+    "optimizer_steps": 0,
+    "backward_calls": 0,
+    "model_unchanged": true,
+    "loss_finite": true,
+    "random_initialization_loss": 1.2023255825042725,
+    "prediction_shape": [
+      2,
+      64,
+      27
+    ],
+    "parameter_count": 557518875,
+    "config": {
+      "architecture": "hx5_dexgraspvla_style_rdt",
+      "action_dim": 27,
+      "state_dim": 27,
+      "action_horizon": 64,
+      "execute_steps": 8,
+      "image_size": 518,
+      "patch_size": 14,
+      "embedding_dim": 1024,
+      "layers": 12,
+      "heads": 8,
+      "mask_layers": 4,
+      "dropout": 0.1,
+      "diffusion_steps": 50,
+      "inference_steps": 16,
+      "noise_assignment": true,
+      "vision": {
+        "backend": "dinov2_local",
+        "source": "out/student-assets/dinov2",
+        "head_model": "dinov2_vitb14",
+        "head_weights": "out/student-assets/dinov2_vitb14_pretrain.pth",
+        "wrist_model": "dinov2_vitl14",
+        "wrist_weights": "out/student-assets/dinov2_vitl14_pretrain.pth"
+      },
+      "training": {
+        "seed": 42,
+        "batch_size": 2,
+        "num_workers": 0,
+        "epochs": 13,
+        "learning_rate": 0.0001,
+        "weight_decay": 0.0001,
+        "betas": [
+          0.95,
+          0.999
+        ],
+        "warmup_steps": 100,
+        "gradient_clip": 1.0
+      },
+      "observation_version": 2,
+      "goal_image_size": 224,
+      "goal_reference_policy": {
+        "min_pixels": 64,
+        "min_extent": 4,
+        "border_margin": 2,
+        "max_border_fraction": 0.1
+      },
+      "prediction_type": "x0"
+    }
+  },
+  "controls_passed": true
+}

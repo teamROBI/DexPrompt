@@ -1,0 +1,334 @@
+{
+ "label": "bowl0006",
+ "episode": "out/bowl-scale/s008o4/executed/diagnostics/teacher_0006_yaw_000.npz",
+ "ticks": 1450,
+ "control_dt": 0.02,
+ "required_groups": 5,
+ "first_all_groups_tick": 609,
+ "ticks_all_groups": 489,
+ "longest_complete_run_ticks": 72,
+ "peak_rise_mm": 105.02218762298764,
+ "final_rise_mm": 0.0008502535479015805,
+ "peak_rise_tick": 1155,
+ "transient_losses": [
+  {
+   "start": 681,
+   "end": 682,
+   "ticks": 1
+  },
+  {
+   "start": 689,
+   "end": 690,
+   "ticks": 1
+  },
+  {
+   "start": 720,
+   "end": 721,
+   "ticks": 1
+  },
+  {
+   "start": 748,
+   "end": 749,
+   "ticks": 1
+  },
+  {
+   "start": 752,
+   "end": 753,
+   "ticks": 1
+  },
+  {
+   "start": 782,
+   "end": 783,
+   "ticks": 1
+  },
+  {
+   "start": 790,
+   "end": 791,
+   "ticks": 1
+  },
+  {
+   "start": 809,
+   "end": 811,
+   "ticks": 2
+  },
+  {
+   "start": 824,
+   "end": 825,
+   "ticks": 1
+  },
+  {
+   "start": 832,
+   "end": 833,
+   "ticks": 1
+  },
+  {
+   "start": 857,
+   "end": 858,
+   "ticks": 1
+  },
+  {
+   "start": 882,
+   "end": 886,
+   "ticks": 4
+  },
+  {
+   "start": 906,
+   "end": 910,
+   "ticks": 4
+  },
+  {
+   "start": 927,
+   "end": 932,
+   "ticks": 5
+  },
+  {
+   "start": 935,
+   "end": 936,
+   "ticks": 1
+  },
+  {
+   "start": 947,
+   "end": 949,
+   "ticks": 2
+  },
+  {
+   "start": 957,
+   "end": 958,
+   "ticks": 1
+  },
+  {
+   "start": 965,
+   "end": 967,
+   "ticks": 2
+  },
+  {
+   "start": 982,
+   "end": 986,
+   "ticks": 4
+  },
+  {
+   "start": 998,
+   "end": 999,
+   "ticks": 1
+  },
+  {
+   "start": 1013,
+   "end": 1014,
+   "ticks": 1
+  },
+  {
+   "start": 1021,
+   "end": 1022,
+   "ticks": 1
+  },
+  {
+   "start": 1043,
+   "end": 1045,
+   "ticks": 2
+  },
+  {
+   "start": 1054,
+   "end": 1056,
+   "ticks": 2
+  },
+  {
+   "start": 1061,
+   "end": 1062,
+   "ticks": 1
+  },
+  {
+   "start": 1080,
+   "end": 1082,
+   "ticks": 2
+  },
+  {
+   "start": 1089,
+   "end": 1090,
+   "ticks": 1
+  },
+  {
+   "start": 1098,
+   "end": 1099,
+   "ticks": 1
+  },
+  {
+   "start": 1114,
+   "end": 1116,
+   "ticks": 2
+  },
+  {
+   "start": 1130,
+   "end": 1132,
+   "ticks": 2
+  },
+  {
+   "start": 1141,
+   "end": 1142,
+   "ticks": 1
+  },
+  {
+   "start": 1146,
+   "end": 1148,
+   "ticks": 2
+  },
+  {
+   "start": 1149,
+   "end": 1151,
+   "ticks": 2
+  },
+  {
+   "start": 1153,
+   "end": 1156,
+   "ticks": 3
+  }
+ ],
+ "sustained_losses": [
+  {
+   "start": 1157,
+   "end": 1450,
+   "ticks": 293
+  }
+ ],
+ "first_loss": {
+  "tick": 681,
+  "phase": "lift",
+  "digits_missing": [
+   2
+  ],
+  "rise_mm": {
+   "before": 4.761688026460376,
+   "at": 16.380405661687526,
+   "after": 25.65755504756506,
+   "peak_so_far": 16.380405661687526
+  },
+  "digit_force_N": {
+   "before": [
+    3.927,
+    0.531,
+    1.808,
+    0.594,
+    1.449
+   ],
+   "at": [
+    3.661,
+    0.0,
+    1.848,
+    0.276,
+    1.634
+   ],
+   "after": [
+    3.76,
+    0.369,
+    1.622,
+    0.678,
+    1.447
+   ],
+   "peak_before": [
+    15.182,
+    12.566,
+    11.677,
+    21.919,
+    15.153
+   ]
+  },
+  "group_force_min_N": {
+   "before": [
+    3.604,
+    0.477,
+    1.634,
+    0.538,
+    1.397
+   ],
+   "at": [
+    3.357,
+    0.0,
+    1.656,
+    0.223,
+    1.592
+   ]
+  },
+  "penetration_mm": {
+   "before": 0.6426573029903971,
+   "at": 0.6206481071526433,
+   "after": 0.6296472680835865,
+   "peak_before": 1.8240369420973988
+  },
+  "joint_error_rad": {
+   "arm_max_before": 0.03233327715031553,
+   "arm_max_at": 0.027091285219603245,
+   "finger_max_before": 0.001710809983391015,
+   "finger_max_at": 0.0017185255544979183
+  }
+ },
+ "first_unrecovered_loss": {
+  "tick": 1157,
+  "phase": "hold",
+  "digits_missing": [
+   4
+  ],
+  "rise_mm": {
+   "before": 103.4534148504126,
+   "at": 104.9766891881636,
+   "after": -0.0008979169160427958,
+   "peak_so_far": 105.02218762298764
+  },
+  "digit_force_N": {
+   "before": [
+    2.654,
+    0.701,
+    0.514,
+    0.343,
+    1.844
+   ],
+   "at": [
+    1.774,
+    0.275,
+    0.649,
+    0.368,
+    0.784
+   ],
+   "after": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "peak_before": [
+    15.182,
+    12.566,
+    11.677,
+    21.919,
+    15.153
+   ]
+  },
+  "group_force_min_N": {
+   "before": [
+    2.317,
+    0.59,
+    0.238,
+    0.227,
+    1.787
+   ],
+   "at": [
+    1.146,
+    0.157,
+    0.33,
+    0.0,
+    0.691
+   ]
+  },
+  "penetration_mm": {
+   "before": 0.6038086477183422,
+   "at": 0.44394773776349067,
+   "after": 0.0,
+   "peak_before": 1.8240369420973988
+  },
+  "joint_error_rad": {
+   "arm_max_before": 0.1041320686165883,
+   "arm_max_at": 0.1000560031903368,
+   "finger_max_before": 0.006261157040177823,
+   "finger_max_at": 0.005850650283780956
+  }
+ }
+}

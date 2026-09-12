@@ -1,0 +1,11 @@
+{
+  "scope": "first command vs archived teacher target, arm 7 joints",
+  "direct": {
+    "max_error_rad": 0.0255230437,
+    "rmse_rad": 0.0140181638
+  },
+  "state_residual": {
+    "max_error_rad": 0.0913514494895935,
+    "rmse_rad": 0.04183694832075316
+  }
+}

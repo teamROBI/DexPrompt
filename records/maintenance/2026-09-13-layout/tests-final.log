@@ -1,0 +1,22 @@
+........................................................................ [  9%]
+........................................................................ [ 19%]
+........................................................................ [ 29%]
+........................................................................ [ 39%]
+........................................................................ [ 49%]
+........................................................................ [ 59%]
+........................................................................ [ 69%]
+........................................................................ [ 79%]
+........................................................................ [ 89%]
+........................................................................ [ 99%]
+....                                                                     [100%]
+=============================== warnings summary ===============================
+tests/simulation/test_contact_scope.py: 69 warnings
+  /home/yspark/projects/ICRA/third_party/dexonomy/dexonomy/sim/mujoco_env.py:391: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+    body1_name = self._model.body(self._model.geom(contact.geom1).bodyid).name
+
+tests/simulation/test_contact_scope.py: 69 warnings
+  /home/yspark/projects/ICRA/third_party/dexonomy/dexonomy/sim/mujoco_env.py:392: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+    body2_name = self._model.body(self._model.geom(contact.geom2).bodyid).name
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+724 passed, 138 warnings in 86.66s (0:01:26)

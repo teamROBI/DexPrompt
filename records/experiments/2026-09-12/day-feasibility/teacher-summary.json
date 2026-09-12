@@ -1,0 +1,36 @@
+{
+  "finished": "2026-09-12T03:19:45+09:00",
+  "zero_edit": {
+    "AlphabetSoup/success": {
+      "reproduces": true,
+      "basis": "episode sha256 and verdict"
+    },
+    "AlphabetSoup/failure": {
+      "reproduces": true,
+      "basis": "status and every approach-direction verdict (original recorded no episode)"
+    },
+    "Peaches/success": {
+      "reproduces": true,
+      "basis": "episode sha256 and verdict"
+    },
+    "Peaches/failure": {
+      "reproduces": true,
+      "basis": "episode sha256 and verdict"
+    },
+    "Raisins/success": {
+      "reproduces": true,
+      "basis": "episode sha256 and verdict"
+    },
+    "Raisins/failure": {
+      "reproduces": true,
+      "basis": "episode sha256 and verdict"
+    }
+  },
+  "first_improvement": {},
+  "charged": 30,
+  "by_role": {
+    "zero": 6,
+    "edit": 24,
+    "reproduce": 0
+  }
+}

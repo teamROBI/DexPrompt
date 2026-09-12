@@ -1,0 +1,14 @@
+{
+  "pid": 2046559,
+  "command": [
+    "scripts/audit_visual_intake.py",
+    "--data",
+    "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/Raisins-yaw_plus15-3e8fa799/visual",
+    "--cache",
+    "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/Raisins-yaw_plus15-3e8fa799/cache",
+    "--config",
+    "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-job-v1/code-egl/configs/hx5_student.single-bottle.lecun.json",
+    "--out",
+    "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/Raisins-yaw_plus15-3e8fa799/audit"
+  ]
+}

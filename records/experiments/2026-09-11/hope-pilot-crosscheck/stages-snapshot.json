@@ -1,0 +1,133 @@
+[
+  {
+    "stage": "placement",
+    "object": "AlphabetSoup",
+    "template": null,
+    "seed": null,
+    "exit_code": 0,
+    "timed_out": false,
+    "seconds": 12.8,
+    "command": "third_party/dexonomy/.venv/bin/python scripts/check_placement.py --objects out/hope-pilot/AlphabetSoup/objects --scene out/hope-pilot-v1/checks-v3/AlphabetSoup/centre/scene.yaml --yaw 0 --out out/hope-pilot/AlphabetSoup/placement.json",
+    "tail": [
+      "AlphabetSoup                         agree   settles   0.19 mm,  0.30 deg",
+      "",
+      "settling is physics, not disagreement: it is how far the object moves",
+      "between being placed and being grasped, and a screen run against the",
+      "placed pose judges that much of a different arrangement.",
+      "out/hope-pilot/AlphabetSoup/placement.json"
+    ],
+    "errors": []
+  },
+  {
+    "stage": "observe",
+    "object": "AlphabetSoup",
+    "template": null,
+    "seed": null,
+    "exit_code": 0,
+    "timed_out": false,
+    "seconds": 7.4,
+    "command": "third_party/dexonomy/.venv/bin/python scripts/observe_scene.py --objects out/hope-pilot/AlphabetSoup/objects --scene out/hope-pilot-v1/checks-v3/AlphabetSoup/centre/scene.yaml --out out/hope-pilot/AlphabetSoup/observation",
+    "tail": [
+      "wrote out/hope-pilot/AlphabetSoup/observation/head",
+      "  640x480 from 'head', depth 0.353..6.758 m over 306560 pixels",
+      "  obj_AlphabetSoup               2589 pixels"
+    ],
+    "errors": []
+  },
+  {
+    "stage": "predict",
+    "object": "AlphabetSoup",
+    "template": "10_Power_Disk",
+    "seed": null,
+    "exit_code": 0,
+    "timed_out": false,
+    "seconds": 12.8,
+    "command": "modules/graspgenx/.venv/bin/python scripts/predict_grasps.py --template 10_Power_Disk --observation out/hope-pilot/AlphabetSoup/observation --objects out/hope-pilot/AlphabetSoup/objects --num-grasps 100 --out out/hope-pilot/AlphabetSoup/predicted",
+    "tail": [
+      "2026-09-11 02:07:23,020 - graspgenx.utils.point_cloud - INFO - Removed 9 points from point cloud",
+      "2026-09-11 02:07:24,350 - graspgenx.samplers.graspmoe - INFO - [graspmoe] generated 216 OBB candidates (36 yaws x 6 Zs, density=sparse)",
+      "2026-09-11 02:07:24,412 - graspgenx.samplers.graspmoe - INFO - [graspmoe_batch] 1 objects: obj0=140",
+      "2026-09-11 02:07:24,429 - graspgenx.utils.collision_filter - INFO - [collision] checking 140 grasps against 20000 scene points (thr=0.000m, samples=2048, device=cuda, chunk=16)",
+      "2026-09-11 02:07:24,815 - graspgenx.utils.collision_filter - INFO - [collision] 140/140 grasps collision-free",
+      "  AlphabetSoup              140 proposed ->  140 clear   hand moved 89 mm to reach its grip",
+      "",
+      "140 grasps -> out/hope-pilot/AlphabetSoup/predicted/10_Power_Disk"
+    ],
+    "errors": []
+  },
+  {
+    "stage": "filter",
+    "object": "AlphabetSoup",
+    "template": "10_Power_Disk",
+    "seed": null,
+    "exit_code": 0,
+    "timed_out": false,
+    "seconds": 228.7,
+    "command": "third_party/dexonomy/.venv/bin/python scripts/filter_grasps.py --template 10_Power_Disk --objects out/hope-pilot/AlphabetSoup/objects --scene out/hope-pilot-v1/checks-v3/AlphabetSoup/centre/scene.yaml --predicted out/hope-pilot/AlphabetSoup/predicted --out out/hope-pilot/AlphabetSoup/reachable --max-per-object 0",
+    "tail": [
+      "",
+      "the right arm reaches 854 mm from its shoulder",
+      "",
+      "object                  poses  variants  reached   kept",
+      "AlphabetSoup              140        60     2474    102   thumb 9..49 mm from the object",
+      "",
+      "variants: out_of_reach 0, ik_failure 5926, collision 1820, thumb_far 459, passed 195",
+      "102 reachable, collision-free grasps -> out/hope-pilot/AlphabetSoup/reachable/10_Power_Disk"
+    ],
+    "errors": []
+  },
+  {
+    "stage": "align",
+    "object": "AlphabetSoup",
+    "template": "10_Power_Disk",
+    "seed": 0,
+    "exit_code": 0,
+    "timed_out": false,
+    "seconds": 40.7,
+    "command": "third_party/dexonomy/.venv/bin/python scripts/align_grasps.py --objects out/hope-pilot/AlphabetSoup/objects --scene out/hope-pilot-v1/checks-v3/AlphabetSoup/centre/scene.yaml --reachable out/hope-pilot/AlphabetSoup/reachable --template 10_Power_Disk --opt-steps 4 --exp-name hopeAlphabetSoup_10_Power_Disk_s0 --seed 0",
+    "tail": [
+      "template               object                   seeds   aligned reachable",
+      "10_Power_Disk          AlphabetSoup               102       100        69",
+      "",
+      "69 aligned initializations",
+      "next: cd /home/yspark/projects/ICRA/third_party/dexonomy && .venv/bin/dexrun op=grasp_admm hand=hx5_d20 exp_name=hopeAlphabetSoup_10_Power_Disk_s0"
+    ],
+    "errors": []
+  },
+  {
+    "stage": "refine",
+    "object": "AlphabetSoup",
+    "template": "10_Power_Disk",
+    "seed": 0,
+    "exit_code": 0,
+    "timed_out": false,
+    "seconds": 645.3,
+    "command": ".venv/bin/dexrun op=grasp_admm hand=hx5_d20 exp_name=hopeAlphabetSoup_10_Power_Disk_s0 op.grasp.step=400 n_worker=2 hydra.verbose=true",
+    "tail": [
+      "[2026-09-11 02:21:46,104][root][DEBUG] - save to output/hopeAlphabetSoup_10_Power_Disk_s0_hx5_d20/grasp_data/10_Power_Disk/AlphabetSoup/0_18_grasp.npy",
+      "[2026-09-11 02:21:53,801][root][DEBUG] - save to output/hopeAlphabetSoup_10_Power_Disk_s0_hx5_d20/grasp_data/10_Power_Disk/AlphabetSoup/0_87_grasp.npy",
+      "[2026-09-11 02:22:04,432][root][DEBUG] - save to output/hopeAlphabetSoup_10_Power_Disk_s0_hx5_d20/grasp_data/10_Power_Disk/AlphabetSoup/0_38_grasp.npy",
+      "[2026-09-11 02:22:11,948][root][DEBUG] - save to output/hopeAlphabetSoup_10_Power_Disk_s0_hx5_d20/grasp_data/10_Power_Disk/AlphabetSoup/0_71_grasp.npy",
+      "[2026-09-11 02:22:22,868][root][DEBUG] - save to output/hopeAlphabetSoup_10_Power_Disk_s0_hx5_d20/grasp_data/10_Power_Disk/AlphabetSoup/0_97_grasp.npy",
+      "[2026-09-11 02:22:29,681][root][DEBUG] - save to output/hopeAlphabetSoup_10_Power_Disk_s0_hx5_d20/grasp_data/10_Power_Disk/AlphabetSoup/0_67_grasp.npy",
+      "[2026-09-11 02:22:40,244][root][DEBUG] - save to output/hopeAlphabetSoup_10_Power_Disk_s0_hx5_d20/grasp_data/10_Power_Disk/AlphabetSoup/0_60_grasp.npy",
+      "[2026-09-11 02:22:40,375][root][INFO] - Finish grasp generation"
+    ],
+    "errors": []
+  },
+  {
+    "stage": "select",
+    "object": "AlphabetSoup",
+    "template": "10_Power_Disk",
+    "seed": 0,
+    "exit_code": 0,
+    "timed_out": false,
+    "seconds": 11.6,
+    "command": "third_party/dexonomy/.venv/bin/python scripts/collect_teacher_dataset.py select --grasps /home/yspark/projects/ICRA/third_party/dexonomy/output/hopeAlphabetSoup_10_Power_Disk_s0_hx5_d20/grasp_data --objects out/hope-pilot/AlphabetSoup/objects --scene out/hope-pilot-v1/checks-v3/AlphabetSoup/centre/scene.yaml --out out/hope-pilot/AlphabetSoup/manifests/AlphabetSoup-10_Power_Disk-s0.json --limit 64",
+    "tail": [
+      "15 candidate(s) dropped: the open hand is already inside the object at the teacher pose",
+      "{\"selected\": 39, \"manifest\": \"out/hope-pilot/AlphabetSoup/manifests/AlphabetSoup-10_Power_Disk-s0.json\", \"verdicts\": \"out/hope-pilot/AlphabetSoup/manifests/AlphabetSoup-10_Power_Disk-s0.verdicts.json\"}"
+    ],
+    "errors": []
+  }
+]

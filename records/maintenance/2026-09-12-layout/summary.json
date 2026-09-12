@@ -1,0 +1,10 @@
+{
+  "protected_files": 70,
+  "protected_hash_mismatches": [],
+  "tests_passed": 701,
+  "root_scripts": 32,
+  "root_markdown": 4,
+  "legacy_results_link": "records/experiments",
+  "legacy_scratchpad_link": "records/scratchpad",
+  "src_migration": "deferred until active jobs finish"
+}

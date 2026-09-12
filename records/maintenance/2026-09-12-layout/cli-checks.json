@@ -1,0 +1,35 @@
+[
+  {
+    "command": [
+      "scripts/teacher/generate_grasps.py",
+      "--help"
+    ],
+    "exit_code": 0,
+    "error": null
+  },
+  {
+    "command": [
+      "scripts/rl/train_approach_rl.py",
+      "--help"
+    ],
+    "exit_code": 0,
+    "error": null
+  },
+  {
+    "command": [
+      "scripts/ops/run_upstream_student_lecun.py",
+      "--help"
+    ],
+    "exit_code": 0,
+    "error": null
+  },
+  {
+    "command": [
+      "scripts/run.py",
+      "audit_student_failure.py",
+      "--help"
+    ],
+    "exit_code": 0,
+    "error": null
+  }
+]

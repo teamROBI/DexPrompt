@@ -1,0 +1,332 @@
+{
+  "mode": "closed_loop_student",
+  "episode_id": "source0_source0_teacher_0002_yaw_000",
+  "source_episode_accepted": true,
+  "compiled_profile": {
+    "actuator_force_limits": [
+      [
+        -61.4,
+        61.4
+      ],
+      [
+        -61.4,
+        61.4
+      ],
+      [
+        -31.7,
+        31.7
+      ],
+      [
+        -31.7,
+        31.7
+      ],
+      [
+        -31.7,
+        31.7
+      ],
+      [
+        -31.7,
+        31.7
+      ],
+      [
+        -5.1,
+        5.1
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ],
+      [
+        -3.09,
+        3.09
+      ]
+    ],
+    "actuator_kp": [
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      200.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0
+    ],
+    "actuator_kv": [
+      76.69613914658487,
+      76.61867714729803,
+      35.05071945329333,
+      49.486099138808804,
+      34.82238704850415,
+      37.646980286379545,
+      10.539745185258433,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0
+    ],
+    "contact_solimp": [
+      [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ]
+    ],
+    "contact_solref": [
+      [
+        0.02,
+        1.0
+      ]
+    ],
+    "force_semantics": "sum of nonnegative contact-normal forces per whole digit, N",
+    "geom_condim": [
+      3,
+      4
+    ],
+    "geom_friction": [
+      [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      [
+        1.0,
+        0.05,
+        0.0001
+      ],
+      [
+        1.8,
+        0.005,
+        0.0001
+      ],
+      [
+        5.0,
+        1.0,
+        0.3
+      ]
+    ],
+    "integrator": 3,
+    "iterations": 100,
+    "mujoco_version": "3.3.3",
+    "note": "object anti-spin friction also mixes into finger-object contacts; defaults unchanged",
+    "solver": 2,
+    "target_mass_kg": 0.09528842996904349,
+    "timestep": 0.002,
+    "tolerance": 1e-08
+  },
+  "model_sha256": "f183993f472bb65c2d71697a7ad8c06f4ff28e1c92f690de5c3a8a7609e4b5c7",
+  "initial_state_sha256": "bb132b05e5a7babb7603ab566d500b47a0e109c46f24cb7d289063dc47ed79b0",
+  "observation_shapes": {
+    "rgbm": [
+      256,
+      256,
+      4
+    ],
+    "right_cam_img": [
+      256,
+      256,
+      3
+    ],
+    "right_state": [
+      27
+    ],
+    "part_mask": [
+      256,
+      256
+    ],
+    "wrist_mask": [
+      256,
+      256
+    ],
+    "wrist_part_mask": [
+      256,
+      256
+    ],
+    "target_pixels": [
+      4
+    ],
+    "target_visible": [
+      4
+    ]
+  },
+  "optimizer_steps_executed": 0,
+  "backward_calls": 0,
+  "scope": "same archived reset; no object/pose perturbations",
+  "guard": "target XY displacement until sustained required-contact acquisition; all other quality limits throughout; no teacher phase labels",
+  "checkpoint_sha256": "a5100b38f9c1fb6440386a70da4acf6023c1a91f8d9ff10d4c6d932686244aca",
+  "training_overlap": true,
+  "changed_sources": [],
+  "replays": [
+    {
+      "ticks": 974,
+      "seed": 1000,
+      "failure_reason": null,
+      "contact_acquisition_tick": null,
+      "evaluation_contract": "contact_acquisition_guard_v2",
+      "terminal_lift_seconds": 0.0,
+      "terminal_teacher_contact_lift_seconds": 0.0,
+      "longest_lift_seconds": 0.0,
+      "longest_teacher_contact_lift_seconds": 0.0,
+      "sustained_lift": false,
+      "teacher_compliant_lift": false,
+      "max_height_m": 4.924585579324514e-07,
+      "max_penetration_m": 0.0,
+      "max_digit_force_n": 0.0,
+      "saturated_command_ticks": 0,
+      "required_contact_groups": 2,
+      "max_simultaneous_contact_groups": 0,
+      "terminal_contact_groups": 0,
+      "all_contact_groups_ticks": 0
+    },
+    {
+      "ticks": 974,
+      "seed": 1001,
+      "failure_reason": null,
+      "contact_acquisition_tick": null,
+      "evaluation_contract": "contact_acquisition_guard_v2",
+      "terminal_lift_seconds": 0.0,
+      "terminal_teacher_contact_lift_seconds": 0.0,
+      "longest_lift_seconds": 0.0,
+      "longest_teacher_contact_lift_seconds": 0.0,
+      "sustained_lift": false,
+      "teacher_compliant_lift": false,
+      "max_height_m": 0.0009982772962996433,
+      "max_penetration_m": 0.0003025249876373966,
+      "max_digit_force_n": 0.8558285031254271,
+      "saturated_command_ticks": 0,
+      "required_contact_groups": 2,
+      "max_simultaneous_contact_groups": 1,
+      "terminal_contact_groups": 0,
+      "all_contact_groups_ticks": 0
+    },
+    {
+      "ticks": 974,
+      "seed": 1002,
+      "failure_reason": null,
+      "contact_acquisition_tick": null,
+      "evaluation_contract": "contact_acquisition_guard_v2",
+      "terminal_lift_seconds": 0.0,
+      "terminal_teacher_contact_lift_seconds": 0.0,
+      "longest_lift_seconds": 0.0,
+      "longest_teacher_contact_lift_seconds": 0.0,
+      "sustained_lift": false,
+      "teacher_compliant_lift": false,
+      "max_height_m": 0.000996450080432365,
+      "max_penetration_m": 0.0006979069976682645,
+      "max_digit_force_n": 5.618443555436306,
+      "saturated_command_ticks": 0,
+      "required_contact_groups": 2,
+      "max_simultaneous_contact_groups": 1,
+      "terminal_contact_groups": 0,
+      "all_contact_groups_ticks": 0
+    }
+  ]
+}

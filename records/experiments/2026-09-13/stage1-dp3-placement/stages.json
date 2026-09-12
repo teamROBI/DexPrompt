@@ -1,0 +1,42 @@
+[
+  {
+    "stage": "prepare",
+    "started_at": 1789225966.0266027,
+    "timeout": false,
+    "pid": 2531313,
+    "exit_code": 0,
+    "finished_at": 1789226025.3245022
+  },
+  {
+    "stage": "controls",
+    "started_at": 1789226025.3253143,
+    "timeout": false,
+    "pid": 2534256,
+    "exit_code": 0,
+    "finished_at": 1789226437.0329645
+  },
+  {
+    "stage": "train",
+    "started_at": 1789226437.0339105,
+    "timeout": false,
+    "pid": 2554794,
+    "exit_code": 0,
+    "finished_at": 1789227468.1008947
+  },
+  {
+    "stage": "diagnostic",
+    "started_at": 1789227468.101796,
+    "timeout": false,
+    "pid": 2604689,
+    "exit_code": 0,
+    "finished_at": 1789227903.646732
+  },
+  {
+    "stage": "heldout",
+    "started_at": 1789227903.6483076,
+    "timeout": false,
+    "pid": 2626351,
+    "exit_code": 0,
+    "finished_at": 1789229000.3825352
+  }
+]

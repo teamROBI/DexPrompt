@@ -1,3 +1,9 @@
+<!-- research-scope-2026-09-12 -->
+> **현재 범위 (2026-09-12):** [두 단계 연구 정의](../RESEARCH_PLAN.md)를 따른다.
+> ① 정확한 형상 기반 Dexonomy 파지 선정·시범 적응 학습/자동 수집, ② 물체 선택 조건부 시각 행동 BC.
+> 아래 part API/부위 마스크는 선택적 호환 기능이며 필수 과제가 아니다. mask·DINO는 DexGraspVLA 설계와 양립한다.
+> 날짜가 붙은 실행/미실행 상태와 명령은 당시 기록이다. 현재 완료 여부와 재개는 RESUME의 원격 산출물로 확인한다.
+
 # Local patches for the optional GraspGenX route
 
 These files reproduce local changes in the sibling NVlabs/GraspGenX checkout,

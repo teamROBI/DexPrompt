@@ -1,0 +1,514 @@
+{
+  "completed": true,
+  "training_started": false,
+  "new_physics_runs": 0,
+  "handoff_sha256": "22e6c6452139538c6e1b9e22b847a6a5949ea92796d9043f37a5e8e9a366f6ab",
+  "ledger_sha256": "c13269dc4eddd1c5542ee5d33f86272837c1c74d1889653cfc9e10c764fd0402",
+  "prior_cost_counts": {
+    "final_valid_new_attempts": 48,
+    "reproductions": 8,
+    "infrastructure_complete_episodes": 4,
+    "infrastructure_partial_starts": 1,
+    "input_refusals_before_simulation": 12,
+    "physics_starts_total": 61
+  },
+  "prior_physics_rows": 61,
+  "roles": {
+    "control": 3,
+    "new": 12,
+    "new_reproduce": 2,
+    "placement": 4,
+    "placement_reproduce": 3
+  },
+  "all_24_episode_model_initial_hashes_valid": true,
+  "new_centre": {
+    "AlphabetSoup/failed": 3,
+    "AlphabetSoup/accepted": 1,
+    "Peaches/failed": 4,
+    "Raisins/accepted": 2,
+    "Raisins/failed": 2
+  },
+  "new_accepted_episodes": 6,
+  "new_candidates": 3,
+  "reproduced_new_episodes": 5,
+  "archived_guard": [
+    {
+      "object": "AlphabetSoup",
+      "placement": "centre",
+      "candidate": "1443cca6ceb82be8e441e021dd4747d35fa1efd1908a384b4089dd63fb7b7e71",
+      "episode_sha256": "e15f27809a660be57070908b45f644df363c4cf9cd7493eb251b77de6b33153d",
+      "reproduced": true,
+      "archived_source_guard_first_violation": null,
+      "student_ready": false,
+      "note": "Only archived signals checked; fresh visual replay and full controls still required"
+    },
+    {
+      "object": "AlphabetSoup",
+      "placement": "yaw_plus15",
+      "candidate": "1443cca6ceb82be8e441e021dd4747d35fa1efd1908a384b4089dd63fb7b7e71",
+      "episode_sha256": "41d6c926176a30bb4fca51cb52109dca769563b46d619a8d374e955a1fcd858c",
+      "reproduced": true,
+      "archived_source_guard_first_violation": null,
+      "student_ready": false,
+      "note": "Only archived signals checked; fresh visual replay and full controls still required"
+    },
+    {
+      "object": "AlphabetSoup",
+      "placement": "x_minus20mm",
+      "candidate": "1443cca6ceb82be8e441e021dd4747d35fa1efd1908a384b4089dd63fb7b7e71",
+      "episode_sha256": "c38792a505944be8aa6fb0bb7797584615a449d1f72f8e0e548d9eaf6e35e311",
+      "reproduced": true,
+      "archived_source_guard_first_violation": null,
+      "student_ready": false,
+      "note": "Only archived signals checked; fresh visual replay and full controls still required"
+    },
+    {
+      "object": "Raisins",
+      "placement": "centre",
+      "candidate": "3e8fa79936d8e9c10d2bd7d6c962e12fb6ed433f8adf0092d86fda2e0c3665e5",
+      "episode_sha256": "0c6b54becd4bbe643caec76c9a814032760cd34f808643cc85e754ac9e7f8a64",
+      "reproduced": true,
+      "archived_source_guard_first_violation": null,
+      "student_ready": false,
+      "note": "Only archived signals checked; fresh visual replay and full controls still required"
+    },
+    {
+      "object": "Raisins",
+      "placement": "centre",
+      "candidate": "438146b501aa2b0c42d32832f7b18cb2c71bda52b746b43e0bfdeb1e783c3297",
+      "episode_sha256": "668548823a64c48d9358eb6cd1a747be57ddb4bc158dbd22d34576df4702f683",
+      "reproduced": false,
+      "archived_source_guard_first_violation": null,
+      "student_ready": false,
+      "note": "Only archived signals checked; fresh visual replay and full controls still required"
+    },
+    {
+      "object": "Raisins",
+      "placement": "yaw_plus15",
+      "candidate": "3e8fa79936d8e9c10d2bd7d6c962e12fb6ed433f8adf0092d86fda2e0c3665e5",
+      "episode_sha256": "06354bdd56f810c413572b3de6a2fdbec502a737f8cba7eec1624c96723a5619",
+      "reproduced": true,
+      "archived_source_guard_first_violation": null,
+      "student_ready": false,
+      "note": "Only archived signals checked; fresh visual replay and full controls still required"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt_uuid": "d1dc49dd-9572-4a1a-b3f4-f81fcfecb404",
+      "role": "control",
+      "object": "AlphabetSoup",
+      "accepted": true,
+      "status": "completed",
+      "phases": [
+        "approach",
+        "arrive",
+        "close",
+        "descend",
+        "hold",
+        "lift",
+        "transit"
+      ],
+      "max_penetration_mm": 1.5683628340315223,
+      "max_force_n": 14.720461215146672
+    },
+    {
+      "attempt_uuid": "5d161a18-e1e0-4118-92fc-b0a98c70cb81",
+      "role": "control",
+      "object": "Peaches",
+      "accepted": true,
+      "status": "completed",
+      "phases": [
+        "approach",
+        "arrive",
+        "close",
+        "descend",
+        "hold",
+        "lift",
+        "transit"
+      ],
+      "max_penetration_mm": 1.9613581516328753,
+      "max_force_n": 28.890554327589477
+    },
+    {
+      "attempt_uuid": "703c27cd-feec-4f8e-a1db-48fa8569ddcd",
+      "role": "control",
+      "object": "Raisins",
+      "accepted": true,
+      "status": "completed",
+      "phases": [
+        "approach",
+        "arrive",
+        "close",
+        "descend",
+        "hold",
+        "lift",
+        "transit"
+      ],
+      "max_penetration_mm": 1.9997032280554494,
+      "max_force_n": 11.91546198230378
+    },
+    {
+      "attempt_uuid": "7867a13f-dd15-48a6-9a38-13b73c1481be",
+      "role": "new",
+      "object": "AlphabetSoup",
+      "accepted": false,
+      "status": "closure_timeout",
+      "phases": [
+        "approach",
+        "arrive",
+        "close",
+        "descend",
+        "transit"
+      ],
+      "max_penetration_mm": 1.999906715802142,
+      "max_force_n": 22.86336421112969
+    },
+    {
+      "attempt_uuid": "7398c76a-0eba-4bca-844e-e6fd579979b0",
+      "role": "new",
+      "object": "AlphabetSoup",
+      "accepted": false,
+      "status": "lift_timeout",
+      "phases": [
+        "approach",
+        "arrive",
+        "close",
+        "descend",
+        "lift",
+        "transit"
+      ],
+      "max_penetration_mm": 1.9197941675789703,
+      "max_force_n": 18.084133859150203
+    },
+    {
+      "attempt_uuid": "85eaed0f-8510-43fd-b8f8-d9a71becc19c",
+      "role": "new",
+      "object": "AlphabetSoup",
+      "accepted": true,
+      "status": "completed",
+      "phases": [
+        "approach",
+        "arrive",
+        "close",
+        "descend",
+        "hold",
+        "lift",
+        "transit"
+      ],
+      "max_penetration_mm": 1.9996325435148832,
+      "max_force_n": 29.942162888453396
+    },
+    {
+      "attempt_uuid": "94bc053c-30b3-4aa3-8da8-ecd62d2c26a1",
+      "role": "new",
+      "object": "AlphabetSoup",
+      "accepted": false,
+      "status": "closure_timeout",
+      "phases": [
+        "approach",
+        "arrive",
+        "close",
+        "descend",
+        "transit"
+      ],
+      "max_penetration_mm": 1.99890504227174,
+      "max_force_n": 20.50911136312695
+    },
+    {
+      "attempt_uuid": "64cd5d0f-f7d4-4858-ad60-54ee96cd311f",
+      "role": "new_reproduce",
+      "object": "AlphabetSoup",
+      "accepted": true,
+      "status": "completed",
+      "phases": [
+        "approach",
+        "arrive",
+        "close",
+        "descend",
+        "hold",
+        "lift",
+        "transit"
+      ],
+      "max_penetration_mm": 1.9996325435148832,
+      "max_force_n": 29.942162888453396
+    },
+    {
+      "attempt_uuid": "757e4674-4667-428b-9667-9c30c1ef44ff",
+      "role": "placement",
+      "object": "AlphabetSoup",
+      "accepted": true,
+      "status": "completed",
+      "phases": [
+        "approach",
+        "arrive",
+        "close",
+        "descend",
+        "hold",
+        "lift",
+        "transit"
+      ],
+      "max_penetration_mm": 1.9851658703454378,
+      "max_force_n": 29.266708436687303
+    },
+    {
+      "attempt_uuid": "1fdf8c2c-7586-4875-9c44-990af80bc4d4",
+      "role": "placement_reproduce",
+      "object": "AlphabetSoup",
+      "accepted": true,
+      "status": "completed",
+      "phases": [
+        "approach",
+        "arrive",
+        "close",
+        "descend",
+        "hold",
+        "lift",
+        "transit"
+      ],
+      "max_penetration_mm": 1.9851658703454378,
+      "max_force_n": 29.266708436687303
+    },
+    {
+      "attempt_uuid": "549c6a36-3bbc-4f61-851c-68a8a7264542",
+      "role": "placement",
+      "object": "AlphabetSoup",
+      "accepted": true,
+      "status": "completed",
+      "phases": [
+        "approach",
+        "arrive",
+        "close",
+        "descend",
+        "hold",
+        "lift",
+        "transit"
+      ],
+      "max_penetration_mm": 1.9995964041424805,
+      "max_force_n": 29.9017117306883
+    },
+    {
+      "attempt_uuid": "b8428a92-8ce1-4158-80e5-e2a0d23ce731",
+      "role": "placement_reproduce",
+      "object": "AlphabetSoup",
+      "accepted": true,
+      "status": "completed",
+      "phases": [
+        "approach",
+        "arrive",
+        "close",
+        "descend",
+        "hold",
+        "lift",
+        "transit"
+      ],
+      "max_penetration_mm": 1.9995964041424805,
+      "max_force_n": 29.9017117306883
+    },
+    {
+      "attempt_uuid": "677c5b3d-008c-4353-9937-80cadcd5dbf5",
+      "role": "new",
+      "object": "Peaches",
+      "accepted": false,
+      "status": "no_quality_feasible_command",
+      "phases": [
+        "approach",
+        "arrive",
+        "close",
+        "descend",
+        "transit"
+      ],
+      "max_penetration_mm": 1.9599191170952068,
+      "max_force_n": 18.68214086857999
+    },
+    {
+      "attempt_uuid": "80c27577-a564-447c-b691-12b9a84aef72",
+      "role": "new",
+      "object": "Peaches",
+      "accepted": false,
+      "status": "closure_timeout",
+      "phases": [
+        "approach",
+        "arrive",
+        "close",
+        "descend",
+        "transit"
+      ],
+      "max_penetration_mm": 1.9894235393964903,
+      "max_force_n": 13.601033949206604
+    },
+    {
+      "attempt_uuid": "d5d42852-6397-4d72-b792-88a88c325d18",
+      "role": "new",
+      "object": "Peaches",
+      "accepted": false,
+      "status": "no_quality_feasible_command",
+      "phases": [
+        "approach",
+        "arrive",
+        "close",
+        "descend",
+        "transit"
+      ],
+      "max_penetration_mm": 1.985668822532107,
+      "max_force_n": 18.968437794979273
+    },
+    {
+      "attempt_uuid": "c6d107c6-5945-4179-b0cc-7d07146f0719",
+      "role": "new",
+      "object": "Peaches",
+      "accepted": false,
+      "status": "closure_timeout",
+      "phases": [
+        "approach",
+        "arrive",
+        "close",
+        "descend",
+        "transit"
+      ],
+      "max_penetration_mm": 1.9998773799916012,
+      "max_force_n": 29.863175878770534
+    },
+    {
+      "attempt_uuid": "95d9999f-19e7-4d40-bd78-31f6ae579e49",
+      "role": "new",
+      "object": "Raisins",
+      "accepted": true,
+      "status": "completed",
+      "phases": [
+        "approach",
+        "arrive",
+        "close",
+        "descend",
+        "hold",
+        "lift",
+        "transit"
+      ],
+      "max_penetration_mm": 1.6777759304360786,
+      "max_force_n": 9.801307460336336
+    },
+    {
+      "attempt_uuid": "db8e3ea3-9a62-4d15-b854-7d659bab7a92",
+      "role": "new",
+      "object": "Raisins",
+      "accepted": false,
+      "status": "closure_timeout",
+      "phases": [
+        "approach",
+        "arrive",
+        "close",
+        "descend",
+        "transit"
+      ],
+      "max_penetration_mm": 1.9043441088315132,
+      "max_force_n": 19.311680161253843
+    },
+    {
+      "attempt_uuid": "20d1bd33-710a-4a9a-8507-61043e069ad1",
+      "role": "new",
+      "object": "Raisins",
+      "accepted": true,
+      "status": "completed",
+      "phases": [
+        "approach",
+        "arrive",
+        "close",
+        "descend",
+        "hold",
+        "lift",
+        "transit"
+      ],
+      "max_penetration_mm": 1.9988463446650406,
+      "max_force_n": 15.539215623404978
+    },
+    {
+      "attempt_uuid": "7d022ca8-4610-4cc6-96b2-b0f7a73fc81f",
+      "role": "new",
+      "object": "Raisins",
+      "accepted": false,
+      "status": "no_quality_feasible_command",
+      "phases": [
+        "approach",
+        "arrive",
+        "close",
+        "descend",
+        "transit"
+      ],
+      "max_penetration_mm": 1.9451683632972931,
+      "max_force_n": 14.099513926178865
+    },
+    {
+      "attempt_uuid": "145aee3b-9207-4343-8d3d-9a662d9987c1",
+      "role": "new_reproduce",
+      "object": "Raisins",
+      "accepted": true,
+      "status": "completed",
+      "phases": [
+        "approach",
+        "arrive",
+        "close",
+        "descend",
+        "hold",
+        "lift",
+        "transit"
+      ],
+      "max_penetration_mm": 1.6777759304360786,
+      "max_force_n": 9.801307460336336
+    },
+    {
+      "attempt_uuid": "f27ecfce-0a60-4edd-81c6-933c78875bde",
+      "role": "placement",
+      "object": "Raisins",
+      "accepted": true,
+      "status": "completed",
+      "phases": [
+        "approach",
+        "arrive",
+        "close",
+        "descend",
+        "hold",
+        "lift",
+        "transit"
+      ],
+      "max_penetration_mm": 1.5611576652135917,
+      "max_force_n": 9.886158115776187
+    },
+    {
+      "attempt_uuid": "eddaea68-4c08-4a14-aaeb-7981bc3b8704",
+      "role": "placement_reproduce",
+      "object": "Raisins",
+      "accepted": true,
+      "status": "completed",
+      "phases": [
+        "approach",
+        "arrive",
+        "close",
+        "descend",
+        "hold",
+        "lift",
+        "transit"
+      ],
+      "max_penetration_mm": 1.5611576652135917,
+      "max_force_n": 9.886158115776187
+    },
+    {
+      "attempt_uuid": "e86ec8d1-7996-43ec-b7b7-be31d57bf44b",
+      "role": "placement",
+      "object": "Raisins",
+      "accepted": false,
+      "status": "lift_timeout",
+      "phases": [
+        "approach",
+        "arrive",
+        "close",
+        "descend",
+        "hold",
+        "lift",
+        "transit"
+      ],
+      "max_penetration_mm": 1.8366355402713264,
+      "max_force_n": 9.860054423127762
+    }
+  ],
+  "frozen_student_pool_sha256": "f13daac296a4a851f021b7d178d92e8e917f96ae5aaafb58f02eeaac3e48b5ab"
+}

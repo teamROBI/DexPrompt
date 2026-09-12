@@ -1,0 +1,23 @@
+{
+  "teacher_new_accepted": 1,
+  "new_candidate_attempts": 8,
+  "charged_runs": 10,
+  "checks": {
+    "episode": true,
+    "model": true,
+    "initial_state": true,
+    "scene": true,
+    "reproduction_episode": true,
+    "reproduction_model": true,
+    "reproduction_initial_state": true
+  },
+  "new_outcomes": {
+    "no_validated_home_path": 1,
+    "closure_timeout": 5,
+    "no_quality_feasible_command": 1,
+    "completed": 1
+  },
+  "student_ready": false,
+  "merge_into_existing_student_data": false,
+  "scope": "file/hash and bookkeeping crosscheck; no physics rerun or student acquisition check"
+}

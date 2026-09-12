@@ -1,0 +1,674 @@
+{
+  "diagnostics": {
+    "kind": "directory"
+  },
+  "episodes": {
+    "kind": "directory"
+  },
+  "sources": {
+    "kind": "directory"
+  },
+  "simulation": {
+    "kind": "directory"
+  },
+  "attempts.json": {
+    "kind": "file",
+    "size": 102692,
+    "mtime_ns": 1788863912965592955,
+    "mode": 384,
+    "sha256": "e898f18c0845140de3ea04228b01bc04a99e723733b2ee6a3080cefbfc46ce1a"
+  },
+  "manifest.json": {
+    "kind": "file",
+    "size": 93749,
+    "mtime_ns": 1788863913725594059,
+    "mode": 436,
+    "sha256": "8e731081a6854a83581dce64334e5954b2928813d390a0662a7c553e46ea6e94"
+  },
+  "collection.json": {
+    "kind": "file",
+    "size": 2697,
+    "mtime_ns": 1788863538036908033,
+    "mode": 384,
+    "sha256": "4d4536505a4a8f83f8171f6cbb7237117cb72489bd87f2905f2ef6e5a52147ae"
+  },
+  "summary.json": {
+    "kind": "file",
+    "size": 174,
+    "mtime_ns": 1788863913725594059,
+    "mode": 384,
+    "sha256": "ee1934ab25279c1eacd5dff7a226db22d460db1989409cea861d71297b90b981"
+  },
+  "episode_entries.json": {
+    "kind": "file",
+    "size": 86074,
+    "mtime_ns": 1788863912969592961,
+    "mode": 384,
+    "sha256": "b2102c66977334fd2ad9e23dd8d4eab63ccb08d8a9fc9f0fa8a50f1d0e4c4c1b"
+  },
+  "diagnostics/teacher_0009_yaw_000.json": {
+    "kind": "file",
+    "size": 13185,
+    "mtime_ns": 1788863703689250035,
+    "mode": 436,
+    "sha256": "5ce9f6697551e519cde5b37d697a1129cc7d3c9909a7a49bb6b3b7e92b5d48be"
+  },
+  "diagnostics/teacher_0006_yaw_000.json": {
+    "kind": "file",
+    "size": 13405,
+    "mtime_ns": 1788863645185137654,
+    "mode": 436,
+    "sha256": "2c711b1aa18d36992e233e865f5fd50ab385cd14a6fc63683a67952c9ac485f8"
+  },
+  "diagnostics/teacher_0008_yaw_000.json": {
+    "kind": "file",
+    "size": 11166,
+    "mtime_ns": 1788863657429161874,
+    "mode": 384,
+    "sha256": "63d78a219780444ce869da4cf3a25a07ae7551bf1e5cbffa61b4fe5aebfbf115"
+  },
+  "diagnostics/teacher_0000_yaw_000.json": {
+    "kind": "file",
+    "size": 11155,
+    "mtime_ns": 1788863542816919005,
+    "mode": 384,
+    "sha256": "f8df31c3812f63893fa091b11e9d69f9b441a141947d863e29ef2dda49689c55"
+  },
+  "diagnostics/teacher_0010_yaw_000.json": {
+    "kind": "file",
+    "size": 11472,
+    "mtime_ns": 1788863713993268981,
+    "mode": 384,
+    "sha256": "f286d4efcf156696aafec27111dca56c6316ccb1dc457e52a90eee44b662f47b"
+  },
+  "diagnostics/teacher_0003_yaw_000.json": {
+    "kind": "file",
+    "size": 11194,
+    "mtime_ns": 1788863552200940334,
+    "mode": 384,
+    "sha256": "c39462d09eee28b14aedea30e5948627f7c8eb9c6998b35079c2180234f0253f"
+  },
+  "diagnostics/teacher_0007_yaw_000.json": {
+    "kind": "file",
+    "size": 11237,
+    "mtime_ns": 1788863655237157565,
+    "mode": 384,
+    "sha256": "01a91778c35cd19191b97721100d3449782deeac526903f1c3b0e913b540ba45"
+  },
+  "diagnostics/teacher_0009_yaw_000.npz": {
+    "kind": "file",
+    "size": 1257350,
+    "mtime_ns": 1788863703689250035,
+    "mode": 436,
+    "sha256": "922f1dea45703e68c6bc035ebaca476f78c758a1f6395d42318e29d37c8da043"
+  },
+  "diagnostics/teacher_0021_yaw_000.json": {
+    "kind": "file",
+    "size": 11206,
+    "mtime_ns": 1788863908517586474,
+    "mode": 384,
+    "sha256": "123c75d55cef2e87b53875033ede68e7118eff871a5e3de862afd0292b8e0d65"
+  },
+  "diagnostics/teacher_0022_yaw_000.json": {
+    "kind": "file",
+    "size": 11382,
+    "mtime_ns": 1788863910693589648,
+    "mode": 384,
+    "sha256": "5696cea362559fb494366a8473ab69668a63b0971eb3ed8df862637111a88938"
+  },
+  "diagnostics/teacher_0005_yaw_000.json": {
+    "kind": "file",
+    "size": 11166,
+    "mtime_ns": 1788863582873008165,
+    "mode": 384,
+    "sha256": "99ab8e25691d61cf603a817ee452145f69eec8fe6d9091a2163e01516d7800e4"
+  },
+  "diagnostics/teacher_0019_yaw_000.json": {
+    "kind": "file",
+    "size": 13407,
+    "mtime_ns": 1788863902609577819,
+    "mode": 436,
+    "sha256": "3571aee0bcf63f2c6abe799f59e2298b90a4d5577076138be29cd3c1a197686c"
+  },
+  "diagnostics/teacher_0001_yaw_000.json": {
+    "kind": "file",
+    "size": 11156,
+    "mtime_ns": 1788863545152924340,
+    "mode": 384,
+    "sha256": "4623c9707b40b027c85cb8d241995112ff5f9fa1cd2154aff2414983adeb1a3d"
+  },
+  "diagnostics/teacher_0020_yaw_000.json": {
+    "kind": "file",
+    "size": 11188,
+    "mtime_ns": 1788863905345581833,
+    "mode": 384,
+    "sha256": "5e31c39e8a327582d1011df6b98380c89c1b6c27b254b0c9e1e5d5fcb55fe234"
+  },
+  "diagnostics/teacher_0013_yaw_000.json": {
+    "kind": "file",
+    "size": 11382,
+    "mtime_ns": 1788863721213282113,
+    "mode": 384,
+    "sha256": "18d3f65d929a9f4f8e729955892f9c40e57c56cbcbd89b6d9290f464fb5a2900"
+  },
+  "diagnostics/teacher_0011_yaw_000.json": {
+    "kind": "file",
+    "size": 11163,
+    "mtime_ns": 1788863716545273636,
+    "mode": 384,
+    "sha256": "7921acbe222ac5d0a2fd04d9c0a99ac0ba0f31cca6c98bd9bcbfb1dd1c1fd86a"
+  },
+  "diagnostics/teacher_0017_yaw_000.json": {
+    "kind": "file",
+    "size": 13396,
+    "mtime_ns": 1788863840905484029,
+    "mode": 436,
+    "sha256": "9726e7df6948513285c0f95de4911739c9e2fc5cb416d1f52d4192b5285de0ac"
+  },
+  "diagnostics/teacher_0014_yaw_000.npz": {
+    "kind": "file",
+    "size": 1352293,
+    "mtime_ns": 1788863774985376366,
+    "mode": 436,
+    "sha256": "badc07c7fccabe862c0eb202d2bb065feea335cb6efc4954fb5e3ebc638006f7"
+  },
+  "diagnostics/teacher_0017_yaw_000.npz": {
+    "kind": "file",
+    "size": 1888295,
+    "mtime_ns": 1788863840905484029,
+    "mode": 436,
+    "sha256": "cff7a1097a0701a27d4230f9cb5d6986c70f15943b7f9646af33d986efb626f0"
+  },
+  "diagnostics/teacher_0019_yaw_000.npz": {
+    "kind": "file",
+    "size": 1796948,
+    "mtime_ns": 1788863902609577819,
+    "mode": 436,
+    "sha256": "d876d51cc08eda4f25ac19cb296b8071520edada45b91195e2fdeaf6e2ff5497"
+  },
+  "diagnostics/teacher_0014_yaw_000.json": {
+    "kind": "file",
+    "size": 13456,
+    "mtime_ns": 1788863774985376366,
+    "mode": 436,
+    "sha256": "5c97651c9b261e8fa154813511c6219515b61bf0ffb63ad541585a05e7926cc6"
+  },
+  "diagnostics/teacher_0016_yaw_000.json": {
+    "kind": "file",
+    "size": 11225,
+    "mtime_ns": 1788863787069396724,
+    "mode": 384,
+    "sha256": "ae810f049bf30975f542f5bdb6ca3f279440ba624791628e8065d843fd5902ce"
+  },
+  "diagnostics/teacher_0006_yaw_000.npz": {
+    "kind": "file",
+    "size": 1842394,
+    "mtime_ns": 1788863645185137654,
+    "mode": 436,
+    "sha256": "2394224c153838582ac81013195432b58cbc5eb00ad51c21b124fe106378d800"
+  },
+  "diagnostics/teacher_0012_yaw_000.json": {
+    "kind": "file",
+    "size": 11154,
+    "mtime_ns": 1788863718969278045,
+    "mode": 384,
+    "sha256": "3bf7697ab2e073a3bf1baf840dd3e7cd8e51d00fe5e2f572e12dc15f34c85b6a"
+  },
+  "diagnostics/teacher_0018_yaw_000.json": {
+    "kind": "file",
+    "size": 11199,
+    "mtime_ns": 1788863843061487416,
+    "mode": 384,
+    "sha256": "fed8863058c1f499a8b726a68406973efdbfb9f15dff10693589c2ab5d72dfd4"
+  },
+  "diagnostics/teacher_0023_yaw_000.json": {
+    "kind": "file",
+    "size": 11365,
+    "mtime_ns": 1788863912965592955,
+    "mode": 384,
+    "sha256": "ce3240c63ca094f9d6c86250322d22e9123ba0f4df9bc481b4ec1b474eb05d2e"
+  },
+  "diagnostics/teacher_0002_yaw_000.json": {
+    "kind": "file",
+    "size": 11362,
+    "mtime_ns": 1788863547356929357,
+    "mode": 384,
+    "sha256": "6bb32afd54e5b93fc96d224fb2f80b295ecebe3ca6129301f05c4ddfda14d4c6"
+  },
+  "diagnostics/teacher_0015_yaw_000.json": {
+    "kind": "file",
+    "size": 11419,
+    "mtime_ns": 1788863779577384136,
+    "mode": 384,
+    "sha256": "3e1f094b457d40c5214ac01fa09c1b3f1c22508b551f3a90a76994096648368a"
+  },
+  "episodes/teacher_0004_yaw_000.json": {
+    "kind": "file",
+    "size": 13046,
+    "mtime_ns": 1788863580681003411,
+    "mode": 436,
+    "sha256": "3ab6e9c6a1587c1f14ae43c08816a58b9360091f70ef10e87ed4feaf110e3791"
+  },
+  "episodes/teacher_0004_yaw_000.npz": {
+    "kind": "file",
+    "size": 1423546,
+    "mtime_ns": 1788863580681003411,
+    "mode": 436,
+    "sha256": "d83891fd5b06e5ec2311436dc93f8aa57f7e1dd738b193f80c98182b392b4b0c"
+  },
+  "sources/scripts": {
+    "kind": "directory"
+  },
+  "sources/src": {
+    "kind": "directory"
+  },
+  "sources/scripts/collect_episodes.py": {
+    "kind": "file",
+    "size": 53968,
+    "mtime_ns": 1788853931495007875,
+    "mode": 436,
+    "sha256": "b407f00ff1d6cb09304638875d097e8831a7228e1f5342e96abe06eb7d9c462f"
+  },
+  "sources/scripts/collect_teacher_dataset.py": {
+    "kind": "file",
+    "size": 19056,
+    "mtime_ns": 1788856510978803330,
+    "mode": 436,
+    "sha256": "a5c492fea948cb9ed62547f06d45922ac1dacafebb22a6237c55cfbf347dd3ee"
+  },
+  "sources/src/icra": {
+    "kind": "directory"
+  },
+  "sources/src/icra/objects.py": {
+    "kind": "file",
+    "size": 7070,
+    "mtime_ns": 1788792745114622021,
+    "mode": 436,
+    "sha256": "ee8ab21a246f029b6e63d09591549b30c6aa027e1f1d99577e6d021997f4464a"
+  },
+  "sources/src/icra/scene.py": {
+    "kind": "file",
+    "size": 33775,
+    "mtime_ns": 1788778109275330501,
+    "mode": 436,
+    "sha256": "1ade9cecc5ca53139513682247b1d3de3a4669bd6c90010eb8321ba1f5f5bfee"
+  },
+  "sources/src/icra/conditioning.py": {
+    "kind": "file",
+    "size": 10533,
+    "mtime_ns": 1788854027031050215,
+    "mode": 436,
+    "sha256": "6dbe8661c015ac006755132f801660092f8666336461ce9fa9be29eec776d2a4"
+  },
+  "sources/src/icra/dataset.py": {
+    "kind": "file",
+    "size": 29823,
+    "mtime_ns": 1788856387877859700,
+    "mode": 436,
+    "sha256": "1223b3765a2d20bbafdd35160cbf327dc9b409e5268b9a277f34df9d54e7bb1e"
+  },
+  "sources/src/icra/simulation.py": {
+    "kind": "file",
+    "size": 1519,
+    "mtime_ns": 1788853271262464336,
+    "mode": 436,
+    "sha256": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25"
+  },
+  "sources/src/icra/execution.py": {
+    "kind": "file",
+    "size": 29277,
+    "mtime_ns": 1788862638776292467,
+    "mode": 436,
+    "sha256": "c70636bf1f5d09e65e624150a18f17860545eec3887f7cd97b3e3e11c2251ec0"
+  },
+  "sources/src/icra/contact_control.py": {
+    "kind": "file",
+    "size": 9553,
+    "mtime_ns": 1788859946035541465,
+    "mode": 436,
+    "sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0"
+  },
+  "sources/src/icra/arm.py": {
+    "kind": "file",
+    "size": 6838,
+    "mtime_ns": 1788853992147035385,
+    "mode": 436,
+    "sha256": "54ea9a88d552204586347b17fc1cb6cedbd733a621df32a888f7702df2cabf67"
+  },
+  "simulation/teacher_0011_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788863716245273090,
+    "mode": 436,
+    "sha256": "bb132b05e5a7babb7603ab566d500b47a0e109c46f24cb7d289063dc47ed79b0"
+  },
+  "simulation/model_0017.mjb": {
+    "kind": "file",
+    "size": 189876890,
+    "mtime_ns": 1788863788729399498,
+    "mode": 436,
+    "sha256": "e2afc5c00f546f494534b22efcdbe15d79529cd15cbc83a0343fbb13d9b47c0a"
+  },
+  "simulation/model_0012.mjb": {
+    "kind": "file",
+    "size": 189876890,
+    "mtime_ns": 1788863718449277100,
+    "mode": 436,
+    "sha256": "e2afc5c00f546f494534b22efcdbe15d79529cd15cbc83a0343fbb13d9b47c0a"
+  },
+  "simulation/teacher_0003_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788863549488934197,
+    "mode": 436,
+    "sha256": "5fa755a5f88641b7258bf8a9204ee521985ef53f27b01092baf9780ec8101c2e"
+  },
+  "simulation/teacher_0005_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788863582697007783,
+    "mode": 436,
+    "sha256": "5fa755a5f88641b7258bf8a9204ee521985ef53f27b01092baf9780ec8101c2e"
+  },
+  "simulation/teacher_0010_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788863705673253701,
+    "mode": 436,
+    "sha256": "0c362acbb79f360d1aa292f496c534b5b5da3ef003bc8b2fe5abfb5434f80fc3"
+  },
+  "simulation/teacher_0021_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788863907305584703,
+    "mode": 436,
+    "sha256": "bb132b05e5a7babb7603ab566d500b47a0e109c46f24cb7d289063dc47ed79b0"
+  },
+  "simulation/model_0003.mjb": {
+    "kind": "file",
+    "size": 189876890,
+    "mtime_ns": 1788863549196933535,
+    "mode": 436,
+    "sha256": "e2afc5c00f546f494534b22efcdbe15d79529cd15cbc83a0343fbb13d9b47c0a"
+  },
+  "simulation/model_0005.mjb": {
+    "kind": "file",
+    "size": 189876890,
+    "mtime_ns": 1788863582405007150,
+    "mode": 436,
+    "sha256": "e2afc5c00f546f494534b22efcdbe15d79529cd15cbc83a0343fbb13d9b47c0a"
+  },
+  "simulation/teacher_0008_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788863657237161497,
+    "mode": 436,
+    "sha256": "bb132b05e5a7babb7603ab566d500b47a0e109c46f24cb7d289063dc47ed79b0"
+  },
+  "simulation/teacher_0022_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788863910489589351,
+    "mode": 436,
+    "sha256": "fe0ce6e8f6d597b3deeaea3ccda0de8e13ef84e96021d7aa2ff91e46afa31842"
+  },
+  "simulation/teacher_0006_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788863584797012326,
+    "mode": 436,
+    "sha256": "0c362acbb79f360d1aa292f496c534b5b5da3ef003bc8b2fe5abfb5434f80fc3"
+  },
+  "simulation/model_0021.mjb": {
+    "kind": "file",
+    "size": 189876890,
+    "mtime_ns": 1788863907033584305,
+    "mode": 436,
+    "sha256": "e2afc5c00f546f494534b22efcdbe15d79529cd15cbc83a0343fbb13d9b47c0a"
+  },
+  "simulation/model_0008.mjb": {
+    "kind": "file",
+    "size": 189876890,
+    "mtime_ns": 1788863656969160971,
+    "mode": 436,
+    "sha256": "e2afc5c00f546f494534b22efcdbe15d79529cd15cbc83a0343fbb13d9b47c0a"
+  },
+  "simulation/teacher_0013_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788863720901281549,
+    "mode": 436,
+    "sha256": "0c362acbb79f360d1aa292f496c534b5b5da3ef003bc8b2fe5abfb5434f80fc3"
+  },
+  "simulation/model_0000.mjb": {
+    "kind": "file",
+    "size": 189876890,
+    "mtime_ns": 1788863542316917860,
+    "mode": 436,
+    "sha256": "e2afc5c00f546f494534b22efcdbe15d79529cd15cbc83a0343fbb13d9b47c0a"
+  },
+  "simulation/model_0009.mjb": {
+    "kind": "file",
+    "size": 189876890,
+    "mtime_ns": 1788863659133165214,
+    "mode": 436,
+    "sha256": "e2afc5c00f546f494534b22efcdbe15d79529cd15cbc83a0343fbb13d9b47c0a"
+  },
+  "simulation/teacher_0000_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788863542604918519,
+    "mode": 436,
+    "sha256": "5fa755a5f88641b7258bf8a9204ee521985ef53f27b01092baf9780ec8101c2e"
+  },
+  "simulation/model_0010.mjb": {
+    "kind": "file",
+    "size": 189876890,
+    "mtime_ns": 1788863705393253184,
+    "mode": 436,
+    "sha256": "e2afc5c00f546f494534b22efcdbe15d79529cd15cbc83a0343fbb13d9b47c0a"
+  },
+  "simulation/model_0023.mjb": {
+    "kind": "file",
+    "size": 188926604,
+    "mtime_ns": 1788863912521592309,
+    "mode": 436,
+    "sha256": "bd7410d37e2c5ce924dbdf59c7ed82937ed8b439cf5b4a70f63e31d9a3e6a3ff"
+  },
+  "simulation/teacher_0007_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788863647181141628,
+    "mode": 436,
+    "sha256": "91d607b23909684e4e3dd4ce6fe2add3953a8f7edf780ea8f99eb44a277cea43"
+  },
+  "simulation/model_0020.mjb": {
+    "kind": "file",
+    "size": 189876890,
+    "mtime_ns": 1788863904297580297,
+    "mode": 436,
+    "sha256": "e2afc5c00f546f494534b22efcdbe15d79529cd15cbc83a0343fbb13d9b47c0a"
+  },
+  "simulation/model_0004.mjb": {
+    "kind": "file",
+    "size": 189876890,
+    "mtime_ns": 1788863553944944267,
+    "mode": 436,
+    "sha256": "e2afc5c00f546f494534b22efcdbe15d79529cd15cbc83a0343fbb13d9b47c0a"
+  },
+  "simulation/teacher_0009_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788863659425165786,
+    "mode": 436,
+    "sha256": "5fa755a5f88641b7258bf8a9204ee521985ef53f27b01092baf9780ec8101c2e"
+  },
+  "simulation/model_0013.mjb": {
+    "kind": "file",
+    "size": 189876890,
+    "mtime_ns": 1788863720633281063,
+    "mode": 436,
+    "sha256": "e2afc5c00f546f494534b22efcdbe15d79529cd15cbc83a0343fbb13d9b47c0a"
+  },
+  "simulation/teacher_0023_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788863912801592716,
+    "mode": 436,
+    "sha256": "0f8abb95249b7a55319d4bceea1bf79d94a74b925a29935e09a845f234dff65d"
+  },
+  "simulation/teacher_0002_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788863547116928813,
+    "mode": 436,
+    "sha256": "68e0960352bd4c6826f9b711c851764d7f556825269323688a50561ba6d1c897"
+  },
+  "simulation/teacher_0004_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788863554208944861,
+    "mode": 436,
+    "sha256": "bb132b05e5a7babb7603ab566d500b47a0e109c46f24cb7d289063dc47ed79b0"
+  },
+  "simulation/model_0002.mjb": {
+    "kind": "file",
+    "size": 189876890,
+    "mtime_ns": 1788863546824928148,
+    "mode": 436,
+    "sha256": "e2afc5c00f546f494534b22efcdbe15d79529cd15cbc83a0343fbb13d9b47c0a"
+  },
+  "simulation/teacher_0016_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788863781581387514,
+    "mode": 436,
+    "sha256": "91d607b23909684e4e3dd4ce6fe2add3953a8f7edf780ea8f99eb44a277cea43"
+  },
+  "simulation/teacher_0018_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788863842881487133,
+    "mode": 436,
+    "sha256": "91d607b23909684e4e3dd4ce6fe2add3953a8f7edf780ea8f99eb44a277cea43"
+  },
+  "simulation/teacher_0015_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788863776921379647,
+    "mode": 436,
+    "sha256": "0c362acbb79f360d1aa292f496c534b5b5da3ef003bc8b2fe5abfb5434f80fc3"
+  },
+  "simulation/model_0001.mjb": {
+    "kind": "file",
+    "size": 189876890,
+    "mtime_ns": 1788863544672923244,
+    "mode": 436,
+    "sha256": "e2afc5c00f546f494534b22efcdbe15d79529cd15cbc83a0343fbb13d9b47c0a"
+  },
+  "simulation/model_0015.mjb": {
+    "kind": "file",
+    "size": 189876890,
+    "mtime_ns": 1788863776653379192,
+    "mode": 436,
+    "sha256": "e2afc5c00f546f494534b22efcdbe15d79529cd15cbc83a0343fbb13d9b47c0a"
+  },
+  "simulation/model_0006.mjb": {
+    "kind": "file",
+    "size": 189876890,
+    "mtime_ns": 1788863584525011738,
+    "mode": 436,
+    "sha256": "e2afc5c00f546f494534b22efcdbe15d79529cd15cbc83a0343fbb13d9b47c0a"
+  },
+  "simulation/teacher_0019_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788863845041490518,
+    "mode": 436,
+    "sha256": "68e0960352bd4c6826f9b711c851764d7f556825269323688a50561ba6d1c897"
+  },
+  "simulation/model_0011.mjb": {
+    "kind": "file",
+    "size": 189876890,
+    "mtime_ns": 1788863715965272580,
+    "mode": 436,
+    "sha256": "e2afc5c00f546f494534b22efcdbe15d79529cd15cbc83a0343fbb13d9b47c0a"
+  },
+  "simulation/model_0022.mjb": {
+    "kind": "file",
+    "size": 188531886,
+    "mtime_ns": 1788863910217588954,
+    "mode": 436,
+    "sha256": "0d26b19f32fba7edba6fcc3975b97e92e262fc3aed53c08e9e8db0beee451465"
+  },
+  "simulation/model_0018.mjb": {
+    "kind": "file",
+    "size": 189876890,
+    "mtime_ns": 1788863842569486643,
+    "mode": 436,
+    "sha256": "e2afc5c00f546f494534b22efcdbe15d79529cd15cbc83a0343fbb13d9b47c0a"
+  },
+  "simulation/model_0016.mjb": {
+    "kind": "file",
+    "size": 189876890,
+    "mtime_ns": 1788863781277387002,
+    "mode": 436,
+    "sha256": "e2afc5c00f546f494534b22efcdbe15d79529cd15cbc83a0343fbb13d9b47c0a"
+  },
+  "simulation/model_0007.mjb": {
+    "kind": "file",
+    "size": 189876890,
+    "mtime_ns": 1788863646877141023,
+    "mode": 436,
+    "sha256": "e2afc5c00f546f494534b22efcdbe15d79529cd15cbc83a0343fbb13d9b47c0a"
+  },
+  "simulation/teacher_0017_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788863789025399992,
+    "mode": 436,
+    "sha256": "50e64dee962faa882562c47f50cb8e9bd64916f86634ff234e57d8a3b3a7409d"
+  },
+  "simulation/teacher_0001_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788863544964923912,
+    "mode": 436,
+    "sha256": "5fa755a5f88641b7258bf8a9204ee521985ef53f27b01092baf9780ec8101c2e"
+  },
+  "simulation/model_0014.mjb": {
+    "kind": "file",
+    "size": 189876890,
+    "mtime_ns": 1788863722893285153,
+    "mode": 436,
+    "sha256": "e2afc5c00f546f494534b22efcdbe15d79529cd15cbc83a0343fbb13d9b47c0a"
+  },
+  "simulation/model_0019.mjb": {
+    "kind": "file",
+    "size": 189876890,
+    "mtime_ns": 1788863844729490030,
+    "mode": 436,
+    "sha256": "e2afc5c00f546f494534b22efcdbe15d79529cd15cbc83a0343fbb13d9b47c0a"
+  },
+  "simulation/teacher_0020_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788863904605580749,
+    "mode": 436,
+    "sha256": "91d607b23909684e4e3dd4ce6fe2add3953a8f7edf780ea8f99eb44a277cea43"
+  },
+  "simulation/teacher_0014_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788863723189285687,
+    "mode": 436,
+    "sha256": "5fa755a5f88641b7258bf8a9204ee521985ef53f27b01092baf9780ec8101c2e"
+  },
+  "simulation/teacher_0012_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788863718733277617,
+    "mode": 436,
+    "sha256": "5fa755a5f88641b7258bf8a9204ee521985ef53f27b01092baf9780ec8101c2e"
+  }
+}

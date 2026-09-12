@@ -1,0 +1,133 @@
+{
+ "checkpoint": "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/bc-v1/bc.pt",
+ "conditions": 6,
+ "success": 0,
+ "results": [
+  {
+   "name": "AlphabetSoup-1443cca6ce-centre-e15f2780",
+   "success": false,
+   "failure_reason": "table_collision",
+   "ticks": 70,
+   "contact_acquisition_tick": null,
+   "terminal_teacher_contact_lift_seconds": 0.0,
+   "longest_teacher_contact_lift_seconds": 0.0,
+   "longest_lift_seconds": 0.0,
+   "max_height_m": 0.0,
+   "evaluation_contract": "contact_acquisition_guard_v2",
+   "teacher_frames": 979,
+   "horizon": 1229,
+   "first_deviation": {
+    "tick": 23,
+    "arm_max": 0.04789273900947677,
+    "finger_max": 0.10379033714632202,
+    "worst_joint": 12
+   },
+   "seconds": 1.3
+  },
+  {
+   "name": "AlphabetSoup-057c04e1d5-x_minus20mm-49df6b4a",
+   "success": false,
+   "failure_reason": "digit_force",
+   "ticks": 367,
+   "contact_acquisition_tick": null,
+   "terminal_teacher_contact_lift_seconds": 0.0,
+   "longest_teacher_contact_lift_seconds": 0.0,
+   "longest_lift_seconds": 0.0,
+   "max_height_m": 0.000641212637664812,
+   "evaluation_contract": "contact_acquisition_guard_v2",
+   "teacher_frames": 1199,
+   "horizon": 1449,
+   "first_deviation": {
+    "tick": 10,
+    "arm_max": 0.04277182325982274,
+    "finger_max": 0.10675720708998282,
+    "worst_joint": 20
+   },
+   "seconds": 6.8
+  },
+  {
+   "name": "Peaches-203b95f140-centre-3e88a9af",
+   "success": false,
+   "failure_reason": "table_collision",
+   "ticks": 233,
+   "contact_acquisition_tick": null,
+   "terminal_teacher_contact_lift_seconds": 0.0,
+   "longest_teacher_contact_lift_seconds": 0.0,
+   "longest_lift_seconds": 0.0,
+   "max_height_m": 2.4126256548129277e-12,
+   "evaluation_contract": "contact_acquisition_guard_v2",
+   "teacher_frames": 1006,
+   "horizon": 1256,
+   "first_deviation": {
+    "tick": 16,
+    "arm_max": 0.039269340618301576,
+    "finger_max": 0.10795167538776762,
+    "worst_joint": 20
+   },
+   "seconds": 4.4
+  },
+  {
+   "name": "Peaches-203b95f140-x_plus20mm-ebcec15f",
+   "success": false,
+   "failure_reason": "approach_displacement",
+   "ticks": 801,
+   "contact_acquisition_tick": null,
+   "terminal_teacher_contact_lift_seconds": 0.0,
+   "longest_teacher_contact_lift_seconds": 0.0,
+   "longest_lift_seconds": 0.0,
+   "max_height_m": 0.0006009167547338379,
+   "evaluation_contract": "contact_acquisition_guard_v2",
+   "teacher_frames": 1000,
+   "horizon": 1250,
+   "first_deviation": {
+    "tick": 19,
+    "arm_max": 0.04929816042218313,
+    "finger_max": 0.10060190208633668,
+    "worst_joint": 20
+   },
+   "seconds": 14.2
+  },
+  {
+   "name": "Raisins-0ddf3447c0-centre-fe233e9e",
+   "success": false,
+   "failure_reason": "table_collision",
+   "ticks": 42,
+   "contact_acquisition_tick": null,
+   "terminal_teacher_contact_lift_seconds": 0.0,
+   "longest_teacher_contact_lift_seconds": 0.0,
+   "longest_lift_seconds": 0.0,
+   "max_height_m": 0.0,
+   "evaluation_contract": "contact_acquisition_guard_v2",
+   "teacher_frames": 985,
+   "horizon": 1235,
+   "first_deviation": {
+    "tick": 22,
+    "arm_max": 0.03524894928870115,
+    "finger_max": 0.12130329386709748,
+    "worst_joint": 16
+   },
+   "seconds": 0.6
+  },
+  {
+   "name": "Raisins-0ddf3447c0-yaw_plus15-4089eeb6",
+   "success": false,
+   "failure_reason": "table_collision",
+   "ticks": 29,
+   "contact_acquisition_tick": null,
+   "terminal_teacher_contact_lift_seconds": 0.0,
+   "longest_teacher_contact_lift_seconds": 0.0,
+   "longest_lift_seconds": 0.0,
+   "max_height_m": 0.0,
+   "evaluation_contract": "contact_acquisition_guard_v2",
+   "teacher_frames": 1008,
+   "horizon": 1258,
+   "first_deviation": {
+    "tick": 16,
+    "arm_max": 0.056058024363841774,
+    "finger_max": 0.10399706334512404,
+    "worst_joint": 3
+   },
+   "seconds": 0.4
+  }
+ ]
+}

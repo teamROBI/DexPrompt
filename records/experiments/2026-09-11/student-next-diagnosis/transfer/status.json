@@ -1,0 +1,108 @@
+{
+  "completed": true,
+  "training_started": false,
+  "source": "/data1/yspark/sim/icra/hope-student-bundle-v1",
+  "manifest": "/home/yspark/projects/ICRA/results/2026-09-11/student-next-diagnosis/hope-bundle-transfer-manifest.json",
+  "remote_partial": "/data1/yspark/projects/dexprompt/student-data/.hope-bundle-v1.partial",
+  "remote_final": "/data1/yspark/projects/dexprompt/student-data/hope-bundle-v1",
+  "remote_record": "/data1/yspark/projects/dexprompt/student-checks/hope-bundle-v1-transfer/receipt.json",
+  "stages": [
+    {
+      "name": "prepare-remote",
+      "exit_code": 0,
+      "seconds": 0.2871920638717711
+    },
+    {
+      "name": "rsync",
+      "exit_code": 0,
+      "seconds": 14.722098642028868
+    },
+    {
+      "name": "copy-manifest",
+      "exit_code": 0,
+      "seconds": 0.2971894107758999
+    },
+    {
+      "name": "publish-manifest",
+      "exit_code": 0,
+      "seconds": 0.28627765318378806
+    },
+    {
+      "name": "guard-audit_visual_intake.py",
+      "exit_code": 0,
+      "seconds": 0.2935548797249794
+    },
+    {
+      "name": "copy-audit_visual_intake.py",
+      "exit_code": 0,
+      "seconds": 0.31059497501701117
+    },
+    {
+      "name": "publish-audit_visual_intake.py",
+      "exit_code": 0,
+      "seconds": 0.2979879751801491
+    },
+    {
+      "name": "guard-check_hope_bundle_lecun.py",
+      "exit_code": 0,
+      "seconds": 0.2817645911127329
+    },
+    {
+      "name": "copy-check_hope_bundle_lecun.py",
+      "exit_code": 0,
+      "seconds": 0.31128961499780416
+    },
+    {
+      "name": "publish-check_hope_bundle_lecun.py",
+      "exit_code": 0,
+      "seconds": 0.2948511689901352
+    },
+    {
+      "name": "guard-verify_tree_transfer.py",
+      "exit_code": 0,
+      "seconds": 0.2936502587981522
+    },
+    {
+      "name": "copy-verify_tree_transfer.py",
+      "exit_code": 0,
+      "seconds": 0.3244852260686457
+    },
+    {
+      "name": "publish-verify_tree_transfer.py",
+      "exit_code": 0,
+      "seconds": 0.3037527818232775
+    },
+    {
+      "name": "verify-partial",
+      "exit_code": 0,
+      "seconds": 4.386226093862206
+    },
+    {
+      "name": "publish-data",
+      "exit_code": 0,
+      "seconds": 0.27515449980273843
+    },
+    {
+      "name": "verify-final",
+      "exit_code": 0,
+      "seconds": 4.352073135320097
+    },
+    {
+      "name": "copy-receipt",
+      "exit_code": 0,
+      "seconds": 0.27638483326882124
+    },
+    {
+      "name": "publish-receipt",
+      "exit_code": 0,
+      "seconds": 0.29322404181584716
+    }
+  ],
+  "file_count": 156,
+  "total_bytes": 1653463986,
+  "helper_sha256": {
+    "scripts/audit_visual_intake.py": "37312efeea3ec15f1e1c8ce9397dfc81ef5be2d29620e9925567024fd46163b1",
+    "scripts/check_hope_bundle_lecun.py": "43ea2b15f7b90fc52e778c1b5a6946856fb4bf636953dec0c60c6e9e72a5f6f2",
+    "scripts/verify_tree_transfer.py": "e46111310b6f4f6e0c0f1682a63c05158b6c827157686f9f53dc35fb34a3b661"
+  }
+}

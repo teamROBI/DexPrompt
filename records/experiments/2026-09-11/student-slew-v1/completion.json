@@ -1,0 +1,42 @@
+{
+  "training_started": false,
+  "phase": "completed",
+  "started_at": 1789124916.2647152,
+  "completed": true,
+  "wall_limit_seconds": 3600,
+  "pid": 2030586,
+  "command": [
+    "/home/yspark/projects/DexPrompt/.venv-student/bin/python",
+    "-c",
+    "import runpy,sys,torch\ndef forbidden(*a,**k): raise RuntimeError('Training forbidden')\ntorch.Tensor.backward=forbidden\ntorch.autograd.backward=forbidden\ntorch.optim.AdamW.step=forbidden\nsys.argv=sys.argv[1:]\nsys.path.insert(0,'scripts')\nrunpy.run_path(sys.argv[0],run_name='__main__')\n",
+    "/home/yspark/projects/DexPrompt/out/student-x0-code-v1/scripts/replay_hx5_student_slew.py",
+    "--data",
+    "/home/yspark/projects/DexPrompt/out/student-single-bottle-v1",
+    "--episode",
+    "source0_source0_teacher_0002_yaw_000",
+    "--checkpoint",
+    "/data1/yspark/projects/dexprompt/student-runs/single-bottle-x0-v1/epoch_0012.pt",
+    "--device",
+    "cuda:0",
+    "--seed",
+    "1000",
+    "--repeats",
+    "3",
+    "--ticks",
+    "974",
+    "--allow-training-overlap",
+    "--slew-limits",
+    "/data1/yspark/projects/dexprompt/student-checks/STUDENT_NEXT_SLEW_LIMITS.json",
+    "--out",
+    "/data1/yspark/projects/dexprompt/student-checks/x0-slew-v1"
+  ],
+  "expected_hashes": {
+    "/data1/yspark/projects/dexprompt/student-runs/single-bottle-x0-v1/epoch_0012.pt": "a5100b38f9c1fb6440386a70da4acf6023c1a91f8d9ff10d4c6d932686244aca",
+    "/home/yspark/projects/DexPrompt/out/student-single-bottle-v1/manifest.json": "24233706f31ca4f241a8135e69348f2f7fe8344575946f9daec6cdb87b64f135",
+    "/home/yspark/projects/DexPrompt/out/student-x0-code-v1/scripts/replay_hx5_student_slew.py": "145de613d45a1068a1b20ae7d5f7bf2638c54e718226e5e2c9ce795aee186aab",
+    "/data1/yspark/projects/dexprompt/student-checks/STUDENT_NEXT_SLEW_LIMITS.json": "e779ea9740107247b3ec6d101b93efc1daf22521ed6069cd89f3c9a8133f6a7d"
+  },
+  "exit_code": 0,
+  "successes": 0,
+  "updated_at": 1789125533.3300877
+}

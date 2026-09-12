@@ -1,0 +1,31 @@
+{
+  "episode": "AlphabetSoup-409a5d4a75d5",
+  "ticks": 1024,
+  "state_max_abs": 0.0,
+  "signals_max_abs": {
+    "contact_groups": 0.0,
+    "group_forces_min": 0.0,
+    "group_forces_max": 0.0,
+    "digit_force_max": 0.0,
+    "target_height_min": 0.0,
+    "object_xy_displacement_max": 0.0,
+    "non_target_displacement_max": 0.0,
+    "robot_object_penetration_max": 0.0,
+    "robot_table_penetration_max": 0.0,
+    "robot_obstacle_penetration_max": 0.0
+  },
+  "outcome": {
+    "success": true,
+    "ticks": 1024,
+    "failure": null,
+    "contact_acquisition_tick": 631,
+    "terminal_hold_seconds": 2.48,
+    "longest_hold_seconds": 2.48,
+    "max_height_m": 0.1451532308325375,
+    "max_penetration_m": 0.0018226167277979875,
+    "max_digit_force_n": 28.00594909898513,
+    "evaluation_contract": "contact_acquisition_guard_v2"
+  },
+  "seconds": 26.303169338032603,
+  "passed": true
+}

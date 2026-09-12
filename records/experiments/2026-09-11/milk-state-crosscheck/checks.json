@@ -1,0 +1,45 @@
+{
+  "original_handoff_unchanged": true,
+  "physics_runs": 3,
+  "replay_record_reproduces": true,
+  "replay_max_error": 0.0,
+  "replay_boolean_mismatches": 0,
+  "accepted_assets": {
+    "episode": true,
+    "model": true,
+    "initial_state": true
+  },
+  "observations": [
+    {
+      "label": "powerdisk-success",
+      "speed_shape": [
+        2000,
+        2
+      ],
+      "all_max_rms_exact": true,
+      "robot_contact_ticks": 0,
+      "last_angular_max": 0.05799647664264015,
+      "angular_rms": 0.023952206840527276,
+      "contact_range": [
+        1,
+        4
+      ]
+    },
+    {
+      "label": "largediameter-failed",
+      "speed_shape": [
+        2000,
+        2
+      ],
+      "all_max_rms_exact": true,
+      "robot_contact_ticks": 0,
+      "last_angular_max": 0.08373909385359038,
+      "angular_rms": 0.023685578139404896,
+      "contact_range": [
+        1,
+        4
+      ]
+    }
+  ],
+  "new_physics_runs": 0
+}

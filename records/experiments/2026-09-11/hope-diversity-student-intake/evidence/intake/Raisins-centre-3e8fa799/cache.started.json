@@ -1,0 +1,11 @@
+{
+  "pid": 2045882,
+  "command": [
+    "scripts/train_hx5_student.py",
+    "prepare-cache",
+    "--data",
+    "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/Raisins-centre-3e8fa799/visual",
+    "--out",
+    "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/Raisins-centre-3e8fa799/cache"
+  ]
+}

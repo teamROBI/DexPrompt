@@ -1,0 +1,67 @@
+{
+ "episode": "teacher_0006_yaw_000",
+ "arm": "B",
+ "condition": "finger commands replaced by a fixed teacher squeeze target, ramped in; the closure's contact feedback is not used after the branch",
+ "branch_tick": 634,
+ "ticks": 1450,
+ "arm_command_sha256": "1d545a339232cc1336ef259fbc7335c938c8a5781dc43c2bba4698d86bdb6b17",
+ "gravity_compensation": "archived arm commands passed through unmodified",
+ "ramp": {
+  "rate_rad_per_tick": 0.005,
+  "gap_at_branch_rad": 0.9914158778574854,
+  "ticks": 199,
+  "command_completes_tick": 833,
+  "max_command_step_rad": 0.015000011213723852,
+  "step_at_branch_rad": 0.004981989335967274,
+  "target_within_joint_range": true,
+  "target_joint_margin_rad": 0.10004766311645508
+ },
+ "target_reached": true,
+ "measured_arrival_tick": 832,
+ "measured_arrival_delay_ticks": 198,
+ "final_residual_rad": 4.38690185546875e-05,
+ "worst_joint_residual_rad": {
+  "finger_r_joint1": 2.7865171432495117e-06,
+  "finger_r_joint2": 3.802776336669922e-05,
+  "finger_r_joint3": 2.3692846298217773e-05,
+  "finger_r_joint4": 1.1622905731201172e-05,
+  "finger_r_joint5": 1.6093254089355469e-06,
+  "finger_r_joint6": 4.3392181396484375e-05,
+  "finger_r_joint7": 1.1578202247619629e-05,
+  "finger_r_joint8": 1.2516975402832031e-06,
+  "finger_r_joint9": 1.1026859283447266e-06,
+  "finger_r_joint10": 8.702278137207031e-06,
+  "finger_r_joint11": 5.990266799926758e-06,
+  "finger_r_joint12": 4.291534423828125e-06,
+  "finger_r_joint13": 3.5762786865234375e-06,
+  "finger_r_joint14": 4.38690185546875e-05,
+  "finger_r_joint15": 1.1593103408813477e-05,
+  "finger_r_joint16": 1.430511474609375e-06,
+  "finger_r_joint17": 1.952052116394043e-06,
+  "finger_r_joint18": 2.86102294921875e-06,
+  "finger_r_joint19": 9.924173355102539e-06,
+  "finger_r_joint20": 4.351139068603516e-06
+ },
+ "contact": {
+  "required_groups": 5,
+  "ticks_all_groups": 29,
+  "groups_at_end": 0,
+  "all_groups_at_arrival": false
+ },
+ "height": {
+  "peak_rise_mm": 50.80063466539142,
+  "final_rise_mm": 0.0008670422833034763,
+  "rise_at_arrival_mm": -0.0033649117330281086
+ },
+ "quality": {
+  "accepted": false,
+  "reasons": [
+   "execution_terminated_early",
+   "robot_object_penetration_limit",
+   "digit_force_limit",
+   "insufficient_contact_preserving_hold"
+  ]
+ },
+ "elapsed_seconds": 17.0,
+ "classification": "target reached only after contact was lost or the object came down"
+}

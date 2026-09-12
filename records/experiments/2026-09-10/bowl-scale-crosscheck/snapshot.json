@@ -1,0 +1,250 @@
+{
+  "observed_at": "2026-09-10T22:33:20.726740+09:00",
+  "secondary_is_running": true,
+  "scales": {
+    "s005": {
+      "source": "out/bowl-scale/s005/reachable/10_Power_Disk/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71.stages.json",
+      "sha256": "9032ca3ef9465775d9ebcde35f3f4ff6a13b46770b3b058065a954865282cafe",
+      "proposals": 110,
+      "variants": 6600,
+      "passed_variants": 17,
+      "kept_variants": 16,
+      "passed_prediction_ids": 10
+    },
+    "s008": {
+      "source": "out/bowl-scale/s008/reachable/10_Power_Disk/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71.stages.json",
+      "sha256": "9db41abd8f92a3767c07e74b83a159fa5faccbe3b1d7373bc56aed7bbcadd0d9",
+      "proposals": 95,
+      "variants": 5700,
+      "passed_variants": 104,
+      "kept_variants": 44,
+      "passed_prediction_ids": 16
+    }
+  },
+  "alignment": [
+    {
+      "tag": "s005",
+      "seed": 0,
+      "source": "out/alignment/bowls005_10_Power_Disk_s0_hx5_d20/10_Power_Disk/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71.provenance.json",
+      "sha256": "ca2dbdf6d126063fdeee64e54c1f4272b9f2cb61ef5b50a58d2a668e9a46c0ea",
+      "padded_init_files": 16,
+      "independent_filter_passed": {
+        "pose": 16,
+        "loss": 0,
+        "collision": 0,
+        "qp": 14,
+        "fps": 16
+      },
+      "kept_after_ik_collision": 0
+    },
+    {
+      "tag": "s005o4",
+      "seed": 0,
+      "source": "out/alignment/bowls005o4_10_Power_Disk_s0_hx5_d20/10_Power_Disk/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71.provenance.json",
+      "sha256": "11aacd49e4b53eb78c4797fc84281f456028cf76907ebd935757b303a1b1b446",
+      "padded_init_files": 16,
+      "independent_filter_passed": {
+        "pose": 16,
+        "loss": 0,
+        "collision": 0,
+        "qp": 6,
+        "fps": 16
+      },
+      "kept_after_ik_collision": 1
+    },
+    {
+      "tag": "s005",
+      "seed": 1,
+      "source": "out/alignment/bowls005_10_Power_Disk_s1_hx5_d20/10_Power_Disk/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71.provenance.json",
+      "sha256": "5c32d11018ad8c8172008760faad0535a243746bb36a3f435e96371caca46073",
+      "padded_init_files": 16,
+      "independent_filter_passed": {
+        "pose": 16,
+        "loss": 0,
+        "collision": 0,
+        "qp": 13,
+        "fps": 16
+      },
+      "kept_after_ik_collision": 0
+    },
+    {
+      "tag": "s005o4",
+      "seed": 1,
+      "source": "out/alignment/bowls005o4_10_Power_Disk_s1_hx5_d20/10_Power_Disk/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71.provenance.json",
+      "sha256": "bcea9d31a06c6da95145e5190f7c698bba50c63104d340365819022bb3169f3b",
+      "padded_init_files": 16,
+      "independent_filter_passed": {
+        "pose": 16,
+        "loss": 0,
+        "collision": 0,
+        "qp": 7,
+        "fps": 16
+      },
+      "kept_after_ik_collision": 1
+    },
+    {
+      "tag": "s005",
+      "seed": 2,
+      "source": "out/alignment/bowls005_10_Power_Disk_s2_hx5_d20/10_Power_Disk/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71.provenance.json",
+      "sha256": "c89d9054bb5783144a2ac673e0a54b3326b462e5ce835eae5fa7a2204cf62f69",
+      "padded_init_files": 16,
+      "independent_filter_passed": {
+        "pose": 16,
+        "loss": 0,
+        "collision": 0,
+        "qp": 13,
+        "fps": 16
+      },
+      "kept_after_ik_collision": 0
+    },
+    {
+      "tag": "s005o4",
+      "seed": 2,
+      "source": "out/alignment/bowls005o4_10_Power_Disk_s2_hx5_d20/10_Power_Disk/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71.provenance.json",
+      "sha256": "37582dd851964a7a53a52db3c75053d613f0fff2add5f2fa2a2bc3f5dd3bb2d2",
+      "padded_init_files": 16,
+      "independent_filter_passed": {
+        "pose": 16,
+        "loss": 0,
+        "collision": 0,
+        "qp": 6,
+        "fps": 16
+      },
+      "kept_after_ik_collision": 1
+    },
+    {
+      "tag": "s008",
+      "seed": 0,
+      "source": "out/alignment/bowls008_10_Power_Disk_s0_hx5_d20/10_Power_Disk/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71.provenance.json",
+      "sha256": "d1509689a294799b058ab0638cdb3e6cc9f939f5e78f0488a2f59e626a84e5b6",
+      "padded_init_files": 44,
+      "independent_filter_passed": {
+        "pose": 44,
+        "loss": 0,
+        "collision": 0,
+        "qp": 23,
+        "fps": 44
+      },
+      "kept_after_ik_collision": 0
+    },
+    {
+      "tag": "s008o4",
+      "seed": 0,
+      "source": "out/alignment/bowls008o4_10_Power_Disk_s0_hx5_d20/10_Power_Disk/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71.provenance.json",
+      "sha256": "c6fd57e3abb390e952fbf2baaf448458474e20a8b511754c8e4e9576d66156a1",
+      "padded_init_files": 44,
+      "independent_filter_passed": {
+        "pose": 44,
+        "loss": 0,
+        "collision": 0,
+        "qp": 16,
+        "fps": 44
+      },
+      "kept_after_ik_collision": 6
+    },
+    {
+      "tag": "s008",
+      "seed": 1,
+      "source": "out/alignment/bowls008_10_Power_Disk_s1_hx5_d20/10_Power_Disk/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71.provenance.json",
+      "sha256": "54e539f4c138840e67251803157218b8cd7251d4b7ea1296d7997ece7e84a541",
+      "padded_init_files": 44,
+      "independent_filter_passed": {
+        "pose": 44,
+        "loss": 0,
+        "collision": 0,
+        "qp": 22,
+        "fps": 44
+      },
+      "kept_after_ik_collision": 0
+    },
+    {
+      "tag": "s008o4",
+      "seed": 1,
+      "source": "out/alignment/bowls008o4_10_Power_Disk_s1_hx5_d20/10_Power_Disk/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71.provenance.json",
+      "sha256": "ffa0b32833995f993fb4e15cfca0bde2b8fd6b02e39b9ffb611d302a2aee7bc8",
+      "padded_init_files": 44,
+      "independent_filter_passed": {
+        "pose": 44,
+        "loss": 0,
+        "collision": 0,
+        "qp": 8,
+        "fps": 44
+      },
+      "kept_after_ik_collision": 9
+    },
+    {
+      "tag": "s008",
+      "seed": 2,
+      "source": "out/alignment/bowls008_10_Power_Disk_s2_hx5_d20/10_Power_Disk/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71.provenance.json",
+      "sha256": "4b2b7b5238a80d1c280143828bab9be52e2ad16d88d80d8829915a3d1301bfb3",
+      "padded_init_files": 44,
+      "independent_filter_passed": {
+        "pose": 44,
+        "loss": 0,
+        "collision": 0,
+        "qp": 23,
+        "fps": 44
+      },
+      "kept_after_ik_collision": 0
+    },
+    {
+      "tag": "s008o4",
+      "seed": 2,
+      "source": "out/alignment/bowls008o4_10_Power_Disk_s2_hx5_d20/10_Power_Disk/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71.provenance.json",
+      "sha256": "10c5258f4a70fb56f71165920aed4355d9d98e8f18fc1808aabefdd6afd89f9d",
+      "padded_init_files": 44,
+      "independent_filter_passed": {
+        "pose": 44,
+        "loss": 0,
+        "collision": 0,
+        "qp": 11,
+        "fps": 44
+      },
+      "kept_after_ik_collision": 6
+    }
+  ],
+  "paired_inputs": [
+    {
+      "scale": "s005",
+      "seed": 0,
+      "variants_equal": true,
+      "template_and_contact_equal": true,
+      "filtered_poses_equal": true
+    },
+    {
+      "scale": "s005",
+      "seed": 1,
+      "variants_equal": true,
+      "template_and_contact_equal": true,
+      "filtered_poses_equal": true
+    },
+    {
+      "scale": "s005",
+      "seed": 2,
+      "variants_equal": true,
+      "template_and_contact_equal": true,
+      "filtered_poses_equal": true
+    },
+    {
+      "scale": "s008",
+      "seed": 0,
+      "variants_equal": true,
+      "template_and_contact_equal": true,
+      "filtered_poses_equal": true
+    },
+    {
+      "scale": "s008",
+      "seed": 1,
+      "variants_equal": true,
+      "template_and_contact_equal": true,
+      "filtered_poses_equal": true
+    },
+    {
+      "scale": "s008",
+      "seed": 2,
+      "variants_equal": true,
+      "template_and_contact_equal": true,
+      "filtered_poses_equal": true
+    }
+  ]
+}

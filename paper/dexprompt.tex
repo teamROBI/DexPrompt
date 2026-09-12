@@ -10,7 +10,7 @@
 \usepackage{xcolor}
 \newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
 \title{\LARGE \bf DexPrompt: Transferring Dexterous Grasp Knowledge\\
-to Part-Conditioned Visuomotor Policies}
+through Learned Demonstration Synthesis to Visual Action Policies}
 \author{}
 \begin{document}
 \maketitle
@@ -18,342 +18,260 @@ to Part-Conditioned Visuomotor Policies}
 \pagestyle{empty}
 
 \begin{abstract}
-An existing dexterous grasp expert encodes more than a terminal hand pose:
-grasp types and contact structure describe different ways to hold an object.
-We investigate whether this knowledge can be transferred through synthetic
-demonstrations to a visual policy that grasps a requested object part, without
-collecting new real-robot grasp demonstrations for the target platform.
-The proposed DexPrompt pipeline uses Dexonomy as a training-time synthesis
-teacher, converts candidates into scene-feasible approach--close--lift
-demonstrations, and provides an implemented DexGraspVLA-style visual-controller
-training path. The intended request interface grounds text, points, or masks
-into an object and an optional contact region; the current implementation uses
-explicitly supplied object identities and manual part-region annotations.
-The initial scope is a five-fingered hand grasping among a few distractors.
-Our hypothesis is that preserving teacher diversity and contact structure
-improves requested-part grasping over matched pose-only or limited-diversity
-supervision. This working draft defines the research question and evaluation
-protocol; performance of the proposed part-conditioned student and real-robot
-transfer remain to be established.
+We investigate a two-stage route from an existing dexterous grasp expert to
+visually guided grasping of a requested object. The first stage uses exact
+simulation geometry and Dexonomy's grasp-type, pose, and contact knowledge to
+learn candidate selection and demonstration adaptation. Full approach, closure,
+lift, and hold execution determines whether a generated demonstration is accepted.
+The second stage trains a DexGraspVLA-style visual action model by behavior
+cloning, using cameras, a target-object request, and robot proprioception.
+Masks provide an initial goal interface; point and language requests require
+an explicit grounding component. The intended evaluation concerns unseen object
+geometries and placements in scenes with distractors, without privileged object
+geometry at student inference. This is a working research proposal: reproducible
+teacher executions and small-scale visual training infrastructure exist, but
+learned shape-conditioned selection, demonstration-editing reinforcement learning,
+and visual generalization have not been established. We define the comparisons
+needed to test whether transferring the expert's knowledge improves demonstration
+production and downstream behavior.
 \end{abstract}
 
 \section{INTRODUCTION}
-Dexterous hands can use different finger combinations and contacts on the same
-object. A policy should exploit this diversity when the user requests a part.
-Selecting a watering can leaves a choice of feasible regions; requesting its
-handle imposes a contact constraint. Choosing a preferred region also requires
-semantics that a geometric grasp expert may not contain.
+An existing grasp expert offers several ways to hold an object, but a feasible
+hand pose alone does not specify how an arm should approach it or whether the
+object remains held during lifting. Furthermore, a policy acting on camera
+observations must identify the requested object and execute the motion despite
+occlusion and tracking error. These are two related learning problems rather
+than a single pose-prediction task.
 
-Dexonomy~\cite{dexonomy} provides existing taxonomy-based grasp expertise.
-DexGraspVLA~\cite{dexgraspvla} provides a hierarchical reference for semantic
-planning and visual action generation. We study whether synthetic execution can
-transfer the former's expertise to a student in the latter family on the
-FFW-SH5 / HX5-D20, without collecting new real grasp demonstrations.
+DexPrompt proposes to use privileged simulation during data generation and
+visual observations during deployment. Stage 1 learns which Dexonomy grasp
+candidate to use and how to adapt its demonstration to the shape and scene.
+Stage 2 learns continuous arm and hand actions from the resulting demonstrations.
+The target embodiment is the FFW-SH5 / HX5-D20. The initial instruction selects
+an object; part masks, specified contact regions, and downstream tool use are
+optional extensions, not prerequisites for this study.
 
-Synthetic, target-oriented, closed-loop grasping and functional constraints
-already have close precedents~\cite{clutterdexgrasp,demofungrasp}.
-Changing the teacher alone does not establish novelty. The question is which
-knowledge survives conversion into executable demonstrations, and whether its
-preservation improves the learned student's requested-part behavior.
+Our hypothesis is that explicit type/contact knowledge improves the yield,
+diversity, or cost of executable demonstrations, and that these improvements
+benefit a visual student under controlled training budgets. Neither using
+Dexonomy nor adding reinforcement learning (RL) establishes this benefit by
+itself. Prior work already studies grasp-conditioned execution, demonstration
+editing, and visual distillation~\cite{unidexgrasp,demofungrasp,clutterdexgrasp}.
+Dexonomy-based pretraining for manipulation is also a direct
+precedent~\cite{fromgraspstodexterity}.
 
-\textbf{Objectives, pending validation.}
-\begin{enumerate}
-\item Develop a transfer mechanism associating teacher contacts with requested
-regions while retaining useful grasp diversity during execution.
-\item Measure contact/type fidelity from teacher to demonstration to student
-under matched data and training budgets.
-\item Evaluate held-out requested-part grasping, mild-clutter robustness, and
-real-robot transfer without newly collected real grasp demonstrations.
-\end{enumerate}
-These are research objectives, not completed contributions.
+The planned contributions are a shape-conditioned selection/adaptation mechanism,
+a traceable execution-to-visual-data pipeline, and controlled evidence of the
+knowledge transferred. These remain objectives pending experiments. The phrase
+``unseen objects'' will refer to a declared geometry split and a bounded robot
+workspace, not universal physical graspability.
 
 \section{RELATED WORK}
-\textbf{Grasp knowledge and execution.}
-Dexonomy synthesizes taxonomy-conditioned grasps through annotated templates and
-object-specific refinement~\cite{dexonomy}. UniDexGrasp already combines diverse
-proposals with goal-conditioned execution and teacher--student
-learning~\cite{unidexgrasp}. Pose-to-policy transfer itself is therefore not new.
+\textbf{Taxonomy and candidate generation.}
+Dexonomy provides taxonomy-based synthesis and studies type classification and
+type-conditioned grasp generation~\cite{dexonomy}. Its learned components are a
+reference for selecting grasp types from shape, but a type score or generated
+pose is not a calibrated probability of full arm-hand execution success.
+DexGraspNet 2.0 provides scene-conditioned generative grasping~\cite{dexgraspnet2}.
+Such generators can supply candidates; motion execution and validation remain
+separate stages in our proposed comparison.
 
-\textbf{Synthetic supervision.}
-DexGraspVLA's hierarchical planner and visual diffusion controller motivate the
-student~\cite{dexgraspvla}. GraspVLA demonstrates synthetic action pretraining
-with photorealistic rendering and domain randomization~\cite{graspvla}.
-Neither precedent removes the need to test this hand's domain gaps.
+\textbf{Demonstration adaptation and privileged execution.}
+DemoFunGrasp edits demonstrations with one-step PPO~\cite{demofungrasp}. Here
+``one-step'' means selecting an edit and evaluating its executed trajectory,
+not completing a grasp in one simulator tick. Grasp style is supplied to that
+method; automatically choosing a Dexonomy type is a separate problem in ours.
+Its editing formulation is a principal reference for Stage 1, not merely
+background supporting the use of simulation.
 
-ClutterDexGrasp learns a simulation RL teacher and distills it into a DP3 student
-using partial point clouds for target-oriented closed-loop
-grasping~\cite{clutterdexgrasp}. Here Dexonomy remains the source of grasp
-knowledge; an optional RL executor learns to realize its goals with the arm.
-This distinction motivates an experiment, not a claim of superiority.
+ClutterDexGrasp learns a privileged RL teacher and distills it into a visual
+student~\cite{clutterdexgrasp}. Its shape-aware observations and curriculum
+motivate possible closed-loop extensions. It does not use Dexonomy as its
+teacher. Differences in embodiment, physics, and contact treatment prevent
+assuming that its settings transfer unchanged to our executor.
 
-\textbf{Part and functional constraints.}
-DemoFunGrasp conditions on style and affordance and edits a single demonstration
-through RL~\cite{demofungrasp}; it is not learning entirely from scratch.
-DexVLG studies semantic dexterous grasp prediction~\cite{dexvlg}.
-Part-conditioned pose prediction, executed grasping, and downstream functional
-use require distinct evaluation. Our initial task is executed requested-part
-grasping, not demonstrated pouring or tool use.
+\textbf{Visual action learning.}
+DexGraspVLA combines a language/vision planner, object masks, DINOv2 features,
+and a diffusion action controller trained from demonstrations~\cite{dexgraspvla}.
+Thus mask and DINO features are consistent with a VLA-style architecture;
+using them does not create a competing alternative to VLA. GraspVLA provides a
+reference for synthetic action pretraining~\cite{graspvla}. DexVLG predicts
+language-conditioned grasp poses~\cite{dexvlg}; pose prediction and full
+closed-loop execution require different metrics.
+From Grasps to Dexterity uses pretrained grasp representations and hierarchical
+keypoint-conditioned behavior learning~\cite{fromgraspstodexterity}. That is a
+concrete alternative architecture, not evidence that our current student already
+implements its method or inherits its generalization.
 
-\section{TASK AND SUPERVISION}
-Let $u$ denote the request, $I_t^h,I_t^w$ head and wrist images, and
-$q_t\in\mathbb{R}^{27}$ the seven arm and twenty finger joint states.
-The proposed grounding interface produces an object mask $M_t^o$, optional part
-mask $M_t^p$, and an object-only versus part-constraint flag $b$:
+\section{TASK AND INFORMATION CONTRACT}
+Let $\mathcal{M}$ be exact object geometry, $T_o$ its simulated pose, $C$ the
+scene, and $q_t\in\mathbb{R}^{27}$ the arm and finger joint configuration.
+The synthesis stage may use all these variables, contact measurements, and
+Dexonomy templates. It records both successful executions and failures.
+The visual student receives camera images $I_t$, proprioception $q_t$, and a
+request $u$. A grounding module produces a target-object mask $M_t$ from a
+provided mask, an image point, or language. A user-selected image point is not
+an object point cloud and does not impose a contact location.
+
+The student emits arm/hand actions rather than just a final grasp pose.
+Privileged mesh, object pose, teacher targets, future phase labels, and future
+contact states are unavailable at normal student inference. Their use in a
+diagnostic must be labeled as oracle input. Ground-truth simulator masks can
+provide supervision and an oracle-goal baseline, but predicted grounding must
+be evaluated separately before claiming autonomous point/language operation.
+
+The primary event is selecting the correct object and completing the defined
+approach--grasp--lift--hold task under the frozen quality contract. Required
+teacher contact groups remain part of the collection contract and a separate
+transfer metric. They do not certify an exact taxonomy label or mathematical
+force closure. Requesting a watering can alone does not require its handle;
+that would need a separately specified semantic or part constraint.
+
+\section{STAGE 1: LEARNED DEMONSTRATION SYNTHESIS}
+\subsection{Candidate Selection}
+A Dexonomy-derived candidate pool $\mathcal{G}$ contains type, wrist pose,
+pregrasp/grasp/squeeze configurations, and required contact structure. The
+proposed selector is
 \begin{equation}
-(M_t^o,M_t^p,b)=G(u,I_t^h).
+g \sim s_\phi(g\mid\mathcal{M},T_o,q_0,C,\mathcal{G}).
 \end{equation}
-Object text, object masks, and selection points identify the object. Explicit
-part text, part masks, and contact points constrain the grasp region. A selection
-point is not automatically an exact contact requirement.
-The current synthetic-data interface accepts manual unions of axis-aligned boxes
-in the object's local frame, in metres at its executed scale. The same region
-definition labels visible pixels from depth and tests physical contact points.
-Object identity, part mask, and part presence remain distinct inputs.
-\todo{Implement automatic text/point grounding, define point modes and contact
-neighborhoods, and evaluate mask tracking under occlusion.}
+A nonlearned ranking and a learned ranking must receive identical candidate
+pools and dynamic execution budgets. Full execution outcomes provide labels;
+passing a static refiner alone does not. Only attempted candidates have
+observed dynamic labels, so selection bias and unexecuted candidates must be
+reported rather than treating all untried candidates as failures.
+\todo{Specify geometry encoding, type/candidate heads, training labels, splits,
+and a nonlearned ranking baseline before fitting the selector.}
 
-The proposed visual student predicts action chunks:
+\subsection{Demonstration Editing}
+The proposed adaptation policy selects bounded edits to a candidate's reference
+motion, after which a feedback executor evaluates the entire trajectory:
+\begin{align}
+\delta &\sim \pi_\eta(\delta\mid\mathcal{M},T_o,q_0,C,g,\tau_g),\\
+\tau' &= E(\tau_g,\delta;C).
+\end{align}
+This is inspired by demonstration-editing RL~\cite{demofungrasp}. The edit
+parameterization is unresolved; pose, timing, and joint edits must respect
+kinematics and preserve an explicit relationship to the selected teacher.
+The reward must reflect full execution success, quality, and cost. Pose
+closeness cannot replace held-object success.
+\todo{Freeze edit variables, bounds, observations, reward, and rollout budget.
+Validate the unedited action reproduces the baseline before training.}
+
+Type selection and adaptation have separate ablations. First compare rankings;
+then compare unedited and edited executions of the same selected candidates.
+A fixed-candidate, seven-joint approach policy is a restricted execution tool,
+not an implementation or test of this full shape-conditioned synthesis stage.
+
+\subsection{Execution and Data Acceptance}
+The existing executor checks approach feasibility and uses contact feedback
+during closure and lift. It is retained as a baseline. Teacher squeeze joint
+angles do not replace contact feedback: a stored target need not remain
+appropriate after the object moves in the hand. No controller or acceptance
+threshold is relaxed to increase the reported yield.
+
+Each attempt retains object/mesh/scale/placement, type/template, parent candidate,
+edit, model and initial-state hashes, physics settings, phase outcomes, contact
+signals, and quality measurements. Reproduction checks are reported separately
+from new attempts. Filtering, initialization padding, refinement, execution,
+and acceptance have distinct counts. Different contact-physics configurations
+remain separate datasets until an explicit comparison justifies their use.
+
+\section{STAGE 2: VISUAL BEHAVIOR CLONING}
+The visual policy predicts action chunks from available observations:
 \begin{equation}
-a_{t:t+H-1}\sim\pi_\theta(\cdot\mid I_{\leq t}^h,I_{\leq t}^w,
-q_{\leq t},M_{\leq t}^o,M_{\leq t}^p,b).
+\hat a_{t:t+H-1}=f_\theta(I_{\leq t},M_{\leq t},q_{\leq t}).
 \end{equation}
-It executes a prefix and observes again. Language enters through grounding;
-the upstream visual controller does not directly consume raw text.
-The implemented baseline uses one current observation, a 50 Hz control cadence,
-and absolute position-servo targets ordered as seven right-arm then twenty finger
-joints. It predicts $H=64$ targets and executes a configurable prefix, initially
-eight, before observing again. Targets already contain any executor feedforward
-offset; deployment does not add that offset a second time.
-\todo{Validate horizon, prefix and observation-history choices in controlled runs.}
+Behavior cloning (BC) is the learning objective family; a diffusion action head
+is one model implementation. RGB, masks, and pretrained DINO features are
+compatible with the DexGraspVLA reference design. Our current implementation
+combines a pretrained visual encoder with a newly trained action model; it does
+not transfer the original VLA's complete pretrained action checkpoint.
 
-The setting permits existing human-annotated templates, pretrained foundation
-models, and disclosed calibration. It excludes newly collected real-robot grasp
-demonstrations for this platform, not all human information. Privileged state
-can guide synthetic execution but must not enter the deployed visual student.
+Accepted teacher executions undergo separate student intake, observation
+rendering, action/state alignment, and visibility checks. Temporary goal
+occlusion must be handled using available observation history, without revealing
+future simulator state. Existing optional part-condition fields may remain for
+compatibility, but object-only data and evaluation do not require them.
 
-\section{PROPOSED TRANSFER METHOD}
-\subsection{Teacher Candidates}
-Represent a candidate conceptually as
-\begin{equation}
-g=(T_{oh},q^{\mathrm{pre}},q^{\mathrm{grasp}},q^{\mathrm{sq}},k,C),
-\end{equation}
-with object-relative hand transform, pregrasp/grasp/squeeze configurations,
-source type $k$, and available contact annotations $C$. This is a proposed
-normalized record, not a statement that every existing file has every field.
+Low training loss or finite full-model outputs are integration checks, not
+closed-loop grasp results. Evaluation must execute the learned actions, measure
+correct-target lift and hold, and report distribution shift from demonstrations.
+A fixed-object diagnostic is useful for debugging this path but cannot stand in
+for Stage 1 selection learning or unseen-object evaluation.
+\todo{Freeze architecture, loss parameterization, action decoding, grounding,
+and dataset split for each experiment; retain sampler and checkpoint metadata.}
 
-Current preparation retargets annotated Shadow templates to HX5-D20 and uses
-Dexonomy refinement/evaluation. Anatomical correspondences are explicit;
-arbitrary-hand automation is untested. Preserve geometry identity, scale, frames,
-template revision, and original candidate identity.
+\section{CURRENT EVIDENCE AND EXPERIMENT PLAN}
+\subsection{Development Evidence, Not Final Results}
+As recorded in the development reports at this draft revision, a small HOPE A
+student-intake pool contains 12 demonstrations, 12,477 frames, three objects,
+and five teacher candidates. This is a diagnostic training pool, not an
+independent generalization benchmark. Reproducible full teacher executions have
+been obtained for some objects; static acceptance remains distinct from
+execution success and student readiness.
 
-\subsection{Region Association and Executable Demonstrations}
-The region interface and execution gate associate manually requested regions with
-teacher contacts. Each annotated contact-body group must carry positive normal
-force inside the region; significant outside-region contacts on those annotated
-bodies invalidate part compliance. This checks annotated groups, not an exact
-taxonomy label or every possible contact on the hand. Geometric contacts are not
-semantic part labels, and manual box regions are not automatic semantic grounding.
-The current geometric feedback seeks missing object contacts; it does not by
-itself plan an alternative region-compatible grasp when the original candidate
-is unsuitable. Such executions remain failures under the part gate.
-\todo{Validate region-compatible candidate selection and preservation objectives
-across parts, contact-body groups and grasp types.}
+Prior fixed-task approach experiments transferred a scripted approach with BC;
+PPO gains depended on training seed. They did not train the proposed
+shape-conditioned selector or editing policy. Visual-model training and
+evaluation infrastructure exists, but unseen-object visual success is not
+established. Ongoing-job outcomes must be read from their final archived
+reports before adding result tables. A separate Milk experiment uses different
+contact physics and fails a sustained initial-stability check; teacher success
+there does not authorize merging it into the A student pool.
 
-Execute approach, closure, and sustained lift with the arm, table, and intended
-distractors. IK/scripted execution is a baseline. An RL executor is an optional
-means of realizing teacher goals, not a replacement for Dexonomy or a mandatory
-paper contribution. Record original and adjusted candidates, failure reasons,
-and resulting contact/type changes. Lifting with a different grasp is not
-automatic evidence that the original knowledge was preserved.
-
-The implemented non-RL collector screens complete dynamic home approaches along
-candidate local directions, then applies contact/force feedback with bounded
-multi-interval command previews. It preserves the complete simulator integration
-state around IK and previews, and commits only accepted controller updates.
-Lift progress pauses when contact or command acceptance is lost. Completion
-requires a continuous measured contact-supported hold. This is a bounded local
-executor, not a complete constrained motion planner or a hardware safety controller.
-
-The current experimental RL executor uses privileged simulator state and staged
-open/close goals. Its corrected reward uses discount-consistent potential
-shaping, task completion, and disturbance/collision costs. Success requires
-sustained lift with teacher contact-group compliance. This is an experimental
-executor, not an established transfer method or a visual student.
-\todo{Compare corrected non-RL and RL execution on fixed tasks and budgets;
-demonstrate benefit before making the executor a claimed contribution.}
-
-\subsection{Visual Student}
-Record synchronized images, explicit conditions, states, and actions, retaining
-full-scene RGB alongside object and part masks. Preserve teacher provenance.
-The implemented schema stores pre-action head RGB/object mask, wrist RGB,
-27-dimensional state/action, optional part mask, timing and conservative
-per-physics-step contact/force/penetration evidence. Provenance includes original
-teacher/geometry hashes, original and adapted targets, compiled simulator models
-and complete initial states. Rejected trajectories remain separate from accepted
-episodes and cannot enter a training split. Legacy image/action Zarr stores lack
-the required quality evidence and are not automatically promoted to positives.
-
-A workspace-owned architectural adaptation uses frozen DINOv2 head and wrist
-encoders, separate object/part/presence mask channels, normalized joint state,
-and an RDT-style action diffusion transformer. The reference configuration uses
-twelve transformer layers, a fifty-step cosine noise schedule, epsilon prediction
-and sixteen DDIM inference steps. Action/state normalization uses only training
-episodes, and padded action targets are excluded from the objective. This is not
-an upstream policy-checkpoint conversion or an implemented language planner.
-Training, checkpoint inference, offline evaluation and saved-scene closed-loop
-replay entry points exist. Only a small forward-only fixture has been checked;
-local pretrained DINO assets and full-model forward validation remain required.
-No training or weight update of this diffusion student has been performed.
-\todo{Train after clean-data and model prerequisites pass; validate initialization,
-visual augmentation, optimization and sampling against the reference design.}
-First reproduce a small set of training tasks to test learning and interfaces;
-this is not held-out generalization. Scripted demonstrations can train a student
-that reobserves visually, but recovery depends on perturbation/correction coverage.
-
-\section{IMPLEMENTATION AND EVIDENCE STATUS}
-Hand preparation, Dexonomy synthesis, alternative scene search, a MuJoCo
-recorder, a privileged PPO executor and the preparation components described
-above exist. The current quality gate requires a clear home start, complete
-approach, and a terminal contact-preserving hold above 10 cm for at least 0.5 s.
-Default whole-trajectory limits include 2 mm robot--object penetration and 30 N
-external normal-force sum per right digit; table/distractor collision and object
-disturbance are separately checked. These are disclosed simulation-quality
-settings, not hardware-certified bounds or final paper evaluation thresholds.
-No clean accepted training set, trained diffusion policy, automatic grounding or
-downstream knowledge-transfer benefit is established. A separate historical
-small recurrent visual
-behavior-cloning diagnostic connects one synthetic close/lift trajectory to
-simulator policy execution. The open hand is initialized at the original teacher
-grasp root pose, so this test excludes approach, clutter, and part conditioning.
-It uses 350 pre-action frames at 50 Hz and 27-dimensional joint targets. The
-scripted executor reproduces a sustained lift from this state, and the small
-student also lifts in closed-loop replay. Neither preserves all five annotated
-contact groups. This diagnostic validates a bounded data/learning/execution
-connection, not the proposed contact-preserving transfer method, useful visual
-feedback, or held-out generalization. The recurrent state may memorize timing;
-blank-image inference is only an out-of-distribution sensitivity check.
-
-A subsequent matched execution diagnostic retains the same teacher grasp but
-screens six local approach directions. The default local $+Z$ route collides
-with the object despite a clear final open-hand pose. A screened $+X$ route
-reproduces the complete home--overhead--approach--close--lift sequence, including
-two stored-command replays. This is one selected candidate, not an execution
-success-rate estimate. All five contact groups exist under static squeeze-pose
-placement, but dynamic execution in that fixed-control diagnostic never preserves all five. Increased squeeze,
-arm gravity feedforward, and delayed thumb closure fail to restore compliance
-in the tested settings. This separates a candidate-specific approach failure
-from the unresolved contact-preserving closure problem. The visual student
-has not yet been retrained or evaluated on this full approach trajectory.
-
-A further privileged contact-feedback prototype regulates per-digit closure and
-uses finger Jacobians with collision geometry to approach missing annotated
-contact bodies. On the same selected task, three identical-state feedback runs
-maintain all five contact groups with positive normal forces while lifted.
-However, transient hand--object penetration reaches approximately 7.5 mm, so
-these are diagnostic contact-lift positives rather than clean demonstrations.
-Gentler settings fail to retain the lift, and a one-control-tick preview with
-explicit 2 mm penetration and 30 N per-digit force limits stops before lifting.
-These limits are diagnostic engineering choices, not hardware-certified bounds.
-The result does not establish clean physical execution, semantic part fidelity,
-held-out generalization, or a benefit to the intended visual student.
-
-An independent replay audit identifies hidden simulator-state mutations in old
-resets, IK diagnostics and post-step observation calls. Correcting observation
-warmstart preservation barely changes the saved-command trajectory's penetration.
-A tighter solver still gives approximately 7.49 mm maximum penetration, while
-replaying the same 50 Hz actions at a 1 ms physics timestep loses five-group
-compliance. These are open-loop numerical-sensitivity diagnostics, not reruns of
-the feedback controller or evidence of numerical convergence. The audit also
-records compiled object mass and the effect of object anti-spin friction on
-finger contacts; neither nominal mass nor table-specific intent determines the
-actual compiled contact model. The new collector retains these physical settings
-and records their provenance rather than changing them to pass a quality gate.
-
-A fresh schema-3 collection on the same selected candidate uses a two-control-
-interval quality preview and records the full home path. Across 1124 intervals,
-it reaches five contact groups and an interval-minimum rise of approximately
-8.42 cm, but cannot complete the required contact-preserving hold above 10 cm.
-It is therefore rejected for training. Peak penetration remains below 2 mm
-and summed normal force below 30 N per digit in this run. Replaying its archived
-full-precision actuator commands reproduces the recorded joint states and
-physics-quality signals exactly. This validates execution and measurement
-reproducibility on one task, not physical calibration or successful knowledge
-transfer. No training was run during this preparation pass.
-
-Earlier arm measurements had orientation/contact/sampling faults and are
-withdrawn. A prior static-contact displacement diagnostic did not measure
-physical lifting and cannot establish pose robustness. The stage ladder is a
-hand-only replay/shake diagnostic; its arm rung is not implemented. Invalid
-setups and unattempted rungs must be distinguished from measured failures.
-
-Initial RL logs also mixed weighted/gated reward with contact metrics, omitted
-timeout bootstrap, and did not seed policy initialization. They do not isolate
-a cause of failure or prove RL ineffective. Their height-only success criterion
-differs from the corrected contact-compliant sustained-lift criterion.
-No numerical method-performance claim is made from these historical records.
-\todo{Add reproducible executor, student, and hardware results after fresh runs.}
-
-\section{PLANNED EVALUATION}
-\subsection{Matched Comparisons}
-Use the same student, training budget, scene distribution, and episode count:
+\subsection{Controlled Comparisons}
 \begin{enumerate}
-\item Limited/type-unaware candidates versus diverse Dexonomy candidates.
-\item Pose-only conversion versus the implemented contact/type-informed mechanism.
-\item Object-only versus explicit-part input, changing only the requested part
-in the same object/scene.
-\item Oracle grounding versus predicted grounding.
+\item Same pool and execution budget: nonlearned versus learned selection.
+\item Same candidates and physics: unedited versus learned demonstration edits.
+\item Same student and training budget: data produced by the compared synthesis
+methods, reporting both equal-data and collection-cost effects where feasible.
+\item Type/contact-informed transfer versus a clearly defined reduced-knowledge
+baseline, without silently changing acceptance criteria.
+\item Oracle target masks versus predicted point/language grounding; change only
+the requested object in an otherwise identical scene to test goal dependence.
 \end{enumerate}
-Alternative grasp sources must each yield executed demonstrations for the same
-student. Direct teacher execution is a separate diagnostic baseline.
-Report synthesis attempts, simulation steps, filtering/rendering, and training
-compute; equal episode counts do not imply equal collection cost.
-\todo{Finalize feasible related-work comparisons and disclose supervision differences.}
+The main outcome joins correct-target selection, lift, and hold. Report contact
+compliance, quality margins, wrong-object interactions, failures by phase,
+attempts, simulator steps, and wall-clock/compute costs separately.
 
-\subsection{Splits and Metrics}
-Split source geometries before synthesis. Scales, textures, and views of one mesh
-must not cross train/test. Separate held-out instances, categories, part/object
-combinations, and layouts.
-\todo{Freeze split manifests and evaluation thresholds before held-out testing.}
+Split source geometries before generation; a new scale, texture, or view of the
+same mesh is not a new held-out geometry. Separate training, development/model
+selection, and final evaluation. Fresh action-noise seeds on a training object
+measure stochastic robustness rather than object generalization. Use multiple
+training seeds and uncertainty estimates. A checkpoint-selection procedure is
+part of the evaluated method, including fallback to its BC baseline.
+\todo{Freeze unseen geometries, layouts, physical feasibility scope, budgets,
+metrics, and model-selection rules before final evaluation.}
 
-For explicit-part tasks, primary success is the joint event
-\begin{equation}
-S=S_{\mathrm{target}}\land S_{\mathrm{lift}}\land S_{\mathrm{part}}.
-\end{equation}
-Report each component, collisions, and distractor movement separately. Object-only
-tasks additionally distinguish lift success from preferred-region selection.
-A required-digit subset does not certify an exact taxonomy label.
-\todo{Define lift height/hold duration, contact compliance, forbidden contacts,
-feasibility rules, and type fidelity. Executor debug thresholds do not settle
-the final paper protocol.}
+\subsection{Deployment}
+Begin with object-selection tasks and modest clutter, then evaluate occlusion,
+unseen shapes, and real-robot transfer. Point and language performance includes
+the grounding component; supplied oracle masks cannot certify it. Hardware
+calibration, sensing, and any real-data adaptation must be disclosed separately.
+\todo{Establish simulator closed-loop results before claiming hardware transfer.}
 
-Retain failures and denominators; use multiple seeds and confidence intervals.
-Test disturbances to demonstrate feedback behavior. Training rollout statistics
-and fresh deterministic evaluation are separate, and fresh resets of training
-candidates are not held-out-object evaluation.
+\section{LIMITATIONS AND OPEN DECISIONS}
+Learned synthesis and visual generalization are both unfinished. Current data
+cover few shapes and selected successful candidates. Grasp templates, contact
+models, object scale/mass assumptions, and acceptance gates can restrict yield.
+Reproducible simulation does not prove physical realism. A well-tracking hand
+may still lose its object, and contact presence alone does not imply robust
+load support. External paper results do not guarantee transfer to this robot.
 
-\subsection{Hardware and Scope}
-The main environment has a target and a few distractors. Increase clutter and
-occlusion as secondary robustness axes. Evaluate a frozen sim-trained student
-on the real FFW-SH5 / HX5-D20 with calibration disclosed. Report any real-data
-fine-tuning separately.
-\todo{Run hardware evaluation; no sim-to-real result is established yet.}
-
-\section{LIMITATIONS}
-One hand is implemented. Some part requests may be inaccessible or mechanically
-ungraspable. Grounding errors may dominate; filtering may erase rare types.
-Synthetic dynamics, friction, geometry, appearance, and timing can limit transfer.
-Pretrained visual features do not eliminate these gaps.
-
-The preparation implementation does not establish clean-data feasibility or
-learned contact/part transfer. Student experiments are unfinished. If matched
-comparisons show no benefit from preserved knowledge, revise the hypothesis.
-Part grasping does not prove downstream function, and a bounded test set does
-not justify universal object or embodiment claims.
+The intended contribution must exceed assembling existing modules: controlled
+experiments must identify what Dexonomy knowledge improves and at what cost.
+If editing RL adds no benefit, that result should be reported instead of
+presenting RL as intrinsically necessary. Part requests and functional tool use
+are optional future scope, not missing prerequisites for the core experiment.
 
 \section{CONCLUSION}
-This draft defines a study of Dexonomy-to-visual-policy knowledge transfer through
-synthetic demonstrations for requested-part grasping in mild clutter.
-\todo{Replace with supported findings after controlled experiments.}
+DexPrompt proposes learned shape-conditioned selection and adaptation of
+Dexonomy grasps for automatic demonstration production, followed by visual BC
+for requested-object grasping. The two learning stages and their evidence must
+be assessed separately and then connected by controlled downstream evaluation.
+\todo{Replace this proposal conclusion with measured findings after evaluation.}
 
 \begin{thebibliography}{99}
 \bibitem{dexonomy} J. Chen \emph{et al.},
@@ -377,5 +295,12 @@ arXiv:2507.02747, 2025.
 \bibitem{graspvla} S. Deng \emph{et al.},
 \emph{GraspVLA: a Grasping Foundation Model Pre-trained on Billion-scale
 Synthetic Action Data}, arXiv:2505.03233, 2025.
+
+\bibitem{fromgraspstodexterity} Y. Yuan, X. Liu, S. Krishna, and D. Held,
+\emph{From Grasps to Dexterity: Large-Scale Grasp
+Pretraining for Dexterous Manipulation}, arXiv:2606.30749, 2026.
+\bibitem{dexgraspnet2} J. Zhang \emph{et al.},
+\emph{DexGraspNet 2.0: Learning Generative Dexterous Grasping in Large-scale
+Synthetic Cluttered Scenes}, CoRL, 2024. arXiv:2410.23004.
 \end{thebibliography}
 \end{document}

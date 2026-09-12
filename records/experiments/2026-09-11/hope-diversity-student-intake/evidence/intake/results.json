@@ -1,0 +1,51 @@
+{
+  "completed": true,
+  "training_started": false,
+  "episodes": [
+    {
+      "object": "AlphabetSoup",
+      "placement": "centre",
+      "work": "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/AlphabetSoup-centre-1443cca6",
+      "teacher_episode_sha256": "e15f27809a660be57070908b45f644df363c4cf9cd7493eb251b77de6b33153d",
+      "student_intake_passed": false,
+      "status": "failed",
+      "error": "RuntimeError('preflight: exit 2')"
+    },
+    {
+      "object": "AlphabetSoup",
+      "placement": "yaw_plus15",
+      "work": "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/AlphabetSoup-yaw_plus15-1443cca6",
+      "teacher_episode_sha256": "41d6c926176a30bb4fca51cb52109dca769563b46d619a8d374e955a1fcd858c",
+      "student_intake_passed": true,
+      "status": "data_checks_passed",
+      "dino_executed": false
+    },
+    {
+      "object": "AlphabetSoup",
+      "placement": "x_minus20mm",
+      "work": "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/AlphabetSoup-x_minus20mm-1443cca6",
+      "teacher_episode_sha256": "c38792a505944be8aa6fb0bb7797584615a449d1f72f8e0e548d9eaf6e35e311",
+      "student_intake_passed": true,
+      "status": "data_checks_passed",
+      "dino_executed": false
+    },
+    {
+      "object": "Raisins",
+      "placement": "centre",
+      "work": "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/Raisins-centre-3e8fa799",
+      "teacher_episode_sha256": "0c6b54becd4bbe643caec76c9a814032760cd34f808643cc85e754ac9e7f8a64",
+      "student_intake_passed": true,
+      "status": "data_checks_passed",
+      "dino_executed": false
+    },
+    {
+      "object": "Raisins",
+      "placement": "yaw_plus15",
+      "work": "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/Raisins-yaw_plus15-3e8fa799",
+      "teacher_episode_sha256": "06354bdd56f810c413572b3de6a2fdbec502a737f8cba7eec1624c96723a5619",
+      "student_intake_passed": true,
+      "status": "data_checks_passed",
+      "dino_executed": false
+    }
+  ]
+}

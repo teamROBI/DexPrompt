@@ -1,0 +1,28 @@
+robot_base_pose:
+  translation:
+  - 0.0
+  - 0.0
+  - 0.0
+  yaw_deg: 0.0
+table:
+  x: 0.35
+  y: 0.0
+  height: 0.8
+  size_x: 0.6
+  size_y: 1.6
+object_offset:
+- 0.0
+- 0.0
+lift: -0.13
+head:
+  head_joint1: 0.7
+  head_joint2: 0.0
+arm_init_pose:
+  arm_r_joint1: 1.0
+  arm_r_joint2: -0.2
+  arm_r_joint3: -0.2
+  arm_r_joint4: -2.5
+  arm_r_joint5: 0.0
+  arm_r_joint6: 0.0
+  arm_r_joint7: 0.0
+object_appearance: texture_v1

@@ -1,0 +1,152 @@
+[
+  {
+    "old": "out/ten-hour-intake-launch.exit",
+    "new": "records/scratchpad/out-root/ten-hour-intake-launch.exit",
+    "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+  },
+  {
+    "old": "out/ten-hour-intake-launch.log",
+    "new": "records/scratchpad/out-root/ten-hour-intake-launch.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "old": "out/offset-compare-93.log",
+    "new": "records/scratchpad/out-root/offset-compare-93.log",
+    "sha256": "ff045562a8846e464ff10bb31192df21020118b1f792d1ce8fe89b7c7772cc76"
+  },
+  {
+    "old": "out/ten-hour-intake-launch-v2.sh",
+    "new": "records/scratchpad/out-root/ten-hour-intake-launch-v2.sh",
+    "sha256": "315d6914b2685d788b875ff8af9b2e817f20ae41407147badca169b19d2e84d6"
+  },
+  {
+    "old": "out/contact-home-replay-v3.log",
+    "new": "records/scratchpad/out-root/contact-home-replay-v3.log",
+    "sha256": "bdd239809de6b4ab314a0b92b5bf7701cee5d052fe7a1db5ca70211d80648905"
+  },
+  {
+    "old": "out/fixed-probe.log",
+    "new": "records/scratchpad/out-root/fixed-probe.log",
+    "sha256": "79b8194bffbd623392477c1ea4640c140e9e539172568ab5a4344ff83ac4f95d"
+  },
+  {
+    "old": "out/ten-hour-intake-launch-v2.log",
+    "new": "records/scratchpad/out-root/ten-hour-intake-launch-v2.log",
+    "sha256": "322d44c65ed07374dfb342fff42d4f2cf9d5d7794e045bf94a35bdc161c52453"
+  },
+  {
+    "old": "out/monitor-x0-evaluation.py",
+    "new": "records/scratchpad/out-root/monitor-x0-evaluation.py",
+    "sha256": "af60135c95120de312be290d032e7bc6a9fa39a0f41524fc22ef45d73da986bf"
+  },
+  {
+    "old": "out/contact-feedback-v1.log",
+    "new": "records/scratchpad/out-root/contact-feedback-v1.log",
+    "sha256": "e3b9a0259161a630e4765233361b138305a42fa145651c609da33b4a68338f22"
+  },
+  {
+    "old": "out/prepare-hope-peaches-lecun.py",
+    "new": "records/scratchpad/out-root/prepare-hope-peaches-lecun.py",
+    "sha256": "c5b47d8e22ca902051827219b271ebac0ef2bba246ff377c3be909899bb1c6be"
+  },
+  {
+    "old": "out/ten-hour-intake-launch.sh",
+    "new": "records/scratchpad/out-root/ten-hour-intake-launch.sh",
+    "sha256": "0b24e44f5127ebc3eb2c13b07560a562fd9df3a090dd3c4d5964cd751921273a"
+  },
+  {
+    "old": "out/contact-approach-v1.log",
+    "new": "records/scratchpad/out-root/contact-approach-v1.log",
+    "sha256": "a813f89b1a84892d69fecce32dfe4aef0a16662c53d9fb1a59bff0bc46a2b4fd"
+  },
+  {
+    "old": "out/contact-approach-v2.log",
+    "new": "records/scratchpad/out-root/contact-approach-v2.log",
+    "sha256": "167db8b3481d48d5e152062ba3eb01a603586179b4bf58c81030390dc181c8a9"
+  },
+  {
+    "old": "out/monitor-ten-hour-pass-v2.py",
+    "new": "records/scratchpad/out-root/monitor-ten-hour-pass-v2.py",
+    "sha256": "3b4f0dec59ed605ee10439bbff2ceb197be07a713a795188d7c8584a2af62154"
+  },
+  {
+    "old": "out/monitor-ten-hour-pass.py",
+    "new": "records/scratchpad/out-root/monitor-ten-hour-pass.py",
+    "sha256": "332d84790c0a29bb294cd714f97a7c70b06a1149547f3d70a6dfad6c97f124d3"
+  },
+  {
+    "old": "out/contact-approach-v3.log",
+    "new": "records/scratchpad/out-root/contact-approach-v3.log",
+    "sha256": "0dbac3ce252a01679af81a19596b221cb5abc43b1ee6497e1b23c9f80a9bccb2"
+  },
+  {
+    "old": "out/contact-feedback-v2.log",
+    "new": "records/scratchpad/out-root/contact-feedback-v2.log",
+    "sha256": "52426730329060cefabe757f51b876f5f33c0ceccc71979df367f2f93814532b"
+  },
+  {
+    "old": "out/watch_visual_intake-before-expansion.py",
+    "new": "records/scratchpad/out-root/watch_visual_intake-before-expansion.py",
+    "sha256": "505535f1b9fc4435b97d605dc79bb851e32ef4514e3aed1dff3495d6b50186f8"
+  },
+  {
+    "old": "out/fixed-student-train-v2.log",
+    "new": "records/scratchpad/out-root/fixed-student-train-v2.log",
+    "sha256": "121bc56a76d95a12fd158af0c520f2d7a5516da6568982bc2e0d2a8ffa3b96ca"
+  },
+  {
+    "old": "out/ten-hour-placement-intake.exit",
+    "new": "records/scratchpad/out-root/ten-hour-placement-intake.exit",
+    "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+  },
+  {
+    "old": "out/fixed-student-blank-v2.log",
+    "new": "records/scratchpad/out-root/fixed-student-blank-v2.log",
+    "sha256": "22c4dfe5a2ee799f6bd0e73de7695c761878f547558c0b3d0d44bbf3095f01ec"
+  },
+  {
+    "old": "out/fixed-student-collect-v2.log",
+    "new": "records/scratchpad/out-root/fixed-student-collect-v2.log",
+    "sha256": "35f5e99d9bf6518e00ba944c0f619af11f4223f65787c2f8d0ea0472df85443f"
+  },
+  {
+    "old": "out/contact-feedback-v4.log",
+    "new": "records/scratchpad/out-root/contact-feedback-v4.log",
+    "sha256": "30a8bfbf15121ccc88b575cabab24109abec9a390e3a0dc93e24a98282991751"
+  },
+  {
+    "old": "out/ten-hour-placement-intake-launch.sh",
+    "new": "records/scratchpad/out-root/ten-hour-placement-intake-launch.sh",
+    "sha256": "641e35ead586ffb41739cfec9d4ec3ba9f267d94d81475ae5329db1042e6605b"
+  },
+  {
+    "old": "out/fixed-student-eval-v2.log",
+    "new": "records/scratchpad/out-root/fixed-student-eval-v2.log",
+    "sha256": "56768c359c4877ab234523ab330065592f008d6c2c067a1d7d2b4446522139e3"
+  },
+  {
+    "old": "out/fixed-student-collect.log",
+    "new": "records/scratchpad/out-root/fixed-student-collect.log",
+    "sha256": "35f5e99d9bf6518e00ba944c0f619af11f4223f65787c2f8d0ea0472df85443f"
+  },
+  {
+    "old": "out/contact-feedback-v3.log",
+    "new": "records/scratchpad/out-root/contact-feedback-v3.log",
+    "sha256": "5276376da8ef892d2c2e6c0abc2f72f2d06944124e2d0bd21e7d1106300fcbf2"
+  },
+  {
+    "old": "out/ten-hour-placement-intake.log",
+    "new": "records/scratchpad/out-root/ten-hour-placement-intake.log",
+    "sha256": "751ebe4835f614a5be753fa7cff58bc467419b9eec123fdfee98542aad652b17"
+  },
+  {
+    "old": "out/contact-feedback-v5.log",
+    "new": "records/scratchpad/out-root/contact-feedback-v5.log",
+    "sha256": "776645d1f1dda612a372e036029ee8dd3248da9f2426810be3a94fe96ed23715"
+  },
+  {
+    "old": "out/ten-hour-intake-launch-v2.exit",
+    "new": "records/scratchpad/out-root/ten-hour-intake-launch-v2.exit",
+    "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+  }
+]

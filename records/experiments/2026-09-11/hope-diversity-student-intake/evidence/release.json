@@ -1,0 +1,905 @@
+{
+  "completed": true,
+  "training_started": false,
+  "episodes": [
+    {
+      "object": "AlphabetSoup",
+      "placement": "centre",
+      "work": "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/AlphabetSoup-centre-1443cca6",
+      "teacher_episode_sha256": "e15f27809a660be57070908b45f644df363c4cf9cd7493eb251b77de6b33153d",
+      "student_intake_passed": true,
+      "status": "data_checks_passed",
+      "candidate_sha256": "1443cca6ceb82be8e441e021dd4747d35fa1efd1908a384b4089dd63fb7b7e71",
+      "raw_intake_status": "failed",
+      "raw_intake_error": "RuntimeError('preflight: exit 2')",
+      "preflight_recovery": {
+        "path": "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/AlphabetSoup-centre-1443cca6/preflight-assets-linked/preflight.json",
+        "sha256": "5d0a4ce6ef0789bf29c27d205fb1c12309679dce2a83d7bd367d8ba52bc425ba"
+      },
+      "data": "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/AlphabetSoup-centre-1443cca6/visual",
+      "cache": "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/AlphabetSoup-centre-1443cca6/cache",
+      "frames": 979,
+      "rendering": {
+        "episode_id": "teacher_0000_yaw_000",
+        "frames": 979,
+        "state_mismatches": 0,
+        "max_signal_error": 0.0,
+        "head_original_empty": 0,
+        "head_profile_empty": 0,
+        "both_profile_empty": 0,
+        "gained_head_frames": 0,
+        "lost_head_frames": 0
+      },
+      "controls": {
+        "completed": true,
+        "training_started": false,
+        "mode": "controls",
+        "scope": "overlap guarded",
+        "dataset_sha256": "2047fcd4afd4169f4bea6d052737884e5b2b0aff442ceb38a245d1c2cb0add97",
+        "evaluation_sources": {
+          "scripts/evaluate_student_suite.py": "d7387f3812997803b7f8c25aa288d9cd06b4d35501939aee71a76473f23a0eef",
+          "scripts/replay_hx5_student.py": "145de613d45a1068a1b20ae7d5f7bf2638c54e718226e5e2c9ce795aee186aab",
+          "src/icra/execution.py": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94",
+          "src/icra/simulation.py": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25"
+        },
+        "episodes": [
+          {
+            "episode_id": "teacher_0000_yaw_000",
+            "object_id": "AlphabetSoup",
+            "outcome": {
+              "recorded_actions": {
+                "ticks": 979,
+                "seed": 0,
+                "failure_reason": null,
+                "contact_acquisition_tick": 629,
+                "evaluation_contract": "contact_acquisition_guard_v2",
+                "terminal_lift_seconds": 2.64,
+                "terminal_teacher_contact_lift_seconds": 2.64,
+                "longest_lift_seconds": 2.64,
+                "longest_teacher_contact_lift_seconds": 2.64,
+                "sustained_lift": true,
+                "teacher_compliant_lift": true,
+                "max_height_m": 0.14425772264353653,
+                "max_penetration_m": 0.001999632543514883,
+                "max_digit_force_n": 29.942162888453396,
+                "saturated_command_ticks": 0,
+                "slew_limited_ticks": 0,
+                "required_contact_groups": 5,
+                "max_simultaneous_contact_groups": 5,
+                "terminal_contact_groups": 5,
+                "all_contact_groups_ticks": 374
+              },
+              "stationary": {
+                "ticks": 979,
+                "seed": 0,
+                "failure_reason": null,
+                "contact_acquisition_tick": null,
+                "evaluation_contract": "contact_acquisition_guard_v2",
+                "terminal_lift_seconds": 0.0,
+                "terminal_teacher_contact_lift_seconds": 0.0,
+                "longest_lift_seconds": 0.0,
+                "longest_teacher_contact_lift_seconds": 0.0,
+                "sustained_lift": false,
+                "teacher_compliant_lift": false,
+                "max_height_m": 0.0,
+                "max_penetration_m": 0.0,
+                "max_digit_force_n": 0.0,
+                "saturated_command_ticks": 0,
+                "slew_limited_ticks": 0,
+                "required_contact_groups": 5,
+                "max_simultaneous_contact_groups": 0,
+                "terminal_contact_groups": 0,
+                "all_contact_groups_ticks": 0
+              },
+              "passed": true
+            }
+          }
+        ],
+        "checks_passed": true
+      },
+      "audit": {
+        "completed": true,
+        "training_started": false,
+        "dino_executed": false,
+        "physics_replayed_in_this_audit": false,
+        "episodes": [
+          {
+            "episode_id": "teacher_0000_yaw_000",
+            "object_id": "AlphabetSoup",
+            "split": "train",
+            "frames": 979,
+            "home_reference_available": true,
+            "first_eligible_tick": 0,
+            "reference_ticks": [
+              0,
+              414
+            ],
+            "checked_preprocessing_ticks": [
+              0,
+              200,
+              414,
+              450,
+              978
+            ],
+            "initial_input_sha256": "d90425e947b55f78cca25cc933fb318f29568e19de607a6d3d9ef661e145cb7c",
+            "first_chunk_sha256": "d624ebc61701f14742cc53f5c42c5ea79a94e3737dc2e97bba786a4ed5541ac4",
+            "episode_sha256": "900e902bdfcf3b7d6e9071cb69961d795a919ffa3db4ce7b17d8b740bd56db1c",
+            "teacher_sha256": "1443cca6ceb82be8e441e021dd4747d35fa1efd1908a384b4089dd63fb7b7e71",
+            "quality_accepted": true,
+            "model_sha256": "1747ed4524d6da7f0f16dc8e6c3e25ded4dd64e61d4fe97b73e7ccce86a983a7",
+            "initial_state_sha256": "cdf7a3a3a9440861f625e004b7cce186468f3a3b3c87b3da84d3fac72da65a1c"
+          }
+        ],
+        "dataset_sha256": "2047fcd4afd4169f4bea6d052737884e5b2b0aff442ceb38a245d1c2cb0add97",
+        "cache_sha256": "3e06589dddf5890d67e3fef4f2f0c977bad5d468de74c10877e8c3c7fb23a9ba",
+        "config_sha256": "16bbc44b21cf44fd58f0a71e00a00ccdb5286961cd048b24b015d24a1cbf2639",
+        "scope": "data quality and causal visual inputs; not grasp generalization",
+        "accepted_episodes": 1,
+        "object_ids": [
+          "AlphabetSoup"
+        ],
+        "unique_teacher_files": 1,
+        "unique_initial_policy_inputs": 1,
+        "repeated_initial_inputs": [],
+        "all_home_references_available": true,
+        "independent_generalization_split_verified": false
+      },
+      "preflight": {
+        "architecture": "hx5_dexgraspvla_style_rdt",
+        "training_ready": true,
+        "missing": [],
+        "dependencies": {
+          "torch": {
+            "imported": true,
+            "version": "2.6.0+cu124"
+          },
+          "numpy": {
+            "imported": true,
+            "version": "2.2.6"
+          },
+          "scipy": {
+            "imported": true,
+            "version": "1.15.3"
+          },
+          "torchvision": {
+            "imported": true,
+            "version": "0.21.0+cu124"
+          },
+          "omegaconf": {
+            "imported": true,
+            "version": "2.3.1"
+          }
+        },
+        "episode_counts": {
+          "train": 1,
+          "val": 0,
+          "test": 0
+        },
+        "observation_version": 2,
+        "unreferenced_prefix_frames": 0,
+        "cache_sha256": "3e06589dddf5890d67e3fef4f2f0c977bad5d468de74c10877e8c3c7fb23a9ba",
+        "optimizer_steps": 0,
+        "pretrained_policy_loaded": false,
+        "scope": "HX5 architectural adaptation; language grounding is external"
+      },
+      "visual_manifest_sha256": "2047fcd4afd4169f4bea6d052737884e5b2b0aff442ceb38a245d1c2cb0add97"
+    },
+    {
+      "object": "AlphabetSoup",
+      "placement": "yaw_plus15",
+      "work": "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/AlphabetSoup-yaw_plus15-1443cca6",
+      "teacher_episode_sha256": "41d6c926176a30bb4fca51cb52109dca769563b46d619a8d374e955a1fcd858c",
+      "student_intake_passed": true,
+      "status": "data_checks_passed",
+      "dino_executed": false,
+      "candidate_sha256": "1443cca6ceb82be8e441e021dd4747d35fa1efd1908a384b4089dd63fb7b7e71",
+      "raw_intake_status": "data_checks_passed",
+      "data": "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/AlphabetSoup-yaw_plus15-1443cca6/visual",
+      "cache": "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/AlphabetSoup-yaw_plus15-1443cca6/cache",
+      "frames": 983,
+      "rendering": {
+        "episode_id": "teacher_0000_yaw_000",
+        "frames": 983,
+        "state_mismatches": 0,
+        "max_signal_error": 0.0,
+        "head_original_empty": 0,
+        "head_profile_empty": 0,
+        "both_profile_empty": 0,
+        "gained_head_frames": 0,
+        "lost_head_frames": 0
+      },
+      "controls": {
+        "completed": true,
+        "training_started": false,
+        "mode": "controls",
+        "scope": "overlap guarded",
+        "dataset_sha256": "64bc0d39213a171cde74022f98320b12eb75bdce8d93061e0fde895a1f7b547e",
+        "evaluation_sources": {
+          "scripts/evaluate_student_suite.py": "d7387f3812997803b7f8c25aa288d9cd06b4d35501939aee71a76473f23a0eef",
+          "scripts/replay_hx5_student.py": "145de613d45a1068a1b20ae7d5f7bf2638c54e718226e5e2c9ce795aee186aab",
+          "src/icra/execution.py": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94",
+          "src/icra/simulation.py": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25"
+        },
+        "episodes": [
+          {
+            "episode_id": "teacher_0000_yaw_000",
+            "object_id": "AlphabetSoup",
+            "outcome": {
+              "recorded_actions": {
+                "ticks": 983,
+                "seed": 0,
+                "failure_reason": null,
+                "contact_acquisition_tick": 632,
+                "evaluation_contract": "contact_acquisition_guard_v2",
+                "terminal_lift_seconds": 2.66,
+                "terminal_teacher_contact_lift_seconds": 2.66,
+                "longest_lift_seconds": 2.66,
+                "longest_teacher_contact_lift_seconds": 2.66,
+                "sustained_lift": true,
+                "teacher_compliant_lift": true,
+                "max_height_m": 0.14471893032728633,
+                "max_penetration_m": 0.0019851658703454378,
+                "max_digit_force_n": 29.266708436687303,
+                "saturated_command_ticks": 0,
+                "slew_limited_ticks": 0,
+                "required_contact_groups": 5,
+                "max_simultaneous_contact_groups": 5,
+                "terminal_contact_groups": 5,
+                "all_contact_groups_ticks": 373
+              },
+              "stationary": {
+                "ticks": 983,
+                "seed": 0,
+                "failure_reason": null,
+                "contact_acquisition_tick": null,
+                "evaluation_contract": "contact_acquisition_guard_v2",
+                "terminal_lift_seconds": 0.0,
+                "terminal_teacher_contact_lift_seconds": 0.0,
+                "longest_lift_seconds": 0.0,
+                "longest_teacher_contact_lift_seconds": 0.0,
+                "sustained_lift": false,
+                "teacher_compliant_lift": false,
+                "max_height_m": 0.0,
+                "max_penetration_m": 0.0,
+                "max_digit_force_n": 0.0,
+                "saturated_command_ticks": 0,
+                "slew_limited_ticks": 0,
+                "required_contact_groups": 5,
+                "max_simultaneous_contact_groups": 0,
+                "terminal_contact_groups": 0,
+                "all_contact_groups_ticks": 0
+              },
+              "passed": true
+            }
+          }
+        ],
+        "checks_passed": true
+      },
+      "audit": {
+        "completed": true,
+        "training_started": false,
+        "dino_executed": false,
+        "physics_replayed_in_this_audit": false,
+        "episodes": [
+          {
+            "episode_id": "teacher_0000_yaw_000",
+            "object_id": "AlphabetSoup",
+            "split": "train",
+            "frames": 983,
+            "home_reference_available": true,
+            "first_eligible_tick": 0,
+            "reference_ticks": [
+              0,
+              414
+            ],
+            "checked_preprocessing_ticks": [
+              0,
+              200,
+              414,
+              450,
+              982
+            ],
+            "initial_input_sha256": "b2e476d4abc1881e1007d36233e496b7625501456df565aedd70ef566639399f",
+            "first_chunk_sha256": "bc0c4efacdc152437ef42124b281f8dc108f0ccce92b3a31175961d12e6fdf9e",
+            "episode_sha256": "efd5412ebb87a87dac9bbb86810fe3425e28cb8cd2837a78142b327b9c3429ef",
+            "teacher_sha256": "1443cca6ceb82be8e441e021dd4747d35fa1efd1908a384b4089dd63fb7b7e71",
+            "quality_accepted": true,
+            "model_sha256": "fdc9cc83f225c9cfdf1c8a29ef9a236f035c330cd36a9ae3b1d18f8719b77f66",
+            "initial_state_sha256": "7bc54813b6f5dc2e2a11ef4b8461b1825cc5e388e4e8974cecb7a65d99a98bbf"
+          }
+        ],
+        "dataset_sha256": "64bc0d39213a171cde74022f98320b12eb75bdce8d93061e0fde895a1f7b547e",
+        "cache_sha256": "2be55243e560587433a7a918ec339dfab636d114edf628391c0e13d57a5f42fb",
+        "config_sha256": "16bbc44b21cf44fd58f0a71e00a00ccdb5286961cd048b24b015d24a1cbf2639",
+        "scope": "data quality and causal visual inputs; not grasp generalization",
+        "accepted_episodes": 1,
+        "object_ids": [
+          "AlphabetSoup"
+        ],
+        "unique_teacher_files": 1,
+        "unique_initial_policy_inputs": 1,
+        "repeated_initial_inputs": [],
+        "all_home_references_available": true,
+        "independent_generalization_split_verified": false
+      },
+      "preflight": {
+        "architecture": "hx5_dexgraspvla_style_rdt",
+        "training_ready": true,
+        "missing": [],
+        "dependencies": {
+          "torch": {
+            "imported": true,
+            "version": "2.6.0+cu124"
+          },
+          "numpy": {
+            "imported": true,
+            "version": "2.2.6"
+          },
+          "scipy": {
+            "imported": true,
+            "version": "1.15.3"
+          },
+          "torchvision": {
+            "imported": true,
+            "version": "0.21.0+cu124"
+          },
+          "omegaconf": {
+            "imported": true,
+            "version": "2.3.1"
+          }
+        },
+        "episode_counts": {
+          "train": 1,
+          "val": 0,
+          "test": 0
+        },
+        "observation_version": 2,
+        "unreferenced_prefix_frames": 0,
+        "cache_sha256": "2be55243e560587433a7a918ec339dfab636d114edf628391c0e13d57a5f42fb",
+        "optimizer_steps": 0,
+        "pretrained_policy_loaded": false,
+        "scope": "HX5 architectural adaptation; language grounding is external"
+      },
+      "visual_manifest_sha256": "64bc0d39213a171cde74022f98320b12eb75bdce8d93061e0fde895a1f7b547e"
+    },
+    {
+      "object": "AlphabetSoup",
+      "placement": "x_minus20mm",
+      "work": "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/AlphabetSoup-x_minus20mm-1443cca6",
+      "teacher_episode_sha256": "c38792a505944be8aa6fb0bb7797584615a449d1f72f8e0e548d9eaf6e35e311",
+      "student_intake_passed": true,
+      "status": "data_checks_passed",
+      "dino_executed": false,
+      "candidate_sha256": "1443cca6ceb82be8e441e021dd4747d35fa1efd1908a384b4089dd63fb7b7e71",
+      "raw_intake_status": "data_checks_passed",
+      "data": "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/AlphabetSoup-x_minus20mm-1443cca6/visual",
+      "cache": "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/AlphabetSoup-x_minus20mm-1443cca6/cache",
+      "frames": 981,
+      "rendering": {
+        "episode_id": "teacher_0000_yaw_000",
+        "frames": 981,
+        "state_mismatches": 0,
+        "max_signal_error": 0.0,
+        "head_original_empty": 266,
+        "head_profile_empty": 0,
+        "both_profile_empty": 0,
+        "gained_head_frames": 266,
+        "lost_head_frames": 0
+      },
+      "controls": {
+        "completed": true,
+        "training_started": false,
+        "mode": "controls",
+        "scope": "overlap guarded",
+        "dataset_sha256": "ace446dd2d62c7dcb4ec23f4ae2b4e988621f5cc4529eaf10a396c4622a79de5",
+        "evaluation_sources": {
+          "scripts/evaluate_student_suite.py": "d7387f3812997803b7f8c25aa288d9cd06b4d35501939aee71a76473f23a0eef",
+          "scripts/replay_hx5_student.py": "145de613d45a1068a1b20ae7d5f7bf2638c54e718226e5e2c9ce795aee186aab",
+          "src/icra/execution.py": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94",
+          "src/icra/simulation.py": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25"
+        },
+        "episodes": [
+          {
+            "episode_id": "teacher_0000_yaw_000",
+            "object_id": "AlphabetSoup",
+            "outcome": {
+              "recorded_actions": {
+                "ticks": 981,
+                "seed": 0,
+                "failure_reason": null,
+                "contact_acquisition_tick": 631,
+                "evaluation_contract": "contact_acquisition_guard_v2",
+                "terminal_lift_seconds": 2.64,
+                "terminal_teacher_contact_lift_seconds": 2.64,
+                "longest_lift_seconds": 2.64,
+                "longest_teacher_contact_lift_seconds": 2.64,
+                "sustained_lift": true,
+                "teacher_compliant_lift": true,
+                "max_height_m": 0.1444012091672935,
+                "max_penetration_m": 0.0019995964041424805,
+                "max_digit_force_n": 29.9017117306883,
+                "saturated_command_ticks": 0,
+                "slew_limited_ticks": 0,
+                "required_contact_groups": 5,
+                "max_simultaneous_contact_groups": 5,
+                "terminal_contact_groups": 5,
+                "all_contact_groups_ticks": 374
+              },
+              "stationary": {
+                "ticks": 981,
+                "seed": 0,
+                "failure_reason": null,
+                "contact_acquisition_tick": null,
+                "evaluation_contract": "contact_acquisition_guard_v2",
+                "terminal_lift_seconds": 0.0,
+                "terminal_teacher_contact_lift_seconds": 0.0,
+                "longest_lift_seconds": 0.0,
+                "longest_teacher_contact_lift_seconds": 0.0,
+                "sustained_lift": false,
+                "teacher_compliant_lift": false,
+                "max_height_m": 0.0,
+                "max_penetration_m": 0.0,
+                "max_digit_force_n": 0.0,
+                "saturated_command_ticks": 0,
+                "slew_limited_ticks": 0,
+                "required_contact_groups": 5,
+                "max_simultaneous_contact_groups": 0,
+                "terminal_contact_groups": 0,
+                "all_contact_groups_ticks": 0
+              },
+              "passed": true
+            }
+          }
+        ],
+        "checks_passed": true
+      },
+      "audit": {
+        "completed": true,
+        "training_started": false,
+        "dino_executed": false,
+        "physics_replayed_in_this_audit": false,
+        "episodes": [
+          {
+            "episode_id": "teacher_0000_yaw_000",
+            "object_id": "AlphabetSoup",
+            "split": "train",
+            "frames": 981,
+            "home_reference_available": true,
+            "first_eligible_tick": 0,
+            "reference_ticks": [
+              0,
+              414
+            ],
+            "checked_preprocessing_ticks": [
+              0,
+              200,
+              414,
+              450,
+              980
+            ],
+            "initial_input_sha256": "a463dd683ad857097f04888f52d62c181212a7313ba463b3548b0cdedbc85657",
+            "first_chunk_sha256": "b574c4faae5ba0174bacadef375eb4eb1438c586771ce53bc1c9c5f7982ff978",
+            "episode_sha256": "7d20122f17ccd847339e533a5ab123c27087b50e9c52c655294780cb5fe0d676",
+            "teacher_sha256": "1443cca6ceb82be8e441e021dd4747d35fa1efd1908a384b4089dd63fb7b7e71",
+            "quality_accepted": true,
+            "model_sha256": "a71be2a8c4bba8c3a69f8674f2b017f16ca0812fe8506863562a397e335ddfb4",
+            "initial_state_sha256": "a8a57bfc1465cf0a24ccdcb768eac629c235befd6f619d6e997bcbda08a150fc"
+          }
+        ],
+        "dataset_sha256": "ace446dd2d62c7dcb4ec23f4ae2b4e988621f5cc4529eaf10a396c4622a79de5",
+        "cache_sha256": "7ab91d4c85cae12f0882b7eb28412e17120b167b6ba3d3150ddba650113c54cf",
+        "config_sha256": "16bbc44b21cf44fd58f0a71e00a00ccdb5286961cd048b24b015d24a1cbf2639",
+        "scope": "data quality and causal visual inputs; not grasp generalization",
+        "accepted_episodes": 1,
+        "object_ids": [
+          "AlphabetSoup"
+        ],
+        "unique_teacher_files": 1,
+        "unique_initial_policy_inputs": 1,
+        "repeated_initial_inputs": [],
+        "all_home_references_available": true,
+        "independent_generalization_split_verified": false
+      },
+      "preflight": {
+        "architecture": "hx5_dexgraspvla_style_rdt",
+        "training_ready": true,
+        "missing": [],
+        "dependencies": {
+          "torch": {
+            "imported": true,
+            "version": "2.6.0+cu124"
+          },
+          "numpy": {
+            "imported": true,
+            "version": "2.2.6"
+          },
+          "scipy": {
+            "imported": true,
+            "version": "1.15.3"
+          },
+          "torchvision": {
+            "imported": true,
+            "version": "0.21.0+cu124"
+          },
+          "omegaconf": {
+            "imported": true,
+            "version": "2.3.1"
+          }
+        },
+        "episode_counts": {
+          "train": 1,
+          "val": 0,
+          "test": 0
+        },
+        "observation_version": 2,
+        "unreferenced_prefix_frames": 0,
+        "cache_sha256": "7ab91d4c85cae12f0882b7eb28412e17120b167b6ba3d3150ddba650113c54cf",
+        "optimizer_steps": 0,
+        "pretrained_policy_loaded": false,
+        "scope": "HX5 architectural adaptation; language grounding is external"
+      },
+      "visual_manifest_sha256": "ace446dd2d62c7dcb4ec23f4ae2b4e988621f5cc4529eaf10a396c4622a79de5"
+    },
+    {
+      "object": "Raisins",
+      "placement": "centre",
+      "work": "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/Raisins-centre-3e8fa799",
+      "teacher_episode_sha256": "0c6b54becd4bbe643caec76c9a814032760cd34f808643cc85e754ac9e7f8a64",
+      "student_intake_passed": true,
+      "status": "data_checks_passed",
+      "dino_executed": false,
+      "candidate_sha256": "3e8fa79936d8e9c10d2bd7d6c962e12fb6ed433f8adf0092d86fda2e0c3665e5",
+      "raw_intake_status": "data_checks_passed",
+      "data": "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/Raisins-centre-3e8fa799/visual",
+      "cache": "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/Raisins-centre-3e8fa799/cache",
+      "frames": 1046,
+      "rendering": {
+        "episode_id": "teacher_0000_yaw_000",
+        "frames": 1046,
+        "state_mismatches": 0,
+        "max_signal_error": 0.0,
+        "head_original_empty": 0,
+        "head_profile_empty": 0,
+        "both_profile_empty": 0,
+        "gained_head_frames": 0,
+        "lost_head_frames": 0
+      },
+      "controls": {
+        "completed": true,
+        "training_started": false,
+        "mode": "controls",
+        "scope": "overlap guarded",
+        "dataset_sha256": "72424900441a94fa3ece6c9d35a5a2cff72a43b3fed51fa4aa6496aab3ca3665",
+        "evaluation_sources": {
+          "scripts/evaluate_student_suite.py": "d7387f3812997803b7f8c25aa288d9cd06b4d35501939aee71a76473f23a0eef",
+          "scripts/replay_hx5_student.py": "145de613d45a1068a1b20ae7d5f7bf2638c54e718226e5e2c9ce795aee186aab",
+          "src/icra/execution.py": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94",
+          "src/icra/simulation.py": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25"
+        },
+        "episodes": [
+          {
+            "episode_id": "teacher_0000_yaw_000",
+            "object_id": "Raisins",
+            "outcome": {
+              "recorded_actions": {
+                "ticks": 1046,
+                "seed": 0,
+                "failure_reason": null,
+                "contact_acquisition_tick": 666,
+                "evaluation_contract": "contact_acquisition_guard_v2",
+                "terminal_lift_seconds": 2.6,
+                "terminal_teacher_contact_lift_seconds": 2.6,
+                "longest_lift_seconds": 2.6,
+                "longest_teacher_contact_lift_seconds": 2.6,
+                "sustained_lift": true,
+                "teacher_compliant_lift": true,
+                "max_height_m": 0.12861480784360135,
+                "max_penetration_m": 0.0016777759304360787,
+                "max_digit_force_n": 9.801307460336336,
+                "saturated_command_ticks": 0,
+                "slew_limited_ticks": 0,
+                "required_contact_groups": 5,
+                "max_simultaneous_contact_groups": 5,
+                "terminal_contact_groups": 5,
+                "all_contact_groups_ticks": 401
+              },
+              "stationary": {
+                "ticks": 1046,
+                "seed": 0,
+                "failure_reason": null,
+                "contact_acquisition_tick": null,
+                "evaluation_contract": "contact_acquisition_guard_v2",
+                "terminal_lift_seconds": 0.0,
+                "terminal_teacher_contact_lift_seconds": 0.0,
+                "longest_lift_seconds": 0.0,
+                "longest_teacher_contact_lift_seconds": 0.0,
+                "sustained_lift": false,
+                "teacher_compliant_lift": false,
+                "max_height_m": 0.0,
+                "max_penetration_m": 0.0,
+                "max_digit_force_n": 0.0,
+                "saturated_command_ticks": 0,
+                "slew_limited_ticks": 0,
+                "required_contact_groups": 5,
+                "max_simultaneous_contact_groups": 0,
+                "terminal_contact_groups": 0,
+                "all_contact_groups_ticks": 0
+              },
+              "passed": true
+            }
+          }
+        ],
+        "checks_passed": true
+      },
+      "audit": {
+        "completed": true,
+        "training_started": false,
+        "dino_executed": false,
+        "physics_replayed_in_this_audit": false,
+        "episodes": [
+          {
+            "episode_id": "teacher_0000_yaw_000",
+            "object_id": "Raisins",
+            "split": "train",
+            "frames": 1046,
+            "home_reference_available": true,
+            "first_eligible_tick": 0,
+            "reference_ticks": [
+              0,
+              378
+            ],
+            "checked_preprocessing_ticks": [
+              0,
+              200,
+              378,
+              450,
+              1045
+            ],
+            "initial_input_sha256": "eda6c65989fc91323c10583b2a3d0e55fdb8113d8c9cab3996a89fdc4b54d588",
+            "first_chunk_sha256": "44d7d62643a11998349cd5e60f2dd71c8280a90f336134a720d97d6a78b1d732",
+            "episode_sha256": "153c2c3b922a1d8e93c1adb0e951c264cd0c39708fdd1052908fbdb2bf6274ac",
+            "teacher_sha256": "3e8fa79936d8e9c10d2bd7d6c962e12fb6ed433f8adf0092d86fda2e0c3665e5",
+            "quality_accepted": true,
+            "model_sha256": "6adf9bd2367e7618e26594c7ab01b2f08d5e09ff6e9fca6eece2b8c16797096c",
+            "initial_state_sha256": "96713c98c9b3c533a6cdeb05dedfc0910fcfe9b9adfcab9cf2735b8e7591aebf"
+          }
+        ],
+        "dataset_sha256": "72424900441a94fa3ece6c9d35a5a2cff72a43b3fed51fa4aa6496aab3ca3665",
+        "cache_sha256": "9a37fb57284faf998bb405efbed5031f90bd51296a5e6e46e8f39e09356a59f5",
+        "config_sha256": "16bbc44b21cf44fd58f0a71e00a00ccdb5286961cd048b24b015d24a1cbf2639",
+        "scope": "data quality and causal visual inputs; not grasp generalization",
+        "accepted_episodes": 1,
+        "object_ids": [
+          "Raisins"
+        ],
+        "unique_teacher_files": 1,
+        "unique_initial_policy_inputs": 1,
+        "repeated_initial_inputs": [],
+        "all_home_references_available": true,
+        "independent_generalization_split_verified": false
+      },
+      "preflight": {
+        "architecture": "hx5_dexgraspvla_style_rdt",
+        "training_ready": true,
+        "missing": [],
+        "dependencies": {
+          "torch": {
+            "imported": true,
+            "version": "2.6.0+cu124"
+          },
+          "numpy": {
+            "imported": true,
+            "version": "2.2.6"
+          },
+          "scipy": {
+            "imported": true,
+            "version": "1.15.3"
+          },
+          "torchvision": {
+            "imported": true,
+            "version": "0.21.0+cu124"
+          },
+          "omegaconf": {
+            "imported": true,
+            "version": "2.3.1"
+          }
+        },
+        "episode_counts": {
+          "train": 1,
+          "val": 0,
+          "test": 0
+        },
+        "observation_version": 2,
+        "unreferenced_prefix_frames": 0,
+        "cache_sha256": "9a37fb57284faf998bb405efbed5031f90bd51296a5e6e46e8f39e09356a59f5",
+        "optimizer_steps": 0,
+        "pretrained_policy_loaded": false,
+        "scope": "HX5 architectural adaptation; language grounding is external"
+      },
+      "visual_manifest_sha256": "72424900441a94fa3ece6c9d35a5a2cff72a43b3fed51fa4aa6496aab3ca3665"
+    },
+    {
+      "object": "Raisins",
+      "placement": "yaw_plus15",
+      "work": "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/Raisins-yaw_plus15-3e8fa799",
+      "teacher_episode_sha256": "06354bdd56f810c413572b3de6a2fdbec502a737f8cba7eec1624c96723a5619",
+      "student_intake_passed": true,
+      "status": "data_checks_passed",
+      "dino_executed": false,
+      "candidate_sha256": "3e8fa79936d8e9c10d2bd7d6c962e12fb6ed433f8adf0092d86fda2e0c3665e5",
+      "raw_intake_status": "data_checks_passed",
+      "data": "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/Raisins-yaw_plus15-3e8fa799/visual",
+      "cache": "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/Raisins-yaw_plus15-3e8fa799/cache",
+      "frames": 1022,
+      "rendering": {
+        "episode_id": "teacher_0000_yaw_000",
+        "frames": 1022,
+        "state_mismatches": 0,
+        "max_signal_error": 0.0,
+        "head_original_empty": 0,
+        "head_profile_empty": 0,
+        "both_profile_empty": 0,
+        "gained_head_frames": 0,
+        "lost_head_frames": 0
+      },
+      "controls": {
+        "completed": true,
+        "training_started": false,
+        "mode": "controls",
+        "scope": "overlap guarded",
+        "dataset_sha256": "348fd30965bd8306667e5f03c2461df3091e73d01634114b9d0532299b8eaf99",
+        "evaluation_sources": {
+          "scripts/evaluate_student_suite.py": "d7387f3812997803b7f8c25aa288d9cd06b4d35501939aee71a76473f23a0eef",
+          "scripts/replay_hx5_student.py": "145de613d45a1068a1b20ae7d5f7bf2638c54e718226e5e2c9ce795aee186aab",
+          "src/icra/execution.py": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94",
+          "src/icra/simulation.py": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25"
+        },
+        "episodes": [
+          {
+            "episode_id": "teacher_0000_yaw_000",
+            "object_id": "Raisins",
+            "outcome": {
+              "recorded_actions": {
+                "ticks": 1022,
+                "seed": 0,
+                "failure_reason": null,
+                "contact_acquisition_tick": 665,
+                "evaluation_contract": "contact_acquisition_guard_v2",
+                "terminal_lift_seconds": 2.56,
+                "terminal_teacher_contact_lift_seconds": 2.56,
+                "longest_lift_seconds": 2.56,
+                "longest_teacher_contact_lift_seconds": 2.56,
+                "sustained_lift": true,
+                "teacher_compliant_lift": true,
+                "max_height_m": 0.14093935742145236,
+                "max_penetration_m": 0.0015611576652135918,
+                "max_digit_force_n": 9.886158115776187,
+                "saturated_command_ticks": 0,
+                "slew_limited_ticks": 0,
+                "required_contact_groups": 5,
+                "max_simultaneous_contact_groups": 5,
+                "terminal_contact_groups": 5,
+                "all_contact_groups_ticks": 376
+              },
+              "stationary": {
+                "ticks": 1022,
+                "seed": 0,
+                "failure_reason": null,
+                "contact_acquisition_tick": null,
+                "evaluation_contract": "contact_acquisition_guard_v2",
+                "terminal_lift_seconds": 0.0,
+                "terminal_teacher_contact_lift_seconds": 0.0,
+                "longest_lift_seconds": 0.0,
+                "longest_teacher_contact_lift_seconds": 0.0,
+                "sustained_lift": false,
+                "teacher_compliant_lift": false,
+                "max_height_m": 0.0,
+                "max_penetration_m": 0.0,
+                "max_digit_force_n": 0.0,
+                "saturated_command_ticks": 0,
+                "slew_limited_ticks": 0,
+                "required_contact_groups": 5,
+                "max_simultaneous_contact_groups": 0,
+                "terminal_contact_groups": 0,
+                "all_contact_groups_ticks": 0
+              },
+              "passed": true
+            }
+          }
+        ],
+        "checks_passed": true
+      },
+      "audit": {
+        "completed": true,
+        "training_started": false,
+        "dino_executed": false,
+        "physics_replayed_in_this_audit": false,
+        "episodes": [
+          {
+            "episode_id": "teacher_0000_yaw_000",
+            "object_id": "Raisins",
+            "split": "train",
+            "frames": 1022,
+            "home_reference_available": true,
+            "first_eligible_tick": 0,
+            "reference_ticks": [
+              0,
+              380
+            ],
+            "checked_preprocessing_ticks": [
+              0,
+              200,
+              380,
+              450,
+              1021
+            ],
+            "initial_input_sha256": "1864eaf8bc408e2835d31d4629b039ff16055e0f66c5b6ce7058770552fe8352",
+            "first_chunk_sha256": "4cc1632204992d51b0ca298f6ba0c8d1740d5b64b9d8ecd9241940d85926ba3c",
+            "episode_sha256": "5dbe10fff471b3afac976e84efbd64cf33da2c04c9f4ea02ba311a2c8e804abe",
+            "teacher_sha256": "3e8fa79936d8e9c10d2bd7d6c962e12fb6ed433f8adf0092d86fda2e0c3665e5",
+            "quality_accepted": true,
+            "model_sha256": "de6b5a73d15dd8394481ce79cb87165f3cbc827e5b46a09dc40f7e1c0d301106",
+            "initial_state_sha256": "c1f61a51c373913056129596834258d0fd4b34d79780095a7dba5beae7912964"
+          }
+        ],
+        "dataset_sha256": "348fd30965bd8306667e5f03c2461df3091e73d01634114b9d0532299b8eaf99",
+        "cache_sha256": "bf41176437ef736b24164fe21368811a972f1083779f34f2761e8f0ab880d590",
+        "config_sha256": "16bbc44b21cf44fd58f0a71e00a00ccdb5286961cd048b24b015d24a1cbf2639",
+        "scope": "data quality and causal visual inputs; not grasp generalization",
+        "accepted_episodes": 1,
+        "object_ids": [
+          "Raisins"
+        ],
+        "unique_teacher_files": 1,
+        "unique_initial_policy_inputs": 1,
+        "repeated_initial_inputs": [],
+        "all_home_references_available": true,
+        "independent_generalization_split_verified": false
+      },
+      "preflight": {
+        "architecture": "hx5_dexgraspvla_style_rdt",
+        "training_ready": true,
+        "missing": [],
+        "dependencies": {
+          "torch": {
+            "imported": true,
+            "version": "2.6.0+cu124"
+          },
+          "numpy": {
+            "imported": true,
+            "version": "2.2.6"
+          },
+          "scipy": {
+            "imported": true,
+            "version": "1.15.3"
+          },
+          "torchvision": {
+            "imported": true,
+            "version": "0.21.0+cu124"
+          },
+          "omegaconf": {
+            "imported": true,
+            "version": "2.3.1"
+          }
+        },
+        "episode_counts": {
+          "train": 1,
+          "val": 0,
+          "test": 0
+        },
+        "observation_version": 2,
+        "unreferenced_prefix_frames": 0,
+        "cache_sha256": "bf41176437ef736b24164fe21368811a972f1083779f34f2761e8f0ab880d590",
+        "optimizer_steps": 0,
+        "pretrained_policy_loaded": false,
+        "scope": "HX5 architectural adaptation; language grounding is external"
+      },
+      "visual_manifest_sha256": "348fd30965bd8306667e5f03c2461df3091e73d01634114b9d0532299b8eaf99"
+    }
+  ],
+  "raw_results_sha256": "447d9387d4f179b160e0f2d2d19b3a4b808810f45210c33ac92a547ca77001b3",
+  "plan_sha256": "cad2dad907c245a3baaed1531e377bbcf1bd7f005c5efc2d354ab016c5cb06d4",
+  "scope": "diagnostic data only; fixed7 unchanged; no new DINO forward",
+  "ready_count": 5,
+  "ready_frames": 5011
+}

@@ -1,0 +1,8 @@
+{
+  "completed": true,
+  "updates": 20000,
+  "final_loss": 1.5669831554987468e-05,
+  "seconds": 1022.9833417250775,
+  "checkpoint": "final.pt",
+  "checkpoint_sha256": "5b6112f47981206ecc14a937550c24c691715500d15417ddd70e64e74754b6d4"
+}

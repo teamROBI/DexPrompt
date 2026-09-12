@@ -1,0 +1,25 @@
+{
+  "completed": true,
+  "training_started": false,
+  "source_manifest_sha256": "a044ff58feba76c5ee7e2d5e2b00d03e8451cc1854e1f07f876065de012a91a1",
+  "visual_profile": {
+    "version": 2,
+    "width": 256,
+    "height": 256,
+    "head_tilt_down_degrees": 20
+  },
+  "episodes": [
+    {
+      "episode_id": "teacher_0000_yaw_000",
+      "frames": 981,
+      "state_mismatches": 0,
+      "max_signal_error": 0.0,
+      "head_original_empty": 266,
+      "head_profile_empty": 0,
+      "both_profile_empty": 0,
+      "gained_head_frames": 266,
+      "lost_head_frames": 0
+    }
+  ],
+  "dataset_training_ready": false
+}

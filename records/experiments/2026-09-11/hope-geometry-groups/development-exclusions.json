@@ -1,0 +1,45 @@
+{
+  "scope": "prospective exclusion guidance, not a train/val/test assignment",
+  "already_development_objects": [
+    "AlphabetSoup",
+    "BBQSauce",
+    "ChocolatePudding",
+    "GranolaBars",
+    "Mustard",
+    "Peaches",
+    "Raisins"
+  ],
+  "near_geometry_development_exclusions": [
+    "AlphabetSoup",
+    "BBQSauce",
+    "Cherries",
+    "ChocolatePudding",
+    "Corn",
+    "GranolaBars",
+    "GreenBeans",
+    "Ketchup",
+    "Mustard",
+    "Peaches",
+    "PeasAndCarrots",
+    "Pineapple",
+    "Raisins",
+    "TomatoSauce"
+  ],
+  "not_yet_approved_as_unseen_geometry": [
+    "Butter",
+    "Cookies",
+    "CreamCheese",
+    "MacaroniAndCheese",
+    "Mayo",
+    "Milk",
+    "Mushrooms",
+    "OrangeJuice",
+    "Parmesan",
+    "Popcorn",
+    "SaladDressing",
+    "Spaghetti",
+    "Tuna",
+    "Yogurt"
+  ],
+  "new_actions_generated": false
+}

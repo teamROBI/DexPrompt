@@ -1,0 +1,68 @@
+{
+  "episode_sha256": "2ad2b2647274105e2ed08a4cb96b39986a798c073ff52ba8de287567d0a031a4",
+  "candidate_id": "057c04e1d5755d4aa88bdc9cbe8bcebbc234b3d6c00da572cf8fc4bfd118f4bc",
+  "quality": {
+    "accepted": true,
+    "duration_seconds": 23.84,
+    "frames": 1192,
+    "limits": {
+      "max_approach_displacement": 0.01,
+      "max_digit_force": 30.0,
+      "max_penetration": 0.002,
+      "max_table_penetration": 1e-06,
+      "min_contact_force": 0.1,
+      "min_hold_seconds": 0.5,
+      "min_lift": 0.1
+    },
+    "longest_contact_preserving_hold_seconds": 1.0000000000000004,
+    "max_approach_displacement": 2.434041818163838e-17,
+    "max_contact_groups": 5,
+    "max_digit_force": 14.720461215146672,
+    "max_interval_minimum_rise": 0.11811717557293466,
+    "max_non_target_displacement": 0.0,
+    "max_robot_object_penetration": 0.0015683628340315222,
+    "max_robot_obstacle_penetration": 0.0,
+    "max_robot_table_penetration": 0.0,
+    "reasons": [],
+    "required_contact_groups": 5,
+    "terminal_contact_preserving_hold_seconds": 1.0000000000000004
+  },
+  "phase_intervals": [
+    {
+      "phase": "transit",
+      "start": 0.0,
+      "end": 2.9999999999997606
+    },
+    {
+      "phase": "descend",
+      "start": 2.9999999999997584,
+      "end": 4.99999999999954
+    },
+    {
+      "phase": "approach",
+      "start": 4.999999999999538,
+      "end": 9.000000000000068
+    },
+    {
+      "phase": "arrive",
+      "start": 9.000000000000075,
+      "end": 10.000000000000401
+    },
+    {
+      "phase": "close",
+      "start": 10.000000000000409,
+      "end": 14.260000000001824
+    },
+    {
+      "phase": "lift",
+      "start": 14.260000000001831,
+      "end": 20.799999999998697
+    },
+    {
+      "phase": "hold",
+      "start": 20.799999999998686,
+      "end": 23.839999999997012
+    }
+  ],
+  "scope": "one fixed scene; simulated contact signals; not tactile hardware data"
+}

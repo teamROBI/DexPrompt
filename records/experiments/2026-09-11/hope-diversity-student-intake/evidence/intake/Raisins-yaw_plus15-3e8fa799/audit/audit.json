@@ -1,0 +1,47 @@
+{
+  "completed": true,
+  "training_started": false,
+  "dino_executed": false,
+  "physics_replayed_in_this_audit": false,
+  "episodes": [
+    {
+      "episode_id": "teacher_0000_yaw_000",
+      "object_id": "Raisins",
+      "split": "train",
+      "frames": 1022,
+      "home_reference_available": true,
+      "first_eligible_tick": 0,
+      "reference_ticks": [
+        0,
+        380
+      ],
+      "checked_preprocessing_ticks": [
+        0,
+        200,
+        380,
+        450,
+        1021
+      ],
+      "initial_input_sha256": "1864eaf8bc408e2835d31d4629b039ff16055e0f66c5b6ce7058770552fe8352",
+      "first_chunk_sha256": "4cc1632204992d51b0ca298f6ba0c8d1740d5b64b9d8ecd9241940d85926ba3c",
+      "episode_sha256": "5dbe10fff471b3afac976e84efbd64cf33da2c04c9f4ea02ba311a2c8e804abe",
+      "teacher_sha256": "3e8fa79936d8e9c10d2bd7d6c962e12fb6ed433f8adf0092d86fda2e0c3665e5",
+      "quality_accepted": true,
+      "model_sha256": "de6b5a73d15dd8394481ce79cb87165f3cbc827e5b46a09dc40f7e1c0d301106",
+      "initial_state_sha256": "c1f61a51c373913056129596834258d0fd4b34d79780095a7dba5beae7912964"
+    }
+  ],
+  "dataset_sha256": "348fd30965bd8306667e5f03c2461df3091e73d01634114b9d0532299b8eaf99",
+  "cache_sha256": "bf41176437ef736b24164fe21368811a972f1083779f34f2761e8f0ab880d590",
+  "config_sha256": "16bbc44b21cf44fd58f0a71e00a00ccdb5286961cd048b24b015d24a1cbf2639",
+  "scope": "data quality and causal visual inputs; not grasp generalization",
+  "accepted_episodes": 1,
+  "object_ids": [
+    "Raisins"
+  ],
+  "unique_teacher_files": 1,
+  "unique_initial_policy_inputs": 1,
+  "repeated_initial_inputs": [],
+  "all_home_references_available": true,
+  "independent_generalization_split_verified": false
+}

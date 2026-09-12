@@ -1,0 +1,49 @@
+{
+  "frames": [
+    0,
+    8,
+    16,
+    32,
+    64,
+    200,
+    450,
+    700
+  ],
+  "seeds": [
+    1000,
+    1001,
+    1002
+  ],
+  "training_started": false,
+  "max_action_chunks": 24,
+  "wall_limit_seconds": 1800,
+  "checkpoint": "/data1/yspark/projects/dexprompt/student-runs/single-bottle-x0-v1/epoch_0012.pt",
+  "data": "/home/yspark/projects/DexPrompt/out/student-single-bottle-v1",
+  "cache": "/home/yspark/projects/DexPrompt/out/student-single-bottle-v1-cache",
+  "gpu_uuid": "GPU-432d6dc7-116e-49f9-8eae-badd48341b90",
+  "expected_hashes": {
+    "/data1/yspark/projects/dexprompt/student-runs/single-bottle-x0-v1/epoch_0012.pt": "a5100b38f9c1fb6440386a70da4acf6023c1a91f8d9ff10d4c6d932686244aca",
+    "/home/yspark/projects/DexPrompt/out/student-single-bottle-v1/manifest.json": "24233706f31ca4f241a8135e69348f2f7fe8344575946f9daec6cdb87b64f135",
+    "/home/yspark/projects/DexPrompt/out/student-single-bottle-v1-cache/manifest.json": "bad6aba5e5b243200428bdae2941f58ff10286f040cff5172bc237f86051e62d",
+    "/home/yspark/projects/DexPrompt/out/student-x0-code-v1/scripts/diagnose_teacher_observations.py": "7301f07591fc83c1cd042946778f45807264b0a068468572032863e362c016ce",
+    "/data1/yspark/projects/dexprompt/student-checks/teacher-observations-v1/diagnosis.json": "d08e057a59ad6ec5b6d034cfcef52ed9a5ee5e013ae94bebd2cae69524b18850",
+    "/home/yspark/projects/DexPrompt/out/student-x0-code-v1/scripts/diagnose_x0_denoising.py": "12a986891d69e66ccb3d1c376d64e2fbe5bafe368ad2abac89c7952181bc1f13"
+  },
+  "question": "Separate x0 one-step teacher-noised estimation error from the actual 16-step pure-noise sampling trajectory",
+  "scope": "72 teacher-noised estimates plus 24 actual sampled traces; no learning, no physics, no ablations",
+  "rng": "reset to the same seed at each observation; not the RNG stream of archived closed-loop rollout",
+  "comparisons": [
+    "first1/first8/full64, arm/hand, rad and normalized MSE",
+    "causal online GoalMemory preprocessing versus EpisodeChunks",
+    "fixed current/previous command and action-center statistical baselines"
+  ],
+  "interpretation": "No closed-loop success or causal vision claim; phase and nearest teacher index are diagnostic only",
+  "timesteps": [
+    0,
+    25,
+    49
+  ],
+  "max_direct_estimates": 72,
+  "max_sampling_traces": 24,
+  "baseline": "/data1/yspark/projects/dexprompt/student-checks/teacher-observations-v1"
+}

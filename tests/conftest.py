@@ -1,8 +1,19 @@
 """Capture rendering opt-in before script imports can change the environment."""
 
 import os
+import sys
+from pathlib import Path
 
 import pytest
+
+# Relocated scripts retain module names while runtime-frozen entry points stay put.
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
+from _bootstrap import setup
+
+setup()
+for directory in Path(__file__).resolve().parent.iterdir():
+    if directory.is_dir() and directory.name != '__pycache__':
+        sys.path.append(str(directory))
 
 INITIAL_RENDER_BACKEND = os.environ.get("MUJOCO_GL")
 

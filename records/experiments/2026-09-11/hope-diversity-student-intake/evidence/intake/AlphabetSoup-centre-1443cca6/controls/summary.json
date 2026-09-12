@@ -1,0 +1,67 @@
+{
+  "completed": true,
+  "training_started": false,
+  "mode": "controls",
+  "scope": "overlap guarded",
+  "dataset_sha256": "2047fcd4afd4169f4bea6d052737884e5b2b0aff442ceb38a245d1c2cb0add97",
+  "evaluation_sources": {
+    "scripts/evaluate_student_suite.py": "d7387f3812997803b7f8c25aa288d9cd06b4d35501939aee71a76473f23a0eef",
+    "scripts/replay_hx5_student.py": "145de613d45a1068a1b20ae7d5f7bf2638c54e718226e5e2c9ce795aee186aab",
+    "src/icra/execution.py": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94",
+    "src/icra/simulation.py": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25"
+  },
+  "episodes": [
+    {
+      "episode_id": "teacher_0000_yaw_000",
+      "object_id": "AlphabetSoup",
+      "outcome": {
+        "recorded_actions": {
+          "ticks": 979,
+          "seed": 0,
+          "failure_reason": null,
+          "contact_acquisition_tick": 629,
+          "evaluation_contract": "contact_acquisition_guard_v2",
+          "terminal_lift_seconds": 2.64,
+          "terminal_teacher_contact_lift_seconds": 2.64,
+          "longest_lift_seconds": 2.64,
+          "longest_teacher_contact_lift_seconds": 2.64,
+          "sustained_lift": true,
+          "teacher_compliant_lift": true,
+          "max_height_m": 0.14425772264353653,
+          "max_penetration_m": 0.001999632543514883,
+          "max_digit_force_n": 29.942162888453396,
+          "saturated_command_ticks": 0,
+          "slew_limited_ticks": 0,
+          "required_contact_groups": 5,
+          "max_simultaneous_contact_groups": 5,
+          "terminal_contact_groups": 5,
+          "all_contact_groups_ticks": 374
+        },
+        "stationary": {
+          "ticks": 979,
+          "seed": 0,
+          "failure_reason": null,
+          "contact_acquisition_tick": null,
+          "evaluation_contract": "contact_acquisition_guard_v2",
+          "terminal_lift_seconds": 0.0,
+          "terminal_teacher_contact_lift_seconds": 0.0,
+          "longest_lift_seconds": 0.0,
+          "longest_teacher_contact_lift_seconds": 0.0,
+          "sustained_lift": false,
+          "teacher_compliant_lift": false,
+          "max_height_m": 0.0,
+          "max_penetration_m": 0.0,
+          "max_digit_force_n": 0.0,
+          "saturated_command_ticks": 0,
+          "slew_limited_ticks": 0,
+          "required_contact_groups": 5,
+          "max_simultaneous_contact_groups": 0,
+          "terminal_contact_groups": 0,
+          "all_contact_groups_ticks": 0
+        },
+        "passed": true
+      }
+    }
+  ],
+  "checks_passed": true
+}

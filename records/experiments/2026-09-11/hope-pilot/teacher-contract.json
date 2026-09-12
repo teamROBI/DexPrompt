@@ -1,0 +1,66 @@
+{
+  "scope": "actual object importer and eval density rule; no ADMM/refinement/grasp run",
+  "all_mass_and_inertia_agree": true,
+  "objects": [
+    {
+      "object": "AlphabetSoup",
+      "asset_scale": 1.0,
+      "teacher_eval_mass_kg": 0.10628727130672608,
+      "executor_mass_kg": 0.10628727130672606,
+      "mass_difference_kg": 1.3877787807814457e-17,
+      "inertia_difference_kg_m2": 2.710505431213761e-20,
+      "teacher_table_z_in_object_frame_m": 0.0,
+      "requires_admm_table_scene_hook": true
+    },
+    {
+      "object": "BBQSauce",
+      "asset_scale": 1.0,
+      "teacher_eval_mass_kg": 0.1093976728827876,
+      "executor_mass_kg": 0.1093976728827876,
+      "mass_difference_kg": 0.0,
+      "inertia_difference_kg_m2": 0.0,
+      "teacher_table_z_in_object_frame_m": 0.0,
+      "requires_admm_table_scene_hook": true
+    },
+    {
+      "object": "ChocolatePudding",
+      "asset_scale": 1.0,
+      "teacher_eval_mass_kg": 0.10704026124897946,
+      "executor_mass_kg": 0.10704026124897946,
+      "mass_difference_kg": 0.0,
+      "inertia_difference_kg_m2": 5.149960319306146e-19,
+      "teacher_table_z_in_object_frame_m": 0.0,
+      "requires_admm_table_scene_hook": true
+    },
+    {
+      "object": "Mustard",
+      "asset_scale": 1.0,
+      "teacher_eval_mass_kg": 0.10933279710890834,
+      "executor_mass_kg": 0.10933279710890834,
+      "mass_difference_kg": 0.0,
+      "inertia_difference_kg_m2": 0.0,
+      "teacher_table_z_in_object_frame_m": 0.0,
+      "requires_admm_table_scene_hook": true
+    },
+    {
+      "object": "Peaches",
+      "asset_scale": 1.0,
+      "teacher_eval_mass_kg": 0.10779018426348923,
+      "executor_mass_kg": 0.10779018426348923,
+      "mass_difference_kg": 0.0,
+      "inertia_difference_kg_m2": 2.710505431213761e-20,
+      "teacher_table_z_in_object_frame_m": 0.0,
+      "requires_admm_table_scene_hook": true
+    },
+    {
+      "object": "Raisins",
+      "asset_scale": 1.0,
+      "teacher_eval_mass_kg": 0.10814156866000421,
+      "executor_mass_kg": 0.10814156866000421,
+      "mass_difference_kg": 0.0,
+      "inertia_difference_kg_m2": 0.0,
+      "teacher_table_z_in_object_frame_m": 0.0,
+      "requires_admm_table_scene_hook": true
+    }
+  ]
+}

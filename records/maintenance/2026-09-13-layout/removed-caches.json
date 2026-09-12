@@ -1,0 +1,114 @@
+[
+  {
+    "path": "scripts/diagnostics/__pycache__",
+    "bytes": 207767
+  },
+  {
+    "path": "scripts/stage1_dp3/__pycache__",
+    "bytes": 50354
+  },
+  {
+    "path": "scripts/ops/__pycache__",
+    "bytes": 99318
+  },
+  {
+    "path": "scripts/experiments/__pycache__",
+    "bytes": 322993
+  },
+  {
+    "path": "scripts/student/__pycache__",
+    "bytes": 42462
+  },
+  {
+    "path": "scripts/teacher/__pycache__",
+    "bytes": 204082
+  },
+  {
+    "path": "scripts/data/__pycache__",
+    "bytes": 46072
+  },
+  {
+    "path": "scripts/dexonomy_multiccd/__pycache__",
+    "bytes": 5175
+  },
+  {
+    "path": "scripts/rl/__pycache__",
+    "bytes": 52555
+  },
+  {
+    "path": "scripts/stage1_bc/__pycache__",
+    "bytes": 30543
+  },
+  {
+    "path": "scripts/dexonomy_table_scene/__pycache__",
+    "bytes": 4596
+  },
+  {
+    "path": "scripts/__pycache__",
+    "bytes": 777145
+  },
+  {
+    "path": "src/icra/teacher/__pycache__",
+    "bytes": 47961
+  },
+  {
+    "path": "src/icra/data/__pycache__",
+    "bytes": 29507
+  },
+  {
+    "path": "src/icra/robots/__pycache__",
+    "bytes": 15753
+  },
+  {
+    "path": "src/icra/learning/__pycache__",
+    "bytes": 94150
+  },
+  {
+    "path": "src/icra/vision/__pycache__",
+    "bytes": 18373
+  },
+  {
+    "path": "src/icra/sim/__pycache__",
+    "bytes": 42078
+  },
+  {
+    "path": "src/icra/__pycache__",
+    "bytes": 297841
+  },
+  {
+    "path": "tests/ops/__pycache__",
+    "bytes": 20426
+  },
+  {
+    "path": "tests/experiments/__pycache__",
+    "bytes": 188489
+  },
+  {
+    "path": "tests/student/__pycache__",
+    "bytes": 240955
+  },
+  {
+    "path": "tests/teacher/__pycache__",
+    "bytes": 145955
+  },
+  {
+    "path": "tests/simulation/__pycache__",
+    "bytes": 186888
+  },
+  {
+    "path": "tests/rl/__pycache__",
+    "bytes": 96180
+  },
+  {
+    "path": "tests/__pycache__",
+    "bytes": 856382
+  },
+  {
+    "path": ".pytest_cache",
+    "bytes": 78094
+  },
+  {
+    "path": ".ruff_cache",
+    "bytes": 44326
+  }
+]

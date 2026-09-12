@@ -1,0 +1,84 @@
+{
+ "episode": "teacher_0000_yaw_000",
+ "arm": "A",
+ "condition": "archived commands replayed unchanged",
+ "branch_tick": 630,
+ "ticks": 1450,
+ "arm_command_sha256": "c44aee8bef57d37ed092d84a4c7d5057355716d5a6bc661c99c23465539f4dc3",
+ "gravity_compensation": "archived arm commands passed through unmodified",
+ "ramp": {
+  "rate_rad_per_tick": 0.005,
+  "gap_at_branch_rad": 0.7579542796011461,
+  "ticks": 152,
+  "command_completes_tick": null,
+  "max_command_step_rad": 0.015000013321489813,
+  "step_at_branch_rad": 0.0005540564992172481,
+  "target_within_joint_range": true,
+  "target_joint_margin_rad": 0.10534442987442016
+ },
+ "target_reached": false,
+ "measured_arrival_tick": null,
+ "measured_arrival_delay_ticks": null,
+ "final_residual_rad": 0.3507699966430664,
+ "worst_joint_residual_rad": {
+  "finger_r_joint1": 0.11486265994608402,
+  "finger_r_joint2": 0.2902795076370239,
+  "finger_r_joint3": 0.2161041498184204,
+  "finger_r_joint4": 0.11126255989074707,
+  "finger_r_joint5": 0.10471239686012268,
+  "finger_r_joint6": 0.35002875328063965,
+  "finger_r_joint7": 0.02028890699148178,
+  "finger_r_joint8": 0.09239375591278076,
+  "finger_r_joint9": 0.041693925857543945,
+  "finger_r_joint10": 0.19569146633148193,
+  "finger_r_joint11": 0.01195681095123291,
+  "finger_r_joint12": 0.015251338481903076,
+  "finger_r_joint13": 0.23343510925769806,
+  "finger_r_joint14": 0.3507699966430664,
+  "finger_r_joint15": 0.04375322163105011,
+  "finger_r_joint16": 0.04719889163970947,
+  "finger_r_joint17": 0.12588316202163696,
+  "finger_r_joint18": 0.34998130798339844,
+  "finger_r_joint19": 0.007446080446243286,
+  "finger_r_joint20": 0.050138771533966064
+ },
+ "contact": {
+  "required_groups": 5,
+  "ticks_all_groups": 410,
+  "groups_at_end": 0,
+  "all_groups_at_arrival": null
+ },
+ "height": {
+  "peak_rise_mm": 139.62185790488613,
+  "final_rise_mm": -0.0005761298738082843,
+  "rise_at_arrival_mm": null
+ },
+ "quality": {
+  "accepted": false,
+  "reasons": [
+   "execution_terminated_early",
+   "insufficient_contact_preserving_hold"
+  ]
+ },
+ "elapsed_seconds": 18.2,
+ "classification": "target not reached",
+ "reproduces_archive": {
+  "max_absolute_errors": {
+   "right_state": 0.0,
+   "timestamp": 0.0,
+   "group_forces_min": 0.0,
+   "group_forces_max": 0.0,
+   "digit_force_max": 0.0,
+   "target_height_min": 0.0,
+   "object_xy_displacement_max": 0.0,
+   "non_target_displacement_max": 0.0,
+   "robot_object_penetration_max": 0.0,
+   "robot_table_penetration_max": 0.0,
+   "robot_obstacle_penetration_max": 0.0
+  },
+  "boolean_mismatches": {
+   "contact_groups": 0
+  },
+  "exact": true
+ }
+}

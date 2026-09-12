@@ -1,0 +1,90 @@
+{
+ "collections_scanned": 401,
+ "unique_accepted_episodes": 128,
+ "could_not_link": 0,
+ "copies_collapsed": 113,
+ "same_condition_distinct_episodes": [],
+ "hand_joint_order": {
+  "xml": "/home/yspark/projects/ICRA/third_party/dexonomy/assets/hand/hx5_d20/right.xml",
+  "xml_sha256": "4db2e825d82904bc8299596120f416ba7bada2f59d1a66638c12961e33b6e3fe",
+  "finger_joints_in_file_order": [
+   "finger_r_joint1",
+   "finger_r_joint2",
+   "finger_r_joint3",
+   "finger_r_joint4",
+   "finger_r_joint5",
+   "finger_r_joint6",
+   "finger_r_joint7",
+   "finger_r_joint8",
+   "finger_r_joint9",
+   "finger_r_joint10",
+   "finger_r_joint11",
+   "finger_r_joint12",
+   "finger_r_joint13",
+   "finger_r_joint14",
+   "finger_r_joint15",
+   "finger_r_joint16",
+   "finger_r_joint17",
+   "finger_r_joint18",
+   "finger_r_joint19",
+   "finger_r_joint20"
+  ],
+  "equals_executor_order": true
+ },
+ "dexonomy_pregrasp_available": 128,
+ "default_pool_previously_evaluated": 60,
+ "default_pool": {
+  "episodes": 77,
+  "objects": {
+   "AlphabetSoup": 23,
+   "Peaches": 14,
+   "Raisins": 38,
+   "core_can_7bd05573c09fb0c2af39ccaab9314b14": 2
+  },
+  "candidates": 25,
+  "candidates_by_object": {
+   "AlphabetSoup": 4,
+   "Raisins": 17,
+   "core_can_7bd05573c09fb0c2af39ccaab9314b14": 2,
+   "Peaches": 2
+  },
+  "grasp_types": {
+   "10_Power_Disk": 39,
+   "1_Large_Diameter": 38
+  },
+  "placements": {
+   "centre": 25,
+   "x_minus10mm": 4,
+   "x_minus20mm": 4,
+   "x_plus10mm": 4,
+   "x_plus20mm": 6,
+   "y_minus10mm": 4,
+   "y_plus10mm": 5,
+   "y_plus20mm": 5,
+   "yaw_minus15": 2,
+   "yaw_minus7_5": 4,
+   "yaw_plus15": 6,
+   "y_minus20mm": 4,
+   "yaw_plus7_5": 4
+  },
+  "frames": 81161
+ },
+ "kept_apart": {
+  "B-multiccd physics": 3,
+  "multi-object scene": 5,
+  "earlier controller (different teacher behaviour)": 42,
+  "visual profile (different image size and head pose)": 1
+ },
+ "checks_passed": {
+  "frames_equal_ticks": 128,
+  "state_first_equals_initial_float32": 128,
+  "timestamp_first_equals_initial_time": 128,
+  "timestamp_step_equals_control_dt": 128,
+  "first_hand_command_equals_open_pose": 128,
+  "actions_within_ctrlrange": 128,
+  "phases_in_order": 128,
+  "world_root_reconstructed": 128
+ },
+ "issues": 0,
+ "student_ready": false
+}

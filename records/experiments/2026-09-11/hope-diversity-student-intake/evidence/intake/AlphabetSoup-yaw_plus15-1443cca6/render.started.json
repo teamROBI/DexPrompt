@@ -1,0 +1,14 @@
+{
+  "pid": 2043819,
+  "command": [
+    "scripts/prepare_visual_dataset.py",
+    "--data",
+    "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-job-v1/source/runs/08-placement-AlphabetSoup-yaw_plus15-757e4674",
+    "--episode",
+    "teacher_0000_yaw_000",
+    "--visual-profile",
+    "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-job-v1/code-egl/configs/visual_student_256.json",
+    "--out",
+    "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/AlphabetSoup-yaw_plus15-1443cca6/visual"
+  ]
+}

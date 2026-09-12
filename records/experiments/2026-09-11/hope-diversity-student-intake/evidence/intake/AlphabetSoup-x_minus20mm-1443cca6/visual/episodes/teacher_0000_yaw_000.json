@@ -1,0 +1,551 @@
+{
+  "accepted": true,
+  "candidate_id": "1443cca6ceb82be8e441e021dd4747d35fa1efd1908a384b4089dd63fb7b7e71",
+  "condition": {
+    "kind": "object",
+    "object_id": "AlphabetSoup"
+  },
+  "episode_id": "teacher_0000_yaw_000",
+  "object_id": "AlphabetSoup",
+  "path": "episodes/teacher_0000_yaw_000.npz",
+  "provenance": {
+    "candidate_id": "1443cca6ceb82be8e441e021dd4747d35fa1efd1908a384b4089dd63fb7b7e71",
+    "condition": {
+      "kind": "object",
+      "object_id": "AlphabetSoup"
+    },
+    "execution": {
+      "adapted_target": {
+        "final_command": [
+          -0.03170653060078621,
+          -0.6456187963485718,
+          0.4274284839630127,
+          -2.1617536544799805,
+          0.7569875121116638,
+          -0.5249323844909668,
+          0.3601473867893219,
+          -0.049586255103349686,
+          -1.427223801612854,
+          0.5306719541549683,
+          0.5746268033981323,
+          -0.251906156539917,
+          1.0449806451797485,
+          0.3314960300922394,
+          0.6106685996055603,
+          -0.36319398880004883,
+          0.958095133304596,
+          0.2563590109348297,
+          0.5845412611961365,
+          -0.40287014842033386,
+          0.9061763286590576,
+          0.10653235763311386,
+          0.6764798760414124,
+          -0.31180837750434875,
+          0.7923535704612732,
+          0.2806381583213806,
+          0.553277850151062
+        ],
+        "final_measured": [
+          -0.010926798917353153,
+          -0.6410478353500366,
+          0.4394751489162445,
+          -2.143197536468506,
+          0.76032555103302,
+          -0.5244482159614563,
+          0.37088263034820557,
+          -0.04965921491384506,
+          -1.426456093788147,
+          0.5298347473144531,
+          0.5740893483161926,
+          -0.2563799321651459,
+          1.0433601140975952,
+          0.33082452416419983,
+          0.6100562810897827,
+          -0.363678902387619,
+          0.9600631594657898,
+          0.25714218616485596,
+          0.5838675498962402,
+          -0.37581688165664673,
+          0.9028522372245789,
+          0.10510826110839844,
+          0.6755918860435486,
+          -0.31131377816200256,
+          0.7927759289741516,
+          0.28088557720184326,
+          0.5534390211105347
+        ],
+        "max_residual_from_squeeze": 0.3666076064109802
+      },
+      "compiled_profile": {
+        "actuator_force_limits": [
+          [
+            -61.4,
+            61.4
+          ],
+          [
+            -61.4,
+            61.4
+          ],
+          [
+            -31.7,
+            31.7
+          ],
+          [
+            -31.7,
+            31.7
+          ],
+          [
+            -31.7,
+            31.7
+          ],
+          [
+            -31.7,
+            31.7
+          ],
+          [
+            -5.1,
+            5.1
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ]
+        ],
+        "actuator_kp": [
+          600.0,
+          600.0,
+          600.0,
+          600.0,
+          600.0,
+          600.0,
+          200.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0
+        ],
+        "actuator_kv": [
+          76.69613914658487,
+          76.61867714729803,
+          35.05071945329333,
+          49.486099138808804,
+          34.82238704850415,
+          37.646980286379545,
+          10.539745185258433,
+          30.0,
+          30.0,
+          30.0,
+          30.0,
+          30.0,
+          30.0,
+          30.0,
+          30.0,
+          30.0,
+          30.0,
+          30.0,
+          30.0,
+          30.0,
+          30.0,
+          30.0,
+          30.0,
+          30.0,
+          30.0,
+          30.0,
+          30.0
+        ],
+        "contact_solimp": [
+          [
+            0.9,
+            0.95,
+            0.001,
+            0.5,
+            2.0
+          ]
+        ],
+        "contact_solref": [
+          [
+            0.02,
+            1.0
+          ]
+        ],
+        "force_semantics": "sum of nonnegative contact-normal forces per whole digit, N",
+        "geom_condim": [
+          3,
+          4
+        ],
+        "geom_friction": [
+          [
+            1.0,
+            0.005,
+            0.0001
+          ],
+          [
+            1.0,
+            0.05,
+            0.0001
+          ],
+          [
+            1.8,
+            0.005,
+            0.0001
+          ],
+          [
+            5.0,
+            1.0,
+            0.3
+          ]
+        ],
+        "integrator": 3,
+        "iterations": 100,
+        "mujoco_version": "3.3.3",
+        "note": "object anti-spin friction also mixes into finger-object contacts; defaults unchanged",
+        "solver": 2,
+        "target_mass_kg": 0.10628727130672606,
+        "timestep": 0.002,
+        "tolerance": 1e-08
+      },
+      "controller": {
+        "approach_ticks": 200,
+        "arrive_ticks": 50,
+        "close_ticks": 600,
+        "closure_speed": 0.008,
+        "descend_ticks": 100,
+        "geometry_feedback": true,
+        "hold_force": 4.0,
+        "hold_ticks": 50,
+        "lift_force": null,
+        "lift_height": 0.15,
+        "lift_ticks": 300,
+        "overhead": 0.15,
+        "penetration_margin": 0.75,
+        "policy_dt": 0.02,
+        "preload": 2.0,
+        "preview_ticks": 2,
+        "ready_ticks": 25,
+        "residual": 0.35,
+        "standoff": 0.1,
+        "transit_ticks": 150
+      },
+      "distractor_ids": [],
+      "early_terminated": false,
+      "failure_reason": null,
+      "geometry_hashes": {
+        "simulation/teacher_0000_yaw_000.mjb": "a71be2a8c4bba8c3a69f8674f2b017f16ca0812fe8506863562a397e335ddfb4"
+      },
+      "guard_scaled_ticks": 12,
+      "initial_clear": true,
+      "initial_contact_groups": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "initial_robot_object_penetration": 0.0,
+      "initial_robot_table_penetration": 0.0,
+      "initial_state": "simulation/teacher_0000_yaw_000.npy",
+      "initial_state_sha256": "a8a57bfc1465cf0a24ccdcb768eac629c235befd6f619d6e997bcbda08a150fc",
+      "initial_state_spec": "mjSTATE_INTEGRATION",
+      "initial_target_height": 0.8001895437961241,
+      "model": "simulation/teacher_0000_yaw_000.mjb",
+      "object_scale": 1.0,
+      "original_target": {
+        "grasp_qpos": [
+          -0.01708477921783924,
+          -0.0983804389834404,
+          0.14672055840492249,
+          0.5426658987998962,
+          -0.4034246802330017,
+          0.6070849299430847,
+          0.4173848628997803,
+          -0.29163646697998047,
+          -1.520938754081726,
+          0.49938690662384033,
+          0.7949500679969788,
+          -0.38521236181259155,
+          1.0940301418304443,
+          0.189569354057312,
+          0.7064108848571777,
+          -0.3429220914840698,
+          1.0035101175308228,
+          0.1028619259595871,
+          0.717791736125946,
+          -0.2530538737773895,
+          0.8227280974388123,
+          0.24482673406600952,
+          0.7719781398773193,
+          -0.28324294090270996,
+          1.1757903099060059,
+          0.4316127598285675,
+          0.7837724685668945
+        ],
+        "squeeze_qpos": [
+          -0.01708477921783924,
+          -0.0983804389834404,
+          0.14672055840492249,
+          0.5426658987998962,
+          -0.4034246802330017,
+          0.6070849299430847,
+          0.4173848628997803,
+          -0.2695348262786865,
+          -1.5490373373031616,
+          0.507565438747406,
+          0.7974355816841125,
+          -0.38095128536224365,
+          1.1025735139846802,
+          0.19543956220149994,
+          0.7092763781547546,
+          -0.3424546718597412,
+          1.011353850364685,
+          0.1081966906785965,
+          0.7204585671424866,
+          -0.2609226107597351,
+          0.8365562558174133,
+          0.25267359614372253,
+          0.7748554944992065,
+          -0.29826006293296814,
+          1.1593835353851318,
+          0.42221421003341675,
+          0.7829656004905701
+        ],
+        "world_root": [
+          [
+            -0.08037493360113138,
+            -0.9431719867199624,
+            0.3224382825935351,
+            0.3121563739891232
+          ],
+          [
+            -0.03577468212247587,
+            0.3260060560262895,
+            0.944690529284461,
+            -0.0985352349303501
+          ],
+          [
+            -0.9961224898245122,
+            0.06439431238423501,
+            -0.05994439394065164,
+            0.9467159553663457
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "path_attempts": [
+        {
+          "axis": 0,
+          "sign": 1,
+          "status": "passed"
+        }
+      ],
+      "simulation_substeps": 10,
+      "source_hashes": {
+        "scripts/collect_episodes.py": "ddac9c49c70d54af5e5868f82e3aa35c25405fd945edfe7f848a55ce1e7f822a",
+        "scripts/collect_teacher_dataset.py": "9b61dd09751db27068ab637bd5db8b1a8eb3d096a86258d2a4390a42ac95116f",
+        "src/icra/arm.py": "54ea9a88d552204586347b17fc1cb6cedbd733a621df32a888f7702df2cabf67",
+        "src/icra/conditioning.py": "6dbe8661c015ac006755132f801660092f8666336461ce9fa9be29eec776d2a4",
+        "src/icra/contact_control.py": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0",
+        "src/icra/dataset.py": "95091ac9d209843a96f48460592d3e1369809684ebbcd9efc35e0b0ac9aa8cea",
+        "src/icra/execution.py": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94",
+        "src/icra/objects.py": "6efe3c2d8739ba0f42e53f6a4b0de2cbf6e5179248549bdc612ed5c46d32daaa",
+        "src/icra/scene.py": "fe2a3c8c36640674f02d82f6f7dff44509058fa8c59c3d5f553ea47b71070f7b",
+        "src/icra/simulation.py": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25",
+        "src/icra/visual_observation.py": "513523968710d257c666df1b2ecd8127beba0b4bac59a227725d8754e1355f55"
+      },
+      "start_mode": "home",
+      "teacher_hand_xml_sha256": "4db2e825d82904bc8299596120f416ba7bada2f59d1a66638c12961e33b6e3fe",
+      "teacher_root_offset_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "visual_profile": {
+        "head_fovy": 60.0,
+        "head_quat": [
+          0.5792279653399943,
+          0.40557978767504993,
+          -0.40557978767306396,
+          -0.5792279653371581
+        ],
+        "head_tilt_down_degrees": 20,
+        "height": 256,
+        "original_head_quat": [
+          0.5,
+          0.5000000000024483,
+          -0.5,
+          -0.49999999999755174
+        ],
+        "version": 2,
+        "width": 256
+      },
+      "yaw_rad": 0.0
+    },
+    "grasp_type": "10_Power_Disk",
+    "object_id": "AlphabetSoup",
+    "required_contact_groups": [
+      [
+        "finger_r_link3",
+        "finger_r_link4"
+      ],
+      [
+        "finger_r_link7",
+        "finger_r_link8"
+      ],
+      [
+        "finger_r_link11",
+        "finger_r_link12"
+      ],
+      [
+        "finger_r_link15",
+        "finger_r_link16"
+      ],
+      [
+        "finger_r_link19",
+        "finger_r_link20"
+      ]
+    ],
+    "teacher": {
+      "name": "Dexonomy",
+      "source_path": "/home/yspark/projects/Dexonomy/output/hopeAlphabetSoup_10_Power_Disk_s2_hx5_d20/grasp_data/10_Power_Disk/AlphabetSoup/0_18_grasp.npy",
+      "source_sha256": "1443cca6ceb82be8e441e021dd4747d35fa1efd1908a384b4089dd63fb7b7e71"
+    },
+    "visual_derivation": {
+      "full_physics_replay_checked": true,
+      "source_dataset": "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-job-v1/source/runs/10-placement-AlphabetSoup-x_minus20mm-549c6a36",
+      "source_episode_sha256": "c38792a505944be8aa6fb0bb7797584615a449d1f72f8e0e548d9eaf6e35e311",
+      "source_hashes": {
+        "scripts/audit_mask_visibility.py": "5c50ff961076b5d17194d49f07ab2627f44bb3e3c293bcfbf747c61a1de38de7",
+        "scripts/collect_episodes.py": "ddac9c49c70d54af5e5868f82e3aa35c25405fd945edfe7f848a55ce1e7f822a",
+        "scripts/prepare_visual_dataset.py": "e7c2636bd8ba53ec890117af6a2d0ff09110597e34c29ebf36b00d8bab6be5f7",
+        "scripts/replay_hx5_student.py": "145de613d45a1068a1b20ae7d5f7bf2638c54e718226e5e2c9ce795aee186aab",
+        "src/icra/execution.py": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94",
+        "src/icra/simulation.py": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25",
+        "src/icra/visual_observation.py": "513523968710d257c666df1b2ecd8127beba0b4bac59a227725d8754e1355f55"
+      },
+      "source_model_sha256": "49fce29c5b817176ee341e37aae8f394b6115357d08a44c77e90fe56a65dcd99"
+    }
+  },
+  "quality": {
+    "accepted": true,
+    "duration_seconds": 19.619999999999997,
+    "frames": 981,
+    "limits": {
+      "max_approach_displacement": 0.01,
+      "max_digit_force": 30.0,
+      "max_penetration": 0.002,
+      "max_table_penetration": 1e-06,
+      "min_contact_force": 0.1,
+      "min_hold_seconds": 0.5,
+      "min_lift": 0.1
+    },
+    "longest_contact_preserving_hold_seconds": 1.0000000000000004,
+    "max_approach_displacement": 7.952315885737795e-18,
+    "max_contact_groups": 5,
+    "max_digit_force": 29.9017117306883,
+    "max_interval_minimum_rise": 0.1444012091672935,
+    "max_non_target_displacement": 0.0,
+    "max_robot_object_penetration": 0.0019995964041424805,
+    "max_robot_obstacle_penetration": 0.0,
+    "max_robot_table_penetration": 0.0,
+    "reasons": [],
+    "required_contact_groups": 5,
+    "terminal_contact_preserving_hold_seconds": 1.0000000000000004
+  },
+  "sha256": "7d20122f17ccd847339e533a5ab123c27087b50e9c52c655294780cb5fe0d676"
+}

@@ -1,0 +1,206 @@
+{
+ "completed": true,
+ "successes": 0,
+ "attempts": 9,
+ "checkpoint_sha256": "682733ce700eb75582b84ab3ebe77a59c7b6281c6f785b7c3bcdc8d34b765582",
+ "episodes": [
+  {
+   "name": "AlphabetSoup-409a5d4a75d5",
+   "object": "AlphabetSoup",
+   "seed": 1000,
+   "saturated_ticks": 0,
+   "first_deviation": {
+    "tick": 8,
+    "arm_max": 0.05066880243737522,
+    "finger_max": 0.006957861856887404
+   },
+   "seconds": 1.5,
+   "success": false,
+   "ticks": 78,
+   "failure": "digit_force",
+   "contact_acquisition_tick": null,
+   "terminal_hold_seconds": 0.0,
+   "longest_hold_seconds": 0.0,
+   "max_height_m": 0.0,
+   "max_penetration_m": 0.0010552734031155587,
+   "max_digit_force_n": 55.54549574216344,
+   "evaluation_contract": "contact_acquisition_guard_v2"
+  },
+  {
+   "name": "AlphabetSoup-409a5d4a75d5",
+   "object": "AlphabetSoup",
+   "seed": 1001,
+   "saturated_ticks": 0,
+   "first_deviation": {
+    "tick": 8,
+    "arm_max": 0.05066880243737522,
+    "finger_max": 0.006957861856887404
+   },
+   "seconds": 1.4,
+   "success": false,
+   "ticks": 78,
+   "failure": "digit_force",
+   "contact_acquisition_tick": null,
+   "terminal_hold_seconds": 0.0,
+   "longest_hold_seconds": 0.0,
+   "max_height_m": 0.0,
+   "max_penetration_m": 0.0010552734031155587,
+   "max_digit_force_n": 55.54549574216344,
+   "evaluation_contract": "contact_acquisition_guard_v2"
+  },
+  {
+   "name": "AlphabetSoup-409a5d4a75d5",
+   "object": "AlphabetSoup",
+   "seed": 1002,
+   "saturated_ticks": 0,
+   "first_deviation": {
+    "tick": 8,
+    "arm_max": 0.05066880243737522,
+    "finger_max": 0.006957861856887404
+   },
+   "seconds": 1.4,
+   "success": false,
+   "ticks": 78,
+   "failure": "digit_force",
+   "contact_acquisition_tick": null,
+   "terminal_hold_seconds": 0.0,
+   "longest_hold_seconds": 0.0,
+   "max_height_m": 0.0,
+   "max_penetration_m": 0.0010552734031155587,
+   "max_digit_force_n": 55.54549574216344,
+   "evaluation_contract": "contact_acquisition_guard_v2"
+  },
+  {
+   "name": "Peaches-9aa6657866eb",
+   "object": "Peaches",
+   "seed": 1000,
+   "saturated_ticks": 0,
+   "first_deviation": {
+    "tick": 47,
+    "arm_max": 0.051141956539457745,
+    "finger_max": 0.006859385443954924
+   },
+   "seconds": 1.7,
+   "success": false,
+   "ticks": 106,
+   "failure": "table_collision",
+   "contact_acquisition_tick": null,
+   "terminal_hold_seconds": 0.0,
+   "longest_hold_seconds": 0.0,
+   "max_height_m": 0.0,
+   "max_penetration_m": 0.0,
+   "max_digit_force_n": 58.363453599579664,
+   "evaluation_contract": "contact_acquisition_guard_v2"
+  },
+  {
+   "name": "Peaches-9aa6657866eb",
+   "object": "Peaches",
+   "seed": 1001,
+   "saturated_ticks": 0,
+   "first_deviation": {
+    "tick": 47,
+    "arm_max": 0.051141956539457745,
+    "finger_max": 0.006859385443954924
+   },
+   "seconds": 1.7,
+   "success": false,
+   "ticks": 106,
+   "failure": "table_collision",
+   "contact_acquisition_tick": null,
+   "terminal_hold_seconds": 0.0,
+   "longest_hold_seconds": 0.0,
+   "max_height_m": 0.0,
+   "max_penetration_m": 0.0,
+   "max_digit_force_n": 58.363453599579664,
+   "evaluation_contract": "contact_acquisition_guard_v2"
+  },
+  {
+   "name": "Peaches-9aa6657866eb",
+   "object": "Peaches",
+   "seed": 1002,
+   "saturated_ticks": 0,
+   "first_deviation": {
+    "tick": 47,
+    "arm_max": 0.051141956539457745,
+    "finger_max": 0.006859385443954924
+   },
+   "seconds": 1.7,
+   "success": false,
+   "ticks": 106,
+   "failure": "table_collision",
+   "contact_acquisition_tick": null,
+   "terminal_hold_seconds": 0.0,
+   "longest_hold_seconds": 0.0,
+   "max_height_m": 0.0,
+   "max_penetration_m": 0.0,
+   "max_digit_force_n": 58.363453599579664,
+   "evaluation_contract": "contact_acquisition_guard_v2"
+  },
+  {
+   "name": "Raisins-0ef25c7b5eea",
+   "object": "Raisins",
+   "seed": 1000,
+   "saturated_ticks": 94,
+   "first_deviation": {
+    "tick": 18,
+    "arm_max": 0.05315984851695443,
+    "finger_max": 0.04338673688653616
+   },
+   "seconds": 3.3,
+   "success": false,
+   "ticks": 210,
+   "failure": "table_collision",
+   "contact_acquisition_tick": null,
+   "terminal_hold_seconds": 0.0,
+   "longest_hold_seconds": 0.0,
+   "max_height_m": 5.624611887355968e-12,
+   "max_penetration_m": 0.0,
+   "max_digit_force_n": 0.0,
+   "evaluation_contract": "contact_acquisition_guard_v2"
+  },
+  {
+   "name": "Raisins-0ef25c7b5eea",
+   "object": "Raisins",
+   "seed": 1001,
+   "saturated_ticks": 94,
+   "first_deviation": {
+    "tick": 18,
+    "arm_max": 0.05315984851695443,
+    "finger_max": 0.04338673688653616
+   },
+   "seconds": 3.3,
+   "success": false,
+   "ticks": 210,
+   "failure": "table_collision",
+   "contact_acquisition_tick": null,
+   "terminal_hold_seconds": 0.0,
+   "longest_hold_seconds": 0.0,
+   "max_height_m": 5.624611887355968e-12,
+   "max_penetration_m": 0.0,
+   "max_digit_force_n": 0.0,
+   "evaluation_contract": "contact_acquisition_guard_v2"
+  },
+  {
+   "name": "Raisins-0ef25c7b5eea",
+   "object": "Raisins",
+   "seed": 1002,
+   "saturated_ticks": 94,
+   "first_deviation": {
+    "tick": 18,
+    "arm_max": 0.05315984851695443,
+    "finger_max": 0.04338673688653616
+   },
+   "seconds": 3.3,
+   "success": false,
+   "ticks": 210,
+   "failure": "table_collision",
+   "contact_acquisition_tick": null,
+   "terminal_hold_seconds": 0.0,
+   "longest_hold_seconds": 0.0,
+   "max_height_m": 5.624611887355968e-12,
+   "max_penetration_m": 0.0,
+   "max_digit_force_n": 0.0,
+   "evaluation_contract": "contact_acquisition_guard_v2"
+  }
+ ]
+}

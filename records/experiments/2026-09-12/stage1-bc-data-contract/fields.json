@@ -1,0 +1,49 @@
+{
+ "before_episode": {
+  "mesh, mesh_sha256, scale, collision_parts": "the executed object asset",
+  "initial_object_poses": "world pose of every object in the archived initial state (after settling), m and quaternion wxyz",
+  "initial_joint_qpos": "27 driven joints at the initial state (rad)",
+  "scene": "table, robot base, lift, head, arm start pose, object offset/yaw",
+  "dexonomy_target": "Dexonomy grasp/squeeze/pregrasp qpos, required and hand contact bodies, contact points; object frame. Input for a goal-conditioned executor; label for a shape-to-target generator",
+  "executed_target": "world hand-root target, open and closure finger targets, approach axis/sign/standoff actually used"
+ },
+ "per_tick_observation_before_action_i": {
+  "right_state": "27 driven joint positions (arm_r_joint1..7, finger_r_joint1..20), rad, float32, measured at timestamp[i] before action[i]",
+  "rgbm": "head RGB at timestamp[i]; alpha = simulator target mask (privileged, stage 2 only)",
+  "right_cam_img": "wrist RGB at timestamp[i]",
+  "timestamp": "simulation time t_i, s",
+  "control_dt": "0.02 s"
+ },
+ "per_tick_action_i": {
+  "action": "27 actuator commands held over [t_i, t_i + control_dt] (10 physics substeps); fingers = position targets (rad); arm = joint position target + gravity bias qfrc_bias/kp at t_i (the bias itself is not stored)"
+ },
+ "teacher_internal_not_an_observation": {
+  "phase": "the teacher controller's stage label for tick i"
+ },
+ "per_tick_after_action_i_never_input_for_action_i": {
+  "contact_groups": "aggregated over the 10 substeps after action[i]",
+  "group_forces_min": "aggregated over the 10 substeps after action[i]",
+  "group_forces_max": "aggregated over the 10 substeps after action[i]",
+  "digit_force_max": "aggregated over the 10 substeps after action[i]",
+  "target_height_min": "aggregated over the 10 substeps after action[i]",
+  "object_xy_displacement_max": "aggregated over the 10 substeps after action[i]",
+  "non_target_displacement_max": "aggregated over the 10 substeps after action[i]",
+  "robot_object_penetration_max": "aggregated over the 10 substeps after action[i]",
+  "robot_table_penetration_max": "aggregated over the 10 substeps after action[i]",
+  "robot_obstacle_penetration_max": "aggregated over the 10 substeps after action[i]"
+ },
+ "episode_outcome_never_input": [
+  "accepted",
+  "quality",
+  "status",
+  "reproduction verdict",
+  "past_evaluation_use",
+  "future states"
+ ],
+ "not_stored": {
+  "object pose per tick": "only the initial pose (initial_state) and per-tick target_height_min / object_xy_displacement_max",
+  "joint velocities": "right_state holds positions only",
+  "arm gravity-bias term per tick": "so the pure arm joint target is not separable from action without replay",
+  "hand root pose per tick": "not stored; derivable by forward kinematics of right_state with the fixed base/lift (not done here)"
+ }
+}

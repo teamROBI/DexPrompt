@@ -1,0 +1,3075 @@
+{
+  "training_started": false,
+  "grasp_generation_started": false,
+  "scope": "30 initial scenes; no approach or grasp validation",
+  "placements": [
+    {
+      "object": "AlphabetSoup",
+      "placement": "centre",
+      "initial": {
+        "object": "AlphabetSoup",
+        "asset": "out/hope-pilot-v1/objects/AlphabetSoup",
+        "mesh": "out/hope-pilot-v1/objects/AlphabetSoup/mesh.obj",
+        "mesh_sha256": "2ce98dbb16c57ba7f7660bc45bbcb16cc4ec5a1ca43ac39609316be6f594cb0f",
+        "asset_scale": 1.0,
+        "compiled_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rest_index": 0,
+        "yaw_rad": 0.0,
+        "world_transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.35
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "scene": {
+          "path": "out/hope-pilot-v1/checks-v3/AlphabetSoup/centre/scene.yaml",
+          "sha256": "ab716a577219f1753a9e92d006c171e045981ab7b71f5ccd81cf282f7e0eb63f"
+        }
+      },
+      "scene_object_yaw_degrees": 0,
+      "offset_x_m": 0.0,
+      "compiled_mass_kg": 0.10628727130672606,
+      "compiled_inertia_kg_m2": [
+        8.034621867117637e-05,
+        8.017892795625902e-05,
+        5.952646812459424e-05
+      ],
+      "collision_parts": 63,
+      "collision_visual_bound_difference_mm": 0.42383000000000004,
+      "builder_executor_initial_agree": true,
+      "texture_preserves_600_step_physics": true,
+      "settled_world_transform": [
+        [
+          0.9999866315420008,
+          -3.1825016022744104e-06,
+          -0.005170756922778098,
+          0.34999926805777287
+        ],
+        [
+          -2.2711769474291597e-06,
+          0.999999443791208,
+          -0.0010547094939640834,
+          -1.419034657498026e-07
+        ],
+        [
+          0.005170757403372289,
+          0.0010547071378284357,
+          0.9999860753334165,
+          0.8001895437961241
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "settling_translation_mm": 0.1895452624707864,
+      "settling_rotation_degrees": 0.30236431770459804,
+      "final_linear_speed_m_s": 1.5388982381687933e-14,
+      "final_angular_speed_rad_s": 2.9111591011491624e-15,
+      "external_penetration": {
+        "robot_object_mm": 0.0,
+        "robot_table_mm": 0.0
+      },
+      "target_pixels_head_wrist": [
+        757,
+        0
+      ],
+      "reference_eligible_head_wrist": [
+        true,
+        false
+      ],
+      "initial_scene_ready": true
+    },
+    {
+      "object": "AlphabetSoup",
+      "placement": "yaw_minus15",
+      "initial": {
+        "object": "AlphabetSoup",
+        "asset": "out/hope-pilot-v1/objects/AlphabetSoup",
+        "mesh": "out/hope-pilot-v1/objects/AlphabetSoup/mesh.obj",
+        "mesh_sha256": "2ce98dbb16c57ba7f7660bc45bbcb16cc4ec5a1ca43ac39609316be6f594cb0f",
+        "asset_scale": 1.0,
+        "compiled_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rest_index": 0,
+        "yaw_rad": 0.0,
+        "world_transform": [
+          [
+            0.9659258262890682,
+            0.25881904510252074,
+            0.0,
+            0.35
+          ],
+          [
+            -0.25881904510252074,
+            0.9659258262890682,
+            -0.0,
+            0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "scene": {
+          "path": "out/hope-pilot-v1/checks-v3/AlphabetSoup/yaw_minus15/scene.yaml",
+          "sha256": "9530dd42d6c0083521b0419460175a0c00a6ba822a44ae12853d7015782de421"
+        }
+      },
+      "scene_object_yaw_degrees": -15,
+      "offset_x_m": 0.0,
+      "compiled_mass_kg": 0.10628727130672606,
+      "compiled_inertia_kg_m2": [
+        8.034621867117637e-05,
+        8.017892795625902e-05,
+        5.952646812459424e-05
+      ],
+      "collision_parts": 63,
+      "collision_visual_bound_difference_mm": 0.42383000000000004,
+      "builder_executor_initial_agree": true,
+      "settled_world_transform": [
+        [
+          0.9659123255263764,
+          0.2588158270846217,
+          -0.005267546557262577,
+          0.34999925627078016
+        ],
+        [
+          -0.25881777887947577,
+          0.9659261127246528,
+          0.0003195192297586217,
+          5.237236758333179e-08
+        ],
+        [
+          0.005170757403372182,
+          0.0010547071378283813,
+          0.9999860753334173,
+          0.8001895437961241
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "settling_translation_mm": 0.1895452624707861,
+      "settling_rotation_degrees": 0.3023643176901334,
+      "final_linear_speed_m_s": 1.576697404185334e-14,
+      "final_angular_speed_rad_s": 1.0132918026190792e-15,
+      "external_penetration": {
+        "robot_object_mm": 0.0,
+        "robot_table_mm": 0.0
+      },
+      "target_pixels_head_wrist": [
+        754,
+        0
+      ],
+      "reference_eligible_head_wrist": [
+        true,
+        false
+      ],
+      "initial_scene_ready": true
+    },
+    {
+      "object": "AlphabetSoup",
+      "placement": "yaw_plus15",
+      "initial": {
+        "object": "AlphabetSoup",
+        "asset": "out/hope-pilot-v1/objects/AlphabetSoup",
+        "mesh": "out/hope-pilot-v1/objects/AlphabetSoup/mesh.obj",
+        "mesh_sha256": "2ce98dbb16c57ba7f7660bc45bbcb16cc4ec5a1ca43ac39609316be6f594cb0f",
+        "asset_scale": 1.0,
+        "compiled_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rest_index": 0,
+        "yaw_rad": 0.0,
+        "world_transform": [
+          [
+            0.9659258262890682,
+            -0.25881904510252074,
+            0.0,
+            0.35
+          ],
+          [
+            0.25881904510252074,
+            0.9659258262890682,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "scene": {
+          "path": "out/hope-pilot-v1/checks-v3/AlphabetSoup/yaw_plus15/scene.yaml",
+          "sha256": "a81f4f1dfdf1b319b1eca9215133ea7b0753b16256adf7cd2da6c3b9951a2bf5"
+        }
+      },
+      "scene_object_yaw_degrees": 15,
+      "offset_x_m": 0.0,
+      "compiled_mass_kg": 0.10628727130672606,
+      "compiled_inertia_kg_m2": [
+        8.034621867117637e-05,
+        8.017892795625902e-05,
+        5.952646812459424e-05
+      ],
+      "collision_parts": 63,
+      "collision_visual_bound_difference_mm": 0.42383000000000004,
+      "builder_executor_initial_agree": true,
+      "settled_world_transform": [
+        [
+          0.9659135011740864,
+          -0.2588219752055517,
+          -0.004721588749086078,
+          0.3499993297254204
+        ],
+        [
+          0.25881339130248693,
+          0.9659244653406139,
+          -0.0023570615086627084,
+          -3.2650880931446114e-07
+        ],
+        [
+          0.005170757403372287,
+          0.001054707137828436,
+          0.9999860753334165,
+          0.8001895437961241
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "settling_translation_mm": 0.18954526247077888,
+      "settling_rotation_degrees": 0.30236431770459804,
+      "final_linear_speed_m_s": 1.609135387754913e-14,
+      "final_angular_speed_rad_s": 1.509154134812858e-15,
+      "external_penetration": {
+        "robot_object_mm": 0.0,
+        "robot_table_mm": 0.0
+      },
+      "target_pixels_head_wrist": [
+        759,
+        0
+      ],
+      "reference_eligible_head_wrist": [
+        true,
+        false
+      ],
+      "initial_scene_ready": true
+    },
+    {
+      "object": "AlphabetSoup",
+      "placement": "x_minus20mm",
+      "initial": {
+        "object": "AlphabetSoup",
+        "asset": "out/hope-pilot-v1/objects/AlphabetSoup",
+        "mesh": "out/hope-pilot-v1/objects/AlphabetSoup/mesh.obj",
+        "mesh_sha256": "2ce98dbb16c57ba7f7660bc45bbcb16cc4ec5a1ca43ac39609316be6f594cb0f",
+        "asset_scale": 1.0,
+        "compiled_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rest_index": 0,
+        "yaw_rad": 0.0,
+        "world_transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.32999999999999996
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "scene": {
+          "path": "out/hope-pilot-v1/checks-v3/AlphabetSoup/x_minus20mm/scene.yaml",
+          "sha256": "57010f05d5ba44c819e0f76e64e45908567a0b2c6b9dd3465ff4d15a9e38b110"
+        }
+      },
+      "scene_object_yaw_degrees": 0,
+      "offset_x_m": -0.02,
+      "compiled_mass_kg": 0.10628727130672606,
+      "compiled_inertia_kg_m2": [
+        8.034621867117637e-05,
+        8.017892795625902e-05,
+        5.952646812459424e-05
+      ],
+      "collision_parts": 63,
+      "collision_visual_bound_difference_mm": 0.42383000000000004,
+      "builder_executor_initial_agree": true,
+      "settled_world_transform": [
+        [
+          0.9999866315420008,
+          -3.1825015891029714e-06,
+          -0.005170756922778111,
+          0.3299992680577727
+        ],
+        [
+          -2.2711769606004877e-06,
+          0.999999443791208,
+          -0.0010547094939640268,
+          -1.4190346471407107e-07
+        ],
+        [
+          0.0051707574033722885,
+          0.0010547071378284472,
+          0.9999860753334165,
+          0.8001895437961241
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "settling_translation_mm": 0.18954526247078626,
+      "settling_rotation_degrees": 0.30236431770459804,
+      "final_linear_speed_m_s": 1.5399542929856596e-14,
+      "final_angular_speed_rad_s": 6.459747841969535e-16,
+      "external_penetration": {
+        "robot_object_mm": 0.0,
+        "robot_table_mm": 0.0
+      },
+      "target_pixels_head_wrist": [
+        770,
+        0
+      ],
+      "reference_eligible_head_wrist": [
+        true,
+        false
+      ],
+      "initial_scene_ready": true
+    },
+    {
+      "object": "AlphabetSoup",
+      "placement": "x_plus20mm",
+      "initial": {
+        "object": "AlphabetSoup",
+        "asset": "out/hope-pilot-v1/objects/AlphabetSoup",
+        "mesh": "out/hope-pilot-v1/objects/AlphabetSoup/mesh.obj",
+        "mesh_sha256": "2ce98dbb16c57ba7f7660bc45bbcb16cc4ec5a1ca43ac39609316be6f594cb0f",
+        "asset_scale": 1.0,
+        "compiled_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rest_index": 0,
+        "yaw_rad": 0.0,
+        "world_transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.37
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "scene": {
+          "path": "out/hope-pilot-v1/checks-v3/AlphabetSoup/x_plus20mm/scene.yaml",
+          "sha256": "a0f6796c7637d5f86393ef1d94a03728e410b3e61a2a0b2ac12313d9e721130c"
+        }
+      },
+      "scene_object_yaw_degrees": 0,
+      "offset_x_m": 0.02,
+      "compiled_mass_kg": 0.10628727130672606,
+      "compiled_inertia_kg_m2": [
+        8.034621867117637e-05,
+        8.017892795625902e-05,
+        5.952646812459424e-05
+      ],
+      "collision_parts": 63,
+      "collision_visual_bound_difference_mm": 0.42383000000000004,
+      "builder_executor_initial_agree": true,
+      "settled_world_transform": [
+        [
+          0.9999866315420008,
+          -3.182501602870995e-06,
+          -0.0051707569227781,
+          0.36999926805777245
+        ],
+        [
+          -2.2711769468326173e-06,
+          0.999999443791208,
+          -0.0010547094939640927,
+          -1.4190346309064513e-07
+        ],
+        [
+          0.005170757403372293,
+          0.001054707137828442,
+          0.9999860753334165,
+          0.8001895437961241
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "settling_translation_mm": 0.1895452624707861,
+      "settling_rotation_degrees": 0.30236431770459804,
+      "final_linear_speed_m_s": 1.5380480267068315e-14,
+      "final_angular_speed_rad_s": 1.6255235948620714e-15,
+      "external_penetration": {
+        "robot_object_mm": 0.0,
+        "robot_table_mm": 0.0
+      },
+      "target_pixels_head_wrist": [
+        742,
+        0
+      ],
+      "reference_eligible_head_wrist": [
+        true,
+        false
+      ],
+      "initial_scene_ready": true
+    },
+    {
+      "object": "Peaches",
+      "placement": "centre",
+      "initial": {
+        "object": "Peaches",
+        "asset": "out/hope-pilot-v1/objects/Peaches",
+        "mesh": "out/hope-pilot-v1/objects/Peaches/mesh.obj",
+        "mesh_sha256": "bdfb2fff37f75f5b14475a5ffbffc617575c296022d19d07fd51c6237e995593",
+        "asset_scale": 1.0,
+        "compiled_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rest_index": 0,
+        "yaw_rad": 0.0,
+        "world_transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.35
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "scene": {
+          "path": "out/hope-pilot-v1/checks-v3/Peaches/centre/scene.yaml",
+          "sha256": "ab716a577219f1753a9e92d006c171e045981ab7b71f5ccd81cf282f7e0eb63f"
+        }
+      },
+      "scene_object_yaw_degrees": 0,
+      "offset_x_m": 0.0,
+      "compiled_mass_kg": 0.10779018426348923,
+      "compiled_inertia_kg_m2": [
+        6.114866558095761e-05,
+        5.285782915704644e-05,
+        5.27848905530087e-05
+      ],
+      "collision_parts": 45,
+      "collision_visual_bound_difference_mm": 0.35701999999999956,
+      "builder_executor_initial_agree": true,
+      "texture_preserves_600_step_physics": true,
+      "settled_world_transform": [
+        [
+          0.9999296214754718,
+          2.0312821147371323e-05,
+          0.011863881460514489,
+          0.34999941785525107
+        ],
+        [
+          2.4899936210026522e-05,
+          0.9999927385723899,
+          -0.0038107981428352547,
+          2.814168592414253e-07
+        ],
+        [
+          -0.011863872719859189,
+          0.003810825354376257,
+          0.9999223600531222,
+          0.7998634870172497
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "settling_translation_mm": 0.13651451405378806,
+      "settling_rotation_degrees": 0.7139750940102112,
+      "final_linear_speed_m_s": 1.685475414976122e-14,
+      "final_angular_speed_rad_s": 1.0751030209891563e-15,
+      "external_penetration": {
+        "robot_object_mm": 0.0,
+        "robot_table_mm": 0.0
+      },
+      "target_pixels_head_wrist": [
+        640,
+        0
+      ],
+      "reference_eligible_head_wrist": [
+        true,
+        false
+      ],
+      "initial_scene_ready": true
+    },
+    {
+      "object": "Peaches",
+      "placement": "yaw_minus15",
+      "initial": {
+        "object": "Peaches",
+        "asset": "out/hope-pilot-v1/objects/Peaches",
+        "mesh": "out/hope-pilot-v1/objects/Peaches/mesh.obj",
+        "mesh_sha256": "bdfb2fff37f75f5b14475a5ffbffc617575c296022d19d07fd51c6237e995593",
+        "asset_scale": 1.0,
+        "compiled_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rest_index": 0,
+        "yaw_rad": 0.0,
+        "world_transform": [
+          [
+            0.9659258262890682,
+            0.25881904510252074,
+            0.0,
+            0.35
+          ],
+          [
+            -0.25881904510252074,
+            0.9659258262890682,
+            -0.0,
+            0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "scene": {
+          "path": "out/hope-pilot-v1/checks-v3/Peaches/yaw_minus15/scene.yaml",
+          "sha256": "9530dd42d6c0083521b0419460175a0c00a6ba822a44ae12853d7015782de421"
+        }
+      },
+      "scene_object_yaw_degrees": -15,
+      "offset_x_m": 0.0,
+      "compiled_mass_kg": 0.10779018426348923,
+      "compiled_inertia_kg_m2": [
+        6.114866558095761e-05,
+        5.285782915704644e-05,
+        5.27848905530087e-05
+      ],
+      "collision_parts": 45,
+      "collision_visual_bound_difference_mm": 0.35701999999999956,
+      "builder_executor_initial_agree": true,
+      "settled_world_transform": [
+        [
+          0.9658642904323268,
+          0.2588367863852932,
+          0.01047332236633616,
+          0.3499995105273949
+        ],
+        [
+          -0.25877677830853,
+          0.9659135549436345,
+          -0.006751546815758294,
+          4.2249796153361736e-07
+        ],
+        [
+          -0.01186387271985919,
+          0.003810825354375884,
+          0.9999223600531207,
+          0.7998634870172497
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "settling_translation_mm": 0.13651451405379267,
+      "settling_rotation_degrees": 0.7139750940204209,
+      "final_linear_speed_m_s": 1.6971887921187173e-14,
+      "final_angular_speed_rad_s": 4.676498860868093e-15,
+      "external_penetration": {
+        "robot_object_mm": 0.0,
+        "robot_table_mm": 0.0
+      },
+      "target_pixels_head_wrist": [
+        640,
+        0
+      ],
+      "reference_eligible_head_wrist": [
+        true,
+        false
+      ],
+      "initial_scene_ready": true
+    },
+    {
+      "object": "Peaches",
+      "placement": "yaw_plus15",
+      "initial": {
+        "object": "Peaches",
+        "asset": "out/hope-pilot-v1/objects/Peaches",
+        "mesh": "out/hope-pilot-v1/objects/Peaches/mesh.obj",
+        "mesh_sha256": "bdfb2fff37f75f5b14475a5ffbffc617575c296022d19d07fd51c6237e995593",
+        "asset_scale": 1.0,
+        "compiled_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rest_index": 0,
+        "yaw_rad": 0.0,
+        "world_transform": [
+          [
+            0.9659258262890682,
+            -0.25881904510252074,
+            0.0,
+            0.35
+          ],
+          [
+            0.25881904510252074,
+            0.9659258262890682,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "scene": {
+          "path": "out/hope-pilot-v1/checks-v3/Peaches/yaw_plus15/scene.yaml",
+          "sha256": "a81f4f1dfdf1b319b1eca9215133ea7b0753b16256adf7cd2da6c3b9951a2bf5"
+        }
+      },
+      "scene_object_yaw_degrees": 15,
+      "offset_x_m": 0.0,
+      "compiled_mass_kg": 0.10779018426348923,
+      "compiled_inertia_kg_m2": [
+        6.114866558095761e-05,
+        5.285782915704644e-05,
+        5.27848905530087e-05
+      ],
+      "collision_parts": 45,
+      "collision_visual_bound_difference_mm": 0.35701999999999956,
+      "builder_executor_initial_agree": true,
+      "settled_world_transform": [
+        [
+          0.9658514012768853,
+          -0.2587975450282544,
+          0.012445936639150132,
+          0.3499993648553095
+        ],
+        [
+          0.25882488129150966,
+          0.9659240696335645,
+          -0.0006103498741185439,
+          1.2115766489407592e-07
+        ],
+        [
+          -0.0118638727198592,
+          0.00381082535437625,
+          0.9999223600531222,
+          0.7998634870172497
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "settling_translation_mm": 0.1365145140537889,
+      "settling_rotation_degrees": 0.7139750940102112,
+      "final_linear_speed_m_s": 1.6893235599223937e-14,
+      "final_angular_speed_rad_s": 2.1880349097599253e-15,
+      "external_penetration": {
+        "robot_object_mm": 0.0,
+        "robot_table_mm": 0.0
+      },
+      "target_pixels_head_wrist": [
+        640,
+        0
+      ],
+      "reference_eligible_head_wrist": [
+        true,
+        false
+      ],
+      "initial_scene_ready": true
+    },
+    {
+      "object": "Peaches",
+      "placement": "x_minus20mm",
+      "initial": {
+        "object": "Peaches",
+        "asset": "out/hope-pilot-v1/objects/Peaches",
+        "mesh": "out/hope-pilot-v1/objects/Peaches/mesh.obj",
+        "mesh_sha256": "bdfb2fff37f75f5b14475a5ffbffc617575c296022d19d07fd51c6237e995593",
+        "asset_scale": 1.0,
+        "compiled_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rest_index": 0,
+        "yaw_rad": 0.0,
+        "world_transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.32999999999999996
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "scene": {
+          "path": "out/hope-pilot-v1/checks-v3/Peaches/x_minus20mm/scene.yaml",
+          "sha256": "57010f05d5ba44c819e0f76e64e45908567a0b2c6b9dd3465ff4d15a9e38b110"
+        }
+      },
+      "scene_object_yaw_degrees": 0,
+      "offset_x_m": -0.02,
+      "compiled_mass_kg": 0.10779018426348923,
+      "compiled_inertia_kg_m2": [
+        6.114866558095761e-05,
+        5.285782915704644e-05,
+        5.27848905530087e-05
+      ],
+      "collision_parts": 45,
+      "collision_visual_bound_difference_mm": 0.35701999999999956,
+      "builder_executor_initial_agree": true,
+      "settled_world_transform": [
+        [
+          0.9999296214754718,
+          2.0312821167243983e-05,
+          0.011863881460514413,
+          0.32999941785525155
+        ],
+        [
+          2.4899936190155157e-05,
+          0.9999927385723899,
+          -0.003810798142835494,
+          2.8141686006295713e-07
+        ],
+        [
+          -0.011863872719859189,
+          0.0038108253543762604,
+          0.9999223600531222,
+          0.7998634870172497
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "settling_translation_mm": 0.13651451405378762,
+      "settling_rotation_degrees": 0.7139750940102112,
+      "final_linear_speed_m_s": 1.681888743056065e-14,
+      "final_angular_speed_rad_s": 2.7077549483610982e-15,
+      "external_penetration": {
+        "robot_object_mm": 0.0,
+        "robot_table_mm": 0.0
+      },
+      "target_pixels_head_wrist": [
+        658,
+        0
+      ],
+      "reference_eligible_head_wrist": [
+        true,
+        false
+      ],
+      "initial_scene_ready": true
+    },
+    {
+      "object": "Peaches",
+      "placement": "x_plus20mm",
+      "initial": {
+        "object": "Peaches",
+        "asset": "out/hope-pilot-v1/objects/Peaches",
+        "mesh": "out/hope-pilot-v1/objects/Peaches/mesh.obj",
+        "mesh_sha256": "bdfb2fff37f75f5b14475a5ffbffc617575c296022d19d07fd51c6237e995593",
+        "asset_scale": 1.0,
+        "compiled_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rest_index": 0,
+        "yaw_rad": 0.0,
+        "world_transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.37
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "scene": {
+          "path": "out/hope-pilot-v1/checks-v3/Peaches/x_plus20mm/scene.yaml",
+          "sha256": "a0f6796c7637d5f86393ef1d94a03728e410b3e61a2a0b2ac12313d9e721130c"
+        }
+      },
+      "scene_object_yaw_degrees": 0,
+      "offset_x_m": 0.02,
+      "compiled_mass_kg": 0.10779018426348923,
+      "compiled_inertia_kg_m2": [
+        6.114866558095761e-05,
+        5.285782915704644e-05,
+        5.27848905530087e-05
+      ],
+      "collision_parts": 45,
+      "collision_visual_bound_difference_mm": 0.35701999999999956,
+      "builder_executor_initial_agree": true,
+      "settled_world_transform": [
+        [
+          0.9999296214754718,
+          2.0312821126368843e-05,
+          0.011863881460514574,
+          0.36999941785525187
+        ],
+        [
+          2.489993623102768e-05,
+          0.9999927385723899,
+          -0.0038107981428350045,
+          2.8141686034633296e-07
+        ],
+        [
+          -0.011863872719859194,
+          0.0038108253543762557,
+          0.9999223600531222,
+          0.7998634870172497
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "settling_translation_mm": 0.136514514053787,
+      "settling_rotation_degrees": 0.7139750940102112,
+      "final_linear_speed_m_s": 1.6865210861539124e-14,
+      "final_angular_speed_rad_s": 2.7531222331305567e-15,
+      "external_penetration": {
+        "robot_object_mm": 0.0,
+        "robot_table_mm": 0.0
+      },
+      "target_pixels_head_wrist": [
+        628,
+        0
+      ],
+      "reference_eligible_head_wrist": [
+        true,
+        false
+      ],
+      "initial_scene_ready": true
+    },
+    {
+      "object": "Mustard",
+      "placement": "centre",
+      "initial": {
+        "object": "Mustard",
+        "asset": "out/hope-pilot-v1/objects/Mustard",
+        "mesh": "out/hope-pilot-v1/objects/Mustard/mesh.obj",
+        "mesh_sha256": "802cedf3b44f44c22e01fe35d8cb0c160092c533144d0402499a40b26c7a8b15",
+        "asset_scale": 1.0,
+        "compiled_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rest_index": 0,
+        "yaw_rad": 0.0,
+        "world_transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.35
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "scene": {
+          "path": "out/hope-pilot-v1/checks-v3/Mustard/centre/scene.yaml",
+          "sha256": "ab716a577219f1753a9e92d006c171e045981ab7b71f5ccd81cf282f7e0eb63f"
+        }
+      },
+      "scene_object_yaw_degrees": 0,
+      "offset_x_m": 0.0,
+      "compiled_mass_kg": 0.10933279710890834,
+      "compiled_inertia_kg_m2": [
+        0.00016636602224175576,
+        0.00015660084981603318,
+        4.527739839491055e-05
+      ],
+      "collision_parts": 2,
+      "collision_visual_bound_difference_mm": 0.86549,
+      "builder_executor_initial_agree": true,
+      "texture_preserves_600_step_physics": true,
+      "settled_world_transform": [
+        [
+          0.9997207400537861,
+          -9.009146310733055e-05,
+          -0.023631203732383584,
+          0.3500050610600678
+        ],
+        [
+          -0.0005608719629159866,
+          0.9996205807513029,
+          -0.02753869933515373,
+          4.9278091230416315e-06
+        ],
+        [
+          0.023624718600532776,
+          0.027544262959082008,
+          0.9993413762319107,
+          0.7997796609435008
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "settling_translation_mm": 0.22045225662425036,
+      "settling_rotation_degrees": 2.079645482491831,
+      "final_linear_speed_m_s": 0.001380475537186616,
+      "final_angular_speed_rad_s": 0.189837238086418,
+      "external_penetration": {
+        "robot_object_mm": 0.0,
+        "robot_table_mm": 0.0
+      },
+      "target_pixels_head_wrist": [
+        608,
+        0
+      ],
+      "reference_eligible_head_wrist": [
+        true,
+        false
+      ],
+      "initial_scene_ready": false
+    },
+    {
+      "object": "Mustard",
+      "placement": "yaw_minus15",
+      "initial": {
+        "object": "Mustard",
+        "asset": "out/hope-pilot-v1/objects/Mustard",
+        "mesh": "out/hope-pilot-v1/objects/Mustard/mesh.obj",
+        "mesh_sha256": "802cedf3b44f44c22e01fe35d8cb0c160092c533144d0402499a40b26c7a8b15",
+        "asset_scale": 1.0,
+        "compiled_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rest_index": 0,
+        "yaw_rad": 0.0,
+        "world_transform": [
+          [
+            0.9659258262890682,
+            0.25881904510252074,
+            0.0,
+            0.35
+          ],
+          [
+            -0.25881904510252074,
+            0.9659258262890682,
+            -0.0,
+            0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "scene": {
+          "path": "out/hope-pilot-v1/checks-v3/Mustard/yaw_minus15/scene.yaml",
+          "sha256": "9530dd42d6c0083521b0419460175a0c00a6ba822a44ae12853d7015782de421"
+        }
+      },
+      "scene_object_yaw_degrees": -15,
+      "offset_x_m": 0.0,
+      "compiled_mass_kg": 0.10933279710890834,
+      "compiled_inertia_kg_m2": [
+        0.00016636602224175576,
+        0.00015660084981603318,
+        4.527739839491055e-05
+      ],
+      "collision_parts": 2,
+      "collision_visual_bound_difference_mm": 0.86549,
+      "builder_executor_initial_agree": true,
+      "settled_world_transform": [
+        [
+          0.9655109175485043,
+          0.25863382250355055,
+          -0.029953529872929992,
+          0.3500061640194843
+        ],
+        [
+          -0.25928852802407715,
+          0.9655826528243282,
+          -0.0204841353208086,
+          3.4499993607127916e-06
+        ],
+        [
+          0.02362471861745577,
+          0.027544262958658857,
+          0.9993413762315214,
+          0.799779660943607
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "settling_translation_mm": 0.22045225651823336,
+      "settling_rotation_degrees": 2.079645483107456,
+      "final_linear_speed_m_s": 0.0013804755431639035,
+      "final_angular_speed_rad_s": 0.1898372379982229,
+      "external_penetration": {
+        "robot_object_mm": 0.0,
+        "robot_table_mm": 0.0
+      },
+      "target_pixels_head_wrist": [
+        605,
+        0
+      ],
+      "reference_eligible_head_wrist": [
+        true,
+        false
+      ],
+      "initial_scene_ready": false
+    },
+    {
+      "object": "Mustard",
+      "placement": "yaw_plus15",
+      "initial": {
+        "object": "Mustard",
+        "asset": "out/hope-pilot-v1/objects/Mustard",
+        "mesh": "out/hope-pilot-v1/objects/Mustard/mesh.obj",
+        "mesh_sha256": "802cedf3b44f44c22e01fe35d8cb0c160092c533144d0402499a40b26c7a8b15",
+        "asset_scale": 1.0,
+        "compiled_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rest_index": 0,
+        "yaw_rad": 0.0,
+        "world_transform": [
+          [
+            0.9659258262890682,
+            -0.25881904510252074,
+            0.0,
+            0.35
+          ],
+          [
+            0.25881904510252074,
+            0.9659258262890682,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "scene": {
+          "path": "out/hope-pilot-v1/checks-v3/Mustard/yaw_plus15/scene.yaml",
+          "sha256": "a81f4f1dfdf1b319b1eca9215133ea7b0753b16256adf7cd2da6c3b9951a2bf5"
+        }
+      },
+      "scene_object_yaw_degrees": 15,
+      "offset_x_m": 0.0,
+      "compiled_mass_kg": 0.10933279710890834,
+      "compiled_inertia_kg_m2": [
+        0.00016636602224175576,
+        0.00015660084981603318,
+        4.527739839491055e-05
+      ],
+      "collision_parts": 2,
+      "collision_visual_bound_difference_mm": 0.86549,
+      "builder_executor_initial_agree": true,
+      "settled_world_transform": [
+        [
+          0.9658012462383678,
+          -0.25880786584824605,
+          -0.0156984502257976,
+          0.3500036131978031
+        ],
+        [
+          0.25820500659394957,
+          0.9655360180497479,
+          -0.032716546554537804,
+          6.069796850025029e-06
+        ],
+        [
+          0.0236247187122735,
+          0.027544262990921328,
+          0.9993413762283903,
+          0.7997796609441408
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "settling_translation_mm": 0.22045225598555798,
+      "settling_rotation_degrees": 2.0796454880513853,
+      "final_linear_speed_m_s": 0.0013804755859156842,
+      "final_angular_speed_rad_s": 0.18983723753437273,
+      "external_penetration": {
+        "robot_object_mm": 0.0,
+        "robot_table_mm": 0.0
+      },
+      "target_pixels_head_wrist": [
+        644,
+        0
+      ],
+      "reference_eligible_head_wrist": [
+        true,
+        false
+      ],
+      "initial_scene_ready": false
+    },
+    {
+      "object": "Mustard",
+      "placement": "x_minus20mm",
+      "initial": {
+        "object": "Mustard",
+        "asset": "out/hope-pilot-v1/objects/Mustard",
+        "mesh": "out/hope-pilot-v1/objects/Mustard/mesh.obj",
+        "mesh_sha256": "802cedf3b44f44c22e01fe35d8cb0c160092c533144d0402499a40b26c7a8b15",
+        "asset_scale": 1.0,
+        "compiled_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rest_index": 0,
+        "yaw_rad": 0.0,
+        "world_transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.32999999999999996
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "scene": {
+          "path": "out/hope-pilot-v1/checks-v3/Mustard/x_minus20mm/scene.yaml",
+          "sha256": "57010f05d5ba44c819e0f76e64e45908567a0b2c6b9dd3465ff4d15a9e38b110"
+        }
+      },
+      "scene_object_yaw_degrees": 0,
+      "offset_x_m": -0.02,
+      "compiled_mass_kg": 0.10933279710890834,
+      "compiled_inertia_kg_m2": [
+        0.00016636602224175576,
+        0.00015660084981603318,
+        4.527739839491055e-05
+      ],
+      "collision_parts": 2,
+      "collision_visual_bound_difference_mm": 0.86549,
+      "builder_executor_initial_agree": true,
+      "settled_world_transform": [
+        [
+          0.999720740053845,
+          -9.009146304762747e-05,
+          -0.023631203729800255,
+          0.3300050610600673
+        ],
+        [
+          -0.0005608719628561239,
+          0.9996205807513572,
+          -0.027538699333107836,
+          4.927809121753948e-06
+        ],
+        [
+          0.023624718597949932,
+          0.027544262957035503,
+          0.999341376232026,
+          0.7997796609434883
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "settling_translation_mm": 0.22045225663674917,
+      "settling_rotation_degrees": 2.079645482311281,
+      "final_linear_speed_m_s": 0.0013804755357138562,
+      "final_angular_speed_rad_s": 0.18983723809803682,
+      "external_penetration": {
+        "robot_object_mm": 0.0,
+        "robot_table_mm": 0.0
+      },
+      "target_pixels_head_wrist": [
+        610,
+        0
+      ],
+      "reference_eligible_head_wrist": [
+        true,
+        false
+      ],
+      "initial_scene_ready": false
+    },
+    {
+      "object": "Mustard",
+      "placement": "x_plus20mm",
+      "initial": {
+        "object": "Mustard",
+        "asset": "out/hope-pilot-v1/objects/Mustard",
+        "mesh": "out/hope-pilot-v1/objects/Mustard/mesh.obj",
+        "mesh_sha256": "802cedf3b44f44c22e01fe35d8cb0c160092c533144d0402499a40b26c7a8b15",
+        "asset_scale": 1.0,
+        "compiled_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rest_index": 0,
+        "yaw_rad": 0.0,
+        "world_transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.37
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "scene": {
+          "path": "out/hope-pilot-v1/checks-v3/Mustard/x_plus20mm/scene.yaml",
+          "sha256": "a0f6796c7637d5f86393ef1d94a03728e410b3e61a2a0b2ac12313d9e721130c"
+        }
+      },
+      "scene_object_yaw_degrees": 0,
+      "offset_x_m": 0.02,
+      "compiled_mass_kg": 0.10933279710890834,
+      "compiled_inertia_kg_m2": [
+        0.00016636602224175576,
+        0.00015660084981603318,
+        4.527739839491055e-05
+      ],
+      "collision_parts": 2,
+      "collision_visual_bound_difference_mm": 0.86549,
+      "builder_executor_initial_agree": true,
+      "settled_world_transform": [
+        [
+          0.9997207400535828,
+          -9.009146330082816e-05,
+          -0.023631203740910645,
+          0.37000506106007025
+        ],
+        [
+          -0.0005608719629039676,
+          0.9996205807513636,
+          -0.02753869933288875,
+          4.9278091197729915e-06
+        ],
+        [
+          0.023624718609063202,
+          0.027544262956816605,
+          0.9993413762317698,
+          0.799779660943558
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "settling_translation_mm": 0.22045225656708622,
+      "settling_rotation_degrees": 2.079645482715854,
+      "final_linear_speed_m_s": 0.001380475539652604,
+      "final_angular_speed_rad_s": 0.1898372380401943,
+      "external_penetration": {
+        "robot_object_mm": 0.0,
+        "robot_table_mm": 0.0
+      },
+      "target_pixels_head_wrist": [
+        602,
+        0
+      ],
+      "reference_eligible_head_wrist": [
+        true,
+        false
+      ],
+      "initial_scene_ready": false
+    },
+    {
+      "object": "BBQSauce",
+      "placement": "centre",
+      "initial": {
+        "object": "BBQSauce",
+        "asset": "out/hope-pilot-v1/objects/BBQSauce",
+        "mesh": "out/hope-pilot-v1/objects/BBQSauce/mesh.obj",
+        "mesh_sha256": "e521e889ce5f2c161e9b8b4e055215349dda1da442a594080a6e2f4d1b3086f0",
+        "asset_scale": 1.0,
+        "compiled_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rest_index": 0,
+        "yaw_rad": 0.0,
+        "world_transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.35
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "scene": {
+          "path": "out/hope-pilot-v1/checks-v3/BBQSauce/centre/scene.yaml",
+          "sha256": "ab716a577219f1753a9e92d006c171e045981ab7b71f5ccd81cf282f7e0eb63f"
+        }
+      },
+      "scene_object_yaw_degrees": 0,
+      "offset_x_m": 0.0,
+      "compiled_mass_kg": 0.1093976728827876,
+      "compiled_inertia_kg_m2": [
+        0.00020072961258993556,
+        0.00018919359455003268,
+        3.791172665076984e-05
+      ],
+      "collision_parts": 2,
+      "collision_visual_bound_difference_mm": 0.8052400000000126,
+      "builder_executor_initial_agree": true,
+      "texture_preserves_600_step_physics": true,
+      "settled_world_transform": [
+        [
+          0.9999933748992191,
+          -4.117159324259283e-05,
+          0.003639843756331605,
+          0.35000126445459284
+        ],
+        [
+          1.602427253707782e-05,
+          0.9999761347928084,
+          0.006908660366420798,
+          3.8077201972284718e-06
+        ],
+        [
+          -0.0036400413312606713,
+          -0.006908556270001263,
+          0.9999695105098814,
+          0.8000868967354726
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "settling_translation_mm": 0.08698931091983901,
+      "settling_rotation_degrees": 0.44742137373333285,
+      "final_linear_speed_m_s": 0.0015035774424483667,
+      "final_angular_speed_rad_s": 0.13273492930009406,
+      "external_penetration": {
+        "robot_object_mm": 0.0,
+        "robot_table_mm": 0.0
+      },
+      "target_pixels_head_wrist": [
+        614,
+        0
+      ],
+      "reference_eligible_head_wrist": [
+        true,
+        false
+      ],
+      "initial_scene_ready": false
+    },
+    {
+      "object": "BBQSauce",
+      "placement": "yaw_minus15",
+      "initial": {
+        "object": "BBQSauce",
+        "asset": "out/hope-pilot-v1/objects/BBQSauce",
+        "mesh": "out/hope-pilot-v1/objects/BBQSauce/mesh.obj",
+        "mesh_sha256": "e521e889ce5f2c161e9b8b4e055215349dda1da442a594080a6e2f4d1b3086f0",
+        "asset_scale": 1.0,
+        "compiled_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rest_index": 0,
+        "yaw_rad": 0.0,
+        "world_transform": [
+          [
+            0.9659258262890682,
+            0.25881904510252074,
+            0.0,
+            0.35
+          ],
+          [
+            -0.25881904510252074,
+            0.9659258262890682,
+            -0.0,
+            0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "scene": {
+          "path": "out/hope-pilot-v1/checks-v3/BBQSauce/yaw_minus15/scene.yaml",
+          "sha256": "9530dd42d6c0083521b0419460175a0c00a6ba822a44ae12853d7015782de421"
+        }
+      },
+      "scene_object_yaw_degrees": -15,
+      "offset_x_m": 0.0,
+      "compiled_mass_kg": 0.1093976728827876,
+      "compiled_inertia_kg_m2": [
+        0.00020072961258993556,
+        0.00018919359455003268,
+        3.791172665076984e-05
+      ],
+      "collision_parts": 2,
+      "collision_visual_bound_difference_mm": 0.8052400000000126,
+      "builder_executor_initial_agree": true,
+      "settled_world_transform": [
+        [
+          0.9659235743200387,
+          0.2587730996271738,
+          0.005303911965958131,
+          0.35000220687985306
+        ],
+        [
+          -0.2588018521415855,
+          0.9659134302615222,
+          0.005731192589816741,
+          3.350710347627679e-06
+        ],
+        [
+          -0.003640041329816589,
+          -0.006908556271858198,
+          0.999969510509872,
+          0.8000868967354798
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "settling_translation_mm": 0.08698931092705839,
+      "settling_rotation_degrees": 0.4474213738082758,
+      "final_linear_speed_m_s": 0.0015035774418346026,
+      "final_angular_speed_rad_s": 0.13273492929392028,
+      "external_penetration": {
+        "robot_object_mm": 0.0,
+        "robot_table_mm": 0.0
+      },
+      "target_pixels_head_wrist": [
+        610,
+        0
+      ],
+      "reference_eligible_head_wrist": [
+        true,
+        false
+      ],
+      "initial_scene_ready": false
+    },
+    {
+      "object": "BBQSauce",
+      "placement": "yaw_plus15",
+      "initial": {
+        "object": "BBQSauce",
+        "asset": "out/hope-pilot-v1/objects/BBQSauce",
+        "mesh": "out/hope-pilot-v1/objects/BBQSauce/mesh.obj",
+        "mesh_sha256": "e521e889ce5f2c161e9b8b4e055215349dda1da442a594080a6e2f4d1b3086f0",
+        "asset_scale": 1.0,
+        "compiled_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rest_index": 0,
+        "yaw_rad": 0.0,
+        "world_transform": [
+          [
+            0.9659258262890682,
+            -0.25881904510252074,
+            0.0,
+            0.35
+          ],
+          [
+            0.25881904510252074,
+            0.9659258262890682,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "scene": {
+          "path": "out/hope-pilot-v1/checks-v3/BBQSauce/yaw_plus15/scene.yaml",
+          "sha256": "a81f4f1dfdf1b319b1eca9215133ea7b0753b16256adf7cd2da6c3b9951a2bf5"
+        }
+      },
+      "scene_object_yaw_degrees": 15,
+      "offset_x_m": 0.0,
+      "compiled_mass_kg": 0.1093976728827876,
+      "compiled_inertia_kg_m2": [
+        0.00020072961258993556,
+        0.00018919359455003268,
+        3.791172665076984e-05
+      ],
+      "collision_parts": 2,
+      "collision_visual_bound_difference_mm": 0.8052400000000126,
+      "builder_executor_initial_agree": true,
+      "settled_world_transform": [
+        [
+          0.9659152795462219,
+          -0.25885263703756844,
+          0.0017277262050464186,
+          0.3500002358588417
+        ],
+        [
+          0.25883280865893177,
+          0.9658921182766257,
+          0.007615314361254109,
+          4.005240208365245e-06
+        ],
+        [
+          -0.003640041328275015,
+          -0.006908556273837323,
+          0.9999695105098648,
+          0.8000868967354879
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "settling_translation_mm": 0.08698931093515604,
+      "settling_rotation_degrees": 0.44742137385878084,
+      "final_linear_speed_m_s": 0.0015035774411779781,
+      "final_angular_speed_rad_s": 0.13273492928737884,
+      "external_penetration": {
+        "robot_object_mm": 0.0,
+        "robot_table_mm": 0.0
+      },
+      "target_pixels_head_wrist": [
+        624,
+        0
+      ],
+      "reference_eligible_head_wrist": [
+        true,
+        false
+      ],
+      "initial_scene_ready": false
+    },
+    {
+      "object": "BBQSauce",
+      "placement": "x_minus20mm",
+      "initial": {
+        "object": "BBQSauce",
+        "asset": "out/hope-pilot-v1/objects/BBQSauce",
+        "mesh": "out/hope-pilot-v1/objects/BBQSauce/mesh.obj",
+        "mesh_sha256": "e521e889ce5f2c161e9b8b4e055215349dda1da442a594080a6e2f4d1b3086f0",
+        "asset_scale": 1.0,
+        "compiled_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rest_index": 0,
+        "yaw_rad": 0.0,
+        "world_transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.32999999999999996
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "scene": {
+          "path": "out/hope-pilot-v1/checks-v3/BBQSauce/x_minus20mm/scene.yaml",
+          "sha256": "57010f05d5ba44c819e0f76e64e45908567a0b2c6b9dd3465ff4d15a9e38b110"
+        }
+      },
+      "scene_object_yaw_degrees": 0,
+      "offset_x_m": -0.02,
+      "compiled_mass_kg": 0.1093976728827876,
+      "compiled_inertia_kg_m2": [
+        0.00020072961258993556,
+        0.00018919359455003268,
+        3.791172665076984e-05
+      ],
+      "collision_parts": 2,
+      "collision_visual_bound_difference_mm": 0.8052400000000126,
+      "builder_executor_initial_agree": true,
+      "settled_world_transform": [
+        [
+          0.9999933748992244,
+          -4.117159323047123e-05,
+          0.0036398437549316374,
+          0.3300012644545929
+        ],
+        [
+          1.602427252806308e-05,
+          0.9999761347927961,
+          0.00690866036822436,
+          3.807720197384123e-06
+        ],
+        [
+          -0.0036400413298606823,
+          -0.006908556271804904,
+          0.9999695105098741,
+          0.8000868967354797
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "settling_translation_mm": 0.08698931092694448,
+      "settling_rotation_degrees": 0.4474213737854671,
+      "final_linear_speed_m_s": 0.00150357744185079,
+      "final_angular_speed_rad_s": 0.1327349292941074,
+      "external_penetration": {
+        "robot_object_mm": 0.0,
+        "robot_table_mm": 0.0
+      },
+      "target_pixels_head_wrist": [
+        614,
+        0
+      ],
+      "reference_eligible_head_wrist": [
+        true,
+        false
+      ],
+      "initial_scene_ready": false
+    },
+    {
+      "object": "BBQSauce",
+      "placement": "x_plus20mm",
+      "initial": {
+        "object": "BBQSauce",
+        "asset": "out/hope-pilot-v1/objects/BBQSauce",
+        "mesh": "out/hope-pilot-v1/objects/BBQSauce/mesh.obj",
+        "mesh_sha256": "e521e889ce5f2c161e9b8b4e055215349dda1da442a594080a6e2f4d1b3086f0",
+        "asset_scale": 1.0,
+        "compiled_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rest_index": 0,
+        "yaw_rad": 0.0,
+        "world_transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.37
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "scene": {
+          "path": "out/hope-pilot-v1/checks-v3/BBQSauce/x_plus20mm/scene.yaml",
+          "sha256": "a0f6796c7637d5f86393ef1d94a03728e410b3e61a2a0b2ac12313d9e721130c"
+        }
+      },
+      "scene_object_yaw_degrees": 0,
+      "offset_x_m": 0.02,
+      "compiled_mass_kg": 0.1093976728827876,
+      "compiled_inertia_kg_m2": [
+        0.00020072961258993556,
+        0.00018919359455003268,
+        3.791172665076984e-05
+      ],
+      "collision_parts": 2,
+      "collision_visual_bound_difference_mm": 0.8052400000000126,
+      "builder_executor_initial_agree": true,
+      "settled_world_transform": [
+        [
+          0.9999933748992289,
+          -4.117159321308403e-05,
+          0.003639843753170533,
+          0.3700012644545931
+        ],
+        [
+          1.602427251461592e-05,
+          0.9999761347927787,
+          0.00690866037048445,
+          3.807720197549089e-06
+        ],
+        [
+          -0.0036400413280995364,
+          -0.006908556274065099,
+          0.9999695105098632,
+          0.8000868967354887
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "settling_translation_mm": 0.08698931093593736,
+      "settling_rotation_degrees": 0.4474213738734436,
+      "final_linear_speed_m_s": 0.0015035774411048116,
+      "final_angular_speed_rad_s": 0.1327349292866203,
+      "external_penetration": {
+        "robot_object_mm": 0.0,
+        "robot_table_mm": 0.0
+      },
+      "target_pixels_head_wrist": [
+        607,
+        0
+      ],
+      "reference_eligible_head_wrist": [
+        true,
+        false
+      ],
+      "initial_scene_ready": false
+    },
+    {
+      "object": "ChocolatePudding",
+      "placement": "centre",
+      "initial": {
+        "object": "ChocolatePudding",
+        "asset": "out/hope-pilot-v1/objects/ChocolatePudding",
+        "mesh": "out/hope-pilot-v1/objects/ChocolatePudding/mesh.obj",
+        "mesh_sha256": "dc8130c98c5b07652fb4b9ca9e8200f76fbf772ebba4b977cd188abb46b2c693",
+        "asset_scale": 1.0,
+        "compiled_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rest_index": 0,
+        "yaw_rad": 0.0,
+        "world_transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.35
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "scene": {
+          "path": "out/hope-pilot-v1/checks-v3/ChocolatePudding/centre/scene.yaml",
+          "sha256": "ab716a577219f1753a9e92d006c171e045981ab7b71f5ccd81cf282f7e0eb63f"
+        }
+      },
+      "scene_object_yaw_degrees": 0,
+      "offset_x_m": 0.0,
+      "compiled_mass_kg": 0.10704026124897946,
+      "compiled_inertia_kg_m2": [
+        8.222984005989983e-05,
+        6.87560763967495e-05,
+        2.9160604739306556e-05
+      ],
+      "collision_parts": 1,
+      "collision_visual_bound_difference_mm": 0.45615999999999884,
+      "builder_executor_initial_agree": true,
+      "texture_preserves_600_step_physics": true,
+      "settled_world_transform": [
+        [
+          0.9999989521944586,
+          2.9473397945769924e-05,
+          0.0014473221156069372,
+          0.3499912077470393
+        ],
+        [
+          1.1772051485600771e-05,
+          0.9995940919379298,
+          -0.02848949322481388,
+          -5.571541970608686e-07
+        ],
+        [
+          -0.0014475743180628864,
+          0.02848948041131543,
+          0.9995930442107375,
+          0.7990151832735259
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "settling_translation_mm": 0.9848561310547299,
+      "settling_rotation_degrees": 1.6346545813693831,
+      "final_linear_speed_m_s": 0.00698513613294316,
+      "final_angular_speed_rad_s": 0.3554897130860127,
+      "external_penetration": {
+        "robot_object_mm": 0.0,
+        "robot_table_mm": 0.0
+      },
+      "target_pixels_head_wrist": [
+        404,
+        0
+      ],
+      "reference_eligible_head_wrist": [
+        true,
+        false
+      ],
+      "initial_scene_ready": false
+    },
+    {
+      "object": "ChocolatePudding",
+      "placement": "yaw_minus15",
+      "initial": {
+        "object": "ChocolatePudding",
+        "asset": "out/hope-pilot-v1/objects/ChocolatePudding",
+        "mesh": "out/hope-pilot-v1/objects/ChocolatePudding/mesh.obj",
+        "mesh_sha256": "dc8130c98c5b07652fb4b9ca9e8200f76fbf772ebba4b977cd188abb46b2c693",
+        "asset_scale": 1.0,
+        "compiled_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rest_index": 0,
+        "yaw_rad": 0.0,
+        "world_transform": [
+          [
+            0.9659258262890682,
+            0.25881904510252074,
+            0.0,
+            0.35
+          ],
+          [
+            -0.25881904510252074,
+            0.9659258262890682,
+            -0.0,
+            0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "scene": {
+          "path": "out/hope-pilot-v1/checks-v3/ChocolatePudding/yaw_minus15/scene.yaml",
+          "sha256": "9530dd42d6c0083521b0419460175a0c00a6ba822a44ae12853d7015782de421"
+        }
+      },
+      "scene_object_yaw_degrees": -15,
+      "offset_x_m": 0.0,
+      "compiled_mass_kg": 0.10704026124897946,
+      "compiled_inertia_kg_m2": [
+        8.222984005989983e-05,
+        6.87560763967495e-05,
+        2.9160604739306556e-05
+      ],
+      "collision_parts": 1,
+      "collision_visual_bound_difference_mm": 0.45615999999999884,
+      "builder_executor_initial_agree": true,
+      "settled_world_transform": [
+        [
+          0.9659278610186374,
+          0.2587424574614762,
+          -0.005975618357780006,
+          0.3499913631340164
+        ],
+        [
+          -0.2588074029792346,
+          0.9655261208650227,
+          -0.027893334158671124,
+          1.7374340964484592e-06
+        ],
+        [
+          -0.0014475742142515567,
+          0.02848948286893535,
+          0.9995930441408426,
+          0.7990151832744264
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "settling_translation_mm": 0.9848561301534181,
+      "settling_rotation_degrees": 1.6346547217554948,
+      "final_linear_speed_m_s": 0.006985136338411289,
+      "final_angular_speed_rad_s": 0.35548970801407787,
+      "external_penetration": {
+        "robot_object_mm": 0.0,
+        "robot_table_mm": 0.0
+      },
+      "target_pixels_head_wrist": [
+        382,
+        0
+      ],
+      "reference_eligible_head_wrist": [
+        true,
+        false
+      ],
+      "initial_scene_ready": false
+    },
+    {
+      "object": "ChocolatePudding",
+      "placement": "yaw_plus15",
+      "initial": {
+        "object": "ChocolatePudding",
+        "asset": "out/hope-pilot-v1/objects/ChocolatePudding",
+        "mesh": "out/hope-pilot-v1/objects/ChocolatePudding/mesh.obj",
+        "mesh_sha256": "dc8130c98c5b07652fb4b9ca9e8200f76fbf772ebba4b977cd188abb46b2c693",
+        "asset_scale": 1.0,
+        "compiled_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rest_index": 0,
+        "yaw_rad": 0.0,
+        "world_transform": [
+          [
+            0.9659258262890682,
+            -0.25881904510252074,
+            0.0,
+            0.35
+          ],
+          [
+            0.25881904510252074,
+            0.9659258262890682,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "scene": {
+          "path": "out/hope-pilot-v1/checks-v3/ChocolatePudding/yaw_plus15/scene.yaml",
+          "sha256": "a81f4f1dfdf1b319b1eca9215133ea7b0753b16256adf7cd2da6c3b9951a2bf5"
+        }
+      },
+      "scene_object_yaw_degrees": 15,
+      "offset_x_m": 0.0,
+      "compiled_mass_kg": 0.10704026124897946,
+      "compiled_inertia_kg_m2": [
+        8.222984005989983e-05,
+        6.87560763967495e-05,
+        2.9160604739306556e-05
+      ],
+      "collision_parts": 1,
+      "collision_visual_bound_difference_mm": 0.45615999999999884,
+      "builder_executor_initial_agree": true,
+      "settled_world_transform": [
+        [
+          0.9659217673550353,
+          -0.25868551923636757,
+          0.008771629673797769,
+          0.3499916515376617
+        ],
+        [
+          0.25883014484128203,
+          0.9655413774305828,
+          -0.027144144688909647,
+          -2.8137711637364542e-06
+        ],
+        [
+          -0.001447574234471991,
+          0.028489482390215592,
+          0.9995930441544558,
+          0.7990151832742509
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "settling_translation_mm": 0.9848561303290987,
+      "settling_rotation_degrees": 1.6346546944145024,
+      "final_linear_speed_m_s": 0.006985136298388834,
+      "final_angular_speed_rad_s": 0.3554897090020365,
+      "external_penetration": {
+        "robot_object_mm": 0.0,
+        "robot_table_mm": 0.0
+      },
+      "target_pixels_head_wrist": [
+        440,
+        0
+      ],
+      "reference_eligible_head_wrist": [
+        true,
+        false
+      ],
+      "initial_scene_ready": false
+    },
+    {
+      "object": "ChocolatePudding",
+      "placement": "x_minus20mm",
+      "initial": {
+        "object": "ChocolatePudding",
+        "asset": "out/hope-pilot-v1/objects/ChocolatePudding",
+        "mesh": "out/hope-pilot-v1/objects/ChocolatePudding/mesh.obj",
+        "mesh_sha256": "dc8130c98c5b07652fb4b9ca9e8200f76fbf772ebba4b977cd188abb46b2c693",
+        "asset_scale": 1.0,
+        "compiled_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rest_index": 0,
+        "yaw_rad": 0.0,
+        "world_transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.32999999999999996
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "scene": {
+          "path": "out/hope-pilot-v1/checks-v3/ChocolatePudding/x_minus20mm/scene.yaml",
+          "sha256": "57010f05d5ba44c819e0f76e64e45908567a0b2c6b9dd3465ff4d15a9e38b110"
+        }
+      },
+      "scene_object_yaw_degrees": 0,
+      "offset_x_m": -0.02,
+      "compiled_mass_kg": 0.10704026124897946,
+      "compiled_inertia_kg_m2": [
+        8.222984005989983e-05,
+        6.87560763967495e-05,
+        2.9160604739306556e-05
+      ],
+      "collision_parts": 1,
+      "collision_visual_bound_difference_mm": 0.45615999999999884,
+      "builder_executor_initial_agree": true,
+      "settled_world_transform": [
+        [
+          0.9999989521945748,
+          2.947339620533439e-05,
+          0.0014473220346454204,
+          0.3299912077470516
+        ],
+        [
+          1.1772053695789265e-05,
+          0.9995940918832747,
+          -0.028489495142424544,
+          -5.571532171041078e-07
+        ],
+        [
+          -0.0014475742370620652,
+          0.028489482328929675,
+          0.9995930441561997,
+          0.7990151832742283
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "settling_translation_mm": 0.9848561303517666,
+      "settling_rotation_degrees": 1.6346546909108592,
+      "final_linear_speed_m_s": 0.00698513629326813,
+      "final_angular_speed_rad_s": 0.3554897091285072,
+      "external_penetration": {
+        "robot_object_mm": 0.0,
+        "robot_table_mm": 0.0
+      },
+      "target_pixels_head_wrist": [
+        415,
+        0
+      ],
+      "reference_eligible_head_wrist": [
+        true,
+        false
+      ],
+      "initial_scene_ready": false
+    },
+    {
+      "object": "ChocolatePudding",
+      "placement": "x_plus20mm",
+      "initial": {
+        "object": "ChocolatePudding",
+        "asset": "out/hope-pilot-v1/objects/ChocolatePudding",
+        "mesh": "out/hope-pilot-v1/objects/ChocolatePudding/mesh.obj",
+        "mesh_sha256": "dc8130c98c5b07652fb4b9ca9e8200f76fbf772ebba4b977cd188abb46b2c693",
+        "asset_scale": 1.0,
+        "compiled_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rest_index": 0,
+        "yaw_rad": 0.0,
+        "world_transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.37
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "scene": {
+          "path": "out/hope-pilot-v1/checks-v3/ChocolatePudding/x_plus20mm/scene.yaml",
+          "sha256": "a0f6796c7637d5f86393ef1d94a03728e410b3e61a2a0b2ac12313d9e721130c"
+        }
+      },
+      "scene_object_yaw_degrees": 0,
+      "offset_x_m": 0.02,
+      "compiled_mass_kg": 0.10704026124897946,
+      "compiled_inertia_kg_m2": [
+        8.222984005989983e-05,
+        6.87560763967495e-05,
+        2.9160604739306556e-05
+      ],
+      "collision_parts": 1,
+      "collision_visual_bound_difference_mm": 0.45615999999999884,
+      "builder_executor_initial_agree": true,
+      "settled_world_transform": [
+        [
+          0.9999989521945929,
+          2.9473395926277343e-05,
+          0.0014473220217010114,
+          0.36999120774705385
+        ],
+        [
+          1.1772054049929339e-05,
+          0.9995940918745365,
+          -0.028489495449003362,
+          -5.571530606076095e-07
+        ],
+        [
+          -0.0014475742241113496,
+          0.028489482635509062,
+          0.9995930441474801,
+          0.799015183274341
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "settling_translation_mm": 0.9848561302389751,
+      "settling_rotation_degrees": 1.6346547084250609,
+      "final_linear_speed_m_s": 0.006985136318892318,
+      "final_angular_speed_rad_s": 0.3554897084958303,
+      "external_penetration": {
+        "robot_object_mm": 0.0,
+        "robot_table_mm": 0.0
+      },
+      "target_pixels_head_wrist": [
+        391,
+        0
+      ],
+      "reference_eligible_head_wrist": [
+        true,
+        false
+      ],
+      "initial_scene_ready": false
+    },
+    {
+      "object": "Raisins",
+      "placement": "centre",
+      "initial": {
+        "object": "Raisins",
+        "asset": "out/hope-pilot-v1/objects/Raisins",
+        "mesh": "out/hope-pilot-v1/objects/Raisins/mesh.obj",
+        "mesh_sha256": "ccb4e3cce996940aa8c4640af1cf0e4022ba7e201a1bc04221188d580555e63f",
+        "asset_scale": 1.0,
+        "compiled_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rest_index": 0,
+        "yaw_rad": 0.0,
+        "world_transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.35
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "scene": {
+          "path": "out/hope-pilot-v1/checks-v3/Raisins/centre/scene.yaml",
+          "sha256": "ab716a577219f1753a9e92d006c171e045981ab7b71f5ccd81cf282f7e0eb63f"
+        }
+      },
+      "scene_object_yaw_degrees": 0,
+      "offset_x_m": 0.0,
+      "compiled_mass_kg": 0.10814156866000421,
+      "compiled_inertia_kg_m2": [
+        0.00019856609420395164,
+        0.0001467602513759143,
+        7.847174868678088e-05
+      ],
+      "collision_parts": 7,
+      "collision_visual_bound_difference_mm": 0.6718100000000018,
+      "builder_executor_initial_agree": true,
+      "texture_preserves_600_step_physics": true,
+      "settled_world_transform": [
+        [
+          0.9999705114978299,
+          -2.9708631012559737e-05,
+          0.0076795346319196624,
+          0.35000117482842236
+        ],
+        [
+          -4.862357355797995e-05,
+          0.9999479801583397,
+          0.010199735928051156,
+          1.4349720263165415e-06
+        ],
+        [
+          -0.007679438163935208,
+          -0.010199808559533187,
+          0.9999184917456185,
+          0.8000307004601996
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "settling_translation_mm": 0.030756424093273154,
+      "settling_rotation_degrees": 0.7315457564720771,
+      "final_linear_speed_m_s": 1.2606952939907473e-14,
+      "final_angular_speed_rad_s": 7.744033403828763e-15,
+      "external_penetration": {
+        "robot_object_mm": 0.0,
+        "robot_table_mm": 0.0
+      },
+      "target_pixels_head_wrist": [
+        778,
+        0
+      ],
+      "reference_eligible_head_wrist": [
+        true,
+        false
+      ],
+      "initial_scene_ready": true
+    },
+    {
+      "object": "Raisins",
+      "placement": "yaw_minus15",
+      "initial": {
+        "object": "Raisins",
+        "asset": "out/hope-pilot-v1/objects/Raisins",
+        "mesh": "out/hope-pilot-v1/objects/Raisins/mesh.obj",
+        "mesh_sha256": "ccb4e3cce996940aa8c4640af1cf0e4022ba7e201a1bc04221188d580555e63f",
+        "asset_scale": 1.0,
+        "compiled_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rest_index": 0,
+        "yaw_rad": 0.0,
+        "world_transform": [
+          [
+            0.9659258262890682,
+            0.25881904510252074,
+            0.0,
+            0.35
+          ],
+          [
+            -0.25881904510252074,
+            0.9659258262890682,
+            -0.0,
+            0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "scene": {
+          "path": "out/hope-pilot-v1/checks-v3/Raisins/yaw_minus15/scene.yaml",
+          "sha256": "9530dd42d6c0083521b0419460175a0c00a6ba822a44ae12853d7015782de421"
+        }
+      },
+      "scene_object_yaw_degrees": -15,
+      "offset_x_m": 0.0,
+      "compiled_mass_kg": 0.10814156866000421,
+      "compiled_inertia_kg_m2": [
+        0.00019856609420395164,
+        0.0001467602513759143,
+        7.847174868678088e-05
+      ],
+      "collision_parts": 7,
+      "collision_visual_bound_difference_mm": 0.6718100000000018,
+      "builder_executor_initial_agree": true,
+      "settled_world_transform": [
+        [
+          0.965884757876366,
+          0.25877688504281954,
+          0.010057746748048142,
+          0.35000150619520387
+        ],
+        [
+          -0.25885837968201614,
+          0.9658832681400392,
+          0.007864578533968191,
+          1.0820085698297239e-06
+        ],
+        [
+          -0.007679438163934684,
+          -0.010199808559533346,
+          0.9999184917456191,
+          0.8000307004601996
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "settling_translation_mm": 0.030756424093258117,
+      "settling_rotation_degrees": 0.7315457564680913,
+      "final_linear_speed_m_s": 1.1287904512580188e-14,
+      "final_angular_speed_rad_s": 8.152921527745716e-15,
+      "external_penetration": {
+        "robot_object_mm": 0.0,
+        "robot_table_mm": 0.0
+      },
+      "target_pixels_head_wrist": [
+        771,
+        0
+      ],
+      "reference_eligible_head_wrist": [
+        true,
+        false
+      ],
+      "initial_scene_ready": true
+    },
+    {
+      "object": "Raisins",
+      "placement": "yaw_plus15",
+      "initial": {
+        "object": "Raisins",
+        "asset": "out/hope-pilot-v1/objects/Raisins",
+        "mesh": "out/hope-pilot-v1/objects/Raisins/mesh.obj",
+        "mesh_sha256": "ccb4e3cce996940aa8c4640af1cf0e4022ba7e201a1bc04221188d580555e63f",
+        "asset_scale": 1.0,
+        "compiled_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rest_index": 0,
+        "yaw_rad": 0.0,
+        "world_transform": [
+          [
+            0.9659258262890682,
+            -0.25881904510252074,
+            0.0,
+            0.35
+          ],
+          [
+            0.25881904510252074,
+            0.9659258262890682,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "scene": {
+          "path": "out/hope-pilot-v1/checks-v3/Raisins/yaw_plus15/scene.yaml",
+          "sha256": "a81f4f1dfdf1b319b1eca9215133ea7b0753b16256adf7cd2da6c3b9951a2bf5"
+        }
+      },
+      "scene_object_yaw_degrees": 15,
+      "offset_x_m": 0.0,
+      "compiled_mass_kg": 0.10814156866000421,
+      "compiled_inertia_kg_m2": [
+        0.00019856609420395164,
+        0.0001467602513759143,
+        7.847174868678088e-05
+      ],
+      "collision_parts": 7,
+      "collision_visual_bound_difference_mm": 0.6718100000000018,
+      "builder_executor_initial_agree": true,
+      "settled_world_transform": [
+        [
+          0.9659099272901206,
+          -0.25883427771073475,
+          0.004777974921656836,
+          0.35000076339902475
+        ],
+        [
+          0.25876444615108163,
+          0.9658678898210185,
+          0.011839798174495894,
+          1.690144510621262e-06
+        ],
+        [
+          -0.007679438163934971,
+          -0.010199808559530765,
+          0.9999184917456179,
+          0.8000307004601996
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "settling_translation_mm": 0.03075642409326448,
+      "settling_rotation_degrees": 0.7315457564770593,
+      "final_linear_speed_m_s": 1.1833626381931602e-14,
+      "final_angular_speed_rad_s": 3.314177470529177e-15,
+      "external_penetration": {
+        "robot_object_mm": 0.0,
+        "robot_table_mm": 0.0
+      },
+      "target_pixels_head_wrist": [
+        904,
+        0
+      ],
+      "reference_eligible_head_wrist": [
+        true,
+        false
+      ],
+      "initial_scene_ready": true
+    },
+    {
+      "object": "Raisins",
+      "placement": "x_minus20mm",
+      "initial": {
+        "object": "Raisins",
+        "asset": "out/hope-pilot-v1/objects/Raisins",
+        "mesh": "out/hope-pilot-v1/objects/Raisins/mesh.obj",
+        "mesh_sha256": "ccb4e3cce996940aa8c4640af1cf0e4022ba7e201a1bc04221188d580555e63f",
+        "asset_scale": 1.0,
+        "compiled_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rest_index": 0,
+        "yaw_rad": 0.0,
+        "world_transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.32999999999999996
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "scene": {
+          "path": "out/hope-pilot-v1/checks-v3/Raisins/x_minus20mm/scene.yaml",
+          "sha256": "57010f05d5ba44c819e0f76e64e45908567a0b2c6b9dd3465ff4d15a9e38b110"
+        }
+      },
+      "scene_object_yaw_degrees": 0,
+      "offset_x_m": -0.02,
+      "compiled_mass_kg": 0.10814156866000421,
+      "compiled_inertia_kg_m2": [
+        0.00019856609420395164,
+        0.0001467602513759143,
+        7.847174868678088e-05
+      ],
+      "collision_parts": 7,
+      "collision_visual_bound_difference_mm": 0.6718100000000018,
+      "builder_executor_initial_agree": true,
+      "settled_world_transform": [
+        [
+          0.9999705114978297,
+          -2.970863101240822e-05,
+          0.0076795346319195636,
+          0.33000117482842234
+        ],
+        [
+          -4.8623573558123744e-05,
+          0.9999479801583395,
+          0.01019973592805028,
+          1.4349720262950974e-06
+        ],
+        [
+          -0.007679438163935107,
+          -0.010199808559532314,
+          0.9999184917456183,
+          0.8000307004601996
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "settling_translation_mm": 0.03075642409327215,
+      "settling_rotation_degrees": 0.7315457564730735,
+      "final_linear_speed_m_s": 1.2407734190388869e-14,
+      "final_angular_speed_rad_s": 4.591233875658363e-15,
+      "external_penetration": {
+        "robot_object_mm": 0.0,
+        "robot_table_mm": 0.0
+      },
+      "target_pixels_head_wrist": [
+        790,
+        0
+      ],
+      "reference_eligible_head_wrist": [
+        true,
+        false
+      ],
+      "initial_scene_ready": true
+    },
+    {
+      "object": "Raisins",
+      "placement": "x_plus20mm",
+      "initial": {
+        "object": "Raisins",
+        "asset": "out/hope-pilot-v1/objects/Raisins",
+        "mesh": "out/hope-pilot-v1/objects/Raisins/mesh.obj",
+        "mesh_sha256": "ccb4e3cce996940aa8c4640af1cf0e4022ba7e201a1bc04221188d580555e63f",
+        "asset_scale": 1.0,
+        "compiled_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rest_index": 0,
+        "yaw_rad": 0.0,
+        "world_transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.37
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "scene": {
+          "path": "out/hope-pilot-v1/checks-v3/Raisins/x_plus20mm/scene.yaml",
+          "sha256": "a0f6796c7637d5f86393ef1d94a03728e410b3e61a2a0b2ac12313d9e721130c"
+        }
+      },
+      "scene_object_yaw_degrees": 0,
+      "offset_x_m": 0.02,
+      "compiled_mass_kg": 0.10814156866000421,
+      "compiled_inertia_kg_m2": [
+        0.00019856609420395164,
+        0.0001467602513759143,
+        7.847174868678088e-05
+      ],
+      "collision_parts": 7,
+      "collision_visual_bound_difference_mm": 0.6718100000000018,
+      "builder_executor_initial_agree": true,
+      "settled_world_transform": [
+        [
+          0.9999705114978299,
+          -2.970863101183665e-05,
+          0.007679534631919398,
+          0.3700011748284224
+        ],
+        [
+          -4.8623573558695735e-05,
+          0.9999479801583397,
+          0.010199735928050558,
+          1.4349720262901983e-06
+        ],
+        [
+          -0.007679438163934936,
+          -0.010199808559532595,
+          0.9999184917456185,
+          0.8000307004601996
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "settling_translation_mm": 0.03075642409327193,
+      "settling_rotation_degrees": 0.7315457564720771,
+      "final_linear_speed_m_s": 1.188174498333361e-14,
+      "final_angular_speed_rad_s": 5.592967356533192e-15,
+      "external_penetration": {
+        "robot_object_mm": 0.0,
+        "robot_table_mm": 0.0
+      },
+      "target_pixels_head_wrist": [
+        751,
+        0
+      ],
+      "reference_eligible_head_wrist": [
+        true,
+        false
+      ],
+      "initial_scene_ready": true
+    }
+  ],
+  "completed": true,
+  "ready_initial_scenes": 15
+}

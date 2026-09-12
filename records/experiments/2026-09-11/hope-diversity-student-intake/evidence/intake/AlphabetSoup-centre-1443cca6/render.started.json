@@ -1,0 +1,14 @@
+{
+  "pid": 2042953,
+  "command": [
+    "scripts/prepare_visual_dataset.py",
+    "--data",
+    "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-job-v1/source/runs/05-new-AlphabetSoup-centre-85eaed0f",
+    "--episode",
+    "teacher_0000_yaw_000",
+    "--visual-profile",
+    "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-job-v1/code-egl/configs/visual_student_256.json",
+    "--out",
+    "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/AlphabetSoup-centre-1443cca6/visual"
+  ]
+}

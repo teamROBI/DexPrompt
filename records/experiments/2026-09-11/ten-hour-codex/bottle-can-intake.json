@@ -1,0 +1,136 @@
+{
+  "completed": true,
+  "training_started": false,
+  "dino_executed": false,
+  "physics_replayed_in_this_audit": false,
+  "episodes": [
+    {
+      "episode_id": "source0_teacher_0002_yaw_000",
+      "object_id": "core_bottle_6444875e3217bf891f5f48a891d827bd",
+      "split": "train",
+      "frames": 974,
+      "home_reference_available": true,
+      "first_eligible_tick": 0,
+      "reference_ticks": [
+        0,
+        345
+      ],
+      "checked_preprocessing_ticks": [
+        0,
+        200,
+        345,
+        450,
+        973
+      ],
+      "initial_input_sha256": "3d39404be5cba6ac605c6a512831a6af9cf6660a16949c5770608518679055f5",
+      "first_chunk_sha256": "064472b1dca0eb54cf54b67d6e527cee7601ce733a385fee49e65137770c1e21",
+      "episode_sha256": "298bc83eda8bbb53a2b811545aa7a6c57bf75ba8aca6bdb1cd80867a1c3c2d78",
+      "teacher_sha256": "05b63bfb299053e9edf05f61741c849b103d7863c3e462a90fd30f4c73d983a9",
+      "quality_accepted": true,
+      "model_sha256": "f183993f472bb65c2d71697a7ad8c06f4ff28e1c92f690de5c3a8a7609e4b5c7",
+      "initial_state_sha256": "bb132b05e5a7babb7603ab566d500b47a0e109c46f24cb7d289063dc47ed79b0"
+    },
+    {
+      "episode_id": "source0_teacher_0006_yaw_000",
+      "object_id": "core_bottle_6444875e3217bf891f5f48a891d827bd",
+      "split": "train",
+      "frames": 971,
+      "home_reference_available": true,
+      "first_eligible_tick": 0,
+      "reference_ticks": [
+        0,
+        451
+      ],
+      "checked_preprocessing_ticks": [
+        0,
+        200,
+        450,
+        451,
+        970
+      ],
+      "initial_input_sha256": "3d39404be5cba6ac605c6a512831a6af9cf6660a16949c5770608518679055f5",
+      "first_chunk_sha256": "bda9112ae6a77addca2295196987c2dd05aebe4e6a689564a129273796f6a9d7",
+      "episode_sha256": "114e8e84bda23d0d5f9f4f148db777d93b4474cf81a83ca2e1f99cf5b814401f",
+      "teacher_sha256": "659a5dcdb1978e30a686f487a5aaac0c1b90f56edfc50a392c9c2ed54676f00e",
+      "quality_accepted": true,
+      "model_sha256": "f183993f472bb65c2d71697a7ad8c06f4ff28e1c92f690de5c3a8a7609e4b5c7",
+      "initial_state_sha256": "bb132b05e5a7babb7603ab566d500b47a0e109c46f24cb7d289063dc47ed79b0"
+    },
+    {
+      "episode_id": "source0_teacher_0016_yaw_000",
+      "object_id": "core_bottle_6444875e3217bf891f5f48a891d827bd",
+      "split": "train",
+      "frames": 974,
+      "home_reference_available": true,
+      "first_eligible_tick": 0,
+      "reference_ticks": [
+        0,
+        457
+      ],
+      "checked_preprocessing_ticks": [
+        0,
+        200,
+        450,
+        457,
+        973
+      ],
+      "initial_input_sha256": "3d39404be5cba6ac605c6a512831a6af9cf6660a16949c5770608518679055f5",
+      "first_chunk_sha256": "7c872666326be4d0696208b3439334352ec44d055356440dc358254a72c7a0cd",
+      "episode_sha256": "b761eb8971c505c7214fec7417bb4f493875c5c590eea3ab1c5422bf8483c70f",
+      "teacher_sha256": "235858ec218f9cea885f24198b68a00ffce5da3b5d0ef981549e219a6046b5c6",
+      "quality_accepted": true,
+      "model_sha256": "f183993f472bb65c2d71697a7ad8c06f4ff28e1c92f690de5c3a8a7609e4b5c7",
+      "initial_state_sha256": "bb132b05e5a7babb7603ab566d500b47a0e109c46f24cb7d289063dc47ed79b0"
+    },
+    {
+      "episode_id": "source1_teacher_0008_yaw_000",
+      "object_id": "core_can_7bd05573c09fb0c2af39ccaab9314b14",
+      "split": "train",
+      "frames": 1251,
+      "home_reference_available": true,
+      "first_eligible_tick": 0,
+      "reference_ticks": [
+        0,
+        395
+      ],
+      "checked_preprocessing_ticks": [
+        0,
+        200,
+        395,
+        450,
+        1250
+      ],
+      "initial_input_sha256": "3d954c0e87ea48cadd12b0b59548470402bc3b3fcfbe42d41ed438462f6023c6",
+      "first_chunk_sha256": "bffc8e6307a171bd179eff9f08f2c58fcb71829d574485250199fe2d35c91d89",
+      "episode_sha256": "dcee8579cf9db46ca77ec19d0b819f9e61103ab200598d768fc4109c60ef35f1",
+      "teacher_sha256": "9d7009a7406f73040402123e28d35aa6250ad16e641f583081a2637d0265219e",
+      "quality_accepted": true,
+      "model_sha256": "412c6d0d9235d3f016f6e0ba66c07e033a1bc261791fa6e4f9603674a4912db9",
+      "initial_state_sha256": "0ba46a6840d027c10b537b4790d3df7a146e6654418bfe59927ab13dfb043062"
+    }
+  ],
+  "dataset_sha256": "267c23e2fa9a7d4104aa37d8b7436457301c4828d1af92c207f2ee986607946f",
+  "cache_sha256": "3684ad8b60b3643793b990bac0b6d225fea195700b8f3f6750c3e7d906d5ac41",
+  "config_sha256": "16bbc44b21cf44fd58f0a71e00a00ccdb5286961cd048b24b015d24a1cbf2639",
+  "scope": "data quality and causal visual inputs; not grasp generalization",
+  "accepted_episodes": 4,
+  "object_ids": [
+    "core_bottle_6444875e3217bf891f5f48a891d827bd",
+    "core_can_7bd05573c09fb0c2af39ccaab9314b14"
+  ],
+  "unique_teacher_files": 4,
+  "unique_initial_policy_inputs": 2,
+  "repeated_initial_inputs": [
+    {
+      "initial_input_sha256": "3d39404be5cba6ac605c6a512831a6af9cf6660a16949c5770608518679055f5",
+      "episode_ids": [
+        "source0_teacher_0002_yaw_000",
+        "source0_teacher_0006_yaw_000",
+        "source0_teacher_0016_yaw_000"
+      ],
+      "different_first_chunk_targets": true
+    }
+  ],
+  "all_home_references_available": true,
+  "independent_generalization_split_verified": false
+}

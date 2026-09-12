@@ -1,0 +1,394 @@
+{
+  "completed": true,
+  "training_started": false,
+  "optimizer_steps": 0,
+  "backward_calls": 0,
+  "data": "/data1/yspark/projects/dexprompt/student-data/hope-bundle-v1",
+  "cache": "/data1/yspark/projects/dexprompt/student-cache/hope-bundle-v1",
+  "config": "/home/yspark/projects/DexPrompt/out/student-x0-code-v1/configs/hx5_student.single-bottle-x0.lecun.json",
+  "gpu": "GPU-5b42e5c8-12cf-4520-c591-a377d5e2f035",
+  "scope": "diagnostic train-only integration; no generalization claim",
+  "stages": [
+    {
+      "name": "cache",
+      "command": [
+        "/home/yspark/projects/DexPrompt/.venv-student/bin/python",
+        "/home/yspark/projects/DexPrompt/out/student-x0-code-v1/scripts/train_hx5_student.py",
+        "prepare-cache",
+        "--data",
+        "/data1/yspark/projects/dexprompt/student-data/hope-bundle-v1",
+        "--out",
+        "/data1/yspark/projects/dexprompt/student-cache/hope-bundle-v1"
+      ],
+      "exit_code": 0,
+      "seconds": 83.04397533898009
+    },
+    {
+      "name": "audit",
+      "command": [
+        "/home/yspark/projects/DexPrompt/.venv-student/bin/python",
+        "/home/yspark/projects/DexPrompt/out/student-x0-code-v1/scripts/audit_visual_intake.py",
+        "--data",
+        "/data1/yspark/projects/dexprompt/student-data/hope-bundle-v1",
+        "--cache",
+        "/data1/yspark/projects/dexprompt/student-cache/hope-bundle-v1",
+        "--config",
+        "/home/yspark/projects/DexPrompt/out/student-x0-code-v1/configs/hx5_student.single-bottle-x0.lecun.json",
+        "--out",
+        "/data1/yspark/projects/dexprompt/student-checks/hope-bundle-v1-checks/audit"
+      ],
+      "exit_code": 0,
+      "seconds": 90.03507985104807
+    },
+    {
+      "name": "preflight",
+      "command": [
+        "/home/yspark/projects/DexPrompt/.venv-student/bin/python",
+        "/home/yspark/projects/DexPrompt/out/student-x0-code-v1/scripts/train_hx5_student.py",
+        "preflight",
+        "--data",
+        "/data1/yspark/projects/dexprompt/student-data/hope-bundle-v1",
+        "--cache",
+        "/data1/yspark/projects/dexprompt/student-cache/hope-bundle-v1",
+        "--config",
+        "/home/yspark/projects/DexPrompt/out/student-x0-code-v1/configs/hx5_student.single-bottle-x0.lecun.json",
+        "--allow-train-only-diagnostic",
+        "--out",
+        "/data1/yspark/projects/dexprompt/student-checks/hope-bundle-v1-checks/preflight"
+      ],
+      "exit_code": 0,
+      "seconds": 165.01441064401297
+    },
+    {
+      "name": "controls",
+      "command": [
+        "/home/yspark/projects/DexPrompt/.venv-student/bin/python",
+        "/home/yspark/projects/DexPrompt/out/student-x0-code-v1/scripts/evaluate_student_suite.py",
+        "--data",
+        "/data1/yspark/projects/dexprompt/student-data/hope-bundle-v1",
+        "--out",
+        "/data1/yspark/projects/dexprompt/student-checks/hope-bundle-v1-checks/controls",
+        "--check-controls"
+      ],
+      "exit_code": 0,
+      "seconds": 455.25713350600563
+    },
+    {
+      "name": "full-model-0-Peaches",
+      "command": [
+        "/home/yspark/projects/DexPrompt/.venv-student/bin/python",
+        "-c",
+        "import runpy,sys,torch\ndef forbidden(*args,**kwargs): raise RuntimeError('learning forbidden')\ntorch.Tensor.backward=forbidden\ntorch.autograd.backward=forbidden\ntorch.autograd.grad=forbidden\ntorch.optim.AdamW.step=forbidden\nsys.argv=['scripts/train_hx5_student.py',*sys.argv[1:]]\nrunpy.run_path(sys.argv[0],run_name='__main__')\n",
+        "dry-run",
+        "--data",
+        "/data1/yspark/projects/dexprompt/student-data/hope-bundle-v1",
+        "--cache",
+        "/data1/yspark/projects/dexprompt/student-cache/hope-bundle-v1",
+        "--config",
+        "/home/yspark/projects/DexPrompt/out/student-x0-code-v1/configs/hx5_student.single-bottle-x0.lecun.json",
+        "--full-model",
+        "--device",
+        "cuda:0",
+        "--sample-index",
+        "0",
+        "--sample-index",
+        "500",
+        "--out",
+        "/data1/yspark/projects/dexprompt/student-checks/hope-bundle-v1-checks/full-model-0-Peaches"
+      ],
+      "exit_code": 0,
+      "seconds": 188.51383959897794
+    },
+    {
+      "name": "full-model-1-Raisins",
+      "command": [
+        "/home/yspark/projects/DexPrompt/.venv-student/bin/python",
+        "-c",
+        "import runpy,sys,torch\ndef forbidden(*args,**kwargs): raise RuntimeError('learning forbidden')\ntorch.Tensor.backward=forbidden\ntorch.autograd.backward=forbidden\ntorch.autograd.grad=forbidden\ntorch.optim.AdamW.step=forbidden\nsys.argv=['scripts/train_hx5_student.py',*sys.argv[1:]]\nrunpy.run_path(sys.argv[0],run_name='__main__')\n",
+        "dry-run",
+        "--data",
+        "/data1/yspark/projects/dexprompt/student-data/hope-bundle-v1",
+        "--cache",
+        "/data1/yspark/projects/dexprompt/student-cache/hope-bundle-v1",
+        "--config",
+        "/home/yspark/projects/DexPrompt/out/student-x0-code-v1/configs/hx5_student.single-bottle-x0.lecun.json",
+        "--full-model",
+        "--device",
+        "cuda:0",
+        "--sample-index",
+        "1006",
+        "--sample-index",
+        "1506",
+        "--out",
+        "/data1/yspark/projects/dexprompt/student-checks/hope-bundle-v1-checks/full-model-1-Raisins"
+      ],
+      "exit_code": 0,
+      "seconds": 194.6075256280019
+    },
+    {
+      "name": "full-model-2-AlphabetSoup",
+      "command": [
+        "/home/yspark/projects/DexPrompt/.venv-student/bin/python",
+        "-c",
+        "import runpy,sys,torch\ndef forbidden(*args,**kwargs): raise RuntimeError('learning forbidden')\ntorch.Tensor.backward=forbidden\ntorch.autograd.backward=forbidden\ntorch.autograd.grad=forbidden\ntorch.optim.AdamW.step=forbidden\nsys.argv=['scripts/train_hx5_student.py',*sys.argv[1:]]\nrunpy.run_path(sys.argv[0],run_name='__main__')\n",
+        "dry-run",
+        "--data",
+        "/data1/yspark/projects/dexprompt/student-data/hope-bundle-v1",
+        "--cache",
+        "/data1/yspark/projects/dexprompt/student-cache/hope-bundle-v1",
+        "--config",
+        "/home/yspark/projects/DexPrompt/out/student-x0-code-v1/configs/hx5_student.single-bottle-x0.lecun.json",
+        "--full-model",
+        "--device",
+        "cuda:0",
+        "--sample-index",
+        "1991",
+        "--sample-index",
+        "2491",
+        "--out",
+        "/data1/yspark/projects/dexprompt/student-checks/hope-bundle-v1-checks/full-model-2-AlphabetSoup"
+      ],
+      "exit_code": 0,
+      "seconds": 134.03397234895965
+    }
+  ],
+  "resumed_after_controls": true,
+  "full_model_samples": [
+    {
+      "object_id": "Peaches",
+      "episode_id": "source0_teacher_0008_yaw_000",
+      "home_tick": 0,
+      "home_sample_index": 0,
+      "later_tick": 500,
+      "later_phase": "close",
+      "later_sample_index": 500
+    },
+    {
+      "object_id": "Raisins",
+      "episode_id": "source1_teacher_0004_yaw_000",
+      "home_tick": 0,
+      "home_sample_index": 1006,
+      "later_tick": 500,
+      "later_phase": "close",
+      "later_sample_index": 1506
+    },
+    {
+      "object_id": "AlphabetSoup",
+      "episode_id": "source2_teacher_0000_yaw_000",
+      "home_tick": 0,
+      "home_sample_index": 1991,
+      "later_tick": 500,
+      "later_phase": "close",
+      "later_sample_index": 2491
+    }
+  ],
+  "controls_passed": true,
+  "full_model_batches": 3,
+  "dino_weight_sha256": {
+    "head_weights": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73",
+    "wrist_weights": "d5383ea8f4877b2472eb973e0fd72d557c7da5d3611bd527ceeb1d7162cbf428"
+  },
+  "full_model": [
+    {
+      "architecture": "hx5_dexgraspvla_style_rdt",
+      "data_scope": "accepted training episodes; forward-only",
+      "data_io": "verified_memmap",
+      "cache_sha256": "3c7c6010621a145ce204fa6a7300e4f4ae7f78c23339dbc2e32e9ce23c523446",
+      "vision": "local pretrained DINOv2",
+      "full_training_architecture_checked": true,
+      "optimizer_steps": 0,
+      "backward_calls": 0,
+      "model_unchanged": true,
+      "loss_finite": true,
+      "random_initialization_loss": 0.8028819561004639,
+      "prediction_shape": [
+        2,
+        64,
+        27
+      ],
+      "parameter_count": 557518875,
+      "config": {
+        "architecture": "hx5_dexgraspvla_style_rdt",
+        "action_dim": 27,
+        "state_dim": 27,
+        "action_horizon": 64,
+        "execute_steps": 8,
+        "image_size": 518,
+        "patch_size": 14,
+        "embedding_dim": 1024,
+        "layers": 12,
+        "heads": 8,
+        "mask_layers": 4,
+        "dropout": 0.1,
+        "diffusion_steps": 50,
+        "inference_steps": 16,
+        "noise_assignment": true,
+        "vision": {
+          "backend": "dinov2_local",
+          "source": "out/student-assets/dinov2",
+          "head_model": "dinov2_vitb14",
+          "head_weights": "out/student-assets/dinov2_vitb14_pretrain.pth",
+          "wrist_model": "dinov2_vitl14",
+          "wrist_weights": "out/student-assets/dinov2_vitl14_pretrain.pth"
+        },
+        "training": {
+          "seed": 42,
+          "batch_size": 2,
+          "num_workers": 0,
+          "epochs": 13,
+          "learning_rate": 0.0001,
+          "weight_decay": 0.0001,
+          "betas": [
+            0.95,
+            0.999
+          ],
+          "warmup_steps": 100,
+          "gradient_clip": 1.0
+        },
+        "observation_version": 2,
+        "goal_image_size": 224,
+        "goal_reference_policy": {
+          "min_pixels": 64,
+          "min_extent": 4,
+          "border_margin": 2,
+          "max_border_fraction": 0.1
+        },
+        "prediction_type": "x0"
+      }
+    },
+    {
+      "architecture": "hx5_dexgraspvla_style_rdt",
+      "data_scope": "accepted training episodes; forward-only",
+      "data_io": "verified_memmap",
+      "cache_sha256": "3c7c6010621a145ce204fa6a7300e4f4ae7f78c23339dbc2e32e9ce23c523446",
+      "vision": "local pretrained DINOv2",
+      "full_training_architecture_checked": true,
+      "optimizer_steps": 0,
+      "backward_calls": 0,
+      "model_unchanged": true,
+      "loss_finite": true,
+      "random_initialization_loss": 1.0696789026260376,
+      "prediction_shape": [
+        2,
+        64,
+        27
+      ],
+      "parameter_count": 557518875,
+      "config": {
+        "architecture": "hx5_dexgraspvla_style_rdt",
+        "action_dim": 27,
+        "state_dim": 27,
+        "action_horizon": 64,
+        "execute_steps": 8,
+        "image_size": 518,
+        "patch_size": 14,
+        "embedding_dim": 1024,
+        "layers": 12,
+        "heads": 8,
+        "mask_layers": 4,
+        "dropout": 0.1,
+        "diffusion_steps": 50,
+        "inference_steps": 16,
+        "noise_assignment": true,
+        "vision": {
+          "backend": "dinov2_local",
+          "source": "out/student-assets/dinov2",
+          "head_model": "dinov2_vitb14",
+          "head_weights": "out/student-assets/dinov2_vitb14_pretrain.pth",
+          "wrist_model": "dinov2_vitl14",
+          "wrist_weights": "out/student-assets/dinov2_vitl14_pretrain.pth"
+        },
+        "training": {
+          "seed": 42,
+          "batch_size": 2,
+          "num_workers": 0,
+          "epochs": 13,
+          "learning_rate": 0.0001,
+          "weight_decay": 0.0001,
+          "betas": [
+            0.95,
+            0.999
+          ],
+          "warmup_steps": 100,
+          "gradient_clip": 1.0
+        },
+        "observation_version": 2,
+        "goal_image_size": 224,
+        "goal_reference_policy": {
+          "min_pixels": 64,
+          "min_extent": 4,
+          "border_margin": 2,
+          "max_border_fraction": 0.1
+        },
+        "prediction_type": "x0"
+      }
+    },
+    {
+      "architecture": "hx5_dexgraspvla_style_rdt",
+      "data_scope": "accepted training episodes; forward-only",
+      "data_io": "verified_memmap",
+      "cache_sha256": "3c7c6010621a145ce204fa6a7300e4f4ae7f78c23339dbc2e32e9ce23c523446",
+      "vision": "local pretrained DINOv2",
+      "full_training_architecture_checked": true,
+      "optimizer_steps": 0,
+      "backward_calls": 0,
+      "model_unchanged": true,
+      "loss_finite": true,
+      "random_initialization_loss": 0.8605640530586243,
+      "prediction_shape": [
+        2,
+        64,
+        27
+      ],
+      "parameter_count": 557518875,
+      "config": {
+        "architecture": "hx5_dexgraspvla_style_rdt",
+        "action_dim": 27,
+        "state_dim": 27,
+        "action_horizon": 64,
+        "execute_steps": 8,
+        "image_size": 518,
+        "patch_size": 14,
+        "embedding_dim": 1024,
+        "layers": 12,
+        "heads": 8,
+        "mask_layers": 4,
+        "dropout": 0.1,
+        "diffusion_steps": 50,
+        "inference_steps": 16,
+        "noise_assignment": true,
+        "vision": {
+          "backend": "dinov2_local",
+          "source": "out/student-assets/dinov2",
+          "head_model": "dinov2_vitb14",
+          "head_weights": "out/student-assets/dinov2_vitb14_pretrain.pth",
+          "wrist_model": "dinov2_vitl14",
+          "wrist_weights": "out/student-assets/dinov2_vitl14_pretrain.pth"
+        },
+        "training": {
+          "seed": 42,
+          "batch_size": 2,
+          "num_workers": 0,
+          "epochs": 13,
+          "learning_rate": 0.0001,
+          "weight_decay": 0.0001,
+          "betas": [
+            0.95,
+            0.999
+          ],
+          "warmup_steps": 100,
+          "gradient_clip": 1.0
+        },
+        "observation_version": 2,
+        "goal_image_size": 224,
+        "goal_reference_policy": {
+          "min_pixels": 64,
+          "min_extent": 4,
+          "border_margin": 2,
+          "max_border_fraction": 0.1
+        },
+        "prediction_type": "x0"
+      }
+    }
+  ]
+}

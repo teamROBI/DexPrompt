@@ -1,0 +1,950 @@
+{
+  "completed": true,
+  "training_started": false,
+  "new_policy_forward_passes": 0,
+  "scope": "archived closed-loop trajectories; descriptive alignment only",
+  "nearest_state_metric": {
+    "normalization": "training state_scale",
+    "score": "sqrt(0.5 * arm normalized MSE + 0.5 * hand normalized MSE)",
+    "search": "all 974 teacher pre-action states",
+    "used_by_policy_or_success_criterion": false
+  },
+  "execute_steps": 8,
+  "replays": [
+    {
+      "replay": "replay_000.npz",
+      "ticks": 974,
+      "first_64": {
+        "command_error": {
+          "value_rad": 0.4262905292360994,
+          "tick": 63,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "state_error": {
+          "value_rad": 0.3138226104201749,
+          "tick": 63,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "tracking_error": {
+          "value_rad": 0.2544929101794532,
+          "tick": 62,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "arm_command_rmse_rad": 0.10932551434117888,
+        "hand_command_rmse_rad": 0.00026334830304378635,
+        "arm_state_rmse_rad": 0.08673161976186906,
+        "hand_state_rmse_rad": 0.00022020795405268035
+      },
+      "full": {
+        "command_error": {
+          "value_rad": 0.7012593953560744,
+          "tick": 957,
+          "joint_index": 8,
+          "joint": "finger_r_joint2"
+        },
+        "state_error": {
+          "value_rad": 0.6966567635536194,
+          "tick": 962,
+          "joint_index": 8,
+          "joint": "finger_r_joint2"
+        },
+        "tracking_error": {
+          "value_rad": 0.28518982942441284,
+          "tick": 69,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "arm_command_rmse_rad": 0.157271045548982,
+        "hand_command_rmse_rad": 0.09403480414649842,
+        "arm_state_rmse_rad": 0.15496597458990585,
+        "hand_state_rmse_rad": 0.09292111988793854
+      },
+      "first_state_error_over_rad": {
+        "1e-06": 1,
+        "0.01": 2,
+        "0.05": 6,
+        "0.1": 23
+      },
+      "first_command_error_over_rad": {
+        "0.01": 0,
+        "0.05": 1,
+        "0.1": 4
+      },
+      "jump": {
+        "boundary": {
+          "count": 121,
+          "median_normalized_rms": 0.006087127495277116,
+          "p95_normalized_rms": 0.03008577453311102,
+          "max_normalized_rms": 0.05373841706373739
+        },
+        "within_chunk": {
+          "count": 852,
+          "median_normalized_rms": 0.006417757796408132,
+          "p95_normalized_rms": 0.061355591582250436,
+          "max_normalized_rms": 0.10624746376955192
+        },
+        "max_step": {
+          "value_rad": 0.04254258263201682,
+          "tick": 1,
+          "joint_index": 2,
+          "joint": "arm_r_joint3"
+        },
+        "max_step_is_boundary": false
+      },
+      "jump_first_64": {
+        "boundary": {
+          "count": 7,
+          "median_normalized_rms": 0.029858635291685764,
+          "p95_normalized_rms": 0.030462395266151042,
+          "max_normalized_rms": 0.030584332948478128
+        },
+        "within_chunk": {
+          "count": 56,
+          "median_normalized_rms": 0.005167948316479577,
+          "p95_normalized_rms": 0.027387037758104867,
+          "max_normalized_rms": 0.029705583305794557
+        },
+        "max_step": {
+          "value_rad": 0.04254258263201682,
+          "tick": 1,
+          "joint_index": 2,
+          "joint": "arm_r_joint3"
+        },
+        "max_step_is_boundary": false
+      },
+      "nearest_teacher": {
+        "first_64_indices": [
+          0,
+          3,
+          5,
+          8,
+          10,
+          12,
+          13,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          21,
+          22,
+          22,
+          23,
+          25,
+          27,
+          29,
+          31,
+          32,
+          33,
+          35,
+          36,
+          38,
+          39,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          52,
+          53,
+          55,
+          57,
+          59,
+          61,
+          63,
+          64,
+          65,
+          67,
+          69,
+          71,
+          73,
+          75,
+          76,
+          77,
+          78,
+          80,
+          82,
+          84,
+          87,
+          89,
+          91,
+          93
+        ],
+        "representative": [
+          {
+            "student_tick": 0,
+            "teacher_tick": 0,
+            "lag_teacher_minus_student": 0,
+            "combined_normalized_distance": 0.0,
+            "arm_normalized_rmse": 0.0,
+            "hand_normalized_rmse": 0.0
+          },
+          {
+            "student_tick": 1,
+            "teacher_tick": 3,
+            "lag_teacher_minus_student": 2,
+            "combined_normalized_distance": 0.0018036707799840058,
+            "arm_normalized_rmse": 0.002326888021755485,
+            "hand_normalized_rmse": 0.0010450113393389892
+          },
+          {
+            "student_tick": 7,
+            "teacher_tick": 15,
+            "lag_teacher_minus_student": 8,
+            "combined_normalized_distance": 0.015089801027527192,
+            "arm_normalized_rmse": 0.02103430322904442,
+            "hand_normalized_rmse": 0.0036003163429527705
+          },
+          {
+            "student_tick": 8,
+            "teacher_tick": 16,
+            "lag_teacher_minus_student": 8,
+            "combined_normalized_distance": 0.014265920581572023,
+            "arm_normalized_rmse": 0.019826402603929146,
+            "hand_normalized_rmse": 0.003734533420168046
+          },
+          {
+            "student_tick": 16,
+            "teacher_tick": 22,
+            "lag_teacher_minus_student": 6,
+            "combined_normalized_distance": 0.012462698172783877,
+            "arm_normalized_rmse": 0.017405166225125362,
+            "hand_normalized_rmse": 0.0027745053915205196
+          },
+          {
+            "student_tick": 32,
+            "teacher_tick": 45,
+            "lag_teacher_minus_student": 13,
+            "combined_normalized_distance": 0.01811856385214018,
+            "arm_normalized_rmse": 0.025359787209083638,
+            "hand_normalized_rmse": 0.0036668658058564745
+          },
+          {
+            "student_tick": 64,
+            "teacher_tick": 94,
+            "lag_teacher_minus_student": 30,
+            "combined_normalized_distance": 0.02863505476271023,
+            "arm_normalized_rmse": 0.04045373221699404,
+            "hand_normalized_rmse": 0.001851559408327545
+          },
+          {
+            "student_tick": 200,
+            "teacher_tick": 340,
+            "lag_teacher_minus_student": 140,
+            "combined_normalized_distance": 0.0024621100024694513,
+            "arm_normalized_rmse": 0.0029524324698569607,
+            "hand_normalized_rmse": 0.0018458368940549898
+          },
+          {
+            "student_tick": 450,
+            "teacher_tick": 524,
+            "lag_teacher_minus_student": 74,
+            "combined_normalized_distance": 0.01197097683846685,
+            "arm_normalized_rmse": 0.014730538738019425,
+            "hand_normalized_rmse": 0.00834384811834016
+          },
+          {
+            "student_tick": 700,
+            "teacher_tick": 565,
+            "lag_teacher_minus_student": -135,
+            "combined_normalized_distance": 0.15466066003099307,
+            "arm_normalized_rmse": 0.04711675168507674,
+            "hand_normalized_rmse": 0.2135880409411811
+          },
+          {
+            "student_tick": 973,
+            "teacher_tick": 515,
+            "lag_teacher_minus_student": -458,
+            "combined_normalized_distance": 0.024452224986891768,
+            "arm_normalized_rmse": 0.027496016110693113,
+            "hand_normalized_rmse": 0.020971211497184727
+          }
+        ],
+        "fraction_monotonic": 0.8108941418293937,
+        "fraction_within_8_teacher_ticks": 0.04004106776180698,
+        "maximum_teacher_index_reached": 656,
+        "terminal_teacher_index": 515
+      },
+      "physics": {
+        "max_simultaneous_contact_groups": 1,
+        "all_groups_ticks": 0,
+        "first_all_groups_tick": null,
+        "max_rise_m": 0.0001380518280811316,
+        "max_penetration_m": 0.00011714721333552742
+      }
+    },
+    {
+      "replay": "replay_001.npz",
+      "ticks": 908,
+      "first_64": {
+        "command_error": {
+          "value_rad": 0.45158072855687015,
+          "tick": 61,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "state_error": {
+          "value_rad": 0.35420141741633415,
+          "tick": 63,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "tracking_error": {
+          "value_rad": 0.24880186154732287,
+          "tick": 61,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "arm_command_rmse_rad": 0.11995768560413216,
+        "hand_command_rmse_rad": 0.00023765024575116717,
+        "arm_state_rmse_rad": 0.09582144659730553,
+        "hand_state_rmse_rad": 0.00019919097433225127
+      },
+      "full": {
+        "command_error": {
+          "value_rad": 0.700037096446083,
+          "tick": 85,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "state_error": {
+          "value_rad": 0.6162113063037395,
+          "tick": 92,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "tracking_error": {
+          "value_rad": 0.26769695396760285,
+          "tick": 85,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "arm_command_rmse_rad": 0.1511610513412839,
+        "hand_command_rmse_rad": 0.09140167075834552,
+        "arm_state_rmse_rad": 0.1490896569075391,
+        "hand_state_rmse_rad": 0.09115525181318519
+      },
+      "first_state_error_over_rad": {
+        "1e-06": 1,
+        "0.01": 2,
+        "0.05": 6,
+        "0.1": 26
+      },
+      "first_command_error_over_rad": {
+        "0.01": 0,
+        "0.05": 1,
+        "0.1": 4
+      },
+      "jump": {
+        "boundary": {
+          "count": 113,
+          "median_normalized_rms": 0.00790181015543396,
+          "p95_normalized_rms": 0.029852413566339407,
+          "max_normalized_rms": 0.08824929243142879
+        },
+        "within_chunk": {
+          "count": 794,
+          "median_normalized_rms": 0.006312226055215111,
+          "p95_normalized_rms": 0.04850948370187201,
+          "max_normalized_rms": 0.099484859597335
+        },
+        "max_step": {
+          "value_rad": 0.04254258263201682,
+          "tick": 1,
+          "joint_index": 2,
+          "joint": "arm_r_joint3"
+        },
+        "max_step_is_boundary": false
+      },
+      "jump_first_64": {
+        "boundary": {
+          "count": 7,
+          "median_normalized_rms": 0.029799272140571115,
+          "p95_normalized_rms": 0.030190172632133742,
+          "max_normalized_rms": 0.030328418442888316
+        },
+        "within_chunk": {
+          "count": 56,
+          "median_normalized_rms": 0.005851356349136207,
+          "p95_normalized_rms": 0.023104620743188857,
+          "max_normalized_rms": 0.029705267403842637
+        },
+        "max_step": {
+          "value_rad": 0.04254258263201682,
+          "tick": 1,
+          "joint_index": 2,
+          "joint": "arm_r_joint3"
+        },
+        "max_step_is_boundary": false
+      },
+      "nearest_teacher": {
+        "first_64_indices": [
+          0,
+          3,
+          5,
+          8,
+          10,
+          12,
+          13,
+          15,
+          16,
+          17,
+          18,
+          19,
+          19,
+          20,
+          21,
+          21,
+          22,
+          23,
+          24,
+          26,
+          28,
+          29,
+          31,
+          32,
+          33,
+          34,
+          36,
+          38,
+          39,
+          41,
+          42,
+          43,
+          44,
+          45,
+          47,
+          49,
+          50,
+          52,
+          53,
+          54,
+          55,
+          56,
+          58,
+          60,
+          62,
+          64,
+          66,
+          67,
+          69,
+          70,
+          72,
+          74,
+          76,
+          78,
+          79,
+          80,
+          81,
+          83,
+          85,
+          87,
+          89,
+          92,
+          93,
+          95
+        ],
+        "representative": [
+          {
+            "student_tick": 0,
+            "teacher_tick": 0,
+            "lag_teacher_minus_student": 0,
+            "combined_normalized_distance": 0.0,
+            "arm_normalized_rmse": 0.0,
+            "hand_normalized_rmse": 0.0
+          },
+          {
+            "student_tick": 1,
+            "teacher_tick": 3,
+            "lag_teacher_minus_student": 2,
+            "combined_normalized_distance": 0.0017749378553225197,
+            "arm_normalized_rmse": 0.0023268794418597203,
+            "hand_normalized_rmse": 0.0009415098743849732
+          },
+          {
+            "student_tick": 7,
+            "teacher_tick": 15,
+            "lag_teacher_minus_student": 8,
+            "combined_normalized_distance": 0.01510362914027544,
+            "arm_normalized_rmse": 0.021098991188747883,
+            "hand_normalized_rmse": 0.0033274310257455407
+          },
+          {
+            "student_tick": 8,
+            "teacher_tick": 16,
+            "lag_teacher_minus_student": 8,
+            "combined_normalized_distance": 0.01434495416969626,
+            "arm_normalized_rmse": 0.019986860375803456,
+            "hand_normalized_rmse": 0.003475749211250702
+          },
+          {
+            "student_tick": 16,
+            "teacher_tick": 22,
+            "lag_teacher_minus_student": 6,
+            "combined_normalized_distance": 0.011632407919637391,
+            "arm_normalized_rmse": 0.016233477874925052,
+            "hand_normalized_rmse": 0.002664587041551501
+          },
+          {
+            "student_tick": 32,
+            "teacher_tick": 44,
+            "lag_teacher_minus_student": 12,
+            "combined_normalized_distance": 0.017624583332728264,
+            "arm_normalized_rmse": 0.024661018286299734,
+            "hand_normalized_rmse": 0.0036174649116966075
+          },
+          {
+            "student_tick": 64,
+            "teacher_tick": 96,
+            "lag_teacher_minus_student": 32,
+            "combined_normalized_distance": 0.024254379410946922,
+            "arm_normalized_rmse": 0.03424679316859701,
+            "hand_normalized_rmse": 0.0019253568208695703
+          },
+          {
+            "student_tick": 200,
+            "teacher_tick": 375,
+            "lag_teacher_minus_student": 175,
+            "combined_normalized_distance": 0.006290204412740997,
+            "arm_normalized_rmse": 0.0053607495224218754,
+            "hand_normalized_rmse": 0.007098993426253209
+          },
+          {
+            "student_tick": 450,
+            "teacher_tick": 514,
+            "lag_teacher_minus_student": 64,
+            "combined_normalized_distance": 0.008637513342268735,
+            "arm_normalized_rmse": 0.005304567836846426,
+            "hand_normalized_rmse": 0.011003400998783754
+          },
+          {
+            "student_tick": 700,
+            "teacher_tick": 539,
+            "lag_teacher_minus_student": -161,
+            "combined_normalized_distance": 0.008570379491675705,
+            "arm_normalized_rmse": 0.006749030658412548,
+            "hand_normalized_rmse": 0.010067442298542293
+          }
+        ],
+        "fraction_monotonic": 0.8401323042998897,
+        "fraction_within_8_teacher_ticks": 0.02973568281938326,
+        "maximum_teacher_index_reached": 668,
+        "terminal_teacher_index": 668
+      },
+      "physics": {
+        "max_simultaneous_contact_groups": 2,
+        "all_groups_ticks": 2,
+        "first_all_groups_tick": 906,
+        "max_rise_m": 0.004636058498546425,
+        "max_penetration_m": 0.002191432258459537
+      }
+    },
+    {
+      "replay": "replay_002.npz",
+      "ticks": 974,
+      "first_64": {
+        "command_error": {
+          "value_rad": 0.36437476721024387,
+          "tick": 61,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "state_error": {
+          "value_rad": 0.27399274334311485,
+          "tick": 63,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "tracking_error": {
+          "value_rad": 0.24058698456028282,
+          "tick": 61,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "arm_command_rmse_rad": 0.09280355318068477,
+        "hand_command_rmse_rad": 0.0002408078066210118,
+        "arm_state_rmse_rad": 0.07288679555671632,
+        "hand_state_rmse_rad": 0.0002036070407990403
+      },
+      "full": {
+        "command_error": {
+          "value_rad": 0.6499451742411253,
+          "tick": 89,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "state_error": {
+          "value_rad": 0.5819518268108368,
+          "tick": 99,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "tracking_error": {
+          "value_rad": 0.2841283082962036,
+          "tick": 75,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "arm_command_rmse_rad": 0.1600288042450496,
+        "hand_command_rmse_rad": 0.10358027861643376,
+        "arm_state_rmse_rad": 0.1576808450121927,
+        "hand_state_rmse_rad": 0.1031107932367502
+      },
+      "first_state_error_over_rad": {
+        "1e-06": 1,
+        "0.01": 2,
+        "0.05": 9,
+        "0.1": 34
+      },
+      "first_command_error_over_rad": {
+        "0.01": 0,
+        "0.05": 1,
+        "0.1": 4
+      },
+      "jump": {
+        "boundary": {
+          "count": 121,
+          "median_normalized_rms": 0.008546158282203823,
+          "p95_normalized_rms": 0.03021408963210361,
+          "max_normalized_rms": 0.03921381213871959
+        },
+        "within_chunk": {
+          "count": 852,
+          "median_normalized_rms": 0.005664942782693945,
+          "p95_normalized_rms": 0.03771125854162589,
+          "max_normalized_rms": 0.08351181150378313
+        },
+        "max_step": {
+          "value_rad": 0.04254258263201682,
+          "tick": 1,
+          "joint_index": 2,
+          "joint": "arm_r_joint3"
+        },
+        "max_step_is_boundary": false
+      },
+      "jump_first_64": {
+        "boundary": {
+          "count": 7,
+          "median_normalized_rms": 0.029836621244180635,
+          "p95_normalized_rms": 0.030451665774519143,
+          "max_normalized_rms": 0.030553484121268657
+        },
+        "within_chunk": {
+          "count": 56,
+          "median_normalized_rms": 0.004398560293996781,
+          "p95_normalized_rms": 0.020150173256707832,
+          "max_normalized_rms": 0.02970186131017544
+        },
+        "max_step": {
+          "value_rad": 0.04254258263201682,
+          "tick": 1,
+          "joint_index": 2,
+          "joint": "arm_r_joint3"
+        },
+        "max_step_is_boundary": false
+      },
+      "nearest_teacher": {
+        "first_64_indices": [
+          0,
+          3,
+          5,
+          8,
+          10,
+          11,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          19,
+          20,
+          21,
+          21,
+          22,
+          23,
+          25,
+          26,
+          28,
+          29,
+          30,
+          31,
+          32,
+          34,
+          35,
+          37,
+          38,
+          39,
+          40,
+          40,
+          42,
+          43,
+          45,
+          46,
+          48,
+          49,
+          50,
+          50,
+          52,
+          53,
+          55,
+          57,
+          59,
+          61,
+          62,
+          64,
+          65,
+          67,
+          69,
+          70,
+          72,
+          73,
+          74,
+          75,
+          77,
+          78,
+          81,
+          83,
+          85,
+          87,
+          88
+        ],
+        "representative": [
+          {
+            "student_tick": 0,
+            "teacher_tick": 0,
+            "lag_teacher_minus_student": 0,
+            "combined_normalized_distance": 0.0,
+            "arm_normalized_rmse": 0.0,
+            "hand_normalized_rmse": 0.0
+          },
+          {
+            "student_tick": 1,
+            "teacher_tick": 3,
+            "lag_teacher_minus_student": 2,
+            "combined_normalized_distance": 0.0017615127192127575,
+            "arm_normalized_rmse": 0.0023268814157325775,
+            "hand_normalized_rmse": 0.000889649929475073
+          },
+          {
+            "student_tick": 7,
+            "teacher_tick": 14,
+            "lag_teacher_minus_student": 7,
+            "combined_normalized_distance": 0.013362417580916773,
+            "arm_normalized_rmse": 0.018613303749697892,
+            "hand_normalized_rmse": 0.0032639440459465083
+          },
+          {
+            "student_tick": 8,
+            "teacher_tick": 15,
+            "lag_teacher_minus_student": 7,
+            "combined_normalized_distance": 0.012653461683134765,
+            "arm_normalized_rmse": 0.017561937964873323,
+            "hand_normalized_rmse": 0.003434897385812339
+          },
+          {
+            "student_tick": 16,
+            "teacher_tick": 21,
+            "lag_teacher_minus_student": 5,
+            "combined_normalized_distance": 0.010169780343442828,
+            "arm_normalized_rmse": 0.014062055279485784,
+            "hand_normalized_rmse": 0.0030178578138206273
+          },
+          {
+            "student_tick": 32,
+            "teacher_tick": 40,
+            "lag_teacher_minus_student": 8,
+            "combined_normalized_distance": 0.014107761455698765,
+            "arm_normalized_rmse": 0.019689367064398795,
+            "hand_normalized_rmse": 0.003222838994608241
+          },
+          {
+            "student_tick": 64,
+            "teacher_tick": 90,
+            "lag_teacher_minus_student": 26,
+            "combined_normalized_distance": 0.02283480057698779,
+            "arm_normalized_rmse": 0.032229462641486135,
+            "hand_normalized_rmse": 0.002029278843001488
+          },
+          {
+            "student_tick": 200,
+            "teacher_tick": 351,
+            "lag_teacher_minus_student": 151,
+            "combined_normalized_distance": 0.0030640766258979014,
+            "arm_normalized_rmse": 0.0037810811286827614,
+            "hand_normalized_rmse": 0.002116732537914706
+          },
+          {
+            "student_tick": 450,
+            "teacher_tick": 520,
+            "lag_teacher_minus_student": 70,
+            "combined_normalized_distance": 0.020678719981237034,
+            "arm_normalized_rmse": 0.02327549417903119,
+            "hand_normalized_rmse": 0.01770509222926299
+          },
+          {
+            "student_tick": 700,
+            "teacher_tick": 524,
+            "lag_teacher_minus_student": -176,
+            "combined_normalized_distance": 0.007560142711297553,
+            "arm_normalized_rmse": 0.005186396414619756,
+            "hand_normalized_rmse": 0.009349481689419492
+          },
+          {
+            "student_tick": 973,
+            "teacher_tick": 554,
+            "lag_teacher_minus_student": -419,
+            "combined_normalized_distance": 0.015029409634645807,
+            "arm_normalized_rmse": 0.01241926271048611,
+            "hand_normalized_rmse": 0.017249006396308674
+          }
+        ],
+        "fraction_monotonic": 0.8468653648509764,
+        "fraction_within_8_teacher_ticks": 0.049281314168377825,
+        "maximum_teacher_index_reached": 558,
+        "terminal_teacher_index": 554
+      },
+      "physics": {
+        "max_simultaneous_contact_groups": 0,
+        "all_groups_ticks": 0,
+        "first_all_groups_tick": null,
+        "max_rise_m": 4.282365295704693e-07,
+        "max_penetration_m": 0.0
+      }
+    }
+  ],
+  "initial_observation": {
+    "rgbm": {
+      "equal": true,
+      "max_abs": 0.0
+    },
+    "right_cam_img": {
+      "equal": true,
+      "max_abs": 0.0
+    },
+    "right_state": {
+      "equal": true,
+      "max_abs": 0.0
+    },
+    "part_mask": {
+      "equal": true,
+      "max_abs": 0.0
+    },
+    "wrist_mask": {
+      "equal": true,
+      "max_abs": 0.0
+    },
+    "wrist_part_mask": {
+      "equal": true,
+      "max_abs": 0.0
+    },
+    "target_pixels": {
+      "equal": true,
+      "max_abs": 0.0
+    },
+    "target_visible": {
+      "equal": true,
+      "max_abs": 0.0
+    }
+  },
+  "teacher": {
+    "jump": {
+      "boundary": {
+        "count": 121,
+        "median_normalized_rms": 0.0013178587894819799,
+        "p95_normalized_rms": 0.008474959761065081,
+        "max_normalized_rms": 0.07587199232401025
+      },
+      "within_chunk": {
+        "count": 852,
+        "median_normalized_rms": 0.001310715243398613,
+        "p95_normalized_rms": 0.00847495976117168,
+        "max_normalized_rms": 0.0904129481359906
+      },
+      "max_step": {
+        "value_rad": 0.04254258263201682,
+        "tick": 150,
+        "joint_index": 2,
+        "joint": "arm_r_joint3"
+      },
+      "max_step_is_boundary": false
+    },
+    "jump_first_64": {
+      "boundary": {
+        "count": 7,
+        "median_normalized_rms": 0.005291131792825728,
+        "p95_normalized_rms": 0.005306245951532724,
+        "max_normalized_rms": 0.005307507465155102
+      },
+      "within_chunk": {
+        "count": 56,
+        "median_normalized_rms": 0.00528681249034908,
+        "p95_normalized_rms": 0.005307554792602844,
+        "max_normalized_rms": 0.005307881691676992
+      },
+      "max_step": {
+        "value_rad": 0.012844108036331348,
+        "tick": 43,
+        "joint_index": 0,
+        "joint": "arm_r_joint1"
+      },
+      "max_step_is_boundary": false
+    },
+    "tracking_error": {
+      "value_rad": 0.15339858145103025,
+      "tick": 149,
+      "joint_index": 0,
+      "joint": "arm_r_joint1"
+    },
+    "phase_intervals": [
+      {
+        "phase": "transit",
+        "start": 0,
+        "end_exclusive": 150
+      },
+      {
+        "phase": "descend",
+        "start": 150,
+        "end_exclusive": 250
+      },
+      {
+        "phase": "approach",
+        "start": 250,
+        "end_exclusive": 450
+      },
+      {
+        "phase": "arrive",
+        "start": 450,
+        "end_exclusive": 500
+      },
+      {
+        "phase": "close",
+        "start": 500,
+        "end_exclusive": 625
+      },
+      {
+        "phase": "lift",
+        "start": 625,
+        "end_exclusive": 924
+      },
+      {
+        "phase": "hold",
+        "start": 924,
+        "end_exclusive": 974
+      }
+    ]
+  }
+}

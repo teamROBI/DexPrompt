@@ -1,0 +1,306 @@
+........................................................................ [ 10%]
+........................................................................ [ 20%]
+........................................................................ [ 31%]
+........................................................................ [ 41%]
+................................................................EEEEEE.. [ 51%]
+........................................................................ [ 62%]
+..........................FFFF
+==================================== ERRORS ====================================
+___________ ERROR at setup of test_missing_final_is_not_zero_success ___________
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7fdf181d9420>
+
+    @pytest.fixture
+    def modules(monkeypatch):
+        root = Path(__file__).resolve().parents[2]
+        monkeypatch.syspath_prepend(str(root / "scripts"))
+        output = []
+        for name in ("report_low_noise_comparison", "run_hope_twelve_checks"):
+            spec = importlib.util.spec_from_file_location(name, root / "scripts" / f"{name}.py")
+            module = importlib.util.module_from_spec(spec)
+>           spec.loader.exec_module(module)
+
+tests/student/test_fast_parallel_student.py:19: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+<frozen importlib._bootstrap_external>:879: in exec_module
+    ???
+<frozen importlib._bootstrap_external>:1016: in get_code
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <_frozen_importlib_external.SourceFileLoader object at 0x7fdf181d95a0>
+path = '/home/yspark/projects/ICRA/scripts/report_low_noise_comparison.py'
+
+>   ???
+E   FileNotFoundError: [Errno 2] No such file or directory: '/home/yspark/projects/ICRA/scripts/report_low_noise_comparison.py'
+
+<frozen importlib._bootstrap_external>:1073: FileNotFoundError
+_____________ ERROR at setup of test_seed_and_contract_must_match ______________
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7fdf181b40a0>
+
+    @pytest.fixture
+    def modules(monkeypatch):
+        root = Path(__file__).resolve().parents[2]
+        monkeypatch.syspath_prepend(str(root / "scripts"))
+        output = []
+        for name in ("report_low_noise_comparison", "run_hope_twelve_checks"):
+            spec = importlib.util.spec_from_file_location(name, root / "scripts" / f"{name}.py")
+            module = importlib.util.module_from_spec(spec)
+>           spec.loader.exec_module(module)
+
+tests/student/test_fast_parallel_student.py:19: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+<frozen importlib._bootstrap_external>:879: in exec_module
+    ???
+<frozen importlib._bootstrap_external>:1016: in get_code
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <_frozen_importlib_external.SourceFileLoader object at 0x7fdf181b5660>
+path = '/home/yspark/projects/ICRA/scripts/report_low_noise_comparison.py'
+
+>   ???
+E   FileNotFoundError: [Errno 2] No such file or directory: '/home/yspark/projects/ICRA/scripts/report_low_noise_comparison.py'
+
+<frozen importlib._bootstrap_external>:1073: FileNotFoundError
+___________ ERROR at setup of test_runtime_error_is_not_task_failure ___________
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7fdf181b4a90>
+
+    @pytest.fixture
+    def modules(monkeypatch):
+        root = Path(__file__).resolve().parents[2]
+        monkeypatch.syspath_prepend(str(root / "scripts"))
+        output = []
+        for name in ("report_low_noise_comparison", "run_hope_twelve_checks"):
+            spec = importlib.util.spec_from_file_location(name, root / "scripts" / f"{name}.py")
+            module = importlib.util.module_from_spec(spec)
+>           spec.loader.exec_module(module)
+
+tests/student/test_fast_parallel_student.py:19: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+<frozen importlib._bootstrap_external>:879: in exec_module
+    ???
+<frozen importlib._bootstrap_external>:1016: in get_code
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <_frozen_importlib_external.SourceFileLoader object at 0x7fdf181b5570>
+path = '/home/yspark/projects/ICRA/scripts/report_low_noise_comparison.py'
+
+>   ???
+E   FileNotFoundError: [Errno 2] No such file or directory: '/home/yspark/projects/ICRA/scripts/report_low_noise_comparison.py'
+
+<frozen importlib._bootstrap_external>:1073: FileNotFoundError
+__________________ ERROR at setup of test_final_seed_pairing ___________________
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7fdf181b7400>
+
+    @pytest.fixture
+    def modules(monkeypatch):
+        root = Path(__file__).resolve().parents[2]
+        monkeypatch.syspath_prepend(str(root / "scripts"))
+        output = []
+        for name in ("report_low_noise_comparison", "run_hope_twelve_checks"):
+            spec = importlib.util.spec_from_file_location(name, root / "scripts" / f"{name}.py")
+            module = importlib.util.module_from_spec(spec)
+>           spec.loader.exec_module(module)
+
+tests/student/test_fast_parallel_student.py:19: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+<frozen importlib._bootstrap_external>:879: in exec_module
+    ???
+<frozen importlib._bootstrap_external>:1016: in get_code
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <_frozen_importlib_external.SourceFileLoader object at 0x7fdf181b5480>
+path = '/home/yspark/projects/ICRA/scripts/report_low_noise_comparison.py'
+
+>   ???
+E   FileNotFoundError: [Errno 2] No such file or directory: '/home/yspark/projects/ICRA/scripts/report_low_noise_comparison.py'
+
+<frozen importlib._bootstrap_external>:1073: FileNotFoundError
+_____ ERROR at setup of test_actual_release_and_reject_unapproved_episode ______
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7fdeeaff7a30>
+
+    @pytest.fixture
+    def modules(monkeypatch):
+        root = Path(__file__).resolve().parents[2]
+        monkeypatch.syspath_prepend(str(root / "scripts"))
+        output = []
+        for name in ("report_low_noise_comparison", "run_hope_twelve_checks"):
+            spec = importlib.util.spec_from_file_location(name, root / "scripts" / f"{name}.py")
+            module = importlib.util.module_from_spec(spec)
+>           spec.loader.exec_module(module)
+
+tests/student/test_fast_parallel_student.py:19: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+<frozen importlib._bootstrap_external>:879: in exec_module
+    ???
+<frozen importlib._bootstrap_external>:1016: in get_code
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <_frozen_importlib_external.SourceFileLoader object at 0x7fdeeaff76d0>
+path = '/home/yspark/projects/ICRA/scripts/report_low_noise_comparison.py'
+
+>   ???
+E   FileNotFoundError: [Errno 2] No such file or directory: '/home/yspark/projects/ICRA/scripts/report_low_noise_comparison.py'
+
+<frozen importlib._bootstrap_external>:1073: FileNotFoundError
+_ ERROR at setup of test_archive_equality_ignores_zip_container_but_detects_signal_change _
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7fdf181b5f30>
+
+    @pytest.fixture
+    def modules(monkeypatch):
+        root = Path(__file__).resolve().parents[2]
+        monkeypatch.syspath_prepend(str(root / "scripts"))
+        output = []
+        for name in ("report_low_noise_comparison", "run_hope_twelve_checks"):
+            spec = importlib.util.spec_from_file_location(name, root / "scripts" / f"{name}.py")
+            module = importlib.util.module_from_spec(spec)
+>           spec.loader.exec_module(module)
+
+tests/student/test_fast_parallel_student.py:19: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+<frozen importlib._bootstrap_external>:879: in exec_module
+    ???
+<frozen importlib._bootstrap_external>:1016: in get_code
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <_frozen_importlib_external.SourceFileLoader object at 0x7fdf181b4c70>
+path = '/home/yspark/projects/ICRA/scripts/report_low_noise_comparison.py'
+
+>   ???
+E   FileNotFoundError: [Errno 2] No such file or directory: '/home/yspark/projects/ICRA/scripts/report_low_noise_comparison.py'
+
+<frozen importlib._bootstrap_external>:1073: FileNotFoundError
+=================================== FAILURES ===================================
+_______ test_bundle_renames_collisions_deduplicates_and_keeps_train_only _______
+
+tmp_path = PosixPath('/tmp/pytest-of-yspark/pytest-708/test_bundle_renames_collisions0')
+
+    def test_bundle_renames_collisions_deduplicates_and_keeps_train_only(tmp_path):
+        one, two = tmp_path / "one", tmp_path / "two"
+        source(one, "bottle")
+        source(two, "can")
+        out = tmp_path / "bundle"
+>       report = module("prepare_student_diagnostic").prepare([one, two, one], out)
+
+tests/student/test_student_preparation.py:44: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/student/test_student_preparation.py:20: in module
+    spec.loader.exec_module(result)
+<frozen importlib._bootstrap_external>:879: in exec_module
+    ???
+<frozen importlib._bootstrap_external>:1016: in get_code
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <_frozen_importlib_external.SourceFileLoader object at 0x7fdeeab0c160>
+path = '/home/yspark/projects/ICRA/scripts/prepare_student_diagnostic.py'
+
+>   ???
+E   FileNotFoundError: [Errno 2] No such file or directory: '/home/yspark/projects/ICRA/scripts/prepare_student_diagnostic.py'
+
+<frozen importlib._bootstrap_external>:1073: FileNotFoundError
+___________ test_bundle_refuses_mixed_camera_contract_before_output ____________
+
+tmp_path = PosixPath('/tmp/pytest-of-yspark/pytest-708/test_bundle_refuses_mixed_came0')
+
+    def test_bundle_refuses_mixed_camera_contract_before_output(tmp_path):
+        one, two = tmp_path / "one", tmp_path / "two"
+        source(one, "bottle")
+        source(two, "can", {"version": 2, "width": 4})
+        out = tmp_path / "bundle"
+        with pytest.raises(ValueError, match="contracts differ"):
+>           module("prepare_student_diagnostic").prepare([one, two], out)
+
+tests/student/test_student_preparation.py:59: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/student/test_student_preparation.py:20: in module
+    spec.loader.exec_module(result)
+<frozen importlib._bootstrap_external>:879: in exec_module
+    ???
+<frozen importlib._bootstrap_external>:1016: in get_code
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <_frozen_importlib_external.SourceFileLoader object at 0x7fdf181d8160>
+path = '/home/yspark/projects/ICRA/scripts/prepare_student_diagnostic.py'
+
+>   ???
+E   FileNotFoundError: [Errno 2] No such file or directory: '/home/yspark/projects/ICRA/scripts/prepare_student_diagnostic.py'
+
+<frozen importlib._bootstrap_external>:1073: FileNotFoundError
+____ test_explicit_episode_selection_preserves_one_demo_and_rejects_unknown ____
+
+tmp_path = PosixPath('/tmp/pytest-of-yspark/pytest-708/test_explicit_episode_selectio0')
+
+    def test_explicit_episode_selection_preserves_one_demo_and_rejects_unknown(tmp_path):
+        one, two, bundle = tmp_path / "one", tmp_path / "two", tmp_path / "bundle"
+        source(one, "bottle")
+        source(two, "can")
+>       tool = module("prepare_student_diagnostic")
+
+tests/student/test_student_preparation.py:67: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/student/test_student_preparation.py:20: in module
+    spec.loader.exec_module(result)
+<frozen importlib._bootstrap_external>:879: in exec_module
+    ???
+<frozen importlib._bootstrap_external>:1016: in get_code
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <_frozen_importlib_external.SourceFileLoader object at 0x7fdeeab63370>
+path = '/home/yspark/projects/ICRA/scripts/prepare_student_diagnostic.py'
+
+>   ???
+E   FileNotFoundError: [Errno 2] No such file or directory: '/home/yspark/projects/ICRA/scripts/prepare_student_diagnostic.py'
+
+<frozen importlib._bootstrap_external>:1073: FileNotFoundError
+__________ test_episode_selection_refuses_ambiguous_multiple_sources ___________
+
+tmp_path = PosixPath('/tmp/pytest-of-yspark/pytest-708/test_episode_selection_refuses0')
+
+    def test_episode_selection_refuses_ambiguous_multiple_sources(tmp_path):
+        with pytest.raises(ValueError, match="one input"):
+>           module("prepare_student_diagnostic").prepare(
+                [tmp_path / "a", tmp_path / "b"], tmp_path / "out", episode_ids=["same_id"]
+            )
+
+tests/student/test_student_preparation.py:83: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/student/test_student_preparation.py:20: in module
+    spec.loader.exec_module(result)
+<frozen importlib._bootstrap_external>:879: in exec_module
+    ???
+<frozen importlib._bootstrap_external>:1016: in get_code
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <_frozen_importlib_external.SourceFileLoader object at 0x7fdeeab615d0>
+path = '/home/yspark/projects/ICRA/scripts/prepare_student_diagnostic.py'
+
+>   ???
+E   FileNotFoundError: [Errno 2] No such file or directory: '/home/yspark/projects/ICRA/scripts/prepare_student_diagnostic.py'
+
+<frozen importlib._bootstrap_external>:1073: FileNotFoundError
+=========================== short test summary info ============================
+FAILED tests/student/test_student_preparation.py::test_bundle_renames_collisions_deduplicates_and_keeps_train_only
+FAILED tests/student/test_student_preparation.py::test_bundle_refuses_mixed_camera_contract_before_output
+FAILED tests/student/test_student_preparation.py::test_explicit_episode_selection_preserves_one_demo_and_rejects_unknown
+FAILED tests/student/test_student_preparation.py::test_episode_selection_refuses_ambiguous_multiple_sources
+ERROR tests/student/test_fast_parallel_student.py::test_missing_final_is_not_zero_success
+ERROR tests/student/test_fast_parallel_student.py::test_seed_and_contract_must_match
+ERROR tests/student/test_fast_parallel_student.py::test_runtime_error_is_not_task_failure
+ERROR tests/student/test_fast_parallel_student.py::test_final_seed_pairing - ...
+ERROR tests/student/test_fast_parallel_student.py::test_actual_release_and_reject_unapproved_episode
+ERROR tests/student/test_fast_parallel_student.py::test_archive_equality_ignores_zip_container_but_detects_signal_change
+!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 10 failures !!!!!!!!!!!!!!!!!!!!!!!!!!

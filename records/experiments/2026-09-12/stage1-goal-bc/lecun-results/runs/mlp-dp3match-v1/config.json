@@ -1,0 +1,61 @@
+{
+ "fixed_at": "2026-09-13T00:05:52+09:00",
+ "question": "does an MLP BC complete the three DP3 training conditions under DP3's observations, action, budget and stop rule?",
+ "scope": "execution comparison on a small set; not unseen-object generalisation",
+ "episodes": [
+  "AlphabetSoup-409a5d4a75d5",
+  "Peaches-9aa6657866eb",
+  "Raisins-0ef25c7b5eea"
+ ],
+ "dp3_files_sha256": {
+  "plan.json": "c8974caba39d4c8288b72497dbe1d130871a8d85ea6d1b8079dfdd8ef442454e",
+  "episodes.json": "13f2832d79696dffa6973c8673c794188d4a472d163e7b56bcf5330437d758c2",
+  "selection.json": "69c249188a51446720be0bd230ff897ea070215469654f836097213c4b2338fb",
+  "features/AlphabetSoup-409a5d4a75d5.npz": "387c19d73b96fc590babdb7aae47595657fe9a5107b3f1a2c5d185e7ac0ac29e",
+  "features/Peaches-9aa6657866eb.npz": "3c3fb961ea000cf838d7865247b26f0ca495a25fd5eaeff6e4c7b83ddc23adb3",
+  "features/Raisins-0ef25c7b5eea.npz": "48570cfe48bb43c68e54623522065fd49e68f5a6ff595350defe6d2d5b7dd1dd"
+ },
+ "observation": "Codex Archive.observation(): point_cloud 640x3 + agent_pos 125, history 2 (DP3 sequence_indices padding)",
+ "action": "27 final actuator commands; clip to ctrlrange only; nothing added",
+ "model": {
+  "kind": "MLP",
+  "width": 512,
+  "depth": 3,
+  "activation": "ELU",
+  "input": "flattened history x (640*3 + 125)",
+  "output": 27,
+  "normalisation": "limits to [-1, 1] from training data only (point cloud per xyz, state and action per dim, range floor 0.0001)"
+ },
+ "training": {
+  "seed": 42,
+  "batch_size": 64,
+  "learning_rate": 0.0001,
+  "weight_decay": 1e-06,
+  "warmup": 500,
+  "updates": 6000,
+  "optimiser": "AdamW",
+  "schedule": "linear warmup then cosine (DP3)",
+  "grad_clip": 1.0,
+  "loss": "MSE on normalised action at the current tick",
+  "sampling": "episode-balanced, tick uniform (DP3 batch())",
+  "checkpoint": "last update, no selection"
+ },
+ "evaluation": {
+  "seeds": [
+   1000,
+   1001,
+   1002
+  ],
+  "budget": "episode frames",
+  "stop": "quality violation only",
+  "success": "Outcome.summary() at the end (contact_acquisition_guard_v2)",
+  "first_deviation": "|q - teacher right_state| > 0.05 rad on an arm joint or 0.1 rad on a finger",
+  "note": "the MLP is deterministic; seeds set as in DP3 for equal budget"
+ },
+ "differences_from_dp3": [
+  "MLP instead of diffusion U-Net",
+  "one action per tick instead of 8 of a 16-step chunk",
+  "no EMA; last update"
+ ],
+ "code_sha256": "bdc305bfc78e8586a31f808b32b2b125d06652bc215f863f5df4a215ed373dad"
+}

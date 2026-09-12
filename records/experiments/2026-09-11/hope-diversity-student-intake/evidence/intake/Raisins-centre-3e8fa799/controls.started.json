@@ -1,0 +1,11 @@
+{
+  "pid": 2045951,
+  "command": [
+    "scripts/evaluate_student_suite.py",
+    "--data",
+    "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/Raisins-centre-3e8fa799/visual",
+    "--out",
+    "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/Raisins-centre-3e8fa799/controls",
+    "--check-controls"
+  ]
+}

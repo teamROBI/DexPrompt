@@ -1,0 +1,8 @@
+{"cached_episode": "source0_teacher_0008_yaw_000", "cache_bytes": 659655728}
+{"cached_episode": "source1_teacher_0004_yaw_000", "cache_bytes": 1305541336}
+{"cached_episode": "source2_teacher_0000_yaw_000", "cache_bytes": 2055030704}
+{"cached_episode": "source3_teacher_0000_yaw_000", "cache_bytes": 2715997872}
+{"cached_episode": "source4_teacher_0000_yaw_000", "cache_bytes": 3502207560}
+{"cached_episode": "source5_teacher_0000_yaw_000", "cache_bytes": 4239893968}
+{"cached_episode": "source6_teacher_0000_yaw_000", "cache_bytes": 4895615376}
+{"cache": "/data1/yspark/projects/dexprompt/student-cache/hope-bundle-v1", "episodes": 7, "total_bytes": 4895615376, "optimizer_steps": 0}

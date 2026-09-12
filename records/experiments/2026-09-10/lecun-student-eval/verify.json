@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "artifact_files": 258,
+  "dataset": "out/student-bottle-can-v1",
+  "checkpoint": "out/student-checkpoints/bottle-can-bc-v1/epoch_0002.pt",
+  "optimizer_steps": 6255,
+  "model_loaded": true,
+  "torch": "2.6.0+cu124",
+  "mujoco": "3.3.3",
+  "training_started": false,
+  "cuda_available": false
+}

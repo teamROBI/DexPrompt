@@ -1,0 +1,811 @@
+{
+  "completed": true,
+  "episodes": [
+    {
+      "name": "AlphabetSoup-057c04e1d5-x_minus20mm-49df6b4a",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "AlphabetSoup-057c04e1d5-x_plus10mm-1035b7c5",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "AlphabetSoup-057c04e1d5-x_plus20mm-d6f637c3",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "AlphabetSoup-057c04e1d5-y_minus10mm-24fe2872",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "AlphabetSoup-057c04e1d5-y_plus10mm-c3e58f42",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "AlphabetSoup-057c04e1d5-y_plus20mm-cd1c3af4",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "AlphabetSoup-057c04e1d5-yaw_minus15-54973e51",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "AlphabetSoup-1443cca6ce-centre-e15f2780",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "AlphabetSoup-1443cca6ce-x_minus20mm-c38792a5",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "AlphabetSoup-1443cca6ce-yaw_plus15-41d6c926",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "AlphabetSoup-34815d4f21-centre-409a5d4a",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0,
+        "action": 0.0
+      }
+    },
+    {
+      "name": "AlphabetSoup-34815d4f21-x_plus20mm-80545e00",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "AlphabetSoup-34815d4f21-y_minus20mm-7946f4bc",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "AlphabetSoup-34815d4f21-y_plus10mm-62aa3bbc",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "AlphabetSoup-34815d4f21-y_plus20mm-5dfe2268",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "AlphabetSoup-34815d4f21-yaw_minus15-bc33cdba",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "AlphabetSoup-34815d4f21-yaw_minus7_5-79d5ff1a",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "AlphabetSoup-34815d4f21-yaw_plus15-0aa9e867",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "AlphabetSoup-34815d4f21-yaw_plus7_5-c16fa3d6",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "AlphabetSoup-99f5c885db-centre-142fb5c9",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Peaches-203b95f140-centre-3e88a9af",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Peaches-203b95f140-x_plus20mm-ebcec15f",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Peaches-7a8cdecf40-centre-9aa66578",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0,
+        "action": 0.0
+      }
+    },
+    {
+      "name": "Peaches-7a8cdecf40-x_minus10mm-6e31880c",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Peaches-7a8cdecf40-x_minus20mm-7644d279",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Peaches-7a8cdecf40-x_plus10mm-08552500",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Peaches-7a8cdecf40-x_plus20mm-06c2f29a",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Peaches-7a8cdecf40-y_minus10mm-d695819f",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Peaches-7a8cdecf40-y_minus20mm-8d63d0af",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Peaches-7a8cdecf40-y_plus10mm-f0ca6700",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Peaches-7a8cdecf40-y_plus20mm-51353162",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Peaches-7a8cdecf40-yaw_minus7_5-0758704d",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Peaches-7a8cdecf40-yaw_plus15-80e872f6",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Peaches-7a8cdecf40-yaw_plus7_5-958c156e",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-0ddf3447c0-centre-fe233e9e",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-0ddf3447c0-yaw_plus15-4089eeb6",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-3e8fa79936-centre-0c6b54be",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-3e8fa79936-x_minus10mm-d55713a9",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-3e8fa79936-x_plus10mm-ca6d8c9f",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-3e8fa79936-x_plus20mm-4500d25c",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-3e8fa79936-y_minus10mm-6d20b0b7",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-3e8fa79936-y_minus20mm-19f6f1cb",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-3e8fa79936-y_plus10mm-9d3b91f9",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-3e8fa79936-y_plus20mm-6da9697f",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-3e8fa79936-yaw_plus15-06354bdd",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-3e8fa79936-yaw_plus7_5-1c855952",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-438146b501-centre-66854882",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-5ce67ebebc-centre-21dfd8cd",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-61abcb552d-centre-1439167a",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-6e4f0004b3-centre-2d03cc8e",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-6f9d5db293-centre-21f9dd74",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-7eede966f9-centre-9f474932",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-81839469d4-centre-bc0fa693",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-852eaf0fdf-centre-931653bf",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-998fcd28f3-centre-dd328e6c",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-a0a0731a28-centre-8c08172a",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-af15fdf0bc-centre-0ef25c7b",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0,
+        "action": 0.0
+      }
+    },
+    {
+      "name": "Raisins-af15fdf0bc-x_minus10mm-29035397",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-af15fdf0bc-x_minus20mm-49865f79",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-af15fdf0bc-x_plus10mm-3d23613b",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-af15fdf0bc-x_plus20mm-de330ba8",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-af15fdf0bc-y_minus10mm-d3a3469b",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-af15fdf0bc-y_minus20mm-da09c322",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-af15fdf0bc-y_plus10mm-cc20c672",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-af15fdf0bc-y_plus20mm-f2542680",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-af15fdf0bc-yaw_minus7_5-6e1f2866",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-af15fdf0bc-yaw_plus15-0344169f",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-af15fdf0bc-yaw_plus7_5-0981d09f",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-c9c6e48559-centre-94727bc4",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-e8e6ad7c0f-centre-a2ad7e6c",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-ec7552bd5f-centre-0afe70ee",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    },
+    {
+      "name": "Raisins-ecd47d7b0a-centre-ed85bcc1",
+      "reset_gaps": {
+        "point_cloud": 0.0,
+        "agent_pos": 0.0
+      },
+      "prior_direct_replay_gaps": null
+    }
+  ],
+  "checked_input_hashes": {
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/49fce29c5b817176ee341e37aae8f394b6115357d08a44c77e90fe56a65dcd99.mjb": "49fce29c5b817176ee341e37aae8f394b6115357d08a44c77e90fe56a65dcd99",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/a8a57bfc1465cf0a24ccdcb768eac629c235befd6f619d6e997bcbda08a150fc.npy": "a8a57bfc1465cf0a24ccdcb768eac629c235befd6f619d6e997bcbda08a150fc",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/AlphabetSoup-057c04e1d5-x_minus20mm-49df6b4a.npz": "6c95d391c983a9b07ee63534d0e4a47e998b32d1f5e8d0c84a0130f042af0b98",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/AlphabetSoup-057c04e1d5-x_minus20mm-49df6b4a.npz": "86e6ecb8cc8fd2e441e136e1cea3749a0d862b3acde42cc60b92fb37424a5821",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/24237509972c4595d76f609a984bca627fbd8adc911ad4c41349fe3f55081b0c.mjb": "24237509972c4595d76f609a984bca627fbd8adc911ad4c41349fe3f55081b0c",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/9323a4ab00f3a9226df3a9955c4de48a17be0521c36260bacd0c02c085dd46b8.npy": "9323a4ab00f3a9226df3a9955c4de48a17be0521c36260bacd0c02c085dd46b8",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/AlphabetSoup-057c04e1d5-x_plus10mm-1035b7c5.npz": "40a92a37c92d5582c55f38d1f6e8dd575fb1f9ef85172c20660a7248df7beac5",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/AlphabetSoup-057c04e1d5-x_plus10mm-1035b7c5.npz": "904fd8911d7c804d7772f74c7d342eb301f7556881f224c048a9d1f91d102120",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/9e36cd211ecee8da3477e559e0b8d80bba4f2371831729fb3c40f3f72f10f72e.mjb": "9e36cd211ecee8da3477e559e0b8d80bba4f2371831729fb3c40f3f72f10f72e",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/29933e459b43a4312543adc7ea852739788b2958d4e80601681c203fa1e27d9a.npy": "29933e459b43a4312543adc7ea852739788b2958d4e80601681c203fa1e27d9a",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/AlphabetSoup-057c04e1d5-x_plus20mm-d6f637c3.npz": "f6d1ba794931ab992e82df8ad6d8cec74488e9f25cef71aa4c2b3fd36884c0e3",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/AlphabetSoup-057c04e1d5-x_plus20mm-d6f637c3.npz": "e4dfb505ce8364d27a811c7ebb8370f04543fefab7db68d1667963e42429e709",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/8d0215b954e88c98d18bb5b59bb505a1b8e4301444110ad8784e710194e51637.mjb": "8d0215b954e88c98d18bb5b59bb505a1b8e4301444110ad8784e710194e51637",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/28127077dd1bcfa5761ddc9599787d248d0c260d96678ead2df6bf64ec0c8481.npy": "28127077dd1bcfa5761ddc9599787d248d0c260d96678ead2df6bf64ec0c8481",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/AlphabetSoup-057c04e1d5-y_minus10mm-24fe2872.npz": "c09caa31baf58f64c55ca75e5153c79a9d2d687451fab0c788367893001f3039",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/AlphabetSoup-057c04e1d5-y_minus10mm-24fe2872.npz": "6ce00a039abab7434b2b2baf0c8f41b5a045b8539a20d8aefb32bbe03744a7d5",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/5742c282830eadde8a97a07f65c8023ea001c306da82eabb62867af7cca7ffcd.mjb": "5742c282830eadde8a97a07f65c8023ea001c306da82eabb62867af7cca7ffcd",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/01dc34faef7a0f6acfc148b80c0be71cfae5be2d071ba4d0a4f1fcfdef33f4e7.npy": "01dc34faef7a0f6acfc148b80c0be71cfae5be2d071ba4d0a4f1fcfdef33f4e7",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/AlphabetSoup-057c04e1d5-y_plus10mm-c3e58f42.npz": "0c0c95d6d73929fd77d29e9f60c7b4e8b56dd7b3199f2f99bd08f60409ae17ee",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/AlphabetSoup-057c04e1d5-y_plus10mm-c3e58f42.npz": "0d9db6a2ed7dcdb1a3e2371892bef31fbeaf3db7d30d85d9f60315692b570f80",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/86fdd92fdfcbf189a4fe248818dbf03224945a8bd62d419646133b191feb344b.mjb": "86fdd92fdfcbf189a4fe248818dbf03224945a8bd62d419646133b191feb344b",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/8a5eb7b76c7a160444ac41fe8211481f432b9001bef6f06568f79ad1981ff8de.npy": "8a5eb7b76c7a160444ac41fe8211481f432b9001bef6f06568f79ad1981ff8de",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/AlphabetSoup-057c04e1d5-y_plus20mm-cd1c3af4.npz": "19e5bde3d77e59f708c29e1bd1ab2855336b5b4d8dfbdcb1e0979b1e3f8021a8",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/AlphabetSoup-057c04e1d5-y_plus20mm-cd1c3af4.npz": "5b35de8d3ffe3ceba15284518032bedcbd48f83bf6625b9015b32280e7e200ca",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/a856d21dd2d8a75463ab7a70ffcbc41319f269ffca294841de66d511257e100c.mjb": "a856d21dd2d8a75463ab7a70ffcbc41319f269ffca294841de66d511257e100c",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/1fe5d69bea9f67a90cf37895c93682b54599fb7a9afd678475726e8b2b6cebfa.npy": "1fe5d69bea9f67a90cf37895c93682b54599fb7a9afd678475726e8b2b6cebfa",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/AlphabetSoup-057c04e1d5-yaw_minus15-54973e51.npz": "847f93c1e6b35aeff5ddb8effd66a53e2d5deb3bbfbd105bddedead43ab3e2d2",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/AlphabetSoup-057c04e1d5-yaw_minus15-54973e51.npz": "305fd10bdfb4f2c131f68945c78ee51926eadeb59e04eea564d2e4a1bb55c88d",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/16f0700373ed43f1406b59cd2c8edd479d4462d5f7c1930d760f4146dd19d9a8.mjb": "16f0700373ed43f1406b59cd2c8edd479d4462d5f7c1930d760f4146dd19d9a8",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/cdf7a3a3a9440861f625e004b7cce186468f3a3b3c87b3da84d3fac72da65a1c.npy": "cdf7a3a3a9440861f625e004b7cce186468f3a3b3c87b3da84d3fac72da65a1c",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/AlphabetSoup-1443cca6ce-centre-e15f2780.npz": "4b00877f5c7e28481db9ddf6a2282185722e982ad365bdbe3908994b2fbffa82",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/AlphabetSoup-1443cca6ce-centre-e15f2780.npz": "ba991c40d9b5d6a4374d94a8972d6ba4c2d4123423d23ba850aae1657e831062",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/AlphabetSoup-1443cca6ce-x_minus20mm-c38792a5.npz": "6abb0b527504f00f3333589f1a00890959aedb606d7700d23ca5921f268ba01f",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/AlphabetSoup-1443cca6ce-x_minus20mm-c38792a5.npz": "5a256c1a4fb521c4d7a4dc24d0faaa46e5a6e2d3e8eb8e7cd2d7fdbef90e92f4",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/b2a11e09f4ea22a739452bc7cd20ab9a6a0c7df3a53230821d41996b3047b768.mjb": "b2a11e09f4ea22a739452bc7cd20ab9a6a0c7df3a53230821d41996b3047b768",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/7bc54813b6f5dc2e2a11ef4b8461b1825cc5e388e4e8974cecb7a65d99a98bbf.npy": "7bc54813b6f5dc2e2a11ef4b8461b1825cc5e388e4e8974cecb7a65d99a98bbf",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/AlphabetSoup-1443cca6ce-yaw_plus15-41d6c926.npz": "e02de27902949ad889f3482092f8bc8442588520f535583912c8e63e619b7b8d",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/AlphabetSoup-1443cca6ce-yaw_plus15-41d6c926.npz": "cab212249ee1f909a216d68ddbc37ae92806f0b1465ce1745cf27962afed2fbb",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/AlphabetSoup-34815d4f21-centre-409a5d4a.npz": "cafe267e2c70ce5800e4c525d030a06bd011788cd41dadc4bd67201efa47b153",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/AlphabetSoup-34815d4f21-centre-409a5d4a.npz": "cd1f3d4d3bcfcb376792e853761979d4d72b0af7a868ea67619fe73e8459c474",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/AlphabetSoup-34815d4f21-x_plus20mm-80545e00.npz": "ded99fb23f1e7bedddd142b5824e3450ec483d4fcb8621ee98505f5d8b00746c",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/AlphabetSoup-34815d4f21-x_plus20mm-80545e00.npz": "dc4cf2621252432ff454e24dfaca8d11a201d7689b665187a7b6c9fcc42e53fe",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/739932f85b8bb625411a5f8ef59f754b97ecee88c716704674e2da76d8c97e9d.mjb": "739932f85b8bb625411a5f8ef59f754b97ecee88c716704674e2da76d8c97e9d",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/2b57dd9d771d2b367404e374ed11e70a3212c06aa87a2d6520af1cd0b5e15bda.npy": "2b57dd9d771d2b367404e374ed11e70a3212c06aa87a2d6520af1cd0b5e15bda",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/AlphabetSoup-34815d4f21-y_minus20mm-7946f4bc.npz": "5104a2bc076717c3da12dc00b7d61ef3cc47193df3d768252d0ff645bc74a039",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/AlphabetSoup-34815d4f21-y_minus20mm-7946f4bc.npz": "5914fadd89f2b626f0aa26310912eb91919350d6b061678d92d049b05dd37fd8",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/AlphabetSoup-34815d4f21-y_plus10mm-62aa3bbc.npz": "8be74725cf9df05abea980f76ab7cd12ef4106bd6d0131f78a365f7cf2712a2c",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/AlphabetSoup-34815d4f21-y_plus10mm-62aa3bbc.npz": "4da60a4487e2b5a4d9e3fbc3246c57d1b1487bb22dcb81cec68bcf150420078d",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/AlphabetSoup-34815d4f21-y_plus20mm-5dfe2268.npz": "9911997b1f0f3632d426f870a3c38e6f4c67e973b14d2ca36b344909a787fc8b",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/AlphabetSoup-34815d4f21-y_plus20mm-5dfe2268.npz": "7cbe3f8574032882a3b32c880666fe50f3341619f9739cf5687d6d57404e7ab8",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/AlphabetSoup-34815d4f21-yaw_minus15-bc33cdba.npz": "d31566b8808e9fe5b4cf4078c99ca374e33e655a70f6d0cac25fe52708fbb588",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/AlphabetSoup-34815d4f21-yaw_minus15-bc33cdba.npz": "cd578fc425c66bc596c65cca75e068a889b961ffd60761fe80ed3f8c5607d7fa",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/49939d470cac511f2bd45730b020c6d3f629fd0dc22869081d5fb9a270e553c9.mjb": "49939d470cac511f2bd45730b020c6d3f629fd0dc22869081d5fb9a270e553c9",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/c708882c41dd7481ff0a1641ebdf4e625c816d53aeac4c23fc6af03ed7f66987.npy": "c708882c41dd7481ff0a1641ebdf4e625c816d53aeac4c23fc6af03ed7f66987",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/AlphabetSoup-34815d4f21-yaw_minus7_5-79d5ff1a.npz": "b51d47c0a3239ce1ee56fc71dcd298209e7d7c38f1be98fad123583289d488b3",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/AlphabetSoup-34815d4f21-yaw_minus7_5-79d5ff1a.npz": "cf9b503c6d940db40793e3d4402358b368f7a880acd7063600ef25905511a0df",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/AlphabetSoup-34815d4f21-yaw_plus15-0aa9e867.npz": "9111d87019033e298f3ddfb9ee76cdaa22289d3a4e83f5c81db97e8088d195ef",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/AlphabetSoup-34815d4f21-yaw_plus15-0aa9e867.npz": "4744d962ba81d515fc15961bbe834e973eb884191ed4b9ce133e26acb36c787a",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/df46aa7dbce25a6bebd547a5de61cef21b3913fb543aa0db232aa2f47ba83e7e.mjb": "df46aa7dbce25a6bebd547a5de61cef21b3913fb543aa0db232aa2f47ba83e7e",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/f05aeb46a24037dc79ee6e71771af7d3b7cb532119e3a7863e5a098737cd9cfd.npy": "f05aeb46a24037dc79ee6e71771af7d3b7cb532119e3a7863e5a098737cd9cfd",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/AlphabetSoup-34815d4f21-yaw_plus7_5-c16fa3d6.npz": "db909cec994fec6cb13384836ff7139a988b00c0fb4cea7a72f7567cdd5b76c7",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/AlphabetSoup-34815d4f21-yaw_plus7_5-c16fa3d6.npz": "1afcfffeec0023e7880a29a7b97429db6b882e2acd9013ff4202d1f08fa8b083",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/AlphabetSoup-99f5c885db-centre-142fb5c9.npz": "8942233dbd953dab1baca2a9461d9b327eab3b9ca0c288cf41290b21dedd855b",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/AlphabetSoup-99f5c885db-centre-142fb5c9.npz": "e6e2a1397b992a3b2efbbf86a1cc6187244ccde0d8fed7746c94ea1ec23bdd1a",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/f711c25bfc5b949c080d1a434032dcc83178489df6cc178214d8cd456570d347.mjb": "f711c25bfc5b949c080d1a434032dcc83178489df6cc178214d8cd456570d347",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/538414e596edd36acb6414b6600b4afe6d51568d54d48d4f68322af2005bdabe.npy": "538414e596edd36acb6414b6600b4afe6d51568d54d48d4f68322af2005bdabe",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Peaches-203b95f140-centre-3e88a9af.npz": "d29820352ead7673a2157622626fb1f8a13f9f391ab1f90f2a55971a6071a4d3",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Peaches-203b95f140-centre-3e88a9af.npz": "29b41d72023743e63754a7cc618e60bc568a43e9707763deded028d1fa03bad2",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/f36b8adfff5c3a36cee5d464409a9f596ace6e71df9e891fabd74628fac7d072.mjb": "f36b8adfff5c3a36cee5d464409a9f596ace6e71df9e891fabd74628fac7d072",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/5ad305d58b370f9679cf96d88723df14ce680016008148957f66db2c71e3dd1e.npy": "5ad305d58b370f9679cf96d88723df14ce680016008148957f66db2c71e3dd1e",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Peaches-203b95f140-x_plus20mm-ebcec15f.npz": "1eaa88b8225bc12471c1ecab70bf3e3ac713c72fa780db7dc1970a13c08af022",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Peaches-203b95f140-x_plus20mm-ebcec15f.npz": "82f347039ff42190e7c7871c9b3f1c7d850d2415e09afa0bb7b666708161bbca",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Peaches-7a8cdecf40-centre-9aa66578.npz": "20268805d6950625dea6c0e797c9132fa17146569760d6d5a0df6a1c4e5dfb74",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Peaches-7a8cdecf40-centre-9aa66578.npz": "ec4fc047e522e2cfedd3150b593b341bb0c200ed0734515d7ec7b02b9f5eef32",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/e23af76df3fab87514ce076fd3a7eb00541d8ff947cbc17dfdf3aca3bb89583c.mjb": "e23af76df3fab87514ce076fd3a7eb00541d8ff947cbc17dfdf3aca3bb89583c",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/0c1aad9a0db0e499c61e1c673bf011d7c923f312b4d625334a50f7ad0130ece7.npy": "0c1aad9a0db0e499c61e1c673bf011d7c923f312b4d625334a50f7ad0130ece7",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Peaches-7a8cdecf40-x_minus10mm-6e31880c.npz": "73db0e374a63517ae55cbeb192817f74cbb37cfd27828553fad034f71d91a46e",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Peaches-7a8cdecf40-x_minus10mm-6e31880c.npz": "5f801ef7aa6387238ab1f9ab3b142210c9769782563a31c9b6d4ca1334964e12",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/0f1520757b9067e267ceaa3db781079518e8cfbacc1542bcc11cbb5c34cbbbe4.mjb": "0f1520757b9067e267ceaa3db781079518e8cfbacc1542bcc11cbb5c34cbbbe4",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/b161631aebeeecca417ec461ea6cd5c96fdb588ac4a1f60b145fa3cf883511d9.npy": "b161631aebeeecca417ec461ea6cd5c96fdb588ac4a1f60b145fa3cf883511d9",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Peaches-7a8cdecf40-x_minus20mm-7644d279.npz": "7bab40c4a6e43195bfba21ed8df1d6262303e3404e3a80b43cd0ab1c104473e3",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Peaches-7a8cdecf40-x_minus20mm-7644d279.npz": "a39e9cc5dc0fb95297b159fb785bb27c322eb3153c4dc17126d735cb4bf94654",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/994b1c63b621cb5a14bb6f765131c7408461b1aaf56d344ac610b579f400daae.mjb": "994b1c63b621cb5a14bb6f765131c7408461b1aaf56d344ac610b579f400daae",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/990fc1d053b0c5fd7ae8d97b17639a5c0dfcbf5f06107d51b02d997cd1b48a76.npy": "990fc1d053b0c5fd7ae8d97b17639a5c0dfcbf5f06107d51b02d997cd1b48a76",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Peaches-7a8cdecf40-x_plus10mm-08552500.npz": "58283acf58788fdd2ba343d2e0c749aaa111baa7c1c110b2a737aa61c427a775",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Peaches-7a8cdecf40-x_plus10mm-08552500.npz": "2f4186bd7d0bbe9c07fb74be4d4835f3fb32264bd6ed3800024d8fe771ec2d17",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Peaches-7a8cdecf40-x_plus20mm-06c2f29a.npz": "7b5aa96b2652ed01f81cedc6ae8cf78d37f943ee70cf8a03f7920b5e060d7cd5",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Peaches-7a8cdecf40-x_plus20mm-06c2f29a.npz": "49e6e5c68346de798b1d6a1cf174faefab77c8c361b692b298fdd8cf7da96e79",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/88ceafa80e04dae8e77dd102ad0516c55e3dd088c106baf1f290e6041382d788.mjb": "88ceafa80e04dae8e77dd102ad0516c55e3dd088c106baf1f290e6041382d788",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/b714a690facdc4b5b0c83819cccce8d22699b9dca9a52b620643cb0ab0ccf0fd.npy": "b714a690facdc4b5b0c83819cccce8d22699b9dca9a52b620643cb0ab0ccf0fd",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Peaches-7a8cdecf40-y_minus10mm-d695819f.npz": "353e012e75bfa14c05c7686847a044c1ccb46461134bb4631f281341d0d2d685",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Peaches-7a8cdecf40-y_minus10mm-d695819f.npz": "a1f642b73e8f1f3108ca3671dee14bed39b6dc4d2201697b1b960be86fa55797",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/7bd5260a476fa363d3d8a3a6f44b0feed914948fbd5fdaa8e1d79bfa91431dd3.mjb": "7bd5260a476fa363d3d8a3a6f44b0feed914948fbd5fdaa8e1d79bfa91431dd3",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/8516f20f7f6bdd6fb52d747173ecffe9feae475877bc5d714938dd7ca3d74e2a.npy": "8516f20f7f6bdd6fb52d747173ecffe9feae475877bc5d714938dd7ca3d74e2a",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Peaches-7a8cdecf40-y_minus20mm-8d63d0af.npz": "7a7644047bf7ec2a467cd93497c2d1604146714a01b2a705fbbc8269e56c40b4",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Peaches-7a8cdecf40-y_minus20mm-8d63d0af.npz": "ef044b133fd3ad5be1ed35bbbdf5ad57bb7843e097828b9658de6150711910e3",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/64348bbc08a6dd4b53398387165f397bf8f4451475354750f00f192e389cfc54.mjb": "64348bbc08a6dd4b53398387165f397bf8f4451475354750f00f192e389cfc54",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/e3981c745f70e07031cdc064971d7596f9c6cae7e77e9511146541d229d6cbc7.npy": "e3981c745f70e07031cdc064971d7596f9c6cae7e77e9511146541d229d6cbc7",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Peaches-7a8cdecf40-y_plus10mm-f0ca6700.npz": "38b191de5d8da0447d5313a57b4c176f171e9269a29fe1d7bfaab04e42120266",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Peaches-7a8cdecf40-y_plus10mm-f0ca6700.npz": "7ed14cba5377a66357ca762f0525587ec133ae777377a4326379ecc02cbe4ee6",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/300a607d3259ef02b72131d4492b895c5b9fa36c0ff9aceaa45b678701cd5482.mjb": "300a607d3259ef02b72131d4492b895c5b9fa36c0ff9aceaa45b678701cd5482",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/e29341796dc2f0dc7ed12f0c7223491da7d574b678f20ff664a23b86a6098ea4.npy": "e29341796dc2f0dc7ed12f0c7223491da7d574b678f20ff664a23b86a6098ea4",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Peaches-7a8cdecf40-y_plus20mm-51353162.npz": "ec35c93f68587cac4f18fdce1c5d29a80b66e6e7ecaf8dafa318983f18ab0561",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Peaches-7a8cdecf40-y_plus20mm-51353162.npz": "74b170d98f3ebbcb8ca29b4ee17c3c5270cc2f2d042ab0aae8090d8c14d19d4c",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/ffb682a88899bfe60d5e5116df897e6aec969a575f96bbf5d44e8efcb4d0a61d.mjb": "ffb682a88899bfe60d5e5116df897e6aec969a575f96bbf5d44e8efcb4d0a61d",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/7385ecff12acba64efecef06530a71a68d03967717b494e726d6561016fd642d.npy": "7385ecff12acba64efecef06530a71a68d03967717b494e726d6561016fd642d",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Peaches-7a8cdecf40-yaw_minus7_5-0758704d.npz": "8220eba9a31867b877bef682a4d7a223173a58a6da5f32b1e167b3774ee5c092",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Peaches-7a8cdecf40-yaw_minus7_5-0758704d.npz": "fb00a02fb36616f5c9f6fac9325b25581fe2d6bfba36479ce828cfc0eeb78658",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/05a486421cb3cd43d606495cdcb56a842bbd373e0b41dfd4885cce38d49db3f7.mjb": "05a486421cb3cd43d606495cdcb56a842bbd373e0b41dfd4885cce38d49db3f7",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/1ef5ac4c7c2a9d4eb9a46798e3849eba501c7b69c65e861d4a5325168167948f.npy": "1ef5ac4c7c2a9d4eb9a46798e3849eba501c7b69c65e861d4a5325168167948f",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Peaches-7a8cdecf40-yaw_plus15-80e872f6.npz": "92d5a90c5edad1195b5280c47c8100e955f494f9e7ea9791300b331b98fe9052",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Peaches-7a8cdecf40-yaw_plus15-80e872f6.npz": "db4c967cee3631159286bcba6c5e5bc40d8f095722664074d806cf88d58a6a69",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/f665bc314c5002964664c9ab69e2f49f4926fc08807a1398aa5aad8bbae8be50.mjb": "f665bc314c5002964664c9ab69e2f49f4926fc08807a1398aa5aad8bbae8be50",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/bfb6088040361134d32701625c571f1f024bdb3e87a8e215558707f1010b9ef1.npy": "bfb6088040361134d32701625c571f1f024bdb3e87a8e215558707f1010b9ef1",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Peaches-7a8cdecf40-yaw_plus7_5-958c156e.npz": "654cb7d72bfe53c9e7a73c3f05258f4a039c5eeb2af5df46934552cc2173604d",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Peaches-7a8cdecf40-yaw_plus7_5-958c156e.npz": "adfca5430afe3328bc3087d350b99dc44a9c2381cf1a48ea6284910bfdd6535e",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/89121bacba2e3304d7b1e631795789cc98a79c4b00a1612687398f57e2d3e101.mjb": "89121bacba2e3304d7b1e631795789cc98a79c4b00a1612687398f57e2d3e101",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/96713c98c9b3c533a6cdeb05dedfc0910fcfe9b9adfcab9cf2735b8e7591aebf.npy": "96713c98c9b3c533a6cdeb05dedfc0910fcfe9b9adfcab9cf2735b8e7591aebf",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-0ddf3447c0-centre-fe233e9e.npz": "e92e28a4c3a179801a973c99812f4ffa2869dc920a7e6bd5711abec0781e5158",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-0ddf3447c0-centre-fe233e9e.npz": "51482a8e02ba8496d8673f38378fbc489f33fec923f672d8c32d98730884e54b",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/29a7b213ed2bf9b22d6e4862429cd349c2d62f9d66e81883605c04dccf89298c.mjb": "29a7b213ed2bf9b22d6e4862429cd349c2d62f9d66e81883605c04dccf89298c",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/c1f61a51c373913056129596834258d0fd4b34d79780095a7dba5beae7912964.npy": "c1f61a51c373913056129596834258d0fd4b34d79780095a7dba5beae7912964",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-0ddf3447c0-yaw_plus15-4089eeb6.npz": "a5d6cd0a11faeb1b3acbff31adb7f47a51fa6dd5cd02ef614c33284423a3508a",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-0ddf3447c0-yaw_plus15-4089eeb6.npz": "ff10c06beddeaa5afb82445d5c3c98db0ff49dfc24075363b0489df3eacfae32",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-3e8fa79936-centre-0c6b54be.npz": "cdd444b9433e2396eae49177c19451462937ec928252a8671f0300ca858c5157",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-3e8fa79936-centre-0c6b54be.npz": "35f2a691b730d1ff80dd70bd170c1caa9f6da6753f478de21bbb50d77229bb62",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/9057cd4a7e6a2a2b9da9f6fea34acbef51d41354c9749a2d6086667b611004e8.mjb": "9057cd4a7e6a2a2b9da9f6fea34acbef51d41354c9749a2d6086667b611004e8",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/b35f3898d9a67aa3aae27391be63e00570e4d189fd994d68baf05058c616e77f.npy": "b35f3898d9a67aa3aae27391be63e00570e4d189fd994d68baf05058c616e77f",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-3e8fa79936-x_minus10mm-d55713a9.npz": "ccc82e4ca5263d5490233b685a691c95c686f071b338a328d4521824d4577c53",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-3e8fa79936-x_minus10mm-d55713a9.npz": "0a3868c85783825524ef6c7a6fc2b5e2900e8ff9ffa2331e5fce76b73cf94b29",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/8af27f56f3c66fdc9011654529bd2a208187a0f0571b4a3e0334ddf01868b2a7.mjb": "8af27f56f3c66fdc9011654529bd2a208187a0f0571b4a3e0334ddf01868b2a7",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/86ea71e642cc78677f4ba9dc577c333d4eedd41b898e48fc4708993781ad81ec.npy": "86ea71e642cc78677f4ba9dc577c333d4eedd41b898e48fc4708993781ad81ec",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-3e8fa79936-x_plus10mm-ca6d8c9f.npz": "c66f71d6d15a9741ccbcb4358cb52795c14c8f0a56b818eba890bd95494b80ad",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-3e8fa79936-x_plus10mm-ca6d8c9f.npz": "6a4d7f606ac0409e63675eefe06cff26cfcd7c3b1d0439f5b8eb60debf8ca0f3",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/6bd7f5eaf915e19fa8ecf2aaf97d549c2f850f13d9e39ac543435215ac1fa8b9.mjb": "6bd7f5eaf915e19fa8ecf2aaf97d549c2f850f13d9e39ac543435215ac1fa8b9",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/aab35c65845613b320bb409f397fbab988231b33e1ffc0eb36dd91b7831cb70c.npy": "aab35c65845613b320bb409f397fbab988231b33e1ffc0eb36dd91b7831cb70c",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-3e8fa79936-x_plus20mm-4500d25c.npz": "9aa7a3130e29a02627e7c3cb851fb3bc4eec24ed9890ed4ba784350920c43455",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-3e8fa79936-x_plus20mm-4500d25c.npz": "2de48939a3c8b4cf58fbd1acd8ccb06c49fe25a591142bb8553512f0b45fcf04",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/132fc7eb55f1abcfda034ae72e43a9eb3e77e26a85858b8df19c595a598898b8.mjb": "132fc7eb55f1abcfda034ae72e43a9eb3e77e26a85858b8df19c595a598898b8",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/cc044e73957e8da87574ca2d74e5568f7708a4e4eb79b465558bd4b1e872a67a.npy": "cc044e73957e8da87574ca2d74e5568f7708a4e4eb79b465558bd4b1e872a67a",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-3e8fa79936-y_minus10mm-6d20b0b7.npz": "fb01a159d9489e0faf024173ed95307477e8586621a9d3ab5faa1c2a811f8ced",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-3e8fa79936-y_minus10mm-6d20b0b7.npz": "24dd8dd63d1a511e27fea361c3420dd06ee7781cb4ce7fadfcf739849ca213ac",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/c059a4baaa3bcb206389d60f8f864624413b58e963f7f30b1686224fcf193bc9.mjb": "c059a4baaa3bcb206389d60f8f864624413b58e963f7f30b1686224fcf193bc9",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/ec649be7940e887f59464ce4f3ce18853781924fdd4c98a1470ab5a8d7fd98f2.npy": "ec649be7940e887f59464ce4f3ce18853781924fdd4c98a1470ab5a8d7fd98f2",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-3e8fa79936-y_minus20mm-19f6f1cb.npz": "b91e43bf5aee681d547d5607e9a26260c704cfb0d7660ac57c0387d9079a3137",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-3e8fa79936-y_minus20mm-19f6f1cb.npz": "9256d3ed456335f3aac84724a7a06998bdaa0ac4653c4df0aa783508c0c59a3e",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/92421909a034a4053f58a69e5cf8abab2fe3723b21805997553cd9bbefd7bfd8.mjb": "92421909a034a4053f58a69e5cf8abab2fe3723b21805997553cd9bbefd7bfd8",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/9fc598e7b4c6476341c7906349f81ed2465f79aea8157435fd98f0079906f0c4.npy": "9fc598e7b4c6476341c7906349f81ed2465f79aea8157435fd98f0079906f0c4",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-3e8fa79936-y_plus10mm-9d3b91f9.npz": "72188c12a8783014fe2e8c8998d86562d8034a54376f7484518808fc0eaa9e13",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-3e8fa79936-y_plus10mm-9d3b91f9.npz": "f7908c0683d2cbbe76609774567bb4832d8adc22493396011cdcaba7cb893d08",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/44207bfd1fafc5f07d4d3430f043af68ccaa313d898aedb8068e4ab1a9add05b.mjb": "44207bfd1fafc5f07d4d3430f043af68ccaa313d898aedb8068e4ab1a9add05b",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/05d0b096b7b00f04c28188b4013381e24c9e7a5e025172815b41a467f4952763.npy": "05d0b096b7b00f04c28188b4013381e24c9e7a5e025172815b41a467f4952763",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-3e8fa79936-y_plus20mm-6da9697f.npz": "1be23660bb380331dd08c3a045876c2dd73c48021b198f31014cbff3122cd3a4",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-3e8fa79936-y_plus20mm-6da9697f.npz": "6f8f6b62819bcb712da894b2605b915b494b8dabbd5f834005e4b58907ff8d51",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-3e8fa79936-yaw_plus15-06354bdd.npz": "9e48c895f781b58865b1ba445d626ebed10cd18822eb8c10bfbab840f90c8194",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-3e8fa79936-yaw_plus15-06354bdd.npz": "6a001826c755ec126ba53d97d439ca04049f4961eb6314fc23f34a806e0de918",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/f0eba1579f40d015693c2ebbad6d00f45c7685ddc024c6f61e516445ca5ad438.mjb": "f0eba1579f40d015693c2ebbad6d00f45c7685ddc024c6f61e516445ca5ad438",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/45ac2d22b3388fcaf7c8d8d3b626cff3e252cddcb6383d0f885b85b3ad231203.npy": "45ac2d22b3388fcaf7c8d8d3b626cff3e252cddcb6383d0f885b85b3ad231203",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-3e8fa79936-yaw_plus7_5-1c855952.npz": "a44f02d2450cd214d9842fca709c9a2a99b12e97104393fc20408334db57f213",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-3e8fa79936-yaw_plus7_5-1c855952.npz": "ff0161e4162e1c89e70c0966a9e6e2d8bd57e28896c068f639dd657cb6e7546b",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-438146b501-centre-66854882.npz": "ca71614671925e7c97928fbfc8bdb980f85c3857d5c1adcced2a89c08c2142da",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-438146b501-centre-66854882.npz": "ef2619d57450cbcad21385c3c932dad51c5bcb0a73137ea7456c59491a734a2e",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-5ce67ebebc-centre-21dfd8cd.npz": "a721ce6cec7319696858beaace36135ed587248165b4775a08d6dab10c7adc33",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-5ce67ebebc-centre-21dfd8cd.npz": "a7196484375fa6fcec6b47dd30bf361a693c2489c54bee49f341a64501d6c9c4",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-61abcb552d-centre-1439167a.npz": "56487b742d00c77b2a6aeae83a705ebdd10fc6b10483902860e45353f0edc671",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-61abcb552d-centre-1439167a.npz": "ab5bfa0d95b4053fa0ac677d49dd8153e479b1ece4125c17172c3213e660317c",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-6e4f0004b3-centre-2d03cc8e.npz": "4ccf1c222b5e6d06194fd1996d760bc8b61fdbcc8527649ce75ba816818e8b6a",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-6e4f0004b3-centre-2d03cc8e.npz": "3b733ef35a1e829e7217bfadaa72e2f285da4b932594d4ebcded457e56ed84c2",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-6f9d5db293-centre-21f9dd74.npz": "81956d186a352513ec13836e1f048a6f055e19d818689b6f77f51d7c7ab983a0",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-6f9d5db293-centre-21f9dd74.npz": "11b982a6f0ddbc9d095bef2cbe838dd5001928c4404e5ae18f85dd787aa1cd07",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-7eede966f9-centre-9f474932.npz": "2124517609191307c69bc1f0a418a9fd1c3ff8ec171379f2ed8c0fe1082efee5",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-7eede966f9-centre-9f474932.npz": "1a28ca432cd5556f1134ce57cb2bf75aa3f87d0f738e56f63d014f36ea827f29",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-81839469d4-centre-bc0fa693.npz": "8b8375e9e7d664cddf765a0622d959d844d2533e62b855d71dfa0b4ea8fb45c8",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-81839469d4-centre-bc0fa693.npz": "fa042442a1e0a8a705651d76d51f790941c42a1153b31d67c2c2df534248ca34",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-852eaf0fdf-centre-931653bf.npz": "d3e4b2d4acc81f70742110993625d17c4327d6bd85ac2a3c3bd1e6f41adae0a8",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-852eaf0fdf-centre-931653bf.npz": "dc4e63095ff94a7c6b91aeac08b8a26bdebf5cd5e1e61931c06c374747416593",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-998fcd28f3-centre-dd328e6c.npz": "cd9692dffd7859fb3cf88864e951ef692690ab444f961af2e23c3680a051268f",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-998fcd28f3-centre-dd328e6c.npz": "dba8ba8314d1844970ef288f5cc589cde2145a68fd3661c874e8e8a493d43ab4",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-a0a0731a28-centre-8c08172a.npz": "ba3570b33dd83fd49e87f06f1a653dba518f89cd5e3b6673eaf75cbe203f5c7a",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-a0a0731a28-centre-8c08172a.npz": "4eb0079ca9b1e88dd74683de7abdcdeed3654efcf59e2437619ed3f498aab388",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-af15fdf0bc-centre-0ef25c7b.npz": "0031f93ffef6ff01274b09f7383fd1906896ede9f3b2eda85d6e6c674e7db5c3",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-af15fdf0bc-centre-0ef25c7b.npz": "757f3bff306369427f7895af9f2275fe4de34e6d19c3ed0e64aee791fb3052f3",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-af15fdf0bc-x_minus10mm-29035397.npz": "cc22abda5482db9657997aefda1446888af85d1e91b048430342bf62e6cca66b",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-af15fdf0bc-x_minus10mm-29035397.npz": "2965d30bafa8899c03982689dc97670055ccf4844d223afe477f253a869a3674",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/cbf548ef0dfa473969062122574f59d8df5c429b878889624530fc96e3d8e207.mjb": "cbf548ef0dfa473969062122574f59d8df5c429b878889624530fc96e3d8e207",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/68265ee42afc05c5abd41224359d5c2d157c6bfcbead829e2bd8bcf32bdfca13.npy": "68265ee42afc05c5abd41224359d5c2d157c6bfcbead829e2bd8bcf32bdfca13",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-af15fdf0bc-x_minus20mm-49865f79.npz": "7b4290d19e9ad63a217e8612deeb58f61eec84a5505546beb5eea17538c705bb",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-af15fdf0bc-x_minus20mm-49865f79.npz": "643accda42c99d4aa72c5f9ca54f917fa8caa50a120496aee2f9cc8c31829d9d",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-af15fdf0bc-x_plus10mm-3d23613b.npz": "fa390ce3424620abc51e64f6561528d990f2e328a5443bb8b8e64872f377cf30",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-af15fdf0bc-x_plus10mm-3d23613b.npz": "577ac5cbc24a14d872a33ebe9fae7b31a57712aef20e6fd78dbe27b0eb0ef03f",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-af15fdf0bc-x_plus20mm-de330ba8.npz": "ada96b4ec4f1e84252cd3f3bcff99e5a69b9f8e89f5e36a951d37d1c78888ca8",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-af15fdf0bc-x_plus20mm-de330ba8.npz": "fe91f7c90823418a7ed9804060389794d47c8a6ce343d5919ad5b98b41a0df6d",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-af15fdf0bc-y_minus10mm-d3a3469b.npz": "81c121636672a1cbbb75673f5f88df9f4bce36f67bcb9504967bc7207743b3d8",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-af15fdf0bc-y_minus10mm-d3a3469b.npz": "c4e1984fe49e9197a7a9f59309734bb2e4023fbecfbf84db9964d492e3d64790",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-af15fdf0bc-y_minus20mm-da09c322.npz": "cbf6d4efeffb54d79a2b9aa747b2bc80907df4112e9cbda5640becd2804b1d80",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-af15fdf0bc-y_minus20mm-da09c322.npz": "ae2be4c74c4abd399e18def4726d12c9b760c7d2f300064ea1d3debe9d3f505d",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-af15fdf0bc-y_plus10mm-cc20c672.npz": "8e3405032b0e0a15d299aa8794038d4b77af9462fbc4054e09c30c1c90bc7041",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-af15fdf0bc-y_plus10mm-cc20c672.npz": "60933aa4ead14e57dcbc6fd41d1eb283733d3a42d15eff8263e98c6aa04c4170",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-af15fdf0bc-y_plus20mm-f2542680.npz": "6bf0933636406ebace9e93b6b9dcc976d507390969ee4d8254adbd0b7316929d",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-af15fdf0bc-y_plus20mm-f2542680.npz": "036ff08337b743d8bbf21f4fa70818adb8e9b86ffb5b214b0bd6019371ef5132",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/models/58d88f9b7f76021a32baccfa4aa9c6c6bc41dd1658a9ac9784e5aca521b5f9de.mjb": "58d88f9b7f76021a32baccfa4aa9c6c6bc41dd1658a9ac9784e5aca521b5f9de",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/initial/2bacf2461f87071b1b65bb42771197dddd4088f132028a20d98b714ce29f8588.npy": "2bacf2461f87071b1b65bb42771197dddd4088f132028a20d98b714ce29f8588",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-af15fdf0bc-yaw_minus7_5-6e1f2866.npz": "30c8380ac8e219c98cad3c0b89be79689f83e651db530a5a29f540737f4ec84c",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-af15fdf0bc-yaw_minus7_5-6e1f2866.npz": "fa5d3735165d78e068c9a3c0b4e12a4bed6ba9718529628db86ae9421c69fa43",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-af15fdf0bc-yaw_plus15-0344169f.npz": "6edb07a2ef8d91beb008fcf7759805c25802dd5af197d4c3f63f29eb797b3e7f",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-af15fdf0bc-yaw_plus15-0344169f.npz": "ae0a5c67364155d2d1c1b952626fea7fe8fbe0f463d94f8d8325abdbcc5db2e1",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-af15fdf0bc-yaw_plus7_5-0981d09f.npz": "3b1e30fd0d4eb536eefb196ddba6e2abd7af2d86a5815d23cad08e3cf2cf72ce",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-af15fdf0bc-yaw_plus7_5-0981d09f.npz": "e9650c7ea76a7f7a4093b5dc94db7981a843b677f890a3d4d3bb5e6968e0fdf1",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-c9c6e48559-centre-94727bc4.npz": "9dc29ace6b7a004e2cf23ed225ff812d531fef95797d68280431f31f5584d399",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-c9c6e48559-centre-94727bc4.npz": "f0e0e98e29c6262654391f56bd477f03dfc08bbdbc2e074b1dce44d015d5e33f",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-e8e6ad7c0f-centre-a2ad7e6c.npz": "e22db143076d0dba5a033e5a10cbe4f61afe6118e62f8228a71e6361572fe7da",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-e8e6ad7c0f-centre-a2ad7e6c.npz": "57c2eb929ffbfe9b06093d69a032af70ac41e4d1f82bfd4a0bc5351211f5c042",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-ec7552bd5f-centre-0afe70ee.npz": "42bdd44aa5dfb6555b5278cd814641878787f86f4a782b349e0861c0bd51d8ad",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-ec7552bd5f-centre-0afe70ee.npz": "f561b09c9d4c6c34b13a48235e20af0dfba58208c83eff028475ae6959ae452e",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/package/arrays/Raisins-ecd47d7b0a-centre-ed85bcc1.npz": "7504e246629627eb33e732b3c1f7bee3ae05dc7272e05ff3287efcfc5c8dae2e",
+    "/data1/yspark/projects/dexprompt/stage1-goal-bc-v1/runs/replay-all/augment/Raisins-ecd47d7b0a-centre-ed85bcc1.npz": "15876bcd6f8c3624ccafbea4957e0045d31b425916d67cfdabc3d7455913ac9f"
+  }
+}

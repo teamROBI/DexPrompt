@@ -1,0 +1,44 @@
+{
+  "scope": "initial observation arrays only; full reset/condition/outcome-contract equivalence still to audit",
+  "bottle_initial_observations": [
+    {
+      "episode": "source0_teacher_0002_yaw_000",
+      "initial_arrays_equal": {
+        "rgbm": true,
+        "right_cam_img": true,
+        "right_state": true,
+        "part_mask": true,
+        "wrist_mask": true,
+        "wrist_part_mask": true,
+        "target_pixels": true,
+        "target_visible": true
+      }
+    },
+    {
+      "episode": "source0_teacher_0006_yaw_000",
+      "initial_arrays_equal": {
+        "rgbm": true,
+        "right_cam_img": true,
+        "right_state": true,
+        "part_mask": true,
+        "wrist_mask": true,
+        "wrist_part_mask": true,
+        "target_pixels": true,
+        "target_visible": true
+      }
+    },
+    {
+      "episode": "source0_teacher_0016_yaw_000",
+      "initial_arrays_equal": {
+        "rgbm": true,
+        "right_cam_img": true,
+        "right_state": true,
+        "part_mask": true,
+        "wrist_mask": true,
+        "wrist_part_mask": true,
+        "target_pixels": true,
+        "target_visible": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+[
+  {
+    "path": "scripts/teacher/collect_clutter.py",
+    "status": "module_only",
+    "reason": "not an argparse CLI"
+  },
+  {
+    "path": "scripts/diagnostics/followup_final_report.py",
+    "status": "module_only",
+    "reason": "not an argparse CLI"
+  },
+  {
+    "path": "scripts/teacher/align_grasps.py",
+    "old": "scripts/align_grasps.py",
+    "exit_code": 0,
+    "status": "passed",
+    "seconds": 8.96,
+    "stderr": "Warp CUDA error 100: no CUDA-capable device is detected (in function init_cuda_driver, /builds/omniverse/warp/warp/native/cuda_util.cpp:266)\nWarp CUDA error 3: initialization error (in function cuda_device_get_count, /builds/omniverse/warp/warp/native/warp.cu:1763)\n/home/yspark/.config/matplotlib is not a writable directory\nMatplotlib created a temporary cache directory at /tmp/matplotlib-ej0_cydi because there was an issue with the default path (/home/yspark/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.\n"
+  },
+  {
+    "path": "scripts/teacher/build_expansion_manifest.py",
+    "old": "scripts/build_expansion_manifest.py",
+    "exit_code": 0,
+    "status": "passed",
+    "seconds": 0.11,
+    "stderr": ""
+  },
+  {
+    "path": "scripts/teacher/calibrate_gripper.py",
+    "old": "scripts/calibrate_gripper.py",
+    "exit_code": 0,
+    "status": "passed",
+    "seconds": 0.29,
+    "stderr": ""
+  },
+  {
+    "path": "scripts/teacher/collect_episodes.py",
+    "old": "scripts/collect_episodes.py",
+    "exit_code": 0,
+    "status": "passed",
+    "seconds": 0.18,
+    "stderr": ""
+  },
+  {
+    "path": "scripts/teacher/collect_teacher_dataset.py",
+    "old": "scripts/collect_teacher_dataset.py",
+    "exit_code": 0,
+    "status": "passed",
+    "seconds": 0.17,
+    "stderr": ""
+  },
+  {
+    "path": "scripts/teacher/filter_grasps.py",
+    "old": "scripts/filter_grasps.py",
+    "exit_code": 0,
+    "status": "passed",
+    "seconds": 0.54,
+    "stderr": ""
+  },
+  {
+    "path": "scripts/teacher/observe_scene.py",
+    "old": "scripts/observe_scene.py",
+    "exit_code": 0,
+    "status": "passed",
+    "seconds": 0.39,
+    "stderr": ""
+  },
+  {
+    "path": "scripts/teacher/predict_grasps.py",
+    "old": "scripts/predict_grasps.py",
+    "exit_code": 0,
+    "status": "passed",
+    "seconds": 10.85,
+    "stderr": "No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'\n/home/yspark/projects/GraspGenX/graspgenx/models/pointnet/pointnet2_utils.py:23: UserWarning: Unable to load pointnet2_ops cpp extension. JIT Compiling.\n  warnings.warn(\"Unable to load pointnet2_ops cpp extension. JIT Compiling.\")\n/home/yspark/projects/GraspGenX/graspgenx/models/pointnet/pointnet2_utils.py:40: UserWarning: Unable to import PointNet++ backbone (pointnet2_ops). PointNet++ models will not be available. Other backbones (e.g. WarpConvNet) are unaffected.\n  warnings.warn(\n"
+  },
+  {
+    "path": "scripts/teacher/grasp_selector.py",
+    "old": "scripts/grasp_selector.py",
+    "exit_code": 0,
+    "status": "passed",
+    "seconds": 0.28,
+    "stderr": ""
+  },
+  {
+    "path": "scripts/data/build_stage1_bc_handoff.py",
+    "old": "scripts/build_stage1_bc_handoff.py",
+    "exit_code": 0,
+    "status": "passed",
+    "seconds": 0.24,
+    "stderr": ""
+  },
+  {
+    "path": "scripts/data/intake_hope_diversity.py",
+    "old": "scripts/intake_hope_diversity.py",
+    "exit_code": 0,
+    "status": "passed",
+    "seconds": 0.12,
+    "stderr": ""
+  },
+  {
+    "path": "scripts/data/prepare_followup_intake.py",
+    "old": "scripts/prepare_followup_intake.py",
+    "exit_code": 0,
+    "status": "passed",
+    "seconds": 0.13,
+    "stderr": ""
+  },
+  {
+    "path": "scripts/data/prepare_visual_dataset.py",
+    "old": "scripts/prepare_visual_dataset.py",
+    "exit_code": 0,
+    "status": "passed",
+    "seconds": 0.3,
+    "stderr": ""
+  },
+  {
+    "path": "scripts/assets/build_object_assets.py",
+    "old": "scripts/build_object_assets.py",
+    "exit_code": 0,
+    "status": "passed",
+    "seconds": 0.16,
+    "stderr": ""
+  },
+  {
+    "path": "scripts/assets/scene_setup_gui.py",
+    "old": "scripts/scene_setup_gui.py",
+    "exit_code": 0,
+    "status": "passed",
+    "seconds": 1.22,
+    "stderr": ""
+  },
+  {
+    "path": "scripts/diagnostics/audit_mask_visibility.py",
+    "old": "scripts/audit_mask_visibility.py",
+    "exit_code": 0,
+    "status": "passed",
+    "seconds": 0.52,
+    "stderr": ""
+  },
+  {
+    "path": "scripts/diagnostics/audit_visual_intake.py",
+    "old": "scripts/audit_visual_intake.py",
+    "exit_code": 0,
+    "status": "passed",
+    "seconds": 3.65,
+    "stderr": ""
+  },
+  {
+    "path": "scripts/diagnostics/check_followup_placements.py",
+    "old": "scripts/check_followup_placements.py",
+    "exit_code": 0,
+    "status": "passed",
+    "seconds": 0.33,
+    "stderr": ""
+  },
+  {
+    "path": "scripts/diagnostics/check_hope_pilot.py",
+    "old": "scripts/check_hope_pilot.py",
+    "exit_code": 0,
+    "status": "passed",
+    "seconds": 1.78,
+    "stderr": ""
+  },
+  {
+    "path": "scripts/diagnostics/check_placement.py",
+    "old": "scripts/check_placement.py",
+    "exit_code": 0,
+    "status": "passed",
+    "seconds": 0.16,
+    "stderr": ""
+  },
+  {
+    "path": "scripts/diagnostics/report_hope_student_readiness.py",
+    "old": "scripts/report_hope_student_readiness.py",
+    "exit_code": 0,
+    "status": "passed",
+    "seconds": 0.05,
+    "stderr": ""
+  },
+  {
+    "path": "scripts/experiments/prepare_hope_pilot.py",
+    "old": "scripts/prepare_hope_pilot.py",
+    "exit_code": 0,
+    "status": "passed",
+    "seconds": 0.06,
+    "stderr": ""
+  },
+  {
+    "path": "scripts/experiments/run_hope_pilot.py",
+    "old": "scripts/run_hope_pilot.py",
+    "exit_code": 0,
+    "status": "passed",
+    "seconds": 0.08,
+    "stderr": ""
+  },
+  {
+    "path": "scripts/experiments/run_target_switch.py",
+    "old": "scripts/run_target_switch.py",
+    "exit_code": 0,
+    "status": "passed",
+    "seconds": 0.18,
+    "stderr": ""
+  },
+  {
+    "path": "scripts/experiments/run_teacher_followup_5h.py",
+    "old": "scripts/run_teacher_followup_5h.py",
+    "exit_code": 0,
+    "status": "passed",
+    "seconds": 0.19,
+    "stderr": ""
+  },
+  {
+    "path": "scripts/student/evaluate_student_suite.py",
+    "old": "scripts/evaluate_student_suite.py",
+    "exit_code": 0,
+    "status": "passed",
+    "seconds": 0.18,
+    "stderr": ""
+  },
+  {
+    "path": "scripts/student/replay_hx5_student.py",
+    "old": "scripts/replay_hx5_student.py",
+    "exit_code": 0,
+    "status": "passed",
+    "seconds": 0.16,
+    "stderr": ""
+  },
+  {
+    "path": "scripts/student/train_hx5_student.py",
+    "old": "scripts/train_hx5_student.py",
+    "exit_code": 0,
+    "status": "passed",
+    "seconds": 0.07,
+    "stderr": ""
+  },
+  {
+    "path": "scripts/ops/watch_visual_intake.py",
+    "old": "scripts/watch_visual_intake.py",
+    "exit_code": 0,
+    "status": "passed",
+    "seconds": 0.07,
+    "stderr": ""
+  }
+]

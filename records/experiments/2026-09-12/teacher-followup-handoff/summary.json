@@ -1,0 +1,40 @@
+{
+ "follow_up_demonstrations": 49,
+ "teacher_accepted": 49,
+ "reproduced_identically": 49,
+ "reproductions_counted_as_demonstrations": 0,
+ "duplicate_classes": {
+  "exact_duplicate": 5,
+  "same_key_different_record": 0,
+  "new": 44
+ },
+ "all_links_ok": 49,
+ "issues": 0,
+ "earlier_handed_off_episodes": 17,
+ "earlier_reproduced_identically": 17,
+ "unique_before_reproduced": {
+  "episodes": 17,
+  "candidates": 7,
+  "objects": 4,
+  "object_placements": 12,
+  "object_candidate_placements": 17
+ },
+ "unique_after_reproduced": {
+  "episodes": 61,
+  "candidates": 10,
+  "objects": 4,
+  "object_placements": 40,
+  "object_candidate_placements": 61
+ },
+ "net_increase": {
+  "episodes": 44,
+  "candidates": 3,
+  "objects": 0,
+  "object_placements": 28,
+  "object_candidate_placements": 44
+ },
+ "placement_runs": 72,
+ "placement_accepted": 49,
+ "student_ready": false,
+ "selection_note": "the six candidates were chosen by a fixed rule on recorded centre quality margins among candidates already accepted at the centre -- not by the learned selector; this is a placement evaluation of centre-successful candidates, one factor at a time, three shapes"
+}

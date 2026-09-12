@@ -1,0 +1,74 @@
+{
+  "rule": "one central episode per object, highest existing quality margin among guard-compliant records; ties by episode SHA",
+  "source_sha256": "407fb63e5bedec0923a9a38d68117929525a73b68512e07f977c7667e7e9cf39",
+  "decisions": [
+    {
+      "object": "AlphabetSoup",
+      "episode": "2ad2b2647274105e2ed08a4cb96b39986a798c073ff52ba8de287567d0a031a4",
+      "margin": 0.21581858298423895,
+      "guard": {
+        "success": false,
+        "ticks": 1192,
+        "failure": "approach_displacement",
+        "contact_acquisition_tick": 712,
+        "terminal_hold_seconds": 1.0,
+        "longest_hold_seconds": 1.0,
+        "max_height_m": 0.11811717557293466,
+        "max_penetration_m": 0.0015683628340315222,
+        "max_digit_force_n": 14.720461215146672,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "object": "AlphabetSoup",
+      "episode": "409a5d4a75d5d3052e44c5b644feaafb5fb728fee919faa5df08b59cc34a130c",
+      "margin": 0.06646836336716233,
+      "guard": {
+        "success": true,
+        "ticks": 1024,
+        "failure": null,
+        "contact_acquisition_tick": 631,
+        "terminal_hold_seconds": 2.48,
+        "longest_hold_seconds": 2.48,
+        "max_height_m": 0.1451532308325375,
+        "max_penetration_m": 0.0018226167277979875,
+        "max_digit_force_n": 28.00594909898513,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "object": "Peaches",
+      "episode": "9aa6657866eb216f2b5495b771f5c1052b4eaa0f6c2014a19b6e65b307543960",
+      "margin": 0.05641950750294866,
+      "guard": {
+        "success": true,
+        "ticks": 1047,
+        "failure": null,
+        "contact_acquisition_tick": 697,
+        "terminal_hold_seconds": 2.72,
+        "longest_hold_seconds": 2.72,
+        "max_height_m": 0.14460558116941102,
+        "max_penetration_m": 0.0018871609849941027,
+        "max_digit_force_n": 16.763981894029982,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "object": "Raisins",
+      "episode": "0ef25c7b5eea2108f9498bdef939885bf311fe7fe75d586f9e7f2995ae742ee5",
+      "margin": 0.3316574839745634,
+      "guard": {
+        "success": true,
+        "ticks": 1018,
+        "failure": null,
+        "contact_acquisition_tick": 664,
+        "terminal_hold_seconds": 2.62,
+        "longest_hold_seconds": 2.62,
+        "max_height_m": 0.1422339317987794,
+        "max_penetration_m": 0.0013366850320508732,
+        "max_digit_force_n": 10.952599948889382,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    }
+  ]
+}

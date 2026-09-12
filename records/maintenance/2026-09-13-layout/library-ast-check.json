@@ -1,0 +1,137 @@
+[
+  {
+    "old": "src/icra/arm.py",
+    "new": "src/icra/robots/arm.py",
+    "same_non_import_ast": true
+  },
+  {
+    "old": "src/icra/hand.py",
+    "new": "src/icra/robots/hand.py",
+    "same_non_import_ast": true
+  },
+  {
+    "old": "src/icra/scene.py",
+    "new": "src/icra/sim/scene.py",
+    "same_non_import_ast": true
+  },
+  {
+    "old": "src/icra/simulation.py",
+    "new": "src/icra/sim/simulation.py",
+    "same_non_import_ast": true
+  },
+  {
+    "old": "src/icra/objects.py",
+    "new": "src/icra/sim/objects.py",
+    "same_non_import_ast": true
+  },
+  {
+    "old": "src/icra/placement.py",
+    "new": "src/icra/sim/placement.py",
+    "same_non_import_ast": true
+  },
+  {
+    "old": "src/icra/object_visuals.py",
+    "new": "src/icra/sim/object_visuals.py",
+    "same_non_import_ast": true
+  },
+  {
+    "old": "src/icra/execution.py",
+    "new": "src/icra/teacher/execution.py",
+    "same_non_import_ast": true
+  },
+  {
+    "old": "src/icra/contact_control.py",
+    "new": "src/icra/teacher/contact_control.py",
+    "same_non_import_ast": true
+  },
+  {
+    "old": "src/icra/grasp_frames.py",
+    "new": "src/icra/teacher/grasp_frames.py",
+    "same_non_import_ast": true
+  },
+  {
+    "old": "src/icra/probe.py",
+    "new": "src/icra/teacher/probe.py",
+    "same_non_import_ast": true
+  },
+  {
+    "old": "src/icra/stages.py",
+    "new": "src/icra/teacher/stages.py",
+    "same_non_import_ast": true
+  },
+  {
+    "old": "src/icra/dataset.py",
+    "new": "src/icra/data/dataset.py",
+    "same_non_import_ast": true
+  },
+  {
+    "old": "src/icra/recording.py",
+    "new": "src/icra/data/recording.py",
+    "same_non_import_ast": true
+  },
+  {
+    "old": "src/icra/outcomes.py",
+    "new": "src/icra/data/outcomes.py",
+    "same_non_import_ast": true
+  },
+  {
+    "old": "src/icra/conditioning.py",
+    "new": "src/icra/vision/conditioning.py",
+    "same_non_import_ast": true
+  },
+  {
+    "old": "src/icra/visual_observation.py",
+    "new": "src/icra/vision/visual_observation.py",
+    "same_non_import_ast": true
+  },
+  {
+    "old": "src/icra/goal_memory.py",
+    "new": "src/icra/vision/goal_memory.py",
+    "same_non_import_ast": true
+  },
+  {
+    "old": "src/icra/student.py",
+    "new": "src/icra/learning/student.py",
+    "same_non_import_ast": true
+  },
+  {
+    "old": "src/icra/student_cache.py",
+    "new": "src/icra/learning/student_cache.py",
+    "same_non_import_ast": true
+  },
+  {
+    "old": "src/icra/student_data.py",
+    "new": "src/icra/learning/student_data.py",
+    "same_non_import_ast": true
+  },
+  {
+    "old": "src/icra/student_inference.py",
+    "new": "src/icra/learning/student_inference.py",
+    "same_non_import_ast": false
+  },
+  {
+    "old": "src/icra/student_upstream.py",
+    "new": "src/icra/learning/student_upstream.py",
+    "same_non_import_ast": true
+  },
+  {
+    "old": "src/icra/approach_env.py",
+    "new": "src/icra/learning/approach_env.py",
+    "same_non_import_ast": true
+  },
+  {
+    "old": "src/icra/grasp_env.py",
+    "new": "src/icra/learning/grasp_env.py",
+    "same_non_import_ast": true
+  },
+  {
+    "old": "src/icra/ppo.py",
+    "new": "src/icra/learning/ppo.py",
+    "same_non_import_ast": true
+  },
+  {
+    "old": "src/icra/dexlearn_shim.py",
+    "new": "src/icra/integrations/dexlearn_shim.py",
+    "same_non_import_ast": true
+  }
+]

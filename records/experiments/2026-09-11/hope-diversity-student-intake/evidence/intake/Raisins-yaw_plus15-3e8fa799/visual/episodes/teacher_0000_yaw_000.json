@@ -1,0 +1,551 @@
+{
+  "accepted": true,
+  "candidate_id": "3e8fa79936d8e9c10d2bd7d6c962e12fb6ed433f8adf0092d86fda2e0c3665e5",
+  "condition": {
+    "kind": "object",
+    "object_id": "Raisins"
+  },
+  "episode_id": "teacher_0000_yaw_000",
+  "object_id": "Raisins",
+  "path": "episodes/teacher_0000_yaw_000.npz",
+  "provenance": {
+    "candidate_id": "3e8fa79936d8e9c10d2bd7d6c962e12fb6ed433f8adf0092d86fda2e0c3665e5",
+    "condition": {
+      "kind": "object",
+      "object_id": "Raisins"
+    },
+    "execution": {
+      "adapted_target": {
+        "final_command": [
+          0.5999837517738342,
+          -0.06910981237888336,
+          0.4058487117290497,
+          -2.238637924194336,
+          1.2455638647079468,
+          -0.07499998062849045,
+          -0.3522621989250183,
+          0.35653799772262573,
+          -1.4596351385116577,
+          0.0,
+          1.020885944366455,
+          -0.2793017029762268,
+          0.35680046677589417,
+          0.8837030529975891,
+          0.9209290742874146,
+          -0.3859109878540039,
+          0.639049768447876,
+          0.6507070064544678,
+          0.7827126383781433,
+          -0.2686338722705841,
+          0.7046824097633362,
+          0.32640448212623596,
+          0.8677203059196472,
+          -0.4205799102783203,
+          0.884965181350708,
+          0.21444179117679596,
+          0.7356213331222534
+        ],
+        "final_measured": [
+          0.6051919460296631,
+          -0.07497543096542358,
+          0.4022601842880249,
+          -2.214876413345337,
+          1.2453279495239258,
+          -0.07207034528255463,
+          -0.34281888604164124,
+          0.3566359281539917,
+          -1.4597777128219604,
+          -0.00010343897884013131,
+          1.0208628177642822,
+          -0.28636035323143005,
+          0.3554728627204895,
+          0.8824504613876343,
+          0.9201300740242004,
+          -0.3753664791584015,
+          0.6397557854652405,
+          0.650825023651123,
+          0.7821257710456848,
+          -0.27075088024139404,
+          0.7040514349937439,
+          0.3259163200855255,
+          0.8669750094413757,
+          -0.3626158535480499,
+          0.8850233554840088,
+          0.21393558382987976,
+          0.7350137829780579
+        ],
+        "max_residual_from_squeeze": 0.3500979314558208
+      },
+      "compiled_profile": {
+        "actuator_force_limits": [
+          [
+            -61.4,
+            61.4
+          ],
+          [
+            -61.4,
+            61.4
+          ],
+          [
+            -31.7,
+            31.7
+          ],
+          [
+            -31.7,
+            31.7
+          ],
+          [
+            -31.7,
+            31.7
+          ],
+          [
+            -31.7,
+            31.7
+          ],
+          [
+            -5.1,
+            5.1
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ],
+          [
+            -3.09,
+            3.09
+          ]
+        ],
+        "actuator_kp": [
+          600.0,
+          600.0,
+          600.0,
+          600.0,
+          600.0,
+          600.0,
+          200.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0,
+          500.0
+        ],
+        "actuator_kv": [
+          76.69613914658487,
+          76.61867714729803,
+          35.05071945329333,
+          49.486099138808804,
+          34.82238704850415,
+          37.646980286379545,
+          10.539745185258433,
+          30.0,
+          30.0,
+          30.0,
+          30.0,
+          30.0,
+          30.0,
+          30.0,
+          30.0,
+          30.0,
+          30.0,
+          30.0,
+          30.0,
+          30.0,
+          30.0,
+          30.0,
+          30.0,
+          30.0,
+          30.0,
+          30.0,
+          30.0
+        ],
+        "contact_solimp": [
+          [
+            0.9,
+            0.95,
+            0.001,
+            0.5,
+            2.0
+          ]
+        ],
+        "contact_solref": [
+          [
+            0.02,
+            1.0
+          ]
+        ],
+        "force_semantics": "sum of nonnegative contact-normal forces per whole digit, N",
+        "geom_condim": [
+          3,
+          4
+        ],
+        "geom_friction": [
+          [
+            1.0,
+            0.005,
+            0.0001
+          ],
+          [
+            1.0,
+            0.05,
+            0.0001
+          ],
+          [
+            1.8,
+            0.005,
+            0.0001
+          ],
+          [
+            5.0,
+            1.0,
+            0.3
+          ]
+        ],
+        "integrator": 3,
+        "iterations": 100,
+        "mujoco_version": "3.3.3",
+        "note": "object anti-spin friction also mixes into finger-object contacts; defaults unchanged",
+        "solver": 2,
+        "target_mass_kg": 0.10814156866000421,
+        "timestep": 0.002,
+        "tolerance": 1e-08
+      },
+      "controller": {
+        "approach_ticks": 200,
+        "arrive_ticks": 50,
+        "close_ticks": 600,
+        "closure_speed": 0.008,
+        "descend_ticks": 100,
+        "geometry_feedback": true,
+        "hold_force": 4.0,
+        "hold_ticks": 50,
+        "lift_force": null,
+        "lift_height": 0.15,
+        "lift_ticks": 300,
+        "overhead": 0.15,
+        "penetration_margin": 0.75,
+        "policy_dt": 0.02,
+        "preload": 2.0,
+        "preview_ticks": 2,
+        "ready_ticks": 25,
+        "residual": 0.35,
+        "standoff": 0.1,
+        "transit_ticks": 150
+      },
+      "distractor_ids": [],
+      "early_terminated": false,
+      "failure_reason": null,
+      "geometry_hashes": {
+        "simulation/teacher_0000_yaw_000.mjb": "de6b5a73d15dd8394481ce79cb87165f3cbc827e5b46a09dc40f7e1c0d301106"
+      },
+      "guard_scaled_ticks": 0,
+      "initial_clear": true,
+      "initial_contact_groups": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "initial_robot_object_penetration": 0.0,
+      "initial_robot_table_penetration": 0.0,
+      "initial_state": "simulation/teacher_0000_yaw_000.npy",
+      "initial_state_sha256": "c1f61a51c373913056129596834258d0fd4b34d79780095a7dba5beae7912964",
+      "initial_state_spec": "mjSTATE_INTEGRATION",
+      "initial_target_height": 0.8000307004601995,
+      "model": "simulation/teacher_0000_yaw_000.mjb",
+      "object_scale": 1.0,
+      "original_target": {
+        "grasp_qpos": [
+          -0.11709653586149216,
+          -0.05388573184609413,
+          0.09144995361566544,
+          0.8040978908538818,
+          0.14999496936798096,
+          0.531871497631073,
+          0.2191820740699768,
+          0.004922466818243265,
+          -1.4145797491073608,
+          0.14489683508872986,
+          0.7852928638458252,
+          -0.39167898893356323,
+          0.4944453537464142,
+          0.7384653687477112,
+          0.7852926850318909,
+          -0.38696014881134033,
+          0.49530288577079773,
+          0.5115456581115723,
+          0.7925472855567932,
+          -0.20374539494514465,
+          0.6800425052642822,
+          0.3776237964630127,
+          0.8807299137115479,
+          -0.26696115732192993,
+          0.8742628693580627,
+          0.20647522807121277,
+          0.7960359454154968
+        ],
+        "squeeze_qpos": [
+          -0.11709653586149216,
+          -0.05388573184609413,
+          0.09144995361566544,
+          0.8040978908538818,
+          0.14999496936798096,
+          0.531871497631073,
+          0.2191820740699768,
+          0.0065379966981709,
+          -1.4239320755004883,
+          0.15782640874385834,
+          0.7864596247673035,
+          -0.38246411085128784,
+          0.49856382608413696,
+          0.7412756681442261,
+          0.7856672406196594,
+          -0.3905908763408661,
+          0.5021300911903381,
+          0.5160800218582153,
+          0.7940364480018616,
+          -0.2137805074453354,
+          0.6827284693717957,
+          0.3790784478187561,
+          0.8807299137115479,
+          -0.27371492981910706,
+          0.8792343139648438,
+          0.2096128910779953,
+          0.7973032593727112
+        ],
+        "world_root": [
+          [
+            0.19030931205690954,
+            -0.4064062959947984,
+            0.8936533160654713,
+            0.2512804769974226
+          ],
+          [
+            0.5727175353445614,
+            0.7852972992806805,
+            0.23516534065614228,
+            -0.08126247919474912
+          ],
+          [
+            -0.7973562261924565,
+            0.4670567795384803,
+            0.38220540843094614,
+            0.8929220599050625
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "path_attempts": [
+        {
+          "axis": 0,
+          "sign": 1,
+          "status": "passed"
+        }
+      ],
+      "simulation_substeps": 10,
+      "source_hashes": {
+        "scripts/collect_episodes.py": "ddac9c49c70d54af5e5868f82e3aa35c25405fd945edfe7f848a55ce1e7f822a",
+        "scripts/collect_teacher_dataset.py": "9b61dd09751db27068ab637bd5db8b1a8eb3d096a86258d2a4390a42ac95116f",
+        "src/icra/arm.py": "54ea9a88d552204586347b17fc1cb6cedbd733a621df32a888f7702df2cabf67",
+        "src/icra/conditioning.py": "6dbe8661c015ac006755132f801660092f8666336461ce9fa9be29eec776d2a4",
+        "src/icra/contact_control.py": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0",
+        "src/icra/dataset.py": "95091ac9d209843a96f48460592d3e1369809684ebbcd9efc35e0b0ac9aa8cea",
+        "src/icra/execution.py": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94",
+        "src/icra/objects.py": "6efe3c2d8739ba0f42e53f6a4b0de2cbf6e5179248549bdc612ed5c46d32daaa",
+        "src/icra/scene.py": "fe2a3c8c36640674f02d82f6f7dff44509058fa8c59c3d5f553ea47b71070f7b",
+        "src/icra/simulation.py": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25",
+        "src/icra/visual_observation.py": "513523968710d257c666df1b2ecd8127beba0b4bac59a227725d8754e1355f55"
+      },
+      "start_mode": "home",
+      "teacher_hand_xml_sha256": "4db2e825d82904bc8299596120f416ba7bada2f59d1a66638c12961e33b6e3fe",
+      "teacher_root_offset_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "visual_profile": {
+        "head_fovy": 60.0,
+        "head_quat": [
+          0.5792279653399943,
+          0.40557978767504993,
+          -0.40557978767306396,
+          -0.5792279653371581
+        ],
+        "head_tilt_down_degrees": 20,
+        "height": 256,
+        "original_head_quat": [
+          0.5,
+          0.5000000000024483,
+          -0.5,
+          -0.49999999999755174
+        ],
+        "version": 2,
+        "width": 256
+      },
+      "yaw_rad": 0.0
+    },
+    "grasp_type": "1_Large_Diameter",
+    "object_id": "Raisins",
+    "required_contact_groups": [
+      [
+        "finger_r_link3",
+        "finger_r_link4"
+      ],
+      [
+        "finger_r_link7",
+        "finger_r_link8"
+      ],
+      [
+        "finger_r_link11",
+        "finger_r_link12"
+      ],
+      [
+        "finger_r_link15",
+        "finger_r_link16"
+      ],
+      [
+        "finger_r_link19",
+        "finger_r_link20"
+      ]
+    ],
+    "teacher": {
+      "name": "Dexonomy",
+      "source_path": "/home/yspark/projects/Dexonomy/output/hopeRaisins_1_Large_Diameter_s0_hx5_d20/grasp_data/1_Large_Diameter/Raisins/0_31_grasp.npy",
+      "source_sha256": "3e8fa79936d8e9c10d2bd7d6c962e12fb6ed433f8adf0092d86fda2e0c3665e5"
+    },
+    "visual_derivation": {
+      "full_physics_replay_checked": true,
+      "source_dataset": "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-job-v1/source/runs/21-placement-Raisins-yaw_plus15-f27ecfce",
+      "source_episode_sha256": "06354bdd56f810c413572b3de6a2fdbec502a737f8cba7eec1624c96723a5619",
+      "source_hashes": {
+        "scripts/audit_mask_visibility.py": "5c50ff961076b5d17194d49f07ab2627f44bb3e3c293bcfbf747c61a1de38de7",
+        "scripts/collect_episodes.py": "ddac9c49c70d54af5e5868f82e3aa35c25405fd945edfe7f848a55ce1e7f822a",
+        "scripts/prepare_visual_dataset.py": "e7c2636bd8ba53ec890117af6a2d0ff09110597e34c29ebf36b00d8bab6be5f7",
+        "scripts/replay_hx5_student.py": "145de613d45a1068a1b20ae7d5f7bf2638c54e718226e5e2c9ce795aee186aab",
+        "src/icra/execution.py": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94",
+        "src/icra/simulation.py": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25",
+        "src/icra/visual_observation.py": "513523968710d257c666df1b2ecd8127beba0b4bac59a227725d8754e1355f55"
+      },
+      "source_model_sha256": "29a7b213ed2bf9b22d6e4862429cd349c2d62f9d66e81883605c04dccf89298c"
+    }
+  },
+  "quality": {
+    "accepted": true,
+    "duration_seconds": 20.439999999999998,
+    "frames": 1022,
+    "limits": {
+      "max_approach_displacement": 0.01,
+      "max_digit_force": 30.0,
+      "max_penetration": 0.002,
+      "max_table_penetration": 1e-06,
+      "min_contact_force": 0.1,
+      "min_hold_seconds": 0.5,
+      "min_lift": 0.1
+    },
+    "longest_contact_preserving_hold_seconds": 1.0000000000000004,
+    "max_approach_displacement": 2.8158551540285147e-17,
+    "max_contact_groups": 5,
+    "max_digit_force": 9.886158115776187,
+    "max_interval_minimum_rise": 0.14093935742145236,
+    "max_non_target_displacement": 0.0,
+    "max_robot_object_penetration": 0.0015611576652135918,
+    "max_robot_obstacle_penetration": 0.0,
+    "max_robot_table_penetration": 0.0,
+    "reasons": [],
+    "required_contact_groups": 5,
+    "terminal_contact_preserving_hold_seconds": 1.0000000000000004
+  },
+  "sha256": "5dbe10fff471b3afac976e84efbd64cf33da2c04c9f4ea02ba311a2c8e804abe"
+}

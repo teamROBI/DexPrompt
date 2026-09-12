@@ -1,0 +1,38 @@
+{
+  "seed": 42,
+  "updates": 6000,
+  "batch_size": 64,
+  "learning_rate": 0.0001,
+  "weight_decay": 1e-06,
+  "warmup": 500,
+  "horizon": 16,
+  "n_obs_steps": 2,
+  "n_action_steps": 8,
+  "down_dims": [
+    256,
+    512,
+    1024
+  ],
+  "encoder_output_dim": 64,
+  "diffusion_step_embed_dim": 128,
+  "diffusion_steps": 100,
+  "inference_steps": 10,
+  "prediction_type": "sample",
+  "point_count": 640,
+  "state_dim": 125,
+  "evaluation_seeds": [
+    1000,
+    1001,
+    1002
+  ],
+  "device": "cuda:0",
+  "numerical_replay_tolerance": {
+    "state": 1e-06,
+    "force": 1e-05,
+    "geometry": 1e-08
+  },
+  "task": "goal-conditioned known-training-condition diagnostic; no held-out generalization",
+  "observation": "512 metric target mesh points at CURRENT geom pose + 128 table points; joint position/velocity, previous final actuator command, current wrist pose, fixed requested grasp root and closure targets",
+  "action": "27 final actuator commands; no additional gravity bias or teacher feedback",
+  "upstream_commit": "47385d9d6f5bde3f2ebdf2400ecb8261cc9e6b97"
+}

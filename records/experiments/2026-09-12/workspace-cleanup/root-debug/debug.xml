@@ -1,0 +1,462 @@
+<mujoco model="MuJoCo Model">
+  <compiler angle="radian" meshdir="/home/yspark/projects/ICRA/third_party/dexonomy/"/>
+
+  <option timestep="0.004" impratio="10" integrator="implicitfast" cone="elliptic" noslip_iterations="2">
+    <flag gravity="disable"/>
+  </option>
+
+  <size nkey="1"/>
+
+  <default>
+    <default class="hand-main">
+      <default class="hand-wheel_steer">
+        <joint armature="0.5" damping="200" frictionloss="0.1"/>
+        <general forcerange="-2000 2000" biastype="affine" gainprm="5000" biasprm="0 -5000"/>
+        <default class="hand-left_wheel_steer">
+          <joint range="-1.58 1.58"/>
+        </default>
+        <default class="hand-right_wheel_steer">
+          <joint range="-1.58 1.58"/>
+        </default>
+        <default class="hand-rear_wheel_steer">
+          <joint range="-1.58 1.58"/>
+        </default>
+      </default>
+      <default class="hand-wheel_drive">
+        <joint damping="2" frictionloss="0.2"/>
+        <general ctrllimited="true" ctrlrange="-50 50" biastype="affine" biasprm="0 0 -1"/>
+      </default>
+      <default class="hand-slider">
+        <joint type="slide" armature="10" damping="5000" frictionloss="100"/>
+        <general forcerange="-100000 100000" biastype="affine" gainprm="10000" biasprm="0 -10000"/>
+        <default class="hand-lift_joint">
+          <joint range="-0.5 0"/>
+        </default>
+      </default>
+      <default class="hand-head">
+        <joint armature="0.1" damping="5" frictionloss="0.1"/>
+        <general forcerange="-10 10" biastype="affine" gainprm="200" biasprm="0 -200 1"/>
+        <default class="hand-head_joint1">
+          <joint range="-0.2317 0.6951"/>
+        </default>
+        <default class="hand-head_joint2">
+          <joint range="-0.35 0.35"/>
+        </default>
+      </default>
+      <default class="hand-DY_80">
+        <joint armature="0.5" damping="30" frictionloss="0.1"/>
+        <general forcerange="-61.4 61.4" biastype="affine" gainprm="600" biasprm="0 -600 1"/>
+        <default class="hand-arm_l_joint1">
+          <joint range="-3.14 3.14"/>
+        </default>
+        <default class="hand-arm_l_joint2">
+          <joint range="0 3.14"/>
+        </default>
+        <default class="hand-arm_r_joint1">
+          <joint range="-3.14 3.14"/>
+        </default>
+        <default class="hand-arm_r_joint2">
+          <joint range="-3.14 0"/>
+        </default>
+      </default>
+      <default class="hand-DY_70">
+        <joint armature="0.5" damping="20" frictionloss="0.1"/>
+        <general forcerange="-31.7 31.7" biastype="affine" gainprm="600" biasprm="0 -600 1"/>
+        <default class="hand-arm_l_joint3">
+          <joint range="-3.14 3.14"/>
+        </default>
+        <default class="hand-arm_l_joint4">
+          <joint range="-2.9361 1.0786"/>
+        </default>
+        <default class="hand-arm_l_joint5">
+          <joint range="-3.14 3.14"/>
+        </default>
+        <default class="hand-arm_l_joint6">
+          <joint range="-1.57 1.57"/>
+        </default>
+        <default class="hand-arm_r_joint3">
+          <joint range="-3.14 3.14"/>
+        </default>
+        <default class="hand-arm_r_joint4">
+          <joint range="-2.9361 1.0786"/>
+        </default>
+        <default class="hand-arm_r_joint5">
+          <joint range="-3.14 3.14"/>
+        </default>
+        <default class="hand-arm_r_joint6">
+          <joint range="-1.57 1.57"/>
+        </default>
+      </default>
+      <default class="hand-DP_42">
+        <joint armature="0.1" damping="3" frictionloss="0.1"/>
+        <general forcerange="-5.1 5.1" biastype="affine" gainprm="200" biasprm="0 -200 1"/>
+        <default class="hand-arm_l_joint7">
+          <joint range="-1.8201 1.5804"/>
+        </default>
+        <default class="hand-arm_r_joint7">
+          <joint range="-1.5804 1.8201"/>
+        </default>
+      </default>
+      <default class="hand-finger">
+        <joint armature="0.05" damping="1" frictionloss="0.05"/>
+        <general forcerange="-2 2" biastype="affine" gainprm="20" biasprm="0 -20 1"/>
+        <default class="hand-thumb_l_cmc">
+          <joint range="-1.5708 1.5708"/>
+        </default>
+        <default class="hand-thumb_l_mcp_yaw">
+          <joint range="0 3.1416"/>
+        </default>
+        <default class="hand-thumb_l_mcp_pitch">
+          <joint range="-1.5708 0"/>
+        </default>
+        <default class="hand-thumb_l_ip">
+          <joint range="-1.5708 0"/>
+        </default>
+        <default class="hand-thumb_r_cmc">
+          <joint range="-1.5708 1.5708"/>
+        </default>
+        <default class="hand-thumb_r_mcp_yaw">
+          <joint range="-3.1416 0"/>
+        </default>
+        <default class="hand-thumb_r_mcp_pitch">
+          <joint range="0 1.5708"/>
+        </default>
+        <default class="hand-thumb_r_ip">
+          <joint range="0 1.5708"/>
+        </default>
+        <default class="hand-finger_mcp">
+          <joint range="-0.6109 0.6109"/>
+        </default>
+        <default class="hand-finger_pip">
+          <joint range="0 2.0071"/>
+        </default>
+        <default class="hand-finger_dip">
+          <joint range="0 1.5708"/>
+        </default>
+        <default class="hand-finger_tip">
+          <joint range="0 1.5708"/>
+        </default>
+      </default>
+      <default class="hand-visual">
+        <geom type="mesh" contype="0" conaffinity="0" group="2" density="0"/>
+      </default>
+      <default class="hand-collision">
+        <geom type="mesh" group="3"/>
+      </default>
+    </default>
+    <default class="obj-ddg_gd_hammer_poisson_005main"/>
+  </default>
+
+  <asset>
+    <texture type="skybox" colorspace="auto" builtin="gradient" rgb1="0.3 0.5 0.7" rgb2="0.3 0.5 0.7" width="512" height="3072"/>
+    <material name="hand-black" rgba="0.2 0.2 0.2 1"/>
+    <material name="hand-white"/>
+    <material name="hand-grey" rgba="0.7 0.7 0.7 1"/>
+    <mesh name="hand-base_mobile_assy" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/ffw_s/base_mobile_assy.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-left_wheel" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/ffw_s/left_wheel_drive_link.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-right_wheel" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/ffw_s/right_wheel_drive_link.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-rear_wheel" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/ffw_s/rear_wheel_drive_link.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-lift_link" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/ffw_s/lift_link.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-body_arm_assy" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/ffw_s/body_arm_assy.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-head_link1" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/ffw_s/head_link1.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-head_link2" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/ffw_s/head_link2.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-arm_l_link1" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/ffw_s/arm_l_link1.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-arm_l_link2" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/ffw_s/arm_l_link2.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-arm_l_link3" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/ffw_s/arm_l_link3.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-arm_l_link4" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/ffw_s/arm_l_link4.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-arm_l_link5" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/ffw_s/arm_l_link5.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-arm_l_link6" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/ffw_s/arm_l_link6.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-arm_l_link7" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/ffw_s/arm_l_link7.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-arm_r_link1" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/ffw_s/arm_r_link1.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-arm_r_link2" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/ffw_s/arm_r_link2.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-arm_r_link3" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/ffw_s/arm_r_link3.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-arm_r_link4" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/ffw_s/arm_r_link4.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-arm_r_link5" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/ffw_s/arm_r_link5.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-arm_r_link6" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/ffw_s/arm_r_link6.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-arm_r_link7" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/ffw_s/arm_r_link7.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-hx5_l_base" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/hx5_d20/hx5_d20_left/hx5_d20_base_unit.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-hx5_l_thumb_mcp" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/hx5_d20/hx5_d20_left/hx5_d20_thumb_mcp.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-hx5_l_thumb_mcp2" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/hx5_d20/hx5_d20_left/hx5_d20_thumb_mcp2.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-hx5_l_thumb_ip" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/hx5_d20/hx5_d20_left/hx5_d20_thumb_ip.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-hx5_l_thumb_tip" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/hx5_d20/hx5_d20_left/hx5_d20_thumb_tip.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-hx5_l_finger_mcp" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/hx5_d20/hx5_d20_left/hx5_d20_finger_mcp.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-hx5_l_finger_pip" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/hx5_d20/hx5_d20_left/hx5_d20_finger_pip.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-hx5_l_finger_dip" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/hx5_d20/hx5_d20_left/hx5_d20_finger_dip.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-hx5_l_finger_tip" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/hx5_d20/hx5_d20_left/hx5_d20_finger_tip.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-hx5_r_base" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/hx5_d20/hx5_d20_right/hx5_d20_base_unit.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-hx5_r_thumb_mcp" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/hx5_d20/hx5_d20_right/hx5_d20_thumb_mcp.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-hx5_r_thumb_mcp2" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/hx5_d20/hx5_d20_right/hx5_d20_thumb_mcp2.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-hx5_r_thumb_ip" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/hx5_d20/hx5_d20_right/hx5_d20_thumb_ip.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-hx5_r_thumb_tip" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/hx5_d20/hx5_d20_right/hx5_d20_thumb_tip.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-hx5_r_finger_mcp" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/hx5_d20/hx5_d20_right/hx5_d20_finger_mcp.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-hx5_r_finger_pip" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/hx5_d20/hx5_d20_right/hx5_d20_finger_pip.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-hx5_r_finger_dip" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/hx5_d20/hx5_d20_right/hx5_d20_finger_dip.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-hx5_r_finger_tip" file="/home/yspark/projects/ICRA/third_party/robotis_mujoco_menagerie/robotis_ffw/assets/hx5_d20/hx5_d20_right/hx5_d20_finger_tip.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-palm_convex_00" file="/home/yspark/projects/ICRA/model/hx5_palm_convex/part_00.obj" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-palm_convex_01" file="/home/yspark/projects/ICRA/model/hx5_palm_convex/part_01.obj" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-palm_convex_02" file="/home/yspark/projects/ICRA/model/hx5_palm_convex/part_02.obj" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-palm_convex_03" file="/home/yspark/projects/ICRA/model/hx5_palm_convex/part_03.obj" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-palm_convex_04" file="/home/yspark/projects/ICRA/model/hx5_palm_convex/part_04.obj" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-palm_convex_05" file="/home/yspark/projects/ICRA/model/hx5_palm_convex/part_05.obj" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-palm_convex_06" file="/home/yspark/projects/ICRA/model/hx5_palm_convex/part_06.obj" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-palm_convex_07" file="/home/yspark/projects/ICRA/model/hx5_palm_convex/part_07.obj" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-palm_convex_08" file="/home/yspark/projects/ICRA/model/hx5_palm_convex/part_08.obj" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-palm_convex_09" file="/home/yspark/projects/ICRA/model/hx5_palm_convex/part_09.obj" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-palm_convex_10" file="/home/yspark/projects/ICRA/model/hx5_palm_convex/part_10.obj" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-palm_convex_11" file="/home/yspark/projects/ICRA/model/hx5_palm_convex/part_11.obj" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-palm_convex_12" file="/home/yspark/projects/ICRA/model/hx5_palm_convex/part_12.obj" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-palm_convex_13" file="/home/yspark/projects/ICRA/model/hx5_palm_convex/part_13.obj" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-palm_convex_14" file="/home/yspark/projects/ICRA/model/hx5_palm_convex/part_14.obj" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-palm_convex_15" file="/home/yspark/projects/ICRA/model/hx5_palm_convex/part_15.obj" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-palm_convex_16" file="/home/yspark/projects/ICRA/model/hx5_palm_convex/part_16.obj" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-palm_convex_17" file="/home/yspark/projects/ICRA/model/hx5_palm_convex/part_17.obj" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-palm_convex_18" file="/home/yspark/projects/ICRA/model/hx5_palm_convex/part_18.obj" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-palm_convex_19" file="/home/yspark/projects/ICRA/model/hx5_palm_convex/part_19.obj" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-palm_convex_20" file="/home/yspark/projects/ICRA/model/hx5_palm_convex/part_20.obj" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-palm_convex_21" file="/home/yspark/projects/ICRA/model/hx5_palm_convex/part_21.obj" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-palm_convex_22" file="/home/yspark/projects/ICRA/model/hx5_palm_convex/part_22.obj" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-palm_convex_23" file="/home/yspark/projects/ICRA/model/hx5_palm_convex/part_23.obj" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-palm_convex_24" file="/home/yspark/projects/ICRA/model/hx5_palm_convex/part_24.obj" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-palm_convex_25" file="/home/yspark/projects/ICRA/model/hx5_palm_convex/part_25.obj" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-palm_convex_26" file="/home/yspark/projects/ICRA/model/hx5_palm_convex/part_26.obj" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-palm_convex_27" file="/home/yspark/projects/ICRA/model/hx5_palm_convex/part_27.obj" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-palm_convex_28" file="/home/yspark/projects/ICRA/model/hx5_palm_convex/part_28.obj" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-palm_convex_29" file="/home/yspark/projects/ICRA/model/hx5_palm_convex/part_29.obj" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-palm_convex_30" file="/home/yspark/projects/ICRA/model/hx5_palm_convex/part_30.obj" scale="0.001 0.001 0.001"/>
+    <mesh name="hand-palm_convex_31" file="/home/yspark/projects/ICRA/model/hx5_palm_convex/part_31.obj" scale="0.001 0.001 0.001"/>
+    <mesh name="obj-ddg_gd_hammer_poisson_005convex_piece_001.obj" file="/data1/yspark/sim/dexonomy_assets/DGN_5k/processed_data/ddg_gd_hammer_poisson_005/urdf/./meshes/convex_piece_001.obj" scale="0.08 0.08 0.08"/>
+    <mesh name="obj-ddg_gd_hammer_poisson_005convex_piece_000.obj" file="/data1/yspark/sim/dexonomy_assets/DGN_5k/processed_data/ddg_gd_hammer_poisson_005/urdf/./meshes/convex_piece_000.obj" scale="0.08 0.08 0.08"/>
+  </asset>
+
+  <worldbody>
+    <geom name="plane-table_visual" size="0 0 1" pos="0.0015801 0.0128864 -0.000153345" quat="0.71127 0.697693 -0.0855497 0" type="plane" contype="0" conaffinity="0" condim="4" friction="0.6 0.02"/>
+    <geom name="plane-table_collision" size="0 0 1" pos="0.0015801 0.0128864 -0.000153345" quat="0.71127 0.697693 -0.0855497 0" type="plane" condim="4" friction="0.6 0.02"/>
+    <camera name="closeup" pos="0.5 -1 1" quat="0.92388 0.382683 0 0"/>
+    <light name="spotlight" pos="0 -1 2" dir="0 0 -1" castshadow="false"/>
+    <body name="hand-world">
+      <joint name="hand_freejoint" type="free" limited="false" actuatorfrclimited="false"/>
+      <body name="hand-hx5_r_base">
+        <inertial pos="-0.00259546 0.00179263 0.0629577" mass="0.301852" diaginertia="0.000542413 0.000389333 0.000210116"/>
+        <geom class="hand-visual" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" material="hand-black" mesh="hand-hx5_r_base"/>
+        <geom class="hand-collision" contype="0" conaffinity="0" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mesh="hand-hx5_r_base"/>
+        <geom name="hand-palm_convex_00" type="mesh" condim="4" group="3" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mass="0" mesh="hand-palm_convex_00"/>
+        <geom name="hand-palm_convex_01" type="mesh" condim="4" group="3" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mass="0" mesh="hand-palm_convex_01"/>
+        <geom name="hand-palm_convex_02" type="mesh" condim="4" group="3" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mass="0" mesh="hand-palm_convex_02"/>
+        <geom name="hand-palm_convex_03" type="mesh" condim="4" group="3" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mass="0" mesh="hand-palm_convex_03"/>
+        <geom name="hand-palm_convex_04" type="mesh" condim="4" group="3" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mass="0" mesh="hand-palm_convex_04"/>
+        <geom name="hand-palm_convex_05" type="mesh" condim="4" group="3" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mass="0" mesh="hand-palm_convex_05"/>
+        <geom name="hand-palm_convex_06" type="mesh" condim="4" group="3" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mass="0" mesh="hand-palm_convex_06"/>
+        <geom name="hand-palm_convex_07" type="mesh" condim="4" group="3" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mass="0" mesh="hand-palm_convex_07"/>
+        <geom name="hand-palm_convex_08" type="mesh" condim="4" group="3" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mass="0" mesh="hand-palm_convex_08"/>
+        <geom name="hand-palm_convex_09" type="mesh" condim="4" group="3" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mass="0" mesh="hand-palm_convex_09"/>
+        <geom name="hand-palm_convex_10" type="mesh" condim="4" group="3" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mass="0" mesh="hand-palm_convex_10"/>
+        <geom name="hand-palm_convex_11" type="mesh" condim="4" group="3" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mass="0" mesh="hand-palm_convex_11"/>
+        <geom name="hand-palm_convex_12" type="mesh" condim="4" group="3" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mass="0" mesh="hand-palm_convex_12"/>
+        <geom name="hand-palm_convex_13" type="mesh" condim="4" group="3" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mass="0" mesh="hand-palm_convex_13"/>
+        <geom name="hand-palm_convex_14" type="mesh" condim="4" group="3" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mass="0" mesh="hand-palm_convex_14"/>
+        <geom name="hand-palm_convex_15" type="mesh" condim="4" group="3" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mass="0" mesh="hand-palm_convex_15"/>
+        <geom name="hand-palm_convex_16" type="mesh" condim="4" group="3" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mass="0" mesh="hand-palm_convex_16"/>
+        <geom name="hand-palm_convex_17" type="mesh" condim="4" group="3" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mass="0" mesh="hand-palm_convex_17"/>
+        <geom name="hand-palm_convex_18" type="mesh" condim="4" group="3" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mass="0" mesh="hand-palm_convex_18"/>
+        <geom name="hand-palm_convex_19" type="mesh" condim="4" group="3" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mass="0" mesh="hand-palm_convex_19"/>
+        <geom name="hand-palm_convex_20" type="mesh" condim="4" group="3" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mass="0" mesh="hand-palm_convex_20"/>
+        <geom name="hand-palm_convex_21" type="mesh" condim="4" group="3" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mass="0" mesh="hand-palm_convex_21"/>
+        <geom name="hand-palm_convex_22" type="mesh" condim="4" group="3" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mass="0" mesh="hand-palm_convex_22"/>
+        <geom name="hand-palm_convex_23" type="mesh" condim="4" group="3" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mass="0" mesh="hand-palm_convex_23"/>
+        <geom name="hand-palm_convex_24" type="mesh" condim="4" group="3" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mass="0" mesh="hand-palm_convex_24"/>
+        <geom name="hand-palm_convex_25" type="mesh" condim="4" group="3" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mass="0" mesh="hand-palm_convex_25"/>
+        <geom name="hand-palm_convex_26" type="mesh" condim="4" group="3" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mass="0" mesh="hand-palm_convex_26"/>
+        <geom name="hand-palm_convex_27" type="mesh" condim="4" group="3" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mass="0" mesh="hand-palm_convex_27"/>
+        <geom name="hand-palm_convex_28" type="mesh" condim="4" group="3" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mass="0" mesh="hand-palm_convex_28"/>
+        <geom name="hand-palm_convex_29" type="mesh" condim="4" group="3" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mass="0" mesh="hand-palm_convex_29"/>
+        <geom name="hand-palm_convex_30" type="mesh" condim="4" group="3" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mass="0" mesh="hand-palm_convex_30"/>
+        <geom name="hand-palm_convex_31" type="mesh" condim="4" group="3" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mass="0" mesh="hand-palm_convex_31"/>
+        <body name="hand-finger_r_link1" pos="-0.0125 0.03493 0.04475">
+          <inertial pos="0.0238075 0.00131524 0.000460355" mass="0.0408685" diaginertia="2.88193e-06 9.43334e-06 9.65126e-06"/>
+          <joint name="hand-finger_r_joint1" class="hand-thumb_r_cmc" pos="0 0 0" axis="1 0 0" margin="0.1"/>
+          <geom class="hand-visual" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" material="hand-black" mesh="hand-hx5_r_thumb_mcp"/>
+          <geom class="hand-collision" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mesh="hand-hx5_r_thumb_mcp"/>
+          <body name="hand-finger_r_link2" pos="0.039 0 0">
+            <inertial pos="-0.000356679 0.0139993 0.000359207" mass="0.0117606" diaginertia="1.30235e-06 1.05564e-06 1.30247e-06"/>
+            <joint name="hand-finger_r_joint2" class="hand-thumb_r_mcp_yaw" pos="0 0 0" axis="0 0 1" margin="0.1"/>
+            <geom class="hand-visual" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" material="hand-black" mesh="hand-hx5_r_thumb_mcp2"/>
+            <geom class="hand-collision" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mesh="hand-hx5_r_thumb_mcp2"/>
+            <body name="hand-finger_r_link3" pos="0 0.028 0">
+              <inertial pos="-0.000101462 0.0113435 4.08056e-06" mass="0.03469" diaginertia="5.03702e-06 2.25807e-06 5.40298e-06"/>
+              <joint name="hand-finger_r_joint3" class="hand-thumb_r_mcp_pitch" pos="0 0 0" axis="1 0 0" margin="0.1"/>
+              <geom class="hand-visual" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" material="hand-black" mesh="hand-hx5_r_thumb_ip"/>
+              <geom class="hand-collision" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mesh="hand-hx5_r_thumb_ip"/>
+              <body name="hand-finger_r_link4" pos="0 0.0355 0">
+                <inertial pos="6.6605e-05 0.0168245 0.000223985" mass="0.043875" diaginertia="1.11607e-05 2.80794e-06 1.13431e-05"/>
+                <joint name="hand-finger_r_joint4" class="hand-thumb_r_ip" pos="0 0 0" axis="1 0 0" margin="0.1"/>
+                <geom class="hand-visual" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" material="hand-black" mesh="hand-hx5_r_thumb_tip"/>
+                <geom class="hand-collision" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mesh="hand-hx5_r_thumb_tip"/>
+              </body>
+            </body>
+          </body>
+        </body>
+        <body name="hand-finger_r_link5" pos="-0.0015 0.03608 0.09575">
+          <inertial pos="0.0051934 -1.81631e-05 0.0211155" mass="0.0388044" diaginertia="3.52499e-06 5.79216e-06 4.71268e-06"/>
+          <joint name="hand-finger_r_joint5" class="hand-finger_mcp" pos="0 0 0" axis="1 0 0" margin="0.1"/>
+          <geom class="hand-visual" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" material="hand-black" mesh="hand-hx5_r_finger_mcp"/>
+          <geom class="hand-collision" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mesh="hand-hx5_r_finger_mcp"/>
+          <body name="hand-finger_r_link6" pos="0.0165 0 0.0235">
+            <inertial pos="4.08056e-06 0.000101462 0.0241565" mass="0.03469" diaginertia="5.40298e-06 5.03702e-06 2.25807e-06"/>
+            <joint name="hand-finger_r_joint6" class="hand-finger_pip" pos="0 0 0" axis="0 1 0" margin="0.1"/>
+            <geom class="hand-visual" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" material="hand-black" mesh="hand-hx5_r_finger_pip"/>
+            <geom class="hand-collision" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mesh="hand-hx5_r_finger_pip"/>
+            <body name="hand-finger_r_link7" pos="0 0 0.0355">
+              <inertial pos="4.08056e-06 0.000101462 0.0241565" mass="0.03469" diaginertia="5.40298e-06 5.03702e-06 2.25807e-06"/>
+              <joint name="hand-finger_r_joint7" class="hand-finger_dip" pos="0 0 0" axis="0 1 0" margin="0.1"/>
+              <geom class="hand-visual" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" material="hand-black" mesh="hand-hx5_r_finger_dip"/>
+              <geom class="hand-collision" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mesh="hand-hx5_r_finger_dip"/>
+              <body name="hand-finger_r_link8" pos="0 0 0.0355">
+                <inertial pos="0.000710251 0.000472384 0.0180986" mass="0.013637" diaginertia="2.23243e-06 2.01881e-06 1.07866e-06"/>
+                <joint name="hand-finger_r_joint8" class="hand-finger_tip" pos="0 0 0" axis="0 1 0" margin="0.1"/>
+                <geom class="hand-visual" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" material="hand-black" mesh="hand-hx5_r_finger_tip"/>
+                <geom class="hand-collision" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mesh="hand-hx5_r_finger_tip"/>
+              </body>
+            </body>
+          </body>
+        </body>
+        <body name="hand-finger_r_link9" pos="-0.0015 0.00908 0.10353">
+          <inertial pos="0.0051934 -1.81631e-05 0.0211155" mass="0.0388044" diaginertia="3.52499e-06 5.79216e-06 4.71268e-06"/>
+          <joint name="hand-finger_r_joint9" class="hand-finger_mcp" pos="0 0 0" axis="1 0 0" margin="0.1"/>
+          <geom class="hand-visual" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" material="hand-black" mesh="hand-hx5_r_finger_mcp"/>
+          <geom class="hand-collision" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mesh="hand-hx5_r_finger_mcp"/>
+          <body name="hand-finger_r_link10" pos="0.0165 0 0.0235">
+            <inertial pos="4.08056e-06 0.000101462 0.0241565" mass="0.03469" diaginertia="5.40298e-06 5.03702e-06 2.25807e-06"/>
+            <joint name="hand-finger_r_joint10" class="hand-finger_pip" pos="0 0 0" axis="0 1 0" margin="0.1"/>
+            <geom class="hand-visual" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" material="hand-black" mesh="hand-hx5_r_finger_pip"/>
+            <geom class="hand-collision" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mesh="hand-hx5_r_finger_pip"/>
+            <body name="hand-finger_r_link11" pos="0 0 0.0355">
+              <inertial pos="4.08056e-06 0.000101462 0.0241565" mass="0.03469" diaginertia="5.40298e-06 5.03702e-06 2.25807e-06"/>
+              <joint name="hand-finger_r_joint11" class="hand-finger_dip" pos="0 0 0" axis="0 1 0" margin="0.1"/>
+              <geom class="hand-visual" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" material="hand-black" mesh="hand-hx5_r_finger_dip"/>
+              <geom class="hand-collision" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mesh="hand-hx5_r_finger_dip"/>
+              <body name="hand-finger_r_link12" pos="0 0 0.0355">
+                <inertial pos="0.000710251 0.000472384 0.0180986" mass="0.013637" diaginertia="2.23243e-06 2.01881e-06 1.07866e-06"/>
+                <joint name="hand-finger_r_joint12" class="hand-finger_tip" pos="0 0 0" axis="0 1 0" margin="0.1"/>
+                <geom class="hand-visual" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" material="hand-black" mesh="hand-hx5_r_finger_tip"/>
+                <geom class="hand-collision" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mesh="hand-hx5_r_finger_tip"/>
+              </body>
+            </body>
+          </body>
+        </body>
+        <body name="hand-finger_r_link13" pos="-0.0015 -0.01792 0.09775">
+          <inertial pos="0.0051934 -1.81631e-05 0.0211155" mass="0.0388044" diaginertia="3.52499e-06 5.79216e-06 4.71268e-06"/>
+          <joint name="hand-finger_r_joint13" class="hand-finger_mcp" pos="0 0 0" axis="1 0 0" margin="0.1"/>
+          <geom class="hand-visual" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" material="hand-black" mesh="hand-hx5_r_finger_mcp"/>
+          <geom class="hand-collision" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mesh="hand-hx5_r_finger_mcp"/>
+          <body name="hand-finger_r_link14" pos="0.0165 0 0.0235">
+            <inertial pos="4.08056e-06 0.000101462 0.0241565" mass="0.03469" diaginertia="5.40298e-06 5.03702e-06 2.25807e-06"/>
+            <joint name="hand-finger_r_joint14" class="hand-finger_pip" pos="0 0 0" axis="0 1 0" margin="0.1"/>
+            <geom class="hand-visual" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" material="hand-black" mesh="hand-hx5_r_finger_pip"/>
+            <geom class="hand-collision" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mesh="hand-hx5_r_finger_pip"/>
+            <body name="hand-finger_r_link15" pos="0 0 0.0355">
+              <inertial pos="4.08056e-06 0.000101462 0.0241565" mass="0.03469" diaginertia="5.40298e-06 5.03702e-06 2.25807e-06"/>
+              <joint name="hand-finger_r_joint15" class="hand-finger_dip" pos="0 0 0" axis="0 1 0" margin="0.1"/>
+              <geom class="hand-visual" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" material="hand-black" mesh="hand-hx5_r_finger_dip"/>
+              <geom class="hand-collision" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mesh="hand-hx5_r_finger_dip"/>
+              <body name="hand-finger_r_link16" pos="0 0 0.0355">
+                <inertial pos="0.000710251 0.000472384 0.0180986" mass="0.013637" diaginertia="2.23243e-06 2.01881e-06 1.07866e-06"/>
+                <joint name="hand-finger_r_joint16" class="hand-finger_tip" pos="0 0 0" axis="0 1 0" margin="0.1"/>
+                <geom class="hand-visual" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" material="hand-black" mesh="hand-hx5_r_finger_tip"/>
+                <geom class="hand-collision" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mesh="hand-hx5_r_finger_tip"/>
+              </body>
+            </body>
+          </body>
+        </body>
+        <body name="hand-finger_r_link17" pos="-0.0015 -0.04492 0.07875">
+          <inertial pos="0.0051934 -1.81631e-05 0.0211155" mass="0.0388044" diaginertia="3.52499e-06 5.79216e-06 4.71268e-06"/>
+          <joint name="hand-finger_r_joint17" class="hand-finger_mcp" pos="0 0 0" axis="1 0 0" margin="0.1"/>
+          <geom class="hand-visual" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" material="hand-black" mesh="hand-hx5_r_finger_mcp"/>
+          <geom class="hand-collision" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mesh="hand-hx5_r_finger_mcp"/>
+          <body name="hand-finger_r_link18" pos="0.0165 0 0.0235">
+            <inertial pos="4.08056e-06 0.000101462 0.0241565" mass="0.03469" diaginertia="5.40298e-06 5.03702e-06 2.25807e-06"/>
+            <joint name="hand-finger_r_joint18" class="hand-finger_pip" pos="0 0 0" axis="0 1 0" margin="0.1"/>
+            <geom class="hand-visual" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" material="hand-black" mesh="hand-hx5_r_finger_pip"/>
+            <geom class="hand-collision" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mesh="hand-hx5_r_finger_pip"/>
+            <body name="hand-finger_r_link19" pos="0 0 0.0355">
+              <inertial pos="4.08056e-06 0.000101462 0.0241565" mass="0.03469" diaginertia="5.40298e-06 5.03702e-06 2.25807e-06"/>
+              <joint name="hand-finger_r_joint19" class="hand-finger_dip" pos="0 0 0" axis="0 1 0" margin="0.1"/>
+              <geom class="hand-visual" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" material="hand-black" mesh="hand-hx5_r_finger_dip"/>
+              <geom class="hand-collision" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mesh="hand-hx5_r_finger_dip"/>
+              <body name="hand-finger_r_link20" pos="0 0 0.0355">
+                <inertial pos="0.000710251 0.000472384 0.0180986" mass="0.013637" diaginertia="2.23243e-06 2.01881e-06 1.07866e-06"/>
+                <joint name="hand-finger_r_joint20" class="hand-finger_tip" pos="0 0 0" axis="0 1 0" margin="0.1"/>
+                <geom class="hand-visual" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" material="hand-black" mesh="hand-hx5_r_finger_tip"/>
+                <geom class="hand-collision" condim="4" friction="0.6 0.02" solref="0.005" solimp="0.5 0.99 0.0001" mesh="hand-hx5_r_finger_tip"/>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+    <body name="obj-ddg_gd_hammer_poisson_005world">
+      <joint name="ddg_gd_hammer_poisson_005_freejoint" type="free" limited="false" actuatorfrclimited="false"/>
+      <body name="obj-ddg_gd_hammer_poisson_005object">
+        <geom name="obj-ddg_gd_hammer_poisson_005object_visual_0" type="mesh" contype="0" conaffinity="0" condim="4" friction="0.6 0.02" density="0" mesh="obj-ddg_gd_hammer_poisson_005convex_piece_001.obj"/>
+        <geom name="obj-ddg_gd_hammer_poisson_005object_collision_0" type="mesh" condim="4" friction="0.6 0.02" mesh="obj-ddg_gd_hammer_poisson_005convex_piece_001.obj"/>
+        <geom name="obj-ddg_gd_hammer_poisson_005object_visual_1" type="mesh" contype="0" conaffinity="0" condim="4" friction="0.6 0.02" density="0" mesh="obj-ddg_gd_hammer_poisson_005convex_piece_000.obj"/>
+        <geom name="obj-ddg_gd_hammer_poisson_005object_collision_1" type="mesh" condim="4" friction="0.6 0.02" mesh="obj-ddg_gd_hammer_poisson_005convex_piece_000.obj"/>
+      </body>
+    </body>
+    <body name="mocap_body" mocap="true"/>
+  </worldbody>
+
+  <contact>
+    <exclude body1="hand-hx5_r_base" body2="hand-finger_r_link1"/>
+    <exclude body1="hand-hx5_r_base" body2="hand-finger_r_link2"/>
+    <exclude body1="hand-hx5_r_base" body2="hand-finger_r_link5"/>
+    <exclude body1="hand-hx5_r_base" body2="hand-finger_r_link6"/>
+    <exclude body1="hand-hx5_r_base" body2="hand-finger_r_link9"/>
+    <exclude body1="hand-hx5_r_base" body2="hand-finger_r_link10"/>
+    <exclude body1="hand-hx5_r_base" body2="hand-finger_r_link13"/>
+    <exclude body1="hand-hx5_r_base" body2="hand-finger_r_link14"/>
+    <exclude body1="hand-hx5_r_base" body2="hand-finger_r_link17"/>
+    <exclude body1="hand-hx5_r_base" body2="hand-finger_r_link18"/>
+    <exclude body1="hand-finger_r_link1" body2="hand-finger_r_link2"/>
+    <exclude body1="hand-finger_r_link2" body2="hand-finger_r_link3"/>
+    <exclude body1="hand-finger_r_link3" body2="hand-finger_r_link4"/>
+    <exclude body1="hand-finger_r_link5" body2="hand-finger_r_link6"/>
+    <exclude body1="hand-finger_r_link6" body2="hand-finger_r_link7"/>
+    <exclude body1="hand-finger_r_link7" body2="hand-finger_r_link8"/>
+    <exclude body1="hand-finger_r_link9" body2="hand-finger_r_link10"/>
+    <exclude body1="hand-finger_r_link10" body2="hand-finger_r_link11"/>
+    <exclude body1="hand-finger_r_link11" body2="hand-finger_r_link12"/>
+    <exclude body1="hand-finger_r_link13" body2="hand-finger_r_link14"/>
+    <exclude body1="hand-finger_r_link14" body2="hand-finger_r_link15"/>
+    <exclude body1="hand-finger_r_link15" body2="hand-finger_r_link16"/>
+    <exclude body1="hand-finger_r_link17" body2="hand-finger_r_link18"/>
+    <exclude body1="hand-finger_r_link18" body2="hand-finger_r_link19"/>
+    <exclude body1="hand-finger_r_link19" body2="hand-finger_r_link20"/>
+  </contact>
+
+  <equality>
+    <weld body1="mocap_body" body2="hand-world" anchor="0 0 0" relpose="0 0 0 0 0 0 0" torquescale="1"/>
+  </equality>
+
+  <actuator>
+    <general name="hand-finger_r_joint1" class="hand-thumb_r_cmc" joint="hand-finger_r_joint1" ctrlrange="-1.5708 1.5708" forcelimited="true" forcerange="-3 3" gainprm="50" biasprm="0 -50 0"/>
+    <general name="hand-finger_r_joint2" class="hand-thumb_r_mcp_yaw" joint="hand-finger_r_joint2" ctrlrange="-3.1416 0" forcelimited="true" forcerange="-3 3" gainprm="50" biasprm="0 -50 0"/>
+    <general name="hand-finger_r_joint3" class="hand-thumb_r_mcp_pitch" joint="hand-finger_r_joint3" ctrlrange="0 1.5708" forcelimited="true" forcerange="-3 3" gainprm="50" biasprm="0 -50 0"/>
+    <general name="hand-finger_r_joint4" class="hand-thumb_r_ip" joint="hand-finger_r_joint4" ctrlrange="0 1.5708" forcelimited="true" forcerange="-3 3" gainprm="50" biasprm="0 -50 0"/>
+    <general name="hand-finger_r_joint5" class="hand-finger_mcp" joint="hand-finger_r_joint5" ctrlrange="-0.6109 0.6109" forcelimited="true" forcerange="-3 3" gainprm="50" biasprm="0 -50 0"/>
+    <general name="hand-finger_r_joint6" class="hand-finger_pip" joint="hand-finger_r_joint6" ctrlrange="0 2.0071" forcelimited="true" forcerange="-3 3" gainprm="50" biasprm="0 -50 0"/>
+    <general name="hand-finger_r_joint7" class="hand-finger_dip" joint="hand-finger_r_joint7" ctrlrange="0 1.5708" forcelimited="true" forcerange="-3 3" gainprm="50" biasprm="0 -50 0"/>
+    <general name="hand-finger_r_joint8" class="hand-finger_tip" joint="hand-finger_r_joint8" ctrlrange="0 1.5708" forcelimited="true" forcerange="-3 3" gainprm="50" biasprm="0 -50 0"/>
+    <general name="hand-finger_r_joint9" class="hand-finger_mcp" joint="hand-finger_r_joint9" ctrlrange="-0.6109 0.6109" forcelimited="true" forcerange="-3 3" gainprm="50" biasprm="0 -50 0"/>
+    <general name="hand-finger_r_joint10" class="hand-finger_pip" joint="hand-finger_r_joint10" ctrlrange="0 2.0071" forcelimited="true" forcerange="-3 3" gainprm="50" biasprm="0 -50 0"/>
+    <general name="hand-finger_r_joint11" class="hand-finger_dip" joint="hand-finger_r_joint11" ctrlrange="0 1.5708" forcelimited="true" forcerange="-3 3" gainprm="50" biasprm="0 -50 0"/>
+    <general name="hand-finger_r_joint12" class="hand-finger_tip" joint="hand-finger_r_joint12" ctrlrange="0 1.5708" forcelimited="true" forcerange="-3 3" gainprm="50" biasprm="0 -50 0"/>
+    <general name="hand-finger_r_joint13" class="hand-finger_mcp" joint="hand-finger_r_joint13" ctrlrange="-0.6109 0.6109" forcelimited="true" forcerange="-3 3" gainprm="50" biasprm="0 -50 0"/>
+    <general name="hand-finger_r_joint14" class="hand-finger_pip" joint="hand-finger_r_joint14" ctrlrange="0 2.0071" forcelimited="true" forcerange="-3 3" gainprm="50" biasprm="0 -50 0"/>
+    <general name="hand-finger_r_joint15" class="hand-finger_dip" joint="hand-finger_r_joint15" ctrlrange="0 1.5708" forcelimited="true" forcerange="-3 3" gainprm="50" biasprm="0 -50 0"/>
+    <general name="hand-finger_r_joint16" class="hand-finger_tip" joint="hand-finger_r_joint16" ctrlrange="0 1.5708" forcelimited="true" forcerange="-3 3" gainprm="50" biasprm="0 -50 0"/>
+    <general name="hand-finger_r_joint17" class="hand-finger_mcp" joint="hand-finger_r_joint17" ctrlrange="-0.6109 0.6109" forcelimited="true" forcerange="-3 3" gainprm="50" biasprm="0 -50 0"/>
+    <general name="hand-finger_r_joint18" class="hand-finger_pip" joint="hand-finger_r_joint18" ctrlrange="0 2.0071" forcelimited="true" forcerange="-3 3" gainprm="50" biasprm="0 -50 0"/>
+    <general name="hand-finger_r_joint19" class="hand-finger_dip" joint="hand-finger_r_joint19" ctrlrange="0 1.5708" forcelimited="true" forcerange="-3 3" gainprm="50" biasprm="0 -50 0"/>
+    <general name="hand-finger_r_joint20" class="hand-finger_tip" joint="hand-finger_r_joint20" ctrlrange="0 1.5708" forcelimited="true" forcerange="-3 3" gainprm="50" biasprm="0 -50 0"/>
+  </actuator>
+</mujoco>

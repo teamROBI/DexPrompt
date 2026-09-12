@@ -1,0 +1,609 @@
+{
+  "date": "2026-09-12",
+  "scope": "first-party research documentation; no experiment or code change",
+  "existing_files": [
+    {
+      "path": "PAPER_TODO.md",
+      "before_sha256": "ad2e6e6e8565b4830b5bac1fa3f35fa9d2a69951b7a2f8cd1145814d49abbd34",
+      "after_sha256": "15037dda38f9eaecfb8f0ccfdcf50081a9fb013e0b4e98e57aa586cbdd7a4741"
+    },
+    {
+      "path": "README.md",
+      "before_sha256": "68784b35e2c50314de8eddc45e3d91afdd494f1e2da664a1666b4d3c1b1ee2c7",
+      "after_sha256": "8fded5b1fa26618eeb656656421712fd0d42dae6262b70c4a7a1c0be52f3ea66"
+    },
+    {
+      "path": "SETUP.md",
+      "before_sha256": "f61335ed578d2044eea6331ed049d03f2b197a5df2a360ddb9e555f8d9723a12",
+      "after_sha256": "39c2821678db8b2f2d587c5ef7912f6ae117de3f354e57a5309270ea29338597"
+    },
+    {
+      "path": "SERVER_3090.md",
+      "before_sha256": "202ba86546f38ce1d24648e4e6901789a9b92d153cd701642396d5d10cd9d348",
+      "after_sha256": "9519e6ff810a2918df227cceb6fd65850c66686c2b2c705fe3fa5dad784ca4d4"
+    },
+    {
+      "path": "ROADMAP.md",
+      "before_sha256": "92d7cccb5cc8c68adf72516fb55751897888bc1f1e2431edba58ae2c98ec5089",
+      "after_sha256": "59b1ca3df90182043ac4ab329c12c49b3f232b2cf2aefe6191f403787f15148e"
+    },
+    {
+      "path": "RESUME.md",
+      "before_sha256": "5d081a0a19cf5a22b1f4a280b6d51db2a0bfe792a801b25393b231d44ca23558",
+      "after_sha256": "8b36b0b8070d7c2426a9554c3c7e859921ce3a01c1927b5820076aefb5aaea6b"
+    },
+    {
+      "path": "configs/TRAINING_PREPARATION.md",
+      "before_sha256": "2c59931e3984f87435939d869e7f1760b74203d0afffaf6c6d46c8e8cd2e6ea1",
+      "after_sha256": "e00797e20ccbe844c9576d64e8fc7603f2ce4ab0f63c1a19461fdb21a2f59a00"
+    },
+    {
+      "path": "configs/HX5_STUDENT.md",
+      "before_sha256": "ccd098db8621cdbdd6035da63ea32cb929c1a110e23803fb7dcb0cab4d854d18",
+      "after_sha256": "1d56efe4ebed1f56a08d82907297743140c4dedc231885f86929d9da13a22c6c"
+    },
+    {
+      "path": "configs/STUDENT_GOAL_CONTRACT.md",
+      "before_sha256": "87a9e99825fd5a49743ab312c516feaace92cd10490455f88404532f4129a974",
+      "after_sha256": "db1e5d9fb1bf310107fcf38f0544d3e583e2a0be322dae96fb26e9cf1f962f49"
+    },
+    {
+      "path": "configs/TEACHER_DATASET.md",
+      "before_sha256": "22fe88f942308eb8617277cbd5c1d90f6a7a1c03ed40ea7a8e1d03939c9eabdc",
+      "after_sha256": "6917c7c5faada02033eb533fad1ce0a86f7e70c4cd3ed24c4cd278b55166d684"
+    },
+    {
+      "path": "plans/SINGLE_DEMO_STUDENT_LECUN.md",
+      "before_sha256": "4562a45741f1e9bdfe4a08b23be07bbb40e89c902fca15adcd603100a29f3b39",
+      "after_sha256": "cce8be637c57cda78b33c74bffe78fed291a1dac245c3ee33e0f83c883aa0e65"
+    },
+    {
+      "path": "plans/NEXT_WORK_2026-09-10.md",
+      "before_sha256": "e06b6f12f5270b41c57683b22d8b3f0d1aa2f34be932ad4369cc24e5178e8003",
+      "after_sha256": "cfe2ab6b44d5fedbf8b4e7527b730783129b7575343d2113fc2cffec1bdbde83"
+    },
+    {
+      "path": "plans/STUDENT_NEXT_SINGLE_FACTOR.md",
+      "before_sha256": "cf984a111698888ff27097151fb886affc82ecff4fa1723d922cfebb2cb46ed2",
+      "after_sha256": "b817171704f687af4a396ed7b69dfd8dafb105db93de6b551aa8befb82006ebc"
+    },
+    {
+      "path": "plans/GPT56_STUDENT_HANDOFF_2026-09-11.md",
+      "before_sha256": "5bf0b46b11888bba11a4842bf61d57df6368d322e573cd6d32ce6ce41716fb16",
+      "after_sha256": "b39c31c03d34c451f4b0941450cf270f027c85d1ac8292adda70f53c54d0ef67"
+    },
+    {
+      "path": "plans/TEN_HOUR_SPLIT_2026-09-11.md",
+      "before_sha256": "1a78104fc60d5cc19ded6ed08b82ba4cc8977a783fa6d2ee2ab35a080f8d6155",
+      "after_sha256": "a65aed7421dfb4d5d851046ad9d37b072ce0c00963a546549368581addd75ab4"
+    },
+    {
+      "path": "plans/HANDOFF_NEXT_2026-09-11.md",
+      "before_sha256": "9a48396579f6a977bb829d55a90f6d6d9c5538b9a4173c8b273ab66caa4c3623",
+      "after_sha256": "feedde7fd80c2e9550c96138c9acd24ec61978abd026b39e98a88fca4ffa361f"
+    },
+    {
+      "path": "plans/FAST_PARALLEL_NEXT_2026-09-11.md",
+      "before_sha256": "900fd36f77f2bd85a290416d0e35d722f57e3562435c0acc62c5740e3b621275",
+      "after_sha256": "aa140ce75558876687f71ed131e6309042aeae124ec5772bc3d993e07fea398e"
+    },
+    {
+      "path": "plans/STUDENT_LOW_NOISE_LOSS_2026-09-11.md",
+      "before_sha256": "42b882018e55b34ba52375e65906bd179662c89b89dc067d57a60c9a03d5d9cd",
+      "after_sha256": "c30885bc17d8f4bc6e91050802e38a9444b7ce703f6216dd59317bdd8eec1945"
+    },
+    {
+      "path": "plans/CLAUDE_TEACHER_HANDOFF_2026-09-11.md",
+      "before_sha256": "1dc4ef41c61e78b8ad6c9a224f1833286fea57b5e78e10e0a6f9824029c2a091",
+      "after_sha256": "c64feaddb3c92d2421294bf8890ace6243802984e9d581188c12a41ec6ef3b4d"
+    },
+    {
+      "path": "results/2026-09-10/README.md",
+      "before_sha256": "b35b08d9463f5c90291100176b732e9994469f371950f262044a203bf1dbc0ee",
+      "after_sha256": "c4c7d61fd65fec9bf80ef627a84f109fe5aeb2dcd1481b3653e2d98e16b4b4d1"
+    },
+    {
+      "path": "results/2026-09-10/penetration-and-scale/README.md",
+      "before_sha256": "6392182e16f7341356407ad863953e88f9333881c92331dc51dff5d1daa053e0",
+      "after_sha256": "568dd67497730a0f066ccf36613124dc01d9336a8eb7879620880e2d9eeb17a9"
+    },
+    {
+      "path": "results/2026-09-10/init-sensitivity/README.md",
+      "before_sha256": "4c86ca63c17ec63011fe6aa3e125cceff78dbaae86dc2342ee4edca950c17e8f",
+      "after_sha256": "a1d1582830e227384e779f1673f77fe350f30cab6b756b0ed06eae33467d2435"
+    },
+    {
+      "path": "results/2026-09-10/finger5-flexion/README.md",
+      "before_sha256": "cfeaeaba58a7ffb240150fbe6fc068b212a0942625e74835f8d2a527a71a6c2d",
+      "after_sha256": "c62e19a62231a7ee78b43d083e71ba474903156d6f412a2d6d96329f19430bf4"
+    },
+    {
+      "path": "results/2026-09-10/bowl-drop/README.md",
+      "before_sha256": "afca47e322f9ef7c0529c70feebdd777b5f46451b391c33de97417eb44e95dbd",
+      "after_sha256": "6b15fbc32208b739569f03d63f143c61b0788b95fb804244ba9ae2cec62e63c9"
+    },
+    {
+      "path": "results/2026-09-10/finger5-crosscheck/README.md",
+      "before_sha256": "4202c1da87d1e4c28cb7ff2ccf04674c809aa9b74beeb3c45f3df05e8981ce23",
+      "after_sha256": "a87954d3e85b58dcbd9595c92b1bd60c995bb0f942efcb3c4e1a6a03b555c59f"
+    },
+    {
+      "path": "results/2026-09-10/visual-student-bc-v1/README.md",
+      "before_sha256": "5b606a670c402fd367f81bc7770b0dc753bea88541958cddc38be164b60f9a73",
+      "after_sha256": "1fb2e95caa618943733d583031157386f507fafa177efb260fcfc0272d44b41a"
+    },
+    {
+      "path": "results/2026-09-10/can-visual-student/README.md",
+      "before_sha256": "37c3ab034af0de1dd43dc9a3cdb6db953f5ca9ae5a6d34f6ab2a9a96a0c47095",
+      "after_sha256": "c67de07fd2bc7d1f60ef2308191aa2b9e032d0cab4d34603f5e577821cbdd66e"
+    },
+    {
+      "path": "results/2026-09-10/teacher-expansion-crosscheck/README.md",
+      "before_sha256": "fd285933336a0cf72568ce46eea204629b3f082d448ab52caefb851d10850437",
+      "after_sha256": "51108879ad2945ef4330408b7dddad1a0f1875eabf4217af8bc80842ea9b84b1"
+    },
+    {
+      "path": "results/2026-09-10/bowl-drop-crosscheck/README.md",
+      "before_sha256": "33d19fb4691dd08822c408539a0920752dc640f20f4ec47b4b87fe44171a3ad3",
+      "after_sha256": "ccee585ace3a57823f6f0f0f509232e43713bac8046dd55305c3c0ffc99b47c4"
+    },
+    {
+      "path": "results/2026-09-10/student-training-ready/README.md",
+      "before_sha256": "bee9a01bc8886fd7d5be7b1d7b285411bc20fbb5fa8acf57bfea36550a34c1ca",
+      "after_sha256": "b585ff1c1d6047db82c3aab21372143756abca40fcd25a9a7055fdb1bf930df2"
+    },
+    {
+      "path": "results/2026-09-10/overnight-teacher-expansion/README.md",
+      "before_sha256": "240a3ea9ad01bdf624f6f60ff03052c2db84f82f39a5c6fe4cdf63e1a08b1a4f",
+      "after_sha256": "c6ee7ac025e6874dd0e470e887dd3bc58fe1f82d8a8013f63f8d03b9c0f3a4f3"
+    },
+    {
+      "path": "results/2026-09-10/server-migration/README.md",
+      "before_sha256": "50d9f22d6f328c78e2a2227662ee41ffa390f2ee921ef26bcf5096be5a837727",
+      "after_sha256": "ca5eb680b4329e21cf8df76b276b9225b96c59a2dcad1dd8429d03fcb1a3baaa"
+    },
+    {
+      "path": "results/2026-09-10/contact-diagnosis/README.md",
+      "before_sha256": "fa9f507d8a5d36138820c8e578e70773d1d67102bd853a6fa32a1194f617da86",
+      "after_sha256": "48bb81c42d4dc64be593156fb6bdb101bb718f5e9ba2cbf3329eb9bbea9ffb6e"
+    },
+    {
+      "path": "results/2026-09-10/hope-data-readiness/README.md",
+      "before_sha256": "1116a10074a721cd0a72d2158f2343f57ab68b5569cd7fe86b9f540fec4c31c5",
+      "after_sha256": "42642d3b4a81f40e7d9b26828fbd852fe2faf78ef193ef3994bc59ad87eeb4bf"
+    },
+    {
+      "path": "results/2026-09-10/table-refinement/README.md",
+      "before_sha256": "05647a16bdd14904cf2472a839519bc09938327f1348e62aa649dd261d3ca8d4",
+      "after_sha256": "64a6ffa1f282770d1c2410ffd1cc556dd46450a1f8e50d9e825eb11fe80e6825"
+    },
+    {
+      "path": "results/2026-09-10/visual-student-eval-v1/README.md",
+      "before_sha256": "77ff3cd391ec10c1eeacca4d6219bcdff5b2bc625c8342ab454159ecbe0acf5d",
+      "after_sha256": "4cd53c2ca43001c966eda40fa07a99ca7e9413e975c0d1a09f0c59a4bfc113fe"
+    },
+    {
+      "path": "results/2026-09-10/bowl-scale-crosscheck/README.md",
+      "before_sha256": "0e87d8181b1825ea35ef685a26f4863e6f16de14c488c707b7d91516f6a85c31",
+      "after_sha256": "c0c636ea9dd7299ffc9a50b919a9f04517491b6bf82dcf9aa6f493f9f33cc52e"
+    },
+    {
+      "path": "results/2026-09-10/student-failure-audit/README.md",
+      "before_sha256": "c51219a3d7cc6faa178b4f5b05c0c1dac5b6c420edfbb7d86f893e613a291ceb",
+      "after_sha256": "367f767f5c44bcb3a6268d39b85f7269744095da5a59ac0264cde71d0cf1b1cb"
+    },
+    {
+      "path": "results/2026-09-10/single-bottle-student/README.md",
+      "before_sha256": "6974e81ffb1abd2fdcef9c07258b233e321cb31d1da67c0bcb636c19b8610af7",
+      "after_sha256": "ecc385f99700cb5f28e3dcc10506cba3ad776aee992c52ac41fd665f4dc58012"
+    },
+    {
+      "path": "results/2026-09-10/lecun-student-eval/README.md",
+      "before_sha256": "3d72258e0af78b1dc1e7dfb5683b832461923d403aa9ebece3e907e81ef6e6b1",
+      "after_sha256": "ca9430cdfb8b15c340142eca5169855d50ce596ce8e112cb2d051c51ee7585ee"
+    },
+    {
+      "path": "results/2026-09-10/init-sensitivity-crosscheck/README.md",
+      "before_sha256": "7125419c8b3a77801ebc5ac5659392ab651011a9c8fb0bf9e61325ca79971fd7",
+      "after_sha256": "e931771019e3cdf031c4256943c8aa780dd4e0fca1701d554b49de8f383c486d"
+    },
+    {
+      "path": "results/2026-09-10/contact-diagnosis-crosscheck/README.md",
+      "before_sha256": "740bdd722166f432f6c8422f57219c89e543242d7f247118dbde0e8a1cfe9dfb",
+      "after_sha256": "08f0773c376596e1a56bb704668cb67d40c410f8e412014c63ce297a4f11ef17"
+    },
+    {
+      "path": "results/2026-09-11/README.md",
+      "before_sha256": "e5c5823e06a49e32d57bcc48fd3b7db7eca4d4f5bc3b126e249a6fc9c8a8ecec",
+      "after_sha256": "de98305340e25930ee969fc6d22ad197e5192479da894006d523e093f9a6c89b"
+    },
+    {
+      "path": "results/2026-09-11/student-action-precision/README.md",
+      "before_sha256": "c1260373a2e8a8fadd4499f75143e3f37aad137405e5f3dfb48ad3e80ab05b25",
+      "after_sha256": "d2c6eb1f9dad0abb35a964123fdd7da332f0bda20a762199e91c45a41022a969"
+    },
+    {
+      "path": "results/2026-09-11/student-next-diagnosis/README.md",
+      "before_sha256": "0f2185223ac6fdb5378869f19775e25698d5735333e79f2ffbfd066b9dcce1a6",
+      "after_sha256": "06c988fe3efd72d5a67ceb146f9205b1f171c2325e64906dc2aeda0920137b5d"
+    },
+    {
+      "path": "results/2026-09-11/hope-milk-multiccd/README.md",
+      "before_sha256": "0a2945cfc7fb8a406755a72299b9f4d48c608efd832beac0822f8fe74021065c",
+      "after_sha256": "eb9ba8ef8931bbd229ab21f727dbbe4eef5670dd2a19cca48b82b1e73b79527a"
+    },
+    {
+      "path": "results/2026-09-11/consolidated-status/README.md",
+      "before_sha256": "c4b893b4e62b0ca5f617f787d7caa3de29c41c42e71c8e7503009c08b4c9a2e6",
+      "after_sha256": "700b427cef7d15912b879924b78bebc60380f833ee0b3f3969f8503b58831b05"
+    },
+    {
+      "path": "results/2026-09-11/hope-geometry-groups/README.md",
+      "before_sha256": "c5e36557cb301ab616c3a4aee087f673e340d2399b09a16d88bde63244712142",
+      "after_sha256": "cd0194a97922747f103cf0b563f14d74b03aa855d2f2d99e370197d3c56963b0"
+    },
+    {
+      "path": "results/2026-09-11/single-student-x0/README.md",
+      "before_sha256": "06fde525a816d885447352602006f06cad597011c708eda25b29051c4ded5f2e",
+      "after_sha256": "88f98cf1fee36a48cbe36ad368ceb78f7244fa50ecb7439ffc27996ef2c9fcea"
+    },
+    {
+      "path": "results/2026-09-11/single-student-diagnosis/README.md",
+      "before_sha256": "a9b6ccfdd6d84f5ea070a2ba1b62d49091c553f0829823fe7e61e0185b4fd402",
+      "after_sha256": "c69c8e4e28978717b07dbe343256a2e5c480ed20a050b891b67e490ec91da676"
+    },
+    {
+      "path": "results/2026-09-11/milk-handoff-crosscheck/README.md",
+      "before_sha256": "3a7d6ca2a5f6ef13298caa44ddabb62eca4bc900eb6ef0e086d5d2077690171b",
+      "after_sha256": "a8ae743e8ad20630947a6842b108740dbde5f714e2f571b0488d0ad3121c1bda"
+    },
+    {
+      "path": "results/2026-09-11/hope-multiccd-ab/README.md",
+      "before_sha256": "8fc10201a3d5dd8b46f5bd3a74fb40ff7b23ee06b584b52a1100b90a226f5637",
+      "after_sha256": "e91ea093e3052e563029494bd8de616658375882d8fc4157996efdd68743d77d"
+    },
+    {
+      "path": "results/2026-09-11/teacher-observation-diagnosis/README.md",
+      "before_sha256": "c184e99310c6099fe6dfcdd3fdd943aee88b3304929f3d0a7e76c9235e33ca8e",
+      "after_sha256": "e147443d8d48e9b8cf84a0fb0f75e0d1fd8ad4f4475387ca629024c3f7a4b7bb"
+    },
+    {
+      "path": "results/2026-09-11/hope-milk-state-diagnosis/README.md",
+      "before_sha256": "91efdc16fe75a6e724ab9944351127e26ad167c4fccdae57c350b1367aa6adca",
+      "after_sha256": "f5ebb820eeec1814928db92ee16f3a800aa644d0ad85dcea9d79cc099ecc3c59"
+    },
+    {
+      "path": "results/2026-09-11/ten-hour-codex/README.md",
+      "before_sha256": "bc98c5338a47c8e16507eaeab3de9094683571060bfa0d72d5ac141977f72df4",
+      "after_sha256": "8058e6b8e666084496b95309c720bc8df1b37d51044b72dded348976c3a83561"
+    },
+    {
+      "path": "results/2026-09-11/hope-clutter/README.md",
+      "before_sha256": "90b5cf861336c84f799202cb6c5cda85d7ba23ad594744c2c26366ca71d7ab05",
+      "after_sha256": "0a8bac5ba416a2e083a7419c06d4aa7a3b735a4583c3673754106e9bd51a1d49"
+    },
+    {
+      "path": "results/2026-09-11/x0-denoising-trace/README.md",
+      "before_sha256": "91189e204c93c62d12c81d6e6b3689a3be495ec08d9f34a5a3a52a473a80e6dc",
+      "after_sha256": "ff812cf64e85522115b18ab7ce569d1a12d35b89515cca2ba9612cf70c0bba70"
+    },
+    {
+      "path": "results/2026-09-11/student-low-noise-training/README.md",
+      "before_sha256": "3b2104b40c350d62fdcba0a3e899cbb8eea60cee17787a82bdfb70b628bc4b01",
+      "after_sha256": "c8aa0c30910a126eee6554ee8d018304c08189814a8936236c47f19a8e482fa4"
+    },
+    {
+      "path": "results/2026-09-11/hope-pilot/README.md",
+      "before_sha256": "851dbc1a84fa301f4197a6dcbd5e70fcdadf7d3723aa1fbffc9f236aaa783359",
+      "after_sha256": "7a353dd4dc5c2e1b03f8ce7080f2fa71f8502f89fd70cf1f62cf6a6bf07bdedb"
+    },
+    {
+      "path": "results/2026-09-11/squeeze-branch/README.md",
+      "before_sha256": "83ef266dfd8ebc44825227f6cd52d964cab893cd8e7fbf576b616e7582c98cdc",
+      "after_sha256": "0c7d7456d9e4686c68acd0815eec3cbd21e507396bb639b8f499c112e6225e27"
+    },
+    {
+      "path": "results/2026-09-11/hope-twelve-student/README.md",
+      "before_sha256": "b4061b347a923c55fa75d7512878483745ca767a4f57b9267de786d9a9f5f211",
+      "after_sha256": "7ec70a32f5df33f54dd5a87efdf8857ea37dc4cf801f5d661f242c09dee21739"
+    },
+    {
+      "path": "results/2026-09-11/hope-pilot-crosscheck/README.md",
+      "before_sha256": "b90370fe66ab5d0383a0cd37e34d1bef06961b73abc8bcbcac6e84fab87ab5ca",
+      "after_sha256": "50a113d345224d6b5d021e75df0c4695125e1b0bc8d11fe1c1ecce4af6ac965f"
+    },
+    {
+      "path": "results/2026-09-11/hope-diversity-crosscheck/README.md",
+      "before_sha256": "c8fabc09cb5523aee16e1fc572c445e0bc871d26a4ccb9f8ef5d335a51bc4528",
+      "after_sha256": "da62bc584f91821cf740a99358f75e518edcc32a1ca95386fdf652a6a4d52add"
+    },
+    {
+      "path": "results/2026-09-11/x0-loss-audit/README.md",
+      "before_sha256": "44278f70a388c4731f18493040e90f45964b3924374e998f3fa515a21119bcab",
+      "after_sha256": "b5dc5e8d2b23dd32743d1e089de80c7168da3d825465ebea63c286cb02123b6b"
+    },
+    {
+      "path": "results/2026-09-11/hope-diversity-student-intake/README.md",
+      "before_sha256": "c33dbb515c5f4d59333c8d439b576bcf7bd35303b2c452c887114343a265361d",
+      "after_sha256": "c21e50375a528ff53d57c0c9b1c26610c6af170663d568c7d7c5bc01fcbed0da"
+    },
+    {
+      "path": "results/2026-09-11/hope-candidate-diversity/README.md",
+      "before_sha256": "211736998d19c6a227b5f076cf0b5123124c52f2f42105ea37027309f706fd76",
+      "after_sha256": "e203cc1d83aaaa9e79b5d631624cd89e8027564bf229a5890b2fbc4b70806dba"
+    },
+    {
+      "path": "results/2026-09-11/student-acquisition-contract/README.md",
+      "before_sha256": "eda2e6e5f26111d38e709e981e8d4c627743b229f3571c945f358d807dba4ba1",
+      "after_sha256": "aa25e1caa9eedc90aa3b0ad30544926d133183952571e022e3819aab791e09bc"
+    },
+    {
+      "path": "results/2026-09-11/student-slew-v1/launch-record.md",
+      "before_sha256": "e74f5b0501899980e0612dac49e5e9f1ecd1ec324ae6b4b179ddd87fed3f9107",
+      "after_sha256": "41967d2625e861bcac991eba665549dd159673e783ffc1f6a1d245bc15e5e5c5"
+    },
+    {
+      "path": "results/2026-09-11/student-slew-v1/README.md",
+      "before_sha256": "8dbed66436784c90519e978b86683f8d0cb686106c3d7d792ddc453079c64929",
+      "after_sha256": "b225d3dd7bd66a472b2f14916bbb555df78f47b8a312ef1d6faee13cf5321c36"
+    },
+    {
+      "path": "results/2026-09-11/hope-new-shapes/README.md",
+      "before_sha256": "a4d1268640c6576fd874b02f573790bb6556833750268127b9f5c2dcd9bed553",
+      "after_sha256": "ca6c734a37b0aad022fee21a6d5e304622487f7b679fd94ecfaabfa8c8bd31a1"
+    },
+    {
+      "path": "results/2026-09-11/hope-first-demonstration/README.md",
+      "before_sha256": "f87f9e9bcfb67b423125267a09a8f3aa6da636c4b52f8d3f49f7fce1a14ff424",
+      "after_sha256": "26fb026fecd1e2899045454c2276e6a32d907aea36742b14b6db317e2a515dea"
+    },
+    {
+      "path": "results/2026-09-11/student-sampler-steps/README.md",
+      "before_sha256": "05f46629406a9298bb3f654644166884f9ea0828ca3d73c7718d60947ebe916e",
+      "after_sha256": "ba26df16d3c865ed2d93bdec2c945ca81a45b613f6bb9ea15bca833b7f0fae09"
+    },
+    {
+      "path": "results/2026-09-11/hope-student-intake/README.md",
+      "before_sha256": "1242ecb5428dee776184d0ac557ae0295cd0dc7e5276ed267f0d02ee6b4066ed",
+      "after_sha256": "4b95c004d87033613f4c2585f26af54c5afac460a0af89f40ff08881050fa660"
+    },
+    {
+      "path": "results/2026-09-11/hope-budget-crosscheck/README.md",
+      "before_sha256": "15f86a5c7b165aef65c4c22f1fa8cafc63a1172317fc405295c445e357f74eba",
+      "after_sha256": "cfcff554219b76cf57662f8879def65cecfe0fd2b4422e129c686fb410a8226f"
+    },
+    {
+      "path": "results/2026-09-11/milk-state-crosscheck/README.md",
+      "before_sha256": "22070420f552289685ed403427a688a9dd523322638f0b8aff8e5cbd3d0816e4",
+      "after_sha256": "f37034d69811ebc03b0542b0eb6f10e2abdb6bd11ed435ad3713c0b11c66d332"
+    },
+    {
+      "path": "results/2026-09-11/hope-centre/README.md",
+      "before_sha256": "0aacff0f1363a4deef07a584c560e607aedebb3ce0693f77d081c2c3a7553cab",
+      "after_sha256": "4808d03337b1b7bf012097e9e0c158c6f0b7f2abf50bd9a84229e39933585467"
+    },
+    {
+      "path": "results/2026-09-07/README.md",
+      "before_sha256": "705e1001287f18ff69ea6bc4ba1ae6d9f0cb00a02f5750c9c3300bb674ebd15c",
+      "after_sha256": "2d4e600f44ae75132f3f24592fd72f2265244cca8e73740e3a08d2cbd1b2a78e"
+    },
+    {
+      "path": "results/2026-09-08/README.md",
+      "before_sha256": "9cf68c298da445f67673d0a7476ad22bda17666ca527aa244f2c5cbc8c78a0d9",
+      "after_sha256": "d9f2203d7ee35c97210fedc8b36a110e1f82bc47b0109cf14d839e8af242df98"
+    },
+    {
+      "path": "results/2026-09-08/grip-offset/README.md",
+      "before_sha256": "a4267247886fc3f9a66f8ebdc7aa8cbf164bd0418ec9d68b48be757d3067017f",
+      "after_sha256": "1c6820d6405a814a6b6dd56232322b88898b047460f3085563e3c82f31557bff"
+    },
+    {
+      "path": "results/2026-09-08/candidate-screen/README.md",
+      "before_sha256": "e057d9c4d638bd8030f5a95b35a3c64052a7a42a66d06b2eeb0574687f6bce9e",
+      "after_sha256": "261f7c5e025e74af50d7b160d5738c65d5988c2b756332ed776cc3e82da97db9"
+    },
+    {
+      "path": "results/2026-09-08/training-preparation/README.md",
+      "before_sha256": "319ebcf06f4195c6153026582faf3657c92e0b67e2e00884733094fd22797b9a",
+      "after_sha256": "02f6e8b279580103d95f7230c9c00c86c8f7a7e5790c8b5c67072444ba7113f4"
+    },
+    {
+      "path": "results/2026-09-08/grip-offset-compare/README.md",
+      "before_sha256": "3324cb457f073c9347233bf6ebba38e315c45f828c030eb3d72e6294fcb5d96c",
+      "after_sha256": "ac945e7cdc11df19f7a79e3041905a896a8841dcdd0c4b30806b12b92c1c6e74"
+    },
+    {
+      "path": "results/2026-09-08/fixed-student/README.md",
+      "before_sha256": "0c9621256103fd5777b00fcd2a4cb502e4b0a5a6da45556df2e5ac60b72ff5c1",
+      "after_sha256": "13b14a8f9f90d966fbd3369a6772a34e70f02839637d628e04912a1b68ba0be4"
+    },
+    {
+      "path": "results/2026-09-08/graspgenx-alignment/README.md",
+      "before_sha256": "1f22d0b63b15e70117452eac1ffe70e3934e064f746bb42d5727a019e2938e8d",
+      "after_sha256": "63c154fb11bc14d4c63f9cfac279cc74fab97c6fa8cb688788be4af39c57a6d9"
+    },
+    {
+      "path": "results/2026-09-08/rl-facing/README.md",
+      "before_sha256": "efd02a3db52bcab1730daeac85c6f698c33a460d53cf03163397af50d5c7d4de",
+      "after_sha256": "249e8524875ade0ae7c44582b88271af67f516ece67503d68fab90287e6dea19"
+    },
+    {
+      "path": "results/2026-09-08/contact-physics/README.md",
+      "before_sha256": "76a03fa318f4218ca1f7d6e37071710cd02a02dbd2ec604cfd536a8a91ca36e0",
+      "after_sha256": "4bd72068424f1b24cdaf5bdb165e872acf17e6c649a78bb3a9038845e271a093"
+    },
+    {
+      "path": "results/2026-09-08/rl-baseline/README.md",
+      "before_sha256": "fb4923d625bfd4189d9a41b1faed0762b58ee126089cdc03b9fbf248d9c3ccfb",
+      "after_sha256": "6d4ef3d0c7d3420ad555c97261499ff830184b3ffd982fd60a3aafe50056ddb2"
+    },
+    {
+      "path": "results/2026-09-08/approach-rl/README.md",
+      "before_sha256": "12d4ee41cef2f76d4a910e4ebf3dd3b43dff434d9b55859ac26c57554558f108",
+      "after_sha256": "42c7ff87611c0de7cb4ddb851b14177e8170efb3abe6e863d3fee6d9275a156b"
+    },
+    {
+      "path": "results/2026-09-08/grip-offset-pipeline/README.md",
+      "before_sha256": "fc0d942a4a4a0b293537ace2e776b3e6fb9bd8de96c259ba430ef15d517af6fa",
+      "after_sha256": "2d53d5802dcd4c155163468289d81d8ad6622575d2b7fcf660e14ac0f2434456"
+    },
+    {
+      "path": "results/2026-09-08/contact-feedback/README.md",
+      "before_sha256": "dc3a9fe5a8dcd985e74e8aac6fea1b477e71818f83549b1df05920472be31521",
+      "after_sha256": "7a28e30bcc211bc7885164f6f250379d9bfacd8f03ddf5a4a7a22d92738cad0e"
+    },
+    {
+      "path": "results/2026-09-08/grasp-provenance/README.md",
+      "before_sha256": "6a584417179b583989970b87e624a31cfb9b2e1fb724a6159fcd1fc97d89c944",
+      "after_sha256": "6ecd90a1933fbfaa5f1b1a8339c569c6d64b0ed0859c753221ab8d5febeefc89"
+    },
+    {
+      "path": "results/2026-09-08/audit/README.md",
+      "before_sha256": "d1e5ce10eca88e81ec906c81005b9a6ee2503196204b27650d21d171e59e6f40",
+      "after_sha256": "34c674e7288568c925f7c98fe72293f2a38be04fa45511330117d28a1f5e10e4"
+    },
+    {
+      "path": "results/2026-09-08/closure-relief/README.md",
+      "before_sha256": "bc633838515ffc5904eee688327b80e43b7df8594c8202688d54868cee5fc09f",
+      "after_sha256": "94a819052d8c3b61d290d91f1273e8a181933be04913c6fbaa4a885510a880c7"
+    },
+    {
+      "path": "results/2026-09-08/grip-offset-93/README.md",
+      "before_sha256": "21aa37334ff78c5316838df559f3ad33fa523f4d06d6895765b7fe7630f0a4df",
+      "after_sha256": "e456bb173cff84542ef2a15db54fa3cc715aec18d339a2246631aad4118560d0"
+    },
+    {
+      "path": "results/2026-09-08/contact-approach/README.md",
+      "before_sha256": "7e520199ceffa4aeec33bd016bf6b2928b1e091c304ec894d97658b19ee899c8",
+      "after_sha256": "56663806fdc95bcdb5078fa11247e2e672cfc8d59ce921594882c4f830812428"
+    },
+    {
+      "path": "results/2026-09-09/overnight-plan.md",
+      "before_sha256": "6e68a33f9ba910cb22fdeae5ff7f53d30f2b2b1c45c0eae2d748bba12289a251",
+      "after_sha256": "c219cd8715182233a09ca36848f502a9edfdb22e8aaa6b0221910664bc9e9cec"
+    },
+    {
+      "path": "results/2026-09-09/README.md",
+      "before_sha256": "04c323708620c1200e87bcc112c4152ab43fd8d91d540b93bd708a36acaf611c",
+      "after_sha256": "93cb3ded22701d7ab5a94c6fe82a116abfb0a03830b642290cedd1c964d0ec44"
+    },
+    {
+      "path": "results/2026-09-09/student-readiness/README.md",
+      "before_sha256": "69781a56d10cea9d7fd20669a4adbca71f09dfcc01b1e9af7ea226bc9d58f890",
+      "after_sha256": "2735e913b20a805d15f34e4cc933534b4e86715263d441a2053042db9c079784"
+    },
+    {
+      "path": "results/2026-09-09/multiobject/README.md",
+      "before_sha256": "6722955d9394565ba7adf856b7bab6751fe5b37db011533a0e8dc409f9844156",
+      "after_sha256": "ebc6f2ce2ec2a44c6672ffe90388e403b511dc338b9cf09160c67001350d8643"
+    },
+    {
+      "path": "results/2026-09-09/mask-visibility/README.md",
+      "before_sha256": "055f6a679e5a1fcd976fc9f00320c85de9aca06510024ebe4131167611bba624",
+      "after_sha256": "fbf18a9caafb73d3c38724a425450ff9cca16c5a63375258000fab97b2c443e7"
+    },
+    {
+      "path": "results/2026-09-09/overnight-bc-ppo/README.md",
+      "before_sha256": "1a34028143b686a3655a69d69eab9818fba9856d48455760501ec45ee3cfffd4",
+      "after_sha256": "b1ce5429515248eacc3a559f744dbe1056335ad96df11fa02939c782a29dc466"
+    },
+    {
+      "path": "results/2026-09-09/visual-goal-v2/README.md",
+      "before_sha256": "9724e2c4c33b0a5625013b3544437bc97bd5c9e56126eec5224b71303515cac1",
+      "after_sha256": "1b8cbf519c9aff10e70c3eda66ec4e8636616feaa6f85896c376ea5ea1bbb3da"
+    },
+    {
+      "path": "results/2026-09-09/multiobject-crosscheck/README.md",
+      "before_sha256": "68c3a9f33f4453934b527c32425af75df304c39d0290969b3847b83c62a69a7a",
+      "after_sha256": "ce83b7cb99766c54112da3e68f777f2b50c655c376c2d1ac2844e8bbb8b6cab7"
+    },
+    {
+      "path": "results/2026-09-09/kl-and-seeds/README.md",
+      "before_sha256": "101f90368ead35213c71843a04f13d4d53d8b8d0b265df4ac49906de24a8eed0",
+      "after_sha256": "4db115f3c47135fc18a1bfe0223a02712f6a6882f957905969b0cb061d0867bf"
+    },
+    {
+      "path": "results/2026-09-09/approach-bc-v1/README.md",
+      "before_sha256": "2bca0429f1e1cbf51116187dd73ae776bd008eaa8e7ee755fa7c1b2714a786a6",
+      "after_sha256": "5922bff5ac51843ed806ab68e139262c692626378c5b3db7f3a12d8fde422fd6"
+    },
+    {
+      "path": "results/2026-09-09/selection-and-kl/README.md",
+      "before_sha256": "d4b1fc6d4fee9eb52fd2237d06aab1f6bb283ccbe6eb75f6ca96380646825755",
+      "after_sha256": "13b8b53425d5dc4b4a60380f10176154a8ffeba83850e85f25ccbfac08b61a50"
+    },
+    {
+      "path": "results/2026-09-09/dino-setup/README.md",
+      "before_sha256": "52fb9c611c6a64f9d99fb96324d3c9f738b5937f057739456086c7a127e30296",
+      "after_sha256": "e30f7eee755e9ee7132544cf4f13a6e70d93e19f11c1b0d6b5303eb3978d8657"
+    },
+    {
+      "path": "results/2026-09-09/approach-ppo-v1/README.md",
+      "before_sha256": "31e9faf44e2cfc5e0df1b8a38d910a23cb814823be025a8ad5cab7b3a924924a",
+      "after_sha256": "2794684ebed0772f23c2472604aebdedad666ff0c8e50df923cec9dda2d8b016"
+    },
+    {
+      "path": "results/2026-09-09/cpu-multiobject-screen/README.md",
+      "before_sha256": "213314c6103de9d02ba43bc3969813236c9e7d10975540ce416c8f0a39b8020f",
+      "after_sha256": "6720c6e53ca08722d9db0b29b648792384b37c6647a7f965c98aac93bf0e1175"
+    },
+    {
+      "path": "paper/rules.md",
+      "before_sha256": "80ce9a813f03175704ed35e76631bbfb990dff0b5cdf3ab37d0617c0d3eb71dd",
+      "after_sha256": "3dca6d6945ef601f41d69fb9958cd304408ee347d4eff6d1bfd8e8c35f9e25c2"
+    },
+    {
+      "path": "paper/dexprompt.tex",
+      "before_sha256": "2d4194448659da87618e64ab88f4c4b06b31c110fff7bbefebb5129f29dd669c",
+      "after_sha256": "5ad352800525a7bae9297c9b1ebe7649f8e1d2ab6d815cf18e5d03bf3e1cefc7"
+    },
+    {
+      "path": "patches/README.md",
+      "before_sha256": "ec3cf0e6f8a086fb08b8ab66d0b729c90ade8662562665a4983bc171be158d9b",
+      "after_sha256": "86068b8b9928f68c8a878cfed80d6ca808996e6d6b5640823fa0ef322116dab8"
+    }
+  ],
+  "new_documents": [
+    {
+      "path": "RESEARCH_PLAN.md",
+      "sha256": "85404120e607e9b29620211ecfb67dba1371f98c80db26c54f83b118c9ba66b9"
+    },
+    {
+      "path": "plans/CURRENT_WORK.md",
+      "sha256": "c8ae508a6c4664046ad3d91de2ada5ef80f6a6bcfb007e82b082edfa951e0ca6"
+    },
+    {
+      "path": "plans/archive/2026-09-12/PAPER_TODO.md",
+      "sha256": "a8fa3e08fcb7544d23a5e570ab33bbfec35faabb58edecdad86eddac53b5bddd"
+    },
+    {
+      "path": "plans/archive/2026-09-12/ROADMAP.md",
+      "sha256": "466c9f5326f4707590e21572a3a7f88eb4bcb3bb32f42dfa83bec64704aa4797"
+    },
+    {
+      "path": "plans/archive/2026-09-12/RESUME.md",
+      "sha256": "8359a0e0c998bfd640816cd8a641148394981a425d91f8c32cfc78c509b72e12"
+    },
+    {
+      "path": "results/2026-09-12/README.md",
+      "sha256": "7f5b7d613fe478db5e5f1e5e0d2937005fe909f32493a8164621dcf4ebd150b5"
+    },
+    {
+      "path": "results/2026-09-12/document-sync/README.md",
+      "sha256": "c369c2894c9b73be90eb9c00b586a64730265c7fe74e0732e8ecf593528b8281"
+    }
+  ],
+  "checks": {
+    "local_file_links_checked": 662,
+    "broken_local_links": [],
+    "historical_body_changes_only_link_repairs": [
+      "results/2026-09-07/README.md",
+      "results/2026-09-08/training-preparation/README.md",
+      "results/2026-09-08/audit/README.md"
+    ],
+    "undefined_citations": [],
+    "tex_structure_errors": [],
+    "latex_compile": "not run; compiler unavailable",
+    "added_trailing_whitespace": []
+  }
+}

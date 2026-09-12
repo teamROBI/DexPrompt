@@ -1,0 +1,1219 @@
+{
+  "frozen_at": 1789225806.196527,
+  "decisions": [
+    {
+      "name": "AlphabetSoup-057c04e1d5-centre-2ad2b264",
+      "admitted": false,
+      "outcome": {
+        "success": false,
+        "ticks": 1192,
+        "failure": "approach_displacement",
+        "contact_acquisition_tick": 712,
+        "terminal_hold_seconds": 1.0,
+        "longest_hold_seconds": 1.0,
+        "max_height_m": 0.11811717557293466,
+        "max_penetration_m": 0.0015683628340315222,
+        "max_digit_force_n": 14.720461215146672,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "AlphabetSoup-057c04e1d5-x_minus10mm-3fb32c7a",
+      "admitted": false,
+      "outcome": {
+        "success": false,
+        "ticks": 1121,
+        "failure": "approach_displacement",
+        "contact_acquisition_tick": 631,
+        "terminal_hold_seconds": 1.0,
+        "longest_hold_seconds": 1.0,
+        "max_height_m": 0.11275778567440387,
+        "max_penetration_m": 0.0017183839066628858,
+        "max_digit_force_n": 15.915644312359179,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "AlphabetSoup-057c04e1d5-x_minus20mm-49df6b4a",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1199,
+        "failure": null,
+        "contact_acquisition_tick": 630,
+        "terminal_hold_seconds": 1.0,
+        "longest_hold_seconds": 1.0,
+        "max_height_m": 0.11820652384045138,
+        "max_penetration_m": 0.0017360147167174546,
+        "max_digit_force_n": 16.094849319645053,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "AlphabetSoup-057c04e1d5-x_plus10mm-1035b7c5",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1133,
+        "failure": null,
+        "contact_acquisition_tick": 629,
+        "terminal_hold_seconds": 1.0,
+        "longest_hold_seconds": 1.0,
+        "max_height_m": 0.1198568784119336,
+        "max_penetration_m": 0.0017444631302936727,
+        "max_digit_force_n": 15.405261655722283,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "AlphabetSoup-057c04e1d5-x_plus20mm-d6f637c3",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1125,
+        "failure": null,
+        "contact_acquisition_tick": 668,
+        "terminal_hold_seconds": 1.0,
+        "longest_hold_seconds": 1.0,
+        "max_height_m": 0.13993487813420813,
+        "max_penetration_m": 0.0016911739959689163,
+        "max_digit_force_n": 15.42103216501959,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "AlphabetSoup-057c04e1d5-y_minus10mm-24fe2872",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1141,
+        "failure": null,
+        "contact_acquisition_tick": 632,
+        "terminal_hold_seconds": 1.0,
+        "longest_hold_seconds": 1.0,
+        "max_height_m": 0.11662546306461885,
+        "max_penetration_m": 0.0015338189174125833,
+        "max_digit_force_n": 19.803936095055654,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "AlphabetSoup-057c04e1d5-y_plus10mm-c3e58f42",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1128,
+        "failure": null,
+        "contact_acquisition_tick": 629,
+        "terminal_hold_seconds": 1.0,
+        "longest_hold_seconds": 1.0,
+        "max_height_m": 0.12363956815276445,
+        "max_penetration_m": 0.0017215105305371677,
+        "max_digit_force_n": 15.619535185799288,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "AlphabetSoup-057c04e1d5-y_plus20mm-cd1c3af4",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1139,
+        "failure": null,
+        "contact_acquisition_tick": 629,
+        "terminal_hold_seconds": 1.0,
+        "longest_hold_seconds": 1.0,
+        "max_height_m": 0.12168120475395183,
+        "max_penetration_m": 0.0017862148075975656,
+        "max_digit_force_n": 16.485856286041646,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "AlphabetSoup-057c04e1d5-yaw_minus15-54973e51",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1143,
+        "failure": null,
+        "contact_acquisition_tick": 629,
+        "terminal_hold_seconds": 1.0,
+        "longest_hold_seconds": 1.0,
+        "max_height_m": 0.14568009789025338,
+        "max_penetration_m": 0.0014277821060096963,
+        "max_digit_force_n": 12.979765628457068,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "AlphabetSoup-057c04e1d5-yaw_minus7_5-20f6dc15",
+      "admitted": false,
+      "outcome": {
+        "success": false,
+        "ticks": 1089,
+        "failure": "approach_displacement",
+        "contact_acquisition_tick": 663,
+        "terminal_hold_seconds": 1.0,
+        "longest_hold_seconds": 1.0,
+        "max_height_m": 0.11714271183516067,
+        "max_penetration_m": 0.0018170118293497695,
+        "max_digit_force_n": 16.621556978108817,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "AlphabetSoup-1443cca6ce-centre-e15f2780",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 979,
+        "failure": null,
+        "contact_acquisition_tick": 629,
+        "terminal_hold_seconds": 2.64,
+        "longest_hold_seconds": 2.64,
+        "max_height_m": 0.14425772264353653,
+        "max_penetration_m": 0.001999632543514883,
+        "max_digit_force_n": 29.942162888453396,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "AlphabetSoup-1443cca6ce-x_minus20mm-c38792a5",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 981,
+        "failure": null,
+        "contact_acquisition_tick": 631,
+        "terminal_hold_seconds": 2.64,
+        "longest_hold_seconds": 2.64,
+        "max_height_m": 0.1444012091672935,
+        "max_penetration_m": 0.0019995964041424805,
+        "max_digit_force_n": 29.9017117306883,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "AlphabetSoup-1443cca6ce-yaw_plus15-41d6c926",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 983,
+        "failure": null,
+        "contact_acquisition_tick": 632,
+        "terminal_hold_seconds": 2.66,
+        "longest_hold_seconds": 2.66,
+        "max_height_m": 0.14471893032728633,
+        "max_penetration_m": 0.0019851658703454378,
+        "max_digit_force_n": 29.266708436687303,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "AlphabetSoup-34815d4f21-centre-409a5d4a",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1024,
+        "failure": null,
+        "contact_acquisition_tick": 631,
+        "terminal_hold_seconds": 2.48,
+        "longest_hold_seconds": 2.48,
+        "max_height_m": 0.1451532308325375,
+        "max_penetration_m": 0.0018226167277979875,
+        "max_digit_force_n": 28.00594909898513,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "AlphabetSoup-34815d4f21-x_plus20mm-80545e00",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 982,
+        "failure": null,
+        "contact_acquisition_tick": 630,
+        "terminal_hold_seconds": 2.7600000000000002,
+        "longest_hold_seconds": 2.7600000000000002,
+        "max_height_m": 0.14837638887603366,
+        "max_penetration_m": 0.001949808797256266,
+        "max_digit_force_n": 26.350919219463734,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "AlphabetSoup-34815d4f21-y_minus20mm-7946f4bc",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1020,
+        "failure": null,
+        "contact_acquisition_tick": 635,
+        "terminal_hold_seconds": 2.7800000000000002,
+        "longest_hold_seconds": 2.7800000000000002,
+        "max_height_m": 0.14812556556064582,
+        "max_penetration_m": 0.0019948912243528826,
+        "max_digit_force_n": 26.13747200356366,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "AlphabetSoup-34815d4f21-y_plus10mm-62aa3bbc",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 991,
+        "failure": null,
+        "contact_acquisition_tick": 630,
+        "terminal_hold_seconds": 2.16,
+        "longest_hold_seconds": 2.16,
+        "max_height_m": 0.13863174342363593,
+        "max_penetration_m": 0.0019707600583050897,
+        "max_digit_force_n": 25.26394154590931,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "AlphabetSoup-34815d4f21-y_plus20mm-5dfe2268",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1015,
+        "failure": null,
+        "contact_acquisition_tick": 633,
+        "terminal_hold_seconds": 2.12,
+        "longest_hold_seconds": 2.12,
+        "max_height_m": 0.13832595720212737,
+        "max_penetration_m": 0.0018631182578584362,
+        "max_digit_force_n": 29.29366107222426,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "AlphabetSoup-34815d4f21-yaw_minus15-bc33cdba",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 980,
+        "failure": null,
+        "contact_acquisition_tick": 628,
+        "terminal_hold_seconds": 2.7800000000000002,
+        "longest_hold_seconds": 2.7800000000000002,
+        "max_height_m": 0.14854888366345287,
+        "max_penetration_m": 0.0019759772691172093,
+        "max_digit_force_n": 27.802054911618697,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "AlphabetSoup-34815d4f21-yaw_minus7_5-79d5ff1a",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 979,
+        "failure": null,
+        "contact_acquisition_tick": 629,
+        "terminal_hold_seconds": 2.3000000000000003,
+        "longest_hold_seconds": 2.3000000000000003,
+        "max_height_m": 0.14527895481429187,
+        "max_penetration_m": 0.0018634076955779757,
+        "max_digit_force_n": 25.382453551816724,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "AlphabetSoup-34815d4f21-yaw_plus15-0aa9e867",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1014,
+        "failure": null,
+        "contact_acquisition_tick": 633,
+        "terminal_hold_seconds": 2.7600000000000002,
+        "longest_hold_seconds": 2.7600000000000002,
+        "max_height_m": 0.14819443250623499,
+        "max_penetration_m": 0.0019340544277343294,
+        "max_digit_force_n": 26.882178522702006,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "AlphabetSoup-34815d4f21-yaw_plus7_5-c16fa3d6",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 981,
+        "failure": null,
+        "contact_acquisition_tick": 628,
+        "terminal_hold_seconds": 2.7600000000000002,
+        "longest_hold_seconds": 2.7600000000000002,
+        "max_height_m": 0.14860102584257662,
+        "max_penetration_m": 0.0019676429611685123,
+        "max_digit_force_n": 27.99219939354304,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "AlphabetSoup-99f5c885db-centre-142fb5c9",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1007,
+        "failure": null,
+        "contact_acquisition_tick": 657,
+        "terminal_hold_seconds": 2.7600000000000002,
+        "longest_hold_seconds": 2.7600000000000002,
+        "max_height_m": 0.14880900712939538,
+        "max_penetration_m": 0.0019748159555320805,
+        "max_digit_force_n": 18.31187987244241,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Peaches-203b95f140-centre-3e88a9af",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1006,
+        "failure": null,
+        "contact_acquisition_tick": 647,
+        "terminal_hold_seconds": 2.7800000000000002,
+        "longest_hold_seconds": 2.7800000000000002,
+        "max_height_m": 0.14811856745693897,
+        "max_penetration_m": 0.0019613581516328754,
+        "max_digit_force_n": 28.890554327589477,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Peaches-203b95f140-x_plus20mm-ebcec15f",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1000,
+        "failure": null,
+        "contact_acquisition_tick": 642,
+        "terminal_hold_seconds": 2.8000000000000003,
+        "longest_hold_seconds": 2.8000000000000003,
+        "max_height_m": 0.14872044690633734,
+        "max_penetration_m": 0.001998799271298373,
+        "max_digit_force_n": 28.860398277017868,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Peaches-7a8cdecf40-centre-9aa66578",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1047,
+        "failure": null,
+        "contact_acquisition_tick": 697,
+        "terminal_hold_seconds": 2.72,
+        "longest_hold_seconds": 2.72,
+        "max_height_m": 0.14460558116941102,
+        "max_penetration_m": 0.0018871609849941027,
+        "max_digit_force_n": 16.763981894029982,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Peaches-7a8cdecf40-x_minus10mm-6e31880c",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1033,
+        "failure": null,
+        "contact_acquisition_tick": 672,
+        "terminal_hold_seconds": 2.62,
+        "longest_hold_seconds": 2.62,
+        "max_height_m": 0.11726498528201734,
+        "max_penetration_m": 0.0018686048015771734,
+        "max_digit_force_n": 15.557072865401151,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Peaches-7a8cdecf40-x_minus20mm-7644d279",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1331,
+        "failure": null,
+        "contact_acquisition_tick": 677,
+        "terminal_hold_seconds": 1.0,
+        "longest_hold_seconds": 1.0,
+        "max_height_m": 0.10423209848549042,
+        "max_penetration_m": 0.0018877324199375485,
+        "max_digit_force_n": 16.255167980282117,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Peaches-7a8cdecf40-x_plus10mm-08552500",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1023,
+        "failure": null,
+        "contact_acquisition_tick": 673,
+        "terminal_hold_seconds": 2.7600000000000002,
+        "longest_hold_seconds": 2.7600000000000002,
+        "max_height_m": 0.14883601980685435,
+        "max_penetration_m": 0.0019394836112728792,
+        "max_digit_force_n": 14.948224562255286,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Peaches-7a8cdecf40-x_plus20mm-06c2f29a",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1024,
+        "failure": null,
+        "contact_acquisition_tick": 674,
+        "terminal_hold_seconds": 2.7600000000000002,
+        "longest_hold_seconds": 2.7600000000000002,
+        "max_height_m": 0.14872810464458797,
+        "max_penetration_m": 0.0018903359744814783,
+        "max_digit_force_n": 16.14276018368121,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Peaches-7a8cdecf40-y_minus10mm-d695819f",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1021,
+        "failure": null,
+        "contact_acquisition_tick": 671,
+        "terminal_hold_seconds": 2.72,
+        "longest_hold_seconds": 2.72,
+        "max_height_m": 0.147964329028763,
+        "max_penetration_m": 0.0017377698425763237,
+        "max_digit_force_n": 17.218261320014136,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Peaches-7a8cdecf40-y_minus20mm-8d63d0af",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 997,
+        "failure": null,
+        "contact_acquisition_tick": 646,
+        "terminal_hold_seconds": 2.7800000000000002,
+        "longest_hold_seconds": 2.7800000000000002,
+        "max_height_m": 0.14917012590174805,
+        "max_penetration_m": 0.0019231955920793234,
+        "max_digit_force_n": 15.006462644902838,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Peaches-7a8cdecf40-y_plus10mm-f0ca6700",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1055,
+        "failure": null,
+        "contact_acquisition_tick": 676,
+        "terminal_hold_seconds": 2.7600000000000002,
+        "longest_hold_seconds": 2.7600000000000002,
+        "max_height_m": 0.13788875865313288,
+        "max_penetration_m": 0.001940746030058216,
+        "max_digit_force_n": 16.78618546192536,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Peaches-7a8cdecf40-y_plus20mm-51353162",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1039,
+        "failure": null,
+        "contact_acquisition_tick": 676,
+        "terminal_hold_seconds": 2.74,
+        "longest_hold_seconds": 2.74,
+        "max_height_m": 0.12577279926165497,
+        "max_penetration_m": 0.0018971663903793257,
+        "max_digit_force_n": 16.609674717108895,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Peaches-7a8cdecf40-yaw_minus7_5-0758704d",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1268,
+        "failure": null,
+        "contact_acquisition_tick": 671,
+        "terminal_hold_seconds": 1.0,
+        "longest_hold_seconds": 1.0,
+        "max_height_m": 0.10686091018400012,
+        "max_penetration_m": 0.0018360079416880556,
+        "max_digit_force_n": 15.502613271448984,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Peaches-7a8cdecf40-yaw_plus15-80e872f6",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1044,
+        "failure": null,
+        "contact_acquisition_tick": 673,
+        "terminal_hold_seconds": 2.74,
+        "longest_hold_seconds": 2.74,
+        "max_height_m": 0.14798315917490623,
+        "max_penetration_m": 0.0019038885694493285,
+        "max_digit_force_n": 16.29262472396701,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Peaches-7a8cdecf40-yaw_plus7_5-958c156e",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1022,
+        "failure": null,
+        "contact_acquisition_tick": 672,
+        "terminal_hold_seconds": 2.7600000000000002,
+        "longest_hold_seconds": 2.7600000000000002,
+        "max_height_m": 0.14904406664117786,
+        "max_penetration_m": 0.0019421906001355032,
+        "max_digit_force_n": 14.14064628519257,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-0ddf3447c0-centre-fe233e9e",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 985,
+        "failure": null,
+        "contact_acquisition_tick": 635,
+        "terminal_hold_seconds": 2.8000000000000003,
+        "longest_hold_seconds": 2.8000000000000003,
+        "max_height_m": 0.13350494397994395,
+        "max_penetration_m": 0.0019997032280554493,
+        "max_digit_force_n": 11.91546198230378,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-0ddf3447c0-yaw_plus15-4089eeb6",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1008,
+        "failure": null,
+        "contact_acquisition_tick": 633,
+        "terminal_hold_seconds": 2.8000000000000003,
+        "longest_hold_seconds": 2.8000000000000003,
+        "max_height_m": 0.14853109322622882,
+        "max_penetration_m": 0.0019946718872430646,
+        "max_digit_force_n": 11.324460465415592,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-3e8fa79936-centre-0c6b54be",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1046,
+        "failure": null,
+        "contact_acquisition_tick": 666,
+        "terminal_hold_seconds": 2.6,
+        "longest_hold_seconds": 2.6,
+        "max_height_m": 0.12861480784360135,
+        "max_penetration_m": 0.0016777759304360787,
+        "max_digit_force_n": 9.801307460336336,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-3e8fa79936-x_minus10mm-d55713a9",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1022,
+        "failure": null,
+        "contact_acquisition_tick": 665,
+        "terminal_hold_seconds": 2.6,
+        "longest_hold_seconds": 2.6,
+        "max_height_m": 0.1184333235760825,
+        "max_penetration_m": 0.00173169436941562,
+        "max_digit_force_n": 10.34757372317075,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-3e8fa79936-x_plus10mm-ca6d8c9f",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1028,
+        "failure": null,
+        "contact_acquisition_tick": 664,
+        "terminal_hold_seconds": 2.56,
+        "longest_hold_seconds": 2.56,
+        "max_height_m": 0.1390228969356323,
+        "max_penetration_m": 0.001647611785230049,
+        "max_digit_force_n": 10.0338400385326,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-3e8fa79936-x_plus20mm-4500d25c",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1026,
+        "failure": null,
+        "contact_acquisition_tick": 665,
+        "terminal_hold_seconds": 2.6,
+        "longest_hold_seconds": 2.6,
+        "max_height_m": 0.14118359624889365,
+        "max_penetration_m": 0.001465103554862756,
+        "max_digit_force_n": 9.442866767956916,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-3e8fa79936-y_minus10mm-6d20b0b7",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1025,
+        "failure": null,
+        "contact_acquisition_tick": 664,
+        "terminal_hold_seconds": 2.6,
+        "longest_hold_seconds": 2.6,
+        "max_height_m": 0.1381635767159951,
+        "max_penetration_m": 0.001465240074167546,
+        "max_digit_force_n": 9.465234859814574,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-3e8fa79936-y_minus20mm-19f6f1cb",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1034,
+        "failure": null,
+        "contact_acquisition_tick": 666,
+        "terminal_hold_seconds": 2.6,
+        "longest_hold_seconds": 2.6,
+        "max_height_m": 0.14176889837645257,
+        "max_penetration_m": 0.0017010399107032104,
+        "max_digit_force_n": 9.80685840780587,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-3e8fa79936-y_plus10mm-9d3b91f9",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1029,
+        "failure": null,
+        "contact_acquisition_tick": 665,
+        "terminal_hold_seconds": 2.62,
+        "longest_hold_seconds": 2.62,
+        "max_height_m": 0.12041385637314506,
+        "max_penetration_m": 0.0016779293287995066,
+        "max_digit_force_n": 9.775749707586055,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-3e8fa79936-y_plus20mm-6da9697f",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1020,
+        "failure": null,
+        "contact_acquisition_tick": 663,
+        "terminal_hold_seconds": 2.58,
+        "longest_hold_seconds": 2.58,
+        "max_height_m": 0.11232169464298636,
+        "max_penetration_m": 0.0015286194996894612,
+        "max_digit_force_n": 9.860274395602238,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-3e8fa79936-yaw_plus15-06354bdd",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1022,
+        "failure": null,
+        "contact_acquisition_tick": 665,
+        "terminal_hold_seconds": 2.56,
+        "longest_hold_seconds": 2.56,
+        "max_height_m": 0.14093935742145236,
+        "max_penetration_m": 0.0015611576652135918,
+        "max_digit_force_n": 9.886158115776187,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-3e8fa79936-yaw_plus7_5-1c855952",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1036,
+        "failure": null,
+        "contact_acquisition_tick": 665,
+        "terminal_hold_seconds": 2.56,
+        "longest_hold_seconds": 2.56,
+        "max_height_m": 0.14125335504471148,
+        "max_penetration_m": 0.0016886892640033803,
+        "max_digit_force_n": 10.202749754200273,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-438146b501-centre-66854882",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1030,
+        "failure": null,
+        "contact_acquisition_tick": 658,
+        "terminal_hold_seconds": 2.66,
+        "longest_hold_seconds": 2.66,
+        "max_height_m": 0.14363741587047274,
+        "max_penetration_m": 0.0019988463446650407,
+        "max_digit_force_n": 15.539215623404978,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-5ce67ebebc-centre-21dfd8cd",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 990,
+        "failure": null,
+        "contact_acquisition_tick": 640,
+        "terminal_hold_seconds": 2.74,
+        "longest_hold_seconds": 2.74,
+        "max_height_m": 0.11953946637338486,
+        "max_penetration_m": 0.001998562324950521,
+        "max_digit_force_n": 11.943494980853284,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-61abcb552d-centre-1439167a",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1072,
+        "failure": null,
+        "contact_acquisition_tick": 630,
+        "terminal_hold_seconds": 1.0,
+        "longest_hold_seconds": 2.46,
+        "max_height_m": 0.1351030150189534,
+        "max_penetration_m": 0.0019999932590993464,
+        "max_digit_force_n": 10.617958363443233,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-6e4f0004b3-centre-2d03cc8e",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 980,
+        "failure": null,
+        "contact_acquisition_tick": 629,
+        "terminal_hold_seconds": 2.84,
+        "longest_hold_seconds": 2.84,
+        "max_height_m": 0.14909886926566807,
+        "max_penetration_m": 0.0019972188141927877,
+        "max_digit_force_n": 13.958402452250018,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-6f9d5db293-centre-21f9dd74",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1154,
+        "failure": null,
+        "contact_acquisition_tick": 659,
+        "terminal_hold_seconds": 2.46,
+        "longest_hold_seconds": 2.46,
+        "max_height_m": 0.1324600305828496,
+        "max_penetration_m": 0.001902934832056043,
+        "max_digit_force_n": 11.791796815988146,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-7eede966f9-centre-9f474932",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1015,
+        "failure": null,
+        "contact_acquisition_tick": 665,
+        "terminal_hold_seconds": 2.6,
+        "longest_hold_seconds": 2.6,
+        "max_height_m": 0.1420754647701541,
+        "max_penetration_m": 0.0019458052905391942,
+        "max_digit_force_n": 12.17955110590909,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-81839469d4-centre-bc0fa693",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1028,
+        "failure": null,
+        "contact_acquisition_tick": 678,
+        "terminal_hold_seconds": 2.72,
+        "longest_hold_seconds": 2.72,
+        "max_height_m": 0.14629158173777346,
+        "max_penetration_m": 0.0019996979261337946,
+        "max_digit_force_n": 13.40493135889864,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-852eaf0fdf-centre-931653bf",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1015,
+        "failure": null,
+        "contact_acquisition_tick": 665,
+        "terminal_hold_seconds": 2.6,
+        "longest_hold_seconds": 2.6,
+        "max_height_m": 0.14217795407467693,
+        "max_penetration_m": 0.0019147448332622937,
+        "max_digit_force_n": 9.935894585928605,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-998fcd28f3-centre-dd328e6c",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1062,
+        "failure": null,
+        "contact_acquisition_tick": 682,
+        "terminal_hold_seconds": 2.9,
+        "longest_hold_seconds": 2.9,
+        "max_height_m": 0.14362464514655504,
+        "max_penetration_m": 0.0019999952138777277,
+        "max_digit_force_n": 12.05337912801482,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-a0a0731a28-centre-8c08172a",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1144,
+        "failure": null,
+        "contact_acquisition_tick": 698,
+        "terminal_hold_seconds": 2.56,
+        "longest_hold_seconds": 2.56,
+        "max_height_m": 0.1250374215518032,
+        "max_penetration_m": 0.0019970029693912434,
+        "max_digit_force_n": 18.21814914160802,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-af15fdf0bc-centre-0ef25c7b",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1018,
+        "failure": null,
+        "contact_acquisition_tick": 664,
+        "terminal_hold_seconds": 2.62,
+        "longest_hold_seconds": 2.62,
+        "max_height_m": 0.1422339317987794,
+        "max_penetration_m": 0.0013366850320508732,
+        "max_digit_force_n": 10.952599948889382,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-af15fdf0bc-x_minus10mm-29035397",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1016,
+        "failure": null,
+        "contact_acquisition_tick": 662,
+        "terminal_hold_seconds": 2.62,
+        "longest_hold_seconds": 2.62,
+        "max_height_m": 0.14246227388077926,
+        "max_penetration_m": 0.0013470926620195915,
+        "max_digit_force_n": 11.316153477501192,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-af15fdf0bc-x_minus20mm-49865f79",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1013,
+        "failure": null,
+        "contact_acquisition_tick": 663,
+        "terminal_hold_seconds": 2.64,
+        "longest_hold_seconds": 2.64,
+        "max_height_m": 0.14284768397674008,
+        "max_penetration_m": 0.0013324449403680741,
+        "max_digit_force_n": 11.132914392181275,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-af15fdf0bc-x_plus10mm-3d23613b",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1016,
+        "failure": null,
+        "contact_acquisition_tick": 663,
+        "terminal_hold_seconds": 2.62,
+        "longest_hold_seconds": 2.62,
+        "max_height_m": 0.14240476136431035,
+        "max_penetration_m": 0.0013123393761429014,
+        "max_digit_force_n": 9.771425507432284,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-af15fdf0bc-x_plus20mm-de330ba8",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1018,
+        "failure": null,
+        "contact_acquisition_tick": 663,
+        "terminal_hold_seconds": 2.6,
+        "longest_hold_seconds": 2.6,
+        "max_height_m": 0.14206773329343936,
+        "max_penetration_m": 0.0013554585610573496,
+        "max_digit_force_n": 9.852036600582569,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-af15fdf0bc-y_minus10mm-d3a3469b",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1019,
+        "failure": null,
+        "contact_acquisition_tick": 664,
+        "terminal_hold_seconds": 2.6,
+        "longest_hold_seconds": 2.6,
+        "max_height_m": 0.14201705470897874,
+        "max_penetration_m": 0.0013594957699403598,
+        "max_digit_force_n": 10.491661065422756,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-af15fdf0bc-y_minus20mm-da09c322",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1019,
+        "failure": null,
+        "contact_acquisition_tick": 664,
+        "terminal_hold_seconds": 2.6,
+        "longest_hold_seconds": 2.6,
+        "max_height_m": 0.14192361603919013,
+        "max_penetration_m": 0.0013564667959705518,
+        "max_digit_force_n": 10.784134158163916,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-af15fdf0bc-y_plus10mm-cc20c672",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1016,
+        "failure": null,
+        "contact_acquisition_tick": 662,
+        "terminal_hold_seconds": 2.6,
+        "longest_hold_seconds": 2.6,
+        "max_height_m": 0.14182357582873428,
+        "max_penetration_m": 0.0013658895037928517,
+        "max_digit_force_n": 11.235204015134299,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-af15fdf0bc-y_plus20mm-f2542680",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1015,
+        "failure": null,
+        "contact_acquisition_tick": 663,
+        "terminal_hold_seconds": 2.62,
+        "longest_hold_seconds": 2.62,
+        "max_height_m": 0.141855413831934,
+        "max_penetration_m": 0.00139522311399256,
+        "max_digit_force_n": 10.736993377965847,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-af15fdf0bc-yaw_minus7_5-6e1f2866",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1018,
+        "failure": null,
+        "contact_acquisition_tick": 663,
+        "terminal_hold_seconds": 2.62,
+        "longest_hold_seconds": 2.62,
+        "max_height_m": 0.12470572084601783,
+        "max_penetration_m": 0.0013799222638144124,
+        "max_digit_force_n": 10.67498024842243,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-af15fdf0bc-yaw_plus15-0344169f",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1018,
+        "failure": null,
+        "contact_acquisition_tick": 664,
+        "terminal_hold_seconds": 2.54,
+        "longest_hold_seconds": 2.54,
+        "max_height_m": 0.14052018502829544,
+        "max_penetration_m": 0.0014849127248598418,
+        "max_digit_force_n": 10.908521251604538,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-af15fdf0bc-yaw_plus7_5-0981d09f",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1020,
+        "failure": null,
+        "contact_acquisition_tick": 663,
+        "terminal_hold_seconds": 2.58,
+        "longest_hold_seconds": 2.58,
+        "max_height_m": 0.14123940039551075,
+        "max_penetration_m": 0.0014794899674182912,
+        "max_digit_force_n": 11.35851032444004,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-c9c6e48559-centre-94727bc4",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1020,
+        "failure": null,
+        "contact_acquisition_tick": 662,
+        "terminal_hold_seconds": 2.58,
+        "longest_hold_seconds": 2.58,
+        "max_height_m": 0.1182242491936144,
+        "max_penetration_m": 0.0019978849327558024,
+        "max_digit_force_n": 15.723284386067588,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-e8e6ad7c0f-centre-a2ad7e6c",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1070,
+        "failure": null,
+        "contact_acquisition_tick": 707,
+        "terminal_hold_seconds": 2.6,
+        "longest_hold_seconds": 2.6,
+        "max_height_m": 0.14175915726934885,
+        "max_penetration_m": 0.0019971010904457115,
+        "max_digit_force_n": 11.099447879792299,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-ec7552bd5f-centre-0afe70ee",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1115,
+        "failure": null,
+        "contact_acquisition_tick": 754,
+        "terminal_hold_seconds": 2.56,
+        "longest_hold_seconds": 2.56,
+        "max_height_m": 0.13804381330304438,
+        "max_penetration_m": 0.0019999878930316724,
+        "max_digit_force_n": 15.103240279324362,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    },
+    {
+      "name": "Raisins-ecd47d7b0a-centre-ed85bcc1",
+      "admitted": true,
+      "outcome": {
+        "success": true,
+        "ticks": 1007,
+        "failure": null,
+        "contact_acquisition_tick": 657,
+        "terminal_hold_seconds": 2.7600000000000002,
+        "longest_hold_seconds": 2.7600000000000002,
+        "max_height_m": 0.1441215948492457,
+        "max_penetration_m": 0.001993289124809965,
+        "max_digit_force_n": 16.634515834779247,
+        "evaluation_contract": "contact_acquisition_guard_v2"
+      }
+    }
+  ],
+  "train": 55,
+  "heldout": 17,
+  "diagnostic": 6,
+  "train_objects": {
+    "AlphabetSoup": 14,
+    "Peaches": 10,
+    "Raisins": 31
+  },
+  "heldout_objects": {
+    "AlphabetSoup": 6,
+    "Peaches": 4,
+    "Raisins": 7
+  },
+  "limitation": "All source episodes were selected teacher successes and historically evaluated. The heldout split is not a fresh prospective placement or new-shape test. Candidates and shapes overlap by design; no heldout actions/statistics enter training."
+}

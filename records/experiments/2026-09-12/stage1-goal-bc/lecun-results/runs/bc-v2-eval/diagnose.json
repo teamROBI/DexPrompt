@@ -1,0 +1,947 @@
+{
+ "action_scale": {
+  "arm": [
+   0.29763,
+   0.1593,
+   0.3037,
+   0.27699,
+   0.56532,
+   0.40446,
+   0.57017
+  ],
+  "finger_min": 0.07073064009502956,
+  "finger_max": 0.34601835176576595
+ },
+ "results": [
+  {
+   "name": "AlphabetSoup-1443cca6ce-centre-e15f2780",
+   "teacher_through_evaluation": {
+    "success": true,
+    "failure": null,
+    "ticks": 872,
+    "commands_and_signals_identical": false
+   },
+   "open_loop": {
+    "arm_mean_rad": 0.002106849991045227,
+    "finger_mean_rad": 0.0009852621109020128,
+    "first_ticks_arm_max": 0.017390231655699563,
+    "first_ticks_finger_max": 0.00652578068773596,
+    "by_phase": {
+     "approach": {
+      "arm": 0.0015311596244819224,
+      "finger": 0.00048446768773864325
+     },
+     "arrive": {
+      "arm": 0.003503665104801643,
+      "finger": 0.0006461487289923268
+     },
+     "close": {
+      "arm": 0.003427722818799368,
+      "finger": 0.001796467467921832
+     },
+     "descend": {
+      "arm": 0.002031598603728271,
+      "finger": 0.0006240606113871922
+     },
+     "hold": {
+      "arm": 0.0015422023166077577,
+      "finger": 0.001245372740083455
+     },
+     "lift": {
+      "arm": 0.001856174224952839,
+      "finger": 0.0012515505320872381
+     },
+     "transit": {
+      "arm": 0.002002139501258525,
+      "finger": 0.0006862770300594099
+     }
+    }
+   },
+   "closed_loop_first_ticks": [
+    {
+     "tick": 0,
+     "command_vs_teacher_arm": 0.01739031661739609,
+     "command_vs_teacher_finger": 0.00652578068773596,
+     "q_vs_teacher_arm": 0.0,
+     "q_vs_teacher_finger": 0.0,
+     "finger_command_from_open": 0.00652578068773596,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 5,
+     "command_vs_teacher_arm": 0.17177529910119527,
+     "command_vs_teacher_finger": 0.14224690505285226,
+     "q_vs_teacher_arm": 0.025387939773100728,
+     "q_vs_teacher_finger": 0.014553683299330877,
+     "finger_command_from_open": 0.14224690505285226,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 10,
+     "command_vs_teacher_arm": 0.7644668617347999,
+     "command_vs_teacher_finger": 0.2853371359062813,
+     "q_vs_teacher_arm": 0.138120313387744,
+     "q_vs_teacher_finger": 0.11244982390683944,
+     "finger_command_from_open": 0.2853371359062813,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 15,
+     "command_vs_teacher_arm": 0.7465502303742215,
+     "command_vs_teacher_finger": 0.36102520351874756,
+     "q_vs_teacher_arm": 0.32762943694601665,
+     "q_vs_teacher_finger": 0.2387715983789933,
+     "finger_command_from_open": 0.36102520351874756,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 20,
+     "command_vs_teacher_arm": 0.6886829085338603,
+     "command_vs_teacher_finger": 0.5216274496199431,
+     "q_vs_teacher_arm": 0.40788780122014245,
+     "q_vs_teacher_finger": 0.34172594212195023,
+     "finger_command_from_open": 0.5216274496199431,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 25,
+     "command_vs_teacher_arm": 0.6927515636596269,
+     "command_vs_teacher_finger": 0.6852934046897348,
+     "q_vs_teacher_arm": 0.5289318633663935,
+     "q_vs_teacher_finger": 0.5218839648910287,
+     "finger_command_from_open": 0.6852934046897348,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 30,
+     "command_vs_teacher_arm": 0.6640358859892779,
+     "command_vs_teacher_finger": 0.6753946477064492,
+     "q_vs_teacher_arm": 0.562423565614137,
+     "q_vs_teacher_finger": 0.5751009781617177,
+     "finger_command_from_open": 0.6753946477064492,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 35,
+     "command_vs_teacher_arm": 0.750668527877659,
+     "command_vs_teacher_finger": 0.5656966102781038,
+     "q_vs_teacher_arm": 0.637119881146341,
+     "q_vs_teacher_finger": 0.6387307408272732,
+     "finger_command_from_open": 0.5656966102781038,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 40,
+     "command_vs_teacher_arm": 0.7989143118099149,
+     "command_vs_teacher_finger": 0.49610615590993024,
+     "q_vs_teacher_arm": 0.7080869161359418,
+     "q_vs_teacher_finger": 0.4917939632308599,
+     "finger_command_from_open": 0.49610615590993024,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 45,
+     "command_vs_teacher_arm": 0.9162570887459699,
+     "command_vs_teacher_finger": 0.4544763550700759,
+     "q_vs_teacher_arm": 0.669052523733445,
+     "q_vs_teacher_finger": 0.4840962599412254,
+     "finger_command_from_open": 0.4544763550700759,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 50,
+     "command_vs_teacher_arm": 0.5760266578074443,
+     "command_vs_teacher_finger": 0.44746881024842383,
+     "q_vs_teacher_arm": 0.5862880146369993,
+     "q_vs_teacher_finger": 0.4492737145569865,
+     "finger_command_from_open": 0.44746881024842383,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 55,
+     "command_vs_teacher_arm": 0.6428884347965282,
+     "command_vs_teacher_finger": 0.5004401611441986,
+     "q_vs_teacher_arm": 0.5174745875375552,
+     "q_vs_teacher_finger": 0.3697424829708718,
+     "finger_command_from_open": 0.5004401611441986,
+     "teacher_finger_command_from_open": 0.0
+    }
+   ]
+  },
+  {
+   "name": "AlphabetSoup-057c04e1d5-x_minus20mm-49df6b4a",
+   "teacher_through_evaluation": {
+    "success": true,
+    "failure": null,
+    "ticks": 1134,
+    "commands_and_signals_identical": false
+   },
+   "open_loop": {
+    "arm_mean_rad": 0.0019006008853211702,
+    "finger_mean_rad": 0.0012256602380243515,
+    "first_ticks_arm_max": 0.010381366884193109,
+    "first_ticks_finger_max": 0.004810393297737692,
+    "by_phase": {
+     "approach": {
+      "arm": 0.00176171289932686,
+      "finger": 0.0005740299791964651
+     },
+     "arrive": {
+      "arm": 0.0019867492288112238,
+      "finger": 0.0009271491264128913
+     },
+     "close": {
+      "arm": 0.002665518114486469,
+      "finger": 0.0017529293406826699
+     },
+     "descend": {
+      "arm": 0.0013789572722361096,
+      "finger": 0.0008041168121966457
+     },
+     "hold": {
+      "arm": 0.001775006366014725,
+      "finger": 0.0016706883294033718
+     },
+     "lift": {
+      "arm": 0.0018428391893982783,
+      "finger": 0.0015120038868239166
+     },
+     "transit": {
+      "arm": 0.0020595380651520436,
+      "finger": 0.0006869474591527072
+     }
+    }
+   },
+   "closed_loop_first_ticks": [
+    {
+     "tick": 0,
+     "command_vs_teacher_arm": 0.010381366884193109,
+     "command_vs_teacher_finger": 0.004810372673436758,
+     "q_vs_teacher_arm": 0.0,
+     "q_vs_teacher_finger": 0.0,
+     "finger_command_from_open": 0.004810372673436758,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 5,
+     "command_vs_teacher_arm": 0.14252028334142297,
+     "command_vs_teacher_finger": 0.03328513330714192,
+     "q_vs_teacher_arm": 0.029820493271321177,
+     "q_vs_teacher_finger": 0.006543084086408316,
+     "finger_command_from_open": 0.03328513330714192,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 10,
+     "command_vs_teacher_arm": 0.5271232210339956,
+     "command_vs_teacher_finger": 0.16721570859670398,
+     "q_vs_teacher_arm": 0.11032312496563959,
+     "q_vs_teacher_finger": 0.0636370530397351,
+     "finger_command_from_open": 0.16721570859670398,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 15,
+     "command_vs_teacher_arm": 0.5925918126616099,
+     "command_vs_teacher_finger": 0.30554338801769326,
+     "q_vs_teacher_arm": 0.19370102241859524,
+     "q_vs_teacher_finger": 0.17929845504963082,
+     "finger_command_from_open": 0.30554338801769326,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 20,
+     "command_vs_teacher_arm": 0.3508520049620709,
+     "command_vs_teacher_finger": 0.21846888412061433,
+     "q_vs_teacher_arm": 0.27488502350623767,
+     "q_vs_teacher_finger": 0.22957343399985464,
+     "finger_command_from_open": 0.21846888412061433,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 25,
+     "command_vs_teacher_arm": 0.5017641925498895,
+     "command_vs_teacher_finger": 0.2851887414829606,
+     "q_vs_teacher_arm": 0.24343443436054768,
+     "q_vs_teacher_finger": 0.16834833404885574,
+     "finger_command_from_open": 0.2851887414829606,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 30,
+     "command_vs_teacher_arm": 0.41029210746440303,
+     "command_vs_teacher_finger": 0.4776951518228385,
+     "q_vs_teacher_arm": 0.3683244709558693,
+     "q_vs_teacher_finger": 0.28579226107676803,
+     "finger_command_from_open": 0.4776951518228385,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 35,
+     "command_vs_teacher_arm": 0.414866142565121,
+     "command_vs_teacher_finger": 0.4342245186901872,
+     "q_vs_teacher_arm": 0.34447427117552376,
+     "q_vs_teacher_finger": 0.44380551461138673,
+     "finger_command_from_open": 0.4342245186901872,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 40,
+     "command_vs_teacher_arm": 0.46748251049622036,
+     "command_vs_teacher_finger": 0.39983603862403305,
+     "q_vs_teacher_arm": 0.3726168398140528,
+     "q_vs_teacher_finger": 0.48726065057393053,
+     "finger_command_from_open": 0.39983603862403305,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 45,
+     "command_vs_teacher_arm": 0.5602263495987228,
+     "command_vs_teacher_finger": 0.3882961443567576,
+     "q_vs_teacher_arm": 0.39572045647550336,
+     "q_vs_teacher_finger": 0.3961379750298345,
+     "finger_command_from_open": 0.3882961443567576,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 50,
+     "command_vs_teacher_arm": 0.4039046493182961,
+     "command_vs_teacher_finger": 0.5829662449267221,
+     "q_vs_teacher_arm": 0.42468513742118474,
+     "q_vs_teacher_finger": 0.4140921654150439,
+     "finger_command_from_open": 0.5829662449267221,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 55,
+     "command_vs_teacher_arm": 0.4932497387634121,
+     "command_vs_teacher_finger": 0.48440132889308685,
+     "q_vs_teacher_arm": 0.38930269661413863,
+     "q_vs_teacher_finger": 0.5478197895059777,
+     "finger_command_from_open": 0.48440132889308685,
+     "teacher_finger_command_from_open": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Peaches-203b95f140-centre-3e88a9af",
+   "teacher_through_evaluation": {
+    "success": true,
+    "failure": null,
+    "ticks": 892,
+    "commands_and_signals_identical": false
+   },
+   "open_loop": {
+    "arm_mean_rad": 0.0019103801560775794,
+    "finger_mean_rad": 0.0012614735872756352,
+    "first_ticks_arm_max": 0.012232933321506887,
+    "first_ticks_finger_max": 0.005554257947450347,
+    "by_phase": {
+     "approach": {
+      "arm": 0.0013434132345047478,
+      "finger": 0.0005163653051021179
+     },
+     "arrive": {
+      "arm": 0.0014292000521559836,
+      "finger": 0.0006866226788692694
+     },
+     "close": {
+      "arm": 0.003003742824269942,
+      "finger": 0.0022967386894950075
+     },
+     "descend": {
+      "arm": 0.0026982927127422,
+      "finger": 0.0007555953153658805
+     },
+     "hold": {
+      "arm": 0.0020496805189680707,
+      "finger": 0.0017667558839371772
+     },
+     "lift": {
+      "arm": 0.0014645614803654096,
+      "finger": 0.0016238105470342276
+     },
+     "transit": {
+      "arm": 0.0020916507755878336,
+      "finger": 0.0008499328904676787
+     }
+    }
+   },
+   "closed_loop_first_ticks": [
+    {
+     "tick": 0,
+     "command_vs_teacher_arm": 0.012232933321506887,
+     "command_vs_teacher_finger": 0.005554272829671081,
+     "q_vs_teacher_arm": 0.0,
+     "q_vs_teacher_finger": 0.0,
+     "finger_command_from_open": 0.005554272829671081,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 5,
+     "command_vs_teacher_arm": 0.40121143464191816,
+     "command_vs_teacher_finger": 0.15009893756528142,
+     "q_vs_teacher_arm": 0.010796160065519055,
+     "q_vs_teacher_finger": 0.020307025039561943,
+     "finger_command_from_open": 0.15009893756528142,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 10,
+     "command_vs_teacher_arm": 0.5274721626608369,
+     "command_vs_teacher_finger": 0.2581693586113582,
+     "q_vs_teacher_arm": 0.12346825551445167,
+     "q_vs_teacher_finger": 0.12763925546891663,
+     "finger_command_from_open": 0.2581693586113582,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 15,
+     "command_vs_teacher_arm": 0.5620575170231423,
+     "command_vs_teacher_finger": 0.5117984440224459,
+     "q_vs_teacher_arm": 0.27736588189397304,
+     "q_vs_teacher_finger": 0.3103599962018153,
+     "finger_command_from_open": 0.5117984440224459,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 20,
+     "command_vs_teacher_arm": 0.4364113627245847,
+     "command_vs_teacher_finger": 0.4435917255652748,
+     "q_vs_teacher_arm": 0.40066179398940793,
+     "q_vs_teacher_finger": 0.4205215832453941,
+     "finger_command_from_open": 0.4435917255652748,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 25,
+     "command_vs_teacher_arm": 0.37655947713067506,
+     "command_vs_teacher_finger": 0.5500398784604135,
+     "q_vs_teacher_arm": 0.3952381824843799,
+     "q_vs_teacher_finger": 0.5030701781697515,
+     "finger_command_from_open": 0.5500398784604135,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 30,
+     "command_vs_teacher_arm": 0.4874172789464888,
+     "command_vs_teacher_finger": 0.7821405433221482,
+     "q_vs_teacher_arm": 0.33584814819287967,
+     "q_vs_teacher_finger": 0.58274854361912,
+     "finger_command_from_open": 0.7821405433221482,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 35,
+     "command_vs_teacher_arm": 0.7618316451546798,
+     "command_vs_teacher_finger": 0.6745240959636551,
+     "q_vs_teacher_arm": 0.43276587560020907,
+     "q_vs_teacher_finger": 0.7070381285163898,
+     "finger_command_from_open": 0.6745240959636551,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 40,
+     "command_vs_teacher_arm": 0.6945606750123572,
+     "command_vs_teacher_finger": 0.6455120361975748,
+     "q_vs_teacher_arm": 0.545483481080143,
+     "q_vs_teacher_finger": 0.6587613452830426,
+     "finger_command_from_open": 0.6455120361975748,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 45,
+     "command_vs_teacher_arm": 0.7229148138593233,
+     "command_vs_teacher_finger": 0.6691564978974951,
+     "q_vs_teacher_arm": 0.5683780715160767,
+     "q_vs_teacher_finger": 0.6332727372729138,
+     "finger_command_from_open": 0.6691564978974951,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 50,
+     "command_vs_teacher_arm": 0.7187039267189765,
+     "command_vs_teacher_finger": 0.5284140261748165,
+     "q_vs_teacher_arm": 0.5706873154979375,
+     "q_vs_teacher_finger": 0.6983203634186886,
+     "finger_command_from_open": 0.5284140261748165,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 55,
+     "command_vs_teacher_arm": 0.8006704782195562,
+     "command_vs_teacher_finger": 0.4450551743994209,
+     "q_vs_teacher_arm": 0.6365991892403613,
+     "q_vs_teacher_finger": 0.6168187053949736,
+     "finger_command_from_open": 0.4450551743994209,
+     "teacher_finger_command_from_open": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Peaches-203b95f140-x_plus20mm-ebcec15f",
+   "teacher_through_evaluation": {
+    "success": true,
+    "failure": null,
+    "ticks": 885,
+    "commands_and_signals_identical": false
+   },
+   "open_loop": {
+    "arm_mean_rad": 0.001785695946998641,
+    "finger_mean_rad": 0.0011040866483473675,
+    "first_ticks_arm_max": 0.011733639332579338,
+    "first_ticks_finger_max": 0.005992003052871453,
+    "by_phase": {
+     "approach": {
+      "arm": 0.0010500874922398718,
+      "finger": 0.0005337054854418442
+     },
+     "arrive": {
+      "arm": 0.0020020897954239033,
+      "finger": 0.000670659309890062
+     },
+     "close": {
+      "arm": 0.0029626431657070384,
+      "finger": 0.0020517504426103704
+     },
+     "descend": {
+      "arm": 0.0017282022811725233,
+      "finger": 0.0007862719408809231
+     },
+     "hold": {
+      "arm": 0.0016671304795618507,
+      "finger": 0.0015664117614679984
+     },
+     "lift": {
+      "arm": 0.001655940298572843,
+      "finger": 0.0013426411985237138
+     },
+     "transit": {
+      "arm": 0.0019157704155077164,
+      "finger": 0.000675157615752934
+     }
+    }
+   },
+   "closed_loop_first_ticks": [
+    {
+     "tick": 0,
+     "command_vs_teacher_arm": 0.011619355977246374,
+     "command_vs_teacher_finger": 0.00599193509227397,
+     "q_vs_teacher_arm": 0.0,
+     "q_vs_teacher_finger": 0.0,
+     "finger_command_from_open": 0.00599193509227397,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 5,
+     "command_vs_teacher_arm": 0.22454690987679637,
+     "command_vs_teacher_finger": 0.13262593647625293,
+     "q_vs_teacher_arm": 0.030837113647667686,
+     "q_vs_teacher_finger": 0.019471531513767154,
+     "finger_command_from_open": 0.13262593647625293,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 10,
+     "command_vs_teacher_arm": 0.882139966493293,
+     "command_vs_teacher_finger": 0.34823280555243985,
+     "q_vs_teacher_arm": 0.14617830177403301,
+     "q_vs_teacher_finger": 0.15214053928086546,
+     "finger_command_from_open": 0.34823280555243985,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 15,
+     "command_vs_teacher_arm": 0.6249904845673226,
+     "command_vs_teacher_finger": 0.4598328522135972,
+     "q_vs_teacher_arm": 0.307794073755872,
+     "q_vs_teacher_finger": 0.34139911910513676,
+     "finger_command_from_open": 0.4598328522135972,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 20,
+     "command_vs_teacher_arm": 0.7212258531587129,
+     "command_vs_teacher_finger": 0.44965058832613347,
+     "q_vs_teacher_arm": 0.4336162821956875,
+     "q_vs_teacher_finger": 0.41135395744775366,
+     "finger_command_from_open": 0.44965058832613347,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 25,
+     "command_vs_teacher_arm": 0.4236774709797407,
+     "command_vs_teacher_finger": 0.6116824697200796,
+     "q_vs_teacher_arm": 0.47004079409305466,
+     "q_vs_teacher_finger": 0.48391488283065487,
+     "finger_command_from_open": 0.6116824697200796,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 30,
+     "command_vs_teacher_arm": 0.5905872669166721,
+     "command_vs_teacher_finger": 0.5322824790944989,
+     "q_vs_teacher_arm": 0.4827661332951494,
+     "q_vs_teacher_finger": 0.580137834849397,
+     "finger_command_from_open": 0.5322824790944989,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 35,
+     "command_vs_teacher_arm": 0.47035485247772524,
+     "command_vs_teacher_finger": 0.5205592758255153,
+     "q_vs_teacher_arm": 0.5059460414325805,
+     "q_vs_teacher_finger": 0.5266249387026873,
+     "finger_command_from_open": 0.5205592758255153,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 40,
+     "command_vs_teacher_arm": 0.5142269239759061,
+     "command_vs_teacher_finger": 0.4660709761348316,
+     "q_vs_teacher_arm": 0.4705326671156831,
+     "q_vs_teacher_finger": 0.528127108221113,
+     "finger_command_from_open": 0.4660709761348316,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 45,
+     "command_vs_teacher_arm": 0.6786010729688305,
+     "command_vs_teacher_finger": 0.461261017917562,
+     "q_vs_teacher_arm": 0.46681409502305904,
+     "q_vs_teacher_finger": 0.4652651880246822,
+     "finger_command_from_open": 0.461261017917562,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 50,
+     "command_vs_teacher_arm": 0.6021300841203745,
+     "command_vs_teacher_finger": 0.592870632344165,
+     "q_vs_teacher_arm": 0.574495070417093,
+     "q_vs_teacher_finger": 0.5332002383470413,
+     "finger_command_from_open": 0.592870632344165,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 55,
+     "command_vs_teacher_arm": 0.5403753435421504,
+     "command_vs_teacher_finger": 0.5937666138500217,
+     "q_vs_teacher_arm": 0.5450072496446969,
+     "q_vs_teacher_finger": 0.5359853932392501,
+     "finger_command_from_open": 0.5937666138500217,
+     "teacher_finger_command_from_open": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Raisins-0ddf3447c0-centre-fe233e9e",
+   "teacher_through_evaluation": {
+    "success": true,
+    "failure": null,
+    "ticks": 870,
+    "commands_and_signals_identical": false
+   },
+   "open_loop": {
+    "arm_mean_rad": 0.002170374310301862,
+    "finger_mean_rad": 0.0011665642010030015,
+    "first_ticks_arm_max": 0.008671202172028325,
+    "first_ticks_finger_max": 0.004303512015893962,
+    "by_phase": {
+     "approach": {
+      "arm": 0.0017794901663543805,
+      "finger": 0.0011449316641766614
+     },
+     "arrive": {
+      "arm": 0.002114904942753577,
+      "finger": 0.0010004775409726133
+     },
+     "close": {
+      "arm": 0.0028536119053337345,
+      "finger": 0.002127419096628386
+     },
+     "descend": {
+      "arm": 0.002509675878318683,
+      "finger": 0.0010364993646704904
+     },
+     "hold": {
+      "arm": 0.001440597589334244,
+      "finger": 0.0010179849969483448
+     },
+     "lift": {
+      "arm": 0.0021281716785940988,
+      "finger": 0.0009389536788874159
+     },
+     "transit": {
+      "arm": 0.0021917559794345006,
+      "finger": 0.000969534631071529
+     }
+    }
+   },
+   "closed_loop_first_ticks": [
+    {
+     "tick": 0,
+     "command_vs_teacher_arm": 0.00796356652354465,
+     "command_vs_teacher_finger": 0.004303480270276855,
+     "q_vs_teacher_arm": 0.0,
+     "q_vs_teacher_finger": 0.0,
+     "finger_command_from_open": 0.004303480270276855,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 5,
+     "command_vs_teacher_arm": 0.11778598312681865,
+     "command_vs_teacher_finger": 0.1429501518092158,
+     "q_vs_teacher_arm": 0.019657655412342493,
+     "q_vs_teacher_finger": 0.021813540975678558,
+     "finger_command_from_open": 0.1429501518092158,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 10,
+     "command_vs_teacher_arm": 0.6188053098795249,
+     "command_vs_teacher_finger": 0.31148963503118965,
+     "q_vs_teacher_arm": 0.12094338928089907,
+     "q_vs_teacher_finger": 0.1375296045187322,
+     "finger_command_from_open": 0.31148963503118965,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 15,
+     "command_vs_teacher_arm": 0.702303064452686,
+     "command_vs_teacher_finger": 0.47837530901602165,
+     "q_vs_teacher_arm": 0.2752023087097881,
+     "q_vs_teacher_finger": 0.3009692166095882,
+     "finger_command_from_open": 0.47837530901602165,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 20,
+     "command_vs_teacher_arm": 0.7902184738383069,
+     "command_vs_teacher_finger": 0.7727967952739252,
+     "q_vs_teacher_arm": 0.4412409027322184,
+     "q_vs_teacher_finger": 0.4978924611186062,
+     "finger_command_from_open": 0.7727967952739252,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 25,
+     "command_vs_teacher_arm": 0.8307944498823808,
+     "command_vs_teacher_finger": 0.6670756386748684,
+     "q_vs_teacher_arm": 0.5105251181976289,
+     "q_vs_teacher_finger": 0.7015175716532147,
+     "finger_command_from_open": 0.6670756386748684,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 30,
+     "command_vs_teacher_arm": 0.8556989982452068,
+     "command_vs_teacher_finger": 0.5387881144590725,
+     "q_vs_teacher_arm": 0.6817490024700137,
+     "q_vs_teacher_finger": 0.6378755866572546,
+     "finger_command_from_open": 0.5387881144590725,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 35,
+     "command_vs_teacher_arm": 0.6381626922427481,
+     "command_vs_teacher_finger": 0.5219499298740262,
+     "q_vs_teacher_arm": 0.7260873576434526,
+     "q_vs_teacher_finger": 0.6060361385725221,
+     "finger_command_from_open": 0.5219499298740262,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 40,
+     "command_vs_teacher_arm": 0.8095617164605241,
+     "command_vs_teacher_finger": 0.6019469012025458,
+     "q_vs_teacher_arm": 0.6896540686014875,
+     "q_vs_teacher_finger": 0.5450656411980518,
+     "finger_command_from_open": 0.6019469012025458,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 45,
+     "command_vs_teacher_arm": 0.7710247741982197,
+     "command_vs_teacher_finger": 0.518992617816968,
+     "q_vs_teacher_arm": 0.7075253192337938,
+     "q_vs_teacher_finger": 0.59381176504643,
+     "finger_command_from_open": 0.518992617816968,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 50,
+     "command_vs_teacher_arm": 0.8654175586215893,
+     "command_vs_teacher_finger": 0.6346295296803128,
+     "q_vs_teacher_arm": 0.6856861574010082,
+     "q_vs_teacher_finger": 0.5752048407280984,
+     "finger_command_from_open": 0.6346295296803128,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 55,
+     "command_vs_teacher_arm": 0.8026943526276547,
+     "command_vs_teacher_finger": 0.579807435991021,
+     "q_vs_teacher_arm": 0.7635728019991168,
+     "q_vs_teacher_finger": 0.586043701337651,
+     "finger_command_from_open": 0.579807435991021,
+     "teacher_finger_command_from_open": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Raisins-0ddf3447c0-yaw_plus15-4089eeb6",
+   "teacher_through_evaluation": {
+    "success": true,
+    "failure": null,
+    "ticks": 893,
+    "commands_and_signals_identical": false
+   },
+   "open_loop": {
+    "arm_mean_rad": 0.0021239301528608225,
+    "finger_mean_rad": 0.0013614022395133111,
+    "first_ticks_arm_max": 0.015108968461355676,
+    "first_ticks_finger_max": 0.007010913707681921,
+    "by_phase": {
+     "approach": {
+      "arm": 0.0014147986066809857,
+      "finger": 0.0008270761449018526
+     },
+     "arrive": {
+      "arm": 0.0012719230423253614,
+      "finger": 0.0009758952464146638
+     },
+     "close": {
+      "arm": 0.0029453791528975086,
+      "finger": 0.0023182211743582606
+     },
+     "descend": {
+      "arm": 0.0025383677446342233,
+      "finger": 0.000955975110817531
+     },
+     "hold": {
+      "arm": 0.0015924495378827847,
+      "finger": 0.0015084553254774045
+     },
+     "lift": {
+      "arm": 0.002521258306685711,
+      "finger": 0.001558551864206086
+     },
+     "transit": {
+      "arm": 0.0016622531427949708,
+      "finger": 0.0011430049827060784
+     }
+    }
+   },
+   "closed_loop_first_ticks": [
+    {
+     "tick": 0,
+     "command_vs_teacher_arm": 0.015109067522003361,
+     "command_vs_teacher_finger": 0.007010913707681921,
+     "q_vs_teacher_arm": 0.0,
+     "q_vs_teacher_finger": 0.0,
+     "finger_command_from_open": 0.007010913707681921,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 5,
+     "command_vs_teacher_arm": 0.17717234973034016,
+     "command_vs_teacher_finger": 0.1332334300764556,
+     "q_vs_teacher_arm": 0.04337204800854057,
+     "q_vs_teacher_finger": 0.017424691258662695,
+     "finger_command_from_open": 0.1332334300764556,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 10,
+     "command_vs_teacher_arm": 0.6450928871711651,
+     "command_vs_teacher_finger": 0.29293816656448946,
+     "q_vs_teacher_arm": 0.1681920274617128,
+     "q_vs_teacher_finger": 0.11943621252670739,
+     "finger_command_from_open": 0.29293816656448946,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 15,
+     "command_vs_teacher_arm": 0.6731023500854373,
+     "command_vs_teacher_finger": 0.47805009472660553,
+     "q_vs_teacher_arm": 0.36260709040134076,
+     "q_vs_teacher_finger": 0.28574072954693674,
+     "finger_command_from_open": 0.47805009472660553,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 20,
+     "command_vs_teacher_arm": 0.8739639970609437,
+     "command_vs_teacher_finger": 0.6566287496454268,
+     "q_vs_teacher_arm": 0.5203793549168696,
+     "q_vs_teacher_finger": 0.5173657418546106,
+     "finger_command_from_open": 0.6566287496454268,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 25,
+     "command_vs_teacher_arm": 0.7765396379499032,
+     "command_vs_teacher_finger": 0.5705141672348131,
+     "q_vs_teacher_arm": 0.6248093216290775,
+     "q_vs_teacher_finger": 0.609160096540592,
+     "finger_command_from_open": 0.5705141672348131,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 30,
+     "command_vs_teacher_arm": 1.3331686207018227,
+     "command_vs_teacher_finger": 0.7735686803610091,
+     "q_vs_teacher_arm": 0.6994017422315351,
+     "q_vs_teacher_finger": 0.5705633658198271,
+     "finger_command_from_open": 0.7735686803610091,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 35,
+     "command_vs_teacher_arm": 1.136054261158449,
+     "command_vs_teacher_finger": 0.9154353680633267,
+     "q_vs_teacher_arm": 0.8456471440172132,
+     "q_vs_teacher_finger": 0.7150965360936766,
+     "finger_command_from_open": 0.9154353680633267,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 40,
+     "command_vs_teacher_arm": 1.041250923626825,
+     "command_vs_teacher_finger": 0.6765111738589795,
+     "q_vs_teacher_arm": 0.9854951848256399,
+     "q_vs_teacher_finger": 0.860193793094175,
+     "finger_command_from_open": 0.6765111738589795,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 45,
+     "command_vs_teacher_arm": 1.3305781964912449,
+     "command_vs_teacher_finger": 0.6980492922439284,
+     "q_vs_teacher_arm": 1.09303508017126,
+     "q_vs_teacher_finger": 0.7550246647723038,
+     "finger_command_from_open": 0.6980492922439284,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 50,
+     "command_vs_teacher_arm": 1.4436483105214024,
+     "command_vs_teacher_finger": 0.7433741221597779,
+     "q_vs_teacher_arm": 1.2385958837307198,
+     "q_vs_teacher_finger": 0.7007255276648934,
+     "finger_command_from_open": 0.7433741221597779,
+     "teacher_finger_command_from_open": 0.0
+    },
+    {
+     "tick": 55,
+     "command_vs_teacher_arm": 0.9771537668392581,
+     "command_vs_teacher_finger": 0.7463443556249485,
+     "q_vs_teacher_arm": 1.2756498968191192,
+     "q_vs_teacher_finger": 0.6874140190649346,
+     "finger_command_from_open": 0.7463443556249485,
+     "teacher_finger_command_from_open": 0.0
+    }
+   ]
+  }
+ ]
+}

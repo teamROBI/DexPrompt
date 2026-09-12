@@ -1,0 +1,95 @@
+{
+ "passed": true,
+ "episodes": [
+  {
+   "name": "AlphabetSoup-409a5d4a75d5",
+   "passed": true,
+   "features_identical_to_dp3": true,
+   "state_max_abs": 0.0,
+   "signals_max_abs": {
+    "contact_groups": 0.0,
+    "group_forces_min": 0.0,
+    "group_forces_max": 0.0,
+    "digit_force_max": 0.0,
+    "target_height_min": 0.0,
+    "object_xy_displacement_max": 0.0,
+    "non_target_displacement_max": 0.0,
+    "robot_object_penetration_max": 0.0,
+    "robot_table_penetration_max": 0.0,
+    "robot_obstacle_penetration_max": 0.0
+   },
+   "phase_free_outcome": {
+    "success": true,
+    "ticks": 1024,
+    "failure": null,
+    "contact_acquisition_tick": 631,
+    "terminal_hold_seconds": 2.48,
+    "longest_hold_seconds": 2.48,
+    "max_height_m": 0.1451532308325375,
+    "max_penetration_m": 0.0018226167277979875,
+    "max_digit_force_n": 28.00594909898513,
+    "evaluation_contract": "contact_acquisition_guard_v2"
+   }
+  },
+  {
+   "name": "Peaches-9aa6657866eb",
+   "passed": true,
+   "features_identical_to_dp3": true,
+   "state_max_abs": 0.0,
+   "signals_max_abs": {
+    "contact_groups": 0.0,
+    "group_forces_min": 0.0,
+    "group_forces_max": 0.0,
+    "digit_force_max": 0.0,
+    "target_height_min": 0.0,
+    "object_xy_displacement_max": 0.0,
+    "non_target_displacement_max": 0.0,
+    "robot_object_penetration_max": 0.0,
+    "robot_table_penetration_max": 0.0,
+    "robot_obstacle_penetration_max": 0.0
+   },
+   "phase_free_outcome": {
+    "success": true,
+    "ticks": 1047,
+    "failure": null,
+    "contact_acquisition_tick": 697,
+    "terminal_hold_seconds": 2.72,
+    "longest_hold_seconds": 2.72,
+    "max_height_m": 0.14460558116941102,
+    "max_penetration_m": 0.0018871609849941027,
+    "max_digit_force_n": 16.763981894029982,
+    "evaluation_contract": "contact_acquisition_guard_v2"
+   }
+  },
+  {
+   "name": "Raisins-0ef25c7b5eea",
+   "passed": true,
+   "features_identical_to_dp3": true,
+   "state_max_abs": 0.0,
+   "signals_max_abs": {
+    "contact_groups": 0.0,
+    "group_forces_min": 0.0,
+    "group_forces_max": 0.0,
+    "digit_force_max": 0.0,
+    "target_height_min": 0.0,
+    "object_xy_displacement_max": 0.0,
+    "non_target_displacement_max": 0.0,
+    "robot_object_penetration_max": 0.0,
+    "robot_table_penetration_max": 0.0,
+    "robot_obstacle_penetration_max": 0.0
+   },
+   "phase_free_outcome": {
+    "success": true,
+    "ticks": 1018,
+    "failure": null,
+    "contact_acquisition_tick": 664,
+    "terminal_hold_seconds": 2.62,
+    "longest_hold_seconds": 2.62,
+    "max_height_m": 0.1422339317987794,
+    "max_penetration_m": 0.0013366850320508732,
+    "max_digit_force_n": 10.952599948889382,
+    "evaluation_contract": "contact_acquisition_guard_v2"
+   }
+  }
+ ]
+}

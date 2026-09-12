@@ -1,0 +1,1702 @@
+[
+  {
+    "document": "records/experiments/2026-09-10/README.md",
+    "old": "../../RESEARCH_PLAN.md",
+    "new": "../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-10/penetration-and-scale/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-10/init-sensitivity/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-10/finger5-flexion/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-10/bowl-drop/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-10/finger5-crosscheck/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-10/visual-student-bc-v1/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-10/can-visual-student/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-10/teacher-expansion-crosscheck/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-10/bowl-drop-crosscheck/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-10/student-training-ready/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-10/overnight-teacher-expansion/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-10/server-migration/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-10/server-migration/README.md",
+    "old": "../../../SERVER_3090.md",
+    "new": "../../../../docs/lecun.md"
+  },
+  {
+    "document": "records/experiments/2026-09-10/contact-diagnosis/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-10/hope-data-readiness/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-10/table-refinement/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-10/visual-student-eval-v1/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-10/bowl-scale-crosscheck/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-10/student-failure-audit/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-10/single-bottle-student/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-10/lecun-student-eval/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-10/init-sensitivity-crosscheck/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-10/contact-diagnosis-crosscheck/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-11/README.md",
+    "old": "../../RESEARCH_PLAN.md",
+    "new": "../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-11/student-action-precision/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-11/student-next-diagnosis/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-11/student-next-diagnosis/README.md",
+    "old": "../../../plans/STUDENT_NEXT_SLEW_LIMITS.json",
+    "new": "../../../../plans/STUDENT_NEXT_SLEW_LIMITS.json"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-milk-multiccd/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-milk-multiccd/README.md",
+    "old": "../../../scripts/dexonomy_multiccd/sitecustomize.py",
+    "new": "../../../../scripts/dexonomy_multiccd/sitecustomize.py"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-milk-multiccd/README.md",
+    "old": "../../../scripts/run_hope_milk_multiccd.py",
+    "new": "../../../../scripts/experiments/run_hope_milk_multiccd.py"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-milk-multiccd/README.md",
+    "old": "../../../scripts/dexonomy_multiccd/sitecustomize.py",
+    "new": "../../../../scripts/dexonomy_multiccd/sitecustomize.py"
+  },
+  {
+    "document": "records/experiments/2026-09-11/consolidated-status/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-geometry-groups/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-11/single-student-x0/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-11/single-student-diagnosis/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-11/milk-handoff-crosscheck/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-multiccd-ab/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-multiccd-ab/README.md",
+    "old": "../../../scripts/collect_multiccd.py",
+    "new": "../../../../scripts/teacher/collect_multiccd.py"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-multiccd-ab/README.md",
+    "old": "../../../scripts/compare_multiccd.py",
+    "new": "../../../../scripts/diagnostics/compare_multiccd.py"
+  },
+  {
+    "document": "records/experiments/2026-09-11/teacher-observation-diagnosis/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-milk-state-diagnosis/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-milk-state-diagnosis/README.md",
+    "old": "../../../scripts/milk_state_diagnosis.py",
+    "new": "../../../../scripts/teacher/milk_state_diagnosis.py"
+  },
+  {
+    "document": "records/experiments/2026-09-11/ten-hour-codex/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-clutter/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-clutter/README.md",
+    "old": "../../../scripts/run_hope_clutter.py",
+    "new": "../../../../scripts/experiments/run_hope_clutter.py"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-clutter/README.md",
+    "old": "../../../scripts/collect_clutter.py",
+    "new": "../../../../scripts/collect_clutter.py"
+  },
+  {
+    "document": "records/experiments/2026-09-11/x0-denoising-trace/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-11/student-low-noise-training/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-pilot/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-11/squeeze-branch/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-11/squeeze-branch/README.md",
+    "old": "../../../scripts/squeeze_branch_compare.py",
+    "new": "../../../../scripts/experiments/squeeze_branch_compare.py"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-twelve-student/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-pilot-crosscheck/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-diversity-crosscheck/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-11/x0-loss-audit/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-diversity-student-intake/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-candidate-diversity/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-candidate-diversity/README.md",
+    "old": "../../../scripts/run_hope_candidate_diversity.py",
+    "new": "../../../../scripts/experiments/run_hope_candidate_diversity.py"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-candidate-diversity/README.md",
+    "old": "../../../scripts/run_hope_pilot.py",
+    "new": "../../../../scripts/run_hope_pilot.py"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-candidate-diversity/README.md",
+    "old": "../../../scripts/summarise_hope_attempts.py",
+    "new": "../../../../scripts/diagnostics/summarise_hope_attempts.py"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-candidate-diversity/README.md",
+    "old": "../../../scripts/run_hope_candidate_diversity.py",
+    "new": "../../../../scripts/experiments/run_hope_candidate_diversity.py"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-candidate-diversity/README.md",
+    "old": "../../../tests/test_hope_candidate_diversity.py",
+    "new": "../../../../tests/experiments/test_hope_candidate_diversity.py"
+  },
+  {
+    "document": "records/experiments/2026-09-11/student-acquisition-contract/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-11/student-slew-v1/launch-record.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-11/student-slew-v1/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-new-shapes/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-new-shapes/README.md",
+    "old": "../../../scripts/run_hope_new_shapes.py",
+    "new": "../../../../scripts/experiments/run_hope_new_shapes.py"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-new-shapes/README.md",
+    "old": "../../../scripts/run_hope_pilot.py",
+    "new": "../../../../scripts/run_hope_pilot.py"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-new-shapes/README.md",
+    "old": "../../../scripts/run_hope_candidate_diversity.py",
+    "new": "../../../../scripts/experiments/run_hope_candidate_diversity.py"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-first-demonstration/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-11/student-sampler-steps/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-student-intake/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-budget-crosscheck/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-11/milk-state-crosscheck/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-centre/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-centre/README.md",
+    "old": "../../../scripts/run_hope_pilot.py",
+    "new": "../../../../scripts/run_hope_pilot.py"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-centre/README.md",
+    "old": "../../../scripts/summarise_hope_attempts.py",
+    "new": "../../../../scripts/diagnostics/summarise_hope_attempts.py"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-centre/README.md",
+    "old": "../../../out/hope-pilot/AlphabetSoup/handoff-centre.json",
+    "new": "../../../../out/hope-pilot/AlphabetSoup/handoff-centre.json"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-centre/README.md",
+    "old": "../../../out/hope-pilot/AlphabetSoup/attempts-summary.json",
+    "new": "../../../../out/hope-pilot/AlphabetSoup/attempts-summary.json"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-centre/README.md",
+    "old": "../../../out/hope-pilot/Peaches/handoff-centre.json",
+    "new": "../../../../out/hope-pilot/Peaches/handoff-centre.json"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-centre/README.md",
+    "old": "../../../out/hope-pilot/Peaches/attempts-summary.json",
+    "new": "../../../../out/hope-pilot/Peaches/attempts-summary.json"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-centre/README.md",
+    "old": "../../../out/hope-pilot/Raisins/handoff-centre.json",
+    "new": "../../../../out/hope-pilot/Raisins/handoff-centre.json"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-centre/README.md",
+    "old": "../../../out/hope-pilot/Raisins/attempts-summary.json",
+    "new": "../../../../out/hope-pilot/Raisins/attempts-summary.json"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-centre/README.md",
+    "old": "../../../scripts/check_placement_transfer.py",
+    "new": "../../../../scripts/ops/check_placement_transfer.py"
+  },
+  {
+    "document": "records/experiments/2026-09-11/hope-centre/README.md",
+    "old": "../../../scripts/bundle_hope_handoff.py",
+    "new": "../../../../scripts/data/bundle_hope_handoff.py"
+  },
+  {
+    "document": "records/experiments/2026-09-07/README.md",
+    "old": "../../RESEARCH_PLAN.md",
+    "new": "../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-07/README.md",
+    "old": "../../RESUME.md",
+    "new": "../../../RESUME.md"
+  },
+  {
+    "document": "records/experiments/2026-09-08/README.md",
+    "old": "../../RESEARCH_PLAN.md",
+    "new": "../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-08/grip-offset/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-08/candidate-screen/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-08/training-preparation/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-08/training-preparation/README.md",
+    "old": "../../../configs/TRAINING_PREPARATION.md",
+    "new": "../../../../docs/training.md"
+  },
+  {
+    "document": "records/experiments/2026-09-08/training-preparation/README.md",
+    "old": "../../../configs/TEACHER_DATASET.md",
+    "new": "../../../../docs/teacher-data.md"
+  },
+  {
+    "document": "records/experiments/2026-09-08/training-preparation/README.md",
+    "old": "../../../configs/HX5_STUDENT.md",
+    "new": "../../../../docs/student.md"
+  },
+  {
+    "document": "records/experiments/2026-09-08/training-preparation/README.md",
+    "old": "../../../PAPER_TODO.md",
+    "new": "../../../../PAPER_TODO.md"
+  },
+  {
+    "document": "records/experiments/2026-09-08/grip-offset-compare/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-08/fixed-student/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-08/graspgenx-alignment/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-08/rl-facing/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-08/contact-physics/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-08/rl-baseline/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-08/approach-rl/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-08/grip-offset-pipeline/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-08/contact-feedback/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-08/contact-feedback/README.md",
+    "old": "../../../configs/TRAINING_PREPARATION.md",
+    "new": "../../../../docs/training.md"
+  },
+  {
+    "document": "records/experiments/2026-09-08/contact-feedback/README.md",
+    "old": "../../../src/icra/contact_control.py",
+    "new": "../../../../src/icra/contact_control.py"
+  },
+  {
+    "document": "records/experiments/2026-09-08/contact-feedback/README.md",
+    "old": "../../../scripts/contact_feedback_experiment.py",
+    "new": "../../../../scripts/experiments/contact_feedback_experiment.py"
+  },
+  {
+    "document": "records/experiments/2026-09-08/grasp-provenance/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-08/audit/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-08/audit/README.md",
+    "old": "../../../SETUP.md",
+    "new": "../../../../docs/setup.md"
+  },
+  {
+    "document": "records/experiments/2026-09-08/audit/README.md",
+    "old": "../../../RESUME.md",
+    "new": "../../../../RESUME.md"
+  },
+  {
+    "document": "records/experiments/2026-09-08/closure-relief/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-08/grip-offset-93/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-08/contact-approach/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-08/contact-approach/README.md",
+    "old": "../../../configs/TRAINING_PREPARATION.md",
+    "new": "../../../../docs/training.md"
+  },
+  {
+    "document": "records/experiments/2026-09-12/README.md",
+    "old": "../../RESEARCH_PLAN.md",
+    "new": "../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-12/README.md",
+    "old": "../../plans/CURRENT_WORK.md",
+    "new": "../../../plans/CURRENT_WORK.md"
+  },
+  {
+    "document": "records/experiments/2026-09-12/wrist-edit-feasibility/README.md",
+    "old": "../../../scripts/collect_wrist_edit.py",
+    "new": "../../../../scripts/teacher/collect_wrist_edit.py"
+  },
+  {
+    "document": "records/experiments/2026-09-12/selector-check/README.md",
+    "old": "../../../scripts/build_selector_ledger.py",
+    "new": "../../../../scripts/teacher/build_selector_ledger.py"
+  },
+  {
+    "document": "records/experiments/2026-09-12/selector-check/README.md",
+    "old": "../../../scripts/grasp_selector.py",
+    "new": "../../../../scripts/grasp_selector.py"
+  },
+  {
+    "document": "records/experiments/2026-09-12/selector-compare/README.md",
+    "old": "../../../scripts/run_selector_compare.py",
+    "new": "../../../../scripts/experiments/run_selector_compare.py"
+  },
+  {
+    "document": "records/experiments/2026-09-12/selector-compare/README.md",
+    "old": "../../../scripts/grasp_selector.py",
+    "new": "../../../../scripts/grasp_selector.py"
+  },
+  {
+    "document": "records/experiments/2026-09-12/document-sync/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-12/document-sync/README.md",
+    "old": "../../../PAPER_TODO.md",
+    "new": "../../../../PAPER_TODO.md"
+  },
+  {
+    "document": "records/experiments/2026-09-12/document-sync/README.md",
+    "old": "../../../plans/CURRENT_WORK.md",
+    "new": "../../../../plans/CURRENT_WORK.md"
+  },
+  {
+    "document": "records/experiments/2026-09-12/document-sync/README.md",
+    "old": "../../../RESUME.md",
+    "new": "../../../../RESUME.md"
+  },
+  {
+    "document": "records/experiments/2026-09-12/document-sync/README.md",
+    "old": "../../../ROADMAP.md",
+    "new": "../../../plans/ROADMAP-before-layout.md"
+  },
+  {
+    "document": "records/experiments/2026-09-12/document-sync/README.md",
+    "old": "../../../paper/dexprompt.tex",
+    "new": "../../../../paper/dexprompt.tex"
+  },
+  {
+    "document": "records/experiments/2026-09-12/document-sync/README.md",
+    "old": "../../../plans/archive/2026-09-12/",
+    "new": "../../../../plans/archive/2026-09-12"
+  },
+  {
+    "document": "records/experiments/2026-09-12/hand-edit-feasibility/README.md",
+    "old": "../../../scripts/collect_hand_edit.py",
+    "new": "../../../../scripts/teacher/collect_hand_edit.py"
+  },
+  {
+    "document": "records/experiments/2026-09-12/hand-edit-feasibility/README.md",
+    "old": "../../../scripts/collect_wrist_edit.py",
+    "new": "../../../../scripts/teacher/collect_wrist_edit.py"
+  },
+  {
+    "document": "records/experiments/2026-09-09/overnight-plan.md",
+    "old": "../../RESEARCH_PLAN.md",
+    "new": "../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-09/README.md",
+    "old": "../../RESEARCH_PLAN.md",
+    "new": "../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-09/README.md",
+    "old": "../../PAPER_TODO.md",
+    "new": "../../../PAPER_TODO.md"
+  },
+  {
+    "document": "records/experiments/2026-09-09/student-readiness/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-09/student-readiness/README.md",
+    "old": "../../../out/student-review-20260909/input-check.json",
+    "new": "../../../../out/student-review-20260909/input-check.json"
+  },
+  {
+    "document": "records/experiments/2026-09-09/student-readiness/README.md",
+    "old": "../../../configs/STUDENT_GOAL_CONTRACT.md",
+    "new": "../../../../docs/target-contract.md"
+  },
+  {
+    "document": "records/experiments/2026-09-09/multiobject/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-09/mask-visibility/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-09/mask-visibility/README.md",
+    "old": "../../../configs/STUDENT_GOAL_CONTRACT.md",
+    "new": "../../../../docs/target-contract.md"
+  },
+  {
+    "document": "records/experiments/2026-09-09/overnight-bc-ppo/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-09/visual-goal-v2/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-09/visual-goal-v2/README.md",
+    "old": "../../../PAPER_TODO.md",
+    "new": "../../../../PAPER_TODO.md"
+  },
+  {
+    "document": "records/experiments/2026-09-09/visual-goal-v2/README.md",
+    "old": "../../../configs/STUDENT_GOAL_CONTRACT.md",
+    "new": "../../../../docs/target-contract.md"
+  },
+  {
+    "document": "records/experiments/2026-09-09/multiobject-crosscheck/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-09/kl-and-seeds/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-09/approach-bc-v1/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-09/selection-and-kl/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-09/dino-setup/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-09/approach-ppo-v1/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-09/cpu-multiobject-screen/README.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/experiments/2026-09-09/cpu-multiobject-screen/README.md",
+    "old": "../../../out/cpu-multiobject-screen-20260909/plan.json",
+    "new": "../../../../out/cpu-multiobject-screen-20260909/plan.json"
+  },
+  {
+    "document": "records/experiments/2026-09-09/cpu-multiobject-screen/README.md",
+    "old": "../../../out/cpu-multiobject-screen-20260909/rest-pose-diagnostic.json",
+    "new": "../../../../out/cpu-multiobject-screen-20260909/rest-pose-diagnostic.json"
+  },
+  {
+    "document": "records/experiments/2026-09-09/cpu-multiobject-screen/README.md",
+    "old": "../../../out/cpu-multiobject-screen-20260909/summary.json",
+    "new": "../../../../out/cpu-multiobject-screen-20260909/summary.json"
+  },
+  {
+    "document": "records/experiments/2026-09-09/cpu-multiobject-screen/README.md",
+    "old": "../../../out/cpu-multiobject-screen-20260909/records.json",
+    "new": "../../../../out/cpu-multiobject-screen-20260909/records.json"
+  },
+  {
+    "document": "records/experiments/2026-09-09/cpu-multiobject-screen/README.md",
+    "old": "../../../out/cpu-multiobject-screen-20260909/diagnostics.json",
+    "new": "../../../../out/cpu-multiobject-screen-20260909/diagnostics.json"
+  },
+  {
+    "document": "records/experiments/2026-09-09/cpu-multiobject-screen/README.md",
+    "old": "../../../out/cpu-multiobject-screen-20260909/rest-pose-diagnostic.json",
+    "new": "../../../../out/cpu-multiobject-screen-20260909/rest-pose-diagnostic.json"
+  },
+  {
+    "document": "records/plans/SINGLE_DEMO_STUDENT_LECUN.md",
+    "old": "../RESEARCH_PLAN.md",
+    "new": "../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/plans/SINGLE_DEMO_STUDENT_LECUN.md",
+    "old": "CURRENT_WORK.md",
+    "new": "../../plans/CURRENT_WORK.md"
+  },
+  {
+    "document": "records/plans/SINGLE_DEMO_STUDENT_LECUN.md",
+    "old": "../results/2026-09-10/single-bottle-student/README.md",
+    "new": "../experiments/2026-09-10/single-bottle-student/README.md"
+  },
+  {
+    "document": "records/plans/NEXT_WORK_2026-09-10.md",
+    "old": "../RESEARCH_PLAN.md",
+    "new": "../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/plans/NEXT_WORK_2026-09-10.md",
+    "old": "CURRENT_WORK.md",
+    "new": "../../plans/CURRENT_WORK.md"
+  },
+  {
+    "document": "records/plans/NEXT_WORK_2026-09-10.md",
+    "old": "../PAPER_TODO.md",
+    "new": "../../PAPER_TODO.md"
+  },
+  {
+    "document": "records/plans/NEXT_WORK_2026-09-10.md",
+    "old": "../results/2026-09-11/hope-pilot/README.md",
+    "new": "../experiments/2026-09-11/hope-pilot/README.md"
+  },
+  {
+    "document": "records/plans/NEXT_WORK_2026-09-10.md",
+    "old": "../results/2026-09-11/single-student-diagnosis/README.md",
+    "new": "../experiments/2026-09-11/single-student-diagnosis/README.md"
+  },
+  {
+    "document": "records/plans/NEXT_WORK_2026-09-10.md",
+    "old": "../results/2026-09-10/hope-data-readiness/README.md",
+    "new": "../experiments/2026-09-10/hope-data-readiness/README.md"
+  },
+  {
+    "document": "records/plans/NEXT_WORK_2026-09-10.md",
+    "old": "../results/2026-09-10/bowl-scale-crosscheck/README.md",
+    "new": "../experiments/2026-09-10/bowl-scale-crosscheck/README.md"
+  },
+  {
+    "document": "records/plans/NEXT_WORK_2026-09-10.md",
+    "old": "../results/2026-09-10/student-failure-audit/README.md",
+    "new": "../experiments/2026-09-10/student-failure-audit/README.md"
+  },
+  {
+    "document": "records/plans/NEXT_WORK_2026-09-10.md",
+    "old": "../results/2026-09-10/lecun-student-eval/final.json",
+    "new": "../experiments/2026-09-10/lecun-student-eval/final.json"
+  },
+  {
+    "document": "records/plans/STUDENT_NEXT_SINGLE_FACTOR.md",
+    "old": "../RESEARCH_PLAN.md",
+    "new": "../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/plans/STUDENT_NEXT_SINGLE_FACTOR.md",
+    "old": "CURRENT_WORK.md",
+    "new": "../../plans/CURRENT_WORK.md"
+  },
+  {
+    "document": "records/plans/STUDENT_NEXT_SINGLE_FACTOR.md",
+    "old": "../results/2026-09-11/student-slew-v1/README.md",
+    "new": "../experiments/2026-09-11/student-slew-v1/README.md"
+  },
+  {
+    "document": "records/plans/STUDENT_NEXT_SINGLE_FACTOR.md",
+    "old": "STUDENT_NEXT_SLEW_LIMITS.json",
+    "new": "../../plans/STUDENT_NEXT_SLEW_LIMITS.json"
+  },
+  {
+    "document": "records/plans/STUDENT_NEXT_SINGLE_FACTOR.md",
+    "old": "../scripts/replay_hx5_student.py",
+    "new": "../../scripts/replay_hx5_student.py"
+  },
+  {
+    "document": "records/plans/GPT56_STUDENT_HANDOFF_2026-09-11.md",
+    "old": "../RESEARCH_PLAN.md",
+    "new": "../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/plans/GPT56_STUDENT_HANDOFF_2026-09-11.md",
+    "old": "CURRENT_WORK.md",
+    "new": "../../plans/CURRENT_WORK.md"
+  },
+  {
+    "document": "records/plans/TEN_HOUR_SPLIT_2026-09-11.md",
+    "old": "../RESEARCH_PLAN.md",
+    "new": "../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/plans/TEN_HOUR_SPLIT_2026-09-11.md",
+    "old": "CURRENT_WORK.md",
+    "new": "../../plans/CURRENT_WORK.md"
+  },
+  {
+    "document": "records/plans/TEN_HOUR_SPLIT_2026-09-11.md",
+    "old": "../PAPER_TODO.md",
+    "new": "../../PAPER_TODO.md"
+  },
+  {
+    "document": "records/plans/TEN_HOUR_SPLIT_2026-09-11.md",
+    "old": "../results/2026-09-11/hope-pilot/README.md",
+    "new": "../experiments/2026-09-11/hope-pilot/README.md"
+  },
+  {
+    "document": "records/plans/HANDOFF_NEXT_2026-09-11.md",
+    "old": "../RESEARCH_PLAN.md",
+    "new": "../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/plans/HANDOFF_NEXT_2026-09-11.md",
+    "old": "CURRENT_WORK.md",
+    "new": "../../plans/CURRENT_WORK.md"
+  },
+  {
+    "document": "records/plans/HANDOFF_NEXT_2026-09-11.md",
+    "old": "../PAPER_TODO.md",
+    "new": "../../PAPER_TODO.md"
+  },
+  {
+    "document": "records/plans/HANDOFF_NEXT_2026-09-11.md",
+    "old": "../results/2026-09-11/consolidated-status/README.md",
+    "new": "../experiments/2026-09-11/consolidated-status/README.md"
+  },
+  {
+    "document": "records/plans/CLAUDE_SEVEN_HOURS_2026-09-12.md",
+    "old": "../RESEARCH_PLAN.md",
+    "new": "../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/plans/FAST_PARALLEL_NEXT_2026-09-11.md",
+    "old": "../RESEARCH_PLAN.md",
+    "new": "../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/plans/FAST_PARALLEL_NEXT_2026-09-11.md",
+    "old": "CURRENT_WORK.md",
+    "new": "../../plans/CURRENT_WORK.md"
+  },
+  {
+    "document": "records/plans/FAST_PARALLEL_NEXT_2026-09-11.md",
+    "old": "../results/2026-09-11/milk-state-crosscheck/README.md",
+    "new": "../experiments/2026-09-11/milk-state-crosscheck/README.md"
+  },
+  {
+    "document": "records/plans/TODAY_FEASIBILITY_2026-09-12.md",
+    "old": "../results/2026-09-12/demofungrasp-reference/README.md",
+    "new": "../experiments/2026-09-12/demofungrasp-reference/README.md"
+  },
+  {
+    "document": "plans/CURRENT_WORK.md",
+    "old": "../results/2026-09-12/followup-visual-intake/README.md",
+    "new": "../records/experiments/2026-09-12/followup-visual-intake/README.md"
+  },
+  {
+    "document": "plans/CURRENT_WORK.md",
+    "old": "../results/2026-09-12/day-feasibility/DECISION.md",
+    "new": "../records/experiments/2026-09-12/day-feasibility/DECISION.md"
+  },
+  {
+    "document": "plans/CURRENT_WORK.md",
+    "old": "CODEX_SEVEN_HOURS_2026-09-12.md",
+    "new": "../records/plans/CODEX_SEVEN_HOURS_2026-09-12.md"
+  },
+  {
+    "document": "plans/CURRENT_WORK.md",
+    "old": "../results/2026-09-12/hope-clutter-crosscheck/README.md",
+    "new": "../records/experiments/2026-09-12/hope-clutter-crosscheck/README.md"
+  },
+  {
+    "document": "plans/CURRENT_WORK.md",
+    "old": "CLAUDE_SEVEN_HOURS_2026-09-12.md",
+    "new": "../records/plans/CLAUDE_SEVEN_HOURS_2026-09-12.md"
+  },
+  {
+    "document": "plans/CURRENT_WORK.md",
+    "old": "CLAUDE_SELECTOR_PREP_2026-09-12.md",
+    "new": "../records/plans/CLAUDE_SELECTOR_PREP_2026-09-12.md"
+  },
+  {
+    "document": "records/plans/STUDENT_LOW_NOISE_LOSS_2026-09-11.md",
+    "old": "../RESEARCH_PLAN.md",
+    "new": "../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/plans/STUDENT_LOW_NOISE_LOSS_2026-09-11.md",
+    "old": "CURRENT_WORK.md",
+    "new": "../../plans/CURRENT_WORK.md"
+  },
+  {
+    "document": "records/plans/STUDENT_LOW_NOISE_LOSS_2026-09-11.md",
+    "old": "../results/2026-09-11/x0-loss-audit/README.md",
+    "new": "../experiments/2026-09-11/x0-loss-audit/README.md"
+  },
+  {
+    "document": "records/plans/CLAUDE_TEACHER_HANDOFF_2026-09-11.md",
+    "old": "../RESEARCH_PLAN.md",
+    "new": "../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/plans/CLAUDE_TEACHER_HANDOFF_2026-09-11.md",
+    "old": "CURRENT_WORK.md",
+    "new": "../../plans/CURRENT_WORK.md"
+  },
+  {
+    "document": "records/plans/CLAUDE_SELECTOR_PREP_2026-09-12.md",
+    "old": "../RESEARCH_PLAN.md",
+    "new": "../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/plans/CLAUDE_SELECTOR_PREP_2026-09-12.md",
+    "old": "../results/2026-09-12/hope-clutter-crosscheck/README.md",
+    "new": "../experiments/2026-09-12/hope-clutter-crosscheck/README.md"
+  },
+  {
+    "document": "records/plans/CODEX_SEVEN_HOURS_2026-09-12.md",
+    "old": "../RESEARCH_PLAN.md",
+    "new": "../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/plans/CODEX_SEVEN_HOURS_2026-09-12.md",
+    "old": "../RESUME.md",
+    "new": "../../RESUME.md"
+  },
+  {
+    "document": "records/plans/CODEX_SEVEN_HOURS_2026-09-12.md",
+    "old": "../results/2026-09-12/hope-clutter-crosscheck/README.md",
+    "new": "../experiments/2026-09-12/hope-clutter-crosscheck/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-11/hope-twelve-student/README.md",
+    "new": "../../../experiments/2026-09-11/hope-twelve-student/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-11/milk-handoff-crosscheck/README.md",
+    "new": "../../../experiments/2026-09-11/milk-handoff-crosscheck/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-11/student-low-noise-training/README.md",
+    "new": "../../../experiments/2026-09-11/student-low-noise-training/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-11/x0-loss-audit/README.md",
+    "new": "../../../experiments/2026-09-11/x0-loss-audit/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-11/x0-denoising-trace/README.md",
+    "new": "../../../experiments/2026-09-11/x0-denoising-trace/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-11/student-sampler-steps/README.md",
+    "new": "../../../experiments/2026-09-11/student-sampler-steps/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-11/teacher-observation-diagnosis/README.md",
+    "new": "../../../experiments/2026-09-11/teacher-observation-diagnosis/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-11/hope-diversity-crosscheck/README.md",
+    "new": "../../../experiments/2026-09-11/hope-diversity-crosscheck/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-11/student-slew-v1/README.md",
+    "new": "../../../experiments/2026-09-11/student-slew-v1/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-11/hope-diversity-student-intake/README.md",
+    "new": "../../../experiments/2026-09-11/hope-diversity-student-intake/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-11/consolidated-status/README.md",
+    "new": "../../../experiments/2026-09-11/consolidated-status/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-11/student-next-diagnosis/README.md",
+    "new": "../../../experiments/2026-09-11/student-next-diagnosis/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-08/grip-offset-93/README.md",
+    "new": "../../../experiments/2026-09-08/grip-offset-93/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-09/approach-bc-v1/README.md",
+    "new": "../../../experiments/2026-09-09/approach-bc-v1/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-09/kl-and-seeds/README.md",
+    "new": "../../../experiments/2026-09-09/kl-and-seeds/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-08/fixed-student/README.md",
+    "new": "../../../experiments/2026-09-08/fixed-student/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../configs/HX5_STUDENT.md",
+    "new": "../../../../docs/student.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-09/cpu-multiobject-screen/README.md",
+    "new": "../../../experiments/2026-09-09/cpu-multiobject-screen/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-09/multiobject/README.md",
+    "new": "../../../experiments/2026-09-09/multiobject/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-09/multiobject-crosscheck/README.md",
+    "new": "../../../experiments/2026-09-09/multiobject-crosscheck/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-11/student-next-diagnosis/README.md",
+    "new": "../../../experiments/2026-09-11/student-next-diagnosis/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-11/hope-pilot/README.md",
+    "new": "../../../experiments/2026-09-11/hope-pilot/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-11/single-student-diagnosis/README.md",
+    "new": "../../../experiments/2026-09-11/single-student-diagnosis/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-11/hope-student-intake/README.md",
+    "new": "../../../experiments/2026-09-11/hope-student-intake/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-10/student-training-ready/README.md",
+    "new": "../../../experiments/2026-09-10/student-training-ready/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-10/visual-student-bc-v1/README.md",
+    "new": "../../../experiments/2026-09-10/visual-student-bc-v1/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-10/visual-student-eval-v1/README.md",
+    "new": "../../../experiments/2026-09-10/visual-student-eval-v1/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-10/lecun-student-eval/README.md",
+    "new": "../../../experiments/2026-09-10/lecun-student-eval/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-10/can-visual-student/README.md",
+    "new": "../../../experiments/2026-09-10/can-visual-student/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../ROADMAP.md",
+    "new": "../../ROADMAP-before-layout.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../README.md",
+    "new": "../../../../README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../SETUP.md",
+    "new": "../../../../docs/setup.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../configs",
+    "new": "../../../../configs"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results",
+    "new": "../../../../results"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../paper",
+    "new": "../../../../paper"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-09/student-readiness/README.md",
+    "new": "../../../experiments/2026-09-09/student-readiness/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../configs/STUDENT_GOAL_CONTRACT.md",
+    "new": "../../../../docs/target-contract.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-09/dino-setup/README.md",
+    "new": "../../../experiments/2026-09-09/dino-setup/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-09/mask-visibility/README.md",
+    "new": "../../../experiments/2026-09-09/mask-visibility/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../configs/STUDENT_GOAL_CONTRACT.md",
+    "new": "../../../../docs/target-contract.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-09/visual-goal-v2/README.md",
+    "new": "../../../experiments/2026-09-09/visual-goal-v2/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-10/table-refinement/README.md",
+    "new": "../../../experiments/2026-09-10/table-refinement/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-10/overnight-teacher-expansion/README.md",
+    "new": "../../../experiments/2026-09-10/overnight-teacher-expansion/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-10/teacher-expansion-crosscheck/README.md",
+    "new": "../../../experiments/2026-09-10/teacher-expansion-crosscheck/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-10/visual-student-bc-v1/README.md",
+    "new": "../../../experiments/2026-09-10/visual-student-bc-v1/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-10/contact-diagnosis/README.md",
+    "new": "../../../experiments/2026-09-10/contact-diagnosis/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-10/init-sensitivity/README.md",
+    "new": "../../../experiments/2026-09-10/init-sensitivity/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-10/finger5-flexion/README.md",
+    "new": "../../../experiments/2026-09-10/finger5-flexion/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-10/finger5-crosscheck/README.md",
+    "new": "../../../experiments/2026-09-10/finger5-crosscheck/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-11/squeeze-branch/README.md",
+    "new": "../../../experiments/2026-09-11/squeeze-branch/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-11/hope-first-demonstration/README.md",
+    "new": "../../../experiments/2026-09-11/hope-first-demonstration/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-11/hope-centre/README.md",
+    "new": "../../../experiments/2026-09-11/hope-centre/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/PAPER_TODO.md",
+    "old": "../../../results/2026-09-11/student-next-diagnosis/README.md",
+    "new": "../../../experiments/2026-09-11/student-next-diagnosis/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/ROADMAP.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/ROADMAP.md",
+    "old": "../../../PAPER_TODO.md",
+    "new": "../../../../PAPER_TODO.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/ROADMAP.md",
+    "old": "../../../paper/rules.md",
+    "new": "../../../../paper/rules.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/RESUME.md",
+    "old": "../../../RESEARCH_PLAN.md",
+    "new": "../../../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/RESUME.md",
+    "old": "../../../results/2026-09-11/milk-state-crosscheck/README.md",
+    "new": "../../../experiments/2026-09-11/milk-state-crosscheck/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/RESUME.md",
+    "old": "../../../results/2026-09-11/hope-twelve-student/README.md",
+    "new": "../../../experiments/2026-09-11/hope-twelve-student/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/RESUME.md",
+    "old": "../../../results/2026-09-11/student-low-noise-training/README.md",
+    "new": "../../../experiments/2026-09-11/student-low-noise-training/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/RESUME.md",
+    "old": "../../../results/2026-09-11/x0-loss-audit/README.md",
+    "new": "../../../experiments/2026-09-11/x0-loss-audit/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/RESUME.md",
+    "old": "../../../results/2026-09-11/x0-denoising-trace/README.md",
+    "new": "../../../experiments/2026-09-11/x0-denoising-trace/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/RESUME.md",
+    "old": "../../../results/2026-09-11/student-sampler-steps/README.md",
+    "new": "../../../experiments/2026-09-11/student-sampler-steps/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/RESUME.md",
+    "old": "../../../results/2026-09-11/teacher-observation-diagnosis/README.md",
+    "new": "../../../experiments/2026-09-11/teacher-observation-diagnosis/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/RESUME.md",
+    "old": "../../../results/2026-09-11/student-slew-v1/README.md",
+    "new": "../../../experiments/2026-09-11/student-slew-v1/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/RESUME.md",
+    "old": "../../../results/2026-09-11/hope-diversity-student-intake/README.md",
+    "new": "../../../experiments/2026-09-11/hope-diversity-student-intake/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/RESUME.md",
+    "old": "../../../SERVER_3090.md",
+    "new": "../../../../docs/lecun.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/RESUME.md",
+    "old": "../../../results/2026-09-10/visual-student-bc-v1/README.md",
+    "new": "../../../experiments/2026-09-10/visual-student-bc-v1/README.md"
+  },
+  {
+    "document": "records/plans/archive/2026-09-12/RESUME.md",
+    "old": "../../../results/2026-09-10/lecun-student-eval/README.md",
+    "new": "../../../experiments/2026-09-10/lecun-student-eval/README.md"
+  },
+  {
+    "document": "docs/training.md",
+    "old": "../results/2026-09-08/candidate-screen/README.md",
+    "new": "../records/experiments/2026-09-08/candidate-screen/README.md"
+  },
+  {
+    "document": "docs/training.md",
+    "old": "TEACHER_DATASET.md",
+    "new": "teacher-data.md"
+  },
+  {
+    "document": "docs/training.md",
+    "old": "HX5_STUDENT.md",
+    "new": "student.md"
+  },
+  {
+    "document": "docs/student.md",
+    "old": "../results/2026-09-10/student-training-ready/README.md",
+    "new": "../records/experiments/2026-09-10/student-training-ready/README.md"
+  },
+  {
+    "document": "docs/student.md",
+    "old": "../results/2026-09-09/visual-goal-v2/README.md",
+    "new": "../records/experiments/2026-09-09/visual-goal-v2/README.md"
+  },
+  {
+    "document": "docs/student.md",
+    "old": "STUDENT_GOAL_CONTRACT.md",
+    "new": "target-contract.md"
+  },
+  {
+    "document": "docs/student.md",
+    "old": "../results/2026-09-09/dino-setup/README.md",
+    "new": "../records/experiments/2026-09-09/dino-setup/README.md"
+  },
+  {
+    "document": "docs/target-contract.md",
+    "old": "../results/2026-09-09/student-readiness/README.md",
+    "new": "../records/experiments/2026-09-09/student-readiness/README.md"
+  },
+  {
+    "document": "docs/target-contract.md",
+    "old": "../results/2026-09-09/mask-visibility/README.md",
+    "new": "../records/experiments/2026-09-09/mask-visibility/README.md"
+  },
+  {
+    "document": "docs/target-contract.md",
+    "old": "../results/2026-09-09/visual-goal-v2/README.md",
+    "new": "../records/experiments/2026-09-09/visual-goal-v2/README.md"
+  },
+  {
+    "document": "paper/rules.md",
+    "old": "../results/2026-09-07/README.md",
+    "new": "../records/experiments/2026-09-07/README.md"
+  },
+  {
+    "document": "PAPER_TODO.md",
+    "old": "plans/archive/2026-09-12/PAPER_TODO.md",
+    "new": "records/plans/archive/2026-09-12/PAPER_TODO.md"
+  },
+  {
+    "document": "PAPER_TODO.md",
+    "old": "results/2026-09-12/day-feasibility/DECISION.md",
+    "new": "records/experiments/2026-09-12/day-feasibility/DECISION.md"
+  },
+  {
+    "document": "PAPER_TODO.md",
+    "old": "results/2026-09-09/approach-bc-v1/README.md",
+    "new": "records/experiments/2026-09-09/approach-bc-v1/README.md"
+  },
+  {
+    "document": "PAPER_TODO.md",
+    "old": "results/2026-09-09/kl-and-seeds/README.md",
+    "new": "records/experiments/2026-09-09/kl-and-seeds/README.md"
+  },
+  {
+    "document": "PAPER_TODO.md",
+    "old": "results/2026-09-11/hope-diversity-student-intake/README.md",
+    "new": "records/experiments/2026-09-11/hope-diversity-student-intake/README.md"
+  },
+  {
+    "document": "PAPER_TODO.md",
+    "old": "results/2026-09-11/hope-twelve-student/README.md",
+    "new": "records/experiments/2026-09-11/hope-twelve-student/README.md"
+  },
+  {
+    "document": "PAPER_TODO.md",
+    "old": "results/2026-09-12/lecun-final-check/README.md",
+    "new": "records/experiments/2026-09-12/lecun-final-check/README.md"
+  },
+  {
+    "document": "PAPER_TODO.md",
+    "old": "results/2026-09-12/direct-bc-feasibility/README.md",
+    "new": "records/experiments/2026-09-12/direct-bc-feasibility/README.md"
+  },
+  {
+    "document": "PAPER_TODO.md",
+    "old": "results/2026-09-12/day-feasibility/RESET_SCOPE.md",
+    "new": "records/experiments/2026-09-12/day-feasibility/RESET_SCOPE.md"
+  },
+  {
+    "document": "PAPER_TODO.md",
+    "old": "results/2026-09-11/milk-state-crosscheck/README.md",
+    "new": "records/experiments/2026-09-11/milk-state-crosscheck/README.md"
+  },
+  {
+    "document": "PAPER_TODO.md",
+    "old": "results/2026-09-11/hope-clutter/README.md",
+    "new": "records/experiments/2026-09-11/hope-clutter/README.md"
+  },
+  {
+    "document": "PAPER_TODO.md",
+    "old": "results/2026-09-12/day-feasibility/DECISION.md",
+    "new": "records/experiments/2026-09-12/day-feasibility/DECISION.md"
+  },
+  {
+    "document": "README.md",
+    "old": "results/2026-09-12/ref-model-map/README.md",
+    "new": "records/experiments/2026-09-12/ref-model-map/README.md"
+  },
+  {
+    "document": "README.md",
+    "old": "SERVER_3090.md",
+    "new": "docs/lecun.md"
+  },
+  {
+    "document": "README.md",
+    "old": "configs/TEACHER_DATASET.md",
+    "new": "docs/teacher-data.md"
+  },
+  {
+    "document": "README.md",
+    "old": "configs/HX5_STUDENT.md",
+    "new": "docs/student.md"
+  },
+  {
+    "document": "README.md",
+    "old": "configs/TRAINING_PREPARATION.md",
+    "new": "docs/training.md"
+  },
+  {
+    "document": "README.md",
+    "old": "results/2026-09-08/training-preparation/README.md",
+    "new": "records/experiments/2026-09-08/training-preparation/README.md"
+  },
+  {
+    "document": "README.md",
+    "old": "ROADMAP.md",
+    "new": "records/plans/ROADMAP-before-layout.md"
+  },
+  {
+    "document": "README.md",
+    "old": "SETUP.md",
+    "new": "docs/setup.md"
+  },
+  {
+    "document": "README.md",
+    "old": "results/2026-09-07/README.md",
+    "new": "records/experiments/2026-09-07/README.md"
+  },
+  {
+    "document": "README.md",
+    "old": "results/2026-09-08/audit/README.md",
+    "new": "records/experiments/2026-09-08/audit/README.md"
+  },
+  {
+    "document": "README.md",
+    "old": "results/2026-09-08/contact-physics/README.md",
+    "new": "records/experiments/2026-09-08/contact-physics/README.md"
+  },
+  {
+    "document": "README.md",
+    "old": "results/2026-09-09/README.md",
+    "new": "records/experiments/2026-09-09/README.md"
+  },
+  {
+    "document": "README.md",
+    "old": "ROADMAP.md",
+    "new": "records/plans/ROADMAP-before-layout.md"
+  },
+  {
+    "document": "README.md",
+    "old": "SETUP.md",
+    "new": "docs/setup.md"
+  },
+  {
+    "document": "README.md",
+    "old": "results/2026-09-08/contact-feedback/README.md",
+    "new": "records/experiments/2026-09-08/contact-feedback/README.md"
+  },
+  {
+    "document": "README.md",
+    "old": "results/2026-09-08/contact-approach/README.md",
+    "new": "records/experiments/2026-09-08/contact-approach/README.md"
+  },
+  {
+    "document": "README.md",
+    "old": "results/2026-09-08/fixed-student/README.md",
+    "new": "records/experiments/2026-09-08/fixed-student/README.md"
+  },
+  {
+    "document": "docs/setup.md",
+    "old": "RESEARCH_PLAN.md",
+    "new": "../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "docs/setup.md",
+    "old": "SERVER_3090.md",
+    "new": "lecun.md"
+  },
+  {
+    "document": "docs/setup.md",
+    "old": "configs/TRAINING_PREPARATION.md",
+    "new": "training.md"
+  },
+  {
+    "document": "docs/setup.md",
+    "old": "PAPER_TODO.md",
+    "new": "../PAPER_TODO.md"
+  },
+  {
+    "document": "docs/setup.md",
+    "old": "configs/HX5_STUDENT.md",
+    "new": "student.md"
+  },
+  {
+    "document": "docs/setup.md",
+    "old": "configs/TEACHER_DATASET.md",
+    "new": "teacher-data.md"
+  },
+  {
+    "document": "docs/setup.md",
+    "old": "results/2026-09-08/fixed-student/README.md",
+    "new": "../records/experiments/2026-09-08/fixed-student/README.md"
+  },
+  {
+    "document": "docs/setup.md",
+    "old": "results/2026-09-08/contact-approach/README.md",
+    "new": "../records/experiments/2026-09-08/contact-approach/README.md"
+  },
+  {
+    "document": "docs/setup.md",
+    "old": "results/2026-09-08/contact-feedback/README.md",
+    "new": "../records/experiments/2026-09-08/contact-feedback/README.md"
+  },
+  {
+    "document": "RESEARCH_PLAN.md",
+    "old": "results/2026-09-12/ref-model-map/README.md",
+    "new": "records/experiments/2026-09-12/ref-model-map/README.md"
+  },
+  {
+    "document": "docs/lecun.md",
+    "old": "RESEARCH_PLAN.md",
+    "new": "../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "docs/lecun.md",
+    "old": "RESUME.md",
+    "new": "../RESUME.md"
+  },
+  {
+    "document": "docs/lecun.md",
+    "old": "results/2026-09-10/student-failure-audit/README.md",
+    "new": "../records/experiments/2026-09-10/student-failure-audit/README.md"
+  },
+  {
+    "document": "docs/lecun.md",
+    "old": "SETUP.md",
+    "new": "setup.md"
+  },
+  {
+    "document": "records/plans/ROADMAP-before-layout.md",
+    "old": "RESEARCH_PLAN.md",
+    "new": "../../RESEARCH_PLAN.md"
+  },
+  {
+    "document": "records/plans/ROADMAP-before-layout.md",
+    "old": "plans/archive/2026-09-12/ROADMAP.md",
+    "new": "archive/2026-09-12/ROADMAP.md"
+  },
+  {
+    "document": "records/plans/ROADMAP-before-layout.md",
+    "old": "PAPER_TODO.md",
+    "new": "../../PAPER_TODO.md"
+  },
+  {
+    "document": "records/plans/ROADMAP-before-layout.md",
+    "old": "plans/CURRENT_WORK.md",
+    "new": "../../plans/CURRENT_WORK.md"
+  },
+  {
+    "document": "RESUME.md",
+    "old": "results/2026-09-12/followup-visual-intake/README.md",
+    "new": "records/experiments/2026-09-12/followup-visual-intake/README.md"
+  },
+  {
+    "document": "RESUME.md",
+    "old": "results/2026-09-12/workspace-cleanup/README.md",
+    "new": "records/experiments/2026-09-12/workspace-cleanup/README.md"
+  },
+  {
+    "document": "RESUME.md",
+    "old": "results/2026-09-12/upstream-action-feasibility/FINAL.md",
+    "new": "records/experiments/2026-09-12/upstream-action-feasibility/FINAL.md"
+  },
+  {
+    "document": "RESUME.md",
+    "old": "results/2026-09-12/selector-logit-audit/README.md",
+    "new": "records/experiments/2026-09-12/selector-logit-audit/README.md"
+  },
+  {
+    "document": "RESUME.md",
+    "old": "results/2026-09-12/upstream-action-feasibility/README.md",
+    "new": "records/experiments/2026-09-12/upstream-action-feasibility/README.md"
+  },
+  {
+    "document": "RESUME.md",
+    "old": "results/2026-09-12/day-feasibility/DECISION.md",
+    "new": "records/experiments/2026-09-12/day-feasibility/DECISION.md"
+  }
+]

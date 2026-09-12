@@ -1,0 +1,429 @@
+{
+  "scope": "sampled near-geometry audit; conservative candidate grouping, not identity or final split",
+  "source_units": "official full mesh coordinates in millimetres",
+  "alignment": "bounding-box centring only; original axes, no scale or rotation optimisation",
+  "samples_per_mesh": 8192,
+  "thresholds": {
+    "max_extent_difference_mm": 3,
+    "bidirectional_mean_mm": 2,
+    "bidirectional_p95_mm": 4
+  },
+  "objects": [
+    {
+      "object": "AlphabetSoup",
+      "mesh_sha256": "545beda7b87c97a90816df6e1578b3fad5a6a1ad91dc74a244dbd22861341968",
+      "sample_seed": 4700
+    },
+    {
+      "object": "BBQSauce",
+      "mesh_sha256": "7a8c57fab8a99bb544cd3f755388ae9547bda65a52c92694726fef1fe020e2fc",
+      "sample_seed": 4701
+    },
+    {
+      "object": "Butter",
+      "mesh_sha256": "d93edd6e7f017bb957972114da1116ff7f6733328fdb9e676a6a6509b21b43e5",
+      "sample_seed": 4702
+    },
+    {
+      "object": "Cherries",
+      "mesh_sha256": "d7bac86396d282f69cb4bb0e71ee58bd27a17752a7bc6a1fe351c3f94cd68766",
+      "sample_seed": 4703
+    },
+    {
+      "object": "ChocolatePudding",
+      "mesh_sha256": "a7666f48f521e7056eacdfe95986596cc5ee3f1c4ced7eeb5a61e155fb13ccd5",
+      "sample_seed": 4704
+    },
+    {
+      "object": "Cookies",
+      "mesh_sha256": "170a7aa24d183514b1b713d7bbdda076e634cfc6104327f295ae77e295fffd0a",
+      "sample_seed": 4705
+    },
+    {
+      "object": "Corn",
+      "mesh_sha256": "bfe176cf6c32fbd4eec8ef227e1294f1d398a6eb594e5473d42326eefb507996",
+      "sample_seed": 4706
+    },
+    {
+      "object": "CreamCheese",
+      "mesh_sha256": "e92102ca3cdbdbd52c0a17505ee82c870aaacbd4298d5ad37a78d767c785b5ee",
+      "sample_seed": 4707
+    },
+    {
+      "object": "GranolaBars",
+      "mesh_sha256": "a91082a901a4ecfe53dd35a38fe583ada03d38e4ba5b33019c22cb1c19af3674",
+      "sample_seed": 4708
+    },
+    {
+      "object": "GreenBeans",
+      "mesh_sha256": "68a9a14c66be868d4feeeae8c8eca2fa501b17345db6a2a18196251f80fcbc5b",
+      "sample_seed": 4709
+    },
+    {
+      "object": "Ketchup",
+      "mesh_sha256": "23752f879d2eb2c2acb34dabe232e028471bfec6a9c357d21c765e9dfed6ceb2",
+      "sample_seed": 4710
+    },
+    {
+      "object": "MacaroniAndCheese",
+      "mesh_sha256": "3f1d152e5bc8053d04a29bac15ffee5977233c4e03a544d6deaa5f22ea85c815",
+      "sample_seed": 4711
+    },
+    {
+      "object": "Mayo",
+      "mesh_sha256": "d516484187ac96c509824bfcfab8318f92c1560c07d806f04dcea111b133767b",
+      "sample_seed": 4712
+    },
+    {
+      "object": "Milk",
+      "mesh_sha256": "401f090d442f0c1f1868d786a1d701e058b154c27caf3ef5989e94323ac9312a",
+      "sample_seed": 4713
+    },
+    {
+      "object": "Mushrooms",
+      "mesh_sha256": "fc577066e03484a0b82b991def7f80707265e7dfb0850a2899bed353724d72a7",
+      "sample_seed": 4714
+    },
+    {
+      "object": "Mustard",
+      "mesh_sha256": "2ed5664a3175243d0e6ae35efe5ad4f34d2efabcf3d0cb47408553d0f5d594cf",
+      "sample_seed": 4715
+    },
+    {
+      "object": "OrangeJuice",
+      "mesh_sha256": "49ae10cbc7ab1bff54e743e941046dca00bd96c9eb9f5fa5cd11e2692755bf37",
+      "sample_seed": 4716
+    },
+    {
+      "object": "Parmesan",
+      "mesh_sha256": "2cb1221c5083bab22492332982eccecc61aa545e52aad4640e21931125c27136",
+      "sample_seed": 4717
+    },
+    {
+      "object": "Peaches",
+      "mesh_sha256": "bdbbaee7f79ba80a65351ce54051a387ecbe985e369235f14d852d91c017f491",
+      "sample_seed": 4718
+    },
+    {
+      "object": "PeasAndCarrots",
+      "mesh_sha256": "06cc06d4b0ffd41ce0faaf0dfee30e04c869e3f891c1c4f707abeaf8142929a8",
+      "sample_seed": 4719
+    },
+    {
+      "object": "Pineapple",
+      "mesh_sha256": "49ea1f2e441a2cb9e353b4a6a1a4f4176e972f58a3f079306782698f23f32fa1",
+      "sample_seed": 4720
+    },
+    {
+      "object": "Popcorn",
+      "mesh_sha256": "68ba719c905ad9edb88371db9a74b6a2c0d10bf5c7981a0a9bdaf47b0b189d71",
+      "sample_seed": 4721
+    },
+    {
+      "object": "Raisins",
+      "mesh_sha256": "c294af2b5e6e0e21d9d228826fb7e51ca4a784cbd6978adbb8a08284fab95d53",
+      "sample_seed": 4722
+    },
+    {
+      "object": "SaladDressing",
+      "mesh_sha256": "bb44c2db8fe3a4cb75abf3e186c6500de60bb5d221aa0a9a07d8427620b371e2",
+      "sample_seed": 4723
+    },
+    {
+      "object": "Spaghetti",
+      "mesh_sha256": "432a0b05ec257d2f3605ce58eb7414e451b79b8a4d7df875bd0351d662a8c41d",
+      "sample_seed": 4724
+    },
+    {
+      "object": "TomatoSauce",
+      "mesh_sha256": "733d8a99b41fa32e3da46c47d404776eb066422d3d6026e048e5a1bb8d023d5e",
+      "sample_seed": 4725
+    },
+    {
+      "object": "Tuna",
+      "mesh_sha256": "31ae3580238ac175b1bf82c2ed6516d5a8ee2cf0375a43ff2aa4dc9e260b9964",
+      "sample_seed": 4726
+    },
+    {
+      "object": "Yogurt",
+      "mesh_sha256": "a6e4680d4891be3e9cb2d601083c474cf6d348d5ca91927740cc1f473575036c",
+      "sample_seed": 4727
+    }
+  ],
+  "near_pairs": [
+    {
+      "a": "AlphabetSoup",
+      "b": "TomatoSauce",
+      "max_extent_difference_mm": 0.922331999999983,
+      "bidirectional_mean_mm": 1.081594722884954,
+      "bidirectional_p95_mm": 1.8869290686043647,
+      "screened_near": true
+    },
+    {
+      "a": "BBQSauce",
+      "b": "Ketchup",
+      "max_extent_difference_mm": 0.27881700000000365,
+      "bidirectional_mean_mm": 0.9247332730664957,
+      "bidirectional_p95_mm": 1.7551667125086587,
+      "screened_near": true
+    },
+    {
+      "a": "BBQSauce",
+      "b": "Mayo",
+      "max_extent_difference_mm": 2.4481819999999956,
+      "bidirectional_mean_mm": 1.6142481934483432,
+      "bidirectional_p95_mm": 4.078753302060843,
+      "screened_near": false
+    },
+    {
+      "a": "BBQSauce",
+      "b": "SaladDressing",
+      "max_extent_difference_mm": 0.8883199999999931,
+      "bidirectional_mean_mm": 1.9272053620196872,
+      "bidirectional_p95_mm": 5.740141842320756,
+      "screened_near": false
+    },
+    {
+      "a": "Butter",
+      "b": "CreamCheese",
+      "max_extent_difference_mm": 0.37940899999999544,
+      "bidirectional_mean_mm": 0.8326109860228131,
+      "bidirectional_p95_mm": 1.493217641340091,
+      "screened_near": true
+    },
+    {
+      "a": "Cherries",
+      "b": "Corn",
+      "max_extent_difference_mm": 0.21466000000000918,
+      "bidirectional_mean_mm": 0.9503700964084457,
+      "bidirectional_p95_mm": 1.7311268463942417,
+      "screened_near": true
+    },
+    {
+      "a": "Cherries",
+      "b": "GreenBeans",
+      "max_extent_difference_mm": 0.6284800000000033,
+      "bidirectional_mean_mm": 0.9168717729711562,
+      "bidirectional_p95_mm": 1.652818115264561,
+      "screened_near": true
+    },
+    {
+      "a": "Cherries",
+      "b": "Peaches",
+      "max_extent_difference_mm": 0.4348400000000012,
+      "bidirectional_mean_mm": 0.8575458536022958,
+      "bidirectional_p95_mm": 1.5920433200250006,
+      "screened_near": true
+    },
+    {
+      "a": "Cherries",
+      "b": "PeasAndCarrots",
+      "max_extent_difference_mm": 0.48745600000000877,
+      "bidirectional_mean_mm": 0.9406188466561305,
+      "bidirectional_p95_mm": 1.7875040075999167,
+      "screened_near": true
+    },
+    {
+      "a": "Cherries",
+      "b": "Pineapple",
+      "max_extent_difference_mm": 1.5238020000000034,
+      "bidirectional_mean_mm": 1.0483515399520216,
+      "bidirectional_p95_mm": 1.7380257383355355,
+      "screened_near": true
+    },
+    {
+      "a": "Cookies",
+      "b": "MacaroniAndCheese",
+      "max_extent_difference_mm": 0.9864959999999883,
+      "bidirectional_mean_mm": 1.665596676813002,
+      "bidirectional_p95_mm": 2.927722117427169,
+      "screened_near": true
+    },
+    {
+      "a": "Corn",
+      "b": "GreenBeans",
+      "max_extent_difference_mm": 0.4517020000000045,
+      "bidirectional_mean_mm": 0.8472217094105146,
+      "bidirectional_p95_mm": 1.5859687395050057,
+      "screened_near": true
+    },
+    {
+      "a": "Corn",
+      "b": "Peaches",
+      "max_extent_difference_mm": 0.25806200000000246,
+      "bidirectional_mean_mm": 0.87691986998068,
+      "bidirectional_p95_mm": 1.6192708235977553,
+      "screened_near": true
+    },
+    {
+      "a": "Corn",
+      "b": "PeasAndCarrots",
+      "max_extent_difference_mm": 0.4730470000000011,
+      "bidirectional_mean_mm": 0.8465106028597005,
+      "bidirectional_p95_mm": 1.598254021794069,
+      "screened_near": true
+    },
+    {
+      "a": "Corn",
+      "b": "Pineapple",
+      "max_extent_difference_mm": 1.3091419999999943,
+      "bidirectional_mean_mm": 0.9721609711826473,
+      "bidirectional_p95_mm": 1.690396096197578,
+      "screened_near": true
+    },
+    {
+      "a": "GreenBeans",
+      "b": "Peaches",
+      "max_extent_difference_mm": 0.35424799999999834,
+      "bidirectional_mean_mm": 0.8686361659358728,
+      "bidirectional_p95_mm": 1.5947772042380943,
+      "screened_near": true
+    },
+    {
+      "a": "GreenBeans",
+      "b": "PeasAndCarrots",
+      "max_extent_difference_mm": 0.9247490000000056,
+      "bidirectional_mean_mm": 0.8486674146497164,
+      "bidirectional_p95_mm": 1.586381471936314,
+      "screened_near": true
+    },
+    {
+      "a": "GreenBeans",
+      "b": "Pineapple",
+      "max_extent_difference_mm": 1.0085440000000006,
+      "bidirectional_mean_mm": 0.9055221552777394,
+      "bidirectional_p95_mm": 1.6099330047975653,
+      "screened_near": true
+    },
+    {
+      "a": "Ketchup",
+      "b": "Mayo",
+      "max_extent_difference_mm": 2.337128,
+      "bidirectional_mean_mm": 1.6685292808756864,
+      "bidirectional_p95_mm": 4.1213441979698855,
+      "screened_near": false
+    },
+    {
+      "a": "Ketchup",
+      "b": "SaladDressing",
+      "max_extent_difference_mm": 1.1671369999999968,
+      "bidirectional_mean_mm": 1.9347564381019566,
+      "bidirectional_p95_mm": 5.68796282005191,
+      "screened_near": false
+    },
+    {
+      "a": "Mayo",
+      "b": "SaladDressing",
+      "max_extent_difference_mm": 2.6645520000000005,
+      "bidirectional_mean_mm": 2.2188903823337944,
+      "bidirectional_p95_mm": 6.5954054771193436,
+      "screened_near": false
+    },
+    {
+      "a": "Milk",
+      "b": "OrangeJuice",
+      "max_extent_difference_mm": 2.1250909999999976,
+      "bidirectional_mean_mm": 1.5426316622159801,
+      "bidirectional_p95_mm": 2.837466621142473,
+      "screened_near": true
+    },
+    {
+      "a": "Mushrooms",
+      "b": "Tuna",
+      "max_extent_difference_mm": 0.7507740000000069,
+      "bidirectional_mean_mm": 0.7602702630331726,
+      "bidirectional_p95_mm": 1.4042511684945378,
+      "screened_near": true
+    },
+    {
+      "a": "Peaches",
+      "b": "PeasAndCarrots",
+      "max_extent_difference_mm": 0.7311090000000036,
+      "bidirectional_mean_mm": 0.8743668290587854,
+      "bidirectional_p95_mm": 1.6746725761931212,
+      "screened_near": true
+    },
+    {
+      "a": "Peaches",
+      "b": "Pineapple",
+      "max_extent_difference_mm": 1.362791999999999,
+      "bidirectional_mean_mm": 0.9358323549158847,
+      "bidirectional_p95_mm": 1.6338323352334798,
+      "screened_near": true
+    },
+    {
+      "a": "PeasAndCarrots",
+      "b": "Pineapple",
+      "max_extent_difference_mm": 1.0363459999999947,
+      "bidirectional_mean_mm": 0.939906181027526,
+      "bidirectional_p95_mm": 1.6423065919121118,
+      "screened_near": true
+    }
+  ],
+  "connected_groups": [
+    [
+      "AlphabetSoup",
+      "TomatoSauce"
+    ],
+    [
+      "BBQSauce",
+      "Ketchup"
+    ],
+    [
+      "Butter",
+      "CreamCheese"
+    ],
+    [
+      "Cherries",
+      "Corn",
+      "GreenBeans",
+      "Peaches",
+      "PeasAndCarrots",
+      "Pineapple"
+    ],
+    [
+      "ChocolatePudding"
+    ],
+    [
+      "Cookies",
+      "MacaroniAndCheese"
+    ],
+    [
+      "GranolaBars"
+    ],
+    [
+      "Mayo"
+    ],
+    [
+      "Milk",
+      "OrangeJuice"
+    ],
+    [
+      "Mushrooms",
+      "Tuna"
+    ],
+    [
+      "Mustard"
+    ],
+    [
+      "Parmesan"
+    ],
+    [
+      "Popcorn"
+    ],
+    [
+      "Raisins"
+    ],
+    [
+      "SaladDressing"
+    ],
+    [
+      "Spaghetti"
+    ],
+    [
+      "Yogurt"
+    ]
+  ],
+  "transitive_groups_note": "members connected through near-pairs need not all be pairwise near",
+  "trained_or_executed_new_objects": false
+}

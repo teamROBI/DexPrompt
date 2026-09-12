@@ -1,0 +1,14 @@
+{
+  "pid": 2046123,
+  "command": [
+    "scripts/prepare_visual_dataset.py",
+    "--data",
+    "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-job-v1/source/runs/21-placement-Raisins-yaw_plus15-f27ecfce",
+    "--episode",
+    "teacher_0000_yaw_000",
+    "--visual-profile",
+    "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-job-v1/code-egl/configs/visual_student_256.json",
+    "--out",
+    "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/Raisins-yaw_plus15-3e8fa799/visual"
+  ]
+}

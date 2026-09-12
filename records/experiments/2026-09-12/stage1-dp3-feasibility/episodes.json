@@ -1,0 +1,320 @@
+[
+  {
+    "name": "AlphabetSoup-409a5d4a75d5",
+    "object_id": "AlphabetSoup",
+    "candidate_id": "34815d4f21e5717d87a351e0f413a4ac7be83bcb9ef5a1e5efaff0beb0befe91",
+    "original_episode_sha256": "409a5d4a75d5d3052e44c5b644feaafb5fb728fee919faa5df08b59cc34a130c",
+    "arrays": "AlphabetSoup-409a5d4a75d5.npz",
+    "arrays_sha256": "bddc4a016381c94c440f60a5551af9633b8a7970b2b6ebce433741f3db7ceef5",
+    "required_contact_groups": [
+      [
+        "finger_r_link3",
+        "finger_r_link4"
+      ],
+      [
+        "finger_r_link7",
+        "finger_r_link8"
+      ],
+      [
+        "finger_r_link11",
+        "finger_r_link12"
+      ],
+      [
+        "finger_r_link15",
+        "finger_r_link16"
+      ],
+      [
+        "finger_r_link19",
+        "finger_r_link20"
+      ]
+    ],
+    "executed_target": {
+      "world_root": [
+        [
+          -0.38215920721328495,
+          -0.1118700225405378,
+          0.917300098015341,
+          0.2721783152809384
+        ],
+        [
+          0.022936368151186198,
+          0.9911912662099763,
+          0.13043706614746547,
+          -0.03036548426116894
+        ],
+        [
+          -0.9238118286632881,
+          0.0708872574297003,
+          -0.37622697055892823,
+          0.9804536148553116
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "finger_closure_target": [
+        0.025483716279268265,
+        -1.4686930179595947,
+        0.3842041492462158,
+        0.5667370557785034,
+        -0.4139101803302765,
+        0.9914067983627319,
+        0.13467049598693848,
+        0.6884231567382812,
+        -0.2973065972328186,
+        0.7652707099914551,
+        0.10544631630182266,
+        0.707569420337677,
+        -0.2751111686229706,
+        0.7025499939918518,
+        0.10479303449392319,
+        0.6526500582695007,
+        -0.310339093208313,
+        0.9721010327339172,
+        0.3195720613002777,
+        0.7828060388565063
+      ]
+    },
+    "quality_limits": {
+      "max_penetration": 0.002,
+      "max_digit_force": 30.0,
+      "max_table_penetration": 1e-06,
+      "max_approach_displacement": 0.01,
+      "min_contact_force": 0.1,
+      "min_lift": 0.1,
+      "min_hold_seconds": 0.5
+    },
+    "baseline_guard": {
+      "success": true,
+      "ticks": 1024,
+      "failure": null,
+      "contact_acquisition_tick": 631,
+      "terminal_hold_seconds": 2.48,
+      "longest_hold_seconds": 2.48,
+      "max_height_m": 0.1451532308325375,
+      "max_penetration_m": 0.0018226167277979875,
+      "max_digit_force_n": 28.00594909898513,
+      "evaluation_contract": "contact_acquisition_guard_v2"
+    },
+    "frames": 1024,
+    "model": "files/16f0700373ed43f1406b59cd2c8edd479d4462d5f7c1930d760f4146dd19d9a8.mjb",
+    "model_sha256": "16f0700373ed43f1406b59cd2c8edd479d4462d5f7c1930d760f4146dd19d9a8",
+    "initial_state": "files/cdf7a3a3a9440861f625e004b7cce186468f3a3b3c87b3da84d3fac72da65a1c.npy",
+    "initial_state_sha256": "cdf7a3a3a9440861f625e004b7cce186468f3a3b3c87b3da84d3fac72da65a1c"
+  },
+  {
+    "name": "Peaches-9aa6657866eb",
+    "object_id": "Peaches",
+    "candidate_id": "7a8cdecf4042170d6890abe31d46ebef11f9c8654adb221a5d7a3256ed03ae9e",
+    "original_episode_sha256": "9aa6657866eb216f2b5495b771f5c1052b4eaa0f6c2014a19b6e65b307543960",
+    "arrays": "Peaches-9aa6657866eb.npz",
+    "arrays_sha256": "41f505695a6a1e500a13aee6e0dbee690a8f047dbd2bc5bcb94969a48e4bbbef",
+    "required_contact_groups": [
+      [
+        "finger_r_link3",
+        "finger_r_link4"
+      ],
+      [
+        "finger_r_link7",
+        "finger_r_link8"
+      ],
+      [
+        "finger_r_link11",
+        "finger_r_link12"
+      ],
+      [
+        "finger_r_link15",
+        "finger_r_link16"
+      ],
+      [
+        "finger_r_link19",
+        "finger_r_link20"
+      ]
+    ],
+    "executed_target": {
+      "world_root": [
+        [
+          -0.09038681272519962,
+          -0.35070308941894995,
+          0.9321145458739333,
+          0.2573343134651105
+        ],
+        [
+          -0.02387432205500727,
+          0.9364396717071687,
+          0.3500153103390895,
+          -0.0441940412155721
+        ],
+        [
+          -0.9956205101865763,
+          0.009383165636359445,
+          -0.0930145976223472,
+          0.9459045980492521
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "finger_closure_target": [
+        -0.14302688837051392,
+        -1.4670268297195435,
+        0.4895273447036743,
+        0.7084730267524719,
+        -0.30576208233833313,
+        1.0220457315444946,
+        0.19638392329216003,
+        0.7067396640777588,
+        -0.0964357778429985,
+        0.9410712718963623,
+        0.1356251984834671,
+        0.6597359776496887,
+        -0.13675975799560547,
+        0.9419418573379517,
+        0.11301150172948837,
+        0.6260356903076172,
+        -0.2426319718360901,
+        0.9865436553955078,
+        0.3178507685661316,
+        0.7841325998306274
+      ]
+    },
+    "quality_limits": {
+      "max_penetration": 0.002,
+      "max_digit_force": 30.0,
+      "max_table_penetration": 1e-06,
+      "max_approach_displacement": 0.01,
+      "min_contact_force": 0.1,
+      "min_lift": 0.1,
+      "min_hold_seconds": 0.5
+    },
+    "baseline_guard": {
+      "success": true,
+      "ticks": 1047,
+      "failure": null,
+      "contact_acquisition_tick": 697,
+      "terminal_hold_seconds": 2.72,
+      "longest_hold_seconds": 2.72,
+      "max_height_m": 0.14460558116941102,
+      "max_penetration_m": 0.0018871609849941027,
+      "max_digit_force_n": 16.763981894029982,
+      "evaluation_contract": "contact_acquisition_guard_v2"
+    },
+    "frames": 1047,
+    "model": "files/f711c25bfc5b949c080d1a434032dcc83178489df6cc178214d8cd456570d347.mjb",
+    "model_sha256": "f711c25bfc5b949c080d1a434032dcc83178489df6cc178214d8cd456570d347",
+    "initial_state": "files/538414e596edd36acb6414b6600b4afe6d51568d54d48d4f68322af2005bdabe.npy",
+    "initial_state_sha256": "538414e596edd36acb6414b6600b4afe6d51568d54d48d4f68322af2005bdabe"
+  },
+  {
+    "name": "Raisins-0ef25c7b5eea",
+    "object_id": "Raisins",
+    "candidate_id": "af15fdf0bce4736548c38c941e9dfb55d32252e830facce103de455c2f7a2004",
+    "original_episode_sha256": "0ef25c7b5eea2108f9498bdef939885bf311fe7fe75d586f9e7f2995ae742ee5",
+    "arrays": "Raisins-0ef25c7b5eea.npz",
+    "arrays_sha256": "588d4c9395f5a0d8c327e6bddc30f20b48b0ef4b5b92c0ccbdf26d520236abaf",
+    "required_contact_groups": [
+      [
+        "finger_r_link3",
+        "finger_r_link4"
+      ],
+      [
+        "finger_r_link7",
+        "finger_r_link8"
+      ],
+      [
+        "finger_r_link11",
+        "finger_r_link12"
+      ],
+      [
+        "finger_r_link15",
+        "finger_r_link16"
+      ],
+      [
+        "finger_r_link19",
+        "finger_r_link20"
+      ]
+    ],
+    "executed_target": {
+      "world_root": [
+        [
+          0.31877241976342285,
+          -0.27343976455335267,
+          0.9075322618586686,
+          0.23905815756483098
+        ],
+        [
+          0.5306958013659627,
+          0.8448191329165137,
+          0.06813637667106119,
+          -0.06373266572602879
+        ],
+        [
+          -0.785331826405783,
+          0.4599035709519214,
+          0.41441838112583773,
+          0.8882327465525492
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "finger_closure_target": [
+        -0.004302991088479757,
+        -1.329105257987976,
+        0.17825967073440552,
+        0.7806931138038635,
+        -0.3623584508895874,
+        0.49534091353416443,
+        0.752108633518219,
+        0.7893801331520081,
+        -0.35176029801368713,
+        0.5179767608642578,
+        0.5027207732200623,
+        0.7852180004119873,
+        -0.2089226394891739,
+        0.6804212331771851,
+        0.39286667108535767,
+        0.8883664608001709,
+        -0.271171510219574,
+        0.8895362615585327,
+        0.2139427810907364,
+        0.7978715896606445
+      ]
+    },
+    "quality_limits": {
+      "max_penetration": 0.002,
+      "max_digit_force": 30.0,
+      "max_table_penetration": 1e-06,
+      "max_approach_displacement": 0.01,
+      "min_contact_force": 0.1,
+      "min_lift": 0.1,
+      "min_hold_seconds": 0.5
+    },
+    "baseline_guard": {
+      "success": true,
+      "ticks": 1018,
+      "failure": null,
+      "contact_acquisition_tick": 664,
+      "terminal_hold_seconds": 2.62,
+      "longest_hold_seconds": 2.62,
+      "max_height_m": 0.1422339317987794,
+      "max_penetration_m": 0.0013366850320508732,
+      "max_digit_force_n": 10.952599948889382,
+      "evaluation_contract": "contact_acquisition_guard_v2"
+    },
+    "frames": 1018,
+    "model": "files/89121bacba2e3304d7b1e631795789cc98a79c4b00a1612687398f57e2d3e101.mjb",
+    "model_sha256": "89121bacba2e3304d7b1e631795789cc98a79c4b00a1612687398f57e2d3e101",
+    "initial_state": "files/96713c98c9b3c533a6cdeb05dedfc0910fcfe9b9adfcab9cf2735b8e7591aebf.npy",
+    "initial_state_sha256": "96713c98c9b3c533a6cdeb05dedfc0910fcfe9b9adfcab9cf2735b8e7591aebf"
+  }
+]

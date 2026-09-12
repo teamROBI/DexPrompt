@@ -1,0 +1,9 @@
+[
+  "scripts/ops/run_x0_student_lecun.py",
+  "scripts/ops/run_low_noise_student_lecun.py",
+  "scripts/ops/check_hope_student_lecun.py",
+  "scripts/ops/follow_student_comparison.py",
+  "tests/student/test_low_noise_student_job.py",
+  "tests/student/test_x0_student_job.py",
+  "tests/student/test_student_followup.py"
+]

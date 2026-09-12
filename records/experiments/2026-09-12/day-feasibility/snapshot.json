@@ -1,0 +1,174 @@
+{
+  "queried_at": 1789157644.7587514,
+  "jobs": {
+    "direct-bc-v1": {
+      "source": "/data1/yspark/projects/dexprompt/student-checks/direct-bc-v1",
+      "status": {
+        "stage": "completed",
+        "running": false,
+        "updated_at": 1789153692.235704
+      },
+      "result": {
+        "completed": true,
+        "attempts": 3,
+        "compliant_successes": 0,
+        "sustained_lifts": 0
+      },
+      "stages": [
+        {
+          "stage": "preflight",
+          "pid": 2095600,
+          "exit_code": 0,
+          "timed_out": false,
+          "started_at": 1789149818.0896754,
+          "finished_at": 1789149833.196751
+        },
+        {
+          "stage": "controls",
+          "pid": 2095753,
+          "exit_code": 0,
+          "timed_out": false,
+          "started_at": 1789149833.198438,
+          "finished_at": 1789149877.1034043
+        },
+        {
+          "stage": "train",
+          "pid": 2095952,
+          "exit_code": 0,
+          "timed_out": false,
+          "started_at": 1789149877.1050627,
+          "finished_at": 1789153270.6586633
+        },
+        {
+          "stage": "evaluate",
+          "pid": 2106023,
+          "exit_code": 0,
+          "timed_out": false,
+          "started_at": 1789153270.6643522,
+          "finished_at": 1789153692.2339725
+        }
+      ],
+      "replays": [
+        {
+          "seed": 1000,
+          "ticks": 974,
+          "failure_reason": null,
+          "contact_acquisition_tick": null,
+          "teacher_compliant_lift": false,
+          "max_height_m": 4.924585579324514e-07
+        },
+        {
+          "seed": 1001,
+          "ticks": 974,
+          "failure_reason": null,
+          "contact_acquisition_tick": null,
+          "teacher_compliant_lift": false,
+          "max_height_m": 4.924585579324514e-07
+        },
+        {
+          "seed": 1002,
+          "ticks": 974,
+          "failure_reason": null,
+          "contact_acquisition_tick": null,
+          "teacher_compliant_lift": false,
+          "max_height_m": 4.924585579324514e-07
+        }
+      ]
+    },
+    "residual-direct-bc-v1": {
+      "source": "/data1/yspark/projects/dexprompt/student-checks/residual-direct-bc-v1",
+      "status": {
+        "stage": "completed",
+        "running": false,
+        "updated_at": 1789157606.214612
+      },
+      "result": {
+        "completed": true,
+        "attempts": 3,
+        "compliant_successes": 0,
+        "sustained_lifts": 0
+      },
+      "stages": [
+        {
+          "stage": "preflight",
+          "pid": 2107254,
+          "exit_code": 0,
+          "timed_out": false,
+          "started_at": 1789153696.414562,
+          "finished_at": 1789153713.1070294
+        },
+        {
+          "stage": "controls",
+          "pid": 2107317,
+          "exit_code": 0,
+          "timed_out": false,
+          "started_at": 1789153713.1147733,
+          "finished_at": 1789153756.8978143
+        },
+        {
+          "stage": "train",
+          "pid": 2107575,
+          "exit_code": 0,
+          "timed_out": false,
+          "started_at": 1789153756.8995285,
+          "finished_at": 1789157183.6566255
+        },
+        {
+          "stage": "evaluate",
+          "pid": 2117637,
+          "exit_code": 0,
+          "timed_out": false,
+          "started_at": 1789157183.664735,
+          "finished_at": 1789157606.2133617
+        }
+      ],
+      "replays": [
+        {
+          "seed": 1000,
+          "ticks": 974,
+          "failure_reason": null,
+          "contact_acquisition_tick": null,
+          "teacher_compliant_lift": false,
+          "max_height_m": 4.924585579324514e-07
+        },
+        {
+          "seed": 1001,
+          "ticks": 974,
+          "failure_reason": null,
+          "contact_acquisition_tick": null,
+          "teacher_compliant_lift": false,
+          "max_height_m": 4.924585579324514e-07
+        },
+        {
+          "seed": 1002,
+          "ticks": 974,
+          "failure_reason": null,
+          "contact_acquisition_tick": null,
+          "teacher_compliant_lift": false,
+          "max_height_m": 4.924585579324514e-07
+        }
+      ]
+    },
+    "retrieval": {
+      "ticks": 974,
+      "seed": 0,
+      "failure_reason": null,
+      "contact_acquisition_tick": 624,
+      "evaluation_contract": "contact_acquisition_guard_v2",
+      "terminal_lift_seconds": 2.7600000000000002,
+      "terminal_teacher_contact_lift_seconds": 2.7600000000000002,
+      "longest_lift_seconds": 2.7600000000000002,
+      "longest_teacher_contact_lift_seconds": 2.7600000000000002,
+      "sustained_lift": true,
+      "teacher_compliant_lift": true,
+      "max_height_m": 0.14641263817472594,
+      "max_penetration_m": 0.0017611118693082056,
+      "max_digit_force_n": 8.768535717600162,
+      "saturated_command_ticks": 0,
+      "required_contact_groups": 2,
+      "max_simultaneous_contact_groups": 2,
+      "terminal_contact_groups": 2,
+      "all_contact_groups_ticks": 375
+    }
+  }
+}

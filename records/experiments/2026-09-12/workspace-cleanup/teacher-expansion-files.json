@@ -1,0 +1,4158 @@
+{
+  "manifests-opt4": {
+    "kind": "directory"
+  },
+  "scene_cfg": {
+    "kind": "directory"
+  },
+  "mug": {
+    "kind": "directory"
+  },
+  "hammer": {
+    "kind": "directory"
+  },
+  "can-yawm225": {
+    "kind": "directory"
+  },
+  "can-yawm075": {
+    "kind": "directory"
+  },
+  "manifests": {
+    "kind": "directory"
+  },
+  "bowl": {
+    "kind": "directory"
+  },
+  "can-yawm15": {
+    "kind": "directory"
+  },
+  "can-yaw000": {
+    "kind": "directory"
+  },
+  "can-yawp15": {
+    "kind": "directory"
+  },
+  "can-yawp075": {
+    "kind": "directory"
+  },
+  "can-yawp15-reproduce": {
+    "kind": "directory"
+  },
+  "objects": {
+    "kind": "directory"
+  },
+  "can-yawp225": {
+    "kind": "directory"
+  },
+  "placement.json": {
+    "kind": "file",
+    "size": 13548,
+    "mtime_ns": 1788979534194819183,
+    "mode": 436,
+    "sha256": "d309dc8d6824b56471746a980ff1375a80e9c261ae3adce4b472ea97caba3b3b"
+  },
+  "opt-steps.json": {
+    "kind": "file",
+    "size": 4915,
+    "mtime_ns": 1788986696034660737,
+    "mode": 436,
+    "sha256": "4da79e041ce180f7180c66cc561bbceaa401d1677e7ef9b663b0ac81ed68c7c4"
+  },
+  "table-check.json": {
+    "kind": "file",
+    "size": 2655,
+    "mtime_ns": 1788979544418580546,
+    "mode": 436,
+    "sha256": "bde823721f78b346ac2be5a2f2b2f6a72146ed613538354cae8426ddbf2a2839"
+  },
+  "yaw-transfer-mug.json": {
+    "kind": "file",
+    "size": 1430,
+    "mtime_ns": 1788982653027326627,
+    "mode": 436,
+    "sha256": "6121dfdf4957baea0db12fcea2bd7f1bde3feaf80c77b9a1d5b40a50d1dd2ca8"
+  },
+  "plan.json": {
+    "kind": "file",
+    "size": 3822,
+    "mtime_ns": 1788979605385236612,
+    "mode": 436,
+    "sha256": "ff4286dc94f9b22401dd4f9cc9ecf604f4ef2495e7ce567ef6eacd6e2a04b5d5"
+  },
+  "can-yaw2.log": {
+    "kind": "file",
+    "size": 2675,
+    "mtime_ns": 1788984398902148483,
+    "mode": 436,
+    "sha256": "4c3bc85d4f7a2a0840f4b9a738dfc26c329e6e5ba6bd888ee3022630f9f6ce93"
+  },
+  "yaw-transfer-can-wide.json": {
+    "kind": "file",
+    "size": 1810,
+    "mtime_ns": 1788984032569459489,
+    "mode": 436,
+    "sha256": "cc86f44c5db774bb3593f814a5ef493abeff639017ab6c83e82fb37ca0bad761"
+  },
+  "can-yaw.log": {
+    "kind": "file",
+    "size": 2005,
+    "mtime_ns": 1788983689542089275,
+    "mode": 436,
+    "sha256": "bf7d22b04aef3e78ab63b551dee75f86342927b87eb4ff1131010a44e9a28187"
+  },
+  "yaw-transfer-can.json": {
+    "kind": "file",
+    "size": 1130,
+    "mtime_ns": 1788983140373765744,
+    "mode": 436,
+    "sha256": "84ca794f01e0de091ee5694cdc91140ebf36a5a7a9cf3ebba5f7a5dc9e4933c8"
+  },
+  "mug-wide.log": {
+    "kind": "file",
+    "size": 4306,
+    "mtime_ns": 1788983290293270925,
+    "mode": 436,
+    "sha256": "afbf2e5900e5021bb18a9315c8ca5347a85b554476ff68b01f0a6e36683b965a"
+  },
+  "gen.log": {
+    "kind": "file",
+    "size": 5628,
+    "mtime_ns": 1788981898097354310,
+    "mode": 436,
+    "sha256": "234f8b330165fe4e3678cdb0e4e1475260d766ccbf405687624de02d6dd71de1"
+  },
+  "can-repro.log": {
+    "kind": "file",
+    "size": 652,
+    "mtime_ns": 1788984510527201988,
+    "mode": 436,
+    "sha256": "9827f4dcaa27d947351200bf8bc59df02065ba921eab69ec56525baa338ef2ba"
+  },
+  "gen-pathbug.log": {
+    "kind": "file",
+    "size": 1808,
+    "mtime_ns": 1788980261212370620,
+    "mode": 436,
+    "sha256": "de9941854f97fea894dcc87a2ec70f76c609007dc956accbf79a39e685ea8009"
+  },
+  "exec-opt4.log": {
+    "kind": "file",
+    "size": 2384,
+    "mtime_ns": 1788987300815104248,
+    "mode": 436,
+    "sha256": "feab01a008aa8ef6189523173893ea9e7b8a85b0266c823d6b1a8aa841c3a109"
+  },
+  "exec-mug.log": {
+    "kind": "file",
+    "size": 1677,
+    "mtime_ns": 1788981250310455806,
+    "mode": 436,
+    "sha256": "661eddc5ab51da39862c07bd53b3d39eaddd57af7a93e8e5ec3097b39173cff8"
+  },
+  "opt-steps.log": {
+    "kind": "file",
+    "size": 1049,
+    "mtime_ns": 1788985303464366049,
+    "mode": 436,
+    "sha256": "d33b6c9b40716160b252927f6910f8c0afe6a0ad3956353f0178f7971d96d6a5"
+  },
+  "gen-opt4.log": {
+    "kind": "file",
+    "size": 5916,
+    "mtime_ns": 1788986437406788454,
+    "mode": 436,
+    "sha256": "b55d93bdecaf49933011025945670ad3cc410a4b19a1df1bc5c36197b2022322"
+  },
+  "expansion.json": {
+    "kind": "file",
+    "size": 1341,
+    "mtime_ns": 1788982051481014437,
+    "mode": 436,
+    "sha256": "b27620e297155d93b5d3119580c801b1a839ecfe93894e174024b95c9da5c285"
+  },
+  "manifests-opt4/mug-10_Power_Disk-s1.json": {
+    "kind": "file",
+    "size": 5901,
+    "mtime_ns": 1788985626599026013,
+    "mode": 384,
+    "sha256": "fccca0779ec28847ce2b26a9ac20f4da53abfc743bac83af278960bfee7fd4b8"
+  },
+  "manifests-opt4/mug-1_Large_Diameter-s0.verdicts.json": {
+    "kind": "file",
+    "size": 612,
+    "mtime_ns": 1788985735193856059,
+    "mode": 384,
+    "sha256": "e46afb4fd63e2029c2cefeed773f9612bf774f283228257355933345bcbf4e26"
+  },
+  "manifests-opt4/mug-3_Medium_Wrap-s1.json": {
+    "kind": "file",
+    "size": 3035,
+    "mtime_ns": 1788985452105102844,
+    "mode": 384,
+    "sha256": "5c52ee0ee71dd18f5ebdca96fd79c60c55e830dd0924d76669a14dbcc12fdf78"
+  },
+  "manifests-opt4/mug-1_Large_Diameter-s1.json": {
+    "kind": "file",
+    "size": 11667,
+    "mtime_ns": 1788985789733369893,
+    "mode": 384,
+    "sha256": "db5025f94c327ae8360ee288409ef89190ea1f24099eef3353642c54bda17178"
+  },
+  "manifests-opt4/mug-executed-opt4.json": {
+    "kind": "file",
+    "size": 49441,
+    "mtime_ns": 1788986549918696791,
+    "mode": 436,
+    "sha256": "15d5864ce1641ba6886a7d36d186297ed6eae22edc6524ab83a715acd7423132"
+  },
+  "manifests-opt4/mug-3_Medium_Wrap-s0.verdicts.json": {
+    "kind": "file",
+    "size": 187,
+    "mtime_ns": 1788985393916818903,
+    "mode": 384,
+    "sha256": "9adca530b382e49f0109e02477fc3c644370d74faee43cdc7c8d27b86823b712"
+  },
+  "manifests-opt4/mug-10_Power_Disk-s0.verdicts.json": {
+    "kind": "file",
+    "size": 187,
+    "mtime_ns": 1788985568239783065,
+    "mode": 384,
+    "sha256": "6adaa73c0c015cf0fca3281a61c1494bceb74bb83a8825d78a5b00c16bc42f20"
+  },
+  "manifests-opt4/mug-1_Large_Diameter-s0.json": {
+    "kind": "file",
+    "size": 3033,
+    "mtime_ns": 1788985735193856059,
+    "mode": 384,
+    "sha256": "77bd33a042ae9a3623af9bdf3ebdcb917be512b22c4951470c0d18defb656cd7"
+  },
+  "manifests-opt4/mug-1_Large_Diameter-s1.verdicts.json": {
+    "kind": "file",
+    "size": 975,
+    "mtime_ns": 1788985789733369893,
+    "mode": 384,
+    "sha256": "9cd6ad30402c39f0ea0a02535383541d85bf653e9cb278c0d802f9bf01a2e1f2"
+  },
+  "manifests-opt4/mug-10_Power_Disk-s1.verdicts.json": {
+    "kind": "file",
+    "size": 373,
+    "mtime_ns": 1788985626599026013,
+    "mode": 384,
+    "sha256": "b613648ac9fc556d405fcc45d08a45b3bdbc35309edf68e8a077623a6a7400f6"
+  },
+  "manifests-opt4/mug-10_Power_Disk-s0.json": {
+    "kind": "file",
+    "size": 3025,
+    "mtime_ns": 1788985568239783065,
+    "mode": 384,
+    "sha256": "1b54bafe47fdfd6c54b0545ace5705b32141d50cf1a4fc92eeb282976c0af2f0"
+  },
+  "manifests-opt4/mug-3_Medium_Wrap-s0.json": {
+    "kind": "file",
+    "size": 3034,
+    "mtime_ns": 1788985393916818903,
+    "mode": 384,
+    "sha256": "5981d852673f83e5e1a470e32b5171c62c838f82960f714339c59cf9a7577aeb"
+  },
+  "manifests-opt4/mug-1_Large_Diameter-s2.json": {
+    "kind": "file",
+    "size": 11671,
+    "mtime_ns": 1788985841508962836,
+    "mode": 384,
+    "sha256": "8268302ed3024d58c1d6c999fce58217355c71445745b9002fb78769b32889ed"
+  },
+  "manifests-opt4/mug-10_Power_Disk-s2.json": {
+    "kind": "file",
+    "size": 3033,
+    "mtime_ns": 1788985683958372203,
+    "mode": 384,
+    "sha256": "8180e4587746463132e574fd76f5533cd4135f08994e85da0015b88983e425d4"
+  },
+  "manifests-opt4/mug-3_Medium_Wrap-s1.verdicts.json": {
+    "kind": "file",
+    "size": 188,
+    "mtime_ns": 1788985452105102844,
+    "mode": 384,
+    "sha256": "02eaa164587314e558a5c446fe62396e27a7df2fa6e9dbe44e0e3e934d665735"
+  },
+  "manifests-opt4/mug-1_Large_Diameter-s2.verdicts.json": {
+    "kind": "file",
+    "size": 975,
+    "mtime_ns": 1788985841508962836,
+    "mode": 384,
+    "sha256": "4e1788c015518d7f112b9a96687cc63fc6d5093c733e24c9889d3edc8c4bad34"
+  },
+  "manifests-opt4/mug-3_Medium_Wrap-s2.verdicts.json": {
+    "kind": "file",
+    "size": 187,
+    "mtime_ns": 1788985510916627627,
+    "mode": 384,
+    "sha256": "bcd52823dff40e06aa8684821cf6a6293fcbc42377edd3c6be54aa7223125df5"
+  },
+  "manifests-opt4/mug-10_Power_Disk-s2.verdicts.json": {
+    "kind": "file",
+    "size": 187,
+    "mtime_ns": 1788985683958372203,
+    "mode": 384,
+    "sha256": "4bd8cec78a9bf85cf8c4f7de9679da3220471e4df69f5db21b6578a332170415"
+  },
+  "manifests-opt4/mug-3_Medium_Wrap-s2.json": {
+    "kind": "file",
+    "size": 3027,
+    "mtime_ns": 1788985510916627627,
+    "mode": 384,
+    "sha256": "bb8121d530acce3e5a24536c7c4fc6a9454dc62d449bd69797db4f7dbb1576a3"
+  },
+  "scene_cfg/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71": {
+    "kind": "directory"
+  },
+  "scene_cfg/core_mug_10f6e09036350e92b3f21f1137c3c347": {
+    "kind": "directory"
+  },
+  "scene_cfg/ddg_gd_hammer_poisson_005": {
+    "kind": "directory"
+  },
+  "scene_cfg/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71/tabletop": {
+    "kind": "directory"
+  },
+  "scene_cfg/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71/tabletop/scale005.npy": {
+    "kind": "file",
+    "size": 1344,
+    "mtime_ns": 1788979543858593513,
+    "mode": 436,
+    "sha256": "ad50998830e7a40aed0f7884d5d9fa9bc3bf72e38484dbc4e737b9840aed50b2"
+  },
+  "scene_cfg/core_mug_10f6e09036350e92b3f21f1137c3c347/tabletop": {
+    "kind": "directory"
+  },
+  "scene_cfg/core_mug_10f6e09036350e92b3f21f1137c3c347/tabletop/scale005.npy": {
+    "kind": "file",
+    "size": 1338,
+    "mtime_ns": 1788979544170586286,
+    "mode": 436,
+    "sha256": "aa8a067429126cc78e11c28a4094a945de1ce61b3ce82ece4d69702842689aa5"
+  },
+  "scene_cfg/ddg_gd_hammer_poisson_005/tabletop": {
+    "kind": "directory"
+  },
+  "scene_cfg/ddg_gd_hammer_poisson_005/tabletop/scale008.npy": {
+    "kind": "file",
+    "size": 1242,
+    "mtime_ns": 1788979544418580546,
+    "mode": 436,
+    "sha256": "d4e60f85fc0772c618ba5dda12d34c38b562b86bfb0b0a912edfef0eb7104557"
+  },
+  "mug/observation": {
+    "kind": "directory"
+  },
+  "mug/executed-opt4": {
+    "kind": "directory"
+  },
+  "mug/executed-wide": {
+    "kind": "directory"
+  },
+  "mug/reachable": {
+    "kind": "directory"
+  },
+  "mug/executed": {
+    "kind": "directory"
+  },
+  "mug/predicted": {
+    "kind": "directory"
+  },
+  "mug/objects": {
+    "kind": "directory"
+  },
+  "mug/observation/head": {
+    "kind": "directory"
+  },
+  "mug/observation/head/rgb.png": {
+    "kind": "file",
+    "size": 17924,
+    "mtime_ns": 1788979673039890274,
+    "mode": 436,
+    "sha256": "c2c2c8a0d1f290f51c6155dcc42a569ef5bf528cb7f733d399e847e9597e1efd"
+  },
+  "mug/observation/head/depth.npy": {
+    "kind": "file",
+    "size": 1228928,
+    "mtime_ns": 1788979673039890274,
+    "mode": 436,
+    "sha256": "d5774187903f51dc1ccb2cd8bc0e532c8b8bf813e780d7a906b4dde6ee668114"
+  },
+  "mug/observation/head/seg.png": {
+    "kind": "file",
+    "size": 847,
+    "mtime_ns": 1788979673043890199,
+    "mode": 436,
+    "sha256": "f287bd79f9745c5584016e4be19378afff361759a30df0cf56cb6af8b9ef499d"
+  },
+  "mug/observation/head/meta_data.json": {
+    "kind": "file",
+    "size": 4336,
+    "mtime_ns": 1788979673043890199,
+    "mode": 436,
+    "sha256": "2f65def5833cdff3b07f02d7d860268806d952087b28080a26ebef50a5e867e8"
+  },
+  "mug/executed-opt4/diagnostics": {
+    "kind": "directory"
+  },
+  "mug/executed-opt4/sources": {
+    "kind": "directory"
+  },
+  "mug/executed-opt4/simulation": {
+    "kind": "directory"
+  },
+  "mug/executed-opt4/attempts.json": {
+    "kind": "file",
+    "size": 194618,
+    "mtime_ns": 1788987299099102166,
+    "mode": 384,
+    "sha256": "383a04b46447a3cfbea5020b800d32a3791749f97b2c76bdb3f8a13b71839ddf"
+  },
+  "mug/executed-opt4/manifest.json": {
+    "kind": "file",
+    "size": 205000,
+    "mtime_ns": 1788987300627104020,
+    "mode": 436,
+    "sha256": "f485f6c99d832f3718f8044cc9231456c553555cd27e18a7f3e23c8868333a4e"
+  },
+  "mug/executed-opt4/collection.json": {
+    "kind": "file",
+    "size": 2826,
+    "mtime_ns": 1788986550038696726,
+    "mode": 384,
+    "sha256": "ee5db99521d93550d2f1f88d02a99ebc786d6236c24177e81638122d278dd43f"
+  },
+  "mug/executed-opt4/summary.json": {
+    "kind": "file",
+    "size": 189,
+    "mtime_ns": 1788987300627104020,
+    "mode": 384,
+    "sha256": "7750211369d5ef2545aacab50965e94d2d1deb068b7f9bcadd85257366a37497"
+  },
+  "mug/executed-opt4/episode_entries.json": {
+    "kind": "file",
+    "size": 189923,
+    "mtime_ns": 1788987299103102171,
+    "mode": 384,
+    "sha256": "f388d2fc1f1654cc8fda0f252d80e01c0799e7c5c3494e679568286734ca01fa"
+  },
+  "mug/executed-opt4/diagnostics/teacher_0003_yaw_000.npz": {
+    "kind": "file",
+    "size": 1447286,
+    "mtime_ns": 1788986779806673868,
+    "mode": 436,
+    "sha256": "9c12a75a5b0b484d5343c89c0b94183bfdae8926d987b7216b4b23dc462837f5"
+  },
+  "mug/executed-opt4/diagnostics/teacher_0002_yaw_000.npz": {
+    "kind": "file",
+    "size": 1025831,
+    "mtime_ns": 1788986712990661614,
+    "mode": 436,
+    "sha256": "2547fa9050b817070f0362ba12db6c75f1e23c2403594c8fe992e3416e6aa563"
+  },
+  "mug/executed-opt4/diagnostics/teacher_0000_yaw_000.npz": {
+    "kind": "file",
+    "size": 1085367,
+    "mtime_ns": 1788986603182673935,
+    "mode": 436,
+    "sha256": "50a1b659031159173b19954a91efac66d5b2448f8b821c1241c6340bdc7fb80e"
+  },
+  "mug/executed-opt4/diagnostics/teacher_0009_yaw_000.json": {
+    "kind": "file",
+    "size": 13904,
+    "mtime_ns": 1788987122490906223,
+    "mode": 436,
+    "sha256": "5ed943988bdcbee88ea97bd94e1da3ddd687f02541689287f714c99345ef4729"
+  },
+  "mug/executed-opt4/diagnostics/teacher_0006_yaw_000.json": {
+    "kind": "file",
+    "size": 13529,
+    "mtime_ns": 1788986943102754302,
+    "mode": 436,
+    "sha256": "69ac782f229f37bbc12ad91fd934583832bc6708efc1279bfbb4b75b6534f528"
+  },
+  "mug/executed-opt4/diagnostics/teacher_0008_yaw_000.json": {
+    "kind": "file",
+    "size": 13525,
+    "mtime_ns": 1788987061122848058,
+    "mode": 436,
+    "sha256": "796784a7a9f64f8cb0cea6f0a0ff5d6b448049819226debd78b6bf31c6f6f8fe"
+  },
+  "mug/executed-opt4/diagnostics/teacher_0000_yaw_000.json": {
+    "kind": "file",
+    "size": 13526,
+    "mtime_ns": 1788986603182673935,
+    "mode": 436,
+    "sha256": "0e551ceb60d0950dfc23a8886acd158e6d5dc6a43c36b9e39c116a3ddc861331"
+  },
+  "mug/executed-opt4/diagnostics/teacher_0010_yaw_000.json": {
+    "kind": "file",
+    "size": 13518,
+    "mtime_ns": 1788987172670957897,
+    "mode": 436,
+    "sha256": "c38943b3df34a52d243b7861f6b22b7b4e7012c56c1e812edf439e9b44c737d5"
+  },
+  "mug/executed-opt4/diagnostics/teacher_0003_yaw_000.json": {
+    "kind": "file",
+    "size": 13509,
+    "mtime_ns": 1788986779806673868,
+    "mode": 436,
+    "sha256": "b1d662a629ae29ca346af4f574d1e6bddf04ff22ab96fecf0ff58479a4666f65"
+  },
+  "mug/executed-opt4/diagnostics/teacher_0007_yaw_000.json": {
+    "kind": "file",
+    "size": 13731,
+    "mtime_ns": 1788987009670804037,
+    "mode": 436,
+    "sha256": "0de51fcf546ea5c86800d4723b4e2da6392a2d9965a93a6c48105a9866258a52"
+  },
+  "mug/executed-opt4/diagnostics/teacher_0008_yaw_000.npz": {
+    "kind": "file",
+    "size": 1115503,
+    "mtime_ns": 1788987061122848058,
+    "mode": 436,
+    "sha256": "f962d0d1b7e5ac4a5bc3f97a8629d6ff342d3ecfe06858c24c061589dfad92d3"
+  },
+  "mug/executed-opt4/diagnostics/teacher_0009_yaw_000.npz": {
+    "kind": "file",
+    "size": 1616766,
+    "mtime_ns": 1788987122486906219,
+    "mode": 436,
+    "sha256": "9742093e6fb43a96f2e76f193d8f1b01e2bb3174ef4d5b583a09d4beeda097ae"
+  },
+  "mug/executed-opt4/diagnostics/teacher_0013_yaw_000.npz": {
+    "kind": "file",
+    "size": 1073455,
+    "mtime_ns": 1788987249147042951,
+    "mode": 436,
+    "sha256": "306fc6196f78cef91036214ae9f804067e731edd9e08e299c0149d1d8601b43a"
+  },
+  "mug/executed-opt4/diagnostics/teacher_0005_yaw_000.json": {
+    "kind": "file",
+    "size": 13516,
+    "mtime_ns": 1788986894350723637,
+    "mode": 436,
+    "sha256": "f0268519188a72f2def0274ab5520f6b9fd21b8fe7226f501673d84587d5a40a"
+  },
+  "mug/executed-opt4/diagnostics/teacher_0001_yaw_000.json": {
+    "kind": "file",
+    "size": 13527,
+    "mtime_ns": 1788986663094661822,
+    "mode": 436,
+    "sha256": "d62af3d706ba13c3441b5d65dc3c19017a995e7b7026795880b9552de26a2718"
+  },
+  "mug/executed-opt4/diagnostics/teacher_0013_yaw_000.json": {
+    "kind": "file",
+    "size": 13510,
+    "mtime_ns": 1788987249147042951,
+    "mode": 436,
+    "sha256": "1e5ebddc12df3f38a3d4c6f7a23051be7c6e2c79daff2fa58ceb201e114156bd"
+  },
+  "mug/executed-opt4/diagnostics/teacher_0011_yaw_000.json": {
+    "kind": "file",
+    "size": 11532,
+    "mtime_ns": 1788987182930968883,
+    "mode": 384,
+    "sha256": "543bf86afb8d4cae51563c4326ad3489089eda083f01ce211eff5bd024936509"
+  },
+  "mug/executed-opt4/diagnostics/teacher_0005_yaw_000.npz": {
+    "kind": "file",
+    "size": 1377359,
+    "mtime_ns": 1788986894346723635,
+    "mode": 436,
+    "sha256": "8baed73eaa1e88c9a3326b1cb28197ebc5019f386984531cec2d239948736635"
+  },
+  "mug/executed-opt4/diagnostics/teacher_0014_yaw_000.npz": {
+    "kind": "file",
+    "size": 1007671,
+    "mtime_ns": 1788987299091102156,
+    "mode": 436,
+    "sha256": "64e46c2fb31f06b73319e2c0e99147bfc12c3a5e71aaaa882d99e5dd498bbd4d"
+  },
+  "mug/executed-opt4/diagnostics/teacher_0014_yaw_000.json": {
+    "kind": "file",
+    "size": 13503,
+    "mtime_ns": 1788987299091102156,
+    "mode": 436,
+    "sha256": "98260e02aa3c790f0a3747f78a1305be7f436989b1b626ad01f9bbed3d4b234f"
+  },
+  "mug/executed-opt4/diagnostics/teacher_0007_yaw_000.npz": {
+    "kind": "file",
+    "size": 796087,
+    "mtime_ns": 1788987009670804037,
+    "mode": 436,
+    "sha256": "73088efdb02c46d8e46bb69f61f41ea8f8470d671c56eecaa78627729e249154"
+  },
+  "mug/executed-opt4/diagnostics/teacher_0001_yaw_000.npz": {
+    "kind": "file",
+    "size": 1126398,
+    "mtime_ns": 1788986663094661822,
+    "mode": 436,
+    "sha256": "dad514d9369d6ff1c55b2cef4226b5f337989e97a7f6348abe2227fdb1650e76"
+  },
+  "mug/executed-opt4/diagnostics/teacher_0004_yaw_000.json": {
+    "kind": "file",
+    "size": 13517,
+    "mtime_ns": 1788986829774691445,
+    "mode": 436,
+    "sha256": "b074c102151bc5b3bf6409eb8438505e77604a25864c864dfa60f6e97f5b2425"
+  },
+  "mug/executed-opt4/diagnostics/teacher_0006_yaw_000.npz": {
+    "kind": "file",
+    "size": 1098763,
+    "mtime_ns": 1788986943098754299,
+    "mode": 436,
+    "sha256": "a63dee0d27b31c7b817731462a102b4f7a8d0efe29cc4eb3dbf9c0ab69c3b1e8"
+  },
+  "mug/executed-opt4/diagnostics/teacher_0012_yaw_000.json": {
+    "kind": "file",
+    "size": 11539,
+    "mtime_ns": 1788987198850986199,
+    "mode": 384,
+    "sha256": "727f57825fbdd5a5112a86b053d309eb8e0fe075c08059fb637ba63a5e135abd"
+  },
+  "mug/executed-opt4/diagnostics/teacher_0010_yaw_000.npz": {
+    "kind": "file",
+    "size": 1066477,
+    "mtime_ns": 1788987172666957893,
+    "mode": 436,
+    "sha256": "db9f0675967407c79b0c6bae75a7345f26949ff02680445d5989fd044b94ec17"
+  },
+  "mug/executed-opt4/diagnostics/teacher_0004_yaw_000.npz": {
+    "kind": "file",
+    "size": 1093302,
+    "mtime_ns": 1788986829774691445,
+    "mode": 436,
+    "sha256": "a33ef2c77f62151ef03f97924fac304d7b6ac54f845fa496c48997ba2d624073"
+  },
+  "mug/executed-opt4/diagnostics/teacher_0002_yaw_000.json": {
+    "kind": "file",
+    "size": 13486,
+    "mtime_ns": 1788986712994661614,
+    "mode": 436,
+    "sha256": "3208211b113aaa0aebf3ced1015051a29c50778dbb74a54dbabb65b5052682d8"
+  },
+  "mug/executed-opt4/sources/scripts": {
+    "kind": "directory"
+  },
+  "mug/executed-opt4/sources/src": {
+    "kind": "directory"
+  },
+  "mug/executed-opt4/sources/scripts/collect_episodes.py": {
+    "kind": "file",
+    "size": 54340,
+    "mtime_ns": 1788960621637528702,
+    "mode": 436,
+    "sha256": "ddac9c49c70d54af5e5868f82e3aa35c25405fd945edfe7f848a55ce1e7f822a"
+  },
+  "mug/executed-opt4/sources/scripts/collect_teacher_dataset.py": {
+    "kind": "file",
+    "size": 19853,
+    "mtime_ns": 1788960868448254327,
+    "mode": 436,
+    "sha256": "d37fd23284640828a6ce9fed49dc3dc0b2a40e9c26d634ac0933efe3c0b3bb04"
+  },
+  "mug/executed-opt4/sources/src/icra": {
+    "kind": "directory"
+  },
+  "mug/executed-opt4/sources/src/icra/objects.py": {
+    "kind": "file",
+    "size": 7070,
+    "mtime_ns": 1788792745114622021,
+    "mode": 436,
+    "sha256": "ee8ab21a246f029b6e63d09591549b30c6aa027e1f1d99577e6d021997f4464a"
+  },
+  "mug/executed-opt4/sources/src/icra/scene.py": {
+    "kind": "file",
+    "size": 33775,
+    "mtime_ns": 1788778109275330501,
+    "mode": 436,
+    "sha256": "1ade9cecc5ca53139513682247b1d3de3a4669bd6c90010eb8321ba1f5f5bfee"
+  },
+  "mug/executed-opt4/sources/src/icra/conditioning.py": {
+    "kind": "file",
+    "size": 10533,
+    "mtime_ns": 1788854027031050215,
+    "mode": 436,
+    "sha256": "6dbe8661c015ac006755132f801660092f8666336461ce9fa9be29eec776d2a4"
+  },
+  "mug/executed-opt4/sources/src/icra/visual_observation.py": {
+    "kind": "file",
+    "size": 4516,
+    "mtime_ns": 1788960652505362821,
+    "mode": 436,
+    "sha256": "513523968710d257c666df1b2ecd8127beba0b4bac59a227725d8754e1355f55"
+  },
+  "mug/executed-opt4/sources/src/icra/dataset.py": {
+    "kind": "file",
+    "size": 30207,
+    "mtime_ns": 1788959664440910900,
+    "mode": 436,
+    "sha256": "95091ac9d209843a96f48460592d3e1369809684ebbcd9efc35e0b0ac9aa8cea"
+  },
+  "mug/executed-opt4/sources/src/icra/simulation.py": {
+    "kind": "file",
+    "size": 1519,
+    "mtime_ns": 1788853271262464336,
+    "mode": 436,
+    "sha256": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25"
+  },
+  "mug/executed-opt4/sources/src/icra/execution.py": {
+    "kind": "file",
+    "size": 30638,
+    "mtime_ns": 1788960868608253536,
+    "mode": 436,
+    "sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94"
+  },
+  "mug/executed-opt4/sources/src/icra/contact_control.py": {
+    "kind": "file",
+    "size": 9553,
+    "mtime_ns": 1788859946035541465,
+    "mode": 436,
+    "sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0"
+  },
+  "mug/executed-opt4/sources/src/icra/arm.py": {
+    "kind": "file",
+    "size": 6838,
+    "mtime_ns": 1788853992147035385,
+    "mode": 436,
+    "sha256": "54ea9a88d552204586347b17fc1cb6cedbd733a621df32a888f7702df2cabf67"
+  },
+  "mug/executed-opt4/simulation/teacher_0011_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788987175150960540,
+    "mode": 436,
+    "sha256": "546438dddbde37f8b520619e1d70cc349184f4bd6fcad96f31ca8f1683878618"
+  },
+  "mug/executed-opt4/simulation/model_0012.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788987185026971144,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed-opt4/simulation/teacher_0003_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788986715418661817,
+    "mode": 436,
+    "sha256": "546438dddbde37f8b520619e1d70cc349184f4bd6fcad96f31ca8f1683878618"
+  },
+  "mug/executed-opt4/simulation/teacher_0005_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788986832150692447,
+    "mode": 436,
+    "sha256": "546438dddbde37f8b520619e1d70cc349184f4bd6fcad96f31ca8f1683878618"
+  },
+  "mug/executed-opt4/simulation/teacher_0010_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788987124958908681,
+    "mode": 436,
+    "sha256": "3183b9b02dfebd1c3298b694d1380f1e4277ecf666571375b197ac9c218bef2c"
+  },
+  "mug/executed-opt4/simulation/model_0003.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788986715066661786,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed-opt4/simulation/model_0005.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788986831810692303,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed-opt4/simulation/teacher_0008_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788987012054805974,
+    "mode": 436,
+    "sha256": "3183b9b02dfebd1c3298b694d1380f1e4277ecf666571375b197ac9c218bef2c"
+  },
+  "mug/executed-opt4/simulation/teacher_0006_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788986896706724999,
+    "mode": 436,
+    "sha256": "546438dddbde37f8b520619e1d70cc349184f4bd6fcad96f31ca8f1683878618"
+  },
+  "mug/executed-opt4/simulation/model_0008.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788987011698805685,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed-opt4/simulation/teacher_0013_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788987201406989009,
+    "mode": 436,
+    "sha256": "546438dddbde37f8b520619e1d70cc349184f4bd6fcad96f31ca8f1683878618"
+  },
+  "mug/executed-opt4/simulation/model_0000.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788986554754694212,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed-opt4/simulation/model_0009.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788987063490850192,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed-opt4/simulation/teacher_0000_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788986555086694039,
+    "mode": 436,
+    "sha256": "546438dddbde37f8b520619e1d70cc349184f4bd6fcad96f31ca8f1683878618"
+  },
+  "mug/executed-opt4/simulation/model_0010.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788987124594908318,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed-opt4/simulation/teacher_0007_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788986945454755910,
+    "mode": 436,
+    "sha256": "f20eaad6d2c06d74e17c10dbb7c751e4b21d5b1e7a9e31023a75cae98b776e96"
+  },
+  "mug/executed-opt4/simulation/model_0004.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788986781886674462,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed-opt4/simulation/teacher_0009_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788987063902850564,
+    "mode": 436,
+    "sha256": "f20eaad6d2c06d74e17c10dbb7c751e4b21d5b1e7a9e31023a75cae98b776e96"
+  },
+  "mug/executed-opt4/simulation/model_0013.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788987201050988617,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed-opt4/simulation/teacher_0002_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788986666582661528,
+    "mode": 436,
+    "sha256": "f20eaad6d2c06d74e17c10dbb7c751e4b21d5b1e7a9e31023a75cae98b776e96"
+  },
+  "mug/executed-opt4/simulation/teacher_0004_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788986782230674562,
+    "mode": 436,
+    "sha256": "546438dddbde37f8b520619e1d70cc349184f4bd6fcad96f31ca8f1683878618"
+  },
+  "mug/executed-opt4/simulation/model_0002.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788986666154661562,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed-opt4/simulation/model_0001.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788986605454673223,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed-opt4/simulation/model_0006.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788986896362724799,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed-opt4/simulation/model_0011.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788987174794960160,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed-opt4/simulation/model_0007.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788986945126755685,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed-opt4/simulation/teacher_0001_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788986605806673113,
+    "mode": 436,
+    "sha256": "546438dddbde37f8b520619e1d70cc349184f4bd6fcad96f31ca8f1683878618"
+  },
+  "mug/executed-opt4/simulation/model_0014.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788987251259045398,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed-opt4/simulation/teacher_0014_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788987251615045812,
+    "mode": 436,
+    "sha256": "546438dddbde37f8b520619e1d70cc349184f4bd6fcad96f31ca8f1683878618"
+  },
+  "mug/executed-opt4/simulation/teacher_0012_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788987185366971512,
+    "mode": 436,
+    "sha256": "f20eaad6d2c06d74e17c10dbb7c751e4b21d5b1e7a9e31023a75cae98b776e96"
+  },
+  "mug/executed-wide/diagnostics": {
+    "kind": "directory"
+  },
+  "mug/executed-wide/sources": {
+    "kind": "directory"
+  },
+  "mug/executed-wide/simulation": {
+    "kind": "directory"
+  },
+  "mug/executed-wide/attempts.json": {
+    "kind": "file",
+    "size": 251627,
+    "mtime_ns": 1788983288201277860,
+    "mode": 384,
+    "sha256": "94230eb65cd80697d920d810919347e5b4c17fd427193d904f3b7363d971330f"
+  },
+  "mug/executed-wide/manifest.json": {
+    "kind": "file",
+    "size": 267288,
+    "mtime_ns": 1788983290109271535,
+    "mode": 436,
+    "sha256": "8fedf278636b3992163ab2f8b595067175c14029a877a28d613212e2a7e916fe"
+  },
+  "mug/executed-wide/collection.json": {
+    "kind": "file",
+    "size": 2821,
+    "mtime_ns": 1788982331932279575,
+    "mode": 384,
+    "sha256": "e3dea3a4a0f92419008fc644389f4e7a3fb878c1d115c36652495ac0cf6f8cc4"
+  },
+  "mug/executed-wide/summary.json": {
+    "kind": "file",
+    "size": 189,
+    "mtime_ns": 1788983290109271535,
+    "mode": 384,
+    "sha256": "1fcd611976f815eab421d0a928dfd46dfa7c63dc7910729acacb5e0e1fa9b0eb"
+  },
+  "mug/executed-wide/episode_entries.json": {
+    "kind": "file",
+    "size": 248053,
+    "mtime_ns": 1788983288209277833,
+    "mode": 384,
+    "sha256": "c928bc8d100ec5b32175d4bd94d54af6f80d259576c17a2f06e35c6dc48430e1"
+  },
+  "mug/executed-wide/diagnostics/teacher_0003_yaw_000.npz": {
+    "kind": "file",
+    "size": 1137454,
+    "mtime_ns": 1788982527355709792,
+    "mode": 436,
+    "sha256": "5d10ca9fa61eff94c3b2d26976b5446c237190d856504288227d41252aaaaf41"
+  },
+  "mug/executed-wide/diagnostics/teacher_0002_yaw_000.npz": {
+    "kind": "file",
+    "size": 1035750,
+    "mtime_ns": 1788982475919863193,
+    "mode": 436,
+    "sha256": "a69054f1394619a09ce755799d186c1592074674738dc071954f9057184d08a1"
+  },
+  "mug/executed-wide/diagnostics/teacher_0000_yaw_000.npz": {
+    "kind": "file",
+    "size": 1463865,
+    "mtime_ns": 1788982404936071062,
+    "mode": 436,
+    "sha256": "bc2efdd9e6221d784b35a6ba6ebfaf59527826a1b76ba3dd9d46a7eec998681e"
+  },
+  "mug/executed-wide/diagnostics/teacher_0009_yaw_000.json": {
+    "kind": "file",
+    "size": 13525,
+    "mtime_ns": 1788982871062639925,
+    "mode": 436,
+    "sha256": "58d94ef7cc00597cab7e05c2ef2605c0715229b3e80e9d8a88562cb28c461277"
+  },
+  "mug/executed-wide/diagnostics/teacher_0006_yaw_000.json": {
+    "kind": "file",
+    "size": 13506,
+    "mtime_ns": 1788982681783237493,
+    "mode": 436,
+    "sha256": "9123e401b4748f5d6ee99e3cdf63b36989cb7a09ecc9c32c0be42ffbfc2b8a2b"
+  },
+  "mug/executed-wide/diagnostics/teacher_0008_yaw_000.json": {
+    "kind": "file",
+    "size": 13504,
+    "mtime_ns": 1788982803774854312,
+    "mode": 436,
+    "sha256": "dea3cad49dba49eb828a559155d1170ac504c6a925884a11bbbdec45db94ab7d"
+  },
+  "mug/executed-wide/diagnostics/teacher_0000_yaw_000.json": {
+    "kind": "file",
+    "size": 13524,
+    "mtime_ns": 1788982404936071062,
+    "mode": 436,
+    "sha256": "501865825a681a1473093f007b227ac07e9b6320c539b137d10fce894f3f8871"
+  },
+  "mug/executed-wide/diagnostics/teacher_0010_yaw_000.json": {
+    "kind": "file",
+    "size": 13518,
+    "mtime_ns": 1788982923350472060,
+    "mode": 436,
+    "sha256": "e4e6dba88056c3decfab4d6ad1173ec9f7f5c4b7e0211dbed3af4847c56ba3ab"
+  },
+  "mug/executed-wide/diagnostics/teacher_0003_yaw_000.json": {
+    "kind": "file",
+    "size": 13523,
+    "mtime_ns": 1788982527359709780,
+    "mode": 436,
+    "sha256": "dc72400c47f7e21e294313616ecf6481dc9e66d1ec034281b30dfc018f20df24"
+  },
+  "mug/executed-wide/diagnostics/teacher_0007_yaw_000.json": {
+    "kind": "file",
+    "size": 13516,
+    "mtime_ns": 1788982734503072846,
+    "mode": 436,
+    "sha256": "1791c41fd7f93849b13155bd38573b72cfa8f30917a151b9254bc3eb402bf836"
+  },
+  "mug/executed-wide/diagnostics/teacher_0008_yaw_000.npz": {
+    "kind": "file",
+    "size": 1449081,
+    "mtime_ns": 1788982803770854326,
+    "mode": 436,
+    "sha256": "74b32ac56903ea2994c479c27b6e1897ddba2df728d3ddbb3c376c8884aa7ff2"
+  },
+  "mug/executed-wide/diagnostics/teacher_0009_yaw_000.npz": {
+    "kind": "file",
+    "size": 1429128,
+    "mtime_ns": 1788982871058639939,
+    "mode": 436,
+    "sha256": "969f27343cff12a99efabbe5fb506fa300c4ab4b042fe190b0b527cace8b2470"
+  },
+  "mug/executed-wide/diagnostics/teacher_0013_yaw_000.npz": {
+    "kind": "file",
+    "size": 1700171,
+    "mtime_ns": 1788983088661935257,
+    "mode": 436,
+    "sha256": "43380b376620ac627363bba950baad188b75a764275a4c7ec460d687473643a3"
+  },
+  "mug/executed-wide/diagnostics/teacher_0005_yaw_000.json": {
+    "kind": "file",
+    "size": 13515,
+    "mtime_ns": 1788982623647417169,
+    "mode": 436,
+    "sha256": "8eb58232138ce8124e78019e98f0b6d58ced3b4b29319fd9675a9fb36bf9e03e"
+  },
+  "mug/executed-wide/diagnostics/teacher_0015_yaw_000.npz": {
+    "kind": "file",
+    "size": 1405702,
+    "mtime_ns": 1788983210901533539,
+    "mode": 436,
+    "sha256": "3b64dc3980ad0ce3505c85c7ce0dd4cb6545f1fcdcf0ffc2167f22e6c62ca377"
+  },
+  "mug/executed-wide/diagnostics/teacher_0012_yaw_000.npz": {
+    "kind": "file",
+    "size": 873451,
+    "mtime_ns": 1788983023686147245,
+    "mode": 436,
+    "sha256": "52c256676019bfcbc770d58ba177aa9109d6515b505aad38dc97aa81f8779a73"
+  },
+  "mug/executed-wide/diagnostics/teacher_0001_yaw_000.json": {
+    "kind": "file",
+    "size": 13529,
+    "mtime_ns": 1788982457971916192,
+    "mode": 436,
+    "sha256": "f8821f43657618dea8ba3704b9a6b8b8b777c76d70c7b850005cbbfb473dcf2c"
+  },
+  "mug/executed-wide/diagnostics/teacher_0013_yaw_000.json": {
+    "kind": "file",
+    "size": 13494,
+    "mtime_ns": 1788983088665935244,
+    "mode": 436,
+    "sha256": "a210787180f544d387f2b12b32956be9b13852b143c7b87921a066f779011923"
+  },
+  "mug/executed-wide/diagnostics/teacher_0011_yaw_000.json": {
+    "kind": "file",
+    "size": 13518,
+    "mtime_ns": 1788982986838266914,
+    "mode": 436,
+    "sha256": "fc4df8226f83dc55605a1f906f66de82adc90831ee71461585693ac49128e3b0"
+  },
+  "mug/executed-wide/diagnostics/teacher_0005_yaw_000.npz": {
+    "kind": "file",
+    "size": 1144124,
+    "mtime_ns": 1788982623647417169,
+    "mode": 436,
+    "sha256": "dd31b34fd101ac2b1867f8b5b10e43f8b18406cf750bc025ca027217ec72c4c5"
+  },
+  "mug/executed-wide/diagnostics/teacher_0014_yaw_000.npz": {
+    "kind": "file",
+    "size": 1235180,
+    "mtime_ns": 1788983145981747321,
+    "mode": 436,
+    "sha256": "76d2b20ffe06eecb53eb739d85b8874deba2cbac3103d1b390656064ecaec383"
+  },
+  "mug/executed-wide/diagnostics/teacher_0016_yaw_000.npz": {
+    "kind": "file",
+    "size": 953905,
+    "mtime_ns": 1788983288193277886,
+    "mode": 436,
+    "sha256": "622c8de516b42f69c6f8841ac36ec65cb7930e7345c756db911df936fe939533"
+  },
+  "mug/executed-wide/diagnostics/teacher_0011_yaw_000.npz": {
+    "kind": "file",
+    "size": 1488699,
+    "mtime_ns": 1788982986834266927,
+    "mode": 436,
+    "sha256": "1ec660fa7ef322b1b5b0cd2e2b2e101b8700f04e22bb2746c627c3cc79c84177"
+  },
+  "mug/executed-wide/diagnostics/teacher_0014_yaw_000.json": {
+    "kind": "file",
+    "size": 13535,
+    "mtime_ns": 1788983145985747308,
+    "mode": 436,
+    "sha256": "5f4d2aeb023de87a334b368dea568efc16b0bc4500983e37046b07e7303d4c27"
+  },
+  "mug/executed-wide/diagnostics/teacher_0007_yaw_000.npz": {
+    "kind": "file",
+    "size": 1068236,
+    "mtime_ns": 1788982734503072846,
+    "mode": 436,
+    "sha256": "812bd7ffca48733184be349ef863e05633620093877f2f17c97d7df0cd1dd02d"
+  },
+  "mug/executed-wide/diagnostics/teacher_0001_yaw_000.npz": {
+    "kind": "file",
+    "size": 1130821,
+    "mtime_ns": 1788982457971916192,
+    "mode": 436,
+    "sha256": "333e4d1206f56fa95f750948cbbda0cf6eecce2fcb670f1f8f4328a36641e5e0"
+  },
+  "mug/executed-wide/diagnostics/teacher_0016_yaw_000.json": {
+    "kind": "file",
+    "size": 14023,
+    "mtime_ns": 1788983288197277873,
+    "mode": 436,
+    "sha256": "194788785de2898242c6d02af896b6f0f4bb3c095684f7338b94fcf467bae3c9"
+  },
+  "mug/executed-wide/diagnostics/teacher_0004_yaw_000.json": {
+    "kind": "file",
+    "size": 13516,
+    "mtime_ns": 1788982576051562640,
+    "mode": 436,
+    "sha256": "8cac1b1514fc9837f3bdb0e91874764914080b85b12eb02a65675d2dc919e9e5"
+  },
+  "mug/executed-wide/diagnostics/teacher_0006_yaw_000.npz": {
+    "kind": "file",
+    "size": 1049872,
+    "mtime_ns": 1788982681783237493,
+    "mode": 436,
+    "sha256": "23ab4dd79b3a305831225124d1b17bbfd0a4d5f05f91d096a44fc7eda41bd09d"
+  },
+  "mug/executed-wide/diagnostics/teacher_0012_yaw_000.json": {
+    "kind": "file",
+    "size": 13555,
+    "mtime_ns": 1788983023686147245,
+    "mode": 436,
+    "sha256": "e3d144235f4c274f40fa3a13c7fa529c8419d8a9950d28c8f1bcdd85bd5c7b43"
+  },
+  "mug/executed-wide/diagnostics/teacher_0010_yaw_000.npz": {
+    "kind": "file",
+    "size": 1141405,
+    "mtime_ns": 1788982923350472060,
+    "mode": 436,
+    "sha256": "d3cd176b6f176a59186aebd77ba6414c065d30ddaec96bd9adc091a6e4a66869"
+  },
+  "mug/executed-wide/diagnostics/teacher_0004_yaw_000.npz": {
+    "kind": "file",
+    "size": 1082427,
+    "mtime_ns": 1788982576051562640,
+    "mode": 436,
+    "sha256": "dcbe345f4bb2d3a2fca25dad0e9c6a8c97ddf93034691506bb81e31f53c5b35b"
+  },
+  "mug/executed-wide/diagnostics/teacher_0002_yaw_000.json": {
+    "kind": "file",
+    "size": 13482,
+    "mtime_ns": 1788982475919863193,
+    "mode": 436,
+    "sha256": "57d1f785b6c0c8f3db403ca891b05e4964cfe5e5904f56284d8b9a6cf7d890fb"
+  },
+  "mug/executed-wide/diagnostics/teacher_0015_yaw_000.json": {
+    "kind": "file",
+    "size": 13486,
+    "mtime_ns": 1788983210901533539,
+    "mode": 436,
+    "sha256": "6206f420f3876eb68b5d2049d45efe74017e0f92b9aa284f023951fef0d28a6e"
+  },
+  "mug/executed-wide/sources/scripts": {
+    "kind": "directory"
+  },
+  "mug/executed-wide/sources/src": {
+    "kind": "directory"
+  },
+  "mug/executed-wide/sources/scripts/collect_episodes.py": {
+    "kind": "file",
+    "size": 54340,
+    "mtime_ns": 1788960621637528702,
+    "mode": 436,
+    "sha256": "ddac9c49c70d54af5e5868f82e3aa35c25405fd945edfe7f848a55ce1e7f822a"
+  },
+  "mug/executed-wide/sources/scripts/collect_teacher_dataset.py": {
+    "kind": "file",
+    "size": 19853,
+    "mtime_ns": 1788960868448254327,
+    "mode": 436,
+    "sha256": "d37fd23284640828a6ce9fed49dc3dc0b2a40e9c26d634ac0933efe3c0b3bb04"
+  },
+  "mug/executed-wide/sources/src/icra": {
+    "kind": "directory"
+  },
+  "mug/executed-wide/sources/src/icra/objects.py": {
+    "kind": "file",
+    "size": 7070,
+    "mtime_ns": 1788792745114622021,
+    "mode": 436,
+    "sha256": "ee8ab21a246f029b6e63d09591549b30c6aa027e1f1d99577e6d021997f4464a"
+  },
+  "mug/executed-wide/sources/src/icra/scene.py": {
+    "kind": "file",
+    "size": 33775,
+    "mtime_ns": 1788778109275330501,
+    "mode": 436,
+    "sha256": "1ade9cecc5ca53139513682247b1d3de3a4669bd6c90010eb8321ba1f5f5bfee"
+  },
+  "mug/executed-wide/sources/src/icra/conditioning.py": {
+    "kind": "file",
+    "size": 10533,
+    "mtime_ns": 1788854027031050215,
+    "mode": 436,
+    "sha256": "6dbe8661c015ac006755132f801660092f8666336461ce9fa9be29eec776d2a4"
+  },
+  "mug/executed-wide/sources/src/icra/visual_observation.py": {
+    "kind": "file",
+    "size": 4516,
+    "mtime_ns": 1788960652505362821,
+    "mode": 436,
+    "sha256": "513523968710d257c666df1b2ecd8127beba0b4bac59a227725d8754e1355f55"
+  },
+  "mug/executed-wide/sources/src/icra/dataset.py": {
+    "kind": "file",
+    "size": 30207,
+    "mtime_ns": 1788959664440910900,
+    "mode": 436,
+    "sha256": "95091ac9d209843a96f48460592d3e1369809684ebbcd9efc35e0b0ac9aa8cea"
+  },
+  "mug/executed-wide/sources/src/icra/simulation.py": {
+    "kind": "file",
+    "size": 1519,
+    "mtime_ns": 1788853271262464336,
+    "mode": 436,
+    "sha256": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25"
+  },
+  "mug/executed-wide/sources/src/icra/execution.py": {
+    "kind": "file",
+    "size": 30638,
+    "mtime_ns": 1788960868608253536,
+    "mode": 436,
+    "sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94"
+  },
+  "mug/executed-wide/sources/src/icra/contact_control.py": {
+    "kind": "file",
+    "size": 9553,
+    "mtime_ns": 1788859946035541465,
+    "mode": 436,
+    "sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0"
+  },
+  "mug/executed-wide/sources/src/icra/arm.py": {
+    "kind": "file",
+    "size": 6838,
+    "mtime_ns": 1788853992147035385,
+    "mode": 436,
+    "sha256": "54ea9a88d552204586347b17fc1cb6cedbd733a621df32a888f7702df2cabf67"
+  },
+  "mug/executed-wide/simulation/teacher_0011_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788982925794464190,
+    "mode": 436,
+    "sha256": "546438dddbde37f8b520619e1d70cc349184f4bd6fcad96f31ca8f1683878618"
+  },
+  "mug/executed-wide/simulation/model_0012.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788982988974259988,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed-wide/simulation/teacher_0003_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788982478355855979,
+    "mode": 436,
+    "sha256": "546438dddbde37f8b520619e1d70cc349184f4bd6fcad96f31ca8f1683878618"
+  },
+  "mug/executed-wide/simulation/teacher_0005_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788982578503555183,
+    "mode": 436,
+    "sha256": "546438dddbde37f8b520619e1d70cc349184f4bd6fcad96f31ca8f1683878618"
+  },
+  "mug/executed-wide/simulation/teacher_0010_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788982873614631758,
+    "mode": 436,
+    "sha256": "3183b9b02dfebd1c3298b694d1380f1e4277ecf666571375b197ac9c218bef2c"
+  },
+  "mug/executed-wide/simulation/model_0003.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788982478003857023,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed-wide/simulation/model_0005.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788982578151556255,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed-wide/simulation/teacher_0008_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788982737003065002,
+    "mode": 436,
+    "sha256": "f20eaad6d2c06d74e17c10dbb7c751e4b21d5b1e7a9e31023a75cae98b776e96"
+  },
+  "mug/executed-wide/simulation/teacher_0006_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788982626095409646,
+    "mode": 436,
+    "sha256": "3183b9b02dfebd1c3298b694d1380f1e4277ecf666571375b197ac9c218bef2c"
+  },
+  "mug/executed-wide/simulation/model_0008.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788982736663066068,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed-wide/simulation/teacher_0013_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788983026118139332,
+    "mode": 436,
+    "sha256": "546438dddbde37f8b520619e1d70cc349184f4bd6fcad96f31ca8f1683878618"
+  },
+  "mug/executed-wide/simulation/model_0000.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788982336636266315,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed-wide/simulation/model_0009.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788982805982847310,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed-wide/simulation/teacher_0000_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788982336984265333,
+    "mode": 436,
+    "sha256": "3183b9b02dfebd1c3298b694d1380f1e4277ecf666571375b197ac9c218bef2c"
+  },
+  "mug/executed-wide/simulation/model_0010.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788982873246632936,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed-wide/simulation/teacher_0007_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788982684319229608,
+    "mode": 436,
+    "sha256": "3183b9b02dfebd1c3298b694d1380f1e4277ecf666571375b197ac9c218bef2c"
+  },
+  "mug/executed-wide/simulation/model_0004.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788982529423703580,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed-wide/simulation/teacher_0009_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788982806342846167,
+    "mode": 436,
+    "sha256": "546438dddbde37f8b520619e1d70cc349184f4bd6fcad96f31ca8f1683878618"
+  },
+  "mug/executed-wide/simulation/model_0013.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788983025774140452,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed-wide/simulation/teacher_0002_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788982460395909051,
+    "mode": 436,
+    "sha256": "f20eaad6d2c06d74e17c10dbb7c751e4b21d5b1e7a9e31023a75cae98b776e96"
+  },
+  "mug/executed-wide/simulation/teacher_0004_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788982529755702583,
+    "mode": 436,
+    "sha256": "f20eaad6d2c06d74e17c10dbb7c751e4b21d5b1e7a9e31023a75cae98b776e96"
+  },
+  "mug/executed-wide/simulation/model_0002.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788982460055910053,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed-wide/simulation/teacher_0016_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788983213273525711,
+    "mode": 436,
+    "sha256": "546438dddbde37f8b520619e1d70cc349184f4bd6fcad96f31ca8f1683878618"
+  },
+  "mug/executed-wide/simulation/teacher_0015_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788983148353739527,
+    "mode": 436,
+    "sha256": "f20eaad6d2c06d74e17c10dbb7c751e4b21d5b1e7a9e31023a75cae98b776e96"
+  },
+  "mug/executed-wide/simulation/model_0001.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788982407164064610,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed-wide/simulation/model_0015.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788983148021740618,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed-wide/simulation/model_0006.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788982625731410765,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed-wide/simulation/model_0011.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788982925442465324,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed-wide/simulation/model_0016.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788983212925526860,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed-wide/simulation/model_0007.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788982683943230778,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed-wide/simulation/teacher_0001_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788982407516063591,
+    "mode": 436,
+    "sha256": "546438dddbde37f8b520619e1d70cc349184f4bd6fcad96f31ca8f1683878618"
+  },
+  "mug/executed-wide/simulation/model_0014.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788983090705928569,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed-wide/simulation/teacher_0014_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788983091049927445,
+    "mode": 436,
+    "sha256": "546438dddbde37f8b520619e1d70cc349184f4bd6fcad96f31ca8f1683878618"
+  },
+  "mug/executed-wide/simulation/teacher_0012_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788982989342258796,
+    "mode": 436,
+    "sha256": "3183b9b02dfebd1c3298b694d1380f1e4277ecf666571375b197ac9c218bef2c"
+  },
+  "mug/reachable/3_Medium_Wrap": {
+    "kind": "directory"
+  },
+  "mug/reachable/10_Power_Disk": {
+    "kind": "directory"
+  },
+  "mug/reachable/1_Large_Diameter": {
+    "kind": "directory"
+  },
+  "mug/reachable/3_Medium_Wrap/run.json": {
+    "kind": "file",
+    "size": 586,
+    "mtime_ns": 1788979880812525533,
+    "mode": 436,
+    "sha256": "b0a347ba92cccbeb720ef138d7e8b538326186aabc014d85f5b7a8bdc65433a9"
+  },
+  "mug/reachable/3_Medium_Wrap/core_mug_10f6e09036350e92b3f21f1137c3c347.yml": {
+    "kind": "file",
+    "size": 21926,
+    "mtime_ns": 1788979880812525533,
+    "mode": 436,
+    "sha256": "836094dbcde15c53e5bbacc327849e22f7a688ab131a23c2e55fd9faf5f85fc7"
+  },
+  "mug/reachable/3_Medium_Wrap/core_mug_10f6e09036350e92b3f21f1137c3c347.stages.json": {
+    "kind": "file",
+    "size": 26190,
+    "mtime_ns": 1788979880792525810,
+    "mode": 436,
+    "sha256": "547fda04c777b78cb6989938b1bd9a6a230e9cf5e692397b747832aaaab299c6"
+  },
+  "mug/reachable/10_Power_Disk/run.json": {
+    "kind": "file",
+    "size": 586,
+    "mtime_ns": 1788980153137361049,
+    "mode": 436,
+    "sha256": "2dcb4924a00edd6db238475db9a73d234fae3a0b022178752b57e2e6522370ea"
+  },
+  "mug/reachable/10_Power_Disk/core_mug_10f6e09036350e92b3f21f1137c3c347.yml": {
+    "kind": "file",
+    "size": 16871,
+    "mtime_ns": 1788980153137361049,
+    "mode": 436,
+    "sha256": "101c4d1903e95dc75d3ecf36686981afcb740cfddf2c2e300449d6550d2f0ddf"
+  },
+  "mug/reachable/10_Power_Disk/core_mug_10f6e09036350e92b3f21f1137c3c347.stages.json": {
+    "kind": "file",
+    "size": 26729,
+    "mtime_ns": 1788980153121361205,
+    "mode": 436,
+    "sha256": "aa1f38f84b2287fcd048c9bb6538edbf5881b36426dd940e850abb15479642eb"
+  },
+  "mug/reachable/1_Large_Diameter/run.json": {
+    "kind": "file",
+    "size": 592,
+    "mtime_ns": 1788982174440707191,
+    "mode": 436,
+    "sha256": "47db0bc2505de85ab1ce905cab5d5c1abdf2b49a7e33dea945fdd00fa5c2598a"
+  },
+  "mug/reachable/1_Large_Diameter/core_mug_10f6e09036350e92b3f21f1137c3c347.yml": {
+    "kind": "file",
+    "size": 13231,
+    "mtime_ns": 1788982174440707191,
+    "mode": 436,
+    "sha256": "8e3a4ae42c26611c784b4094ac31e063316ddd7713b6cd20f362f2ad0a1bca49"
+  },
+  "mug/reachable/1_Large_Diameter/core_mug_10f6e09036350e92b3f21f1137c3c347.stages.json": {
+    "kind": "file",
+    "size": 20045,
+    "mtime_ns": 1788982174428707222,
+    "mode": 436,
+    "sha256": "98299998d1168d17f7aac07af8bec0a099a0d1bacb5747be1655a8912d48fcb8"
+  },
+  "mug/executed/diagnostics": {
+    "kind": "directory"
+  },
+  "mug/executed/sources": {
+    "kind": "directory"
+  },
+  "mug/executed/simulation": {
+    "kind": "directory"
+  },
+  "mug/executed/attempts.json": {
+    "kind": "file",
+    "size": 132657,
+    "mtime_ns": 1788981249138461159,
+    "mode": 384,
+    "sha256": "8131df514c3a7efff342bab088afca4ed08e9d22b50c7c231a8742f92152d654"
+  },
+  "mug/executed/manifest.json": {
+    "kind": "file",
+    "size": 141846,
+    "mtime_ns": 1788981250126456646,
+    "mode": 436,
+    "sha256": "48aa66553ed3348778a3ebe63ea96d4fc710a295b20705f6620b269033077ce4"
+  },
+  "mug/executed/collection.json": {
+    "kind": "file",
+    "size": 2816,
+    "mtime_ns": 1788980777656823537,
+    "mode": 384,
+    "sha256": "3e727cb80545db053f207a64497fefa4d62beee8e58884bf5dcfd7043be48a84"
+  },
+  "mug/executed/summary.json": {
+    "kind": "file",
+    "size": 183,
+    "mtime_ns": 1788981250126456646,
+    "mode": 384,
+    "sha256": "a0d359e860b91ad2808c4b132a207cc4210aafbdb18d4a7f0842746a5b4e4c54"
+  },
+  "mug/executed/episode_entries.json": {
+    "kind": "file",
+    "size": 130997,
+    "mtime_ns": 1788981249142461141,
+    "mode": 384,
+    "sha256": "eb6a56943cd32e930755b7042268bfd4eb0dc9663ea87551be19f12ec7b7972f"
+  },
+  "mug/executed/diagnostics/teacher_0003_yaw_000.npz": {
+    "kind": "file",
+    "size": 1049872,
+    "mtime_ns": 1788980983263732861,
+    "mode": 436,
+    "sha256": "23ab4dd79b3a305831225124d1b17bbfd0a4d5f05f91d096a44fc7eda41bd09d"
+  },
+  "mug/executed/diagnostics/teacher_0002_yaw_000.npz": {
+    "kind": "file",
+    "size": 1082427,
+    "mtime_ns": 1788980928508012218,
+    "mode": 436,
+    "sha256": "dcbe345f4bb2d3a2fca25dad0e9c6a8c97ddf93034691506bb81e31f53c5b35b"
+  },
+  "mug/executed/diagnostics/teacher_0000_yaw_000.npz": {
+    "kind": "file",
+    "size": 1463865,
+    "mtime_ns": 1788980862888357021,
+    "mode": 436,
+    "sha256": "bc2efdd9e6221d784b35a6ba6ebfaf59527826a1b76ba3dd9d46a7eec998681e"
+  },
+  "mug/executed/diagnostics/teacher_0006_yaw_000.json": {
+    "kind": "file",
+    "size": 13518,
+    "mtime_ns": 1788981146738936557,
+    "mode": 436,
+    "sha256": "6caaafe5cc691d29b7025c2af7df0341e524e09749be0110534161deefe56244"
+  },
+  "mug/executed/diagnostics/teacher_0008_yaw_000.json": {
+    "kind": "file",
+    "size": 13486,
+    "mtime_ns": 1788981249134461178,
+    "mode": 436,
+    "sha256": "8b0d2b33b3a8d491f4f94175a783ecd623dde03bea198b4da1578138099c96d8"
+  },
+  "mug/executed/diagnostics/teacher_0000_yaw_000.json": {
+    "kind": "file",
+    "size": 13524,
+    "mtime_ns": 1788980862892357000,
+    "mode": 436,
+    "sha256": "501865825a681a1473093f007b227ac07e9b6320c539b137d10fce894f3f8871"
+  },
+  "mug/executed/diagnostics/teacher_0003_yaw_000.json": {
+    "kind": "file",
+    "size": 13506,
+    "mtime_ns": 1788980983267732842,
+    "mode": 436,
+    "sha256": "07c94319f6972128a91f9a3c825b5ef93be8fa987064063fe7b5c8b0bbab2127"
+  },
+  "mug/executed/diagnostics/teacher_0007_yaw_000.json": {
+    "kind": "file",
+    "size": 13555,
+    "mtime_ns": 1788981182822767239,
+    "mode": 436,
+    "sha256": "775cd9539d56e8c66da0827c8a94de04797afbd761224324c078b33b769c837a"
+  },
+  "mug/executed/diagnostics/teacher_0008_yaw_000.npz": {
+    "kind": "file",
+    "size": 1405702,
+    "mtime_ns": 1788981249134461178,
+    "mode": 436,
+    "sha256": "3b64dc3980ad0ce3505c85c7ce0dd4cb6545f1fcdcf0ffc2167f22e6c62ca377"
+  },
+  "mug/executed/diagnostics/teacher_0005_yaw_000.json": {
+    "kind": "file",
+    "size": 13504,
+    "mtime_ns": 1788981095635180053,
+    "mode": 436,
+    "sha256": "b0b65f695f6a0fe06abd64da6568f7555535c2f817bb0669bb1ac7d61d71d322"
+  },
+  "mug/executed/diagnostics/teacher_0001_yaw_000.json": {
+    "kind": "file",
+    "size": 13482,
+    "mtime_ns": 1788980880684262358,
+    "mode": 436,
+    "sha256": "164f1e5dffaf086d8de098cb482215ae8dddb998af7c21528ddf5e19b7e67b3a"
+  },
+  "mug/executed/diagnostics/teacher_0005_yaw_000.npz": {
+    "kind": "file",
+    "size": 1449081,
+    "mtime_ns": 1788981095631180072,
+    "mode": 436,
+    "sha256": "74b32ac56903ea2994c479c27b6e1897ddba2df728d3ddbb3c376c8884aa7ff2"
+  },
+  "mug/executed/diagnostics/teacher_0007_yaw_000.npz": {
+    "kind": "file",
+    "size": 873451,
+    "mtime_ns": 1788981182822767239,
+    "mode": 436,
+    "sha256": "52c256676019bfcbc770d58ba177aa9109d6515b505aad38dc97aa81f8779a73"
+  },
+  "mug/executed/diagnostics/teacher_0001_yaw_000.npz": {
+    "kind": "file",
+    "size": 1035750,
+    "mtime_ns": 1788980880684262358,
+    "mode": 436,
+    "sha256": "a69054f1394619a09ce755799d186c1592074674738dc071954f9057184d08a1"
+  },
+  "mug/executed/diagnostics/teacher_0004_yaw_000.json": {
+    "kind": "file",
+    "size": 13516,
+    "mtime_ns": 1788981034731476480,
+    "mode": 436,
+    "sha256": "581db8fbc37122df3fc49eb656cccb28847e42723c278443046ac9ca0332d905"
+  },
+  "mug/executed/diagnostics/teacher_0006_yaw_000.npz": {
+    "kind": "file",
+    "size": 1141405,
+    "mtime_ns": 1788981146738936557,
+    "mode": 436,
+    "sha256": "d3cd176b6f176a59186aebd77ba6414c065d30ddaec96bd9adc091a6e4a66869"
+  },
+  "mug/executed/diagnostics/teacher_0004_yaw_000.npz": {
+    "kind": "file",
+    "size": 1068236,
+    "mtime_ns": 1788981034727476500,
+    "mode": 436,
+    "sha256": "812bd7ffca48733184be349ef863e05633620093877f2f17c97d7df0cd1dd02d"
+  },
+  "mug/executed/diagnostics/teacher_0002_yaw_000.json": {
+    "kind": "file",
+    "size": 13516,
+    "mtime_ns": 1788980928508012218,
+    "mode": 436,
+    "sha256": "bacb9e1ddc5a02ad6a864b906196f11a1e0b513b8e4a152225ab0367781c2fa4"
+  },
+  "mug/executed/sources/scripts": {
+    "kind": "directory"
+  },
+  "mug/executed/sources/src": {
+    "kind": "directory"
+  },
+  "mug/executed/sources/scripts/collect_episodes.py": {
+    "kind": "file",
+    "size": 54340,
+    "mtime_ns": 1788960621637528702,
+    "mode": 436,
+    "sha256": "ddac9c49c70d54af5e5868f82e3aa35c25405fd945edfe7f848a55ce1e7f822a"
+  },
+  "mug/executed/sources/scripts/collect_teacher_dataset.py": {
+    "kind": "file",
+    "size": 19853,
+    "mtime_ns": 1788960868448254327,
+    "mode": 436,
+    "sha256": "d37fd23284640828a6ce9fed49dc3dc0b2a40e9c26d634ac0933efe3c0b3bb04"
+  },
+  "mug/executed/sources/src/icra": {
+    "kind": "directory"
+  },
+  "mug/executed/sources/src/icra/objects.py": {
+    "kind": "file",
+    "size": 7070,
+    "mtime_ns": 1788792745114622021,
+    "mode": 436,
+    "sha256": "ee8ab21a246f029b6e63d09591549b30c6aa027e1f1d99577e6d021997f4464a"
+  },
+  "mug/executed/sources/src/icra/scene.py": {
+    "kind": "file",
+    "size": 33775,
+    "mtime_ns": 1788778109275330501,
+    "mode": 436,
+    "sha256": "1ade9cecc5ca53139513682247b1d3de3a4669bd6c90010eb8321ba1f5f5bfee"
+  },
+  "mug/executed/sources/src/icra/conditioning.py": {
+    "kind": "file",
+    "size": 10533,
+    "mtime_ns": 1788854027031050215,
+    "mode": 436,
+    "sha256": "6dbe8661c015ac006755132f801660092f8666336461ce9fa9be29eec776d2a4"
+  },
+  "mug/executed/sources/src/icra/visual_observation.py": {
+    "kind": "file",
+    "size": 4516,
+    "mtime_ns": 1788960652505362821,
+    "mode": 436,
+    "sha256": "513523968710d257c666df1b2ecd8127beba0b4bac59a227725d8754e1355f55"
+  },
+  "mug/executed/sources/src/icra/dataset.py": {
+    "kind": "file",
+    "size": 30207,
+    "mtime_ns": 1788959664440910900,
+    "mode": 436,
+    "sha256": "95091ac9d209843a96f48460592d3e1369809684ebbcd9efc35e0b0ac9aa8cea"
+  },
+  "mug/executed/sources/src/icra/simulation.py": {
+    "kind": "file",
+    "size": 1519,
+    "mtime_ns": 1788853271262464336,
+    "mode": 436,
+    "sha256": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25"
+  },
+  "mug/executed/sources/src/icra/execution.py": {
+    "kind": "file",
+    "size": 30638,
+    "mtime_ns": 1788960868608253536,
+    "mode": 436,
+    "sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94"
+  },
+  "mug/executed/sources/src/icra/contact_control.py": {
+    "kind": "file",
+    "size": 9553,
+    "mtime_ns": 1788859946035541465,
+    "mode": 436,
+    "sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0"
+  },
+  "mug/executed/sources/src/icra/arm.py": {
+    "kind": "file",
+    "size": 6838,
+    "mtime_ns": 1788853992147035385,
+    "mode": 436,
+    "sha256": "54ea9a88d552204586347b17fc1cb6cedbd733a621df32a888f7702df2cabf67"
+  },
+  "mug/executed/simulation/teacher_0003_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788980930955999573,
+    "mode": 436,
+    "sha256": "3183b9b02dfebd1c3298b694d1380f1e4277ecf666571375b197ac9c218bef2c"
+  },
+  "mug/executed/simulation/teacher_0005_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788981037075464936,
+    "mode": 436,
+    "sha256": "f20eaad6d2c06d74e17c10dbb7c751e4b21d5b1e7a9e31023a75cae98b776e96"
+  },
+  "mug/executed/simulation/model_0003.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788980930600001411,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed/simulation/model_0005.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788981036751466532,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed/simulation/teacher_0008_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788981185210756105,
+    "mode": 436,
+    "sha256": "f20eaad6d2c06d74e17c10dbb7c751e4b21d5b1e7a9e31023a75cae98b776e96"
+  },
+  "mug/executed/simulation/teacher_0006_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788981098059168400,
+    "mode": 436,
+    "sha256": "3183b9b02dfebd1c3298b694d1380f1e4277ecf666571375b197ac9c218bef2c"
+  },
+  "mug/executed/simulation/model_0008.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788981184878757652,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed/simulation/model_0000.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788980784236786698,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed/simulation/teacher_0000_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788980784668784284,
+    "mode": 436,
+    "sha256": "3183b9b02dfebd1c3298b694d1380f1e4277ecf666571375b197ac9c218bef2c"
+  },
+  "mug/executed/simulation/teacher_0007_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788981149162925118,
+    "mode": 436,
+    "sha256": "3183b9b02dfebd1c3298b694d1380f1e4277ecf666571375b197ac9c218bef2c"
+  },
+  "mug/executed/simulation/model_0004.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788980985315722529,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed/simulation/teacher_0002_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788980883276248644,
+    "mode": 436,
+    "sha256": "f20eaad6d2c06d74e17c10dbb7c751e4b21d5b1e7a9e31023a75cae98b776e96"
+  },
+  "mug/executed/simulation/teacher_0004_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788980985687720657,
+    "mode": 436,
+    "sha256": "3183b9b02dfebd1c3298b694d1380f1e4277ecf666571375b197ac9c218bef2c"
+  },
+  "mug/executed/simulation/model_0002.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788980882944250398,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed/simulation/model_0001.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788980865144344970,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed/simulation/model_0006.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788981097699170130,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed/simulation/model_0007.mjb": {
+    "kind": "file",
+    "size": 189332947,
+    "mtime_ns": 1788981148806926798,
+    "mode": 436,
+    "sha256": "831c71c18e74e2afbf8935e29429de6501d552436640a2b3808c443c2a410808"
+  },
+  "mug/executed/simulation/teacher_0001_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788980865476343199,
+    "mode": 436,
+    "sha256": "f20eaad6d2c06d74e17c10dbb7c751e4b21d5b1e7a9e31023a75cae98b776e96"
+  },
+  "mug/predicted/3_Medium_Wrap": {
+    "kind": "directory"
+  },
+  "mug/predicted/10_Power_Disk": {
+    "kind": "directory"
+  },
+  "mug/predicted/1_Large_Diameter": {
+    "kind": "directory"
+  },
+  "mug/predicted/3_Medium_Wrap/core_mug_10f6e09036350e92b3f21f1137c3c347.yml": {
+    "kind": "file",
+    "size": 36319,
+    "mtime_ns": 1788979684643673340,
+    "mode": 436,
+    "sha256": "817669f152ad705631882c30638629c3f92b59298181e1aa1cde99618e293c03"
+  },
+  "mug/predicted/3_Medium_Wrap/grip_offset.json": {
+    "kind": "file",
+    "size": 503,
+    "mtime_ns": 1788979684643673340,
+    "mode": 436,
+    "sha256": "be9c1188056b3a4296b053e484654ff404788be95e60274e5f3a63fe215b4d8a"
+  },
+  "mug/predicted/10_Power_Disk/core_mug_10f6e09036350e92b3f21f1137c3c347.yml": {
+    "kind": "file",
+    "size": 38166,
+    "mtime_ns": 1788980003622959143,
+    "mode": 436,
+    "sha256": "5d2ddcf22a12b8cfe0933fd49022810f58472cf90731c50c3b095194b08add96"
+  },
+  "mug/predicted/10_Power_Disk/grip_offset.json": {
+    "kind": "file",
+    "size": 502,
+    "mtime_ns": 1788980003622959143,
+    "mode": 436,
+    "sha256": "24fae3a916459e10b87dfac491f2b0fc1b6ad25145325c380640ae7ba214e505"
+  },
+  "mug/predicted/1_Large_Diameter/core_mug_10f6e09036350e92b3f21f1137c3c347.yml": {
+    "kind": "file",
+    "size": 26801,
+    "mtime_ns": 1788982061064991484,
+    "mode": 436,
+    "sha256": "de98f0d8b874c719d43b06d8cbd494c37fdbcfb63e2089067644b309688d4d67"
+  },
+  "mug/predicted/1_Large_Diameter/grip_offset.json": {
+    "kind": "file",
+    "size": 503,
+    "mtime_ns": 1788982061064991484,
+    "mode": 436,
+    "sha256": "08309f33421fee92624e802c8bb5dd7da242981bf88802b36a7f74f5daf5ba10"
+  },
+  "mug/objects/core_mug_10f6e09036350e92b3f21f1137c3c347": {
+    "kind": "symlink",
+    "target": "/home/yspark/projects/ICRA/third_party/dexonomy/assets/object/DGN_5k/processed_data/core_mug_10f6e09036350e92b3f21f1137c3c347"
+  },
+  "hammer/observation": {
+    "kind": "directory"
+  },
+  "hammer/reachable": {
+    "kind": "directory"
+  },
+  "hammer/predicted": {
+    "kind": "directory"
+  },
+  "hammer/objects": {
+    "kind": "directory"
+  },
+  "hammer/observation/head": {
+    "kind": "directory"
+  },
+  "hammer/observation/head/rgb.png": {
+    "kind": "file",
+    "size": 18954,
+    "mtime_ns": 1788981341202045899,
+    "mode": 436,
+    "sha256": "76c61335930fe70273408746eaf3eea50002624d0e6390474e56adac8c585b34"
+  },
+  "hammer/observation/head/depth.npy": {
+    "kind": "file",
+    "size": 1228928,
+    "mtime_ns": 1788981341202045899,
+    "mode": 436,
+    "sha256": "5fc9a0836f9d894d64382149c6275a56bfa92eafbe3a7a1dfa5ff657858497fe"
+  },
+  "hammer/observation/head/seg.png": {
+    "kind": "file",
+    "size": 953,
+    "mtime_ns": 1788981341210045864,
+    "mode": 436,
+    "sha256": "e71cd2465b5a4f2542c986ec8250dd2a74ca7c7f543b9d9559ddac4a04586018"
+  },
+  "hammer/observation/head/meta_data.json": {
+    "kind": "file",
+    "size": 4260,
+    "mtime_ns": 1788981341210045864,
+    "mode": 436,
+    "sha256": "21dacc4f94dd71363dcc4af25b541ee8decfd7acebb3b2a314c43b0eb177d9d5"
+  },
+  "hammer/reachable/3_Medium_Wrap": {
+    "kind": "directory"
+  },
+  "hammer/reachable/2_Small_Diameter": {
+    "kind": "directory"
+  },
+  "hammer/reachable/3_Medium_Wrap/ddg_gd_hammer_poisson_005.stages.json": {
+    "kind": "file",
+    "size": 26212,
+    "mtime_ns": 1788981501085880004,
+    "mode": 436,
+    "sha256": "374043034493e6be707cc4cfdb413a260ce03d0929a671273a275fdce96e0278"
+  },
+  "hammer/reachable/3_Medium_Wrap/ddg_gd_hammer_poisson_005.yml": {
+    "kind": "file",
+    "size": 19340,
+    "mtime_ns": 1788981501105879996,
+    "mode": 436,
+    "sha256": "bea2aa37371e75ceb105cb0d7b2e5aa0dfced14577495248bf54eb151076b5c5"
+  },
+  "hammer/reachable/3_Medium_Wrap/run.json": {
+    "kind": "file",
+    "size": 573,
+    "mtime_ns": 1788981501105879996,
+    "mode": 436,
+    "sha256": "cd4cf63fda261d24f0ddcbbebc136a29109f33049e5a6988e4ade2e9055175a2"
+  },
+  "hammer/reachable/2_Small_Diameter/ddg_gd_hammer_poisson_005.stages.json": {
+    "kind": "file",
+    "size": 22425,
+    "mtime_ns": 1788981749317623200,
+    "mode": 436,
+    "sha256": "11f063a33c5470707ebcc38d2adf5dc1c5226d99d07dd31800a3568dc487cbca"
+  },
+  "hammer/reachable/2_Small_Diameter/ddg_gd_hammer_poisson_005.yml": {
+    "kind": "file",
+    "size": 34209,
+    "mtime_ns": 1788981749345623155,
+    "mode": 436,
+    "sha256": "7c3a1b6088ec1c0d2e7baa79f84b2a695d4b68c6f99fdc122592b9383045c7a7"
+  },
+  "hammer/reachable/2_Small_Diameter/run.json": {
+    "kind": "file",
+    "size": 579,
+    "mtime_ns": 1788981749345623155,
+    "mode": 436,
+    "sha256": "9b0c99f9f4b5715aca3fe140ef79adf2455317b68e541ea91d4fbf40e13edfae"
+  },
+  "hammer/predicted/3_Medium_Wrap": {
+    "kind": "directory"
+  },
+  "hammer/predicted/2_Small_Diameter": {
+    "kind": "directory"
+  },
+  "hammer/predicted/3_Medium_Wrap/ddg_gd_hammer_poisson_005.yml": {
+    "kind": "file",
+    "size": 36492,
+    "mtime_ns": 1788981351805998714,
+    "mode": 436,
+    "sha256": "2f82b57699ad8010dc20b6d5738f4268bf3eaa7d1fc7d92db63067647c4c019f"
+  },
+  "hammer/predicted/3_Medium_Wrap/grip_offset.json": {
+    "kind": "file",
+    "size": 483,
+    "mtime_ns": 1788981351805998714,
+    "mode": 436,
+    "sha256": "b0205160bb2db426c0a657fbe0c396725614f45b877a7a753827a2c52b2d9c5a"
+  },
+  "hammer/predicted/2_Small_Diameter/ddg_gd_hammer_poisson_005.yml": {
+    "kind": "file",
+    "size": 31584,
+    "mtime_ns": 1788981632261779555,
+    "mode": 436,
+    "sha256": "add6b00beaedfb58f73254b0a41fadc4294b121553ebffedebd08d8f2dba7d15"
+  },
+  "hammer/predicted/2_Small_Diameter/grip_offset.json": {
+    "kind": "file",
+    "size": 484,
+    "mtime_ns": 1788981632261779555,
+    "mode": 436,
+    "sha256": "2ad1a192b2bc97fb41fdc0340e514efc6a57e7155ebdb582fe1c5712a566f899"
+  },
+  "hammer/objects/ddg_gd_hammer_poisson_005": {
+    "kind": "symlink",
+    "target": "/home/yspark/projects/ICRA/third_party/dexonomy/assets/object/DGN_5k/processed_data/ddg_gd_hammer_poisson_005"
+  },
+  "can-yawm225/diagnostics": {
+    "kind": "directory"
+  },
+  "can-yawm225/sources": {
+    "kind": "directory"
+  },
+  "can-yawm225/simulation": {
+    "kind": "directory"
+  },
+  "can-yawm225/attempts.json": {
+    "kind": "file",
+    "size": 30443,
+    "mtime_ns": 1788984398574145186,
+    "mode": 384,
+    "sha256": "3c3be8998a48782078efcb079ba0e0f6d1e521a44f8e05bf0b459a86ccfb0ff8"
+  },
+  "can-yawm225/manifest.json": {
+    "kind": "file",
+    "size": 32712,
+    "mtime_ns": 1788984398710146553,
+    "mode": 436,
+    "sha256": "2522d6b6549cc5c7dbe6c95f2c3d1e3f0328d1b0dc9ed0ea217b33f5da9a5ff7"
+  },
+  "can-yawm225/collection.json": {
+    "kind": "file",
+    "size": 2807,
+    "mtime_ns": 1788984346053600761,
+    "mode": 384,
+    "sha256": "9d694fb6da359a97f2246b554b6d49acbd4ffb9a1830bc86aea0600aecb7e70d"
+  },
+  "can-yawm225/summary.json": {
+    "kind": "file",
+    "size": 182,
+    "mtime_ns": 1788984398710146553,
+    "mode": 384,
+    "sha256": "ecc0881791e9ef23de1fd2be8a9e3cb4420bfc76ab8e718d425b828a7d49774b"
+  },
+  "can-yawm225/episode_entries.json": {
+    "kind": "file",
+    "size": 29157,
+    "mtime_ns": 1788984398578145226,
+    "mode": 384,
+    "sha256": "b32d6fc7ab0c072dd033325e8e5ebf5f00a86078a4e50edf37657703ca26b8e2"
+  },
+  "can-yawm225/diagnostics/teacher_0002_yaw_000.npz": {
+    "kind": "file",
+    "size": 802154,
+    "mtime_ns": 1788984398574145186,
+    "mode": 436,
+    "sha256": "c47aa1d68908b2ffac8e0be94068029c73430274dc5c5fb1dfa0961215259cc6"
+  },
+  "can-yawm225/diagnostics/teacher_0000_yaw_000.npz": {
+    "kind": "file",
+    "size": 759337,
+    "mtime_ns": 1788984373053884881,
+    "mode": 436,
+    "sha256": "b1af5dfc116b99b8edad1ca112dcb5d149110ccf0634dc17d6c5544cbb42fb5e"
+  },
+  "can-yawm225/diagnostics/teacher_0000_yaw_000.json": {
+    "kind": "file",
+    "size": 13542,
+    "mtime_ns": 1788984373057884923,
+    "mode": 436,
+    "sha256": "116e7eaab12a55652b4c74efa7ae9c269bec86c93822c99013d195614d8a6c66"
+  },
+  "can-yawm225/diagnostics/teacher_0001_yaw_000.json": {
+    "kind": "file",
+    "size": 11539,
+    "mtime_ns": 1788984380021956733,
+    "mode": 384,
+    "sha256": "9afead3853f3948fa39bd1ffa751a8c64a27d0086e2c930cb6567be4315b508e"
+  },
+  "can-yawm225/diagnostics/teacher_0002_yaw_000.json": {
+    "kind": "file",
+    "size": 13526,
+    "mtime_ns": 1788984398574145186,
+    "mode": 436,
+    "sha256": "8061323e83afbcf06ed8450b5389557722f93e8e66627bf50059fba033378f4f"
+  },
+  "can-yawm225/sources/scripts": {
+    "kind": "directory"
+  },
+  "can-yawm225/sources/src": {
+    "kind": "directory"
+  },
+  "can-yawm225/sources/scripts/collect_episodes.py": {
+    "kind": "file",
+    "size": 54340,
+    "mtime_ns": 1788960621637528702,
+    "mode": 436,
+    "sha256": "ddac9c49c70d54af5e5868f82e3aa35c25405fd945edfe7f848a55ce1e7f822a"
+  },
+  "can-yawm225/sources/scripts/collect_teacher_dataset.py": {
+    "kind": "file",
+    "size": 19853,
+    "mtime_ns": 1788960868448254327,
+    "mode": 436,
+    "sha256": "d37fd23284640828a6ce9fed49dc3dc0b2a40e9c26d634ac0933efe3c0b3bb04"
+  },
+  "can-yawm225/sources/src/icra": {
+    "kind": "directory"
+  },
+  "can-yawm225/sources/src/icra/objects.py": {
+    "kind": "file",
+    "size": 7070,
+    "mtime_ns": 1788792745114622021,
+    "mode": 436,
+    "sha256": "ee8ab21a246f029b6e63d09591549b30c6aa027e1f1d99577e6d021997f4464a"
+  },
+  "can-yawm225/sources/src/icra/scene.py": {
+    "kind": "file",
+    "size": 33775,
+    "mtime_ns": 1788778109275330501,
+    "mode": 436,
+    "sha256": "1ade9cecc5ca53139513682247b1d3de3a4669bd6c90010eb8321ba1f5f5bfee"
+  },
+  "can-yawm225/sources/src/icra/conditioning.py": {
+    "kind": "file",
+    "size": 10533,
+    "mtime_ns": 1788854027031050215,
+    "mode": 436,
+    "sha256": "6dbe8661c015ac006755132f801660092f8666336461ce9fa9be29eec776d2a4"
+  },
+  "can-yawm225/sources/src/icra/visual_observation.py": {
+    "kind": "file",
+    "size": 4516,
+    "mtime_ns": 1788960652505362821,
+    "mode": 436,
+    "sha256": "513523968710d257c666df1b2ecd8127beba0b4bac59a227725d8754e1355f55"
+  },
+  "can-yawm225/sources/src/icra/dataset.py": {
+    "kind": "file",
+    "size": 30207,
+    "mtime_ns": 1788959664440910900,
+    "mode": 436,
+    "sha256": "95091ac9d209843a96f48460592d3e1369809684ebbcd9efc35e0b0ac9aa8cea"
+  },
+  "can-yawm225/sources/src/icra/simulation.py": {
+    "kind": "file",
+    "size": 1519,
+    "mtime_ns": 1788853271262464336,
+    "mode": 436,
+    "sha256": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25"
+  },
+  "can-yawm225/sources/src/icra/execution.py": {
+    "kind": "file",
+    "size": 30638,
+    "mtime_ns": 1788960868608253536,
+    "mode": 436,
+    "sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94"
+  },
+  "can-yawm225/sources/src/icra/contact_control.py": {
+    "kind": "file",
+    "size": 9553,
+    "mtime_ns": 1788859946035541465,
+    "mode": 436,
+    "sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0"
+  },
+  "can-yawm225/sources/src/icra/arm.py": {
+    "kind": "file",
+    "size": 6838,
+    "mtime_ns": 1788853992147035385,
+    "mode": 436,
+    "sha256": "54ea9a88d552204586347b17fc1cb6cedbd733a621df32a888f7702df2cabf67"
+  },
+  "can-yawm225/simulation/model_0000.mjb": {
+    "kind": "file",
+    "size": 188618245,
+    "mtime_ns": 1788984350533648541,
+    "mode": 436,
+    "sha256": "276f215d5762c077e8f27188fc0c4ab0de0c56ba2096bb57b364cd60a846184d"
+  },
+  "can-yawm225/simulation/teacher_0000_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788984350829651690,
+    "mode": 436,
+    "sha256": "bf0f8c04f9c60e0f670356e82e186f2bc93532fea1338c8dc54ea0854fad9450"
+  },
+  "can-yawm225/simulation/teacher_0002_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788984382249979581,
+    "mode": 436,
+    "sha256": "bf0f8c04f9c60e0f670356e82e186f2bc93532fea1338c8dc54ea0854fad9450"
+  },
+  "can-yawm225/simulation/model_0002.mjb": {
+    "kind": "file",
+    "size": 188618245,
+    "mtime_ns": 1788984381937976386,
+    "mode": 436,
+    "sha256": "276f215d5762c077e8f27188fc0c4ab0de0c56ba2096bb57b364cd60a846184d"
+  },
+  "can-yawm225/simulation/model_0001.mjb": {
+    "kind": "file",
+    "size": 188618245,
+    "mtime_ns": 1788984375141906473,
+    "mode": 436,
+    "sha256": "276f215d5762c077e8f27188fc0c4ab0de0c56ba2096bb57b364cd60a846184d"
+  },
+  "can-yawm225/simulation/teacher_0001_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788984375461909777,
+    "mode": 436,
+    "sha256": "bf0f8c04f9c60e0f670356e82e186f2bc93532fea1338c8dc54ea0854fad9450"
+  },
+  "can-yawm075/diagnostics": {
+    "kind": "directory"
+  },
+  "can-yawm075/sources": {
+    "kind": "directory"
+  },
+  "can-yawm075/simulation": {
+    "kind": "directory"
+  },
+  "can-yawm075/attempts.json": {
+    "kind": "file",
+    "size": 44296,
+    "mtime_ns": 1788984245988461349,
+    "mode": 384,
+    "sha256": "0e5ce532a24bd807a6ad0be8b9340fb0f23b052f910e763e7a73398dc290ac95"
+  },
+  "can-yawm075/manifest.json": {
+    "kind": "file",
+    "size": 48311,
+    "mtime_ns": 1788984246268464743,
+    "mode": 436,
+    "sha256": "f33e4cffcaaac6d78758919b2bcb2ebf04178db965de8feac29090b8b04ca5bc"
+  },
+  "can-yawm075/collection.json": {
+    "kind": "file",
+    "size": 2807,
+    "mtime_ns": 1788984144623145751,
+    "mode": 384,
+    "sha256": "9d694fb6da359a97f2246b554b6d49acbd4ffb9a1830bc86aea0600aecb7e70d"
+  },
+  "can-yawm075/summary.json": {
+    "kind": "file",
+    "size": 182,
+    "mtime_ns": 1788984246268464743,
+    "mode": 384,
+    "sha256": "edb7043102c78db63ebf51a02407f0be392ddef95b829f4c60f043c576d822fd"
+  },
+  "can-yawm075/episode_entries.json": {
+    "kind": "file",
+    "size": 43716,
+    "mtime_ns": 1788984245988461349,
+    "mode": 384,
+    "sha256": "9eee519915380d7aeab4fb5c40f1036b7ec2a848097a3a87081a0eb1649a7955"
+  },
+  "can-yawm075/diagnostics/teacher_0002_yaw_000.npz": {
+    "kind": "file",
+    "size": 838807,
+    "mtime_ns": 1788984245984461301,
+    "mode": 436,
+    "sha256": "1d97a322130b6ae8d9f33fc95880d648d1a353ce98acdd74d2d5cc65016cb4ff"
+  },
+  "can-yawm075/diagnostics/teacher_0000_yaw_000.npz": {
+    "kind": "file",
+    "size": 766774,
+    "mtime_ns": 1788984167663460769,
+    "mode": 436,
+    "sha256": "581aee73a2dc2f7d5e751eb5f483908e37000581e3e0fdb345b473efbbc3c2a1"
+  },
+  "can-yawm075/diagnostics/teacher_0000_yaw_000.json": {
+    "kind": "file",
+    "size": 13521,
+    "mtime_ns": 1788984167663460769,
+    "mode": 436,
+    "sha256": "b5c644fe5c6d929c204bd1e87811ed49faede93dc00d44005f48f264a89de573"
+  },
+  "can-yawm075/diagnostics/teacher_0001_yaw_000.json": {
+    "kind": "file",
+    "size": 13516,
+    "mtime_ns": 1788984226576222961,
+    "mode": 436,
+    "sha256": "bcd2794d83a0ed79fb3d863f96a122d8ee1dc91681cd33a10aa63e5c2f1c97f5"
+  },
+  "can-yawm075/diagnostics/teacher_0001_yaw_000.npz": {
+    "kind": "file",
+    "size": 1675675,
+    "mtime_ns": 1788984226576222961,
+    "mode": 436,
+    "sha256": "39beba584f0d71c7ba18408c0f047848587aa69960d1c3dbf270185ab8fb2823"
+  },
+  "can-yawm075/diagnostics/teacher_0002_yaw_000.json": {
+    "kind": "file",
+    "size": 13549,
+    "mtime_ns": 1788984245984461301,
+    "mode": 436,
+    "sha256": "8c2154de00f9e8645fd1262576bbf72d012c389f7f981a5cd4332b704d2700f2"
+  },
+  "can-yawm075/sources/scripts": {
+    "kind": "directory"
+  },
+  "can-yawm075/sources/src": {
+    "kind": "directory"
+  },
+  "can-yawm075/sources/scripts/collect_episodes.py": {
+    "kind": "file",
+    "size": 54340,
+    "mtime_ns": 1788960621637528702,
+    "mode": 436,
+    "sha256": "ddac9c49c70d54af5e5868f82e3aa35c25405fd945edfe7f848a55ce1e7f822a"
+  },
+  "can-yawm075/sources/scripts/collect_teacher_dataset.py": {
+    "kind": "file",
+    "size": 19853,
+    "mtime_ns": 1788960868448254327,
+    "mode": 436,
+    "sha256": "d37fd23284640828a6ce9fed49dc3dc0b2a40e9c26d634ac0933efe3c0b3bb04"
+  },
+  "can-yawm075/sources/src/icra": {
+    "kind": "directory"
+  },
+  "can-yawm075/sources/src/icra/objects.py": {
+    "kind": "file",
+    "size": 7070,
+    "mtime_ns": 1788792745114622021,
+    "mode": 436,
+    "sha256": "ee8ab21a246f029b6e63d09591549b30c6aa027e1f1d99577e6d021997f4464a"
+  },
+  "can-yawm075/sources/src/icra/scene.py": {
+    "kind": "file",
+    "size": 33775,
+    "mtime_ns": 1788778109275330501,
+    "mode": 436,
+    "sha256": "1ade9cecc5ca53139513682247b1d3de3a4669bd6c90010eb8321ba1f5f5bfee"
+  },
+  "can-yawm075/sources/src/icra/conditioning.py": {
+    "kind": "file",
+    "size": 10533,
+    "mtime_ns": 1788854027031050215,
+    "mode": 436,
+    "sha256": "6dbe8661c015ac006755132f801660092f8666336461ce9fa9be29eec776d2a4"
+  },
+  "can-yawm075/sources/src/icra/visual_observation.py": {
+    "kind": "file",
+    "size": 4516,
+    "mtime_ns": 1788960652505362821,
+    "mode": 436,
+    "sha256": "513523968710d257c666df1b2ecd8127beba0b4bac59a227725d8754e1355f55"
+  },
+  "can-yawm075/sources/src/icra/dataset.py": {
+    "kind": "file",
+    "size": 30207,
+    "mtime_ns": 1788959664440910900,
+    "mode": 436,
+    "sha256": "95091ac9d209843a96f48460592d3e1369809684ebbcd9efc35e0b0ac9aa8cea"
+  },
+  "can-yawm075/sources/src/icra/simulation.py": {
+    "kind": "file",
+    "size": 1519,
+    "mtime_ns": 1788853271262464336,
+    "mode": 436,
+    "sha256": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25"
+  },
+  "can-yawm075/sources/src/icra/execution.py": {
+    "kind": "file",
+    "size": 30638,
+    "mtime_ns": 1788960868608253536,
+    "mode": 436,
+    "sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94"
+  },
+  "can-yawm075/sources/src/icra/contact_control.py": {
+    "kind": "file",
+    "size": 9553,
+    "mtime_ns": 1788859946035541465,
+    "mode": 436,
+    "sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0"
+  },
+  "can-yawm075/sources/src/icra/arm.py": {
+    "kind": "file",
+    "size": 6838,
+    "mtime_ns": 1788853992147035385,
+    "mode": 436,
+    "sha256": "54ea9a88d552204586347b17fc1cb6cedbd733a621df32a888f7702df2cabf67"
+  },
+  "can-yawm075/simulation/model_0000.mjb": {
+    "kind": "file",
+    "size": 188618245,
+    "mtime_ns": 1788984149047207017,
+    "mode": 436,
+    "sha256": "276f215d5762c077e8f27188fc0c4ab0de0c56ba2096bb57b364cd60a846184d"
+  },
+  "can-yawm075/simulation/teacher_0000_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788984149343211101,
+    "mode": 436,
+    "sha256": "6c4187e9679add1668969383171c66db6b976df2bacda8d783a62585111f4dad"
+  },
+  "can-yawm075/simulation/teacher_0002_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788984228740249838,
+    "mode": 436,
+    "sha256": "6c4187e9679add1668969383171c66db6b976df2bacda8d783a62585111f4dad"
+  },
+  "can-yawm075/simulation/model_0002.mjb": {
+    "kind": "file",
+    "size": 188618245,
+    "mtime_ns": 1788984228436246066,
+    "mode": 436,
+    "sha256": "276f215d5762c077e8f27188fc0c4ab0de0c56ba2096bb57b364cd60a846184d"
+  },
+  "can-yawm075/simulation/model_0001.mjb": {
+    "kind": "file",
+    "size": 188618245,
+    "mtime_ns": 1788984169723488454,
+    "mode": 436,
+    "sha256": "276f215d5762c077e8f27188fc0c4ab0de0c56ba2096bb57b364cd60a846184d"
+  },
+  "can-yawm075/simulation/teacher_0001_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788984170023492480,
+    "mode": 436,
+    "sha256": "6c4187e9679add1668969383171c66db6b976df2bacda8d783a62585111f4dad"
+  },
+  "manifests/mug-10_Power_Disk-s1.json": {
+    "kind": "file",
+    "size": 3026,
+    "mtime_ns": 1788980621085747874,
+    "mode": 384,
+    "sha256": "80f7058cf1325971d62098e2ea3d3230a7edd24e6009e00a5e826c894ba1e7ef"
+  },
+  "manifests/mug-1_Large_Diameter-s0.verdicts.json": {
+    "kind": "file",
+    "size": 193,
+    "mtime_ns": 1788982228688563733,
+    "mode": 384,
+    "sha256": "9caa53c7ba7c08a45dedc6b788d97f8b9871575b9b6ad6b7335eefa184595b6d"
+  },
+  "manifests/mug-1_Large_Diameter-s1.json": {
+    "kind": "file",
+    "size": 8791,
+    "mtime_ns": 1788982278876427302,
+    "mode": 384,
+    "sha256": "0620e168e89db58e23e48046d823420daf9be43d5a1269ae11679d67d5a0eb5e"
+  },
+  "manifests/mug-3_Medium_Wrap-s0.verdicts.json": {
+    "kind": "file",
+    "size": 557,
+    "mtime_ns": 1788980397395274798,
+    "mode": 384,
+    "sha256": "328a6f9a8c25a155794155718194000cb53d964e24c9e789447b721d8ee7a741"
+  },
+  "manifests/mug-10_Power_Disk-s0.verdicts.json": {
+    "kind": "file",
+    "size": 372,
+    "mtime_ns": 1788980565782099635,
+    "mode": 384,
+    "sha256": "370a56fe6851174a31518e3209de99217698b002384a5be38fae2784d645619d"
+  },
+  "manifests/mug-1_Large_Diameter-s0.json": {
+    "kind": "file",
+    "size": 3037,
+    "mtime_ns": 1788982228688563733,
+    "mode": 384,
+    "sha256": "08b17c5daea74f3c77bc3729f61fc0a82b6d504e9960e9fd6739c844d2dc5c3c"
+  },
+  "manifests/mug-1_Large_Diameter-s1.verdicts.json": {
+    "kind": "file",
+    "size": 573,
+    "mtime_ns": 1788982278876427302,
+    "mode": 384,
+    "sha256": "3a8564c770e33bd314d9fa38c91f6659002696820dfb33c0e02f4bebc21ed290"
+  },
+  "manifests/mug-10_Power_Disk-s1.verdicts.json": {
+    "kind": "file",
+    "size": 188,
+    "mtime_ns": 1788980621085747874,
+    "mode": 384,
+    "sha256": "eeee59a0c22a83ac491c61386219cb534cf60bbe3bdab5beadd7e1e9a5d294f0"
+  },
+  "manifests/mug-10_Power_Disk-s0.json": {
+    "kind": "file",
+    "size": 5918,
+    "mtime_ns": 1788980565782099635,
+    "mode": 384,
+    "sha256": "16fd54392c3d742b9cddb96155808e71a21f03693b84f0914f674454b60b4bf1"
+  },
+  "manifests/mug-3_Medium_Wrap-s0.json": {
+    "kind": "file",
+    "size": 8775,
+    "mtime_ns": 1788980397395274798,
+    "mode": 384,
+    "sha256": "ba936c3a706cd3a0ec7b77dabf558c93e4124e90da050198cf5f2153dd67c7d3"
+  },
+  "manifests/mug-1_Large_Diameter-s2.json": {
+    "kind": "file",
+    "size": 11677,
+    "mtime_ns": 1788982331656280351,
+    "mode": 384,
+    "sha256": "a263896f7c7972081ce8b6fbee368cc7583f2477206dbc1859ff98e80952d75d"
+  },
+  "manifests/mug-10_Power_Disk-s2.json": {
+    "kind": "file",
+    "size": 3032,
+    "mtime_ns": 1788980673449427788,
+    "mode": 384,
+    "sha256": "aaaab1e732777bad885c7aa479f77997a90b4eed458ba6a1fa8be01c4e983db8"
+  },
+  "manifests/mug-1_Large_Diameter-s2.verdicts.json": {
+    "kind": "file",
+    "size": 765,
+    "mtime_ns": 1788982331656280351,
+    "mode": 384,
+    "sha256": "4637e026a93d4f124980b73733ccd1fb1e57d786c51bddcdbdda28a5222a4c6b"
+  },
+  "manifests/mug-executed-wide.json": {
+    "kind": "file",
+    "size": 58244,
+    "mtime_ns": 1788982331816279901,
+    "mode": 436,
+    "sha256": "83c88e04a2dd6af74ee4b9598872b00441596c84e6eb581a52f134b6c56208d3"
+  },
+  "manifests/mug-3_Medium_Wrap-s2.verdicts.json": {
+    "kind": "file",
+    "size": 373,
+    "mtime_ns": 1788980509822471511,
+    "mode": 384,
+    "sha256": "7ee2401e11708f9c7e227f8d41fba54560aff0a27b7cce9cef324ba33c888614"
+  },
+  "manifests/mug-10_Power_Disk-s2.verdicts.json": {
+    "kind": "file",
+    "size": 187,
+    "mtime_ns": 1788980673449427788,
+    "mode": 384,
+    "sha256": "e82cbdf9b7d642e13bd9b05c0e1318ac2a3399c9cce2d98bb3020c1567519629"
+  },
+  "manifests/mug-3_Medium_Wrap-s2.json": {
+    "kind": "file",
+    "size": 5916,
+    "mtime_ns": 1788980509822471511,
+    "mode": 384,
+    "sha256": "a2c915d1de88cdd6b7f67ccb4f02b8c0b89175083a25158a60e70b9d7acd4e52"
+  },
+  "manifests/mug-executed.json": {
+    "kind": "file",
+    "size": 32101,
+    "mtime_ns": 1788980777536824211,
+    "mode": 436,
+    "sha256": "b76ce3e2eee2aa041db2653e93fa9cddb5e2c7a33fc2e1b5e157e169110a8a1a"
+  },
+  "bowl/observation": {
+    "kind": "directory"
+  },
+  "bowl/reachable": {
+    "kind": "directory"
+  },
+  "bowl/predicted": {
+    "kind": "directory"
+  },
+  "bowl/objects": {
+    "kind": "directory"
+  },
+  "bowl/observation/head": {
+    "kind": "directory"
+  },
+  "bowl/observation/head/rgb.png": {
+    "kind": "file",
+    "size": 19882,
+    "mtime_ns": 1788980677025406357,
+    "mode": 436,
+    "sha256": "bfafe9c7faf9ad3c7328798a559ff8bb56425b98891ff85b062564f87c952085"
+  },
+  "bowl/observation/head/depth.npy": {
+    "kind": "file",
+    "size": 1228928,
+    "mtime_ns": 1788980677025406357,
+    "mode": 436,
+    "sha256": "a520d40119834cec07babae09c3640c7be434d0a9952455c0e723f94c89d60a2"
+  },
+  "bowl/observation/head/seg.png": {
+    "kind": "file",
+    "size": 851,
+    "mtime_ns": 1788980677033406309,
+    "mode": 436,
+    "sha256": "bbd94e5b6480b212d1d9bb4717fac57dced4502eda1cd4333414c89f26697142"
+  },
+  "bowl/observation/head/meta_data.json": {
+    "kind": "file",
+    "size": 4336,
+    "mtime_ns": 1788980677033406309,
+    "mode": 436,
+    "sha256": "27f38ec38abe6735bf7c41a6e5ecc7cf95d838409bc52275fb92c62842011b52"
+  },
+  "bowl/reachable/10_Power_Disk": {
+    "kind": "directory"
+  },
+  "bowl/reachable/26_Sphere_4_Finger": {
+    "kind": "directory"
+  },
+  "bowl/reachable/10_Power_Disk/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71.stages.json": {
+    "kind": "file",
+    "size": 29887,
+    "mtime_ns": 1788980865080345313,
+    "mode": 436,
+    "sha256": "f8e20d64d3190b46ea14a9d8a693d3d59e0ebae4a67f0878cab84d0beac7cdbd"
+  },
+  "bowl/reachable/10_Power_Disk/run.json": {
+    "kind": "file",
+    "size": 588,
+    "mtime_ns": 1788980865108345163,
+    "mode": 436,
+    "sha256": "d90dab90f1ee36c8f5d0fe547055fa8839d66fe7ec2c8d24da54314f60a1b380"
+  },
+  "bowl/reachable/10_Power_Disk/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71.yml": {
+    "kind": "file",
+    "size": 30753,
+    "mtime_ns": 1788980865108345163,
+    "mode": 436,
+    "sha256": "51e5a1b9d8de7223549ce51a4c3b5a87e9c91cd106cf09f2ac1941bd61b7d9f8"
+  },
+  "bowl/reachable/26_Sphere_4_Finger/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71.stages.json": {
+    "kind": "file",
+    "size": 24386,
+    "mtime_ns": 1788981195550707996,
+    "mode": 436,
+    "sha256": "593e39146624aa61512df5c39a8ef03385b21ae18a67ab8f31b43e9eec15a0ce"
+  },
+  "bowl/reachable/26_Sphere_4_Finger/run.json": {
+    "kind": "file",
+    "size": 598,
+    "mtime_ns": 1788981195574707885,
+    "mode": 436,
+    "sha256": "85e88cc700dd641375fecf55c8ff4270603f6dca52dc15150a7bef2dd729a904"
+  },
+  "bowl/reachable/26_Sphere_4_Finger/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71.yml": {
+    "kind": "file",
+    "size": 25541,
+    "mtime_ns": 1788981195574707885,
+    "mode": 436,
+    "sha256": "add39ab9f376e156bb1874ad8fee62fc0d5a2d8f5a69646632f65d3cb2425f4a"
+  },
+  "bowl/predicted/10_Power_Disk": {
+    "kind": "directory"
+  },
+  "bowl/predicted/26_Sphere_4_Finger": {
+    "kind": "directory"
+  },
+  "bowl/predicted/10_Power_Disk/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71.yml": {
+    "kind": "file",
+    "size": 43870,
+    "mtime_ns": 1788980685597355198,
+    "mode": 436,
+    "sha256": "1d025e01817d0d9781e5a316a548b0eae0cedc9c17f9dfb4edd9b4107cc0f68e"
+  },
+  "bowl/predicted/10_Power_Disk/grip_offset.json": {
+    "kind": "file",
+    "size": 505,
+    "mtime_ns": 1788980685597355198,
+    "mode": 436,
+    "sha256": "6d008c8ccc6b3f8c546742cb8dca7809b0862bcb843070e71d61f787b599eeed"
+  },
+  "bowl/predicted/26_Sphere_4_Finger/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71.yml": {
+    "kind": "file",
+    "size": 35604,
+    "mtime_ns": 1788981020463546987,
+    "mode": 436,
+    "sha256": "3c72e28cde5003e2cdcd312644d3950504504d04e4efc49facc40e8606837d71"
+  },
+  "bowl/predicted/26_Sphere_4_Finger/grip_offset.json": {
+    "kind": "file",
+    "size": 505,
+    "mtime_ns": 1788981020463546987,
+    "mode": 436,
+    "sha256": "dbcd8b580b2a882e8f3b8032d26bccaf977f17036cd1b9fa3e88c57d127991a2"
+  },
+  "bowl/objects/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71": {
+    "kind": "symlink",
+    "target": "/home/yspark/projects/ICRA/third_party/dexonomy/assets/object/DGN_5k/processed_data/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71"
+  },
+  "can-yawm15/diagnostics": {
+    "kind": "directory"
+  },
+  "can-yawm15/sources": {
+    "kind": "directory"
+  },
+  "can-yawm15/simulation": {
+    "kind": "directory"
+  },
+  "can-yawm15/attempts.json": {
+    "kind": "file",
+    "size": 44303,
+    "mtime_ns": 1788983689078076294,
+    "mode": 384,
+    "sha256": "fc85d2beba66ca8b1808b4fc5d7cc9e3158db73aae21c078a400356c135ce0b4"
+  },
+  "can-yawm15/manifest.json": {
+    "kind": "file",
+    "size": 48318,
+    "mtime_ns": 1788983689358084127,
+    "mode": 436,
+    "sha256": "cd28051f50dcc91a69e9b76e2f9ebb9f0d463119c2c528375d4f1a83f0d9d409"
+  },
+  "can-yawm15/collection.json": {
+    "kind": "file",
+    "size": 2807,
+    "mtime_ns": 1788983584050859641,
+    "mode": 384,
+    "sha256": "9d694fb6da359a97f2246b554b6d49acbd4ffb9a1830bc86aea0600aecb7e70d"
+  },
+  "can-yawm15/summary.json": {
+    "kind": "file",
+    "size": 181,
+    "mtime_ns": 1788983689358084127,
+    "mode": 384,
+    "sha256": "3689cd308ad702fed9fc59387a42f7e5ee3c6fe2384e347e3955ab2e6d84cdc7"
+  },
+  "can-yawm15/episode_entries.json": {
+    "kind": "file",
+    "size": 43723,
+    "mtime_ns": 1788983689082076407,
+    "mode": 384,
+    "sha256": "c59e04cfc153f9896898f021f4093d5a07d711b69cf2b1fb6ccf396c2ff66ef0"
+  },
+  "can-yawm15/diagnostics/teacher_0002_yaw_000.npz": {
+    "kind": "file",
+    "size": 838320,
+    "mtime_ns": 1788983689078076294,
+    "mode": 436,
+    "sha256": "d7de87d9da061e51cfff3bff90ff3811e01676f2bc2eabad0df8ddde586468cb"
+  },
+  "can-yawm15/diagnostics/teacher_0000_yaw_000.npz": {
+    "kind": "file",
+    "size": 786125,
+    "mtime_ns": 1788983612171777882,
+    "mode": 436,
+    "sha256": "e489fa4b0a6964e58cfb663778347dfeb523a14f464278a935d391420d994b19"
+  },
+  "can-yawm15/diagnostics/teacher_0000_yaw_000.json": {
+    "kind": "file",
+    "size": 13533,
+    "mtime_ns": 1788983612175778010,
+    "mode": 436,
+    "sha256": "34214b616ebd9f6f08b09fad07493731a02b50615c77e7b1a76e04c13e9d48da"
+  },
+  "can-yawm15/diagnostics/teacher_0001_yaw_000.json": {
+    "kind": "file",
+    "size": 13519,
+    "mtime_ns": 1788983669877530065,
+    "mode": 436,
+    "sha256": "e3efabe7434c3326b085e1b7a9f528b2e4153971e3769192bae73c30b9022b89"
+  },
+  "can-yawm15/diagnostics/teacher_0001_yaw_000.npz": {
+    "kind": "file",
+    "size": 1669371,
+    "mtime_ns": 1788983669873529950,
+    "mode": 436,
+    "sha256": "02eec332ee06b1fb9b9bdb575ba689c882c11211bda20195acb87a9fea65bf7d"
+  },
+  "can-yawm15/diagnostics/teacher_0002_yaw_000.json": {
+    "kind": "file",
+    "size": 13541,
+    "mtime_ns": 1788983689078076294,
+    "mode": 436,
+    "sha256": "ae4ced1168f525b5b4ab8d950ee64e791d1ac7b0c2ad27b2a03060623ad56571"
+  },
+  "can-yawm15/sources/scripts": {
+    "kind": "directory"
+  },
+  "can-yawm15/sources/src": {
+    "kind": "directory"
+  },
+  "can-yawm15/sources/scripts/collect_episodes.py": {
+    "kind": "file",
+    "size": 54340,
+    "mtime_ns": 1788960621637528702,
+    "mode": 436,
+    "sha256": "ddac9c49c70d54af5e5868f82e3aa35c25405fd945edfe7f848a55ce1e7f822a"
+  },
+  "can-yawm15/sources/scripts/collect_teacher_dataset.py": {
+    "kind": "file",
+    "size": 19853,
+    "mtime_ns": 1788960868448254327,
+    "mode": 436,
+    "sha256": "d37fd23284640828a6ce9fed49dc3dc0b2a40e9c26d634ac0933efe3c0b3bb04"
+  },
+  "can-yawm15/sources/src/icra": {
+    "kind": "directory"
+  },
+  "can-yawm15/sources/src/icra/objects.py": {
+    "kind": "file",
+    "size": 7070,
+    "mtime_ns": 1788792745114622021,
+    "mode": 436,
+    "sha256": "ee8ab21a246f029b6e63d09591549b30c6aa027e1f1d99577e6d021997f4464a"
+  },
+  "can-yawm15/sources/src/icra/scene.py": {
+    "kind": "file",
+    "size": 33775,
+    "mtime_ns": 1788778109275330501,
+    "mode": 436,
+    "sha256": "1ade9cecc5ca53139513682247b1d3de3a4669bd6c90010eb8321ba1f5f5bfee"
+  },
+  "can-yawm15/sources/src/icra/conditioning.py": {
+    "kind": "file",
+    "size": 10533,
+    "mtime_ns": 1788854027031050215,
+    "mode": 436,
+    "sha256": "6dbe8661c015ac006755132f801660092f8666336461ce9fa9be29eec776d2a4"
+  },
+  "can-yawm15/sources/src/icra/visual_observation.py": {
+    "kind": "file",
+    "size": 4516,
+    "mtime_ns": 1788960652505362821,
+    "mode": 436,
+    "sha256": "513523968710d257c666df1b2ecd8127beba0b4bac59a227725d8754e1355f55"
+  },
+  "can-yawm15/sources/src/icra/dataset.py": {
+    "kind": "file",
+    "size": 30207,
+    "mtime_ns": 1788959664440910900,
+    "mode": 436,
+    "sha256": "95091ac9d209843a96f48460592d3e1369809684ebbcd9efc35e0b0ac9aa8cea"
+  },
+  "can-yawm15/sources/src/icra/simulation.py": {
+    "kind": "file",
+    "size": 1519,
+    "mtime_ns": 1788853271262464336,
+    "mode": 436,
+    "sha256": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25"
+  },
+  "can-yawm15/sources/src/icra/execution.py": {
+    "kind": "file",
+    "size": 30638,
+    "mtime_ns": 1788960868608253536,
+    "mode": 436,
+    "sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94"
+  },
+  "can-yawm15/sources/src/icra/contact_control.py": {
+    "kind": "file",
+    "size": 9553,
+    "mtime_ns": 1788859946035541465,
+    "mode": 436,
+    "sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0"
+  },
+  "can-yawm15/sources/src/icra/arm.py": {
+    "kind": "file",
+    "size": 6838,
+    "mtime_ns": 1788853992147035385,
+    "mode": 436,
+    "sha256": "54ea9a88d552204586347b17fc1cb6cedbd733a621df32a888f7702df2cabf67"
+  },
+  "can-yawm15/simulation/model_0000.mjb": {
+    "kind": "file",
+    "size": 188618245,
+    "mtime_ns": 1788983588459006514,
+    "mode": 436,
+    "sha256": "276f215d5762c077e8f27188fc0c4ab0de0c56ba2096bb57b364cd60a846184d"
+  },
+  "can-yawm15/simulation/teacher_0000_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788983588747016074,
+    "mode": 436,
+    "sha256": "a9d5ee398ba8656645573c97703f92f39fb95a6d6127bb296479ab8be81b216d"
+  },
+  "can-yawm15/simulation/teacher_0002_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788983672013591708,
+    "mode": 436,
+    "sha256": "a9d5ee398ba8656645573c97703f92f39fb95a6d6127bb296479ab8be81b216d"
+  },
+  "can-yawm15/simulation/model_0002.mjb": {
+    "kind": "file",
+    "size": 188618245,
+    "mtime_ns": 1788983671705582829,
+    "mode": 436,
+    "sha256": "276f215d5762c077e8f27188fc0c4ab0de0c56ba2096bb57b364cd60a846184d"
+  },
+  "can-yawm15/simulation/model_0001.mjb": {
+    "kind": "file",
+    "size": 188618245,
+    "mtime_ns": 1788983614175841654,
+    "mode": 436,
+    "sha256": "276f215d5762c077e8f27188fc0c4ab0de0c56ba2096bb57b364cd60a846184d"
+  },
+  "can-yawm15/simulation/teacher_0001_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788983614475851179,
+    "mode": 436,
+    "sha256": "a9d5ee398ba8656645573c97703f92f39fb95a6d6127bb296479ab8be81b216d"
+  },
+  "can-yaw000/diagnostics": {
+    "kind": "directory"
+  },
+  "can-yaw000/episodes": {
+    "kind": "directory"
+  },
+  "can-yaw000/sources": {
+    "kind": "directory"
+  },
+  "can-yaw000/simulation": {
+    "kind": "directory"
+  },
+  "can-yaw000/attempts.json": {
+    "kind": "file",
+    "size": 44148,
+    "mtime_ns": 1788983488527385646,
+    "mode": 384,
+    "sha256": "90c3da27371bad0b5a4cffd5c668b5773b025bd320ecb9416998ff6359569ff4"
+  },
+  "can-yaw000/manifest.json": {
+    "kind": "file",
+    "size": 48203,
+    "mtime_ns": 1788983488779395595,
+    "mode": 436,
+    "sha256": "8af8e14bdb0025e30eb89ddf4542a96440fd7f1e7679675b24b4052833e83e87"
+  },
+  "can-yaw000/collection.json": {
+    "kind": "file",
+    "size": 2807,
+    "mtime_ns": 1788983398600910890,
+    "mode": 384,
+    "sha256": "9d694fb6da359a97f2246b554b6d49acbd4ffb9a1830bc86aea0600aecb7e70d"
+  },
+  "can-yaw000/summary.json": {
+    "kind": "file",
+    "size": 181,
+    "mtime_ns": 1788983488779395595,
+    "mode": 384,
+    "sha256": "2cbe8cc534089b7d636f9b8aa0cc3fea77fb5354cd024f0495e9e1ffb3927011"
+  },
+  "can-yaw000/episode_entries.json": {
+    "kind": "file",
+    "size": 43583,
+    "mtime_ns": 1788983488527385646,
+    "mode": 384,
+    "sha256": "e880ee7b71662a0931441daf9e047334b179d10a7faf04547eda3a4d2c6730ab"
+  },
+  "can-yaw000/diagnostics/teacher_0002_yaw_000.npz": {
+    "kind": "file",
+    "size": 840338,
+    "mtime_ns": 1788983488523385488,
+    "mode": 436,
+    "sha256": "dd14ce26b93779efd640d3e6d077a5c048b4e3c5dcd191cf4c2f7614dc362b84"
+  },
+  "can-yaw000/diagnostics/teacher_0000_yaw_000.npz": {
+    "kind": "file",
+    "size": 773069,
+    "mtime_ns": 1788983420100839209,
+    "mode": 436,
+    "sha256": "dd0d140795079131a1eb60086df0700154f31ff4028a8a5bba50d1ca5be3a59e"
+  },
+  "can-yaw000/diagnostics/teacher_0000_yaw_000.json": {
+    "kind": "file",
+    "size": 13522,
+    "mtime_ns": 1788983420100839209,
+    "mode": 436,
+    "sha256": "e50e37e467d8f6f2d6c4184c602579919629afeaa782c786057171f9f9e4ab24"
+  },
+  "can-yaw000/diagnostics/teacher_0002_yaw_000.json": {
+    "kind": "file",
+    "size": 13536,
+    "mtime_ns": 1788983488527385646,
+    "mode": 436,
+    "sha256": "859d33d5c063cc3e91be1c19408c8e0a2a6f88b5f9e27a1b216a6d1f6e525836"
+  },
+  "can-yaw000/episodes/teacher_0001_yaw_000.json": {
+    "kind": "file",
+    "size": 13401,
+    "mtime_ns": 1788983469262612124,
+    "mode": 436,
+    "sha256": "6e67045b916160b0479fb3f18aabbfe665159c4be430cc0c3a6d8f93f3f9462a"
+  },
+  "can-yaw000/episodes/teacher_0001_yaw_000.npz": {
+    "kind": "file",
+    "size": 1496212,
+    "mtime_ns": 1788983469262612124,
+    "mode": 436,
+    "sha256": "b4ddabc29bd969e8e582c61e5d9a095abe1b7f6611d16fba3b813645cdb91a9e"
+  },
+  "can-yaw000/sources/scripts": {
+    "kind": "directory"
+  },
+  "can-yaw000/sources/src": {
+    "kind": "directory"
+  },
+  "can-yaw000/sources/scripts/collect_episodes.py": {
+    "kind": "file",
+    "size": 54340,
+    "mtime_ns": 1788960621637528702,
+    "mode": 436,
+    "sha256": "ddac9c49c70d54af5e5868f82e3aa35c25405fd945edfe7f848a55ce1e7f822a"
+  },
+  "can-yaw000/sources/scripts/collect_teacher_dataset.py": {
+    "kind": "file",
+    "size": 19853,
+    "mtime_ns": 1788960868448254327,
+    "mode": 436,
+    "sha256": "d37fd23284640828a6ce9fed49dc3dc0b2a40e9c26d634ac0933efe3c0b3bb04"
+  },
+  "can-yaw000/sources/src/icra": {
+    "kind": "directory"
+  },
+  "can-yaw000/sources/src/icra/objects.py": {
+    "kind": "file",
+    "size": 7070,
+    "mtime_ns": 1788792745114622021,
+    "mode": 436,
+    "sha256": "ee8ab21a246f029b6e63d09591549b30c6aa027e1f1d99577e6d021997f4464a"
+  },
+  "can-yaw000/sources/src/icra/scene.py": {
+    "kind": "file",
+    "size": 33775,
+    "mtime_ns": 1788778109275330501,
+    "mode": 436,
+    "sha256": "1ade9cecc5ca53139513682247b1d3de3a4669bd6c90010eb8321ba1f5f5bfee"
+  },
+  "can-yaw000/sources/src/icra/conditioning.py": {
+    "kind": "file",
+    "size": 10533,
+    "mtime_ns": 1788854027031050215,
+    "mode": 436,
+    "sha256": "6dbe8661c015ac006755132f801660092f8666336461ce9fa9be29eec776d2a4"
+  },
+  "can-yaw000/sources/src/icra/visual_observation.py": {
+    "kind": "file",
+    "size": 4516,
+    "mtime_ns": 1788960652505362821,
+    "mode": 436,
+    "sha256": "513523968710d257c666df1b2ecd8127beba0b4bac59a227725d8754e1355f55"
+  },
+  "can-yaw000/sources/src/icra/dataset.py": {
+    "kind": "file",
+    "size": 30207,
+    "mtime_ns": 1788959664440910900,
+    "mode": 436,
+    "sha256": "95091ac9d209843a96f48460592d3e1369809684ebbcd9efc35e0b0ac9aa8cea"
+  },
+  "can-yaw000/sources/src/icra/simulation.py": {
+    "kind": "file",
+    "size": 1519,
+    "mtime_ns": 1788853271262464336,
+    "mode": 436,
+    "sha256": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25"
+  },
+  "can-yaw000/sources/src/icra/execution.py": {
+    "kind": "file",
+    "size": 30638,
+    "mtime_ns": 1788960868608253536,
+    "mode": 436,
+    "sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94"
+  },
+  "can-yaw000/sources/src/icra/contact_control.py": {
+    "kind": "file",
+    "size": 9553,
+    "mtime_ns": 1788859946035541465,
+    "mode": 436,
+    "sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0"
+  },
+  "can-yaw000/sources/src/icra/arm.py": {
+    "kind": "file",
+    "size": 6838,
+    "mtime_ns": 1788853992147035385,
+    "mode": 436,
+    "sha256": "54ea9a88d552204586347b17fc1cb6cedbd733a621df32a888f7702df2cabf67"
+  },
+  "can-yaw000/simulation/model_0000.mjb": {
+    "kind": "file",
+    "size": 188618245,
+    "mtime_ns": 1788983402984896279,
+    "mode": 436,
+    "sha256": "276f215d5762c077e8f27188fc0c4ab0de0c56ba2096bb57b364cd60a846184d"
+  },
+  "can-yaw000/simulation/teacher_0000_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788983403268895332,
+    "mode": 436,
+    "sha256": "0ba46a6840d027c10b537b4790d3df7a146e6654418bfe59927ab13dfb043062"
+  },
+  "can-yaw000/simulation/teacher_0002_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788983471418700000,
+    "mode": 436,
+    "sha256": "0ba46a6840d027c10b537b4790d3df7a146e6654418bfe59927ab13dfb043062"
+  },
+  "can-yaw000/simulation/model_0002.mjb": {
+    "kind": "file",
+    "size": 188618245,
+    "mtime_ns": 1788983471110687472,
+    "mode": 436,
+    "sha256": "276f215d5762c077e8f27188fc0c4ab0de0c56ba2096bb57b364cd60a846184d"
+  },
+  "can-yaw000/simulation/model_0001.mjb": {
+    "kind": "file",
+    "size": 188618245,
+    "mtime_ns": 1788983422124832458,
+    "mode": 436,
+    "sha256": "276f215d5762c077e8f27188fc0c4ab0de0c56ba2096bb57b364cd60a846184d"
+  },
+  "can-yaw000/simulation/teacher_0001_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788983422424831457,
+    "mode": 436,
+    "sha256": "0ba46a6840d027c10b537b4790d3df7a146e6654418bfe59927ab13dfb043062"
+  },
+  "can-yawp15/diagnostics": {
+    "kind": "directory"
+  },
+  "can-yawp15/episodes": {
+    "kind": "directory"
+  },
+  "can-yawp15/sources": {
+    "kind": "directory"
+  },
+  "can-yawp15/simulation": {
+    "kind": "directory"
+  },
+  "can-yawp15/attempts.json": {
+    "kind": "file",
+    "size": 44157,
+    "mtime_ns": 1788983583510841566,
+    "mode": 384,
+    "sha256": "5b99c0495916311fbe0c9550aec2de4dbb7e218b9b8cdda03fb9b3c9b8bf71fe"
+  },
+  "can-yawp15/manifest.json": {
+    "kind": "file",
+    "size": 48203,
+    "mtime_ns": 1788983583778850537,
+    "mode": 436,
+    "sha256": "84bba64534de68db95b61cbd2d0e170a6c35907f6e6ddd1e7cf88b3bd2dfe45c"
+  },
+  "can-yawp15/collection.json": {
+    "kind": "file",
+    "size": 2807,
+    "mtime_ns": 1788983489051406331,
+    "mode": 384,
+    "sha256": "9d694fb6da359a97f2246b554b6d49acbd4ffb9a1830bc86aea0600aecb7e70d"
+  },
+  "can-yawp15/summary.json": {
+    "kind": "file",
+    "size": 181,
+    "mtime_ns": 1788983583778850537,
+    "mode": 384,
+    "sha256": "1169b7118c53a51626486b26e31dea831e3641f6d63559a8495f1d181aac61e0"
+  },
+  "can-yawp15/episode_entries.json": {
+    "kind": "file",
+    "size": 43583,
+    "mtime_ns": 1788983583510841566,
+    "mode": 384,
+    "sha256": "0cd77792229c5f6d926c4760d44ba6c2327e8cd81c7be1b5928d50b700426ac2"
+  },
+  "can-yawp15/diagnostics/teacher_0002_yaw_000.npz": {
+    "kind": "file",
+    "size": 823333,
+    "mtime_ns": 1788983583506841431,
+    "mode": 436,
+    "sha256": "637253dc6a3fd51e61e5fc1ba3f32a9e7d054c2585af51f559641a52379bcc83"
+  },
+  "can-yawp15/diagnostics/teacher_0000_yaw_000.npz": {
+    "kind": "file",
+    "size": 782216,
+    "mtime_ns": 1788983510984254990,
+    "mode": 436,
+    "sha256": "7747df32a255735f8474216491fadef892ccd9ae842896748fec752c17508936"
+  },
+  "can-yawp15/diagnostics/teacher_0000_yaw_000.json": {
+    "kind": "file",
+    "size": 13528,
+    "mtime_ns": 1788983510988255142,
+    "mode": 436,
+    "sha256": "504b3d35fe606447832a8d4cb96ae5d813304c6258312998966380c54b69782e"
+  },
+  "can-yawp15/diagnostics/teacher_0002_yaw_000.json": {
+    "kind": "file",
+    "size": 13540,
+    "mtime_ns": 1788983583510841566,
+    "mode": 436,
+    "sha256": "99cd14af3ec14d6fef41ccd5046d44df32c250099446fed67dfe96300e3ec496"
+  },
+  "can-yawp15/episodes/teacher_0001_yaw_000.json": {
+    "kind": "file",
+    "size": 13391,
+    "mtime_ns": 1788983565398225664,
+    "mode": 436,
+    "sha256": "01fa083642728ac59585a34066c8bae2275eca7e0f92c7303001375c1cd3a6eb"
+  },
+  "can-yawp15/episodes/teacher_0001_yaw_000.npz": {
+    "kind": "file",
+    "size": 1658384,
+    "mtime_ns": 1788983565394225526,
+    "mode": 436,
+    "sha256": "ef930020122a451f9395883e174bf725f8b26567a1e546379c357f3728f5f894"
+  },
+  "can-yawp15/sources/scripts": {
+    "kind": "directory"
+  },
+  "can-yawp15/sources/src": {
+    "kind": "directory"
+  },
+  "can-yawp15/sources/scripts/collect_episodes.py": {
+    "kind": "file",
+    "size": 54340,
+    "mtime_ns": 1788960621637528702,
+    "mode": 436,
+    "sha256": "ddac9c49c70d54af5e5868f82e3aa35c25405fd945edfe7f848a55ce1e7f822a"
+  },
+  "can-yawp15/sources/scripts/collect_teacher_dataset.py": {
+    "kind": "file",
+    "size": 19853,
+    "mtime_ns": 1788960868448254327,
+    "mode": 436,
+    "sha256": "d37fd23284640828a6ce9fed49dc3dc0b2a40e9c26d634ac0933efe3c0b3bb04"
+  },
+  "can-yawp15/sources/src/icra": {
+    "kind": "directory"
+  },
+  "can-yawp15/sources/src/icra/objects.py": {
+    "kind": "file",
+    "size": 7070,
+    "mtime_ns": 1788792745114622021,
+    "mode": 436,
+    "sha256": "ee8ab21a246f029b6e63d09591549b30c6aa027e1f1d99577e6d021997f4464a"
+  },
+  "can-yawp15/sources/src/icra/scene.py": {
+    "kind": "file",
+    "size": 33775,
+    "mtime_ns": 1788778109275330501,
+    "mode": 436,
+    "sha256": "1ade9cecc5ca53139513682247b1d3de3a4669bd6c90010eb8321ba1f5f5bfee"
+  },
+  "can-yawp15/sources/src/icra/conditioning.py": {
+    "kind": "file",
+    "size": 10533,
+    "mtime_ns": 1788854027031050215,
+    "mode": 436,
+    "sha256": "6dbe8661c015ac006755132f801660092f8666336461ce9fa9be29eec776d2a4"
+  },
+  "can-yawp15/sources/src/icra/visual_observation.py": {
+    "kind": "file",
+    "size": 4516,
+    "mtime_ns": 1788960652505362821,
+    "mode": 436,
+    "sha256": "513523968710d257c666df1b2ecd8127beba0b4bac59a227725d8754e1355f55"
+  },
+  "can-yawp15/sources/src/icra/dataset.py": {
+    "kind": "file",
+    "size": 30207,
+    "mtime_ns": 1788959664440910900,
+    "mode": 436,
+    "sha256": "95091ac9d209843a96f48460592d3e1369809684ebbcd9efc35e0b0ac9aa8cea"
+  },
+  "can-yawp15/sources/src/icra/simulation.py": {
+    "kind": "file",
+    "size": 1519,
+    "mtime_ns": 1788853271262464336,
+    "mode": 436,
+    "sha256": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25"
+  },
+  "can-yawp15/sources/src/icra/execution.py": {
+    "kind": "file",
+    "size": 30638,
+    "mtime_ns": 1788960868608253536,
+    "mode": 436,
+    "sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94"
+  },
+  "can-yawp15/sources/src/icra/contact_control.py": {
+    "kind": "file",
+    "size": 9553,
+    "mtime_ns": 1788859946035541465,
+    "mode": 436,
+    "sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0"
+  },
+  "can-yawp15/sources/src/icra/arm.py": {
+    "kind": "file",
+    "size": 6838,
+    "mtime_ns": 1788853992147035385,
+    "mode": 436,
+    "sha256": "54ea9a88d552204586347b17fc1cb6cedbd733a621df32a888f7702df2cabf67"
+  },
+  "can-yawp15/simulation/model_0000.mjb": {
+    "kind": "file",
+    "size": 188618245,
+    "mtime_ns": 1788983493447579047,
+    "mode": 436,
+    "sha256": "276f215d5762c077e8f27188fc0c4ab0de0c56ba2096bb57b364cd60a846184d"
+  },
+  "can-yawp15/simulation/teacher_0000_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788983493739590475,
+    "mode": 436,
+    "sha256": "567b152faa4b0ebf02c11967949cd031b0b4d75c717bb2cea0f7d97fd233d4c1"
+  },
+  "can-yawp15/simulation/teacher_0002_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788983567542299577,
+    "mode": 436,
+    "sha256": "567b152faa4b0ebf02c11967949cd031b0b4d75c717bb2cea0f7d97fd233d4c1"
+  },
+  "can-yawp15/simulation/model_0002.mjb": {
+    "kind": "file",
+    "size": 188618245,
+    "mtime_ns": 1788983567238289115,
+    "mode": 436,
+    "sha256": "276f215d5762c077e8f27188fc0c4ab0de0c56ba2096bb57b364cd60a846184d"
+  },
+  "can-yawp15/simulation/model_0001.mjb": {
+    "kind": "file",
+    "size": 188618245,
+    "mtime_ns": 1788983512988330925,
+    "mode": 436,
+    "sha256": "276f215d5762c077e8f27188fc0c4ab0de0c56ba2096bb57b364cd60a846184d"
+  },
+  "can-yawp15/simulation/teacher_0001_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788983513288342264,
+    "mode": 436,
+    "sha256": "567b152faa4b0ebf02c11967949cd031b0b4d75c717bb2cea0f7d97fd233d4c1"
+  },
+  "can-yawp075/diagnostics": {
+    "kind": "directory"
+  },
+  "can-yawp075/sources": {
+    "kind": "directory"
+  },
+  "can-yawp075/simulation": {
+    "kind": "directory"
+  },
+  "can-yawp075/attempts.json": {
+    "kind": "file",
+    "size": 44251,
+    "mtime_ns": 1788984144087138304,
+    "mode": 384,
+    "sha256": "39bc8bfa4410e29fa399f159b9b8a14b42836e647f273199ddbb8206174f7d5c"
+  },
+  "can-yawp075/manifest.json": {
+    "kind": "file",
+    "size": 48269,
+    "mtime_ns": 1788984144355142028,
+    "mode": 436,
+    "sha256": "697fcd49ccd0933a3af1660581dab7b2c875e62756505e56609d740384ed1d2f"
+  },
+  "can-yawp075/collection.json": {
+    "kind": "file",
+    "size": 2807,
+    "mtime_ns": 1788984043377634220,
+    "mode": 384,
+    "sha256": "9d694fb6da359a97f2246b554b6d49acbd4ffb9a1830bc86aea0600aecb7e70d"
+  },
+  "can-yawp075/summary.json": {
+    "kind": "file",
+    "size": 182,
+    "mtime_ns": 1788984144355142028,
+    "mode": 384,
+    "sha256": "e9f15b3c88f9f80ccb6f1e03d82c3fb72a1a618db815ab5cd82511e3b084f027"
+  },
+  "can-yawp075/episode_entries.json": {
+    "kind": "file",
+    "size": 43674,
+    "mtime_ns": 1788984144087138304,
+    "mode": 384,
+    "sha256": "56c228423a17d33fd6b30fa855db12f806a33860c4b6b6874ce1039721bd8667"
+  },
+  "can-yawp075/diagnostics/teacher_0002_yaw_000.npz": {
+    "kind": "file",
+    "size": 820128,
+    "mtime_ns": 1788984144083138249,
+    "mode": 436,
+    "sha256": "f81bb1d527cbfcc0648ce6494fdaa507e4107509a8280a52559e7a70c792abfb"
+  },
+  "can-yawp075/diagnostics/teacher_0000_yaw_000.npz": {
+    "kind": "file",
+    "size": 771939,
+    "mtime_ns": 1788984065105977283,
+    "mode": 436,
+    "sha256": "d32dd139d71f39818c8124e4f654a38c6193771fdf231290eb5b4ac98841b823"
+  },
+  "can-yawp075/diagnostics/teacher_0000_yaw_000.json": {
+    "kind": "file",
+    "size": 13526,
+    "mtime_ns": 1788984065109977345,
+    "mode": 436,
+    "sha256": "1ab7181ea21c9e77d692cf2dcb1a7127055d0aa861b305e0551c6181df9fa777"
+  },
+  "can-yawp075/diagnostics/teacher_0001_yaw_000.json": {
+    "kind": "file",
+    "size": 13495,
+    "mtime_ns": 1788984126134885624,
+    "mode": 436,
+    "sha256": "a33ec999ad7ddcbf30f44902cc1058dd565d376699cd19009170505afca0d39a"
+  },
+  "can-yawp075/diagnostics/teacher_0001_yaw_000.npz": {
+    "kind": "file",
+    "size": 1687008,
+    "mtime_ns": 1788984126130885567,
+    "mode": 436,
+    "sha256": "f653bf03a01faa8ffbe74aba2a99290199cd154c83262fdc67aea7a755959064"
+  },
+  "can-yawp075/diagnostics/teacher_0002_yaw_000.json": {
+    "kind": "file",
+    "size": 13523,
+    "mtime_ns": 1788984144083138249,
+    "mode": 436,
+    "sha256": "f3c609179084105789d7b9c1428438b5561ccd7838a8f3dfdd8ecb4b08b0bd86"
+  },
+  "can-yawp075/sources/scripts": {
+    "kind": "directory"
+  },
+  "can-yawp075/sources/src": {
+    "kind": "directory"
+  },
+  "can-yawp075/sources/scripts/collect_episodes.py": {
+    "kind": "file",
+    "size": 54340,
+    "mtime_ns": 1788960621637528702,
+    "mode": 436,
+    "sha256": "ddac9c49c70d54af5e5868f82e3aa35c25405fd945edfe7f848a55ce1e7f822a"
+  },
+  "can-yawp075/sources/scripts/collect_teacher_dataset.py": {
+    "kind": "file",
+    "size": 19853,
+    "mtime_ns": 1788960868448254327,
+    "mode": 436,
+    "sha256": "d37fd23284640828a6ce9fed49dc3dc0b2a40e9c26d634ac0933efe3c0b3bb04"
+  },
+  "can-yawp075/sources/src/icra": {
+    "kind": "directory"
+  },
+  "can-yawp075/sources/src/icra/objects.py": {
+    "kind": "file",
+    "size": 7070,
+    "mtime_ns": 1788792745114622021,
+    "mode": 436,
+    "sha256": "ee8ab21a246f029b6e63d09591549b30c6aa027e1f1d99577e6d021997f4464a"
+  },
+  "can-yawp075/sources/src/icra/scene.py": {
+    "kind": "file",
+    "size": 33775,
+    "mtime_ns": 1788778109275330501,
+    "mode": 436,
+    "sha256": "1ade9cecc5ca53139513682247b1d3de3a4669bd6c90010eb8321ba1f5f5bfee"
+  },
+  "can-yawp075/sources/src/icra/conditioning.py": {
+    "kind": "file",
+    "size": 10533,
+    "mtime_ns": 1788854027031050215,
+    "mode": 436,
+    "sha256": "6dbe8661c015ac006755132f801660092f8666336461ce9fa9be29eec776d2a4"
+  },
+  "can-yawp075/sources/src/icra/visual_observation.py": {
+    "kind": "file",
+    "size": 4516,
+    "mtime_ns": 1788960652505362821,
+    "mode": 436,
+    "sha256": "513523968710d257c666df1b2ecd8127beba0b4bac59a227725d8754e1355f55"
+  },
+  "can-yawp075/sources/src/icra/dataset.py": {
+    "kind": "file",
+    "size": 30207,
+    "mtime_ns": 1788959664440910900,
+    "mode": 436,
+    "sha256": "95091ac9d209843a96f48460592d3e1369809684ebbcd9efc35e0b0ac9aa8cea"
+  },
+  "can-yawp075/sources/src/icra/simulation.py": {
+    "kind": "file",
+    "size": 1519,
+    "mtime_ns": 1788853271262464336,
+    "mode": 436,
+    "sha256": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25"
+  },
+  "can-yawp075/sources/src/icra/execution.py": {
+    "kind": "file",
+    "size": 30638,
+    "mtime_ns": 1788960868608253536,
+    "mode": 436,
+    "sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94"
+  },
+  "can-yawp075/sources/src/icra/contact_control.py": {
+    "kind": "file",
+    "size": 9553,
+    "mtime_ns": 1788859946035541465,
+    "mode": 436,
+    "sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0"
+  },
+  "can-yawp075/sources/src/icra/arm.py": {
+    "kind": "file",
+    "size": 6838,
+    "mtime_ns": 1788853992147035385,
+    "mode": 436,
+    "sha256": "54ea9a88d552204586347b17fc1cb6cedbd733a621df32a888f7702df2cabf67"
+  },
+  "can-yawp075/simulation/model_0000.mjb": {
+    "kind": "file",
+    "size": 188618245,
+    "mtime_ns": 1788984047845705653,
+    "mode": 436,
+    "sha256": "276f215d5762c077e8f27188fc0c4ab0de0c56ba2096bb57b364cd60a846184d"
+  },
+  "can-yawp075/simulation/teacher_0000_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788984048137710306,
+    "mode": 436,
+    "sha256": "2f3fd22406e0d1d4f7da25630817b9fcc17df8ce65608b799da434af42d1a269"
+  },
+  "can-yawp075/simulation/teacher_0002_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788984128294916360,
+    "mode": 436,
+    "sha256": "2f3fd22406e0d1d4f7da25630817b9fcc17df8ce65608b799da434af42d1a269"
+  },
+  "can-yawp075/simulation/model_0002.mjb": {
+    "kind": "file",
+    "size": 188618245,
+    "mtime_ns": 1788984127990912042,
+    "mode": 436,
+    "sha256": "276f215d5762c077e8f27188fc0c4ab0de0c56ba2096bb57b364cd60a846184d"
+  },
+  "can-yawp075/simulation/model_0001.mjb": {
+    "kind": "file",
+    "size": 188618245,
+    "mtime_ns": 1788984067106008321,
+    "mode": 436,
+    "sha256": "276f215d5762c077e8f27188fc0c4ab0de0c56ba2096bb57b364cd60a846184d"
+  },
+  "can-yawp075/simulation/teacher_0001_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788984067406012968,
+    "mode": 436,
+    "sha256": "2f3fd22406e0d1d4f7da25630817b9fcc17df8ce65608b799da434af42d1a269"
+  },
+  "can-yawp15-reproduce/diagnostics": {
+    "kind": "directory"
+  },
+  "can-yawp15-reproduce/episodes": {
+    "kind": "directory"
+  },
+  "can-yawp15-reproduce/sources": {
+    "kind": "directory"
+  },
+  "can-yawp15-reproduce/simulation": {
+    "kind": "directory"
+  },
+  "can-yawp15-reproduce/attempts.json": {
+    "kind": "file",
+    "size": 44157,
+    "mtime_ns": 1788984510039197658,
+    "mode": 384,
+    "sha256": "5b99c0495916311fbe0c9550aec2de4dbb7e218b9b8cdda03fb9b3c9b8bf71fe"
+  },
+  "can-yawp15-reproduce/manifest.json": {
+    "kind": "file",
+    "size": 48203,
+    "mtime_ns": 1788984510323200178,
+    "mode": 436,
+    "sha256": "84bba64534de68db95b61cbd2d0e170a6c35907f6e6ddd1e7cf88b3bd2dfe45c"
+  },
+  "can-yawp15-reproduce/collection.json": {
+    "kind": "file",
+    "size": 2807,
+    "mtime_ns": 1788984411938278441,
+    "mode": 384,
+    "sha256": "9d694fb6da359a97f2246b554b6d49acbd4ffb9a1830bc86aea0600aecb7e70d"
+  },
+  "can-yawp15-reproduce/summary.json": {
+    "kind": "file",
+    "size": 191,
+    "mtime_ns": 1788984510323200178,
+    "mode": 384,
+    "sha256": "d7d5f07017efafb8cef4dec1d2ff94062ad4fae7872594b32fbe938295de7309"
+  },
+  "can-yawp15-reproduce/episode_entries.json": {
+    "kind": "file",
+    "size": 43583,
+    "mtime_ns": 1788984510039197658,
+    "mode": 384,
+    "sha256": "0cd77792229c5f6d926c4760d44ba6c2327e8cd81c7be1b5928d50b700426ac2"
+  },
+  "can-yawp15-reproduce/diagnostics/teacher_0002_yaw_000.npz": {
+    "kind": "file",
+    "size": 823333,
+    "mtime_ns": 1788984510035197622,
+    "mode": 436,
+    "sha256": "637253dc6a3fd51e61e5fc1ba3f32a9e7d054c2585af51f559641a52379bcc83"
+  },
+  "can-yawp15-reproduce/diagnostics/teacher_0000_yaw_000.npz": {
+    "kind": "file",
+    "size": 782216,
+    "mtime_ns": 1788984434710500849,
+    "mode": 436,
+    "sha256": "7747df32a255735f8474216491fadef892ccd9ae842896748fec752c17508936"
+  },
+  "can-yawp15-reproduce/diagnostics/teacher_0000_yaw_000.json": {
+    "kind": "file",
+    "size": 13528,
+    "mtime_ns": 1788984434710500849,
+    "mode": 436,
+    "sha256": "504b3d35fe606447832a8d4cb96ae5d813304c6258312998966380c54b69782e"
+  },
+  "can-yawp15-reproduce/diagnostics/teacher_0002_yaw_000.json": {
+    "kind": "file",
+    "size": 13540,
+    "mtime_ns": 1788984510039197658,
+    "mode": 436,
+    "sha256": "99cd14af3ec14d6fef41ccd5046d44df32c250099446fed67dfe96300e3ec496"
+  },
+  "can-yawp15-reproduce/episodes/teacher_0001_yaw_000.json": {
+    "kind": "file",
+    "size": 13391,
+    "mtime_ns": 1788984491427030764,
+    "mode": 436,
+    "sha256": "01fa083642728ac59585a34066c8bae2275eca7e0f92c7303001375c1cd3a6eb"
+  },
+  "can-yawp15-reproduce/episodes/teacher_0001_yaw_000.npz": {
+    "kind": "file",
+    "size": 1658384,
+    "mtime_ns": 1788984491423030728,
+    "mode": 436,
+    "sha256": "ef930020122a451f9395883e174bf725f8b26567a1e546379c357f3728f5f894"
+  },
+  "can-yawp15-reproduce/sources/scripts": {
+    "kind": "directory"
+  },
+  "can-yawp15-reproduce/sources/src": {
+    "kind": "directory"
+  },
+  "can-yawp15-reproduce/sources/scripts/collect_episodes.py": {
+    "kind": "file",
+    "size": 54340,
+    "mtime_ns": 1788960621637528702,
+    "mode": 436,
+    "sha256": "ddac9c49c70d54af5e5868f82e3aa35c25405fd945edfe7f848a55ce1e7f822a"
+  },
+  "can-yawp15-reproduce/sources/scripts/collect_teacher_dataset.py": {
+    "kind": "file",
+    "size": 19853,
+    "mtime_ns": 1788960868448254327,
+    "mode": 436,
+    "sha256": "d37fd23284640828a6ce9fed49dc3dc0b2a40e9c26d634ac0933efe3c0b3bb04"
+  },
+  "can-yawp15-reproduce/sources/src/icra": {
+    "kind": "directory"
+  },
+  "can-yawp15-reproduce/sources/src/icra/objects.py": {
+    "kind": "file",
+    "size": 7070,
+    "mtime_ns": 1788792745114622021,
+    "mode": 436,
+    "sha256": "ee8ab21a246f029b6e63d09591549b30c6aa027e1f1d99577e6d021997f4464a"
+  },
+  "can-yawp15-reproduce/sources/src/icra/scene.py": {
+    "kind": "file",
+    "size": 33775,
+    "mtime_ns": 1788778109275330501,
+    "mode": 436,
+    "sha256": "1ade9cecc5ca53139513682247b1d3de3a4669bd6c90010eb8321ba1f5f5bfee"
+  },
+  "can-yawp15-reproduce/sources/src/icra/conditioning.py": {
+    "kind": "file",
+    "size": 10533,
+    "mtime_ns": 1788854027031050215,
+    "mode": 436,
+    "sha256": "6dbe8661c015ac006755132f801660092f8666336461ce9fa9be29eec776d2a4"
+  },
+  "can-yawp15-reproduce/sources/src/icra/visual_observation.py": {
+    "kind": "file",
+    "size": 4516,
+    "mtime_ns": 1788960652505362821,
+    "mode": 436,
+    "sha256": "513523968710d257c666df1b2ecd8127beba0b4bac59a227725d8754e1355f55"
+  },
+  "can-yawp15-reproduce/sources/src/icra/dataset.py": {
+    "kind": "file",
+    "size": 30207,
+    "mtime_ns": 1788959664440910900,
+    "mode": 436,
+    "sha256": "95091ac9d209843a96f48460592d3e1369809684ebbcd9efc35e0b0ac9aa8cea"
+  },
+  "can-yawp15-reproduce/sources/src/icra/simulation.py": {
+    "kind": "file",
+    "size": 1519,
+    "mtime_ns": 1788853271262464336,
+    "mode": 436,
+    "sha256": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25"
+  },
+  "can-yawp15-reproduce/sources/src/icra/execution.py": {
+    "kind": "file",
+    "size": 30638,
+    "mtime_ns": 1788960868608253536,
+    "mode": 436,
+    "sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94"
+  },
+  "can-yawp15-reproduce/sources/src/icra/contact_control.py": {
+    "kind": "file",
+    "size": 9553,
+    "mtime_ns": 1788859946035541465,
+    "mode": 436,
+    "sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0"
+  },
+  "can-yawp15-reproduce/sources/src/icra/arm.py": {
+    "kind": "file",
+    "size": 6838,
+    "mtime_ns": 1788853992147035385,
+    "mode": 436,
+    "sha256": "54ea9a88d552204586347b17fc1cb6cedbd733a621df32a888f7702df2cabf67"
+  },
+  "can-yawp15-reproduce/simulation/model_0000.mjb": {
+    "kind": "file",
+    "size": 188618245,
+    "mtime_ns": 1788984416430322771,
+    "mode": 436,
+    "sha256": "276f215d5762c077e8f27188fc0c4ab0de0c56ba2096bb57b364cd60a846184d"
+  },
+  "can-yawp15-reproduce/simulation/teacher_0000_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788984416722325645,
+    "mode": 436,
+    "sha256": "567b152faa4b0ebf02c11967949cd031b0b4d75c717bb2cea0f7d97fd233d4c1"
+  },
+  "can-yawp15-reproduce/simulation/teacher_0002_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788984493667051026,
+    "mode": 436,
+    "sha256": "567b152faa4b0ebf02c11967949cd031b0b4d75c717bb2cea0f7d97fd233d4c1"
+  },
+  "can-yawp15-reproduce/simulation/model_0002.mjb": {
+    "kind": "file",
+    "size": 188618245,
+    "mtime_ns": 1788984493359048243,
+    "mode": 436,
+    "sha256": "276f215d5762c077e8f27188fc0c4ab0de0c56ba2096bb57b364cd60a846184d"
+  },
+  "can-yawp15-reproduce/simulation/model_0001.mjb": {
+    "kind": "file",
+    "size": 188618245,
+    "mtime_ns": 1788984436770520686,
+    "mode": 436,
+    "sha256": "276f215d5762c077e8f27188fc0c4ab0de0c56ba2096bb57b364cd60a846184d"
+  },
+  "can-yawp15-reproduce/simulation/teacher_0001_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788984437078523649,
+    "mode": 436,
+    "sha256": "567b152faa4b0ebf02c11967949cd031b0b4d75c717bb2cea0f7d97fd233d4c1"
+  },
+  "objects/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71": {
+    "kind": "symlink",
+    "target": "/home/yspark/projects/ICRA/third_party/dexonomy/assets/object/DGN_5k/processed_data/core_bowl_2e545ccae1cdc69d879b85bd5ada6e71"
+  },
+  "objects/core_mug_10f6e09036350e92b3f21f1137c3c347": {
+    "kind": "symlink",
+    "target": "/home/yspark/projects/ICRA/third_party/dexonomy/assets/object/DGN_5k/processed_data/core_mug_10f6e09036350e92b3f21f1137c3c347"
+  },
+  "objects/ddg_gd_hammer_poisson_005": {
+    "kind": "symlink",
+    "target": "/home/yspark/projects/ICRA/third_party/dexonomy/assets/object/DGN_5k/processed_data/ddg_gd_hammer_poisson_005"
+  },
+  "can-yawp225/diagnostics": {
+    "kind": "directory"
+  },
+  "can-yawp225/sources": {
+    "kind": "directory"
+  },
+  "can-yawp225/simulation": {
+    "kind": "directory"
+  },
+  "can-yawp225/attempts.json": {
+    "kind": "file",
+    "size": 44240,
+    "mtime_ns": 1788984345497594810,
+    "mode": 384,
+    "sha256": "21c60cc5bcbe0714d089dcac8a8f5c11c9a33ab098c65c918f4f42e8265c04bc"
+  },
+  "can-yawp225/manifest.json": {
+    "kind": "file",
+    "size": 48256,
+    "mtime_ns": 1788984345773597764,
+    "mode": 436,
+    "sha256": "6f7b6c5a94bb04d1c9a8cf74d154af3f8b3693aa24f3961b8bf218943c7b1d3b"
+  },
+  "can-yawp225/collection.json": {
+    "kind": "file",
+    "size": 2807,
+    "mtime_ns": 1788984246544468086,
+    "mode": 384,
+    "sha256": "9d694fb6da359a97f2246b554b6d49acbd4ffb9a1830bc86aea0600aecb7e70d"
+  },
+  "can-yawp225/summary.json": {
+    "kind": "file",
+    "size": 182,
+    "mtime_ns": 1788984345773597764,
+    "mode": 384,
+    "sha256": "3f9d77f02c698b9918ee99c363633050fb1aaffdd870d51daed4ea6ade7d44df"
+  },
+  "can-yawp225/episode_entries.json": {
+    "kind": "file",
+    "size": 43663,
+    "mtime_ns": 1788984345497594810,
+    "mode": 384,
+    "sha256": "f0b622a496abf33d631b66aeee6f7988311a82c257ba227020e00fe652f112f8"
+  },
+  "can-yawp225/diagnostics/teacher_0002_yaw_000.npz": {
+    "kind": "file",
+    "size": 819806,
+    "mtime_ns": 1788984345493594767,
+    "mode": 436,
+    "sha256": "0e5b7e0d3f873a30e15d3022bb9968911080b1c8f3657590105d74b9987ddfce"
+  },
+  "can-yawp225/diagnostics/teacher_0000_yaw_000.npz": {
+    "kind": "file",
+    "size": 768218,
+    "mtime_ns": 1788984268944735616,
+    "mode": 436,
+    "sha256": "c9aa8f3c115670614b3065f9421424a98f1b3e6da3ff9c339ec4df02c5796c7b"
+  },
+  "can-yawp225/diagnostics/teacher_0000_yaw_000.json": {
+    "kind": "file",
+    "size": 13534,
+    "mtime_ns": 1788984268944735616,
+    "mode": 436,
+    "sha256": "c5c5e4684a106761a724e7727411755128a5b9865758620d1a8d7eeba3b4bc8d"
+  },
+  "can-yawp225/diagnostics/teacher_0001_yaw_000.json": {
+    "kind": "file",
+    "size": 13464,
+    "mtime_ns": 1788984326761391997,
+    "mode": 436,
+    "sha256": "b16cfde59c3d102e1cc9a5d6d17a9524c2a2b7d251a1ad33f6676f40cd25119d"
+  },
+  "can-yawp225/diagnostics/teacher_0001_yaw_000.npz": {
+    "kind": "file",
+    "size": 1736794,
+    "mtime_ns": 1788984326761391997,
+    "mode": 436,
+    "sha256": "a235d1ffaadfd0562fe25be196f18c6baf562693b902a1c97b8d5b699323c160"
+  },
+  "can-yawp225/diagnostics/teacher_0002_yaw_000.json": {
+    "kind": "file",
+    "size": 13537,
+    "mtime_ns": 1788984345497594810,
+    "mode": 436,
+    "sha256": "8a2b458d89750592d80e8d8539e145185591d39b37486f526c2bd815ae5114eb"
+  },
+  "can-yawp225/sources/scripts": {
+    "kind": "directory"
+  },
+  "can-yawp225/sources/src": {
+    "kind": "directory"
+  },
+  "can-yawp225/sources/scripts/collect_episodes.py": {
+    "kind": "file",
+    "size": 54340,
+    "mtime_ns": 1788960621637528702,
+    "mode": 436,
+    "sha256": "ddac9c49c70d54af5e5868f82e3aa35c25405fd945edfe7f848a55ce1e7f822a"
+  },
+  "can-yawp225/sources/scripts/collect_teacher_dataset.py": {
+    "kind": "file",
+    "size": 19853,
+    "mtime_ns": 1788960868448254327,
+    "mode": 436,
+    "sha256": "d37fd23284640828a6ce9fed49dc3dc0b2a40e9c26d634ac0933efe3c0b3bb04"
+  },
+  "can-yawp225/sources/src/icra": {
+    "kind": "directory"
+  },
+  "can-yawp225/sources/src/icra/objects.py": {
+    "kind": "file",
+    "size": 7070,
+    "mtime_ns": 1788792745114622021,
+    "mode": 436,
+    "sha256": "ee8ab21a246f029b6e63d09591549b30c6aa027e1f1d99577e6d021997f4464a"
+  },
+  "can-yawp225/sources/src/icra/scene.py": {
+    "kind": "file",
+    "size": 33775,
+    "mtime_ns": 1788778109275330501,
+    "mode": 436,
+    "sha256": "1ade9cecc5ca53139513682247b1d3de3a4669bd6c90010eb8321ba1f5f5bfee"
+  },
+  "can-yawp225/sources/src/icra/conditioning.py": {
+    "kind": "file",
+    "size": 10533,
+    "mtime_ns": 1788854027031050215,
+    "mode": 436,
+    "sha256": "6dbe8661c015ac006755132f801660092f8666336461ce9fa9be29eec776d2a4"
+  },
+  "can-yawp225/sources/src/icra/visual_observation.py": {
+    "kind": "file",
+    "size": 4516,
+    "mtime_ns": 1788960652505362821,
+    "mode": 436,
+    "sha256": "513523968710d257c666df1b2ecd8127beba0b4bac59a227725d8754e1355f55"
+  },
+  "can-yawp225/sources/src/icra/dataset.py": {
+    "kind": "file",
+    "size": 30207,
+    "mtime_ns": 1788959664440910900,
+    "mode": 436,
+    "sha256": "95091ac9d209843a96f48460592d3e1369809684ebbcd9efc35e0b0ac9aa8cea"
+  },
+  "can-yawp225/sources/src/icra/simulation.py": {
+    "kind": "file",
+    "size": 1519,
+    "mtime_ns": 1788853271262464336,
+    "mode": 436,
+    "sha256": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25"
+  },
+  "can-yawp225/sources/src/icra/execution.py": {
+    "kind": "file",
+    "size": 30638,
+    "mtime_ns": 1788960868608253536,
+    "mode": 436,
+    "sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94"
+  },
+  "can-yawp225/sources/src/icra/contact_control.py": {
+    "kind": "file",
+    "size": 9553,
+    "mtime_ns": 1788859946035541465,
+    "mode": 436,
+    "sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0"
+  },
+  "can-yawp225/sources/src/icra/arm.py": {
+    "kind": "file",
+    "size": 6838,
+    "mtime_ns": 1788853992147035385,
+    "mode": 436,
+    "sha256": "54ea9a88d552204586347b17fc1cb6cedbd733a621df32a888f7702df2cabf67"
+  },
+  "can-yawp225/simulation/model_0000.mjb": {
+    "kind": "file",
+    "size": 188618245,
+    "mtime_ns": 1788984251132523514,
+    "mode": 436,
+    "sha256": "276f215d5762c077e8f27188fc0c4ab0de0c56ba2096bb57b364cd60a846184d"
+  },
+  "can-yawp225/simulation/teacher_0000_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788984251492527849,
+    "mode": 436,
+    "sha256": "70ac8d65b3f01d022c1056199bf8d905de29b50c27fc3062d56a86f527086c7d"
+  },
+  "can-yawp225/simulation/teacher_0002_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788984328965416097,
+    "mode": 436,
+    "sha256": "70ac8d65b3f01d022c1056199bf8d905de29b50c27fc3062d56a86f527086c7d"
+  },
+  "can-yawp225/simulation/model_0002.mjb": {
+    "kind": "file",
+    "size": 188618245,
+    "mtime_ns": 1788984328653412689,
+    "mode": 436,
+    "sha256": "276f215d5762c077e8f27188fc0c4ab0de0c56ba2096bb57b364cd60a846184d"
+  },
+  "can-yawp225/simulation/model_0001.mjb": {
+    "kind": "file",
+    "size": 188618245,
+    "mtime_ns": 1788984271048760351,
+    "mode": 436,
+    "sha256": "276f215d5762c077e8f27188fc0c4ab0de0c56ba2096bb57b364cd60a846184d"
+  },
+  "can-yawp225/simulation/teacher_0001_yaw_000_initial.npy": {
+    "kind": "file",
+    "size": 6168,
+    "mtime_ns": 1788984271360764012,
+    "mode": 436,
+    "sha256": "70ac8d65b3f01d022c1056199bf8d905de29b50c27fc3062d56a86f527086c7d"
+  }
+}

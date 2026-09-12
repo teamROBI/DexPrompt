@@ -1,0 +1,14 @@
+{
+  "completed": true,
+  "training_started": false,
+  "data": "/data1/yspark/projects/dexprompt/student-data/hope-bundle-v1",
+  "transfer_manifest": "/data1/yspark/projects/dexprompt/student-checks/hope-bundle-v1-transfer/transfer-manifest.json",
+  "transfer_manifest_sha256": "72f5c4f1120589b63366565519ffbe2700f29cd7065704170e8c89fbe0c2e263",
+  "file_count": 156,
+  "total_bytes": 1653463986,
+  "helper_sha256": {
+    "scripts/audit_visual_intake.py": "37312efeea3ec15f1e1c8ce9397dfc81ef5be2d29620e9925567024fd46163b1",
+    "scripts/check_hope_bundle_lecun.py": "43ea2b15f7b90fc52e778c1b5a6946856fb4bf636953dec0c60c6e9e72a5f6f2",
+    "scripts/verify_tree_transfer.py": "e46111310b6f4f6e0c0f1682a63c05158b6c827157686f9f53dc35fb34a3b661"
+  }
+}

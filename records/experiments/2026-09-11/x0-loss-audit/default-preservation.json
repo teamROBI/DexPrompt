@@ -1,0 +1,27 @@
+[
+  {
+    "prediction_type": "epsilon",
+    "mode": "train",
+    "loss_bit_identical": true
+  },
+  {
+    "prediction_type": "epsilon",
+    "mode": "eval",
+    "loss_bit_identical": true
+  },
+  {
+    "prediction_type": "x0",
+    "mode": "train",
+    "loss_bit_identical": true
+  },
+  {
+    "prediction_type": "x0",
+    "mode": "eval",
+    "loss_bit_identical": true
+  },
+  {
+    "sampling_both_prediction_types_bit_identical": true,
+    "optimizer_steps": 0,
+    "scope": "small synthetic models only"
+  }
+]

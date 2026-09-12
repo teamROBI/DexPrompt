@@ -6,7 +6,7 @@ __pycache__/
 .ruff_cache/
 out/
 model/graspgen/
-data
+/data
 modules/graspgenx
 third_party/dexonomy
 third_party/dexlearn
@@ -15,6 +15,19 @@ third_party/dexgraspvla
 third_party/robotis_mujoco_menagerie
 ref/
 
-# Diagnostics written while chasing a specific question. Kept out of the tree,
-# listed in HANDOVER.md under "Diagnostics worth keeping".
+# Historical diagnostic scripts and outputs; retain locally for reproducibility.
 scratchpad/
+/scratchpad
+/records/scratchpad/
+
+# MuJoCo writes these root-level diagnostics automatically.
+/debug.xml
+/MUJOCO_LOG.TXT
+
+# Official reference checkout; pinned in results/2026-09-12/demofungrasp-reference.
+third_party/demofungrasp
+
+# External reference source and bulky replay/backup artifacts stay on the servers.
+/third_party/dp3/
+/records/maintenance/**/*.tar.gz
+/records/experiments/**/*.npz

@@ -1,0 +1,527 @@
+[
+ {
+  "name": "AlphabetSoup-057c04e1d5-centre-2ad2b264",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "AlphabetSoup-057c04e1d5-x_minus10mm-3fb32c7a",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "AlphabetSoup-057c04e1d5-x_minus20mm-49df6b4a",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "AlphabetSoup-057c04e1d5-x_plus10mm-1035b7c5",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "AlphabetSoup-057c04e1d5-x_plus20mm-d6f637c3",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "AlphabetSoup-057c04e1d5-y_minus10mm-24fe2872",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "AlphabetSoup-057c04e1d5-y_plus10mm-c3e58f42",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "AlphabetSoup-057c04e1d5-y_plus20mm-cd1c3af4",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "AlphabetSoup-057c04e1d5-yaw_minus15-54973e51",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "AlphabetSoup-057c04e1d5-yaw_minus7_5-20f6dc15",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "AlphabetSoup-1443cca6ce-centre-e15f2780",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "AlphabetSoup-1443cca6ce-x_minus20mm-c38792a5",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "AlphabetSoup-1443cca6ce-yaw_plus15-41d6c926",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "AlphabetSoup-34815d4f21-centre-409a5d4a",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "AlphabetSoup-34815d4f21-x_plus20mm-80545e00",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "AlphabetSoup-34815d4f21-y_minus20mm-7946f4bc",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "AlphabetSoup-34815d4f21-y_plus10mm-62aa3bbc",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "AlphabetSoup-34815d4f21-y_plus20mm-5dfe2268",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "AlphabetSoup-34815d4f21-yaw_minus15-bc33cdba",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "AlphabetSoup-34815d4f21-yaw_minus7_5-79d5ff1a",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "AlphabetSoup-34815d4f21-yaw_plus15-0aa9e867",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "AlphabetSoup-34815d4f21-yaw_plus7_5-c16fa3d6",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "AlphabetSoup-99f5c885db-centre-142fb5c9",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Peaches-203b95f140-centre-3e88a9af",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Peaches-203b95f140-x_plus20mm-ebcec15f",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Peaches-7a8cdecf40-centre-9aa66578",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Peaches-7a8cdecf40-x_minus10mm-6e31880c",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Peaches-7a8cdecf40-x_minus20mm-7644d279",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Peaches-7a8cdecf40-x_plus10mm-08552500",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Peaches-7a8cdecf40-x_plus20mm-06c2f29a",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Peaches-7a8cdecf40-y_minus10mm-d695819f",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Peaches-7a8cdecf40-y_minus20mm-8d63d0af",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Peaches-7a8cdecf40-y_plus10mm-f0ca6700",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Peaches-7a8cdecf40-y_plus20mm-51353162",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Peaches-7a8cdecf40-yaw_minus7_5-0758704d",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Peaches-7a8cdecf40-yaw_plus15-80e872f6",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Peaches-7a8cdecf40-yaw_plus7_5-958c156e",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-0ddf3447c0-centre-fe233e9e",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-0ddf3447c0-yaw_plus15-4089eeb6",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-3e8fa79936-centre-0c6b54be",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-3e8fa79936-x_minus10mm-d55713a9",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-3e8fa79936-x_plus10mm-ca6d8c9f",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-3e8fa79936-x_plus20mm-4500d25c",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-3e8fa79936-y_minus10mm-6d20b0b7",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-3e8fa79936-y_minus20mm-19f6f1cb",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-3e8fa79936-y_plus10mm-9d3b91f9",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-3e8fa79936-y_plus20mm-6da9697f",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-3e8fa79936-yaw_plus15-06354bdd",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-3e8fa79936-yaw_plus7_5-1c855952",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-438146b501-centre-66854882",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-5ce67ebebc-centre-21dfd8cd",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-61abcb552d-centre-1439167a",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-6e4f0004b3-centre-2d03cc8e",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-6f9d5db293-centre-21f9dd74",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-7eede966f9-centre-9f474932",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-81839469d4-centre-bc0fa693",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-852eaf0fdf-centre-931653bf",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-998fcd28f3-centre-dd328e6c",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-a0a0731a28-centre-8c08172a",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-af15fdf0bc-centre-0ef25c7b",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-af15fdf0bc-x_minus10mm-29035397",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-af15fdf0bc-x_minus20mm-49865f79",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-af15fdf0bc-x_plus10mm-3d23613b",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-af15fdf0bc-x_plus20mm-de330ba8",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-af15fdf0bc-y_minus10mm-d3a3469b",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-af15fdf0bc-y_minus20mm-da09c322",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-af15fdf0bc-y_plus10mm-cc20c672",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-af15fdf0bc-y_plus20mm-f2542680",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-af15fdf0bc-yaw_minus7_5-6e1f2866",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-af15fdf0bc-yaw_plus15-0344169f",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-af15fdf0bc-yaw_plus7_5-0981d09f",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-c9c6e48559-centre-94727bc4",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-e8e6ad7c0f-centre-a2ad7e6c",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-ec7552bd5f-centre-0afe70ee",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ },
+ {
+  "name": "Raisins-ecd47d7b0a-centre-ed85bcc1",
+  "original_accepted": true,
+  "recomputed_accepted": true,
+  "recomputed_reasons": [],
+  "agrees": true
+ }
+]

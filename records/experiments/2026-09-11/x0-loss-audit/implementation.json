@@ -1,0 +1,10 @@
+{
+  "training_started": false,
+  "tests_passed": 76,
+  "files": {
+    "src/icra/student.py": "9961c720cf3b41762d89ee56c38957d2687eebe8e343ee74cf4d1a7a2553a106",
+    "scripts/train_hx5_student.py": "46c1fe1287d3047414d8486ca571ed9fefaf907bf640df5a8cf763b51aa84a8a",
+    "configs/hx5_student.single-bottle-x0-low-noise.lecun.json": "75adec1a5e467d61930b0a259af53cdefd82be185a56bb35f06b7e273b09b790"
+  },
+  "remote_code": "/home/yspark/projects/DexPrompt/out/student-x0-low-noise-code-v1"
+}

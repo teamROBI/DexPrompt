@@ -1,0 +1,367 @@
+{
+  "completed": true,
+  "training_started": false,
+  "invariants": {
+    "checkpoint_sha256": true,
+    "model_sha256": true,
+    "initial_state_sha256": true,
+    "compiled_profile": true,
+    "changed_sources": true
+  },
+  "all_initial_arrays_equal": true,
+  "baseline_successes": 0,
+  "limited_successes": 0,
+  "paired_seeds": [
+    {
+      "seed": 1000,
+      "baseline_ticks": 974,
+      "limited_ticks": 974,
+      "baseline_first64": {
+        "command_error": {
+          "value_rad": 0.743270304226848,
+          "tick": 56,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "state_error": {
+          "value_rad": 0.579950600862503,
+          "tick": 63,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "tracking_error": {
+          "value_rad": 0.39863522350788116,
+          "tick": 56,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "arm_command_rmse_rad": 0.19933607661500355,
+        "hand_command_rmse_rad": 0.00025072499830441203,
+        "arm_state_rmse_rad": 0.15590992445611682,
+        "hand_state_rmse_rad": 0.00019629863177982583
+      },
+      "limited_first64": {
+        "command_error": {
+          "value_rad": 0.4262905292360994,
+          "tick": 63,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "state_error": {
+          "value_rad": 0.3138226104201749,
+          "tick": 63,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "tracking_error": {
+          "value_rad": 0.2544929101794532,
+          "tick": 62,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "arm_command_rmse_rad": 0.10932551434117888,
+        "hand_command_rmse_rad": 0.00026334830304378635,
+        "arm_state_rmse_rad": 0.08673161976186906,
+        "hand_state_rmse_rad": 0.00022020795405268035
+      },
+      "baseline_jump_first64": {
+        "boundary": {
+          "count": 7,
+          "median_normalized_rms": 0.05864146602355218,
+          "p95_normalized_rms": 0.09164348776153988,
+          "max_normalized_rms": 0.09309825731635009
+        },
+        "within_chunk": {
+          "count": 56,
+          "median_normalized_rms": 0.0022023420579928518,
+          "p95_normalized_rms": 0.005002801240433193,
+          "max_normalized_rms": 0.0062305617397676516
+        },
+        "max_step": {
+          "value_rad": 0.22722090780735016,
+          "tick": 48,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "max_step_is_boundary": true
+      },
+      "limited_jump_first64": {
+        "boundary": {
+          "count": 7,
+          "median_normalized_rms": 0.029858635291685764,
+          "p95_normalized_rms": 0.030462395266151042,
+          "max_normalized_rms": 0.030584332948478128
+        },
+        "within_chunk": {
+          "count": 56,
+          "median_normalized_rms": 0.005167948316479577,
+          "p95_normalized_rms": 0.027387037758104867,
+          "max_normalized_rms": 0.029705583305794557
+        },
+        "max_step": {
+          "value_rad": 0.04254258263201682,
+          "tick": 1,
+          "joint_index": 2,
+          "joint": "arm_r_joint3"
+        },
+        "max_step_is_boundary": false
+      },
+      "limited_outcome": {
+        "ticks": 974,
+        "seed": 1000,
+        "failure_reason": null,
+        "contact_acquisition_tick": null,
+        "evaluation_contract": "contact_acquisition_guard_v2",
+        "terminal_lift_seconds": 0.0,
+        "terminal_teacher_contact_lift_seconds": 0.0,
+        "longest_lift_seconds": 0.0,
+        "longest_teacher_contact_lift_seconds": 0.0,
+        "sustained_lift": false,
+        "teacher_compliant_lift": false,
+        "max_height_m": 0.0001381160501096046,
+        "max_penetration_m": 0.00011714721333552742,
+        "max_digit_force_n": 2.1611049535174116,
+        "saturated_command_ticks": 0,
+        "slew_limited_ticks": 974,
+        "required_contact_groups": 2,
+        "max_simultaneous_contact_groups": 1,
+        "terminal_contact_groups": 0,
+        "all_contact_groups_ticks": 0
+      }
+    },
+    {
+      "seed": 1001,
+      "baseline_ticks": 974,
+      "limited_ticks": 908,
+      "baseline_first64": {
+        "command_error": {
+          "value_rad": 0.7305733824014391,
+          "tick": 56,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "state_error": {
+          "value_rad": 0.554920420050621,
+          "tick": 63,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "tracking_error": {
+          "value_rad": 0.4156170040369034,
+          "tick": 56,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "arm_command_rmse_rad": 0.18895140646676734,
+        "hand_command_rmse_rad": 0.00023445650653549258,
+        "arm_state_rmse_rad": 0.14513541984864403,
+        "hand_state_rmse_rad": 0.00018708625098975683
+      },
+      "limited_first64": {
+        "command_error": {
+          "value_rad": 0.45158072855687015,
+          "tick": 61,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "state_error": {
+          "value_rad": 0.35420141741633415,
+          "tick": 63,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "tracking_error": {
+          "value_rad": 0.24880186154732287,
+          "tick": 61,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "arm_command_rmse_rad": 0.11995768560413216,
+        "hand_command_rmse_rad": 0.00023765024575116717,
+        "arm_state_rmse_rad": 0.09582144659730553,
+        "hand_state_rmse_rad": 0.00019919097433225127
+      },
+      "baseline_jump_first64": {
+        "boundary": {
+          "count": 7,
+          "median_normalized_rms": 0.06651850313945049,
+          "p95_normalized_rms": 0.09906662011654233,
+          "max_normalized_rms": 0.10351856913712788
+        },
+        "within_chunk": {
+          "count": 56,
+          "median_normalized_rms": 0.001998407633653933,
+          "p95_normalized_rms": 0.005622647329022394,
+          "max_normalized_rms": 0.006430609499760005
+        },
+        "max_step": {
+          "value_rad": 0.2507713586091995,
+          "tick": 48,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "max_step_is_boundary": true
+      },
+      "limited_jump_first64": {
+        "boundary": {
+          "count": 7,
+          "median_normalized_rms": 0.029799272140571115,
+          "p95_normalized_rms": 0.030190172632133742,
+          "max_normalized_rms": 0.030328418442888316
+        },
+        "within_chunk": {
+          "count": 56,
+          "median_normalized_rms": 0.005851356349136207,
+          "p95_normalized_rms": 0.023104620743188857,
+          "max_normalized_rms": 0.029705267403842637
+        },
+        "max_step": {
+          "value_rad": 0.04254258263201682,
+          "tick": 1,
+          "joint_index": 2,
+          "joint": "arm_r_joint3"
+        },
+        "max_step_is_boundary": false
+      },
+      "limited_outcome": {
+        "ticks": 908,
+        "seed": 1001,
+        "failure_reason": "penetration",
+        "contact_acquisition_tick": null,
+        "evaluation_contract": "contact_acquisition_guard_v2",
+        "terminal_lift_seconds": 0.0,
+        "terminal_teacher_contact_lift_seconds": 0.0,
+        "longest_lift_seconds": 0.0,
+        "longest_teacher_contact_lift_seconds": 0.0,
+        "sustained_lift": false,
+        "teacher_compliant_lift": false,
+        "max_height_m": 0.004636122720574898,
+        "max_penetration_m": 0.002191432258459537,
+        "max_digit_force_n": 27.095598944637437,
+        "saturated_command_ticks": 0,
+        "slew_limited_ticks": 908,
+        "required_contact_groups": 2,
+        "max_simultaneous_contact_groups": 2,
+        "terminal_contact_groups": 2,
+        "all_contact_groups_ticks": 2
+      }
+    },
+    {
+      "seed": 1002,
+      "baseline_ticks": 974,
+      "limited_ticks": 974,
+      "baseline_first64": {
+        "command_error": {
+          "value_rad": 0.7163945698976244,
+          "tick": 56,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "state_error": {
+          "value_rad": 0.5574069172143936,
+          "tick": 63,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "tracking_error": {
+          "value_rad": 0.39372745901346207,
+          "tick": 56,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "arm_command_rmse_rad": 0.19000353658996952,
+        "hand_command_rmse_rad": 0.0002386984615548335,
+        "arm_state_rmse_rad": 0.14777538275418017,
+        "hand_state_rmse_rad": 0.00019378409550943596
+      },
+      "limited_first64": {
+        "command_error": {
+          "value_rad": 0.36437476721024387,
+          "tick": 61,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "state_error": {
+          "value_rad": 0.27399274334311485,
+          "tick": 63,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "tracking_error": {
+          "value_rad": 0.24058698456028282,
+          "tick": 61,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "arm_command_rmse_rad": 0.09280355318068477,
+        "hand_command_rmse_rad": 0.0002408078066210118,
+        "arm_state_rmse_rad": 0.07288679555671632,
+        "hand_state_rmse_rad": 0.0002036070407990403
+      },
+      "baseline_jump_first64": {
+        "boundary": {
+          "count": 7,
+          "median_normalized_rms": 0.06443432985136262,
+          "p95_normalized_rms": 0.09863288223340567,
+          "max_normalized_rms": 0.1054535967879649
+        },
+        "within_chunk": {
+          "count": 56,
+          "median_normalized_rms": 0.002085900639355117,
+          "p95_normalized_rms": 0.0052048422642225894,
+          "max_normalized_rms": 0.006217966353659476
+        },
+        "max_step": {
+          "value_rad": 0.25730954110622406,
+          "tick": 48,
+          "joint_index": 0,
+          "joint": "arm_r_joint1"
+        },
+        "max_step_is_boundary": true
+      },
+      "limited_jump_first64": {
+        "boundary": {
+          "count": 7,
+          "median_normalized_rms": 0.029836621244180635,
+          "p95_normalized_rms": 0.030451665774519143,
+          "max_normalized_rms": 0.030553484121268657
+        },
+        "within_chunk": {
+          "count": 56,
+          "median_normalized_rms": 0.004398560293996781,
+          "p95_normalized_rms": 0.020150173256707832,
+          "max_normalized_rms": 0.02970186131017544
+        },
+        "max_step": {
+          "value_rad": 0.04254258263201682,
+          "tick": 1,
+          "joint_index": 2,
+          "joint": "arm_r_joint3"
+        },
+        "max_step_is_boundary": false
+      },
+      "limited_outcome": {
+        "ticks": 974,
+        "seed": 1002,
+        "failure_reason": null,
+        "contact_acquisition_tick": null,
+        "evaluation_contract": "contact_acquisition_guard_v2",
+        "terminal_lift_seconds": 0.0,
+        "terminal_teacher_contact_lift_seconds": 0.0,
+        "longest_lift_seconds": 0.0,
+        "longest_teacher_contact_lift_seconds": 0.0,
+        "sustained_lift": false,
+        "teacher_compliant_lift": false,
+        "max_height_m": 4.924585580434737e-07,
+        "max_penetration_m": 0.0,
+        "max_digit_force_n": 0.0,
+        "saturated_command_ticks": 0,
+        "slew_limited_ticks": 974,
+        "required_contact_groups": 2,
+        "max_simultaneous_contact_groups": 0,
+        "terminal_contact_groups": 0,
+        "all_contact_groups_ticks": 0
+      }
+    }
+  ]
+}

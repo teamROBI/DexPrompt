@@ -1,0 +1,394 @@
+{
+ "label": "bowl0000",
+ "episode": "out/bowl-scale/s008o4/executed/diagnostics/teacher_0000_yaw_000.npz",
+ "ticks": 1450,
+ "control_dt": 0.02,
+ "required_groups": 5,
+ "first_all_groups_tick": 605,
+ "ticks_all_groups": 410,
+ "longest_complete_run_ticks": 46,
+ "peak_rise_mm": 139.62185790488613,
+ "final_rise_mm": -0.0005761298738082843,
+ "peak_rise_tick": 1086,
+ "transient_losses": [
+  {
+   "start": 651,
+   "end": 653,
+   "ticks": 2
+  },
+  {
+   "start": 663,
+   "end": 665,
+   "ticks": 2
+  },
+  {
+   "start": 676,
+   "end": 678,
+   "ticks": 2
+  },
+  {
+   "start": 686,
+   "end": 687,
+   "ticks": 1
+  },
+  {
+   "start": 702,
+   "end": 704,
+   "ticks": 2
+  },
+  {
+   "start": 708,
+   "end": 709,
+   "ticks": 1
+  },
+  {
+   "start": 728,
+   "end": 729,
+   "ticks": 1
+  },
+  {
+   "start": 730,
+   "end": 731,
+   "ticks": 1
+  },
+  {
+   "start": 753,
+   "end": 754,
+   "ticks": 1
+  },
+  {
+   "start": 755,
+   "end": 757,
+   "ticks": 2
+  },
+  {
+   "start": 777,
+   "end": 779,
+   "ticks": 2
+  },
+  {
+   "start": 780,
+   "end": 781,
+   "ticks": 1
+  },
+  {
+   "start": 796,
+   "end": 798,
+   "ticks": 2
+  },
+  {
+   "start": 802,
+   "end": 804,
+   "ticks": 2
+  },
+  {
+   "start": 814,
+   "end": 816,
+   "ticks": 2
+  },
+  {
+   "start": 823,
+   "end": 824,
+   "ticks": 1
+  },
+  {
+   "start": 832,
+   "end": 834,
+   "ticks": 2
+  },
+  {
+   "start": 843,
+   "end": 845,
+   "ticks": 2
+  },
+  {
+   "start": 850,
+   "end": 852,
+   "ticks": 2
+  },
+  {
+   "start": 862,
+   "end": 864,
+   "ticks": 2
+  },
+  {
+   "start": 868,
+   "end": 870,
+   "ticks": 2
+  },
+  {
+   "start": 883,
+   "end": 884,
+   "ticks": 1
+  },
+  {
+   "start": 886,
+   "end": 888,
+   "ticks": 2
+  },
+  {
+   "start": 899,
+   "end": 900,
+   "ticks": 1
+  },
+  {
+   "start": 903,
+   "end": 905,
+   "ticks": 2
+  },
+  {
+   "start": 916,
+   "end": 917,
+   "ticks": 1
+  },
+  {
+   "start": 920,
+   "end": 921,
+   "ticks": 1
+  },
+  {
+   "start": 933,
+   "end": 935,
+   "ticks": 2
+  },
+  {
+   "start": 937,
+   "end": 938,
+   "ticks": 1
+  },
+  {
+   "start": 949,
+   "end": 951,
+   "ticks": 2
+  },
+  {
+   "start": 952,
+   "end": 953,
+   "ticks": 1
+  },
+  {
+   "start": 966,
+   "end": 968,
+   "ticks": 2
+  },
+  {
+   "start": 975,
+   "end": 976,
+   "ticks": 1
+  },
+  {
+   "start": 981,
+   "end": 983,
+   "ticks": 2
+  },
+  {
+   "start": 989,
+   "end": 990,
+   "ticks": 1
+  },
+  {
+   "start": 995,
+   "end": 997,
+   "ticks": 2
+  },
+  {
+   "start": 1003,
+   "end": 1005,
+   "ticks": 2
+  },
+  {
+   "start": 1009,
+   "end": 1011,
+   "ticks": 2
+  },
+  {
+   "start": 1016,
+   "end": 1017,
+   "ticks": 1
+  },
+  {
+   "start": 1022,
+   "end": 1024,
+   "ticks": 2
+  },
+  {
+   "start": 1034,
+   "end": 1037,
+   "ticks": 3
+  },
+  {
+   "start": 1046,
+   "end": 1048,
+   "ticks": 2
+  },
+  {
+   "start": 1058,
+   "end": 1060,
+   "ticks": 2
+  },
+  {
+   "start": 1070,
+   "end": 1072,
+   "ticks": 2
+  },
+  {
+   "start": 1082,
+   "end": 1086,
+   "ticks": 4
+  },
+  {
+   "start": 1090,
+   "end": 1091,
+   "ticks": 1
+  }
+ ],
+ "sustained_losses": [
+  {
+   "start": 1093,
+   "end": 1450,
+   "ticks": 357
+  }
+ ],
+ "first_loss": {
+  "tick": 651,
+  "phase": "lift",
+  "digits_missing": [
+   4
+  ],
+  "rise_mm": {
+   "before": -0.05240951832341523,
+   "at": 4.155498682416159,
+   "after": 12.675832449928315,
+   "peak_so_far": 4.155498682416159
+  },
+  "digit_force_N": {
+   "before": [
+    1.543,
+    2.918,
+    1.635,
+    1.257,
+    2.387
+   ],
+   "at": [
+    3.361,
+    0.418,
+    2.446,
+    0.112,
+    1.998
+   ],
+   "after": [
+    3.279,
+    0.371,
+    2.462,
+    0.113,
+    2.092
+   ],
+   "peak_before": [
+    6.429,
+    19.114,
+    6.889,
+    22.146,
+    7.085
+   ]
+  },
+  "group_force_min_N": {
+   "before": [
+    1.514,
+    2.849,
+    1.526,
+    1.189,
+    2.313
+   ],
+   "at": [
+    3.135,
+    0.323,
+    2.3,
+    0.0,
+    1.895
+   ]
+  },
+  "penetration_mm": {
+   "before": 0.7600299375464108,
+   "at": 0.7725006013075206,
+   "after": 0.7616675986882113,
+   "peak_before": 1.8655991730517372
+  },
+  "joint_error_rad": {
+   "arm_max_before": 0.01987711808676207,
+   "arm_max_at": 0.03180509004357068,
+   "finger_max_before": 0.0009508116345829931,
+   "finger_max_at": 0.0018440807171696827
+  }
+ },
+ "first_unrecovered_loss": {
+  "tick": 1093,
+  "phase": "hold",
+  "digits_missing": [
+   4
+  ],
+  "rise_mm": {
+   "before": 136.18553164134673,
+   "at": 139.1947754405578,
+   "after": -0.0021684860610493573,
+   "peak_so_far": 139.62185790488613
+  },
+  "digit_force_N": {
+   "before": [
+    2.539,
+    0.191,
+    1.942,
+    0.562,
+    0.737
+   ],
+   "at": [
+    1.806,
+    0.283,
+    1.509,
+    0.221,
+    0.73
+   ],
+   "after": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "peak_before": [
+    6.429,
+    19.114,
+    6.889,
+    22.146,
+    7.085
+   ]
+  },
+  "group_force_min_N": {
+   "before": [
+    2.06,
+    0.076,
+    1.835,
+    0.427,
+    0.703
+   ],
+   "at": [
+    1.248,
+    0.173,
+    1.246,
+    0.0,
+    0.706
+   ]
+  },
+  "penetration_mm": {
+   "before": 0.5775264020930229,
+   "at": 0.5007956059588476,
+   "after": 0.0,
+   "peak_before": 1.8655991730517372
+  },
+  "joint_error_rad": {
+   "arm_max_before": 0.029072615304493343,
+   "arm_max_at": 0.021647066383151614,
+   "finger_max_before": 0.00212965288351763,
+   "finger_max_at": 0.003673407490724534
+  }
+ }
+}

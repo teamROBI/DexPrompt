@@ -1,0 +1,13 @@
+{
+  "ticks": [
+    0,
+    443,
+    600,
+    647,
+    800,
+    1005
+  ],
+  "both_cameras_empty_ticks": [],
+  "scope": "teacher replay observations, not student policy output",
+  "overlay": "cyan alpha0.3 marks simulator target pixels; underlying RGB is unchanged"
+}

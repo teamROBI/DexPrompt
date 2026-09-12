@@ -1,0 +1,23 @@
+{
+  "completed": true,
+  "moved_files": 67,
+  "library_modules": 27,
+  "python_scripts": 31,
+  "shell_scripts": 5,
+  "tests_moved": 4,
+  "archived_documents": 4,
+  "tests_passed": 724,
+  "cli_help_passed": 29,
+  "shell_syntax_passed": 5,
+  "replay_ticks": 1024,
+  "replay_exact": true,
+  "active_markdown_links": 96,
+  "broken_active_links": 0,
+  "new_lint_findings": 0,
+  "cache_directories_removed": 28,
+  "cache_bytes_removed": 4246420,
+  "training_started": false,
+  "remote_snapshots_modified": false,
+  "experiment_files_modified": 0,
+  "output_files_modified": 0
+}

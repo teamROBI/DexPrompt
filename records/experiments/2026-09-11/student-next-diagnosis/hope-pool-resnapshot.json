@@ -1,0 +1,278 @@
+{
+  "training_started": false,
+  "completed": true,
+  "scope": "diagnostic train-only; no independent validation/test",
+  "plan_sha256": "109e76d512cc7536639ea381288e59f53ce19adf52b84f787a66b8bb84f30698",
+  "conditions": {
+    "AlphabetSoup/centre": {
+      "status": "waiting_for_visual_intake",
+      "ready": false,
+      "intake_status": "intake_failed"
+    },
+    "Peaches/centre": {
+      "status": "data_and_reproduction_passed",
+      "ready": true,
+      "data": "out/hope-student-intake-v2/Peaches-ef911f4225f2/visual",
+      "cache": "out/hope-student-intake-v2/Peaches-ef911f4225f2/cache",
+      "candidate_id": "203b95f140d07f8aeadf7b5eaaac9b1e52c75bbfe21460751fc2526f39bcf586",
+      "teacher_episode_sha256": "3e88a9afedb4131265b6401afcc13e6a01d4f075ccbefb76b5a5de21483e04e2",
+      "visual_episode_sha256": "791711006eea1cab0adaf291fc4cf48abc9e3120247ee8bab813ed2dfc941354",
+      "initial_input_sha256": "af65621b9ab414e152f2bd070c6c6dedc1d9fee46c428a2dff658e62a520c8bc",
+      "full_dino_execution_verified_here": false
+    },
+    "Raisins/centre": {
+      "status": "data_and_reproduction_passed",
+      "ready": true,
+      "data": "out/hope-student-intake-v2/Raisins-37b960324943/visual",
+      "cache": "out/hope-student-intake-v2/Raisins-37b960324943/cache",
+      "candidate_id": "0ddf3447c061b986c4ef421141d56bd8f1d430ee415040f59a61f8f9c53aac10",
+      "teacher_episode_sha256": "fe233e9e22b1ffd0979c7ba820b86ee5da31c961bb87c5b2e8fa00286fca1c5b",
+      "visual_episode_sha256": "99e46e55e53fffe0ac5da041f29dd10360ea31f8ce3d3db6093dee18b93a31bf",
+      "initial_input_sha256": "11d5e41c6ad3f29b23de16861514c4be887dc093303351367542aec8b34e3537",
+      "full_dino_execution_verified_here": false
+    },
+    "AlphabetSoup/yaw_minus15": {
+      "status": "data_and_reproduction_passed",
+      "ready": true,
+      "data": "out/hope-placement-intake-v1/AlphabetSoup-yaw_minus15/AlphabetSoup-a3b5bd6862d8/visual",
+      "cache": "out/hope-placement-intake-v1/AlphabetSoup-yaw_minus15/AlphabetSoup-a3b5bd6862d8/cache",
+      "candidate_id": "057c04e1d5755d4aa88bdc9cbe8bcebbc234b3d6c00da572cf8fc4bfd118f4bc",
+      "teacher_episode_sha256": "54973e514e4a8ceb4e0fa56d382c7aeffb6c1f7e3277731e87442b120d5e6c5c",
+      "visual_episode_sha256": "f0f8863f6a462df15607728b244a422fb5f165a580f4288ec0800bc91422b853",
+      "initial_input_sha256": "3f9c4ac8de7769cf3bc3413ab4fd5a9eb28841503b8dc5532cd55fe0fdb18136",
+      "full_dino_execution_verified_here": false
+    },
+    "Peaches/yaw_minus15": {
+      "status": "waiting_for_visual_intake",
+      "ready": false,
+      "intake_status": "no_accepted_episode"
+    },
+    "Raisins/yaw_minus15": {
+      "status": "waiting_for_visual_intake",
+      "ready": false,
+      "intake_status": "no_accepted_episode"
+    },
+    "AlphabetSoup/yaw_plus15": {
+      "status": "waiting_for_visual_intake",
+      "ready": false,
+      "intake_status": "no_accepted_episode"
+    },
+    "Peaches/yaw_plus15": {
+      "status": "waiting_for_visual_intake",
+      "ready": false,
+      "intake_status": "no_accepted_episode"
+    },
+    "Raisins/yaw_plus15": {
+      "status": "data_and_reproduction_passed",
+      "ready": true,
+      "data": "out/hope-placement-intake-v1/Raisins-yaw_plus15/Raisins-aa2923a5e542/visual",
+      "cache": "out/hope-placement-intake-v1/Raisins-yaw_plus15/Raisins-aa2923a5e542/cache",
+      "candidate_id": "0ddf3447c061b986c4ef421141d56bd8f1d430ee415040f59a61f8f9c53aac10",
+      "teacher_episode_sha256": "4089eeb6b9fc78e5cf0b3bb0b303b84cd0924cdb77ed201e900cdf0c4af00dee",
+      "visual_episode_sha256": "fc5aabca99d99277e431d0a7086303af40ad2a56eb1c15e16c1a7588218ff1f9",
+      "initial_input_sha256": "5546cb4fc884f2fad94dbb5bd1840965aa0ae2525b588e7ad1ec9b71f33741e2",
+      "full_dino_execution_verified_here": false
+    },
+    "AlphabetSoup/x_minus20mm": {
+      "status": "data_and_reproduction_passed",
+      "ready": true,
+      "data": "out/hope-placement-intake-v1/AlphabetSoup-x_minus20mm/AlphabetSoup-093cc5867244/visual",
+      "cache": "out/hope-placement-intake-v1/AlphabetSoup-x_minus20mm/AlphabetSoup-093cc5867244/cache",
+      "candidate_id": "057c04e1d5755d4aa88bdc9cbe8bcebbc234b3d6c00da572cf8fc4bfd118f4bc",
+      "teacher_episode_sha256": "49df6b4ad68029a1ef6a99143e9ae9ad08ea97eafb45b0f095d333326ee566d0",
+      "visual_episode_sha256": "ff5c36dfe605b6d513a15c7a0c8d0b0f0fba3eab7105c247401cf3b8dfccd885",
+      "initial_input_sha256": "451b283e17c9e62b6c77925fad5e7146c79a249b912e08d7082903e621b0b7fe",
+      "full_dino_execution_verified_here": false
+    },
+    "Peaches/x_minus20mm": {
+      "status": "waiting_for_visual_intake",
+      "ready": false,
+      "intake_status": "no_accepted_episode"
+    },
+    "Raisins/x_minus20mm": {
+      "status": "waiting_for_visual_intake",
+      "ready": false,
+      "intake_status": "no_accepted_episode"
+    },
+    "AlphabetSoup/x_plus20mm": {
+      "status": "data_and_reproduction_passed",
+      "ready": true,
+      "data": "out/hope-placement-intake-v1/AlphabetSoup-x_plus20mm/AlphabetSoup-67c3baedd092/visual",
+      "cache": "out/hope-placement-intake-v1/AlphabetSoup-x_plus20mm/AlphabetSoup-67c3baedd092/cache",
+      "candidate_id": "057c04e1d5755d4aa88bdc9cbe8bcebbc234b3d6c00da572cf8fc4bfd118f4bc",
+      "teacher_episode_sha256": "d6f637c35dc0a0a52981bedf23f7869d9285e46bf931a501302c42bb264e409d",
+      "visual_episode_sha256": "96623008cc2b097975eac3c20d2cb045f3d23bc619fb26b0e2a4c3b64509283a",
+      "initial_input_sha256": "c90cf8a1b618a5e996a4299c73d2f58c4216b61363f1142ef7f8f10f84e9452a",
+      "full_dino_execution_verified_here": false
+    },
+    "Peaches/x_plus20mm": {
+      "status": "data_and_reproduction_passed",
+      "ready": true,
+      "data": "out/hope-placement-intake-v1/Peaches-x_plus20mm/Peaches-acdd527c5e03/visual",
+      "cache": "out/hope-placement-intake-v1/Peaches-x_plus20mm/Peaches-acdd527c5e03/cache",
+      "candidate_id": "203b95f140d07f8aeadf7b5eaaac9b1e52c75bbfe21460751fc2526f39bcf586",
+      "teacher_episode_sha256": "ebcec15fe6b44c1277b7449d20d50018e9aa620540e136601439c62b79df0f81",
+      "visual_episode_sha256": "572661f443372419304a00bae378d9ef292295c62864872170df07c0c1e9970b",
+      "initial_input_sha256": "0c0fde66619ce9568a1723575fcb1b7e6fd8afae63765785c3811a3709a70055",
+      "full_dino_execution_verified_here": false
+    },
+    "Raisins/x_plus20mm": {
+      "status": "waiting_for_visual_intake",
+      "ready": false,
+      "intake_status": "no_accepted_episode"
+    }
+  },
+  "ready": [
+    {
+      "status": "data_and_reproduction_passed",
+      "ready": true,
+      "data": "out/hope-student-intake-v2/Peaches-ef911f4225f2/visual",
+      "cache": "out/hope-student-intake-v2/Peaches-ef911f4225f2/cache",
+      "candidate_id": "203b95f140d07f8aeadf7b5eaaac9b1e52c75bbfe21460751fc2526f39bcf586",
+      "teacher_episode_sha256": "3e88a9afedb4131265b6401afcc13e6a01d4f075ccbefb76b5a5de21483e04e2",
+      "visual_episode_sha256": "791711006eea1cab0adaf291fc4cf48abc9e3120247ee8bab813ed2dfc941354",
+      "initial_input_sha256": "af65621b9ab414e152f2bd070c6c6dedc1d9fee46c428a2dff658e62a520c8bc",
+      "full_dino_execution_verified_here": false,
+      "object": "Peaches",
+      "placement": "centre",
+      "mesh_sha256": "bdfb2fff37f75f5b14475a5ffbffc617575c296022d19d07fd51c6237e995593",
+      "scene_sha256": "ab716a577219f1753a9e92d006c171e045981ab7b71f5ccd81cf282f7e0eb63f",
+      "grasp_type": "10_Power_Disk",
+      "frames": 1006,
+      "visual_manifest_sha256": "78883f51d8d2f7cb23bdead412c5b56158f7972a629755344d1a4fd34880998a"
+    },
+    {
+      "status": "data_and_reproduction_passed",
+      "ready": true,
+      "data": "out/hope-student-intake-v2/Raisins-37b960324943/visual",
+      "cache": "out/hope-student-intake-v2/Raisins-37b960324943/cache",
+      "candidate_id": "0ddf3447c061b986c4ef421141d56bd8f1d430ee415040f59a61f8f9c53aac10",
+      "teacher_episode_sha256": "fe233e9e22b1ffd0979c7ba820b86ee5da31c961bb87c5b2e8fa00286fca1c5b",
+      "visual_episode_sha256": "99e46e55e53fffe0ac5da041f29dd10360ea31f8ce3d3db6093dee18b93a31bf",
+      "initial_input_sha256": "11d5e41c6ad3f29b23de16861514c4be887dc093303351367542aec8b34e3537",
+      "full_dino_execution_verified_here": false,
+      "object": "Raisins",
+      "placement": "centre",
+      "mesh_sha256": "ccb4e3cce996940aa8c4640af1cf0e4022ba7e201a1bc04221188d580555e63f",
+      "scene_sha256": "ab716a577219f1753a9e92d006c171e045981ab7b71f5ccd81cf282f7e0eb63f",
+      "grasp_type": "1_Large_Diameter",
+      "frames": 985,
+      "visual_manifest_sha256": "e22684ff76cfa422c352fa2d6cc122ecf924b4b05b2ea763c5c53a933867aa24"
+    },
+    {
+      "status": "data_and_reproduction_passed",
+      "ready": true,
+      "data": "out/hope-placement-intake-v1/AlphabetSoup-yaw_minus15/AlphabetSoup-a3b5bd6862d8/visual",
+      "cache": "out/hope-placement-intake-v1/AlphabetSoup-yaw_minus15/AlphabetSoup-a3b5bd6862d8/cache",
+      "candidate_id": "057c04e1d5755d4aa88bdc9cbe8bcebbc234b3d6c00da572cf8fc4bfd118f4bc",
+      "teacher_episode_sha256": "54973e514e4a8ceb4e0fa56d382c7aeffb6c1f7e3277731e87442b120d5e6c5c",
+      "visual_episode_sha256": "f0f8863f6a462df15607728b244a422fb5f165a580f4288ec0800bc91422b853",
+      "initial_input_sha256": "3f9c4ac8de7769cf3bc3413ab4fd5a9eb28841503b8dc5532cd55fe0fdb18136",
+      "full_dino_execution_verified_here": false,
+      "object": "AlphabetSoup",
+      "placement": "yaw_minus15",
+      "mesh_sha256": "2ce98dbb16c57ba7f7660bc45bbcb16cc4ec5a1ca43ac39609316be6f594cb0f",
+      "scene_sha256": "9530dd42d6c0083521b0419460175a0c00a6ba822a44ae12853d7015782de421",
+      "grasp_type": "10_Power_Disk",
+      "frames": 1143,
+      "visual_manifest_sha256": "93f32386f585c4163a5d70d56bde42451940ac35a835d2a34975a6e152a96855"
+    },
+    {
+      "status": "data_and_reproduction_passed",
+      "ready": true,
+      "data": "out/hope-placement-intake-v1/Raisins-yaw_plus15/Raisins-aa2923a5e542/visual",
+      "cache": "out/hope-placement-intake-v1/Raisins-yaw_plus15/Raisins-aa2923a5e542/cache",
+      "candidate_id": "0ddf3447c061b986c4ef421141d56bd8f1d430ee415040f59a61f8f9c53aac10",
+      "teacher_episode_sha256": "4089eeb6b9fc78e5cf0b3bb0b303b84cd0924cdb77ed201e900cdf0c4af00dee",
+      "visual_episode_sha256": "fc5aabca99d99277e431d0a7086303af40ad2a56eb1c15e16c1a7588218ff1f9",
+      "initial_input_sha256": "5546cb4fc884f2fad94dbb5bd1840965aa0ae2525b588e7ad1ec9b71f33741e2",
+      "full_dino_execution_verified_here": false,
+      "object": "Raisins",
+      "placement": "yaw_plus15",
+      "mesh_sha256": "ccb4e3cce996940aa8c4640af1cf0e4022ba7e201a1bc04221188d580555e63f",
+      "scene_sha256": "a81f4f1dfdf1b319b1eca9215133ea7b0753b16256adf7cd2da6c3b9951a2bf5",
+      "grasp_type": "1_Large_Diameter",
+      "frames": 1008,
+      "visual_manifest_sha256": "ec1cfac38e32ef5837b1de9efdf927ccb3832d939743cd9bb8c94449165111d1"
+    },
+    {
+      "status": "data_and_reproduction_passed",
+      "ready": true,
+      "data": "out/hope-placement-intake-v1/AlphabetSoup-x_minus20mm/AlphabetSoup-093cc5867244/visual",
+      "cache": "out/hope-placement-intake-v1/AlphabetSoup-x_minus20mm/AlphabetSoup-093cc5867244/cache",
+      "candidate_id": "057c04e1d5755d4aa88bdc9cbe8bcebbc234b3d6c00da572cf8fc4bfd118f4bc",
+      "teacher_episode_sha256": "49df6b4ad68029a1ef6a99143e9ae9ad08ea97eafb45b0f095d333326ee566d0",
+      "visual_episode_sha256": "ff5c36dfe605b6d513a15c7a0c8d0b0f0fba3eab7105c247401cf3b8dfccd885",
+      "initial_input_sha256": "451b283e17c9e62b6c77925fad5e7146c79a249b912e08d7082903e621b0b7fe",
+      "full_dino_execution_verified_here": false,
+      "object": "AlphabetSoup",
+      "placement": "x_minus20mm",
+      "mesh_sha256": "2ce98dbb16c57ba7f7660bc45bbcb16cc4ec5a1ca43ac39609316be6f594cb0f",
+      "scene_sha256": "57010f05d5ba44c819e0f76e64e45908567a0b2c6b9dd3465ff4d15a9e38b110",
+      "grasp_type": "10_Power_Disk",
+      "frames": 1199,
+      "visual_manifest_sha256": "a362f8678bac3897861238275da660f35a63e590a2accccf9a462f9f7b91d395"
+    },
+    {
+      "status": "data_and_reproduction_passed",
+      "ready": true,
+      "data": "out/hope-placement-intake-v1/AlphabetSoup-x_plus20mm/AlphabetSoup-67c3baedd092/visual",
+      "cache": "out/hope-placement-intake-v1/AlphabetSoup-x_plus20mm/AlphabetSoup-67c3baedd092/cache",
+      "candidate_id": "057c04e1d5755d4aa88bdc9cbe8bcebbc234b3d6c00da572cf8fc4bfd118f4bc",
+      "teacher_episode_sha256": "d6f637c35dc0a0a52981bedf23f7869d9285e46bf931a501302c42bb264e409d",
+      "visual_episode_sha256": "96623008cc2b097975eac3c20d2cb045f3d23bc619fb26b0e2a4c3b64509283a",
+      "initial_input_sha256": "c90cf8a1b618a5e996a4299c73d2f58c4216b61363f1142ef7f8f10f84e9452a",
+      "full_dino_execution_verified_here": false,
+      "object": "AlphabetSoup",
+      "placement": "x_plus20mm",
+      "mesh_sha256": "2ce98dbb16c57ba7f7660bc45bbcb16cc4ec5a1ca43ac39609316be6f594cb0f",
+      "scene_sha256": "a0f6796c7637d5f86393ef1d94a03728e410b3e61a2a0b2ac12313d9e721130c",
+      "grasp_type": "10_Power_Disk",
+      "frames": 1125,
+      "visual_manifest_sha256": "236c2eb2eadf07ac35d7e100292741614f338f74506571c1054b0305907186f7"
+    },
+    {
+      "status": "data_and_reproduction_passed",
+      "ready": true,
+      "data": "out/hope-placement-intake-v1/Peaches-x_plus20mm/Peaches-acdd527c5e03/visual",
+      "cache": "out/hope-placement-intake-v1/Peaches-x_plus20mm/Peaches-acdd527c5e03/cache",
+      "candidate_id": "203b95f140d07f8aeadf7b5eaaac9b1e52c75bbfe21460751fc2526f39bcf586",
+      "teacher_episode_sha256": "ebcec15fe6b44c1277b7449d20d50018e9aa620540e136601439c62b79df0f81",
+      "visual_episode_sha256": "572661f443372419304a00bae378d9ef292295c62864872170df07c0c1e9970b",
+      "initial_input_sha256": "0c0fde66619ce9568a1723575fcb1b7e6fd8afae63765785c3811a3709a70055",
+      "full_dino_execution_verified_here": false,
+      "object": "Peaches",
+      "placement": "x_plus20mm",
+      "mesh_sha256": "bdfb2fff37f75f5b14475a5ffbffc617575c296022d19d07fd51c6237e995593",
+      "scene_sha256": "a0f6796c7637d5f86393ef1d94a03728e410b3e61a2a0b2ac12313d9e721130c",
+      "grasp_type": "10_Power_Disk",
+      "frames": 1000,
+      "visual_manifest_sha256": "c06c4a6cd6db6685409e0484a83d43b46058816dc0503f9a7a8a35a2797a105d"
+    }
+  ],
+  "excluded_or_pending": [
+    "AlphabetSoup/centre",
+    "Peaches/yaw_minus15",
+    "Raisins/yaw_minus15",
+    "AlphabetSoup/yaw_plus15",
+    "Peaches/yaw_plus15",
+    "Peaches/x_minus20mm",
+    "Raisins/x_minus20mm",
+    "Raisins/x_plus20mm"
+  ],
+  "errors": [],
+  "counts": {
+    "episodes": 7,
+    "frames": 7466,
+    "objects": 3,
+    "exact_mesh_files": 3,
+    "object_placement_conditions": 7,
+    "teacher_candidates": 3,
+    "grasp_types": [
+      "10_Power_Disk",
+      "1_Large_Diameter"
+    ],
+    "unique_initial_policy_inputs": 7,
+    "geometry_independence_verified": false
+  }
+}

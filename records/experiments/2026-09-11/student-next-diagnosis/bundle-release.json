@@ -1,0 +1,380 @@
+{
+  "schema_version": 1,
+  "completed": true,
+  "training_started": false,
+  "scope": "approved HOPE demonstrations integrated as a diagnostic train-only student bundle; no policy training or generalization claim",
+  "frozen_input": {
+    "pool": "out/hope-student-pool-final.json",
+    "pool_sha256": "f13daac296a4a851f021b7d178d92e8e917f96ae5aaafb58f02eeaac3e48b5ab",
+    "resnapshot": "hope-pool-resnapshot.json",
+    "resnapshot_sha256": "f13daac296a4a851f021b7d178d92e8e917f96ae5aaafb58f02eeaac3e48b5ab",
+    "ready_list_unchanged": true
+  },
+  "bundle": {
+    "local_path": "/data1/yspark/sim/icra/hope-student-bundle-v1",
+    "remote_path": "/data1/yspark/projects/dexprompt/student-data/hope-bundle-v1",
+    "remote_cache": "/data1/yspark/projects/dexprompt/student-cache/hope-bundle-v1",
+    "manifest_sha256": "d9e98792ad21856287a69b99c7653ec74fd13ca9612495b6ff1e7734e02ddf66",
+    "episodes": 7,
+    "frames": 7466,
+    "objects": [
+      "AlphabetSoup",
+      "Peaches",
+      "Raisins"
+    ],
+    "object_placement_conditions": 7,
+    "teacher_candidates": 3,
+    "grasp_types": [
+      "10_Power_Disk",
+      "1_Large_Diameter"
+    ],
+    "unique_initial_policy_inputs": 7,
+    "split": "diagnostic train-only",
+    "independent_validation_or_test": false,
+    "mapping": [
+      {
+        "object": "Peaches",
+        "placement": "centre",
+        "source": "/data1/yspark/sim/icra/hope-student-intake-v2/Peaches-ef911f4225f2/visual",
+        "source_episode_id": "teacher_0008_yaw_000",
+        "source_episode_sha256": "791711006eea1cab0adaf291fc4cf48abc9e3120247ee8bab813ed2dfc941354",
+        "teacher_episode_sha256": "3e88a9afedb4131265b6401afcc13e6a01d4f075ccbefb76b5a5de21483e04e2",
+        "bundle_episode_id": "source0_teacher_0008_yaw_000",
+        "bundle_episode_sha256": "791711006eea1cab0adaf291fc4cf48abc9e3120247ee8bab813ed2dfc941354",
+        "frames": 1006,
+        "model": "imports/source0/simulation/teacher_0008_yaw_000.mjb",
+        "model_sha256": "d18bdf7faee3922b9ae2bdb2059116fc2a967f9942230deacec1d47fdf376d4c",
+        "initial_state": "imports/source0/simulation/teacher_0008_yaw_000.npy",
+        "initial_state_sha256": "538414e596edd36acb6414b6600b4afe6d51568d54d48d4f68322af2005bdabe"
+      },
+      {
+        "object": "Raisins",
+        "placement": "centre",
+        "source": "/data1/yspark/sim/icra/hope-student-intake-v2/Raisins-37b960324943/visual",
+        "source_episode_id": "teacher_0004_yaw_000",
+        "source_episode_sha256": "99e46e55e53fffe0ac5da041f29dd10360ea31f8ce3d3db6093dee18b93a31bf",
+        "teacher_episode_sha256": "fe233e9e22b1ffd0979c7ba820b86ee5da31c961bb87c5b2e8fa00286fca1c5b",
+        "bundle_episode_id": "source1_teacher_0004_yaw_000",
+        "bundle_episode_sha256": "99e46e55e53fffe0ac5da041f29dd10360ea31f8ce3d3db6093dee18b93a31bf",
+        "frames": 985,
+        "model": "imports/source1/simulation/teacher_0004_yaw_000.mjb",
+        "model_sha256": "6adf9bd2367e7618e26594c7ab01b2f08d5e09ff6e9fca6eece2b8c16797096c",
+        "initial_state": "imports/source1/simulation/teacher_0004_yaw_000.npy",
+        "initial_state_sha256": "96713c98c9b3c533a6cdeb05dedfc0910fcfe9b9adfcab9cf2735b8e7591aebf"
+      },
+      {
+        "object": "AlphabetSoup",
+        "placement": "yaw_minus15",
+        "source": "/data1/yspark/sim/icra/hope-placement-intake-v1/AlphabetSoup-yaw_minus15/AlphabetSoup-a3b5bd6862d8/visual",
+        "source_episode_id": "teacher_0000_yaw_000",
+        "source_episode_sha256": "f0f8863f6a462df15607728b244a422fb5f165a580f4288ec0800bc91422b853",
+        "teacher_episode_sha256": "54973e514e4a8ceb4e0fa56d382c7aeffb6c1f7e3277731e87442b120d5e6c5c",
+        "bundle_episode_id": "source2_teacher_0000_yaw_000",
+        "bundle_episode_sha256": "f0f8863f6a462df15607728b244a422fb5f165a580f4288ec0800bc91422b853",
+        "frames": 1143,
+        "model": "imports/source2/simulation/teacher_0000_yaw_000.mjb",
+        "model_sha256": "6aa4644a1ccf0f787ec47ddbf3eaaf7d58a1c4733ac5bdf393e8ae13fa19a244",
+        "initial_state": "imports/source2/simulation/teacher_0000_yaw_000.npy",
+        "initial_state_sha256": "1fe5d69bea9f67a90cf37895c93682b54599fb7a9afd678475726e8b2b6cebfa"
+      },
+      {
+        "object": "Raisins",
+        "placement": "yaw_plus15",
+        "source": "/data1/yspark/sim/icra/hope-placement-intake-v1/Raisins-yaw_plus15/Raisins-aa2923a5e542/visual",
+        "source_episode_id": "teacher_0000_yaw_000",
+        "source_episode_sha256": "fc5aabca99d99277e431d0a7086303af40ad2a56eb1c15e16c1a7588218ff1f9",
+        "teacher_episode_sha256": "4089eeb6b9fc78e5cf0b3bb0b303b84cd0924cdb77ed201e900cdf0c4af00dee",
+        "bundle_episode_id": "source3_teacher_0000_yaw_000",
+        "bundle_episode_sha256": "fc5aabca99d99277e431d0a7086303af40ad2a56eb1c15e16c1a7588218ff1f9",
+        "frames": 1008,
+        "model": "imports/source3/simulation/teacher_0000_yaw_000.mjb",
+        "model_sha256": "de6b5a73d15dd8394481ce79cb87165f3cbc827e5b46a09dc40f7e1c0d301106",
+        "initial_state": "imports/source3/simulation/teacher_0000_yaw_000.npy",
+        "initial_state_sha256": "c1f61a51c373913056129596834258d0fd4b34d79780095a7dba5beae7912964"
+      },
+      {
+        "object": "AlphabetSoup",
+        "placement": "x_minus20mm",
+        "source": "/data1/yspark/sim/icra/hope-placement-intake-v1/AlphabetSoup-x_minus20mm/AlphabetSoup-093cc5867244/visual",
+        "source_episode_id": "teacher_0000_yaw_000",
+        "source_episode_sha256": "ff5c36dfe605b6d513a15c7a0c8d0b0f0fba3eab7105c247401cf3b8dfccd885",
+        "teacher_episode_sha256": "49df6b4ad68029a1ef6a99143e9ae9ad08ea97eafb45b0f095d333326ee566d0",
+        "bundle_episode_id": "source4_teacher_0000_yaw_000",
+        "bundle_episode_sha256": "ff5c36dfe605b6d513a15c7a0c8d0b0f0fba3eab7105c247401cf3b8dfccd885",
+        "frames": 1199,
+        "model": "imports/source4/simulation/teacher_0000_yaw_000.mjb",
+        "model_sha256": "a71be2a8c4bba8c3a69f8674f2b017f16ca0812fe8506863562a397e335ddfb4",
+        "initial_state": "imports/source4/simulation/teacher_0000_yaw_000.npy",
+        "initial_state_sha256": "a8a57bfc1465cf0a24ccdcb768eac629c235befd6f619d6e997bcbda08a150fc"
+      },
+      {
+        "object": "AlphabetSoup",
+        "placement": "x_plus20mm",
+        "source": "/data1/yspark/sim/icra/hope-placement-intake-v1/AlphabetSoup-x_plus20mm/AlphabetSoup-67c3baedd092/visual",
+        "source_episode_id": "teacher_0000_yaw_000",
+        "source_episode_sha256": "96623008cc2b097975eac3c20d2cb045f3d23bc619fb26b0e2a4c3b64509283a",
+        "teacher_episode_sha256": "d6f637c35dc0a0a52981bedf23f7869d9285e46bf931a501302c42bb264e409d",
+        "bundle_episode_id": "source5_teacher_0000_yaw_000",
+        "bundle_episode_sha256": "96623008cc2b097975eac3c20d2cb045f3d23bc619fb26b0e2a4c3b64509283a",
+        "frames": 1125,
+        "model": "imports/source5/simulation/teacher_0000_yaw_000.mjb",
+        "model_sha256": "2e3d46aa8f306a377ef9f2f78f3479d332944ea8e0f360ed07b3c4e29b28129c",
+        "initial_state": "imports/source5/simulation/teacher_0000_yaw_000.npy",
+        "initial_state_sha256": "29933e459b43a4312543adc7ea852739788b2958d4e80601681c203fa1e27d9a"
+      },
+      {
+        "object": "Peaches",
+        "placement": "x_plus20mm",
+        "source": "/data1/yspark/sim/icra/hope-placement-intake-v1/Peaches-x_plus20mm/Peaches-acdd527c5e03/visual",
+        "source_episode_id": "teacher_0000_yaw_000",
+        "source_episode_sha256": "572661f443372419304a00bae378d9ef292295c62864872170df07c0c1e9970b",
+        "teacher_episode_sha256": "ebcec15fe6b44c1277b7449d20d50018e9aa620540e136601439c62b79df0f81",
+        "bundle_episode_id": "source6_teacher_0000_yaw_000",
+        "bundle_episode_sha256": "572661f443372419304a00bae378d9ef292295c62864872170df07c0c1e9970b",
+        "frames": 1000,
+        "model": "imports/source6/simulation/teacher_0000_yaw_000.mjb",
+        "model_sha256": "df1e9be43fbbc25e3c20613da41984682f99d8ec2096adb7be61f6f3c6790c9a",
+        "initial_state": "imports/source6/simulation/teacher_0000_yaw_000.npy",
+        "initial_state_sha256": "5ad305d58b370f9679cf96d88723df14ce680016008148957f66db2c71e3dd1e"
+      }
+    ]
+  },
+  "local_validation": {
+    "completed": true,
+    "training_started": false,
+    "stages": [
+      {
+        "name": "cache",
+        "exit_code": 0,
+        "seconds": 58.671405834145844
+      },
+      {
+        "name": "audit",
+        "exit_code": 0,
+        "seconds": 64.43897289177403
+      },
+      {
+        "name": "controls",
+        "exit_code": 0,
+        "seconds": 273.10666658030823
+      },
+      {
+        "name": "preflight",
+        "exit_code": 0,
+        "seconds": 60.98833339381963
+      }
+    ],
+    "audit": {
+      "accepted_episodes": 7,
+      "objects": [
+        "AlphabetSoup",
+        "Peaches",
+        "Raisins"
+      ],
+      "unique_teacher_files": 3,
+      "unique_initial_policy_inputs": 7,
+      "all_home_references_available": true
+    },
+    "controls": {
+      "checks_passed": true,
+      "recorded_action_successes": 7,
+      "stationary_non_successes": 7,
+      "physics_runs": 14
+    },
+    "preflight": {
+      "training_ready_under_explicit_train_only_diagnostic_flag": true,
+      "episode_counts": {
+        "train": 7,
+        "val": 0,
+        "test": 0
+      },
+      "missing": [],
+      "optimizer_steps": 0
+    }
+  },
+  "transfer": {
+    "completed": true,
+    "file_count": 156,
+    "total_bytes": 1653463986,
+    "partial_tree_verified_before_publish": true,
+    "final_tree_verified_after_publish": true,
+    "receipt": "/data1/yspark/projects/dexprompt/student-checks/hope-bundle-v1-transfer/receipt.json",
+    "receipt_completed": true,
+    "transfer_manifest": "hope-bundle-transfer-manifest.json",
+    "transfer_manifest_sha256": "72f5c4f1120589b63366565519ffbe2700f29cd7065704170e8c89fbe0c2e263"
+  },
+  "remote_validation": {
+    "completed": true,
+    "training_started": false,
+    "results": "remote-bundle-checks/results.json",
+    "results_sha256": "5a71e8627a6497cf96f9ac98fb6abd5f13f4d80b4141997140f75c637dd9e4be",
+    "stages": [
+      {
+        "name": "cache",
+        "exit_code": 0,
+        "seconds": 83.04397533898009
+      },
+      {
+        "name": "audit",
+        "exit_code": 0,
+        "seconds": 90.03507985104807
+      },
+      {
+        "name": "preflight",
+        "exit_code": 0,
+        "seconds": 165.01441064401297
+      },
+      {
+        "name": "controls",
+        "exit_code": 0,
+        "seconds": 455.25713350600563
+      },
+      {
+        "name": "full-model-0-Peaches",
+        "exit_code": 0,
+        "seconds": 188.51383959897794
+      },
+      {
+        "name": "full-model-1-Raisins",
+        "exit_code": 0,
+        "seconds": 194.6075256280019
+      },
+      {
+        "name": "full-model-2-AlphabetSoup",
+        "exit_code": 0,
+        "seconds": 134.03397234895965
+      }
+    ],
+    "audit": {
+      "completed": true,
+      "accepted_episodes": 7,
+      "objects": [
+        "AlphabetSoup",
+        "Peaches",
+        "Raisins"
+      ],
+      "unique_teacher_files": 3,
+      "unique_initial_policy_inputs": 7
+    },
+    "controls": {
+      "checks_passed": true,
+      "recorded_action_successes": 7,
+      "stationary_non_successes": 7,
+      "physics_runs": 14
+    },
+    "preflight": {
+      "training_ready_under_explicit_train_only_diagnostic_flag": true,
+      "episode_counts": {
+        "train": 7,
+        "val": 0,
+        "test": 0
+      },
+      "optimizer_steps": 0
+    },
+    "full_model_batches": 3,
+    "full_model": [
+      {
+        "object_id": "Peaches",
+        "episode_id": "source0_teacher_0008_yaw_000",
+        "sample_indices": [
+          0,
+          500
+        ],
+        "sample_ticks": [
+          0,
+          500
+        ],
+        "later_phase": "close",
+        "real_dinov2": true,
+        "full_training_architecture_checked": true,
+        "finite_loss_and_action": true,
+        "prediction_shape": [
+          2,
+          64,
+          27
+        ],
+        "model_unchanged": true,
+        "optimizer_steps": 0,
+        "backward_calls": 0,
+        "random_initialization_loss": 0.8028819561004639
+      },
+      {
+        "object_id": "Raisins",
+        "episode_id": "source1_teacher_0004_yaw_000",
+        "sample_indices": [
+          1006,
+          1506
+        ],
+        "sample_ticks": [
+          0,
+          500
+        ],
+        "later_phase": "close",
+        "real_dinov2": true,
+        "full_training_architecture_checked": true,
+        "finite_loss_and_action": true,
+        "prediction_shape": [
+          2,
+          64,
+          27
+        ],
+        "model_unchanged": true,
+        "optimizer_steps": 0,
+        "backward_calls": 0,
+        "random_initialization_loss": 1.0696789026260376
+      },
+      {
+        "object_id": "AlphabetSoup",
+        "episode_id": "source2_teacher_0000_yaw_000",
+        "sample_indices": [
+          1991,
+          2491
+        ],
+        "sample_ticks": [
+          0,
+          500
+        ],
+        "later_phase": "close",
+        "real_dinov2": true,
+        "full_training_architecture_checked": true,
+        "finite_loss_and_action": true,
+        "prediction_shape": [
+          2,
+          64,
+          27
+        ],
+        "model_unchanged": true,
+        "optimizer_steps": 0,
+        "backward_calls": 0,
+        "random_initialization_loss": 0.8605640530586243
+      }
+    ],
+    "dino_weight_sha256": {
+      "head_weights": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73",
+      "wrist_weights": "d5383ea8f4877b2472eb973e0fd72d557c7da5d3611bd527ceeb1d7162cbf428"
+    },
+    "optimizer_steps": 0,
+    "backward_calls": 0
+  },
+  "checker_incident": {
+    "initial_error": "KeyError('phase') after all CPU stages passed",
+    "cause": "diagnostic helper looked for phase in the image cache although phase is retained only in the authoritative source episode",
+    "fix": "read phase from the source NPZ, verify its length against cached action, and resume only after validating the exact four successful CPU stages",
+    "old_helper_sha256": "43ea2b15f7b90fc52e778c1b5a6946856fb4bf636953dec0c60c6e9e72a5f6f2",
+    "fixed_helper_sha256": "e123a453c00231f214557b65cc8a1ded9d51a6d2d355eae1402f22955509320b",
+    "data_model_or_teacher_changed": false
+  },
+  "not_verified": [
+    "no student policy was trained on this bundle",
+    "no closed-loop learned-policy grasp was run on HOPE objects",
+    "no independent validation or test object exists in this seven-episode bundle",
+    "full DINO was checked on three two-sample batches, not on every frame of all seven episodes",
+    "point and language grounding and clutter generalization were not tested"
+  ],
+  "next_single_factor_experiment": {
+    "plan": "../../../plans/STUDENT_NEXT_SINGLE_FACTOR.md",
+    "fixed_limits": "../../../plans/STUDENT_NEXT_SLEW_LIMITS.json",
+    "executed": false,
+    "training_required": false
+  }
+}

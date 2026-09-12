@@ -1,0 +1,609 @@
+{
+  "action_dim": 27,
+  "action_representation": "absolute_joint_position",
+  "control_dt": 0.02,
+  "dataset_kind": "teacher_execution",
+  "episodes": [
+    {
+      "accepted": true,
+      "candidate_id": "05b63bfb299053e9edf05f61741c849b103d7863c3e462a90fd30f4c73d983a9",
+      "condition": {
+        "kind": "object",
+        "object_id": "core_bottle_6444875e3217bf891f5f48a891d827bd"
+      },
+      "episode_id": "source0_source0_teacher_0002_yaw_000",
+      "object_id": "core_bottle_6444875e3217bf891f5f48a891d827bd",
+      "path": "episodes/source0_source0_teacher_0002_yaw_000.npz",
+      "provenance": {
+        "candidate_id": "05b63bfb299053e9edf05f61741c849b103d7863c3e462a90fd30f4c73d983a9",
+        "condition": {
+          "kind": "object",
+          "object_id": "core_bottle_6444875e3217bf891f5f48a891d827bd"
+        },
+        "dataset_import": {
+          "episode_id": "source0_teacher_0002_yaw_000",
+          "source": "/home/yspark/projects/DexPrompt/out/student-bottle-can-v1",
+          "source_episode_sha256": "298bc83eda8bbb53a2b811545aa7a6c57bf75ba8aca6bdb1cd80867a1c3c2d78",
+          "source_manifest_sha256": "267c23e2fa9a7d4104aa37d8b7436457301c4828d1af92c207f2ee986607946f"
+        },
+        "execution": {
+          "adapted_target": {
+            "final_command": [
+              -0.7183042168617249,
+              -0.7003806829452515,
+              0.8742583394050598,
+              -1.7405226230621338,
+              0.23036769032478333,
+              -0.600797176361084,
+              0.5087759494781494,
+              -0.03213127702474594,
+              -1.3178064823150635,
+              0.2546393871307373,
+              0.10933554917573929,
+              -0.516562283039093,
+              0.9957950711250305,
+              0.3012295663356781,
+              0.6531760692596436,
+              -0.3310000002384186,
+              0.28780001401901245,
+              0.1363999992609024,
+              0.31529998779296875,
+              -0.2976999878883362,
+              0.17920000851154327,
+              0.00840000156313181,
+              0.3133000135421753,
+              -0.27643710374832153,
+              0.20475009083747864,
+              0.005266172811388969,
+              0.3201214671134949
+            ],
+            "final_measured": [
+              -0.6829968690872192,
+              -0.6968666315078735,
+              0.894591212272644,
+              -1.727524757385254,
+              0.23429054021835327,
+              -0.5995360612869263,
+              0.5184645652770996,
+              -0.031991586089134216,
+              -1.3170194625854492,
+              0.25414398312568665,
+              0.10949136316776276,
+              -0.5165694952011108,
+              0.994941771030426,
+              0.3006306290626526,
+              0.6526897549629211,
+              -0.33095982670783997,
+              0.2878682017326355,
+              0.1364241987466812,
+              0.31530290842056274,
+              -0.30047711730003357,
+              0.17927967011928558,
+              0.008427227847278118,
+              0.3133036494255066,
+              -0.25718024373054504,
+              0.2048095166683197,
+              0.005295720882713795,
+              0.320125013589859
+            ],
+            "max_residual_from_squeeze": 0.6463926732540131
+          },
+          "compiled_profile": {
+            "actuator_force_limits": [
+              [
+                -61.4,
+                61.4
+              ],
+              [
+                -61.4,
+                61.4
+              ],
+              [
+                -31.7,
+                31.7
+              ],
+              [
+                -31.7,
+                31.7
+              ],
+              [
+                -31.7,
+                31.7
+              ],
+              [
+                -31.7,
+                31.7
+              ],
+              [
+                -5.1,
+                5.1
+              ],
+              [
+                -3.09,
+                3.09
+              ],
+              [
+                -3.09,
+                3.09
+              ],
+              [
+                -3.09,
+                3.09
+              ],
+              [
+                -3.09,
+                3.09
+              ],
+              [
+                -3.09,
+                3.09
+              ],
+              [
+                -3.09,
+                3.09
+              ],
+              [
+                -3.09,
+                3.09
+              ],
+              [
+                -3.09,
+                3.09
+              ],
+              [
+                -3.09,
+                3.09
+              ],
+              [
+                -3.09,
+                3.09
+              ],
+              [
+                -3.09,
+                3.09
+              ],
+              [
+                -3.09,
+                3.09
+              ],
+              [
+                -3.09,
+                3.09
+              ],
+              [
+                -3.09,
+                3.09
+              ],
+              [
+                -3.09,
+                3.09
+              ],
+              [
+                -3.09,
+                3.09
+              ],
+              [
+                -3.09,
+                3.09
+              ],
+              [
+                -3.09,
+                3.09
+              ],
+              [
+                -3.09,
+                3.09
+              ],
+              [
+                -3.09,
+                3.09
+              ]
+            ],
+            "actuator_kp": [
+              600.0,
+              600.0,
+              600.0,
+              600.0,
+              600.0,
+              600.0,
+              200.0,
+              500.0,
+              500.0,
+              500.0,
+              500.0,
+              500.0,
+              500.0,
+              500.0,
+              500.0,
+              500.0,
+              500.0,
+              500.0,
+              500.0,
+              500.0,
+              500.0,
+              500.0,
+              500.0,
+              500.0,
+              500.0,
+              500.0,
+              500.0
+            ],
+            "actuator_kv": [
+              76.69613914658487,
+              76.61867714729803,
+              35.05071945329333,
+              49.486099138808804,
+              34.82238704850415,
+              37.646980286379545,
+              10.539745185258433,
+              30.0,
+              30.0,
+              30.0,
+              30.0,
+              30.0,
+              30.0,
+              30.0,
+              30.0,
+              30.0,
+              30.0,
+              30.0,
+              30.0,
+              30.0,
+              30.0,
+              30.0,
+              30.0,
+              30.0,
+              30.0,
+              30.0,
+              30.0
+            ],
+            "contact_solimp": [
+              [
+                0.9,
+                0.95,
+                0.001,
+                0.5,
+                2.0
+              ]
+            ],
+            "contact_solref": [
+              [
+                0.02,
+                1.0
+              ]
+            ],
+            "force_semantics": "sum of nonnegative contact-normal forces per whole digit, N",
+            "geom_condim": [
+              3,
+              4
+            ],
+            "geom_friction": [
+              [
+                1.0,
+                0.005,
+                0.0001
+              ],
+              [
+                1.0,
+                0.05,
+                0.0001
+              ],
+              [
+                1.8,
+                0.005,
+                0.0001
+              ],
+              [
+                5.0,
+                1.0,
+                0.3
+              ]
+            ],
+            "integrator": 3,
+            "iterations": 100,
+            "mujoco_version": "3.3.3",
+            "note": "object anti-spin friction also mixes into finger-object contacts; defaults unchanged",
+            "solver": 2,
+            "target_mass_kg": 0.09528842996904349,
+            "timestep": 0.002,
+            "tolerance": 1e-08
+          },
+          "controller": {
+            "approach_ticks": 200,
+            "arrive_ticks": 50,
+            "close_ticks": 600,
+            "closure_speed": 0.008,
+            "descend_ticks": 100,
+            "geometry_feedback": true,
+            "hold_force": 4.0,
+            "hold_ticks": 50,
+            "lift_force": null,
+            "lift_height": 0.15,
+            "lift_ticks": 300,
+            "overhead": 0.15,
+            "penetration_margin": 0.75,
+            "policy_dt": 0.02,
+            "preload": 2.0,
+            "preview_ticks": 2,
+            "ready_ticks": 25,
+            "residual": 0.35,
+            "standoff": 0.1,
+            "transit_ticks": 150
+          },
+          "distractor_ids": [],
+          "early_terminated": false,
+          "failure_reason": null,
+          "geometry_hashes": {
+            "imports/source0/imports/source0/simulation/teacher_0002_yaw_000.mjb": "f183993f472bb65c2d71697a7ad8c06f4ff28e1c92f690de5c3a8a7609e4b5c7"
+          },
+          "guard_scaled_ticks": 1,
+          "initial_clear": true,
+          "initial_contact_groups": [
+            false,
+            false
+          ],
+          "initial_robot_object_penetration": 0.0,
+          "initial_robot_table_penetration": 0.0,
+          "initial_state": "imports/source0/imports/source0/simulation/teacher_0002_yaw_000.npy",
+          "initial_state_sha256": "bb132b05e5a7babb7603ab566d500b47a0e109c46f24cb7d289063dc47ed79b0",
+          "initial_state_spec": "mjSTATE_INTEGRATION",
+          "initial_target_height": 0.9021798708382727,
+          "model": "imports/source0/imports/source0/simulation/teacher_0002_yaw_000.mjb",
+          "object_scale": 0.11,
+          "original_target": {
+            "grasp_qpos": [
+              0.0652347281575203,
+              0.08257153630256653,
+              0.08429413288831711,
+              0.024080924689769745,
+              0.5995709896087646,
+              -0.7931985855102539,
+              0.10378232598304749,
+              -0.12713021039962769,
+              -1.467764973640442,
+              0.18045006692409515,
+              0.11585782468318939,
+              -0.4432009160518646,
+              1.0111838579177856,
+              0.21427568793296814,
+              0.6224692463874817,
+              -0.32309696078300476,
+              0.7233723402023315,
+              0.3416767716407776,
+              0.7879409790039062,
+              -0.30654966831207275,
+              0.4498973488807678,
+              0.13409221172332764,
+              0.7833559513092041,
+              0.389212429523468,
+              0.48961561918258667,
+              0.1394287645816803,
+              0.7851234674453735
+            ],
+            "squeeze_qpos": [
+              0.0652347281575203,
+              0.08257153630256653,
+              0.08429413288831711,
+              0.024080924689769745,
+              0.5995709896087646,
+              -0.7931985855102539,
+              0.10378232598304749,
+              -0.12491996586322784,
+              -1.4674346446990967,
+              0.2014404833316803,
+              0.12443012744188309,
+              -0.4473058879375458,
+              1.0417548418045044,
+              0.2341793179512024,
+              0.6308499574661255,
+              -0.32309696078300476,
+              0.7233723402023315,
+              0.3416767716407776,
+              0.7879409790039062,
+              -0.30654966831207275,
+              0.4498973488807678,
+              0.13409221172332764,
+              0.7833559513092041,
+              0.389212429523468,
+              0.48961561918258667,
+              0.1394287645816803,
+              0.7851234674453735
+            ],
+            "world_root": [
+              [
+                -0.2799597615546117,
+                -0.9561312602670234,
+                0.08622995165841482,
+                0.4152473829041129
+              ],
+              [
+                -0.16263050833107656,
+                0.13575833122124834,
+                0.9773029483105694,
+                -0.08429409152915997
+              ],
+              [
+                -0.9461363058158133,
+                0.25958187177988645,
+                -0.19350297716828535,
+                0.9847433204743485
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          },
+          "path_attempts": [
+            {
+              "axis": 0,
+              "sign": 1,
+              "status": "passed"
+            }
+          ],
+          "simulation_substeps": 10,
+          "source_archive_root": "imports/source0/teacher_sources",
+          "source_hashes": {
+            "scripts/collect_episodes.py": "b407f00ff1d6cb09304638875d097e8831a7228e1f5342e96abe06eb7d9c462f",
+            "scripts/collect_teacher_dataset.py": "b49a65cfb65ce873a2233b308b317a3bc0fbe5554c68e0f40e15ebbd0ae44786",
+            "src/icra/arm.py": "54ea9a88d552204586347b17fc1cb6cedbd733a621df32a888f7702df2cabf67",
+            "src/icra/conditioning.py": "6dbe8661c015ac006755132f801660092f8666336461ce9fa9be29eec776d2a4",
+            "src/icra/contact_control.py": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0",
+            "src/icra/dataset.py": "1223b3765a2d20bbafdd35160cbf327dc9b409e5268b9a277f34df9d54e7bb1e",
+            "src/icra/execution.py": "c70636bf1f5d09e65e624150a18f17860545eec3887f7cd97b3e3e11c2251ec0",
+            "src/icra/objects.py": "ee8ab21a246f029b6e63d09591549b30c6aa027e1f1d99577e6d021997f4464a",
+            "src/icra/scene.py": "1ade9cecc5ca53139513682247b1d3de3a4669bd6c90010eb8321ba1f5f5bfee",
+            "src/icra/simulation.py": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25"
+          },
+          "start_mode": "home",
+          "teacher_hand_xml_sha256": "4db2e825d82904bc8299596120f416ba7bada2f59d1a66638c12961e33b6e3fe",
+          "teacher_root_offset_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "visual_profile": {
+            "head_fovy": 60.0,
+            "head_quat": [
+              0.5792279653399943,
+              0.40557978767504993,
+              -0.40557978767306396,
+              -0.5792279653371581
+            ],
+            "head_tilt_down_degrees": 20,
+            "height": 256,
+            "original_head_quat": [
+              0.5,
+              0.5000000000024483,
+              -0.5,
+              -0.49999999999755174
+            ],
+            "version": 2,
+            "width": 256
+          },
+          "yaw_rad": 0.0
+        },
+        "grasp_type": "33_Inferior_Pincer",
+        "object_id": "core_bottle_6444875e3217bf891f5f48a891d827bd",
+        "required_contact_groups": [
+          [
+            "finger_r_link3",
+            "finger_r_link4"
+          ],
+          [
+            "finger_r_link7",
+            "finger_r_link8"
+          ]
+        ],
+        "teacher": {
+          "name": "Dexonomy",
+          "source_path": "/home/yspark/projects/Dexonomy/output/big1_offset_s0_hx5_d20/grasp_data/33_Inferior_Pincer/core_bottle_6444875e3217bf891f5f48a891d827bd/floating/scale011/0_2_grasp.npy",
+          "source_sha256": "05b63bfb299053e9edf05f61741c849b103d7863c3e462a90fd30f4c73d983a9"
+        },
+        "visual_derivation": {
+          "full_physics_replay_checked": true,
+          "source_archive_root": "imports/source0/imports/source0/sources",
+          "source_dataset": "/home/yspark/projects/ICRA/out/offset-compare-93/executed-offset",
+          "source_episode_sha256": "3b3bf3df72ebe44ee588f6f13ed3f8ba5abeed0c2edddb8847c7c2070ecc1a6e",
+          "source_hashes": {
+            "scripts/audit_mask_visibility.py": "5c50ff961076b5d17194d49f07ab2627f44bb3e3c293bcfbf747c61a1de38de7",
+            "scripts/collect_episodes.py": "92e2b0bfda49a6a522db8924fb8daddd425292be7894cbe2cf191ddc046e66ee",
+            "scripts/prepare_visual_dataset.py": "5b68f4c75bea3aeb0684e882e8dd5a4fdc7aba2d9acd8a0fc1d24df38f3492ed",
+            "scripts/replay_hx5_student.py": "1353a9693abd7ac00e28b12326bea4940123e8e1dfa30840b3aba549fd5c23ba",
+            "src/icra/execution.py": "bef6de98f80de61f6c79c7ee295c2f13a5120525724e25c7f5eddbbc0d2fd80f",
+            "src/icra/simulation.py": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25",
+            "src/icra/visual_observation.py": "29ff577e80c27debb441d0e5283546f83add1659ed983ba722628de7ccabd5c3"
+          },
+          "source_model_sha256": "e2afc5c00f546f494534b22efcdbe15d79529cd15cbc83a0343fbb13d9b47c0a"
+        }
+      },
+      "quality": {
+        "accepted": true,
+        "duration_seconds": 19.479999999999997,
+        "frames": 974,
+        "limits": {
+          "max_approach_displacement": 0.01,
+          "max_digit_force": 30.0,
+          "max_penetration": 0.002,
+          "max_table_penetration": 1e-06,
+          "min_contact_force": 0.1,
+          "min_hold_seconds": 0.5,
+          "min_lift": 0.1
+        },
+        "longest_contact_preserving_hold_seconds": 1.0000000000000004,
+        "max_approach_displacement": 2.9196960682052307e-05,
+        "max_contact_groups": 2,
+        "max_digit_force": 8.768535717600162,
+        "max_interval_minimum_rise": 0.14641263817472594,
+        "max_non_target_displacement": 0.0,
+        "max_robot_object_penetration": 0.0017611118693082056,
+        "max_robot_obstacle_penetration": 0.0,
+        "max_robot_table_penetration": 0.0,
+        "reasons": [],
+        "required_contact_groups": 2,
+        "terminal_contact_preserving_hold_seconds": 1.0000000000000004
+      },
+      "sha256": "298bc83eda8bbb53a2b811545aa7a6c57bf75ba8aca6bdb1cd80867a1c3c2d78",
+      "split": "train"
+    }
+  ],
+  "joint_names": [
+    "arm_r_joint1",
+    "arm_r_joint2",
+    "arm_r_joint3",
+    "arm_r_joint4",
+    "arm_r_joint5",
+    "arm_r_joint6",
+    "arm_r_joint7",
+    "finger_r_joint1",
+    "finger_r_joint2",
+    "finger_r_joint3",
+    "finger_r_joint4",
+    "finger_r_joint5",
+    "finger_r_joint6",
+    "finger_r_joint7",
+    "finger_r_joint8",
+    "finger_r_joint9",
+    "finger_r_joint10",
+    "finger_r_joint11",
+    "finger_r_joint12",
+    "finger_r_joint13",
+    "finger_r_joint14",
+    "finger_r_joint15",
+    "finger_r_joint16",
+    "finger_r_joint17",
+    "finger_r_joint18",
+    "finger_r_joint19",
+    "finger_r_joint20"
+  ],
+  "observation_action_alignment": "observation_before_action",
+  "quality_sample_alignment": "post_action_physics_interval_aggregates",
+  "rejected": [],
+  "schema_version": 3,
+  "split": {
+    "by": "object",
+    "counts": {
+      "test": 0,
+      "train": 1,
+      "val": 0
+    },
+    "fractions": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "group_counts": {
+      "test": 0,
+      "train": 1,
+      "val": 0
+    },
+    "groups": {
+      "core_bottle_6444875e3217bf891f5f48a891d827bd": "train"
+    },
+    "seed": 0,
+    "warnings": []
+  },
+  "training_ready": false
+}

@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "cache_kind": "hx5_student_memmap",
+  "dataset_sha256": "72424900441a94fa3ece6c9d35a5a2cff72a43b3fed51fa4aa6496aab3ca3665",
+  "source_dataset": "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/Raisins-centre-3e8fa799/visual/manifest.json",
+  "episodes": [
+    {
+      "episode_id": "teacher_0000_yaw_000",
+      "source_sha256": "153c2c3b922a1d8e93c1adb0e951c264cd0c39708fdd1052908fbdb2bf6274ac",
+      "arrays": {
+        "action": {
+          "path": "episodes/teacher_0000_yaw_000/action.npy",
+          "sha256": "2e7ff281c95aeff51eb805cf6a7ee51d46ea2541dc5ee3a5ce5d01e73d15b61e",
+          "shape": [
+            1046,
+            27
+          ],
+          "dtype": "<f8",
+          "file_size": 226064
+        },
+        "right_state": {
+          "path": "episodes/teacher_0000_yaw_000/right_state.npy",
+          "sha256": "410ab1cf620d96559dbd9396ed66f23563a255c0027e5e524a4daf52159791fa",
+          "shape": [
+            1046,
+            27
+          ],
+          "dtype": "<f4",
+          "file_size": 113096
+        },
+        "rgbm": {
+          "path": "episodes/teacher_0000_yaw_000/rgbm.npy",
+          "sha256": "a4a050f25ca433f1750f1fb65629f1f85fc78b755203869c265c88471ce4f674",
+          "shape": [
+            1046,
+            256,
+            256,
+            4
+          ],
+          "dtype": "|u1",
+          "file_size": 274202752
+        },
+        "right_cam_img": {
+          "path": "episodes/teacher_0000_yaw_000/right_cam_img.npy",
+          "sha256": "7d3e614992f1d5e46a2f6948bf4036cc4485cb45c0eabf512f0e17187f6b6204",
+          "shape": [
+            1046,
+            256,
+            256,
+            3
+          ],
+          "dtype": "|u1",
+          "file_size": 205652096
+        },
+        "timestamp": {
+          "path": "episodes/teacher_0000_yaw_000/timestamp.npy",
+          "sha256": "69c94d68af93c4893c8c4c8306efa0904c02adb051450bd3a87a6b5a1952f4a2",
+          "shape": [
+            1046
+          ],
+          "dtype": "<f8",
+          "file_size": 8496
+        },
+        "control_dt": {
+          "path": "episodes/teacher_0000_yaw_000/control_dt.npy",
+          "sha256": "75e56d8d437015a4efb3e83d116d8ea6bef68c36dc1e2b935cecad04c058660b",
+          "shape": [
+            1046
+          ],
+          "dtype": "<f8",
+          "file_size": 8496
+        },
+        "part_mask": {
+          "path": "episodes/teacher_0000_yaw_000/part_mask.npy",
+          "sha256": "2cf8678569a1a311d9f5fd4a7a09248ae868364e0d62259ab9637b2aa82b8020",
+          "shape": [
+            1046,
+            256,
+            256
+          ],
+          "dtype": "|u1",
+          "file_size": 68550784
+        },
+        "wrist_mask": {
+          "path": "episodes/teacher_0000_yaw_000/wrist_mask.npy",
+          "sha256": "484f3be367c2a78beb7e0fd2f335e44426b4ecae4e5f6e852bae26fd5e081e01",
+          "shape": [
+            1046,
+            256,
+            256
+          ],
+          "dtype": "|u1",
+          "file_size": 68550784
+        },
+        "wrist_part_mask": {
+          "path": "episodes/teacher_0000_yaw_000/wrist_part_mask.npy",
+          "sha256": "2cf8678569a1a311d9f5fd4a7a09248ae868364e0d62259ab9637b2aa82b8020",
+          "shape": [
+            1046,
+            256,
+            256
+          ],
+          "dtype": "|u1",
+          "file_size": 68550784
+        },
+        "target_pixels": {
+          "path": "episodes/teacher_0000_yaw_000/target_pixels.npy",
+          "sha256": "5495f29bb485bb63c24bf71f915ec9a4e465736ac9601c0c87779cda2dda3fa2",
+          "shape": [
+            1046,
+            4
+          ],
+          "dtype": "<i4",
+          "file_size": 16864
+        },
+        "target_visible": {
+          "path": "episodes/teacher_0000_yaw_000/target_visible.npy",
+          "sha256": "13d2b98393b16c765f4f905bf2420dde9ea8b9bf117268cdbc0bc2a94617108e",
+          "shape": [
+            1046,
+            4
+          ],
+          "dtype": "|u1",
+          "file_size": 4312
+        }
+      }
+    }
+  ],
+  "total_bytes": 685884528,
+  "optimizer_steps": 0
+}

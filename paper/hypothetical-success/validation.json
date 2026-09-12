@@ -1,0 +1,27 @@
+{
+  "status": "authoring_checks_passed_not_experiment_validation",
+  "pages": 7,
+  "figures": 4,
+  "tables": 5,
+  "equations": 6,
+  "references": 9,
+  "prose_words": 3441,
+  "all_values_hypothetical": true,
+  "checks": {
+    "teacher_denominators": true,
+    "student_mean_scores": true,
+    "local_links": true,
+    "citation_keys": true,
+    "latex_environment_pairs": true,
+    "hypothetical_banner_on_every_pdf_page": true,
+    "pdf_rendered_and_visually_inspected": true,
+    "original_factual_files_preserved": {
+      "paper/dexprompt.tex": "5ad352800525a7bae9297c9b1ebe7649f8e1d2ab6d815cf18e5d03bf3e1cefc7",
+      "RESEARCH_PLAN.md": "85404120e607e9b29620211ecfb67dba1371f98c80db26c54f83b118c9ba66b9",
+      "PAPER_TODO.md": "15037dda38f9eaecfb8f0ccfdcf50081a9fb013e0b4e98e57aa586cbdd7a4741",
+      "RESUME.md": "8b36b0b8070d7c2426a9554c3c7e859921ce3a01c1927b5820076aefb5aaea6b"
+    }
+  },
+  "pdf_engine": "ReportLab; LaTeX source not compiled locally",
+  "experiment_runs": 0
+}

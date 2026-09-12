@@ -1,0 +1,205 @@
+{
+  "completed": true,
+  "training_started": false,
+  "dino_executed": false,
+  "physics_replayed_in_this_audit": false,
+  "episodes": [
+    {
+      "episode_id": "source0_teacher_0008_yaw_000",
+      "object_id": "Peaches",
+      "split": "train",
+      "frames": 1006,
+      "home_reference_available": true,
+      "first_eligible_tick": 0,
+      "reference_ticks": [
+        0,
+        443
+      ],
+      "checked_preprocessing_ticks": [
+        0,
+        200,
+        443,
+        450,
+        1005
+      ],
+      "initial_input_sha256": "af65621b9ab414e152f2bd070c6c6dedc1d9fee46c428a2dff658e62a520c8bc",
+      "first_chunk_sha256": "d68c53839ab9b22ddaafa22c850fef092679c77e93ee6e73d98f5046819207c0",
+      "episode_sha256": "791711006eea1cab0adaf291fc4cf48abc9e3120247ee8bab813ed2dfc941354",
+      "teacher_sha256": "203b95f140d07f8aeadf7b5eaaac9b1e52c75bbfe21460751fc2526f39bcf586",
+      "quality_accepted": true,
+      "model_sha256": "d18bdf7faee3922b9ae2bdb2059116fc2a967f9942230deacec1d47fdf376d4c",
+      "initial_state_sha256": "538414e596edd36acb6414b6600b4afe6d51568d54d48d4f68322af2005bdabe"
+    },
+    {
+      "episode_id": "source1_teacher_0004_yaw_000",
+      "object_id": "Raisins",
+      "split": "train",
+      "frames": 985,
+      "home_reference_available": true,
+      "first_eligible_tick": 0,
+      "reference_ticks": [
+        0,
+        388
+      ],
+      "checked_preprocessing_ticks": [
+        0,
+        200,
+        388,
+        450,
+        984
+      ],
+      "initial_input_sha256": "11d5e41c6ad3f29b23de16861514c4be887dc093303351367542aec8b34e3537",
+      "first_chunk_sha256": "f665ce21138c83ff7e741231d8b965b847df9d7143f48476ee16a3dcf272d924",
+      "episode_sha256": "99e46e55e53fffe0ac5da041f29dd10360ea31f8ce3d3db6093dee18b93a31bf",
+      "teacher_sha256": "0ddf3447c061b986c4ef421141d56bd8f1d430ee415040f59a61f8f9c53aac10",
+      "quality_accepted": true,
+      "model_sha256": "6adf9bd2367e7618e26594c7ab01b2f08d5e09ff6e9fca6eece2b8c16797096c",
+      "initial_state_sha256": "96713c98c9b3c533a6cdeb05dedfc0910fcfe9b9adfcab9cf2735b8e7591aebf"
+    },
+    {
+      "episode_id": "source2_teacher_0000_yaw_000",
+      "object_id": "AlphabetSoup",
+      "split": "train",
+      "frames": 1143,
+      "home_reference_available": true,
+      "first_eligible_tick": 0,
+      "reference_ticks": [
+        0,
+        386
+      ],
+      "checked_preprocessing_ticks": [
+        0,
+        200,
+        386,
+        450,
+        1142
+      ],
+      "initial_input_sha256": "3f9c4ac8de7769cf3bc3413ab4fd5a9eb28841503b8dc5532cd55fe0fdb18136",
+      "first_chunk_sha256": "c3485c78489d89040213a24e4a97e79a2a43e551b82784eb94085ad0cf90ec01",
+      "episode_sha256": "f0f8863f6a462df15607728b244a422fb5f165a580f4288ec0800bc91422b853",
+      "teacher_sha256": "057c04e1d5755d4aa88bdc9cbe8bcebbc234b3d6c00da572cf8fc4bfd118f4bc",
+      "quality_accepted": true,
+      "model_sha256": "6aa4644a1ccf0f787ec47ddbf3eaaf7d58a1c4733ac5bdf393e8ae13fa19a244",
+      "initial_state_sha256": "1fe5d69bea9f67a90cf37895c93682b54599fb7a9afd678475726e8b2b6cebfa"
+    },
+    {
+      "episode_id": "source3_teacher_0000_yaw_000",
+      "object_id": "Raisins",
+      "split": "train",
+      "frames": 1008,
+      "home_reference_available": true,
+      "first_eligible_tick": 0,
+      "reference_ticks": [
+        0,
+        388
+      ],
+      "checked_preprocessing_ticks": [
+        0,
+        200,
+        388,
+        450,
+        1007
+      ],
+      "initial_input_sha256": "5546cb4fc884f2fad94dbb5bd1840965aa0ae2525b588e7ad1ec9b71f33741e2",
+      "first_chunk_sha256": "51957c1a62999f846ea1c8988fc8c63c1cd3c3ce2d5f81f761cc2198e1589407",
+      "episode_sha256": "fc5aabca99d99277e431d0a7086303af40ad2a56eb1c15e16c1a7588218ff1f9",
+      "teacher_sha256": "0ddf3447c061b986c4ef421141d56bd8f1d430ee415040f59a61f8f9c53aac10",
+      "quality_accepted": true,
+      "model_sha256": "de6b5a73d15dd8394481ce79cb87165f3cbc827e5b46a09dc40f7e1c0d301106",
+      "initial_state_sha256": "c1f61a51c373913056129596834258d0fd4b34d79780095a7dba5beae7912964"
+    },
+    {
+      "episode_id": "source4_teacher_0000_yaw_000",
+      "object_id": "AlphabetSoup",
+      "split": "train",
+      "frames": 1199,
+      "home_reference_available": true,
+      "first_eligible_tick": 0,
+      "reference_ticks": [
+        0,
+        354
+      ],
+      "checked_preprocessing_ticks": [
+        0,
+        200,
+        354,
+        450,
+        1198
+      ],
+      "initial_input_sha256": "451b283e17c9e62b6c77925fad5e7146c79a249b912e08d7082903e621b0b7fe",
+      "first_chunk_sha256": "d5c0f4de997bd6113e0c6b23f7c57395f9ed8696b36775003ebfcbda66bf2132",
+      "episode_sha256": "ff5c36dfe605b6d513a15c7a0c8d0b0f0fba3eab7105c247401cf3b8dfccd885",
+      "teacher_sha256": "057c04e1d5755d4aa88bdc9cbe8bcebbc234b3d6c00da572cf8fc4bfd118f4bc",
+      "quality_accepted": true,
+      "model_sha256": "a71be2a8c4bba8c3a69f8674f2b017f16ca0812fe8506863562a397e335ddfb4",
+      "initial_state_sha256": "a8a57bfc1465cf0a24ccdcb768eac629c235befd6f619d6e997bcbda08a150fc"
+    },
+    {
+      "episode_id": "source5_teacher_0000_yaw_000",
+      "object_id": "AlphabetSoup",
+      "split": "train",
+      "frames": 1125,
+      "home_reference_available": true,
+      "first_eligible_tick": 0,
+      "reference_ticks": [
+        0,
+        417
+      ],
+      "checked_preprocessing_ticks": [
+        0,
+        200,
+        417,
+        450,
+        1124
+      ],
+      "initial_input_sha256": "c90cf8a1b618a5e996a4299c73d2f58c4216b61363f1142ef7f8f10f84e9452a",
+      "first_chunk_sha256": "50e66aae347f72d88c8ca22c9888705a10f96dbc35a1ba27509922a129d527ff",
+      "episode_sha256": "96623008cc2b097975eac3c20d2cb045f3d23bc619fb26b0e2a4c3b64509283a",
+      "teacher_sha256": "057c04e1d5755d4aa88bdc9cbe8bcebbc234b3d6c00da572cf8fc4bfd118f4bc",
+      "quality_accepted": true,
+      "model_sha256": "2e3d46aa8f306a377ef9f2f78f3479d332944ea8e0f360ed07b3c4e29b28129c",
+      "initial_state_sha256": "29933e459b43a4312543adc7ea852739788b2958d4e80601681c203fa1e27d9a"
+    },
+    {
+      "episode_id": "source6_teacher_0000_yaw_000",
+      "object_id": "Peaches",
+      "split": "train",
+      "frames": 1000,
+      "home_reference_available": true,
+      "first_eligible_tick": 0,
+      "reference_ticks": [
+        0,
+        443
+      ],
+      "checked_preprocessing_ticks": [
+        0,
+        200,
+        443,
+        450,
+        999
+      ],
+      "initial_input_sha256": "0c0fde66619ce9568a1723575fcb1b7e6fd8afae63765785c3811a3709a70055",
+      "first_chunk_sha256": "118af92e0dc8f57868f2a0461c96c834a44162860783bbbf54268215a68c3037",
+      "episode_sha256": "572661f443372419304a00bae378d9ef292295c62864872170df07c0c1e9970b",
+      "teacher_sha256": "203b95f140d07f8aeadf7b5eaaac9b1e52c75bbfe21460751fc2526f39bcf586",
+      "quality_accepted": true,
+      "model_sha256": "df1e9be43fbbc25e3c20613da41984682f99d8ec2096adb7be61f6f3c6790c9a",
+      "initial_state_sha256": "5ad305d58b370f9679cf96d88723df14ce680016008148957f66db2c71e3dd1e"
+    }
+  ],
+  "dataset_sha256": "d9e98792ad21856287a69b99c7653ec74fd13ca9612495b6ff1e7734e02ddf66",
+  "cache_sha256": "4f897e306d8068f194bfe0dd496e677ac1fdbd08ef5a0b2b8a2802008549fc8b",
+  "config_sha256": "16bbc44b21cf44fd58f0a71e00a00ccdb5286961cd048b24b015d24a1cbf2639",
+  "scope": "data quality and causal visual inputs; not grasp generalization",
+  "accepted_episodes": 7,
+  "object_ids": [
+    "AlphabetSoup",
+    "Peaches",
+    "Raisins"
+  ],
+  "unique_teacher_files": 3,
+  "unique_initial_policy_inputs": 7,
+  "repeated_initial_inputs": [],
+  "all_home_references_available": true,
+  "independent_generalization_split_verified": false
+}

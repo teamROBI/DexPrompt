@@ -1,0 +1,39 @@
+{
+  "source": "/data1/yspark/projects/dexprompt/student-checks/single-bottle-x0-low-noise-job-v1/evaluation-epoch-13/summary.json",
+  "sha256": "9da6f2f6543d81c442afeb90c8856917b38f4b0adc40a9f4dc253e88097ceb9c",
+  "final": {
+    "completed": true,
+    "attempts": 3,
+    "compliant_successes": 0,
+    "sustained_lifts": 0
+  },
+  "episodes": [
+    {
+      "seed": 1000,
+      "ticks": 974,
+      "failure_reason": null,
+      "contact_acquisition_tick": null,
+      "max_height_m": 4.924585579324514e-07,
+      "saturated_command_ticks": 0,
+      "teacher_compliant_lift": false
+    },
+    {
+      "seed": 1001,
+      "ticks": 974,
+      "failure_reason": null,
+      "contact_acquisition_tick": null,
+      "max_height_m": 4.924585579324514e-07,
+      "saturated_command_ticks": 0,
+      "teacher_compliant_lift": false
+    },
+    {
+      "seed": 1002,
+      "ticks": 974,
+      "failure_reason": null,
+      "contact_acquisition_tick": null,
+      "max_height_m": 4.924585579324514e-07,
+      "saturated_command_ticks": 0,
+      "teacher_compliant_lift": false
+    }
+  ]
+}

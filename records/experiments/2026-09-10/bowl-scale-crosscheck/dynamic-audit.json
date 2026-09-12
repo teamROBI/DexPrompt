@@ -1,0 +1,196 @@
+{
+  "observed_at": "2026-09-10T22:49:33.511959+09:00",
+  "attempts_sha256": "3a129b5405ee66e8d34996388b4fb9f4432daf63ce735b228558638cdce87e70",
+  "rows": [
+    {
+      "episode_id": "teacher_0000_yaw_000",
+      "status": "lift_timeout",
+      "source_sha256": "fb5deb2224a16548eff5148ec47d395823c52b96f83b5933ac7b3550241adb03",
+      "max_rise_m": 0.13962146984886414,
+      "end_rise_m": -9.641858957909477e-07,
+      "end_contact_groups": 0,
+      "end_group_forces_n": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_contiguous_lift_and_all_contacts_seconds": 0.16,
+      "carrying_ticks": 820,
+      "carrying_with_all_contacts_ticks": 287,
+      "last_phase": "hold"
+    },
+    {
+      "episode_id": "teacher_0001_yaw_000",
+      "status": "lift_timeout",
+      "source_sha256": "3efd914a7fa03c7a4b358c870af12b71e004859f81ed2557088c6061c05dd07b",
+      "max_rise_m": 0.08956168407384102,
+      "end_rise_m": -9.585186526717138e-07,
+      "end_contact_groups": 0,
+      "end_group_forces_n": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_contiguous_lift_and_all_contacts_seconds": 0.0,
+      "carrying_ticks": 817,
+      "carrying_with_all_contacts_ticks": 193,
+      "last_phase": "lift"
+    },
+    {
+      "episode_id": "teacher_0002_yaw_000",
+      "status": "closure_timeout",
+      "source_sha256": "6d9b6e9f3e1a6c46c91a617e25445570042e26c841e40f7011da380db79805a7",
+      "max_rise_m": 0.00034240191159828903,
+      "end_rise_m": -0.00016509623550442498,
+      "end_contact_groups": 3,
+      "end_group_forces_n": [
+        1.9395403777826972,
+        0.0,
+        0.0,
+        2.3624966550924986,
+        2.284833356885505
+      ],
+      "max_contiguous_lift_and_all_contacts_seconds": 0.0,
+      "carrying_ticks": 0,
+      "carrying_with_all_contacts_ticks": 0,
+      "last_phase": "close"
+    },
+    {
+      "episode_id": "teacher_0003_yaw_000",
+      "status": "lift_timeout",
+      "source_sha256": "90c62cb6984c9c10eec4c9f956228dddf72ffd59c6e922f21f169b6dff50d716",
+      "max_rise_m": 0.019705654146611518,
+      "end_rise_m": -4.926620781331437e-07,
+      "end_contact_groups": 0,
+      "end_group_forces_n": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_contiguous_lift_and_all_contacts_seconds": 0.0,
+      "carrying_ticks": 794,
+      "carrying_with_all_contacts_ticks": 60,
+      "last_phase": "lift"
+    },
+    {
+      "episode_id": "teacher_0004_yaw_000",
+      "status": "lift_timeout",
+      "source_sha256": "2fd066bffc275b1740c2238cff7f55e6ca71c450f5edfae0bbef4fe3b524f8e9",
+      "max_rise_m": 0.05469382036513226,
+      "end_rise_m": -9.685901255496177e-07,
+      "end_contact_groups": 0,
+      "end_group_forces_n": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_contiguous_lift_and_all_contacts_seconds": 0.0,
+      "carrying_ticks": 774,
+      "carrying_with_all_contacts_ticks": 121,
+      "last_phase": "lift"
+    },
+    {
+      "episode_id": "teacher_0005_yaw_000",
+      "status": "lift_timeout",
+      "source_sha256": "3e1356abb0c9b73c71857610840cdf0647a95d2d3a7c4e8feebfb2533d1d49a4",
+      "max_rise_m": 0.040105809641420964,
+      "end_rise_m": -5.307996567838202e-07,
+      "end_contact_groups": 0,
+      "end_group_forces_n": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_contiguous_lift_and_all_contacts_seconds": 0.0,
+      "carrying_ticks": 813,
+      "carrying_with_all_contacts_ticks": 92,
+      "last_phase": "lift"
+    },
+    {
+      "episode_id": "teacher_0006_yaw_000",
+      "status": "lift_timeout",
+      "source_sha256": "bddf6ac8534fbca1ce929d64ed548bad613a6ed3d9d3382091df75574abddf83",
+      "max_rise_m": 0.10502179956696567,
+      "end_rise_m": 4.6219752591891705e-07,
+      "end_contact_groups": 0,
+      "end_group_forces_n": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_contiguous_lift_and_all_contacts_seconds": 0.28,
+      "carrying_ticks": 816,
+      "carrying_with_all_contacts_ticks": 435,
+      "last_phase": "hold"
+    },
+    {
+      "episode_id": "teacher_0007_yaw_000",
+      "status": "no_quality_feasible_command",
+      "source_sha256": "c864cacc7bd9781460b3857dbc0bc7f0ae58574e47dca3522cd4c5ea4346efa0",
+      "max_rise_m": 2.4162719161058277e-06,
+      "end_rise_m": -9.657930050144259e-07,
+      "end_contact_groups": 0,
+      "end_group_forces_n": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_contiguous_lift_and_all_contacts_seconds": 0.0,
+      "carrying_ticks": 0,
+      "carrying_with_all_contacts_ticks": 0,
+      "last_phase": "close"
+    },
+    {
+      "episode_id": "teacher_0008_yaw_000",
+      "status": "lift_timeout",
+      "source_sha256": "76d4df8084cd5b6d8175e00751ab4bf8a79a771265918a186cb9819488a5d5da",
+      "max_rise_m": 0.0024385445627055358,
+      "end_rise_m": -9.5853282500169e-07,
+      "end_contact_groups": 0,
+      "end_group_forces_n": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_contiguous_lift_and_all_contacts_seconds": 0.0,
+      "carrying_ticks": 795,
+      "carrying_with_all_contacts_ticks": 12,
+      "last_phase": "lift"
+    },
+    {
+      "episode_id": "teacher_0009_yaw_000",
+      "status": "lift_timeout",
+      "source_sha256": "66a5b6c298b456f945d18dc8a3b8128a0619386e5b8802e0460b08a4d023744b",
+      "max_rise_m": 0.06199350342421428,
+      "end_rise_m": -7.372386839898937e-07,
+      "end_contact_groups": 0,
+      "end_group_forces_n": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_contiguous_lift_and_all_contacts_seconds": 0.0,
+      "carrying_ticks": 794,
+      "carrying_with_all_contacts_ticks": 126,
+      "last_phase": "lift"
+    }
+  ]
+}

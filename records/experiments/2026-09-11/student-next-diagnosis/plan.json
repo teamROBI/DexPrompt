@@ -1,0 +1,91 @@
+{
+  "created_at": "2026-09-11T17:37:30+09:00",
+  "status": "frozen_before_execution",
+  "training_started": false,
+  "teacher_generation_started": false,
+  "questions": [
+    "Does the x0 policy diverge at the first command or after an 8-tick replanning boundary?",
+    "Is the closed-loop state merely delayed along the teacher path or off that path?",
+    "Do arm and hand errors, command jumps, and tracking errors identify the first divergence?"
+  ],
+  "fixed_inputs": {
+    "x0_checkpoint": {
+      "path": "/data1/yspark/projects/dexprompt/student-runs/single-bottle-x0-v1/epoch_0012.pt",
+      "sha256": "a5100b38f9c1fb6440386a70da4acf6023c1a91f8d9ff10d4c6d932686244aca"
+    },
+    "epsilon_checkpoint": {
+      "path": "/data1/yspark/projects/dexprompt/student-runs/single-bottle-v1/epoch_0012.pt",
+      "sha256": "d1a6d5e796ba4690661df65e14bd7632732ca3bbc30b03e972070d63809a4c31"
+    },
+    "single_bottle_manifest": {
+      "path": "/home/yspark/projects/DexPrompt/out/student-single-bottle-v1/manifest.json",
+      "sha256": "24233706f31ca4f241a8135e69348f2f7fe8344575946f9daec6cdb87b64f135"
+    },
+    "final_evaluation_summary": {
+      "path": "/home/yspark/projects/DexPrompt/out/single-bottle-x0-job-v1/evaluation-epoch-13/summary.json",
+      "sha256": "4e69454347f48495c526a8e758ccf5ac754720abbf932b44178718024579f3b8"
+    },
+    "command_audit": {
+      "path": "/home/yspark/projects/DexPrompt/out/x0-command-audit-recovery-v1/audit/audit.json",
+      "sha256": "4b0c8d753eeb441bfb598f8384aee6cd82c33c46260b72e9501f8d7e50c91635"
+    },
+    "hope_pool": {
+      "path": "out/hope-student-pool-final.json",
+      "sha256": "f13daac296a4a851f021b7d178d92e8e917f96ae5aaafb58f02eeaac3e48b5ab",
+      "episodes": 7,
+      "frames": 7466
+    }
+  },
+  "source_sha256": {
+    "scripts/audit_student_failure.py": "c6fd14cb95f1327afb6ee5191e9f981cf7de207b655200131e915956c0bce9bc",
+    "scripts/diagnose_single_student.py": "7e746a26a7b73350a161507ef17a66651f41d2de1ff0f56e0a44c4c033c49385",
+    "scripts/prepare_student_diagnostic.py": "561e188fb062203dd0924ca9465af3d90d9598278969f41892c4442d02bcc780",
+    "scripts/report_hope_student_pool.py": "6e6c55c641bef356abef38164724cb09295f05624795422e808f16b2c958b3f2",
+    "scripts/train_hx5_student.py": "fe39b9d7ff47a0200d6992e72371a893b5550fc6801324e7123cf74b57c65d73",
+    "scripts/evaluate_student_suite.py": "d7387f3812997803b7f8c25aa288d9cd06b4d35501939aee71a76473f23a0eef",
+    "src/icra/student.py": "6be7314b54d688ab1328442efac18baa1d7e02c90872b02305f06aa3d114a6ce",
+    "src/icra/student_data.py": "fa7e4e6b82aca68a8866656237a98fc67a401a25a2dfbc82595ef21f06557a9c",
+    "src/icra/student_inference.py": "901def205ca65dea4a7e3eb7414bd13690315c45f51460d3622550915defd159",
+    "src/icra/goal_memory.py": "2eb85386f0232f4dea2eb3878cfb5d892e694d7a50f2d6d01ba674e1d6218b01",
+    "src/icra/visual_observation.py": "513523968710d257c666df1b2ecd8127beba0b4bac59a227725d8754e1355f55"
+  },
+  "diagnosis": {
+    "replays": 3,
+    "ticks": 974,
+    "joint_groups": {"arm": 7, "hand": 20},
+    "first_window_ticks": 64,
+    "execute_steps": 8,
+    "nearest_teacher_state": {
+      "normalization": "training state_scale",
+      "arm_weight": 1.0,
+      "hand_weight": 1.0,
+      "search": "all 974 teacher pre-action states"
+    },
+    "optional_forward_cap": 48,
+    "wall_time_cap_seconds": 10800
+  },
+  "hope_bundle": {
+    "input_source": "exact ready list in out/hope-student-pool-final.json",
+    "destination_local": "/data1/yspark/sim/icra/hope-student-bundle-v1",
+    "destination_lecun": "/data1/yspark/projects/dexprompt/student-data/hope-bundle-v1",
+    "split": "diagnostic train-only",
+    "full_dino_batches_max": 3
+  },
+  "resources_at_start": {
+    "local_root_free_gib": 11,
+    "local_data1_free_gib": 298,
+    "lecun_root_free_gib": 104,
+    "lecun_data1_free_gib": 497,
+    "lecun_gpu0_uuid": "GPU-5b42e5c8-12cf-4520-c591-a377d5e2f035",
+    "lecun_gpu0_memory_used_mib": 31,
+    "lecun_gpu0_utilization_percent": 0,
+    "existing_tmux_jobs": []
+  },
+  "constraints": {
+    "new_training": false,
+    "model_change": false,
+    "evaluation_criterion_change": false,
+    "teacher_output_change": false,
+    "independent_generalization_claim": false
+  }
+}

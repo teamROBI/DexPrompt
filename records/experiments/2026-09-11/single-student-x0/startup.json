@@ -1,0 +1,153 @@
+{
+  "status": {
+    "phase": "train",
+    "running": true,
+    "updated_at": 1789060393.9404526
+  },
+  "progress": {
+    "epoch": 0,
+    "optimizer_steps": 60,
+    "total_steps": 6331,
+    "train_loss": 0.1918287513917883,
+    "elapsed_seconds": 68.27360345696798,
+    "seconds_per_step": 1.1378933909494662,
+    "estimated_remaining_seconds": 7135.729454644103
+  },
+  "training_started": true,
+  "training_started_at": "2026-09-10T17:13:43Z",
+  "prediction_type": "x0",
+  "baseline_contract_identical": true,
+  "dry_run": {
+    "architecture": "hx5_dexgraspvla_style_rdt",
+    "data_scope": "accepted training episodes; forward-only",
+    "data_io": "verified_memmap",
+    "cache_sha256": "bad6aba5e5b243200428bdae2941f58ff10286f040cff5172bc237f86051e62d",
+    "vision": "local pretrained DINOv2",
+    "full_training_architecture_checked": true,
+    "optimizer_steps": 0,
+    "backward_calls": 0,
+    "model_unchanged": true,
+    "loss_finite": true,
+    "random_initialization_loss": 0.7650490403175354,
+    "prediction_shape": [
+      2,
+      64,
+      27
+    ],
+    "parameter_count": 557518875,
+    "config": {
+      "architecture": "hx5_dexgraspvla_style_rdt",
+      "action_dim": 27,
+      "state_dim": 27,
+      "action_horizon": 64,
+      "execute_steps": 8,
+      "image_size": 518,
+      "patch_size": 14,
+      "embedding_dim": 1024,
+      "layers": 12,
+      "heads": 8,
+      "mask_layers": 4,
+      "dropout": 0.1,
+      "diffusion_steps": 50,
+      "inference_steps": 16,
+      "noise_assignment": true,
+      "vision": {
+        "backend": "dinov2_local",
+        "source": "out/student-assets/dinov2",
+        "head_model": "dinov2_vitb14",
+        "head_weights": "out/student-assets/dinov2_vitb14_pretrain.pth",
+        "wrist_model": "dinov2_vitl14",
+        "wrist_weights": "out/student-assets/dinov2_vitl14_pretrain.pth"
+      },
+      "training": {
+        "seed": 42,
+        "batch_size": 2,
+        "num_workers": 0,
+        "epochs": 13,
+        "learning_rate": 0.0001,
+        "weight_decay": 0.0001,
+        "betas": [
+          0.95,
+          0.999
+        ],
+        "warmup_steps": 100,
+        "gradient_clip": 1.0
+      },
+      "observation_version": 2,
+      "goal_image_size": 224,
+      "goal_reference_policy": {
+        "min_pixels": 64,
+        "min_extent": 4,
+        "border_margin": 2,
+        "max_border_fraction": 0.1
+      },
+      "prediction_type": "x0"
+    }
+  },
+  "controls": {
+    "completed": true,
+    "training_started": false,
+    "mode": "controls",
+    "scope": "overlap guarded",
+    "dataset_sha256": "24233706f31ca4f241a8135e69348f2f7fe8344575946f9daec6cdb87b64f135",
+    "evaluation_sources": {
+      "scripts/evaluate_student_suite.py": "d7387f3812997803b7f8c25aa288d9cd06b4d35501939aee71a76473f23a0eef",
+      "scripts/replay_hx5_student.py": "747062e1f4fd4f117eb28c5d865e31d68c6cf17879d340eab34d9f96893566e1",
+      "src/icra/execution.py": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94",
+      "src/icra/simulation.py": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25"
+    },
+    "episodes": [
+      {
+        "episode_id": "source0_source0_teacher_0002_yaw_000",
+        "object_id": "core_bottle_6444875e3217bf891f5f48a891d827bd",
+        "outcome": {
+          "recorded_actions": {
+            "ticks": 974,
+            "seed": 0,
+            "failure_reason": null,
+            "contact_acquisition_tick": 624,
+            "evaluation_contract": "contact_acquisition_guard_v2",
+            "terminal_lift_seconds": 2.7600000000000002,
+            "terminal_teacher_contact_lift_seconds": 2.7600000000000002,
+            "longest_lift_seconds": 2.7600000000000002,
+            "longest_teacher_contact_lift_seconds": 2.7600000000000002,
+            "sustained_lift": true,
+            "teacher_compliant_lift": true,
+            "max_height_m": 0.14641263817472594,
+            "max_penetration_m": 0.0017611118693082056,
+            "max_digit_force_n": 8.768535717600162,
+            "saturated_command_ticks": 0,
+            "required_contact_groups": 2,
+            "max_simultaneous_contact_groups": 2,
+            "terminal_contact_groups": 2,
+            "all_contact_groups_ticks": 375
+          },
+          "stationary": {
+            "ticks": 974,
+            "seed": 0,
+            "failure_reason": null,
+            "contact_acquisition_tick": null,
+            "evaluation_contract": "contact_acquisition_guard_v2",
+            "terminal_lift_seconds": 0.0,
+            "terminal_teacher_contact_lift_seconds": 0.0,
+            "longest_lift_seconds": 0.0,
+            "longest_teacher_contact_lift_seconds": 0.0,
+            "sustained_lift": false,
+            "teacher_compliant_lift": false,
+            "max_height_m": 4.924585579324514e-07,
+            "max_penetration_m": 0.0,
+            "max_digit_force_n": 0.0,
+            "saturated_command_ticks": 0,
+            "required_contact_groups": 2,
+            "max_simultaneous_contact_groups": 0,
+            "terminal_contact_groups": 0,
+            "all_contact_groups_ticks": 0
+          },
+          "passed": true
+        }
+      }
+    ],
+    "checks_passed": true
+  },
+  "gpu": "memory.used [MiB], utilization.gpu [%]\n7801 MiB, 100 %\n"
+}

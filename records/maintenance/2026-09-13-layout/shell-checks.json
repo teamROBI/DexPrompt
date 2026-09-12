@@ -1,0 +1,27 @@
+[
+  {
+    "path": "scripts/teacher/evolve_grasps.sh",
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "path": "scripts/ops/setup_student_server.sh",
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "path": "scripts/ops/launch_followup_visual_intake.sh",
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "path": "scripts/ops/run_followup_visual_intake.sh",
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "path": "scripts/ops/launch_teacher_followup_5h.sh",
+    "exit_code": 0,
+    "stderr": ""
+  }
+]

@@ -1,0 +1,7 @@
+name	arm	exit_code	timed_out	seconds
+bowl0000	A	0	no	19
+bowl0006	A	0	no	19
+can	A	0	no	18
+bowl0000	B	0	no	17
+bowl0006	B	0	no	17
+can	B	0	no	15

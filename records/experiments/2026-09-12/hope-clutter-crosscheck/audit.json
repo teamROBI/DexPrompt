@@ -1,0 +1,76 @@
+{
+  "audit": "read_only_no_physics_no_training",
+  "handoff_sha256": "8511ef0257f9db6e9ccab474c0e063d8a27e03c229b75d3387c7863bbb7af35d",
+  "charged_runs": 11,
+  "roles": {
+    "clutter": 6,
+    "clutter_reproduce": 2,
+    "control": 3
+  },
+  "accepted_verified": [
+    {
+      "condition": "one_distractor",
+      "file_hash_checks": {
+        "episode": true,
+        "model": true,
+        "initial_state": true,
+        "placement": true
+      },
+      "reproduction": [
+        {
+          "role": "clutter_reproduce",
+          "episode_hash_matches": true
+        }
+      ],
+      "student_ready": false
+    },
+    {
+      "condition": "two_distractors",
+      "file_hash_checks": {
+        "episode": true,
+        "model": true,
+        "initial_state": true,
+        "placement": true
+      },
+      "reproduction": [
+        {
+          "role": "clutter_reproduce",
+          "episode_hash_matches": true
+        }
+      ],
+      "student_ready": false
+    }
+  ],
+  "alphabet_soup": [
+    {
+      "run": "00-control-AlphabetSoup-single",
+      "close_ticks": 130,
+      "max_close_external_force_N": 29.942162888453396,
+      "pressure_override_threshold_N": 22.5,
+      "ticks_over_threshold": 28,
+      "required_group_max": 5,
+      "guard_scaled_ticks_reported": 28,
+      "archive_source_hash_verified": true
+    },
+    {
+      "run": "01-clutter-AlphabetSoup-one_distractor",
+      "close_ticks": 600,
+      "max_close_external_force_N": 0.002711939193427058,
+      "pressure_override_threshold_N": 22.5,
+      "ticks_over_threshold": 0,
+      "required_group_max": 0,
+      "guard_scaled_ticks_reported": 560,
+      "archive_source_hash_verified": true
+    },
+    {
+      "run": "02-clutter-AlphabetSoup-two_distractors",
+      "close_ticks": 600,
+      "max_close_external_force_N": 0.38321245784906766,
+      "pressure_override_threshold_N": 22.5,
+      "ticks_over_threshold": 0,
+      "required_group_max": 0,
+      "guard_scaled_ticks_reported": 560,
+      "archive_source_hash_verified": true
+    }
+  ]
+}

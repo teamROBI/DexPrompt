@@ -1,0 +1,3737 @@
+{
+  "training_started": false,
+  "source_matches": {
+    "scripts/train_hx5_student.py": true,
+    "src/icra/student.py": true,
+    "src/icra/student_data.py": true,
+    "src/icra/goal_memory.py": true,
+    "src/icra/visual_observation.py": true,
+    "src/icra/student_inference.py": true,
+    "src/icra/student_cache.py": true,
+    "src/icra/dataset.py": true
+  },
+  "normalizer_exact": true,
+  "cache_full_hash_recheck": false,
+  "units": "radians; tick indices are zero-based",
+  "episodes": [
+    {
+      "episode_id": "source0_teacher_0002_yaw_000",
+      "contract": {
+        "model_sha256": "f183993f472bb65c2d71697a7ad8c06f4ff28e1c92f690de5c3a8a7609e4b5c7",
+        "initial_state_sha256": "bb132b05e5a7babb7603ab566d500b47a0e109c46f24cb7d289063dc47ed79b0",
+        "condition": {
+          "kind": "object",
+          "object_id": "core_bottle_6444875e3217bf891f5f48a891d827bd"
+        },
+        "limits": {
+          "max_approach_displacement": 0.01,
+          "max_digit_force": 30.0,
+          "max_penetration": 0.002,
+          "max_table_penetration": 1e-06,
+          "min_contact_force": 0.1,
+          "min_hold_seconds": 0.5,
+          "min_lift": 0.1
+        },
+        "required_contact_groups": [
+          [
+            "finger_r_link3",
+            "finger_r_link4"
+          ],
+          [
+            "finger_r_link7",
+            "finger_r_link8"
+          ]
+        ],
+        "tick_budget": 974
+      },
+      "contract_sha256": "6a6277e7599a3f5d21f4d8dab31304790079ee7b06ad2eb44d87c4d8117c2095",
+      "initial_input": {
+        "rgbm": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "right_cam_img": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "right_state": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "part_mask": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "wrist_mask": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "wrist_part_mask": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "target_pixels": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "target_visible": {
+          "equal": true,
+          "max_abs": 0.0
+        }
+      },
+      "preprocessing_checks": [
+        {
+          "tick": 0,
+          "max_abs": 0.0
+        },
+        {
+          "tick": 100,
+          "max_abs": 0.0
+        },
+        {
+          "tick": 345,
+          "max_abs": 0.0
+        },
+        {
+          "tick": 973,
+          "max_abs": 0.0
+        }
+      ],
+      "chunk_sequence": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0
+      ],
+      "reference_indices": [
+        0,
+        345
+      ],
+      "rollouts": [
+        {
+          "trace": "replay_000.npz",
+          "ticks": 17,
+          "replay_signal_max_abs": {
+            "contact_groups": 0.0,
+            "group_forces_min": 0.0,
+            "group_forces_max": 0.0,
+            "digit_force_max": 0.0,
+            "target_height_min": 0.0,
+            "object_xy_displacement_max": 0.0,
+            "non_target_displacement_max": 0.0,
+            "robot_object_penetration_max": 0.0,
+            "robot_table_penetration_max": 0.0,
+            "robot_obstacle_penetration_max": 0.0
+          },
+          "first_negative_contact": {
+            "tick": 0,
+            "substep": 0,
+            "bodies": [
+              "finger_r_link14",
+              "finger_r_link18"
+            ],
+            "depth_m": 0.000671802235696602
+          },
+          "initial_self_contact_depths_m": [
+            0.0006789071652987916,
+            0.0005516727095803024
+          ],
+          "first_external_contact": {
+            "tick": 16,
+            "substep": 1,
+            "bodies": [
+              "finger_r_link4",
+              "object_core_bottle_6444875e3217bf891f5f48a891d827bd"
+            ],
+            "depth_m": 0.00026906218996950967
+          },
+          "deepest_contact": {
+            "tick": 16,
+            "substep": 9,
+            "bodies": [
+              "finger_r_link4",
+              "object_core_bottle_6444875e3217bf891f5f48a891d827bd"
+            ],
+            "depth_m": 0.00654155365722645
+          },
+          "per_joint": [
+            {
+              "joint": "arm_r_joint1",
+              "first_student_minus_teacher_rad": -0.2496514292339148,
+              "first_student_minus_measured_rad": -0.2583334445953369,
+              "student_max_command_step_rad": 0.5415729284286499,
+              "teacher_max_command_step_rad": 0.012783621979162718,
+              "max_command_minus_measured_rad": 0.6947092711925507
+            },
+            {
+              "joint": "arm_r_joint2",
+              "first_student_minus_teacher_rad": 0.06505939871228295,
+              "first_student_minus_measured_rad": 0.05769550800323486,
+              "student_max_command_step_rad": 0.1202094554901123,
+              "teacher_max_command_step_rad": 0.0031526288405712144,
+              "max_command_minus_measured_rad": 0.08438961207866669
+            },
+            {
+              "joint": "arm_r_joint3",
+              "first_student_minus_teacher_rad": 0.1992363582968161,
+              "first_student_minus_measured_rad": 0.20065277814865112,
+              "student_max_command_step_rad": 0.7663032412528992,
+              "teacher_max_command_step_rad": 0.0072906520866586055,
+              "max_command_minus_measured_rad": 0.9351323917508125
+            },
+            {
+              "joint": "arm_r_joint4",
+              "first_student_minus_teacher_rad": 0.14140065099553878,
+              "first_student_minus_measured_rad": 0.12459778785705566,
+              "student_max_command_step_rad": 0.48205411434173584,
+              "teacher_max_command_step_rad": 0.004900257548299258,
+              "max_command_minus_measured_rad": 0.49392688274383545
+            },
+            {
+              "joint": "arm_r_joint5",
+              "first_student_minus_teacher_rad": 0.7081412678399722,
+              "first_student_minus_measured_rad": 0.7087643211561954,
+              "student_max_command_step_rad": 0.7085325717926025,
+              "teacher_max_command_step_rad": 0.00039130395263031894,
+              "max_command_minus_measured_rad": 0.9336347281932831
+            },
+            {
+              "joint": "arm_r_joint6",
+              "first_student_minus_teacher_rad": -0.15368618292811506,
+              "first_student_minus_measured_rad": -0.16247326554730535,
+              "student_max_command_step_rad": 1.1681208610534668,
+              "teacher_max_command_step_rad": 0.0032093651771247953,
+              "max_command_minus_measured_rad": 0.8769872412085533
+            },
+            {
+              "joint": "arm_r_joint7",
+              "first_student_minus_teacher_rad": -0.19498086783506977,
+              "first_student_minus_measured_rad": -0.19310728809796274,
+              "student_max_command_step_rad": 1.1683818846940994,
+              "teacher_max_command_step_rad": 0.0044820455049423315,
+              "max_command_minus_measured_rad": 1.0720201060175896
+            },
+            {
+              "joint": "finger_r_joint1",
+              "first_student_minus_teacher_rad": -0.0098465196788311,
+              "first_student_minus_measured_rad": -0.009862549555691658,
+              "student_max_command_step_rad": 0.0106431283056736,
+              "teacher_max_command_step_rad": 0.0,
+              "max_command_minus_measured_rad": 0.016694147838279605
+            },
+            {
+              "joint": "finger_r_joint2",
+              "first_student_minus_teacher_rad": -0.24655052003860478,
+              "first_student_minus_measured_rad": -0.24647855758666992,
+              "student_max_command_step_rad": 0.29611337184906006,
+              "teacher_max_command_step_rad": 1.9645690962910578e-08,
+              "max_command_minus_measured_rad": 0.28925198316574097
+            },
+            {
+              "joint": "finger_r_joint3",
+              "first_student_minus_teacher_rad": 0.0559519077539444,
+              "first_student_minus_measured_rad": 0.055941589176654816,
+              "student_max_command_step_rad": 0.06356029212474823,
+              "teacher_max_command_step_rad": 4.768371530960991e-10,
+              "max_command_minus_measured_rad": 0.09804169833660126
+            },
+            {
+              "joint": "finger_r_joint4",
+              "first_student_minus_teacher_rad": 0.271132675075531,
+              "first_student_minus_measured_rad": 0.27112770080566406,
+              "student_max_command_step_rad": 0.2711326777935028,
+              "teacher_max_command_step_rad": 2.7179717920766677e-09,
+              "max_command_minus_measured_rad": 0.27112770080566406
+            },
+            {
+              "joint": "finger_r_joint5",
+              "first_student_minus_teacher_rad": 0.05419955177307134,
+              "first_student_minus_measured_rad": 0.05409425497055054,
+              "student_max_command_step_rad": 0.05419957637786865,
+              "teacher_max_command_step_rad": 2.4604797310701088e-08,
+              "max_command_minus_measured_rad": 0.05584996938705444
+            },
+            {
+              "joint": "finger_r_joint6",
+              "first_student_minus_teacher_rad": 0.054749193763732884,
+              "first_student_minus_measured_rad": 0.054712891578674316,
+              "student_max_command_step_rad": 0.2518676519393921,
+              "teacher_max_command_step_rad": 2.9563903547469295e-09,
+              "max_command_minus_measured_rad": 0.2703548073768616
+            },
+            {
+              "joint": "finger_r_joint7",
+              "first_student_minus_teacher_rad": 0.07706746219396592,
+              "first_student_minus_measured_rad": 0.0770535129122436,
+              "student_max_command_step_rad": 0.16586067527532578,
+              "teacher_max_command_step_rad": 6.780028361658141e-11,
+              "max_command_minus_measured_rad": 0.1843729317188263
+            },
+            {
+              "joint": "finger_r_joint8",
+              "first_student_minus_teacher_rad": 0.04512466015815736,
+              "first_student_minus_measured_rad": 0.04512229561805725,
+              "student_max_command_step_rad": 0.2095053791999817,
+              "teacher_max_command_step_rad": 1.0156631480295886e-08,
+              "max_command_minus_measured_rad": 0.22730979323387146
+            },
+            {
+              "joint": "finger_r_joint9",
+              "first_student_minus_teacher_rad": -0.03222981119155882,
+              "first_student_minus_measured_rad": -0.032350748777389526,
+              "student_max_command_step_rad": 0.03222981095314026,
+              "teacher_max_command_step_rad": 2.3841856267026174e-10,
+              "max_command_minus_measured_rad": 0.032350748777389526
+            },
+            {
+              "joint": "finger_r_joint10",
+              "first_student_minus_teacher_rad": 0.14621223421096802,
+              "first_student_minus_measured_rad": 0.14618560671806335,
+              "student_max_command_step_rad": 0.3647785186767578,
+              "teacher_max_command_step_rad": 1.4019012450905421e-08,
+              "max_command_minus_measured_rad": 0.3960328698158264
+            },
+            {
+              "joint": "finger_r_joint11",
+              "first_student_minus_teacher_rad": -0.07151068075895309,
+              "first_student_minus_measured_rad": -0.07152118533849716,
+              "student_max_command_step_rad": 0.0715106800198555,
+              "teacher_max_command_step_rad": 7.390975886867324e-10,
+              "max_command_minus_measured_rad": 0.07152118533849716
+            },
+            {
+              "joint": "finger_r_joint12",
+              "first_student_minus_teacher_rad": 0.07086031408309934,
+              "first_student_minus_measured_rad": 0.07085859775543213,
+              "student_max_command_step_rad": 0.18977999687194824,
+              "teacher_max_command_step_rad": 1.220703127469136e-08,
+              "max_command_minus_measured_rad": 0.22196587920188904
+            },
+            {
+              "joint": "finger_r_joint13",
+              "first_student_minus_teacher_rad": -0.008341210889816264,
+              "first_student_minus_measured_rad": -0.005680859088897705,
+              "student_max_command_step_rad": 0.011649608612060547,
+              "teacher_max_command_step_rad": 1.2111663838521025e-08,
+              "max_command_minus_measured_rad": 0.012598633766174316
+            },
+            {
+              "joint": "finger_r_joint14",
+              "first_student_minus_teacher_rad": 0.3159394498348236,
+              "first_student_minus_measured_rad": 0.3159087747335434,
+              "student_max_command_step_rad": 0.31593945622444153,
+              "teacher_max_command_step_rad": 6.389617918101109e-09,
+              "max_command_minus_measured_rad": 0.3277161419391632
+            },
+            {
+              "joint": "finger_r_joint15",
+              "first_student_minus_teacher_rad": 0.0024266845345497137,
+              "first_student_minus_measured_rad": 0.002417299896478653,
+              "student_max_command_step_rad": 0.018078356981277466,
+              "teacher_max_command_step_rad": 2.9951333947730863e-10,
+              "max_command_minus_measured_rad": 0.015312401577830315
+            },
+            {
+              "joint": "finger_r_joint16",
+              "first_student_minus_teacher_rad": 0.11819155378341673,
+              "first_student_minus_measured_rad": 0.11818993091583252,
+              "student_max_command_step_rad": 0.2235584855079651,
+              "teacher_max_command_step_rad": 1.3542175270053747e-08,
+              "max_command_minus_measured_rad": 0.23437270522117615
+            },
+            {
+              "joint": "finger_r_joint17",
+              "first_student_minus_teacher_rad": 0.0608619155406952,
+              "first_student_minus_measured_rad": 0.032698988914489746,
+              "student_max_command_step_rad": 0.06086191534996033,
+              "teacher_max_command_step_rad": 1.9073487234066988e-10,
+              "max_command_minus_measured_rad": 0.032698988914489746
+            },
+            {
+              "joint": "finger_r_joint18",
+              "first_student_minus_teacher_rad": 0.2097680022716522,
+              "first_student_minus_measured_rad": 0.20975476503372192,
+              "student_max_command_step_rad": 0.30288857221603394,
+              "teacher_max_command_step_rad": 5.006790149142404e-09,
+              "max_command_minus_measured_rad": 0.3818666636943817
+            },
+            {
+              "joint": "finger_r_joint19",
+              "first_student_minus_teacher_rad": 0.003249175488948822,
+              "first_student_minus_measured_rad": 0.003237717552110553,
+              "student_max_command_step_rad": 0.022214822471141815,
+              "teacher_max_command_step_rad": 1.0803341858253712e-10,
+              "max_command_minus_measured_rad": 0.0173621391877532
+            },
+            {
+              "joint": "finger_r_joint20",
+              "first_student_minus_teacher_rad": -0.041629035711288453,
+              "first_student_minus_measured_rad": -0.041630566120147705,
+              "student_max_command_step_rad": 0.04162904620170593,
+              "teacher_max_command_step_rad": 1.0490417479136482e-08,
+              "max_command_minus_measured_rad": 0.041630566120147705
+            }
+          ]
+        },
+        {
+          "trace": "replay_001.npz",
+          "ticks": 13,
+          "replay_signal_max_abs": {
+            "contact_groups": 0.0,
+            "group_forces_min": 0.0,
+            "group_forces_max": 0.0,
+            "digit_force_max": 0.0,
+            "target_height_min": 0.0,
+            "object_xy_displacement_max": 0.0,
+            "non_target_displacement_max": 0.0,
+            "robot_object_penetration_max": 0.0,
+            "robot_table_penetration_max": 0.0,
+            "robot_obstacle_penetration_max": 0.0
+          },
+          "first_negative_contact": {
+            "tick": 0,
+            "substep": 0,
+            "bodies": [
+              "finger_r_link14",
+              "finger_r_link18"
+            ],
+            "depth_m": 0.0006736757915867521
+          },
+          "initial_self_contact_depths_m": [
+            0.0006789071652987916,
+            0.0005516727095803024
+          ],
+          "first_external_contact": {
+            "tick": 12,
+            "substep": 0,
+            "bodies": [
+              "finger_r_link8",
+              "object_core_bottle_6444875e3217bf891f5f48a891d827bd"
+            ],
+            "depth_m": 0.0003861348632989347
+          },
+          "deepest_contact": {
+            "tick": 12,
+            "substep": 4,
+            "bodies": [
+              "finger_r_link8",
+              "object_core_bottle_6444875e3217bf891f5f48a891d827bd"
+            ],
+            "depth_m": 0.002170781506644666
+          },
+          "per_joint": [
+            {
+              "joint": "arm_r_joint1",
+              "first_student_minus_teacher_rad": -1.1869619162658513,
+              "first_student_minus_measured_rad": -1.1956439316272736,
+              "student_max_command_step_rad": 1.1993090212345123,
+              "teacher_max_command_step_rad": 0.012749112130414741,
+              "max_command_minus_measured_rad": 1.2436606884002686
+            },
+            {
+              "joint": "arm_r_joint2",
+              "first_student_minus_teacher_rad": -0.2768815407141392,
+              "first_student_minus_measured_rad": -0.28424543142318726,
+              "student_max_command_step_rad": 0.2800341695547104,
+              "teacher_max_command_step_rad": 0.0031526288405712144,
+              "max_command_minus_measured_rad": 0.28424543142318726
+            },
+            {
+              "joint": "arm_r_joint3",
+              "first_student_minus_teacher_rad": 0.8238005589365408,
+              "first_student_minus_measured_rad": 0.8252169787883759,
+              "student_max_command_step_rad": 0.8309495598077774,
+              "teacher_max_command_step_rad": 0.0072906520866586055,
+              "max_command_minus_measured_rad": 0.8652976900339127
+            },
+            {
+              "joint": "arm_r_joint4",
+              "first_student_minus_teacher_rad": 0.34955342199163253,
+              "first_student_minus_measured_rad": 0.3327505588531494,
+              "student_max_command_step_rad": 0.3543393611907959,
+              "teacher_max_command_step_rad": 0.004900257548299258,
+              "max_command_minus_measured_rad": 0.3327505588531494
+            },
+            {
+              "joint": "arm_r_joint5",
+              "first_student_minus_teacher_rad": 0.5552040343919437,
+              "first_student_minus_measured_rad": 0.5558270877081668,
+              "student_max_command_step_rad": 0.555595338344574,
+              "teacher_max_command_step_rad": 0.00039130395263031894,
+              "max_command_minus_measured_rad": 0.8129577711224556
+            },
+            {
+              "joint": "arm_r_joint6",
+              "first_student_minus_teacher_rad": 0.16569290833470232,
+              "first_student_minus_measured_rad": 0.15690582571551204,
+              "student_max_command_step_rad": 0.9203501045703888,
+              "teacher_max_command_step_rad": 0.0032093651771247953,
+              "max_command_minus_measured_rad": 1.1715427041053772
+            },
+            {
+              "joint": "arm_r_joint7",
+              "first_student_minus_teacher_rad": 0.32426319208524124,
+              "first_student_minus_measured_rad": 0.32613677182234824,
+              "student_max_command_step_rad": 0.32861030101776123,
+              "teacher_max_command_step_rad": 0.0044820455049423315,
+              "max_command_minus_measured_rad": 0.5597408753819764
+            },
+            {
+              "joint": "finger_r_joint1",
+              "first_student_minus_teacher_rad": -0.07562719285488129,
+              "first_student_minus_measured_rad": -0.07564322273174184,
+              "student_max_command_step_rad": 0.07562719285488129,
+              "teacher_max_command_step_rad": 0.0,
+              "max_command_minus_measured_rad": 0.07700535794720054
+            },
+            {
+              "joint": "finger_r_joint2",
+              "first_student_minus_teacher_rad": -0.6283356147766114,
+              "first_student_minus_measured_rad": -0.6282636523246765,
+              "student_max_command_step_rad": 0.6283355951309204,
+              "teacher_max_command_step_rad": 1.9645690962910578e-08,
+              "max_command_minus_measured_rad": 0.7806296944618225
+            },
+            {
+              "joint": "finger_r_joint3",
+              "first_student_minus_teacher_rad": 0.09779964339733124,
+              "first_student_minus_measured_rad": 0.09778932482004166,
+              "student_max_command_step_rad": 0.0977996438741684,
+              "teacher_max_command_step_rad": 4.768371530960991e-10,
+              "max_command_minus_measured_rad": 0.11476963758468628
+            },
+            {
+              "joint": "finger_r_joint4",
+              "first_student_minus_teacher_rad": 0.137065109872818,
+              "first_student_minus_measured_rad": 0.13706013560295105,
+              "student_max_command_step_rad": 0.1692531704902649,
+              "teacher_max_command_step_rad": 2.7179717920766677e-09,
+              "max_command_minus_measured_rad": 0.13960593938827515
+            },
+            {
+              "joint": "finger_r_joint5",
+              "first_student_minus_teacher_rad": -0.010152126121520944,
+              "first_student_minus_measured_rad": -0.010257422924041748,
+              "student_max_command_step_rad": 0.08423343300819397,
+              "teacher_max_command_step_rad": 2.4604797310701088e-08,
+              "max_command_minus_measured_rad": 0.06470867991447449
+            },
+            {
+              "joint": "finger_r_joint6",
+              "first_student_minus_teacher_rad": 0.3541767030715942,
+              "first_student_minus_measured_rad": 0.35414040088653564,
+              "student_max_command_step_rad": 0.35417670011520386,
+              "teacher_max_command_step_rad": 2.9563903547469295e-09,
+              "max_command_minus_measured_rad": 0.4825550317764282
+            },
+            {
+              "joint": "finger_r_joint7",
+              "first_student_minus_teacher_rad": 0.23659742383956908,
+              "first_student_minus_measured_rad": 0.23658347455784678,
+              "student_max_command_step_rad": 0.23659742390736938,
+              "teacher_max_command_step_rad": 6.780028361658141e-11,
+              "max_command_minus_measured_rad": 0.23658347455784678
+            },
+            {
+              "joint": "finger_r_joint8",
+              "first_student_minus_teacher_rad": 0.27423391761779786,
+              "first_student_minus_measured_rad": 0.27423155307769775,
+              "student_max_command_step_rad": 0.2742339074611664,
+              "teacher_max_command_step_rad": 1.0156631480295886e-08,
+              "max_command_minus_measured_rad": 0.3267024755477905
+            },
+            {
+              "joint": "finger_r_joint9",
+              "first_student_minus_teacher_rad": -0.017669528961181624,
+              "first_student_minus_measured_rad": -0.01779046654701233,
+              "student_max_command_step_rad": 0.023180216550827026,
+              "teacher_max_command_step_rad": 2.3841856267026174e-10,
+              "max_command_minus_measured_rad": 0.021023303270339966
+            },
+            {
+              "joint": "finger_r_joint10",
+              "first_student_minus_teacher_rad": 0.06746174306869507,
+              "first_student_minus_measured_rad": 0.0674351155757904,
+              "student_max_command_step_rad": 0.15024501085281372,
+              "teacher_max_command_step_rad": 1.4019012450905421e-08,
+              "max_command_minus_measured_rad": 0.17709964513778687
+            },
+            {
+              "joint": "finger_r_joint11",
+              "first_student_minus_teacher_rad": -0.03086067810058593,
+              "first_student_minus_measured_rad": -0.030871182680130005,
+              "student_max_command_step_rad": 0.030860677361488342,
+              "teacher_max_command_step_rad": 7.390975886867324e-10,
+              "max_command_minus_measured_rad": 0.030871182680130005
+            },
+            {
+              "joint": "finger_r_joint12",
+              "first_student_minus_teacher_rad": 0.0747034427642822,
+              "first_student_minus_measured_rad": 0.07470172643661499,
+              "student_max_command_step_rad": 0.0882309079170227,
+              "teacher_max_command_step_rad": 1.220703127469136e-08,
+              "max_command_minus_measured_rad": 0.13108927011489868
+            },
+            {
+              "joint": "finger_r_joint13",
+              "first_student_minus_teacher_rad": 0.004064244222641011,
+              "first_student_minus_measured_rad": 0.00672459602355957,
+              "student_max_command_step_rad": 0.018740147352218628,
+              "teacher_max_command_step_rad": 1.2111663838521025e-08,
+              "max_command_minus_measured_rad": 0.01775708794593811
+            },
+            {
+              "joint": "finger_r_joint14",
+              "first_student_minus_teacher_rad": 0.10319300847053528,
+              "first_student_minus_measured_rad": 0.10316233336925507,
+              "student_max_command_step_rad": 0.1031930148601532,
+              "teacher_max_command_step_rad": 6.389617918101109e-09,
+              "max_command_minus_measured_rad": 0.17317238450050354
+            },
+            {
+              "joint": "finger_r_joint15",
+              "first_student_minus_teacher_rad": 0.03574453729987145,
+              "first_student_minus_measured_rad": 0.035735152661800385,
+              "student_max_command_step_rad": 0.035744537599384785,
+              "teacher_max_command_step_rad": 2.9951333947730863e-10,
+              "max_command_minus_measured_rad": 0.03830499481409788
+            },
+            {
+              "joint": "finger_r_joint16",
+              "first_student_minus_teacher_rad": 0.09145827455520628,
+              "first_student_minus_measured_rad": 0.09145665168762207,
+              "student_max_command_step_rad": 0.091458261013031,
+              "teacher_max_command_step_rad": 1.3542175270053747e-08,
+              "max_command_minus_measured_rad": 0.09145665168762207
+            },
+            {
+              "joint": "finger_r_joint17",
+              "first_student_minus_teacher_rad": 0.07023507375717164,
+              "first_student_minus_measured_rad": 0.042072147130966187,
+              "student_max_command_step_rad": 0.0813828706741333,
+              "teacher_max_command_step_rad": 1.9073487234066988e-10,
+              "max_command_minus_measured_rad": 0.08949732780456543
+            },
+            {
+              "joint": "finger_r_joint18",
+              "first_student_minus_teacher_rad": 0.19823059940338134,
+              "first_student_minus_measured_rad": 0.19821736216545105,
+              "student_max_command_step_rad": 0.1982305943965912,
+              "teacher_max_command_step_rad": 5.006790149142404e-09,
+              "max_command_minus_measured_rad": 0.19821736216545105
+            },
+            {
+              "joint": "finger_r_joint19",
+              "first_student_minus_teacher_rad": 0.021898846715688706,
+              "first_student_minus_measured_rad": 0.021887388778850436,
+              "student_max_command_step_rad": 0.022066686302423477,
+              "teacher_max_command_step_rad": 1.0803341858253712e-10,
+              "max_command_minus_measured_rad": 0.026864545419812202
+            },
+            {
+              "joint": "finger_r_joint20",
+              "first_student_minus_teacher_rad": -0.03433393383026123,
+              "first_student_minus_measured_rad": -0.03433546423912048,
+              "student_max_command_step_rad": 0.03433394432067871,
+              "teacher_max_command_step_rad": 1.0490417479136482e-08,
+              "max_command_minus_measured_rad": 0.04333433508872986
+            }
+          ]
+        },
+        {
+          "trace": "replay_002.npz",
+          "ticks": 16,
+          "replay_signal_max_abs": {
+            "contact_groups": 0.0,
+            "group_forces_min": 0.0,
+            "group_forces_max": 0.0,
+            "digit_force_max": 0.0,
+            "target_height_min": 0.0,
+            "object_xy_displacement_max": 0.0,
+            "non_target_displacement_max": 0.0,
+            "robot_object_penetration_max": 0.0,
+            "robot_table_penetration_max": 0.0,
+            "robot_obstacle_penetration_max": 0.0
+          },
+          "first_negative_contact": {
+            "tick": 0,
+            "substep": 0,
+            "bodies": [
+              "finger_r_link14",
+              "finger_r_link18"
+            ],
+            "depth_m": 0.0006791699889522918
+          },
+          "initial_self_contact_depths_m": [
+            0.0006789071652987916,
+            0.0005516727095803024
+          ],
+          "first_external_contact": {
+            "tick": 15,
+            "substep": 0,
+            "bodies": [
+              "finger_r_link8",
+              "object_core_bottle_6444875e3217bf891f5f48a891d827bd"
+            ],
+            "depth_m": 0.0011581704446544327
+          },
+          "deepest_contact": {
+            "tick": 15,
+            "substep": 2,
+            "bodies": [
+              "finger_r_link8",
+              "object_core_bottle_6444875e3217bf891f5f48a891d827bd"
+            ],
+            "depth_m": 0.0021344281444181826
+          },
+          "per_joint": [
+            {
+              "joint": "arm_r_joint1",
+              "first_student_minus_teacher_rad": -1.2426564367393316,
+              "first_student_minus_measured_rad": -1.2513384521007538,
+              "student_max_command_step_rad": 1.2550035417079926,
+              "teacher_max_command_step_rad": 0.012776248132949752,
+              "max_command_minus_measured_rad": 1.2513384521007538
+            },
+            {
+              "joint": "arm_r_joint2",
+              "first_student_minus_teacher_rad": 0.01880336314595299,
+              "first_student_minus_measured_rad": 0.011439472436904907,
+              "student_max_command_step_rad": 0.27743884921073914,
+              "teacher_max_command_step_rad": 0.0031526288405712144,
+              "max_command_minus_measured_rad": 0.1917744278907776
+            },
+            {
+              "joint": "arm_r_joint3",
+              "first_student_minus_teacher_rad": 0.8803605388521597,
+              "first_student_minus_measured_rad": 0.8817769587039948,
+              "student_max_command_step_rad": 0.8875095397233963,
+              "teacher_max_command_step_rad": 0.0072906520866586055,
+              "max_command_minus_measured_rad": 0.8817769587039948
+            },
+            {
+              "joint": "arm_r_joint4",
+              "first_student_minus_teacher_rad": 0.2922504701788884,
+              "first_student_minus_measured_rad": 0.2754476070404053,
+              "student_max_command_step_rad": 0.29703640937805176,
+              "teacher_max_command_step_rad": 0.004900257548299258,
+              "max_command_minus_measured_rad": 0.3908827304840088
+            },
+            {
+              "joint": "arm_r_joint5",
+              "first_student_minus_teacher_rad": 1.4507750874200502,
+              "first_student_minus_measured_rad": 1.4513981407362735,
+              "student_max_command_step_rad": 1.4511663913726807,
+              "teacher_max_command_step_rad": 0.00039130395263031894,
+              "max_command_minus_measured_rad": 1.6886712163686752
+            },
+            {
+              "joint": "arm_r_joint6",
+              "first_student_minus_teacher_rad": -0.7071734539985954,
+              "first_student_minus_measured_rad": -0.7159605366177857,
+              "student_max_command_step_rad": 1.0912450551986694,
+              "teacher_max_command_step_rad": 0.0032093651771247953,
+              "max_command_minus_measured_rad": 1.00154247879982
+            },
+            {
+              "joint": "arm_r_joint7",
+              "first_student_minus_teacher_rad": -0.3499942651710759,
+              "first_student_minus_measured_rad": -0.3481206854339689,
+              "student_max_command_step_rad": 1.0138692110776901,
+              "teacher_max_command_step_rad": 0.0044820455049423315,
+              "max_command_minus_measured_rad": 1.0682000368833542
+            },
+            {
+              "joint": "finger_r_joint1",
+              "first_student_minus_teacher_rad": -0.010996803641319275,
+              "first_student_minus_measured_rad": -0.011012833518179832,
+              "student_max_command_step_rad": 0.045482486486434937,
+              "teacher_max_command_step_rad": 0.0,
+              "max_command_minus_measured_rad": 0.047673072665929794
+            },
+            {
+              "joint": "finger_r_joint2",
+              "first_student_minus_teacher_rad": -0.7325289445877076,
+              "first_student_minus_measured_rad": -0.7324569821357727,
+              "student_max_command_step_rad": 0.7325289249420166,
+              "teacher_max_command_step_rad": 1.9645690962910578e-08,
+              "max_command_minus_measured_rad": 0.7324569821357727
+            },
+            {
+              "joint": "finger_r_joint3",
+              "first_student_minus_teacher_rad": 0.13972282361984253,
+              "first_student_minus_measured_rad": 0.13971250504255295,
+              "student_max_command_step_rad": 0.1397228240966797,
+              "teacher_max_command_step_rad": 4.768371530960991e-10,
+              "max_command_minus_measured_rad": 0.1564035639166832
+            },
+            {
+              "joint": "finger_r_joint4",
+              "first_student_minus_teacher_rad": 0.12584295597076417,
+              "first_student_minus_measured_rad": 0.12583798170089722,
+              "student_max_command_step_rad": 0.12584295868873596,
+              "teacher_max_command_step_rad": 2.7179717920766677e-09,
+              "max_command_minus_measured_rad": 0.2744472920894623
+            },
+            {
+              "joint": "finger_r_joint5",
+              "first_student_minus_teacher_rad": 0.09645903630256658,
+              "first_student_minus_measured_rad": 0.09635373950004578,
+              "student_max_command_step_rad": 0.09645906090736389,
+              "teacher_max_command_step_rad": 2.4604797310701088e-08,
+              "max_command_minus_measured_rad": 0.09635373950004578
+            },
+            {
+              "joint": "finger_r_joint6",
+              "first_student_minus_teacher_rad": 0.3284378677368164,
+              "first_student_minus_measured_rad": 0.3284015655517578,
+              "student_max_command_step_rad": 0.328437864780426,
+              "teacher_max_command_step_rad": 2.9563903547469295e-09,
+              "max_command_minus_measured_rad": 0.3506982922554016
+            },
+            {
+              "joint": "finger_r_joint7",
+              "first_student_minus_teacher_rad": 0.3144318511962891,
+              "first_student_minus_measured_rad": 0.31441790191456676,
+              "student_max_command_step_rad": 0.31443185126408935,
+              "teacher_max_command_step_rad": 6.780028361658141e-11,
+              "max_command_minus_measured_rad": 0.31441790191456676
+            },
+            {
+              "joint": "finger_r_joint8",
+              "first_student_minus_teacher_rad": 0.2928616804122925,
+              "first_student_minus_measured_rad": 0.2928593158721924,
+              "student_max_command_step_rad": 0.292861670255661,
+              "teacher_max_command_step_rad": 1.0156631480295886e-08,
+              "max_command_minus_measured_rad": 0.3519054055213928
+            },
+            {
+              "joint": "finger_r_joint9",
+              "first_student_minus_teacher_rad": -0.00797843956947325,
+              "first_student_minus_measured_rad": -0.008099377155303955,
+              "student_max_command_step_rad": 0.036659449338912964,
+              "teacher_max_command_step_rad": 2.3841856267026174e-10,
+              "max_command_minus_measured_rad": 0.027675092220306396
+            },
+            {
+              "joint": "finger_r_joint10",
+              "first_student_minus_teacher_rad": 0.2052833876132965,
+              "first_student_minus_measured_rad": 0.20525676012039185,
+              "student_max_command_step_rad": 0.20528337359428406,
+              "teacher_max_command_step_rad": 1.4019012450905421e-08,
+              "max_command_minus_measured_rad": 0.31905022263526917
+            },
+            {
+              "joint": "finger_r_joint11",
+              "first_student_minus_teacher_rad": -0.04937665983438491,
+              "first_student_minus_measured_rad": -0.049387164413928986,
+              "student_max_command_step_rad": 0.04937665909528732,
+              "teacher_max_command_step_rad": 7.390975886867324e-10,
+              "max_command_minus_measured_rad": 0.05394192039966583
+            },
+            {
+              "joint": "finger_r_joint12",
+              "first_student_minus_teacher_rad": 0.11007373304367063,
+              "first_student_minus_measured_rad": 0.11007201671600342,
+              "student_max_command_step_rad": 0.12987929582595825,
+              "teacher_max_command_step_rad": 1.220703127469136e-08,
+              "max_command_minus_measured_rad": 0.2617807388305664
+            },
+            {
+              "joint": "finger_r_joint13",
+              "first_student_minus_teacher_rad": 0.018710059118270894,
+              "first_student_minus_measured_rad": 0.021370410919189453,
+              "student_max_command_step_rad": 0.035646796226501465,
+              "teacher_max_command_step_rad": 1.2111663838521025e-08,
+              "max_command_minus_measured_rad": 0.02809414267539978
+            },
+            {
+              "joint": "finger_r_joint14",
+              "first_student_minus_teacher_rad": 0.4187083180427551,
+              "first_student_minus_measured_rad": 0.4186776429414749,
+              "student_max_command_step_rad": 0.41870832443237305,
+              "teacher_max_command_step_rad": 6.389617918101109e-09,
+              "max_command_minus_measured_rad": 0.43639346957206726
+            },
+            {
+              "joint": "finger_r_joint15",
+              "first_student_minus_teacher_rad": 0.0017054012775421148,
+              "first_student_minus_measured_rad": 0.001696016639471054,
+              "student_max_command_step_rad": 0.022234205156564713,
+              "teacher_max_command_step_rad": 2.9951333947730863e-10,
+              "max_command_minus_measured_rad": 0.020506550557911396
+            },
+            {
+              "joint": "finger_r_joint16",
+              "first_student_minus_teacher_rad": 0.18124411864280698,
+              "first_student_minus_measured_rad": 0.18124249577522278,
+              "student_max_command_step_rad": 0.1812441051006317,
+              "teacher_max_command_step_rad": 1.3542175270053747e-08,
+              "max_command_minus_measured_rad": 0.22497007250785828
+            },
+            {
+              "joint": "finger_r_joint17",
+              "first_student_minus_teacher_rad": 0.020426809978485116,
+              "first_student_minus_measured_rad": -0.007736116647720337,
+              "student_max_command_step_rad": 0.10944083333015442,
+              "teacher_max_command_step_rad": 1.9073487234066988e-10,
+              "max_command_minus_measured_rad": 0.11615248024463654
+            },
+            {
+              "joint": "finger_r_joint18",
+              "first_student_minus_teacher_rad": 0.28418377542495726,
+              "first_student_minus_measured_rad": 0.284170538187027,
+              "student_max_command_step_rad": 0.2841837704181671,
+              "teacher_max_command_step_rad": 5.006790149142404e-09,
+              "max_command_minus_measured_rad": 0.3560195565223694
+            },
+            {
+              "joint": "finger_r_joint19",
+              "first_student_minus_teacher_rad": -0.0030372220873832703,
+              "first_student_minus_measured_rad": -0.0030486800242215395,
+              "student_max_command_step_rad": 0.024843614548444748,
+              "teacher_max_command_step_rad": 1.0803341858253712e-10,
+              "max_command_minus_measured_rad": 0.038721706718206406
+            },
+            {
+              "joint": "finger_r_joint20",
+              "first_student_minus_teacher_rad": -0.04532088780403137,
+              "first_student_minus_measured_rad": -0.045322418212890625,
+              "student_max_command_step_rad": 0.04532089829444885,
+              "teacher_max_command_step_rad": 1.0490417479136482e-08,
+              "max_command_minus_measured_rad": 0.05128195881843567
+            }
+          ]
+        }
+      ],
+      "teacher_pre_action_alignment": {
+        "ticks": 17,
+        "max_abs_rad": 0.0,
+        "control_dt_max_abs": 0.0,
+        "timestamp_step_max_abs": 1.1084883011491797e-14
+      }
+    },
+    {
+      "episode_id": "source0_teacher_0006_yaw_000",
+      "contract": {
+        "model_sha256": "f183993f472bb65c2d71697a7ad8c06f4ff28e1c92f690de5c3a8a7609e4b5c7",
+        "initial_state_sha256": "bb132b05e5a7babb7603ab566d500b47a0e109c46f24cb7d289063dc47ed79b0",
+        "condition": {
+          "kind": "object",
+          "object_id": "core_bottle_6444875e3217bf891f5f48a891d827bd"
+        },
+        "limits": {
+          "max_approach_displacement": 0.01,
+          "max_digit_force": 30.0,
+          "max_penetration": 0.002,
+          "max_table_penetration": 1e-06,
+          "min_contact_force": 0.1,
+          "min_hold_seconds": 0.5,
+          "min_lift": 0.1
+        },
+        "required_contact_groups": [
+          [
+            "finger_r_link3",
+            "finger_r_link4"
+          ],
+          [
+            "finger_r_link7",
+            "finger_r_link8"
+          ]
+        ],
+        "tick_budget": 971
+      },
+      "contract_sha256": "38f2f52f4af78f2f3e909962ec0ab2f1bab7ed94056797b2dc3787f75840e642",
+      "initial_input": {
+        "rgbm": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "right_cam_img": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "right_state": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "part_mask": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "wrist_mask": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "wrist_part_mask": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "target_pixels": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "target_visible": {
+          "equal": true,
+          "max_abs": 0.0
+        }
+      },
+      "preprocessing_checks": [
+        {
+          "tick": 0,
+          "max_abs": 0.0
+        },
+        {
+          "tick": 100,
+          "max_abs": 0.0
+        },
+        {
+          "tick": 451,
+          "max_abs": 0.0
+        },
+        {
+          "tick": 970,
+          "max_abs": 0.0
+        }
+      ],
+      "chunk_sequence": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0
+      ],
+      "reference_indices": [
+        0,
+        451
+      ],
+      "rollouts": [
+        {
+          "trace": "replay_000.npz",
+          "ticks": 17,
+          "replay_signal_max_abs": {
+            "contact_groups": 0.0,
+            "group_forces_min": 0.0,
+            "group_forces_max": 0.0,
+            "digit_force_max": 0.0,
+            "target_height_min": 0.0,
+            "object_xy_displacement_max": 0.0,
+            "non_target_displacement_max": 0.0,
+            "robot_object_penetration_max": 0.0,
+            "robot_table_penetration_max": 0.0,
+            "robot_obstacle_penetration_max": 0.0
+          },
+          "first_negative_contact": {
+            "tick": 0,
+            "substep": 0,
+            "bodies": [
+              "finger_r_link14",
+              "finger_r_link18"
+            ],
+            "depth_m": 0.000671802235696602
+          },
+          "initial_self_contact_depths_m": [
+            0.0006789071652987916,
+            0.0005516727095803024
+          ],
+          "first_external_contact": {
+            "tick": 16,
+            "substep": 1,
+            "bodies": [
+              "finger_r_link4",
+              "object_core_bottle_6444875e3217bf891f5f48a891d827bd"
+            ],
+            "depth_m": 0.00026906218996950967
+          },
+          "deepest_contact": {
+            "tick": 16,
+            "substep": 9,
+            "bodies": [
+              "finger_r_link4",
+              "object_core_bottle_6444875e3217bf891f5f48a891d827bd"
+            ],
+            "depth_m": 0.00654155365722645
+          },
+          "per_joint": [
+            {
+              "joint": "arm_r_joint1",
+              "first_student_minus_teacher_rad": -0.24864476638830324,
+              "first_student_minus_measured_rad": -0.2583334445953369,
+              "student_max_command_step_rad": 0.5415729284286499,
+              "teacher_max_command_step_rad": 0.013805318994695948,
+              "max_command_minus_measured_rad": 0.6947092711925507
+            },
+            {
+              "joint": "arm_r_joint2",
+              "first_student_minus_teacher_rad": 0.06442161411202507,
+              "first_student_minus_measured_rad": 0.05769550800323486,
+              "student_max_command_step_rad": 0.1202094554901123,
+              "teacher_max_command_step_rad": 0.002514844240313341,
+              "max_command_minus_measured_rad": 0.08438961207866669
+            },
+            {
+              "joint": "arm_r_joint3",
+              "first_student_minus_teacher_rad": 0.20079627145523285,
+              "first_student_minus_measured_rad": 0.20065277814865112,
+              "student_max_command_step_rad": 0.7663032412528992,
+              "teacher_max_command_step_rad": 0.005714021637123035,
+              "max_command_minus_measured_rad": 0.9351323917508125
+            },
+            {
+              "joint": "arm_r_joint4",
+              "first_student_minus_teacher_rad": 0.14240415479497726,
+              "first_student_minus_measured_rad": 0.12459778785705566,
+              "student_max_command_step_rad": 0.48205411434173584,
+              "teacher_max_command_step_rad": 0.0038971727352725694,
+              "max_command_minus_measured_rad": 0.49392688274383545
+            },
+            {
+              "joint": "arm_r_joint5",
+              "first_student_minus_teacher_rad": 0.7008085800644842,
+              "first_student_minus_measured_rad": 0.7087643211561954,
+              "student_max_command_step_rad": 0.7085325717926025,
+              "teacher_max_command_step_rad": 0.007723991728118331,
+              "max_command_minus_measured_rad": 0.9336347281932831
+            },
+            {
+              "joint": "arm_r_joint6",
+              "first_student_minus_teacher_rad": -0.14662222739386552,
+              "first_student_minus_measured_rad": -0.16247326554730535,
+              "student_max_command_step_rad": 1.1681208610534668,
+              "teacher_max_command_step_rad": 0.01027332071137434,
+              "max_command_minus_measured_rad": 0.8769872412085533
+            },
+            {
+              "joint": "arm_r_joint7",
+              "first_student_minus_teacher_rad": -0.18781131475635873,
+              "first_student_minus_measured_rad": -0.19310728809796274,
+              "student_max_command_step_rad": 1.1683818846940994,
+              "teacher_max_command_step_rad": 0.0028224441461910214,
+              "max_command_minus_measured_rad": 1.0720201060175896
+            },
+            {
+              "joint": "finger_r_joint1",
+              "first_student_minus_teacher_rad": -0.0098465196788311,
+              "first_student_minus_measured_rad": -0.009862549555691658,
+              "student_max_command_step_rad": 0.0106431283056736,
+              "teacher_max_command_step_rad": 0.0,
+              "max_command_minus_measured_rad": 0.016694147838279605
+            },
+            {
+              "joint": "finger_r_joint2",
+              "first_student_minus_teacher_rad": -0.24655052003860478,
+              "first_student_minus_measured_rad": -0.24647855758666992,
+              "student_max_command_step_rad": 0.29611337184906006,
+              "teacher_max_command_step_rad": 1.9645690962910578e-08,
+              "max_command_minus_measured_rad": 0.28925198316574097
+            },
+            {
+              "joint": "finger_r_joint3",
+              "first_student_minus_teacher_rad": 0.0559519077539444,
+              "first_student_minus_measured_rad": 0.055941589176654816,
+              "student_max_command_step_rad": 0.06356029212474823,
+              "teacher_max_command_step_rad": 4.768371530960991e-10,
+              "max_command_minus_measured_rad": 0.09804169833660126
+            },
+            {
+              "joint": "finger_r_joint4",
+              "first_student_minus_teacher_rad": 0.271132675075531,
+              "first_student_minus_measured_rad": 0.27112770080566406,
+              "student_max_command_step_rad": 0.2711326777935028,
+              "teacher_max_command_step_rad": 2.7179717920766677e-09,
+              "max_command_minus_measured_rad": 0.27112770080566406
+            },
+            {
+              "joint": "finger_r_joint5",
+              "first_student_minus_teacher_rad": 0.05419955177307134,
+              "first_student_minus_measured_rad": 0.05409425497055054,
+              "student_max_command_step_rad": 0.05419957637786865,
+              "teacher_max_command_step_rad": 2.4604797310701088e-08,
+              "max_command_minus_measured_rad": 0.05584996938705444
+            },
+            {
+              "joint": "finger_r_joint6",
+              "first_student_minus_teacher_rad": 0.054749193763732884,
+              "first_student_minus_measured_rad": 0.054712891578674316,
+              "student_max_command_step_rad": 0.2518676519393921,
+              "teacher_max_command_step_rad": 2.9563903547469295e-09,
+              "max_command_minus_measured_rad": 0.2703548073768616
+            },
+            {
+              "joint": "finger_r_joint7",
+              "first_student_minus_teacher_rad": 0.07706746219396592,
+              "first_student_minus_measured_rad": 0.0770535129122436,
+              "student_max_command_step_rad": 0.16586067527532578,
+              "teacher_max_command_step_rad": 6.780028361658141e-11,
+              "max_command_minus_measured_rad": 0.1843729317188263
+            },
+            {
+              "joint": "finger_r_joint8",
+              "first_student_minus_teacher_rad": 0.04512466015815736,
+              "first_student_minus_measured_rad": 0.04512229561805725,
+              "student_max_command_step_rad": 0.2095053791999817,
+              "teacher_max_command_step_rad": 1.0156631480295886e-08,
+              "max_command_minus_measured_rad": 0.22730979323387146
+            },
+            {
+              "joint": "finger_r_joint9",
+              "first_student_minus_teacher_rad": -0.03222981119155882,
+              "first_student_minus_measured_rad": -0.032350748777389526,
+              "student_max_command_step_rad": 0.03222981095314026,
+              "teacher_max_command_step_rad": 2.3841856267026174e-10,
+              "max_command_minus_measured_rad": 0.032350748777389526
+            },
+            {
+              "joint": "finger_r_joint10",
+              "first_student_minus_teacher_rad": 0.14621223421096802,
+              "first_student_minus_measured_rad": 0.14618560671806335,
+              "student_max_command_step_rad": 0.3647785186767578,
+              "teacher_max_command_step_rad": 1.4019012450905421e-08,
+              "max_command_minus_measured_rad": 0.3960328698158264
+            },
+            {
+              "joint": "finger_r_joint11",
+              "first_student_minus_teacher_rad": -0.07151068075895309,
+              "first_student_minus_measured_rad": -0.07152118533849716,
+              "student_max_command_step_rad": 0.0715106800198555,
+              "teacher_max_command_step_rad": 7.390975886867324e-10,
+              "max_command_minus_measured_rad": 0.07152118533849716
+            },
+            {
+              "joint": "finger_r_joint12",
+              "first_student_minus_teacher_rad": 0.07086031408309934,
+              "first_student_minus_measured_rad": 0.07085859775543213,
+              "student_max_command_step_rad": 0.18977999687194824,
+              "teacher_max_command_step_rad": 1.220703127469136e-08,
+              "max_command_minus_measured_rad": 0.22196587920188904
+            },
+            {
+              "joint": "finger_r_joint13",
+              "first_student_minus_teacher_rad": -0.008341210889816264,
+              "first_student_minus_measured_rad": -0.005680859088897705,
+              "student_max_command_step_rad": 0.011649608612060547,
+              "teacher_max_command_step_rad": 1.2111663838521025e-08,
+              "max_command_minus_measured_rad": 0.012598633766174316
+            },
+            {
+              "joint": "finger_r_joint14",
+              "first_student_minus_teacher_rad": 0.3159394498348236,
+              "first_student_minus_measured_rad": 0.3159087747335434,
+              "student_max_command_step_rad": 0.31593945622444153,
+              "teacher_max_command_step_rad": 6.389617918101109e-09,
+              "max_command_minus_measured_rad": 0.3277161419391632
+            },
+            {
+              "joint": "finger_r_joint15",
+              "first_student_minus_teacher_rad": 0.0024266845345497137,
+              "first_student_minus_measured_rad": 0.002417299896478653,
+              "student_max_command_step_rad": 0.018078356981277466,
+              "teacher_max_command_step_rad": 2.9951333947730863e-10,
+              "max_command_minus_measured_rad": 0.015312401577830315
+            },
+            {
+              "joint": "finger_r_joint16",
+              "first_student_minus_teacher_rad": 0.11819155378341673,
+              "first_student_minus_measured_rad": 0.11818993091583252,
+              "student_max_command_step_rad": 0.2235584855079651,
+              "teacher_max_command_step_rad": 1.3542175270053747e-08,
+              "max_command_minus_measured_rad": 0.23437270522117615
+            },
+            {
+              "joint": "finger_r_joint17",
+              "first_student_minus_teacher_rad": 0.0608619155406952,
+              "first_student_minus_measured_rad": 0.032698988914489746,
+              "student_max_command_step_rad": 0.06086191534996033,
+              "teacher_max_command_step_rad": 1.9073487234066988e-10,
+              "max_command_minus_measured_rad": 0.032698988914489746
+            },
+            {
+              "joint": "finger_r_joint18",
+              "first_student_minus_teacher_rad": 0.2097680022716522,
+              "first_student_minus_measured_rad": 0.20975476503372192,
+              "student_max_command_step_rad": 0.30288857221603394,
+              "teacher_max_command_step_rad": 5.006790149142404e-09,
+              "max_command_minus_measured_rad": 0.3818666636943817
+            },
+            {
+              "joint": "finger_r_joint19",
+              "first_student_minus_teacher_rad": 0.003249175488948822,
+              "first_student_minus_measured_rad": 0.003237717552110553,
+              "student_max_command_step_rad": 0.022214822471141815,
+              "teacher_max_command_step_rad": 1.0803341858253712e-10,
+              "max_command_minus_measured_rad": 0.0173621391877532
+            },
+            {
+              "joint": "finger_r_joint20",
+              "first_student_minus_teacher_rad": -0.041629035711288453,
+              "first_student_minus_measured_rad": -0.041630566120147705,
+              "student_max_command_step_rad": 0.04162904620170593,
+              "teacher_max_command_step_rad": 1.0490417479136482e-08,
+              "max_command_minus_measured_rad": 0.041630566120147705
+            }
+          ]
+        },
+        {
+          "trace": "replay_001.npz",
+          "ticks": 13,
+          "replay_signal_max_abs": {
+            "contact_groups": 0.0,
+            "group_forces_min": 0.0,
+            "group_forces_max": 0.0,
+            "digit_force_max": 0.0,
+            "target_height_min": 0.0,
+            "object_xy_displacement_max": 0.0,
+            "non_target_displacement_max": 0.0,
+            "robot_object_penetration_max": 0.0,
+            "robot_table_penetration_max": 0.0,
+            "robot_obstacle_penetration_max": 0.0
+          },
+          "first_negative_contact": {
+            "tick": 0,
+            "substep": 0,
+            "bodies": [
+              "finger_r_link14",
+              "finger_r_link18"
+            ],
+            "depth_m": 0.0006736757915867521
+          },
+          "initial_self_contact_depths_m": [
+            0.0006789071652987916,
+            0.0005516727095803024
+          ],
+          "first_external_contact": {
+            "tick": 12,
+            "substep": 0,
+            "bodies": [
+              "finger_r_link8",
+              "object_core_bottle_6444875e3217bf891f5f48a891d827bd"
+            ],
+            "depth_m": 0.0003861348632989347
+          },
+          "deepest_contact": {
+            "tick": 12,
+            "substep": 4,
+            "bodies": [
+              "finger_r_link8",
+              "object_core_bottle_6444875e3217bf891f5f48a891d827bd"
+            ],
+            "depth_m": 0.002170781506644666
+          },
+          "per_joint": [
+            {
+              "joint": "arm_r_joint1",
+              "first_student_minus_teacher_rad": -1.1859552534202398,
+              "first_student_minus_measured_rad": -1.1956439316272736,
+              "student_max_command_step_rad": 1.1993090212345123,
+              "teacher_max_command_step_rad": 0.013771060138328628,
+              "max_command_minus_measured_rad": 1.2436606884002686
+            },
+            {
+              "joint": "arm_r_joint2",
+              "first_student_minus_teacher_rad": -0.27751932531439705,
+              "first_student_minus_measured_rad": -0.28424543142318726,
+              "student_max_command_step_rad": 0.2800341695547104,
+              "teacher_max_command_step_rad": 0.002514844240313341,
+              "max_command_minus_measured_rad": 0.28424543142318726
+            },
+            {
+              "joint": "arm_r_joint3",
+              "first_student_minus_teacher_rad": 0.8253604720949576,
+              "first_student_minus_measured_rad": 0.8252169787883759,
+              "student_max_command_step_rad": 0.8309495598077774,
+              "teacher_max_command_step_rad": 0.005714021637123035,
+              "max_command_minus_measured_rad": 0.8652976900339127
+            },
+            {
+              "joint": "arm_r_joint4",
+              "first_student_minus_teacher_rad": 0.350556925791071,
+              "first_student_minus_measured_rad": 0.3327505588531494,
+              "student_max_command_step_rad": 0.3543393611907959,
+              "teacher_max_command_step_rad": 0.0038971727352725694,
+              "max_command_minus_measured_rad": 0.3327505588531494
+            },
+            {
+              "joint": "arm_r_joint5",
+              "first_student_minus_teacher_rad": 0.5478713466164556,
+              "first_student_minus_measured_rad": 0.5558270877081668,
+              "student_max_command_step_rad": 0.555595338344574,
+              "teacher_max_command_step_rad": 0.007723991728118331,
+              "max_command_minus_measured_rad": 0.8129577711224556
+            },
+            {
+              "joint": "arm_r_joint6",
+              "first_student_minus_teacher_rad": 0.17275686386895187,
+              "first_student_minus_measured_rad": 0.15690582571551204,
+              "student_max_command_step_rad": 0.9203501045703888,
+              "teacher_max_command_step_rad": 0.01027332071137434,
+              "max_command_minus_measured_rad": 1.1715427041053772
+            },
+            {
+              "joint": "arm_r_joint7",
+              "first_student_minus_teacher_rad": 0.33143274516395227,
+              "first_student_minus_measured_rad": 0.32613677182234824,
+              "student_max_command_step_rad": 0.32861030101776123,
+              "teacher_max_command_step_rad": 0.0028224441461910214,
+              "max_command_minus_measured_rad": 0.5597408753819764
+            },
+            {
+              "joint": "finger_r_joint1",
+              "first_student_minus_teacher_rad": -0.07562719285488129,
+              "first_student_minus_measured_rad": -0.07564322273174184,
+              "student_max_command_step_rad": 0.07562719285488129,
+              "teacher_max_command_step_rad": 0.0,
+              "max_command_minus_measured_rad": 0.07700535794720054
+            },
+            {
+              "joint": "finger_r_joint2",
+              "first_student_minus_teacher_rad": -0.6283356147766114,
+              "first_student_minus_measured_rad": -0.6282636523246765,
+              "student_max_command_step_rad": 0.6283355951309204,
+              "teacher_max_command_step_rad": 1.9645690962910578e-08,
+              "max_command_minus_measured_rad": 0.7806296944618225
+            },
+            {
+              "joint": "finger_r_joint3",
+              "first_student_minus_teacher_rad": 0.09779964339733124,
+              "first_student_minus_measured_rad": 0.09778932482004166,
+              "student_max_command_step_rad": 0.0977996438741684,
+              "teacher_max_command_step_rad": 4.768371530960991e-10,
+              "max_command_minus_measured_rad": 0.11476963758468628
+            },
+            {
+              "joint": "finger_r_joint4",
+              "first_student_minus_teacher_rad": 0.137065109872818,
+              "first_student_minus_measured_rad": 0.13706013560295105,
+              "student_max_command_step_rad": 0.1692531704902649,
+              "teacher_max_command_step_rad": 2.7179717920766677e-09,
+              "max_command_minus_measured_rad": 0.13960593938827515
+            },
+            {
+              "joint": "finger_r_joint5",
+              "first_student_minus_teacher_rad": -0.010152126121520944,
+              "first_student_minus_measured_rad": -0.010257422924041748,
+              "student_max_command_step_rad": 0.08423343300819397,
+              "teacher_max_command_step_rad": 2.4604797310701088e-08,
+              "max_command_minus_measured_rad": 0.06470867991447449
+            },
+            {
+              "joint": "finger_r_joint6",
+              "first_student_minus_teacher_rad": 0.3541767030715942,
+              "first_student_minus_measured_rad": 0.35414040088653564,
+              "student_max_command_step_rad": 0.35417670011520386,
+              "teacher_max_command_step_rad": 2.9563903547469295e-09,
+              "max_command_minus_measured_rad": 0.4825550317764282
+            },
+            {
+              "joint": "finger_r_joint7",
+              "first_student_minus_teacher_rad": 0.23659742383956908,
+              "first_student_minus_measured_rad": 0.23658347455784678,
+              "student_max_command_step_rad": 0.23659742390736938,
+              "teacher_max_command_step_rad": 6.780028361658141e-11,
+              "max_command_minus_measured_rad": 0.23658347455784678
+            },
+            {
+              "joint": "finger_r_joint8",
+              "first_student_minus_teacher_rad": 0.27423391761779786,
+              "first_student_minus_measured_rad": 0.27423155307769775,
+              "student_max_command_step_rad": 0.2742339074611664,
+              "teacher_max_command_step_rad": 1.0156631480295886e-08,
+              "max_command_minus_measured_rad": 0.3267024755477905
+            },
+            {
+              "joint": "finger_r_joint9",
+              "first_student_minus_teacher_rad": -0.017669528961181624,
+              "first_student_minus_measured_rad": -0.01779046654701233,
+              "student_max_command_step_rad": 0.023180216550827026,
+              "teacher_max_command_step_rad": 2.3841856267026174e-10,
+              "max_command_minus_measured_rad": 0.021023303270339966
+            },
+            {
+              "joint": "finger_r_joint10",
+              "first_student_minus_teacher_rad": 0.06746174306869507,
+              "first_student_minus_measured_rad": 0.0674351155757904,
+              "student_max_command_step_rad": 0.15024501085281372,
+              "teacher_max_command_step_rad": 1.4019012450905421e-08,
+              "max_command_minus_measured_rad": 0.17709964513778687
+            },
+            {
+              "joint": "finger_r_joint11",
+              "first_student_minus_teacher_rad": -0.03086067810058593,
+              "first_student_minus_measured_rad": -0.030871182680130005,
+              "student_max_command_step_rad": 0.030860677361488342,
+              "teacher_max_command_step_rad": 7.390975886867324e-10,
+              "max_command_minus_measured_rad": 0.030871182680130005
+            },
+            {
+              "joint": "finger_r_joint12",
+              "first_student_minus_teacher_rad": 0.0747034427642822,
+              "first_student_minus_measured_rad": 0.07470172643661499,
+              "student_max_command_step_rad": 0.0882309079170227,
+              "teacher_max_command_step_rad": 1.220703127469136e-08,
+              "max_command_minus_measured_rad": 0.13108927011489868
+            },
+            {
+              "joint": "finger_r_joint13",
+              "first_student_minus_teacher_rad": 0.004064244222641011,
+              "first_student_minus_measured_rad": 0.00672459602355957,
+              "student_max_command_step_rad": 0.018740147352218628,
+              "teacher_max_command_step_rad": 1.2111663838521025e-08,
+              "max_command_minus_measured_rad": 0.01775708794593811
+            },
+            {
+              "joint": "finger_r_joint14",
+              "first_student_minus_teacher_rad": 0.10319300847053528,
+              "first_student_minus_measured_rad": 0.10316233336925507,
+              "student_max_command_step_rad": 0.1031930148601532,
+              "teacher_max_command_step_rad": 6.389617918101109e-09,
+              "max_command_minus_measured_rad": 0.17317238450050354
+            },
+            {
+              "joint": "finger_r_joint15",
+              "first_student_minus_teacher_rad": 0.03574453729987145,
+              "first_student_minus_measured_rad": 0.035735152661800385,
+              "student_max_command_step_rad": 0.035744537599384785,
+              "teacher_max_command_step_rad": 2.9951333947730863e-10,
+              "max_command_minus_measured_rad": 0.03830499481409788
+            },
+            {
+              "joint": "finger_r_joint16",
+              "first_student_minus_teacher_rad": 0.09145827455520628,
+              "first_student_minus_measured_rad": 0.09145665168762207,
+              "student_max_command_step_rad": 0.091458261013031,
+              "teacher_max_command_step_rad": 1.3542175270053747e-08,
+              "max_command_minus_measured_rad": 0.09145665168762207
+            },
+            {
+              "joint": "finger_r_joint17",
+              "first_student_minus_teacher_rad": 0.07023507375717164,
+              "first_student_minus_measured_rad": 0.042072147130966187,
+              "student_max_command_step_rad": 0.0813828706741333,
+              "teacher_max_command_step_rad": 1.9073487234066988e-10,
+              "max_command_minus_measured_rad": 0.08949732780456543
+            },
+            {
+              "joint": "finger_r_joint18",
+              "first_student_minus_teacher_rad": 0.19823059940338134,
+              "first_student_minus_measured_rad": 0.19821736216545105,
+              "student_max_command_step_rad": 0.1982305943965912,
+              "teacher_max_command_step_rad": 5.006790149142404e-09,
+              "max_command_minus_measured_rad": 0.19821736216545105
+            },
+            {
+              "joint": "finger_r_joint19",
+              "first_student_minus_teacher_rad": 0.021898846715688706,
+              "first_student_minus_measured_rad": 0.021887388778850436,
+              "student_max_command_step_rad": 0.022066686302423477,
+              "teacher_max_command_step_rad": 1.0803341858253712e-10,
+              "max_command_minus_measured_rad": 0.026864545419812202
+            },
+            {
+              "joint": "finger_r_joint20",
+              "first_student_minus_teacher_rad": -0.03433393383026123,
+              "first_student_minus_measured_rad": -0.03433546423912048,
+              "student_max_command_step_rad": 0.03433394432067871,
+              "teacher_max_command_step_rad": 1.0490417479136482e-08,
+              "max_command_minus_measured_rad": 0.04333433508872986
+            }
+          ]
+        },
+        {
+          "trace": "replay_002.npz",
+          "ticks": 16,
+          "replay_signal_max_abs": {
+            "contact_groups": 0.0,
+            "group_forces_min": 0.0,
+            "group_forces_max": 0.0,
+            "digit_force_max": 0.0,
+            "target_height_min": 0.0,
+            "object_xy_displacement_max": 0.0,
+            "non_target_displacement_max": 0.0,
+            "robot_object_penetration_max": 0.0,
+            "robot_table_penetration_max": 0.0,
+            "robot_obstacle_penetration_max": 0.0
+          },
+          "first_negative_contact": {
+            "tick": 0,
+            "substep": 0,
+            "bodies": [
+              "finger_r_link14",
+              "finger_r_link18"
+            ],
+            "depth_m": 0.0006791699889522918
+          },
+          "initial_self_contact_depths_m": [
+            0.0006789071652987916,
+            0.0005516727095803024
+          ],
+          "first_external_contact": {
+            "tick": 15,
+            "substep": 0,
+            "bodies": [
+              "finger_r_link8",
+              "object_core_bottle_6444875e3217bf891f5f48a891d827bd"
+            ],
+            "depth_m": 0.0011581704446544327
+          },
+          "deepest_contact": {
+            "tick": 15,
+            "substep": 2,
+            "bodies": [
+              "finger_r_link8",
+              "object_core_bottle_6444875e3217bf891f5f48a891d827bd"
+            ],
+            "depth_m": 0.0021344281444181826
+          },
+          "per_joint": [
+            {
+              "joint": "arm_r_joint1",
+              "first_student_minus_teacher_rad": -1.24164977389372,
+              "first_student_minus_measured_rad": -1.2513384521007538,
+              "student_max_command_step_rad": 1.2550035417079926,
+              "teacher_max_command_step_rad": 0.013798277755254107,
+              "max_command_minus_measured_rad": 1.2513384521007538
+            },
+            {
+              "joint": "arm_r_joint2",
+              "first_student_minus_teacher_rad": 0.018165578545695116,
+              "first_student_minus_measured_rad": 0.011439472436904907,
+              "student_max_command_step_rad": 0.27743884921073914,
+              "teacher_max_command_step_rad": 0.002514844240313341,
+              "max_command_minus_measured_rad": 0.1917744278907776
+            },
+            {
+              "joint": "arm_r_joint3",
+              "first_student_minus_teacher_rad": 0.8819204520105764,
+              "first_student_minus_measured_rad": 0.8817769587039948,
+              "student_max_command_step_rad": 0.8875095397233963,
+              "teacher_max_command_step_rad": 0.005714021637123035,
+              "max_command_minus_measured_rad": 0.8817769587039948
+            },
+            {
+              "joint": "arm_r_joint4",
+              "first_student_minus_teacher_rad": 0.29325397397832687,
+              "first_student_minus_measured_rad": 0.2754476070404053,
+              "student_max_command_step_rad": 0.29703640937805176,
+              "teacher_max_command_step_rad": 0.0038971727352725694,
+              "max_command_minus_measured_rad": 0.3908827304840088
+            },
+            {
+              "joint": "arm_r_joint5",
+              "first_student_minus_teacher_rad": 1.4434423996445622,
+              "first_student_minus_measured_rad": 1.4513981407362735,
+              "student_max_command_step_rad": 1.4511663913726807,
+              "teacher_max_command_step_rad": 0.007723991728118331,
+              "max_command_minus_measured_rad": 1.6886712163686752
+            },
+            {
+              "joint": "arm_r_joint6",
+              "first_student_minus_teacher_rad": -0.7001094984643459,
+              "first_student_minus_measured_rad": -0.7159605366177857,
+              "student_max_command_step_rad": 1.0912450551986694,
+              "teacher_max_command_step_rad": 0.01027332071137434,
+              "max_command_minus_measured_rad": 1.00154247879982
+            },
+            {
+              "joint": "arm_r_joint7",
+              "first_student_minus_teacher_rad": -0.34282471209236487,
+              "first_student_minus_measured_rad": -0.3481206854339689,
+              "student_max_command_step_rad": 1.0138692110776901,
+              "teacher_max_command_step_rad": 0.0028224441461910214,
+              "max_command_minus_measured_rad": 1.0682000368833542
+            },
+            {
+              "joint": "finger_r_joint1",
+              "first_student_minus_teacher_rad": -0.010996803641319275,
+              "first_student_minus_measured_rad": -0.011012833518179832,
+              "student_max_command_step_rad": 0.045482486486434937,
+              "teacher_max_command_step_rad": 0.0,
+              "max_command_minus_measured_rad": 0.047673072665929794
+            },
+            {
+              "joint": "finger_r_joint2",
+              "first_student_minus_teacher_rad": -0.7325289445877076,
+              "first_student_minus_measured_rad": -0.7324569821357727,
+              "student_max_command_step_rad": 0.7325289249420166,
+              "teacher_max_command_step_rad": 1.9645690962910578e-08,
+              "max_command_minus_measured_rad": 0.7324569821357727
+            },
+            {
+              "joint": "finger_r_joint3",
+              "first_student_minus_teacher_rad": 0.13972282361984253,
+              "first_student_minus_measured_rad": 0.13971250504255295,
+              "student_max_command_step_rad": 0.1397228240966797,
+              "teacher_max_command_step_rad": 4.768371530960991e-10,
+              "max_command_minus_measured_rad": 0.1564035639166832
+            },
+            {
+              "joint": "finger_r_joint4",
+              "first_student_minus_teacher_rad": 0.12584295597076417,
+              "first_student_minus_measured_rad": 0.12583798170089722,
+              "student_max_command_step_rad": 0.12584295868873596,
+              "teacher_max_command_step_rad": 2.7179717920766677e-09,
+              "max_command_minus_measured_rad": 0.2744472920894623
+            },
+            {
+              "joint": "finger_r_joint5",
+              "first_student_minus_teacher_rad": 0.09645903630256658,
+              "first_student_minus_measured_rad": 0.09635373950004578,
+              "student_max_command_step_rad": 0.09645906090736389,
+              "teacher_max_command_step_rad": 2.4604797310701088e-08,
+              "max_command_minus_measured_rad": 0.09635373950004578
+            },
+            {
+              "joint": "finger_r_joint6",
+              "first_student_minus_teacher_rad": 0.3284378677368164,
+              "first_student_minus_measured_rad": 0.3284015655517578,
+              "student_max_command_step_rad": 0.328437864780426,
+              "teacher_max_command_step_rad": 2.9563903547469295e-09,
+              "max_command_minus_measured_rad": 0.3506982922554016
+            },
+            {
+              "joint": "finger_r_joint7",
+              "first_student_minus_teacher_rad": 0.3144318511962891,
+              "first_student_minus_measured_rad": 0.31441790191456676,
+              "student_max_command_step_rad": 0.31443185126408935,
+              "teacher_max_command_step_rad": 6.780028361658141e-11,
+              "max_command_minus_measured_rad": 0.31441790191456676
+            },
+            {
+              "joint": "finger_r_joint8",
+              "first_student_minus_teacher_rad": 0.2928616804122925,
+              "first_student_minus_measured_rad": 0.2928593158721924,
+              "student_max_command_step_rad": 0.292861670255661,
+              "teacher_max_command_step_rad": 1.0156631480295886e-08,
+              "max_command_minus_measured_rad": 0.3519054055213928
+            },
+            {
+              "joint": "finger_r_joint9",
+              "first_student_minus_teacher_rad": -0.00797843956947325,
+              "first_student_minus_measured_rad": -0.008099377155303955,
+              "student_max_command_step_rad": 0.036659449338912964,
+              "teacher_max_command_step_rad": 2.3841856267026174e-10,
+              "max_command_minus_measured_rad": 0.027675092220306396
+            },
+            {
+              "joint": "finger_r_joint10",
+              "first_student_minus_teacher_rad": 0.2052833876132965,
+              "first_student_minus_measured_rad": 0.20525676012039185,
+              "student_max_command_step_rad": 0.20528337359428406,
+              "teacher_max_command_step_rad": 1.4019012450905421e-08,
+              "max_command_minus_measured_rad": 0.31905022263526917
+            },
+            {
+              "joint": "finger_r_joint11",
+              "first_student_minus_teacher_rad": -0.04937665983438491,
+              "first_student_minus_measured_rad": -0.049387164413928986,
+              "student_max_command_step_rad": 0.04937665909528732,
+              "teacher_max_command_step_rad": 7.390975886867324e-10,
+              "max_command_minus_measured_rad": 0.05394192039966583
+            },
+            {
+              "joint": "finger_r_joint12",
+              "first_student_minus_teacher_rad": 0.11007373304367063,
+              "first_student_minus_measured_rad": 0.11007201671600342,
+              "student_max_command_step_rad": 0.12987929582595825,
+              "teacher_max_command_step_rad": 1.220703127469136e-08,
+              "max_command_minus_measured_rad": 0.2617807388305664
+            },
+            {
+              "joint": "finger_r_joint13",
+              "first_student_minus_teacher_rad": 0.018710059118270894,
+              "first_student_minus_measured_rad": 0.021370410919189453,
+              "student_max_command_step_rad": 0.035646796226501465,
+              "teacher_max_command_step_rad": 1.2111663838521025e-08,
+              "max_command_minus_measured_rad": 0.02809414267539978
+            },
+            {
+              "joint": "finger_r_joint14",
+              "first_student_minus_teacher_rad": 0.4187083180427551,
+              "first_student_minus_measured_rad": 0.4186776429414749,
+              "student_max_command_step_rad": 0.41870832443237305,
+              "teacher_max_command_step_rad": 6.389617918101109e-09,
+              "max_command_minus_measured_rad": 0.43639346957206726
+            },
+            {
+              "joint": "finger_r_joint15",
+              "first_student_minus_teacher_rad": 0.0017054012775421148,
+              "first_student_minus_measured_rad": 0.001696016639471054,
+              "student_max_command_step_rad": 0.022234205156564713,
+              "teacher_max_command_step_rad": 2.9951333947730863e-10,
+              "max_command_minus_measured_rad": 0.020506550557911396
+            },
+            {
+              "joint": "finger_r_joint16",
+              "first_student_minus_teacher_rad": 0.18124411864280698,
+              "first_student_minus_measured_rad": 0.18124249577522278,
+              "student_max_command_step_rad": 0.1812441051006317,
+              "teacher_max_command_step_rad": 1.3542175270053747e-08,
+              "max_command_minus_measured_rad": 0.22497007250785828
+            },
+            {
+              "joint": "finger_r_joint17",
+              "first_student_minus_teacher_rad": 0.020426809978485116,
+              "first_student_minus_measured_rad": -0.007736116647720337,
+              "student_max_command_step_rad": 0.10944083333015442,
+              "teacher_max_command_step_rad": 1.9073487234066988e-10,
+              "max_command_minus_measured_rad": 0.11615248024463654
+            },
+            {
+              "joint": "finger_r_joint18",
+              "first_student_minus_teacher_rad": 0.28418377542495726,
+              "first_student_minus_measured_rad": 0.284170538187027,
+              "student_max_command_step_rad": 0.2841837704181671,
+              "teacher_max_command_step_rad": 5.006790149142404e-09,
+              "max_command_minus_measured_rad": 0.3560195565223694
+            },
+            {
+              "joint": "finger_r_joint19",
+              "first_student_minus_teacher_rad": -0.0030372220873832703,
+              "first_student_minus_measured_rad": -0.0030486800242215395,
+              "student_max_command_step_rad": 0.024843614548444748,
+              "teacher_max_command_step_rad": 1.0803341858253712e-10,
+              "max_command_minus_measured_rad": 0.038721706718206406
+            },
+            {
+              "joint": "finger_r_joint20",
+              "first_student_minus_teacher_rad": -0.04532088780403137,
+              "first_student_minus_measured_rad": -0.045322418212890625,
+              "student_max_command_step_rad": 0.04532089829444885,
+              "teacher_max_command_step_rad": 1.0490417479136482e-08,
+              "max_command_minus_measured_rad": 0.05128195881843567
+            }
+          ]
+        }
+      ],
+      "teacher_pre_action_alignment": {
+        "ticks": 17,
+        "max_abs_rad": 0.0,
+        "control_dt_max_abs": 0.0,
+        "timestamp_step_max_abs": 1.1084883011491797e-14
+      }
+    },
+    {
+      "episode_id": "source0_teacher_0016_yaw_000",
+      "contract": {
+        "model_sha256": "f183993f472bb65c2d71697a7ad8c06f4ff28e1c92f690de5c3a8a7609e4b5c7",
+        "initial_state_sha256": "bb132b05e5a7babb7603ab566d500b47a0e109c46f24cb7d289063dc47ed79b0",
+        "condition": {
+          "kind": "object",
+          "object_id": "core_bottle_6444875e3217bf891f5f48a891d827bd"
+        },
+        "limits": {
+          "max_approach_displacement": 0.01,
+          "max_digit_force": 30.0,
+          "max_penetration": 0.002,
+          "max_table_penetration": 1e-06,
+          "min_contact_force": 0.1,
+          "min_hold_seconds": 0.5,
+          "min_lift": 0.1
+        },
+        "required_contact_groups": [
+          [
+            "finger_r_link3",
+            "finger_r_link4"
+          ],
+          [
+            "finger_r_link7",
+            "finger_r_link8"
+          ]
+        ],
+        "tick_budget": 974
+      },
+      "contract_sha256": "6a6277e7599a3f5d21f4d8dab31304790079ee7b06ad2eb44d87c4d8117c2095",
+      "initial_input": {
+        "rgbm": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "right_cam_img": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "right_state": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "part_mask": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "wrist_mask": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "wrist_part_mask": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "target_pixels": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "target_visible": {
+          "equal": true,
+          "max_abs": 0.0
+        }
+      },
+      "preprocessing_checks": [
+        {
+          "tick": 0,
+          "max_abs": 0.0
+        },
+        {
+          "tick": 100,
+          "max_abs": 0.0
+        },
+        {
+          "tick": 457,
+          "max_abs": 0.0
+        },
+        {
+          "tick": 973,
+          "max_abs": 0.0
+        }
+      ],
+      "chunk_sequence": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0
+      ],
+      "reference_indices": [
+        0,
+        457
+      ],
+      "rollouts": [
+        {
+          "trace": "replay_000.npz",
+          "ticks": 17,
+          "replay_signal_max_abs": {
+            "contact_groups": 0.0,
+            "group_forces_min": 0.0,
+            "group_forces_max": 0.0,
+            "digit_force_max": 0.0,
+            "target_height_min": 0.0,
+            "object_xy_displacement_max": 0.0,
+            "non_target_displacement_max": 0.0,
+            "robot_object_penetration_max": 0.0,
+            "robot_table_penetration_max": 0.0,
+            "robot_obstacle_penetration_max": 0.0
+          },
+          "first_negative_contact": {
+            "tick": 0,
+            "substep": 0,
+            "bodies": [
+              "finger_r_link14",
+              "finger_r_link18"
+            ],
+            "depth_m": 0.000671802235696602
+          },
+          "initial_self_contact_depths_m": [
+            0.0006789071652987916,
+            0.0005516727095803024
+          ],
+          "first_external_contact": {
+            "tick": 16,
+            "substep": 1,
+            "bodies": [
+              "finger_r_link4",
+              "object_core_bottle_6444875e3217bf891f5f48a891d827bd"
+            ],
+            "depth_m": 0.00026906218996950967
+          },
+          "deepest_contact": {
+            "tick": 16,
+            "substep": 9,
+            "bodies": [
+              "finger_r_link4",
+              "object_core_bottle_6444875e3217bf891f5f48a891d827bd"
+            ],
+            "depth_m": 0.00654155365722645
+          },
+          "per_joint": [
+            {
+              "joint": "arm_r_joint1",
+              "first_student_minus_teacher_rad": -0.249477562485105,
+              "first_student_minus_measured_rad": -0.2583334445953369,
+              "student_max_command_step_rad": 0.5415729284286499,
+              "teacher_max_command_step_rad": 0.012962558927922085,
+              "max_command_minus_measured_rad": 0.6947092711925507
+            },
+            {
+              "joint": "arm_r_joint2",
+              "first_student_minus_teacher_rad": 0.06673585385239678,
+              "first_student_minus_measured_rad": 0.05769550800323486,
+              "student_max_command_step_rad": 0.1202094554901123,
+              "teacher_max_command_step_rad": 0.004829083980685045,
+              "max_command_minus_measured_rad": 0.08438961207866669
+            },
+            {
+              "joint": "arm_r_joint3",
+              "first_student_minus_teacher_rad": 0.19961863268608307,
+              "first_student_minus_measured_rad": 0.20065277814865112,
+              "student_max_command_step_rad": 0.7663032412528992,
+              "teacher_max_command_step_rad": 0.006881920921038398,
+              "max_command_minus_measured_rad": 0.9351323917508125
+            },
+            {
+              "joint": "arm_r_joint4",
+              "first_student_minus_teacher_rad": 0.14429314519719894,
+              "first_student_minus_measured_rad": 0.12459778785705566,
+              "student_max_command_step_rad": 0.48205411434173584,
+              "teacher_max_command_step_rad": 0.002005307960253333,
+              "max_command_minus_measured_rad": 0.49392688274383545
+            },
+            {
+              "joint": "arm_r_joint5",
+              "first_student_minus_teacher_rad": 0.6965637635749665,
+              "first_student_minus_measured_rad": 0.7087643211561954,
+              "student_max_command_step_rad": 0.7085325717926025,
+              "teacher_max_command_step_rad": 0.01196880821763602,
+              "max_command_minus_measured_rad": 0.9336347281932831
+            },
+            {
+              "joint": "arm_r_joint6",
+              "first_student_minus_teacher_rad": -0.15013214841562503,
+              "first_student_minus_measured_rad": -0.16247326554730535,
+              "student_max_command_step_rad": 1.1681208610534668,
+              "teacher_max_command_step_rad": 0.0067633996896148295,
+              "max_command_minus_measured_rad": 0.8769872412085533
+            },
+            {
+              "joint": "arm_r_joint7",
+              "first_student_minus_teacher_rad": -0.1822854435763608,
+              "first_student_minus_measured_rad": -0.19310728809796274,
+              "student_max_command_step_rad": 1.1683818846940994,
+              "teacher_max_command_step_rad": 0.008348315326188942,
+              "max_command_minus_measured_rad": 1.0720201060175896
+            },
+            {
+              "joint": "finger_r_joint1",
+              "first_student_minus_teacher_rad": -0.0098465196788311,
+              "first_student_minus_measured_rad": -0.009862549555691658,
+              "student_max_command_step_rad": 0.0106431283056736,
+              "teacher_max_command_step_rad": 0.0,
+              "max_command_minus_measured_rad": 0.016694147838279605
+            },
+            {
+              "joint": "finger_r_joint2",
+              "first_student_minus_teacher_rad": -0.24655052003860478,
+              "first_student_minus_measured_rad": -0.24647855758666992,
+              "student_max_command_step_rad": 0.29611337184906006,
+              "teacher_max_command_step_rad": 1.9645690962910578e-08,
+              "max_command_minus_measured_rad": 0.28925198316574097
+            },
+            {
+              "joint": "finger_r_joint3",
+              "first_student_minus_teacher_rad": 0.0559519077539444,
+              "first_student_minus_measured_rad": 0.055941589176654816,
+              "student_max_command_step_rad": 0.06356029212474823,
+              "teacher_max_command_step_rad": 4.768371530960991e-10,
+              "max_command_minus_measured_rad": 0.09804169833660126
+            },
+            {
+              "joint": "finger_r_joint4",
+              "first_student_minus_teacher_rad": 0.271132675075531,
+              "first_student_minus_measured_rad": 0.27112770080566406,
+              "student_max_command_step_rad": 0.2711326777935028,
+              "teacher_max_command_step_rad": 2.7179717920766677e-09,
+              "max_command_minus_measured_rad": 0.27112770080566406
+            },
+            {
+              "joint": "finger_r_joint5",
+              "first_student_minus_teacher_rad": 0.05419955177307134,
+              "first_student_minus_measured_rad": 0.05409425497055054,
+              "student_max_command_step_rad": 0.05419957637786865,
+              "teacher_max_command_step_rad": 2.4604797310701088e-08,
+              "max_command_minus_measured_rad": 0.05584996938705444
+            },
+            {
+              "joint": "finger_r_joint6",
+              "first_student_minus_teacher_rad": 0.054749193763732884,
+              "first_student_minus_measured_rad": 0.054712891578674316,
+              "student_max_command_step_rad": 0.2518676519393921,
+              "teacher_max_command_step_rad": 2.9563903547469295e-09,
+              "max_command_minus_measured_rad": 0.2703548073768616
+            },
+            {
+              "joint": "finger_r_joint7",
+              "first_student_minus_teacher_rad": 0.07706746219396592,
+              "first_student_minus_measured_rad": 0.0770535129122436,
+              "student_max_command_step_rad": 0.16586067527532578,
+              "teacher_max_command_step_rad": 6.780028361658141e-11,
+              "max_command_minus_measured_rad": 0.1843729317188263
+            },
+            {
+              "joint": "finger_r_joint8",
+              "first_student_minus_teacher_rad": 0.04512466015815736,
+              "first_student_minus_measured_rad": 0.04512229561805725,
+              "student_max_command_step_rad": 0.2095053791999817,
+              "teacher_max_command_step_rad": 1.0156631480295886e-08,
+              "max_command_minus_measured_rad": 0.22730979323387146
+            },
+            {
+              "joint": "finger_r_joint9",
+              "first_student_minus_teacher_rad": -0.03222981119155882,
+              "first_student_minus_measured_rad": -0.032350748777389526,
+              "student_max_command_step_rad": 0.03222981095314026,
+              "teacher_max_command_step_rad": 2.3841856267026174e-10,
+              "max_command_minus_measured_rad": 0.032350748777389526
+            },
+            {
+              "joint": "finger_r_joint10",
+              "first_student_minus_teacher_rad": 0.14621223421096802,
+              "first_student_minus_measured_rad": 0.14618560671806335,
+              "student_max_command_step_rad": 0.3647785186767578,
+              "teacher_max_command_step_rad": 1.4019012450905421e-08,
+              "max_command_minus_measured_rad": 0.3960328698158264
+            },
+            {
+              "joint": "finger_r_joint11",
+              "first_student_minus_teacher_rad": -0.07151068075895309,
+              "first_student_minus_measured_rad": -0.07152118533849716,
+              "student_max_command_step_rad": 0.0715106800198555,
+              "teacher_max_command_step_rad": 7.390975886867324e-10,
+              "max_command_minus_measured_rad": 0.07152118533849716
+            },
+            {
+              "joint": "finger_r_joint12",
+              "first_student_minus_teacher_rad": 0.07086031408309934,
+              "first_student_minus_measured_rad": 0.07085859775543213,
+              "student_max_command_step_rad": 0.18977999687194824,
+              "teacher_max_command_step_rad": 1.220703127469136e-08,
+              "max_command_minus_measured_rad": 0.22196587920188904
+            },
+            {
+              "joint": "finger_r_joint13",
+              "first_student_minus_teacher_rad": -0.008341210889816264,
+              "first_student_minus_measured_rad": -0.005680859088897705,
+              "student_max_command_step_rad": 0.011649608612060547,
+              "teacher_max_command_step_rad": 1.2111663838521025e-08,
+              "max_command_minus_measured_rad": 0.012598633766174316
+            },
+            {
+              "joint": "finger_r_joint14",
+              "first_student_minus_teacher_rad": 0.3159394498348236,
+              "first_student_minus_measured_rad": 0.3159087747335434,
+              "student_max_command_step_rad": 0.31593945622444153,
+              "teacher_max_command_step_rad": 6.389617918101109e-09,
+              "max_command_minus_measured_rad": 0.3277161419391632
+            },
+            {
+              "joint": "finger_r_joint15",
+              "first_student_minus_teacher_rad": 0.0024266845345497137,
+              "first_student_minus_measured_rad": 0.002417299896478653,
+              "student_max_command_step_rad": 0.018078356981277466,
+              "teacher_max_command_step_rad": 2.9951333947730863e-10,
+              "max_command_minus_measured_rad": 0.015312401577830315
+            },
+            {
+              "joint": "finger_r_joint16",
+              "first_student_minus_teacher_rad": 0.11819155378341673,
+              "first_student_minus_measured_rad": 0.11818993091583252,
+              "student_max_command_step_rad": 0.2235584855079651,
+              "teacher_max_command_step_rad": 1.3542175270053747e-08,
+              "max_command_minus_measured_rad": 0.23437270522117615
+            },
+            {
+              "joint": "finger_r_joint17",
+              "first_student_minus_teacher_rad": 0.0608619155406952,
+              "first_student_minus_measured_rad": 0.032698988914489746,
+              "student_max_command_step_rad": 0.06086191534996033,
+              "teacher_max_command_step_rad": 1.9073487234066988e-10,
+              "max_command_minus_measured_rad": 0.032698988914489746
+            },
+            {
+              "joint": "finger_r_joint18",
+              "first_student_minus_teacher_rad": 0.2097680022716522,
+              "first_student_minus_measured_rad": 0.20975476503372192,
+              "student_max_command_step_rad": 0.30288857221603394,
+              "teacher_max_command_step_rad": 5.006790149142404e-09,
+              "max_command_minus_measured_rad": 0.3818666636943817
+            },
+            {
+              "joint": "finger_r_joint19",
+              "first_student_minus_teacher_rad": 0.003249175488948822,
+              "first_student_minus_measured_rad": 0.003237717552110553,
+              "student_max_command_step_rad": 0.022214822471141815,
+              "teacher_max_command_step_rad": 1.0803341858253712e-10,
+              "max_command_minus_measured_rad": 0.0173621391877532
+            },
+            {
+              "joint": "finger_r_joint20",
+              "first_student_minus_teacher_rad": -0.041629035711288453,
+              "first_student_minus_measured_rad": -0.041630566120147705,
+              "student_max_command_step_rad": 0.04162904620170593,
+              "teacher_max_command_step_rad": 1.0490417479136482e-08,
+              "max_command_minus_measured_rad": 0.041630566120147705
+            }
+          ]
+        },
+        {
+          "trace": "replay_001.npz",
+          "ticks": 13,
+          "replay_signal_max_abs": {
+            "contact_groups": 0.0,
+            "group_forces_min": 0.0,
+            "group_forces_max": 0.0,
+            "digit_force_max": 0.0,
+            "target_height_min": 0.0,
+            "object_xy_displacement_max": 0.0,
+            "non_target_displacement_max": 0.0,
+            "robot_object_penetration_max": 0.0,
+            "robot_table_penetration_max": 0.0,
+            "robot_obstacle_penetration_max": 0.0
+          },
+          "first_negative_contact": {
+            "tick": 0,
+            "substep": 0,
+            "bodies": [
+              "finger_r_link14",
+              "finger_r_link18"
+            ],
+            "depth_m": 0.0006736757915867521
+          },
+          "initial_self_contact_depths_m": [
+            0.0006789071652987916,
+            0.0005516727095803024
+          ],
+          "first_external_contact": {
+            "tick": 12,
+            "substep": 0,
+            "bodies": [
+              "finger_r_link8",
+              "object_core_bottle_6444875e3217bf891f5f48a891d827bd"
+            ],
+            "depth_m": 0.0003861348632989347
+          },
+          "deepest_contact": {
+            "tick": 12,
+            "substep": 4,
+            "bodies": [
+              "finger_r_link8",
+              "object_core_bottle_6444875e3217bf891f5f48a891d827bd"
+            ],
+            "depth_m": 0.002170781506644666
+          },
+          "per_joint": [
+            {
+              "joint": "arm_r_joint1",
+              "first_student_minus_teacher_rad": -1.1867880495170415,
+              "first_student_minus_measured_rad": -1.1956439316272736,
+              "student_max_command_step_rad": 1.1993090212345123,
+              "teacher_max_command_step_rad": 0.012932157195099103,
+              "max_command_minus_measured_rad": 1.2436606884002686
+            },
+            {
+              "joint": "arm_r_joint2",
+              "first_student_minus_teacher_rad": -0.27520508557402534,
+              "first_student_minus_measured_rad": -0.28424543142318726,
+              "student_max_command_step_rad": 0.2800341695547104,
+              "teacher_max_command_step_rad": 0.004829083980685045,
+              "max_command_minus_measured_rad": 0.28424543142318726
+            },
+            {
+              "joint": "arm_r_joint3",
+              "first_student_minus_teacher_rad": 0.8241828333258078,
+              "first_student_minus_measured_rad": 0.8252169787883759,
+              "student_max_command_step_rad": 0.8309495598077774,
+              "teacher_max_command_step_rad": 0.006881920921038398,
+              "max_command_minus_measured_rad": 0.8652976900339127
+            },
+            {
+              "joint": "arm_r_joint4",
+              "first_student_minus_teacher_rad": 0.3524459161932927,
+              "first_student_minus_measured_rad": 0.3327505588531494,
+              "student_max_command_step_rad": 0.3543393611907959,
+              "teacher_max_command_step_rad": 0.002005307960253333,
+              "max_command_minus_measured_rad": 0.3327505588531494
+            },
+            {
+              "joint": "arm_r_joint5",
+              "first_student_minus_teacher_rad": 0.543626530126938,
+              "first_student_minus_measured_rad": 0.5558270877081668,
+              "student_max_command_step_rad": 0.555595338344574,
+              "teacher_max_command_step_rad": 0.01196880821763602,
+              "max_command_minus_measured_rad": 0.8129577711224556
+            },
+            {
+              "joint": "arm_r_joint6",
+              "first_student_minus_teacher_rad": 0.16924694284719236,
+              "first_student_minus_measured_rad": 0.15690582571551204,
+              "student_max_command_step_rad": 0.9203501045703888,
+              "teacher_max_command_step_rad": 0.0067633996896148295,
+              "max_command_minus_measured_rad": 1.1715427041053772
+            },
+            {
+              "joint": "arm_r_joint7",
+              "first_student_minus_teacher_rad": 0.3369586163439502,
+              "first_student_minus_measured_rad": 0.32613677182234824,
+              "student_max_command_step_rad": 0.32861030101776123,
+              "teacher_max_command_step_rad": 0.008348315326188942,
+              "max_command_minus_measured_rad": 0.5597408753819764
+            },
+            {
+              "joint": "finger_r_joint1",
+              "first_student_minus_teacher_rad": -0.07562719285488129,
+              "first_student_minus_measured_rad": -0.07564322273174184,
+              "student_max_command_step_rad": 0.07562719285488129,
+              "teacher_max_command_step_rad": 0.0,
+              "max_command_minus_measured_rad": 0.07700535794720054
+            },
+            {
+              "joint": "finger_r_joint2",
+              "first_student_minus_teacher_rad": -0.6283356147766114,
+              "first_student_minus_measured_rad": -0.6282636523246765,
+              "student_max_command_step_rad": 0.6283355951309204,
+              "teacher_max_command_step_rad": 1.9645690962910578e-08,
+              "max_command_minus_measured_rad": 0.7806296944618225
+            },
+            {
+              "joint": "finger_r_joint3",
+              "first_student_minus_teacher_rad": 0.09779964339733124,
+              "first_student_minus_measured_rad": 0.09778932482004166,
+              "student_max_command_step_rad": 0.0977996438741684,
+              "teacher_max_command_step_rad": 4.768371530960991e-10,
+              "max_command_minus_measured_rad": 0.11476963758468628
+            },
+            {
+              "joint": "finger_r_joint4",
+              "first_student_minus_teacher_rad": 0.137065109872818,
+              "first_student_minus_measured_rad": 0.13706013560295105,
+              "student_max_command_step_rad": 0.1692531704902649,
+              "teacher_max_command_step_rad": 2.7179717920766677e-09,
+              "max_command_minus_measured_rad": 0.13960593938827515
+            },
+            {
+              "joint": "finger_r_joint5",
+              "first_student_minus_teacher_rad": -0.010152126121520944,
+              "first_student_minus_measured_rad": -0.010257422924041748,
+              "student_max_command_step_rad": 0.08423343300819397,
+              "teacher_max_command_step_rad": 2.4604797310701088e-08,
+              "max_command_minus_measured_rad": 0.06470867991447449
+            },
+            {
+              "joint": "finger_r_joint6",
+              "first_student_minus_teacher_rad": 0.3541767030715942,
+              "first_student_minus_measured_rad": 0.35414040088653564,
+              "student_max_command_step_rad": 0.35417670011520386,
+              "teacher_max_command_step_rad": 2.9563903547469295e-09,
+              "max_command_minus_measured_rad": 0.4825550317764282
+            },
+            {
+              "joint": "finger_r_joint7",
+              "first_student_minus_teacher_rad": 0.23659742383956908,
+              "first_student_minus_measured_rad": 0.23658347455784678,
+              "student_max_command_step_rad": 0.23659742390736938,
+              "teacher_max_command_step_rad": 6.780028361658141e-11,
+              "max_command_minus_measured_rad": 0.23658347455784678
+            },
+            {
+              "joint": "finger_r_joint8",
+              "first_student_minus_teacher_rad": 0.27423391761779786,
+              "first_student_minus_measured_rad": 0.27423155307769775,
+              "student_max_command_step_rad": 0.2742339074611664,
+              "teacher_max_command_step_rad": 1.0156631480295886e-08,
+              "max_command_minus_measured_rad": 0.3267024755477905
+            },
+            {
+              "joint": "finger_r_joint9",
+              "first_student_minus_teacher_rad": -0.017669528961181624,
+              "first_student_minus_measured_rad": -0.01779046654701233,
+              "student_max_command_step_rad": 0.023180216550827026,
+              "teacher_max_command_step_rad": 2.3841856267026174e-10,
+              "max_command_minus_measured_rad": 0.021023303270339966
+            },
+            {
+              "joint": "finger_r_joint10",
+              "first_student_minus_teacher_rad": 0.06746174306869507,
+              "first_student_minus_measured_rad": 0.0674351155757904,
+              "student_max_command_step_rad": 0.15024501085281372,
+              "teacher_max_command_step_rad": 1.4019012450905421e-08,
+              "max_command_minus_measured_rad": 0.17709964513778687
+            },
+            {
+              "joint": "finger_r_joint11",
+              "first_student_minus_teacher_rad": -0.03086067810058593,
+              "first_student_minus_measured_rad": -0.030871182680130005,
+              "student_max_command_step_rad": 0.030860677361488342,
+              "teacher_max_command_step_rad": 7.390975886867324e-10,
+              "max_command_minus_measured_rad": 0.030871182680130005
+            },
+            {
+              "joint": "finger_r_joint12",
+              "first_student_minus_teacher_rad": 0.0747034427642822,
+              "first_student_minus_measured_rad": 0.07470172643661499,
+              "student_max_command_step_rad": 0.0882309079170227,
+              "teacher_max_command_step_rad": 1.220703127469136e-08,
+              "max_command_minus_measured_rad": 0.13108927011489868
+            },
+            {
+              "joint": "finger_r_joint13",
+              "first_student_minus_teacher_rad": 0.004064244222641011,
+              "first_student_minus_measured_rad": 0.00672459602355957,
+              "student_max_command_step_rad": 0.018740147352218628,
+              "teacher_max_command_step_rad": 1.2111663838521025e-08,
+              "max_command_minus_measured_rad": 0.01775708794593811
+            },
+            {
+              "joint": "finger_r_joint14",
+              "first_student_minus_teacher_rad": 0.10319300847053528,
+              "first_student_minus_measured_rad": 0.10316233336925507,
+              "student_max_command_step_rad": 0.1031930148601532,
+              "teacher_max_command_step_rad": 6.389617918101109e-09,
+              "max_command_minus_measured_rad": 0.17317238450050354
+            },
+            {
+              "joint": "finger_r_joint15",
+              "first_student_minus_teacher_rad": 0.03574453729987145,
+              "first_student_minus_measured_rad": 0.035735152661800385,
+              "student_max_command_step_rad": 0.035744537599384785,
+              "teacher_max_command_step_rad": 2.9951333947730863e-10,
+              "max_command_minus_measured_rad": 0.03830499481409788
+            },
+            {
+              "joint": "finger_r_joint16",
+              "first_student_minus_teacher_rad": 0.09145827455520628,
+              "first_student_minus_measured_rad": 0.09145665168762207,
+              "student_max_command_step_rad": 0.091458261013031,
+              "teacher_max_command_step_rad": 1.3542175270053747e-08,
+              "max_command_minus_measured_rad": 0.09145665168762207
+            },
+            {
+              "joint": "finger_r_joint17",
+              "first_student_minus_teacher_rad": 0.07023507375717164,
+              "first_student_minus_measured_rad": 0.042072147130966187,
+              "student_max_command_step_rad": 0.0813828706741333,
+              "teacher_max_command_step_rad": 1.9073487234066988e-10,
+              "max_command_minus_measured_rad": 0.08949732780456543
+            },
+            {
+              "joint": "finger_r_joint18",
+              "first_student_minus_teacher_rad": 0.19823059940338134,
+              "first_student_minus_measured_rad": 0.19821736216545105,
+              "student_max_command_step_rad": 0.1982305943965912,
+              "teacher_max_command_step_rad": 5.006790149142404e-09,
+              "max_command_minus_measured_rad": 0.19821736216545105
+            },
+            {
+              "joint": "finger_r_joint19",
+              "first_student_minus_teacher_rad": 0.021898846715688706,
+              "first_student_minus_measured_rad": 0.021887388778850436,
+              "student_max_command_step_rad": 0.022066686302423477,
+              "teacher_max_command_step_rad": 1.0803341858253712e-10,
+              "max_command_minus_measured_rad": 0.026864545419812202
+            },
+            {
+              "joint": "finger_r_joint20",
+              "first_student_minus_teacher_rad": -0.03433393383026123,
+              "first_student_minus_measured_rad": -0.03433546423912048,
+              "student_max_command_step_rad": 0.03433394432067871,
+              "teacher_max_command_step_rad": 1.0490417479136482e-08,
+              "max_command_minus_measured_rad": 0.04333433508872986
+            }
+          ]
+        },
+        {
+          "trace": "replay_002.npz",
+          "ticks": 16,
+          "replay_signal_max_abs": {
+            "contact_groups": 0.0,
+            "group_forces_min": 0.0,
+            "group_forces_max": 0.0,
+            "digit_force_max": 0.0,
+            "target_height_min": 0.0,
+            "object_xy_displacement_max": 0.0,
+            "non_target_displacement_max": 0.0,
+            "robot_object_penetration_max": 0.0,
+            "robot_table_penetration_max": 0.0,
+            "robot_obstacle_penetration_max": 0.0
+          },
+          "first_negative_contact": {
+            "tick": 0,
+            "substep": 0,
+            "bodies": [
+              "finger_r_link14",
+              "finger_r_link18"
+            ],
+            "depth_m": 0.0006791699889522918
+          },
+          "initial_self_contact_depths_m": [
+            0.0006789071652987916,
+            0.0005516727095803024
+          ],
+          "first_external_contact": {
+            "tick": 15,
+            "substep": 0,
+            "bodies": [
+              "finger_r_link8",
+              "object_core_bottle_6444875e3217bf891f5f48a891d827bd"
+            ],
+            "depth_m": 0.0011581704446544327
+          },
+          "deepest_contact": {
+            "tick": 15,
+            "substep": 2,
+            "bodies": [
+              "finger_r_link8",
+              "object_core_bottle_6444875e3217bf891f5f48a891d827bd"
+            ],
+            "depth_m": 0.0021344281444181826
+          },
+          "per_joint": [
+            {
+              "joint": "arm_r_joint1",
+              "first_student_minus_teacher_rad": -1.2424825699905218,
+              "first_student_minus_measured_rad": -1.2513384521007538,
+              "student_max_command_step_rad": 1.2550035417079926,
+              "teacher_max_command_step_rad": 0.012956561514895548,
+              "max_command_minus_measured_rad": 1.2513384521007538
+            },
+            {
+              "joint": "arm_r_joint2",
+              "first_student_minus_teacher_rad": 0.02047981828606682,
+              "first_student_minus_measured_rad": 0.011439472436904907,
+              "student_max_command_step_rad": 0.27743884921073914,
+              "teacher_max_command_step_rad": 0.004829083980685045,
+              "max_command_minus_measured_rad": 0.1917744278907776
+            },
+            {
+              "joint": "arm_r_joint3",
+              "first_student_minus_teacher_rad": 0.8807428132414267,
+              "first_student_minus_measured_rad": 0.8817769587039948,
+              "student_max_command_step_rad": 0.8875095397233963,
+              "teacher_max_command_step_rad": 0.006881920921038398,
+              "max_command_minus_measured_rad": 0.8817769587039948
+            },
+            {
+              "joint": "arm_r_joint4",
+              "first_student_minus_teacher_rad": 0.29514296438054854,
+              "first_student_minus_measured_rad": 0.2754476070404053,
+              "student_max_command_step_rad": 0.29703640937805176,
+              "teacher_max_command_step_rad": 0.002005307960253333,
+              "max_command_minus_measured_rad": 0.3908827304840088
+            },
+            {
+              "joint": "arm_r_joint5",
+              "first_student_minus_teacher_rad": 1.4391975831550445,
+              "first_student_minus_measured_rad": 1.4513981407362735,
+              "student_max_command_step_rad": 1.4511663913726807,
+              "teacher_max_command_step_rad": 0.01196880821763602,
+              "max_command_minus_measured_rad": 1.6886712163686752
+            },
+            {
+              "joint": "arm_r_joint6",
+              "first_student_minus_teacher_rad": -0.7036194194861054,
+              "first_student_minus_measured_rad": -0.7159605366177857,
+              "student_max_command_step_rad": 1.0912450551986694,
+              "teacher_max_command_step_rad": 0.0067633996896148295,
+              "max_command_minus_measured_rad": 1.00154247879982
+            },
+            {
+              "joint": "arm_r_joint7",
+              "first_student_minus_teacher_rad": -0.33729884091236695,
+              "first_student_minus_measured_rad": -0.3481206854339689,
+              "student_max_command_step_rad": 1.0138692110776901,
+              "teacher_max_command_step_rad": 0.008348315326188942,
+              "max_command_minus_measured_rad": 1.0682000368833542
+            },
+            {
+              "joint": "finger_r_joint1",
+              "first_student_minus_teacher_rad": -0.010996803641319275,
+              "first_student_minus_measured_rad": -0.011012833518179832,
+              "student_max_command_step_rad": 0.045482486486434937,
+              "teacher_max_command_step_rad": 0.0,
+              "max_command_minus_measured_rad": 0.047673072665929794
+            },
+            {
+              "joint": "finger_r_joint2",
+              "first_student_minus_teacher_rad": -0.7325289445877076,
+              "first_student_minus_measured_rad": -0.7324569821357727,
+              "student_max_command_step_rad": 0.7325289249420166,
+              "teacher_max_command_step_rad": 1.9645690962910578e-08,
+              "max_command_minus_measured_rad": 0.7324569821357727
+            },
+            {
+              "joint": "finger_r_joint3",
+              "first_student_minus_teacher_rad": 0.13972282361984253,
+              "first_student_minus_measured_rad": 0.13971250504255295,
+              "student_max_command_step_rad": 0.1397228240966797,
+              "teacher_max_command_step_rad": 4.768371530960991e-10,
+              "max_command_minus_measured_rad": 0.1564035639166832
+            },
+            {
+              "joint": "finger_r_joint4",
+              "first_student_minus_teacher_rad": 0.12584295597076417,
+              "first_student_minus_measured_rad": 0.12583798170089722,
+              "student_max_command_step_rad": 0.12584295868873596,
+              "teacher_max_command_step_rad": 2.7179717920766677e-09,
+              "max_command_minus_measured_rad": 0.2744472920894623
+            },
+            {
+              "joint": "finger_r_joint5",
+              "first_student_minus_teacher_rad": 0.09645903630256658,
+              "first_student_minus_measured_rad": 0.09635373950004578,
+              "student_max_command_step_rad": 0.09645906090736389,
+              "teacher_max_command_step_rad": 2.4604797310701088e-08,
+              "max_command_minus_measured_rad": 0.09635373950004578
+            },
+            {
+              "joint": "finger_r_joint6",
+              "first_student_minus_teacher_rad": 0.3284378677368164,
+              "first_student_minus_measured_rad": 0.3284015655517578,
+              "student_max_command_step_rad": 0.328437864780426,
+              "teacher_max_command_step_rad": 2.9563903547469295e-09,
+              "max_command_minus_measured_rad": 0.3506982922554016
+            },
+            {
+              "joint": "finger_r_joint7",
+              "first_student_minus_teacher_rad": 0.3144318511962891,
+              "first_student_minus_measured_rad": 0.31441790191456676,
+              "student_max_command_step_rad": 0.31443185126408935,
+              "teacher_max_command_step_rad": 6.780028361658141e-11,
+              "max_command_minus_measured_rad": 0.31441790191456676
+            },
+            {
+              "joint": "finger_r_joint8",
+              "first_student_minus_teacher_rad": 0.2928616804122925,
+              "first_student_minus_measured_rad": 0.2928593158721924,
+              "student_max_command_step_rad": 0.292861670255661,
+              "teacher_max_command_step_rad": 1.0156631480295886e-08,
+              "max_command_minus_measured_rad": 0.3519054055213928
+            },
+            {
+              "joint": "finger_r_joint9",
+              "first_student_minus_teacher_rad": -0.00797843956947325,
+              "first_student_minus_measured_rad": -0.008099377155303955,
+              "student_max_command_step_rad": 0.036659449338912964,
+              "teacher_max_command_step_rad": 2.3841856267026174e-10,
+              "max_command_minus_measured_rad": 0.027675092220306396
+            },
+            {
+              "joint": "finger_r_joint10",
+              "first_student_minus_teacher_rad": 0.2052833876132965,
+              "first_student_minus_measured_rad": 0.20525676012039185,
+              "student_max_command_step_rad": 0.20528337359428406,
+              "teacher_max_command_step_rad": 1.4019012450905421e-08,
+              "max_command_minus_measured_rad": 0.31905022263526917
+            },
+            {
+              "joint": "finger_r_joint11",
+              "first_student_minus_teacher_rad": -0.04937665983438491,
+              "first_student_minus_measured_rad": -0.049387164413928986,
+              "student_max_command_step_rad": 0.04937665909528732,
+              "teacher_max_command_step_rad": 7.390975886867324e-10,
+              "max_command_minus_measured_rad": 0.05394192039966583
+            },
+            {
+              "joint": "finger_r_joint12",
+              "first_student_minus_teacher_rad": 0.11007373304367063,
+              "first_student_minus_measured_rad": 0.11007201671600342,
+              "student_max_command_step_rad": 0.12987929582595825,
+              "teacher_max_command_step_rad": 1.220703127469136e-08,
+              "max_command_minus_measured_rad": 0.2617807388305664
+            },
+            {
+              "joint": "finger_r_joint13",
+              "first_student_minus_teacher_rad": 0.018710059118270894,
+              "first_student_minus_measured_rad": 0.021370410919189453,
+              "student_max_command_step_rad": 0.035646796226501465,
+              "teacher_max_command_step_rad": 1.2111663838521025e-08,
+              "max_command_minus_measured_rad": 0.02809414267539978
+            },
+            {
+              "joint": "finger_r_joint14",
+              "first_student_minus_teacher_rad": 0.4187083180427551,
+              "first_student_minus_measured_rad": 0.4186776429414749,
+              "student_max_command_step_rad": 0.41870832443237305,
+              "teacher_max_command_step_rad": 6.389617918101109e-09,
+              "max_command_minus_measured_rad": 0.43639346957206726
+            },
+            {
+              "joint": "finger_r_joint15",
+              "first_student_minus_teacher_rad": 0.0017054012775421148,
+              "first_student_minus_measured_rad": 0.001696016639471054,
+              "student_max_command_step_rad": 0.022234205156564713,
+              "teacher_max_command_step_rad": 2.9951333947730863e-10,
+              "max_command_minus_measured_rad": 0.020506550557911396
+            },
+            {
+              "joint": "finger_r_joint16",
+              "first_student_minus_teacher_rad": 0.18124411864280698,
+              "first_student_minus_measured_rad": 0.18124249577522278,
+              "student_max_command_step_rad": 0.1812441051006317,
+              "teacher_max_command_step_rad": 1.3542175270053747e-08,
+              "max_command_minus_measured_rad": 0.22497007250785828
+            },
+            {
+              "joint": "finger_r_joint17",
+              "first_student_minus_teacher_rad": 0.020426809978485116,
+              "first_student_minus_measured_rad": -0.007736116647720337,
+              "student_max_command_step_rad": 0.10944083333015442,
+              "teacher_max_command_step_rad": 1.9073487234066988e-10,
+              "max_command_minus_measured_rad": 0.11615248024463654
+            },
+            {
+              "joint": "finger_r_joint18",
+              "first_student_minus_teacher_rad": 0.28418377542495726,
+              "first_student_minus_measured_rad": 0.284170538187027,
+              "student_max_command_step_rad": 0.2841837704181671,
+              "teacher_max_command_step_rad": 5.006790149142404e-09,
+              "max_command_minus_measured_rad": 0.3560195565223694
+            },
+            {
+              "joint": "finger_r_joint19",
+              "first_student_minus_teacher_rad": -0.0030372220873832703,
+              "first_student_minus_measured_rad": -0.0030486800242215395,
+              "student_max_command_step_rad": 0.024843614548444748,
+              "teacher_max_command_step_rad": 1.0803341858253712e-10,
+              "max_command_minus_measured_rad": 0.038721706718206406
+            },
+            {
+              "joint": "finger_r_joint20",
+              "first_student_minus_teacher_rad": -0.04532088780403137,
+              "first_student_minus_measured_rad": -0.045322418212890625,
+              "student_max_command_step_rad": 0.04532089829444885,
+              "teacher_max_command_step_rad": 1.0490417479136482e-08,
+              "max_command_minus_measured_rad": 0.05128195881843567
+            }
+          ]
+        }
+      ],
+      "teacher_pre_action_alignment": {
+        "ticks": 17,
+        "max_abs_rad": 0.0,
+        "control_dt_max_abs": 0.0,
+        "timestamp_step_max_abs": 1.1084883011491797e-14
+      }
+    },
+    {
+      "episode_id": "source1_teacher_0008_yaw_000",
+      "contract": {
+        "model_sha256": "412c6d0d9235d3f016f6e0ba66c07e033a1bc261791fa6e4f9603674a4912db9",
+        "initial_state_sha256": "0ba46a6840d027c10b537b4790d3df7a146e6654418bfe59927ab13dfb043062",
+        "condition": {
+          "kind": "object",
+          "object_id": "core_can_7bd05573c09fb0c2af39ccaab9314b14"
+        },
+        "limits": {
+          "max_approach_displacement": 0.01,
+          "max_digit_force": 30.0,
+          "max_penetration": 0.002,
+          "max_table_penetration": 1e-06,
+          "min_contact_force": 0.1,
+          "min_hold_seconds": 0.5,
+          "min_lift": 0.1
+        },
+        "required_contact_groups": [
+          [
+            "finger_r_link3",
+            "finger_r_link4"
+          ],
+          [
+            "finger_r_link7",
+            "finger_r_link8"
+          ],
+          [
+            "finger_r_link11",
+            "finger_r_link12"
+          ],
+          [
+            "finger_r_link15",
+            "finger_r_link16"
+          ],
+          [
+            "finger_r_link19",
+            "finger_r_link20"
+          ]
+        ],
+        "tick_budget": 1251
+      },
+      "contract_sha256": "72edcb81dc421af35370891fe8fa1bcff9c80116773c4847016a32ed0104677a",
+      "initial_input": {
+        "rgbm": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "right_cam_img": {
+          "equal": false,
+          "max_abs": 1.0
+        },
+        "right_state": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "part_mask": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "wrist_mask": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "wrist_part_mask": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "target_pixels": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "target_visible": {
+          "equal": true,
+          "max_abs": 0.0
+        }
+      },
+      "preprocessing_checks": [
+        {
+          "tick": 0,
+          "max_abs": 0.0
+        },
+        {
+          "tick": 100,
+          "max_abs": 0.0
+        },
+        {
+          "tick": 395,
+          "max_abs": 0.0
+        },
+        {
+          "tick": 1250,
+          "max_abs": 0.0
+        }
+      ],
+      "chunk_sequence": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0
+      ],
+      "reference_indices": [
+        0,
+        395
+      ],
+      "rollouts": [
+        {
+          "trace": "replay_000.npz",
+          "ticks": 100,
+          "replay_signal_max_abs": {
+            "contact_groups": 0.0,
+            "group_forces_min": 0.0,
+            "group_forces_max": 0.0,
+            "digit_force_max": 0.0,
+            "target_height_min": 0.0,
+            "object_xy_displacement_max": 0.0,
+            "non_target_displacement_max": 0.0,
+            "robot_object_penetration_max": 0.0,
+            "robot_table_penetration_max": 0.0,
+            "robot_obstacle_penetration_max": 0.0
+          },
+          "first_negative_contact": {
+            "tick": 0,
+            "substep": 0,
+            "bodies": [
+              "finger_r_link14",
+              "finger_r_link18"
+            ],
+            "depth_m": 0.0005895973500630292
+          },
+          "initial_self_contact_depths_m": [
+            0.0005924688085636986,
+            0.0006285294376428903,
+            2.6256754631141715e-05
+          ],
+          "first_external_contact": {
+            "tick": 99,
+            "substep": 2,
+            "bodies": [
+              "world",
+              "finger_r_link16"
+            ],
+            "depth_m": 0.00044715128448113983
+          },
+          "deepest_contact": {
+            "tick": 99,
+            "substep": 9,
+            "bodies": [
+              "world",
+              "finger_r_link16"
+            ],
+            "depth_m": 0.006201124550192838
+          },
+          "per_joint": [
+            {
+              "joint": "arm_r_joint1",
+              "first_student_minus_teacher_rad": -0.3669064318920162,
+              "first_student_minus_measured_rad": -0.36896347999572754,
+              "student_max_command_step_rad": 0.8190683349967003,
+              "teacher_max_command_step_rad": 0.0060338405597220035,
+              "max_command_minus_measured_rad": 0.8556652441620827
+            },
+            {
+              "joint": "arm_r_joint2",
+              "first_student_minus_teacher_rad": 0.01850589884127324,
+              "first_student_minus_measured_rad": 0.015316218137741089,
+              "student_max_command_step_rad": 0.2637396454811096,
+              "teacher_max_command_step_rad": 0.0013070048553531083,
+              "max_command_minus_measured_rad": 0.22231576591730118
+            },
+            {
+              "joint": "arm_r_joint3",
+              "first_student_minus_teacher_rad": 0.20983180724337144,
+              "first_student_minus_measured_rad": 0.21123641729354858,
+              "student_max_command_step_rad": 0.790285736322403,
+              "teacher_max_command_step_rad": 0.007304050520957492,
+              "max_command_minus_measured_rad": 0.9158805720508099
+            },
+            {
+              "joint": "arm_r_joint4",
+              "first_student_minus_teacher_rad": 0.09941907761361835,
+              "first_student_minus_measured_rad": 0.07828283309936523,
+              "student_max_command_step_rad": 0.5573475360870361,
+              "teacher_max_command_step_rad": 0.0006082715193072019,
+              "max_command_minus_measured_rad": 0.5417338609695435
+            },
+            {
+              "joint": "arm_r_joint5",
+              "first_student_minus_teacher_rad": 0.8210504331470492,
+              "first_student_minus_measured_rad": 0.8349447594082449,
+              "student_max_command_step_rad": 1.2561341524124146,
+              "teacher_max_command_step_rad": 0.01369402028312666,
+              "max_command_minus_measured_rad": 1.1810503471642733
+            },
+            {
+              "joint": "arm_r_joint6",
+              "first_student_minus_teacher_rad": -0.3471549694182855,
+              "first_student_minus_measured_rad": -0.34977348474785686,
+              "student_max_command_step_rad": 1.1948803663253784,
+              "teacher_max_command_step_rad": 0.003074475106452479,
+              "max_command_minus_measured_rad": 1.1325485110282898
+            },
+            {
+              "joint": "arm_r_joint7",
+              "first_student_minus_teacher_rad": -0.4358166738870206,
+              "first_student_minus_measured_rad": -0.43162922165356576,
+              "student_max_command_step_rad": 1.33738774061203,
+              "teacher_max_command_step_rad": 0.0067373220933053465,
+              "max_command_minus_measured_rad": 1.2852186560630798
+            },
+            {
+              "joint": "finger_r_joint1",
+              "first_student_minus_teacher_rad": -0.007004890590906143,
+              "first_student_minus_measured_rad": -0.007024862807156751,
+              "student_max_command_step_rad": 0.0706341527402401,
+              "teacher_max_command_step_rad": 0.0,
+              "max_command_minus_measured_rad": 0.0576159842312336
+            },
+            {
+              "joint": "finger_r_joint2",
+              "first_student_minus_teacher_rad": -0.19671781711578373,
+              "first_student_minus_measured_rad": -0.19664394855499268,
+              "student_max_command_step_rad": 0.4428722858428955,
+              "teacher_max_command_step_rad": 1.8405914348207375e-08,
+              "max_command_minus_measured_rad": 0.4336787462234497
+            },
+            {
+              "joint": "finger_r_joint3",
+              "first_student_minus_teacher_rad": -0.01692525730133057,
+              "first_student_minus_measured_rad": -0.016938000917434692,
+              "student_max_command_step_rad": 0.12390033900737762,
+              "teacher_max_command_step_rad": 3.1232833819228034e-09,
+              "max_command_minus_measured_rad": 0.09183920919895172
+            },
+            {
+              "joint": "finger_r_joint4",
+              "first_student_minus_teacher_rad": 0.28763829069137575,
+              "first_student_minus_measured_rad": 0.2876327931880951,
+              "student_max_command_step_rad": 0.4355214983224869,
+              "teacher_max_command_step_rad": 1.3875961324405495e-08,
+              "max_command_minus_measured_rad": 0.41960352659225464
+            },
+            {
+              "joint": "finger_r_joint5",
+              "first_student_minus_teacher_rad": 0.11832095255851749,
+              "first_student_minus_measured_rad": 0.11821594834327698,
+              "student_max_command_step_rad": 0.119142085313797,
+              "teacher_max_command_step_rad": 1.9168853726547752e-08,
+              "max_command_minus_measured_rad": 0.11821594834327698
+            },
+            {
+              "joint": "finger_r_joint6",
+              "first_student_minus_teacher_rad": 0.19186123256683352,
+              "first_student_minus_measured_rad": 0.19182446599006653,
+              "student_max_command_step_rad": 0.2994522452354431,
+              "teacher_max_command_step_rad": 9.489059427103541e-09,
+              "max_command_minus_measured_rad": 0.3119531273841858
+            },
+            {
+              "joint": "finger_r_joint7",
+              "first_student_minus_teacher_rad": -0.017751498317718495,
+              "first_student_minus_measured_rad": -0.01776634156703949,
+              "student_max_command_step_rad": 0.19317364692687988,
+              "teacher_max_command_step_rad": 1.6927719226345062e-09,
+              "max_command_minus_measured_rad": 0.19706225395202637
+            },
+            {
+              "joint": "finger_r_joint8",
+              "first_student_minus_teacher_rad": 0.04834025182724,
+              "first_student_minus_measured_rad": 0.048337697982788086,
+              "student_max_command_step_rad": 0.22559112310409546,
+              "teacher_max_command_step_rad": 9.155273428262944e-09,
+              "max_command_minus_measured_rad": 0.23609977960586548
+            },
+            {
+              "joint": "finger_r_joint9",
+              "first_student_minus_teacher_rad": 0.02092274122238158,
+              "first_student_minus_measured_rad": 0.0208071768283844,
+              "student_max_command_step_rad": 0.04357239603996277,
+              "teacher_max_command_step_rad": 9.012222301763018e-09,
+              "max_command_minus_measured_rad": 0.03978094458580017
+            },
+            {
+              "joint": "finger_r_joint10",
+              "first_student_minus_teacher_rad": 0.08351632728576658,
+              "first_student_minus_measured_rad": 0.08348643779754639,
+              "student_max_command_step_rad": 0.3267204761505127,
+              "teacher_max_command_step_rad": 2.2411346667361443e-09,
+              "max_command_minus_measured_rad": 0.3366019129753113
+            },
+            {
+              "joint": "finger_r_joint11",
+              "first_student_minus_teacher_rad": -0.029437284690141674,
+              "first_student_minus_measured_rad": -0.0294489748775959,
+              "student_max_command_step_rad": 0.061241310089826584,
+              "teacher_max_command_step_rad": 2.2649765396565158e-10,
+              "max_command_minus_measured_rad": 0.047235745936632156
+            },
+            {
+              "joint": "finger_r_joint12",
+              "first_student_minus_teacher_rad": 0.08664374628067018,
+              "first_student_minus_measured_rad": 0.0866418182849884,
+              "student_max_command_step_rad": 0.22275561094284058,
+              "teacher_max_command_step_rad": 9.155273428262944e-09,
+              "max_command_minus_measured_rad": 0.22456321120262146
+            },
+            {
+              "joint": "finger_r_joint13",
+              "first_student_minus_teacher_rad": -0.05306929554939269,
+              "first_student_minus_measured_rad": -0.05018717050552368,
+              "student_max_command_step_rad": 0.05306929349899292,
+              "teacher_max_command_step_rad": 2.0503997666398988e-09,
+              "max_command_minus_measured_rad": 0.05018717050552368
+            },
+            {
+              "joint": "finger_r_joint14",
+              "first_student_minus_teacher_rad": 0.1293971876144409,
+              "first_student_minus_measured_rad": 0.1294163465499878,
+              "student_max_command_step_rad": 0.36638760566711426,
+              "teacher_max_command_step_rad": 3.957748406779871e-09,
+              "max_command_minus_measured_rad": 0.37718263268470764
+            },
+            {
+              "joint": "finger_r_joint15",
+              "first_student_minus_teacher_rad": -0.08935288295149803,
+              "first_student_minus_measured_rad": -0.08936353400349617,
+              "student_max_command_step_rad": 0.08935287967324257,
+              "teacher_max_command_step_rad": 3.2782554587607038e-09,
+              "max_command_minus_measured_rad": 0.08936353400349617
+            },
+            {
+              "joint": "finger_r_joint16",
+              "first_student_minus_teacher_rad": 0.12498739089965821,
+              "first_student_minus_measured_rad": 0.1249859631061554,
+              "student_max_command_step_rad": 0.21009278297424316,
+              "teacher_max_command_step_rad": 2.7179717920766677e-09,
+              "max_command_minus_measured_rad": 0.22132179141044617
+            },
+            {
+              "joint": "finger_r_joint17",
+              "first_student_minus_teacher_rad": 0.04135901970863343,
+              "first_student_minus_measured_rad": -0.004331499338150024,
+              "student_max_command_step_rad": 0.10755828022956848,
+              "teacher_max_command_step_rad": 1.2350082401191287e-08,
+              "max_command_minus_measured_rad": 0.09074312448501587
+            },
+            {
+              "joint": "finger_r_joint18",
+              "first_student_minus_teacher_rad": 0.07152488446235655,
+              "first_student_minus_measured_rad": 0.07133960723876953,
+              "student_max_command_step_rad": 0.3987374007701874,
+              "teacher_max_command_step_rad": 3.814697280279944e-09,
+              "max_command_minus_measured_rad": 0.28549689054489136
+            },
+            {
+              "joint": "finger_r_joint19",
+              "first_student_minus_teacher_rad": -0.11535490410327912,
+              "first_student_minus_measured_rad": -0.11536972224712372,
+              "student_max_command_step_rad": 0.11535491049289703,
+              "teacher_max_command_step_rad": 6.389617918101109e-09,
+              "max_command_minus_measured_rad": 0.11536972224712372
+            },
+            {
+              "joint": "finger_r_joint20",
+              "first_student_minus_teacher_rad": -0.03196025166511535,
+              "first_student_minus_measured_rad": -0.03196156024932861,
+              "student_max_command_step_rad": 0.05589953064918518,
+              "teacher_max_command_step_rad": 2.7179717920766677e-09,
+              "max_command_minus_measured_rad": 0.05855408310890198
+            }
+          ]
+        },
+        {
+          "trace": "replay_001.npz",
+          "ticks": 118,
+          "replay_signal_max_abs": {
+            "contact_groups": 0.0,
+            "group_forces_min": 0.0,
+            "group_forces_max": 0.0,
+            "digit_force_max": 0.0,
+            "target_height_min": 0.0,
+            "object_xy_displacement_max": 0.0,
+            "non_target_displacement_max": 0.0,
+            "robot_object_penetration_max": 0.0,
+            "robot_table_penetration_max": 0.0,
+            "robot_obstacle_penetration_max": 0.0
+          },
+          "first_negative_contact": {
+            "tick": 0,
+            "substep": 0,
+            "bodies": [
+              "finger_r_link14",
+              "finger_r_link18"
+            ],
+            "depth_m": 0.0005854885750536591
+          },
+          "initial_self_contact_depths_m": [
+            0.0005924688085636986,
+            0.0006285294376428903,
+            2.6256754631141715e-05
+          ],
+          "first_external_contact": {
+            "tick": 117,
+            "substep": 6,
+            "bodies": [
+              "world",
+              "finger_r_link12"
+            ],
+            "depth_m": 0.0003663137780650638
+          },
+          "deepest_contact": {
+            "tick": 117,
+            "substep": 9,
+            "bodies": [
+              "world",
+              "finger_r_link12"
+            ],
+            "depth_m": 0.0037544957056689925
+          },
+          "per_joint": [
+            {
+              "joint": "arm_r_joint1",
+              "first_student_minus_teacher_rad": -0.9491286253715542,
+              "first_student_minus_measured_rad": -0.9511856734752655,
+              "student_max_command_step_rad": 0.9997136890888214,
+              "teacher_max_command_step_rad": 0.0060338405597220035,
+              "max_command_minus_measured_rad": 1.2957736253738403
+            },
+            {
+              "joint": "arm_r_joint2",
+              "first_student_minus_teacher_rad": -0.15994230138455684,
+              "first_student_minus_measured_rad": -0.163131982088089,
+              "student_max_command_step_rad": 0.448338121175766,
+              "teacher_max_command_step_rad": 0.0013070048553531083,
+              "max_command_minus_measured_rad": 0.4456389844417572
+            },
+            {
+              "joint": "arm_r_joint3",
+              "first_student_minus_teacher_rad": 0.8163810404415374,
+              "first_student_minus_measured_rad": 0.8177856504917145,
+              "student_max_command_step_rad": 0.8234893828630447,
+              "teacher_max_command_step_rad": 0.007304050520957492,
+              "max_command_minus_measured_rad": 0.9261594414710999
+            },
+            {
+              "joint": "arm_r_joint4",
+              "first_student_minus_teacher_rad": 0.2525918090131545,
+              "first_student_minus_measured_rad": 0.23145556449890137,
+              "student_max_command_step_rad": 0.5618284940719604,
+              "teacher_max_command_step_rad": 0.0006221861901734016,
+              "max_command_minus_measured_rad": 0.5039514303207397
+            },
+            {
+              "joint": "arm_r_joint5",
+              "first_student_minus_teacher_rad": 0.7922702112079623,
+              "first_student_minus_measured_rad": 0.806164537469158,
+              "student_max_command_step_rad": 1.461040437221527,
+              "teacher_max_command_step_rad": 0.01369402028312666,
+              "max_command_minus_measured_rad": 1.3233935832977295
+            },
+            {
+              "joint": "arm_r_joint6",
+              "first_student_minus_teacher_rad": 0.3760655577538031,
+              "first_student_minus_measured_rad": 0.37344704242423177,
+              "student_max_command_step_rad": 1.2318456172943115,
+              "teacher_max_command_step_rad": 0.003074475106452479,
+              "max_command_minus_measured_rad": 1.139325886964798
+            },
+            {
+              "joint": "arm_r_joint7",
+              "first_student_minus_teacher_rad": 0.476091654646152,
+              "first_student_minus_measured_rad": 0.48027910687960684,
+              "student_max_command_step_rad": 1.6203150153160095,
+              "teacher_max_command_step_rad": 0.0067373220933053465,
+              "max_command_minus_measured_rad": 1.5440452098846436
+            },
+            {
+              "joint": "finger_r_joint1",
+              "first_student_minus_teacher_rad": -0.07918491214513779,
+              "first_student_minus_measured_rad": -0.0792048843613884,
+              "student_max_command_step_rad": 0.07918491214513779,
+              "teacher_max_command_step_rad": 0.0,
+              "max_command_minus_measured_rad": 0.08134652068838477
+            },
+            {
+              "joint": "finger_r_joint2",
+              "first_student_minus_teacher_rad": -0.5860324686050415,
+              "first_student_minus_measured_rad": -0.5859586000442505,
+              "student_max_command_step_rad": 0.5860324501991272,
+              "teacher_max_command_step_rad": 1.8405914348207375e-08,
+              "max_command_minus_measured_rad": 0.7293459177017212
+            },
+            {
+              "joint": "finger_r_joint3",
+              "first_student_minus_teacher_rad": 0.038286137723922725,
+              "first_student_minus_measured_rad": 0.038273394107818604,
+              "student_max_command_step_rad": 0.08979876339435577,
+              "teacher_max_command_step_rad": 3.1232833819228034e-09,
+              "max_command_minus_measured_rad": 0.10183966159820557
+            },
+            {
+              "joint": "finger_r_joint4",
+              "first_student_minus_teacher_rad": 0.13300643758773806,
+              "first_student_minus_measured_rad": 0.1330009400844574,
+              "student_max_command_step_rad": 0.2766191214323044,
+              "teacher_max_command_step_rad": 1.3875961324405495e-08,
+              "max_command_minus_measured_rad": 0.27574940025806427
+            },
+            {
+              "joint": "finger_r_joint5",
+              "first_student_minus_teacher_rad": 0.009733896160125766,
+              "first_student_minus_measured_rad": 0.009628891944885254,
+              "student_max_command_step_rad": 0.10680064558982849,
+              "teacher_max_command_step_rad": 1.9168853726547752e-08,
+              "max_command_minus_measured_rad": 0.14326447248458862
+            },
+            {
+              "joint": "finger_r_joint6",
+              "first_student_minus_teacher_rad": 0.4460649693489075,
+              "first_student_minus_measured_rad": 0.4460282027721405,
+              "student_max_command_step_rad": 0.4460649788379669,
+              "teacher_max_command_step_rad": 9.489059427103541e-09,
+              "max_command_minus_measured_rad": 0.5802686214447021
+            },
+            {
+              "joint": "finger_r_joint7",
+              "first_student_minus_teacher_rad": 0.16518958082199098,
+              "first_student_minus_measured_rad": 0.16517473757266998,
+              "student_max_command_step_rad": 0.2763461321592331,
+              "teacher_max_command_step_rad": 1.6927719226345062e-09,
+              "max_command_minus_measured_rad": 0.24340017139911652
+            },
+            {
+              "joint": "finger_r_joint8",
+              "first_student_minus_teacher_rad": 0.2851859835624695,
+              "first_student_minus_measured_rad": 0.2851834297180176,
+              "student_max_command_step_rad": 0.2851859927177429,
+              "teacher_max_command_step_rad": 9.155273428262944e-09,
+              "max_command_minus_measured_rad": 0.33374515175819397
+            },
+            {
+              "joint": "finger_r_joint9",
+              "first_student_minus_teacher_rad": 0.017581275033950794,
+              "first_student_minus_measured_rad": 0.017465710639953613,
+              "student_max_command_step_rad": 0.04824817180633545,
+              "teacher_max_command_step_rad": 9.012222301763018e-09,
+              "max_command_minus_measured_rad": 0.053886234760284424
+            },
+            {
+              "joint": "finger_r_joint10",
+              "first_student_minus_teacher_rad": -0.0007264040470123523,
+              "first_student_minus_measured_rad": -0.0007562935352325439,
+              "student_max_command_step_rad": 0.3475135564804077,
+              "teacher_max_command_step_rad": 2.2411346667361443e-09,
+              "max_command_minus_measured_rad": 0.2693185806274414
+            },
+            {
+              "joint": "finger_r_joint11",
+              "first_student_minus_teacher_rad": 0.008197792100906376,
+              "first_student_minus_measured_rad": 0.008186101913452148,
+              "student_max_command_step_rad": 0.055003147572278976,
+              "teacher_max_command_step_rad": 2.2649765396565158e-10,
+              "max_command_minus_measured_rad": 0.05839822068810463
+            },
+            {
+              "joint": "finger_r_joint12",
+              "first_student_minus_teacher_rad": 0.057500621461868295,
+              "first_student_minus_measured_rad": 0.05749869346618652,
+              "student_max_command_step_rad": 0.2836507558822632,
+              "teacher_max_command_step_rad": 9.155273428262944e-09,
+              "max_command_minus_measured_rad": 0.19036775827407837
+            },
+            {
+              "joint": "finger_r_joint13",
+              "first_student_minus_teacher_rad": -0.017485531234741197,
+              "first_student_minus_measured_rad": -0.014603406190872192,
+              "student_max_command_step_rad": 0.062381893396377563,
+              "teacher_max_command_step_rad": 2.0503997666398988e-09,
+              "max_command_minus_measured_rad": 0.039830148220062256
+            },
+            {
+              "joint": "finger_r_joint14",
+              "first_student_minus_teacher_rad": -0.02561762533187867,
+              "first_student_minus_measured_rad": -0.025598466396331787,
+              "student_max_command_step_rad": 0.47383230924606323,
+              "teacher_max_command_step_rad": 3.957748406779871e-09,
+              "max_command_minus_measured_rad": 0.2645917236804962
+            },
+            {
+              "joint": "finger_r_joint15",
+              "first_student_minus_teacher_rad": -0.010173659324645992,
+              "first_student_minus_measured_rad": -0.010184310376644135,
+              "student_max_command_step_rad": 0.0776982270181179,
+              "teacher_max_command_step_rad": 3.2782554587607038e-09,
+              "max_command_minus_measured_rad": 0.07449856773018837
+            },
+            {
+              "joint": "finger_r_joint16",
+              "first_student_minus_teacher_rad": 0.06627186861038209,
+              "first_student_minus_measured_rad": 0.06627044081687927,
+              "student_max_command_step_rad": 0.24823051691055298,
+              "teacher_max_command_step_rad": 2.7179717920766677e-09,
+              "max_command_minus_measured_rad": 0.21760419011116028
+            },
+            {
+              "joint": "finger_r_joint17",
+              "first_student_minus_teacher_rad": 0.07544336957931519,
+              "first_student_minus_measured_rad": 0.02975285053253174,
+              "student_max_command_step_rad": 0.08831515908241272,
+              "teacher_max_command_step_rad": 1.2350082401191287e-08,
+              "max_command_minus_measured_rad": 0.08078394830226898
+            },
+            {
+              "joint": "finger_r_joint18",
+              "first_student_minus_teacher_rad": 0.05942460513114928,
+              "first_student_minus_measured_rad": 0.059239327907562256,
+              "student_max_command_step_rad": 0.3885502219200134,
+              "teacher_max_command_step_rad": 3.814697280279944e-09,
+              "max_command_minus_measured_rad": 0.34357064962387085
+            },
+            {
+              "joint": "finger_r_joint19",
+              "first_student_minus_teacher_rad": -0.03572510288953781,
+              "first_student_minus_measured_rad": -0.035739921033382416,
+              "student_max_command_step_rad": 0.08030850812792778,
+              "teacher_max_command_step_rad": 6.389617918101109e-09,
+              "max_command_minus_measured_rad": 0.0860549621284008
+            },
+            {
+              "joint": "finger_r_joint20",
+              "first_student_minus_teacher_rad": -0.03318041834831237,
+              "first_student_minus_measured_rad": -0.033181726932525635,
+              "student_max_command_step_rad": 0.04120393097400665,
+              "teacher_max_command_step_rad": 2.7179717920766677e-09,
+              "max_command_minus_measured_rad": 0.040116339921951294
+            }
+          ]
+        },
+        {
+          "trace": "replay_002.npz",
+          "ticks": 77,
+          "replay_signal_max_abs": {
+            "contact_groups": 0.0,
+            "group_forces_min": 0.0,
+            "group_forces_max": 0.0,
+            "digit_force_max": 0.0,
+            "target_height_min": 0.0,
+            "object_xy_displacement_max": 0.0,
+            "non_target_displacement_max": 0.0,
+            "robot_object_penetration_max": 0.0,
+            "robot_table_penetration_max": 0.0,
+            "robot_obstacle_penetration_max": 0.0
+          },
+          "first_negative_contact": {
+            "tick": 0,
+            "substep": 0,
+            "bodies": [
+              "finger_r_link14",
+              "finger_r_link18"
+            ],
+            "depth_m": 0.000590088597374522
+          },
+          "initial_self_contact_depths_m": [
+            0.0005924688085636986,
+            0.0006285294376428903,
+            2.6256754631141715e-05
+          ],
+          "first_external_contact": {
+            "tick": 76,
+            "substep": 0,
+            "bodies": [
+              "world",
+              "finger_r_link12"
+            ],
+            "depth_m": 0.0015173648651535252
+          },
+          "deepest_contact": {
+            "tick": 76,
+            "substep": 9,
+            "bodies": [
+              "world",
+              "finger_r_link16"
+            ],
+            "depth_m": 0.007769280264326993
+          },
+          "per_joint": [
+            {
+              "joint": "arm_r_joint1",
+              "first_student_minus_teacher_rad": -1.1175864389325167,
+              "first_student_minus_measured_rad": -1.1196434870362282,
+              "student_max_command_step_rad": 1.1233210936188698,
+              "teacher_max_command_step_rad": 0.0060338405597220035,
+              "max_command_minus_measured_rad": 1.1541787385940552
+            },
+            {
+              "joint": "arm_r_joint2",
+              "first_student_minus_teacher_rad": 0.07677763474787419,
+              "first_student_minus_measured_rad": 0.07358795404434204,
+              "student_max_command_step_rad": 0.3034137785434723,
+              "teacher_max_command_step_rad": 0.001302747450445993,
+              "max_command_minus_measured_rad": 0.34329722076654434
+            },
+            {
+              "joint": "arm_r_joint3",
+              "first_student_minus_teacher_rad": 0.8514380487079863,
+              "first_student_minus_measured_rad": 0.8528426587581635,
+              "student_max_command_step_rad": 0.8585463911294937,
+              "teacher_max_command_step_rad": 0.007304050520957492,
+              "max_command_minus_measured_rad": 0.8528426587581635
+            },
+            {
+              "joint": "arm_r_joint4",
+              "first_student_minus_teacher_rad": 0.16944070694711444,
+              "first_student_minus_measured_rad": 0.14830446243286133,
+              "student_max_command_step_rad": 0.4102013111114502,
+              "teacher_max_command_step_rad": 0.0005892593468397322,
+              "max_command_minus_measured_rad": 0.34041905403137207
+            },
+            {
+              "joint": "arm_r_joint5",
+              "first_student_minus_teacher_rad": 1.6903794088245394,
+              "first_student_minus_measured_rad": 1.704273735085735,
+              "student_max_command_step_rad": 1.704073429107666,
+              "teacher_max_command_step_rad": 0.01369402028312666,
+              "max_command_minus_measured_rad": 1.9298284575343132
+            },
+            {
+              "joint": "arm_r_joint6",
+              "first_student_minus_teacher_rad": -0.5781018976809961,
+              "first_student_minus_measured_rad": -0.5807204130105674,
+              "student_max_command_step_rad": 1.0401945412158966,
+              "teacher_max_command_step_rad": 0.0030713330576685183,
+              "max_command_minus_measured_rad": 1.0622799098491669
+            },
+            {
+              "joint": "arm_r_joint7",
+              "first_student_minus_teacher_rad": -0.28320571626449254,
+              "first_student_minus_measured_rad": -0.2790182640310377,
+              "student_max_command_step_rad": 0.9797919392585754,
+              "teacher_max_command_step_rad": 0.0067373220933053465,
+              "max_command_minus_measured_rad": 1.0975584834814072
+            },
+            {
+              "joint": "finger_r_joint1",
+              "first_student_minus_teacher_rad": -0.011063791811466217,
+              "first_student_minus_measured_rad": -0.011083764027716825,
+              "student_max_command_step_rad": 0.06020500138401985,
+              "teacher_max_command_step_rad": 0.0,
+              "max_command_minus_measured_rad": 0.06208449974656105
+            },
+            {
+              "joint": "finger_r_joint2",
+              "first_student_minus_teacher_rad": -0.6757789438247681,
+              "first_student_minus_measured_rad": -0.675705075263977,
+              "student_max_command_step_rad": 0.6757789254188538,
+              "teacher_max_command_step_rad": 1.8405914348207375e-08,
+              "max_command_minus_measured_rad": 0.675705075263977
+            },
+            {
+              "joint": "finger_r_joint3",
+              "first_student_minus_teacher_rad": 0.07607560172080993,
+              "first_student_minus_measured_rad": 0.07606285810470581,
+              "student_max_command_step_rad": 0.07844659686088562,
+              "teacher_max_command_step_rad": 3.1232833819228034e-09,
+              "max_command_minus_measured_rad": 0.0920715481042862
+            },
+            {
+              "joint": "finger_r_joint4",
+              "first_student_minus_teacher_rad": 0.12620900468826296,
+              "first_student_minus_measured_rad": 0.1262035071849823,
+              "student_max_command_step_rad": 0.2500869333744049,
+              "teacher_max_command_step_rad": 1.3875961324405495e-08,
+              "max_command_minus_measured_rad": 0.2623565196990967
+            },
+            {
+              "joint": "finger_r_joint5",
+              "first_student_minus_teacher_rad": 0.13858694901466373,
+              "first_student_minus_measured_rad": 0.13848194479942322,
+              "student_max_command_step_rad": 0.13858696818351746,
+              "teacher_max_command_step_rad": 1.9168853726547752e-08,
+              "max_command_minus_measured_rad": 0.13848194479942322
+            },
+            {
+              "joint": "finger_r_joint6",
+              "first_student_minus_teacher_rad": 0.4019999707221985,
+              "first_student_minus_measured_rad": 0.4019632041454315,
+              "student_max_command_step_rad": 0.40199998021125793,
+              "teacher_max_command_step_rad": 9.489059427103541e-09,
+              "max_command_minus_measured_rad": 0.4090057611465454
+            },
+            {
+              "joint": "finger_r_joint7",
+              "first_student_minus_teacher_rad": 0.21862305870056153,
+              "first_student_minus_measured_rad": 0.21860821545124054,
+              "student_max_command_step_rad": 0.2186230570077896,
+              "teacher_max_command_step_rad": 1.6927719226345062e-09,
+              "max_command_minus_measured_rad": 0.21860821545124054
+            },
+            {
+              "joint": "finger_r_joint8",
+              "first_student_minus_teacher_rad": 0.2785600332260132,
+              "first_student_minus_measured_rad": 0.2785574793815613,
+              "student_max_command_step_rad": 0.2785600423812866,
+              "teacher_max_command_step_rad": 9.155273428262944e-09,
+              "max_command_minus_measured_rad": 0.33386310935020447
+            },
+            {
+              "joint": "finger_r_joint9",
+              "first_student_minus_teacher_rad": 0.03447445325851439,
+              "first_student_minus_measured_rad": 0.03435888886451721,
+              "student_max_command_step_rad": 0.034474462270736694,
+              "teacher_max_command_step_rad": 9.012222301763018e-09,
+              "max_command_minus_measured_rad": 0.03435888886451721
+            },
+            {
+              "joint": "finger_r_joint10",
+              "first_student_minus_teacher_rad": 0.1277185954093933,
+              "first_student_minus_measured_rad": 0.1276887059211731,
+              "student_max_command_step_rad": 0.213929682970047,
+              "teacher_max_command_step_rad": 2.2411346667361443e-09,
+              "max_command_minus_measured_rad": 0.22224655747413635
+            },
+            {
+              "joint": "finger_r_joint11",
+              "first_student_minus_teacher_rad": -0.014873474609851833,
+              "first_student_minus_measured_rad": -0.01488516479730606,
+              "student_max_command_step_rad": 0.06108265370130539,
+              "teacher_max_command_step_rad": 2.2649765396565158e-10,
+              "max_command_minus_measured_rad": 0.055870138108730316
+            },
+            {
+              "joint": "finger_r_joint12",
+              "first_student_minus_teacher_rad": 0.10572948136329652,
+              "first_student_minus_measured_rad": 0.10572755336761475,
+              "student_max_command_step_rad": 0.1513737440109253,
+              "teacher_max_command_step_rad": 9.155273428262944e-09,
+              "max_command_minus_measured_rad": 0.249833881855011
+            },
+            {
+              "joint": "finger_r_joint13",
+              "first_student_minus_teacher_rad": -0.014716567659378038,
+              "first_student_minus_measured_rad": -0.011834442615509033,
+              "student_max_command_step_rad": 0.05548378825187683,
+              "teacher_max_command_step_rad": 2.0503997666398988e-09,
+              "max_command_minus_measured_rad": 0.04121434688568115
+            },
+            {
+              "joint": "finger_r_joint14",
+              "first_student_minus_teacher_rad": 0.2590566615104675,
+              "first_student_minus_measured_rad": 0.2590758204460144,
+              "student_max_command_step_rad": 0.2590566575527191,
+              "teacher_max_command_step_rad": 3.957748406779871e-09,
+              "max_command_minus_measured_rad": 0.27194347977638245
+            },
+            {
+              "joint": "finger_r_joint15",
+              "first_student_minus_teacher_rad": -0.05929515093564987,
+              "first_student_minus_measured_rad": -0.05930580198764801,
+              "student_max_command_step_rad": 0.0771285742521286,
+              "teacher_max_command_step_rad": 3.2782554587607038e-09,
+              "max_command_minus_measured_rad": 0.07853230647742748
+            },
+            {
+              "joint": "finger_r_joint16",
+              "first_student_minus_teacher_rad": 0.173552063369751,
+              "first_student_minus_measured_rad": 0.17355063557624817,
+              "student_max_command_step_rad": 0.1971309781074524,
+              "teacher_max_command_step_rad": 2.7179717920766677e-09,
+              "max_command_minus_measured_rad": 0.21089667081832886
+            },
+            {
+              "joint": "finger_r_joint17",
+              "first_student_minus_teacher_rad": 0.02243147535324097,
+              "first_student_minus_measured_rad": -0.02325904369354248,
+              "student_max_command_step_rad": 0.11148945987224579,
+              "teacher_max_command_step_rad": 1.2350082401191287e-08,
+              "max_command_minus_measured_rad": 0.09848305583000183
+            },
+            {
+              "joint": "finger_r_joint18",
+              "first_student_minus_teacher_rad": 0.15393495178222655,
+              "first_student_minus_measured_rad": 0.15374967455863953,
+              "student_max_command_step_rad": 0.2238379716873169,
+              "teacher_max_command_step_rad": 3.814697280279944e-09,
+              "max_command_minus_measured_rad": 0.21623268723487854
+            },
+            {
+              "joint": "finger_r_joint19",
+              "first_student_minus_teacher_rad": -0.08259706305265427,
+              "first_student_minus_measured_rad": -0.08261188119649887,
+              "student_max_command_step_rad": 0.08259706944227219,
+              "teacher_max_command_step_rad": 6.389617918101109e-09,
+              "max_command_minus_measured_rad": 0.08261188119649887
+            },
+            {
+              "joint": "finger_r_joint20",
+              "first_student_minus_teacher_rad": -0.043939086532592764,
+              "first_student_minus_measured_rad": -0.04394039511680603,
+              "student_max_command_step_rad": 0.04837414622306824,
+              "teacher_max_command_step_rad": 2.7179717920766677e-09,
+              "max_command_minus_measured_rad": 0.04901561141014099
+            }
+          ]
+        }
+      ],
+      "teacher_pre_action_alignment": {
+        "ticks": 118,
+        "max_abs_rad": 0.0,
+        "control_dt_max_abs": 0.0,
+        "timestamp_step_max_abs": 1.1084883011491797e-14
+      }
+    }
+  ],
+  "pairs": [
+    {
+      "left": "source0_teacher_0002_yaw_000",
+      "right": "source0_teacher_0006_yaw_000",
+      "teacher_first_action_max_abs": 0.0073326877754880115,
+      "teacher_prefix_max_abs": 1.7623888368926028,
+      "traces_equal": {
+        "replay_000.npz": true,
+        "replay_001.npz": true,
+        "replay_002.npz": true
+      }
+    },
+    {
+      "left": "source0_teacher_0002_yaw_000",
+      "right": "source0_teacher_0016_yaw_000",
+      "teacher_first_action_max_abs": 0.012695424258708954,
+      "teacher_prefix_max_abs": 1.9437933688677553,
+      "traces_equal": {
+        "replay_000.npz": true,
+        "replay_001.npz": true,
+        "replay_002.npz": true
+      }
+    },
+    {
+      "left": "source0_teacher_0002_yaw_000",
+      "right": "source1_teacher_0008_yaw_000",
+      "teacher_first_action_max_abs": 0.2154,
+      "teacher_prefix_max_abs": 2.0000947046603197,
+      "traces_equal": {
+        "replay_000.npz": false,
+        "replay_001.npz": false,
+        "replay_002.npz": false
+      }
+    },
+    {
+      "left": "source0_teacher_0006_yaw_000",
+      "right": "source0_teacher_0016_yaw_000",
+      "teacher_first_action_max_abs": 0.005525871179997921,
+      "teacher_prefix_max_abs": 0.8522917650983015,
+      "traces_equal": {
+        "replay_000.npz": true,
+        "replay_001.npz": true,
+        "replay_002.npz": true
+      }
+    },
+    {
+      "left": "source0_teacher_0006_yaw_000",
+      "right": "source1_teacher_0008_yaw_000",
+      "teacher_first_action_max_abs": 0.2154,
+      "teacher_prefix_max_abs": 2.0704737289280417,
+      "traces_equal": {
+        "replay_000.npz": false,
+        "replay_001.npz": false,
+        "replay_002.npz": false
+      }
+    },
+    {
+      "left": "source0_teacher_0016_yaw_000",
+      "right": "source1_teacher_0008_yaw_000",
+      "teacher_first_action_max_abs": 0.2154,
+      "teacher_prefix_max_abs": 2.2452328843900853,
+      "traces_equal": {
+        "replay_000.npz": false,
+        "replay_001.npz": false,
+        "replay_002.npz": false
+      }
+    }
+  ]
+}

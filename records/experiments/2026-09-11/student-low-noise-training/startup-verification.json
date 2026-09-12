@@ -1,0 +1,8 @@
+{
+  "training_started": true,
+  "training_started_at": "2026-09-11T13:31:30Z",
+  "optimizer_steps_at_snapshot": 180,
+  "normalizer_data_cache_dino_joint_contract_equal": true,
+  "config_difference_only": "low_noise_loss",
+  "scope": "startup only; not live progress or training completion"
+}

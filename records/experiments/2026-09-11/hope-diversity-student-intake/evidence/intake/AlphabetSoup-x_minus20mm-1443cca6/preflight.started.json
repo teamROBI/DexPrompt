@@ -1,0 +1,16 @@
+{
+  "pid": 2045540,
+  "command": [
+    "scripts/train_hx5_student.py",
+    "preflight",
+    "--data",
+    "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/AlphabetSoup-x_minus20mm-1443cca6/visual",
+    "--cache",
+    "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/AlphabetSoup-x_minus20mm-1443cca6/cache",
+    "--config",
+    "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-job-v1/code-egl/configs/hx5_student.single-bottle.lecun.json",
+    "--allow-train-only-diagnostic",
+    "--out",
+    "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-egl-v1/AlphabetSoup-x_minus20mm-1443cca6/preflight"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "original_epsilon_vs_new_default": true,
+  "parameters_identical": true,
+  "loss_identical": true,
+  "actions_identical": true,
+  "scope": "small CPU architecture fixture; no optimizer"
+}

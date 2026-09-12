@@ -1,0 +1,4794 @@
+{
+ "sources": [
+  {
+   "name": "hope_pilot",
+   "path": "/home/yspark/projects/ICRA/out/hope-pilot/HANDOFF.json",
+   "sha256": "1f3eb9aa39dc967c54b2ecdd262353d4a10656105bae321a9a28359070c5154b",
+   "accepted_entries": 8,
+   "entries_referenced": 8
+  },
+  {
+   "name": "candidate_diversity",
+   "path": "/data1/yspark/sim/icra/hope-candidate-diversity-v1/HANDOFF.json",
+   "sha256": "22e6c6452139538c6e1b9e22b847a6a5949ea92796d9043f37a5e8e9a366f6ab",
+   "accepted_entries": 6,
+   "entries_referenced": 6
+  },
+  {
+   "name": "clutter",
+   "path": "/data1/yspark/sim/icra/hope-clutter-v1/HANDOFF.json",
+   "sha256": "8511ef0257f9db6e9ccab474c0e063d8a27e03c229b75d3387c7863bbb7af35d",
+   "accepted_entries": 2,
+   "entries_referenced": 2
+  },
+  {
+   "name": "milk_multiccd",
+   "path": "/data1/yspark/sim/icra/hope-milk-multiccd-v1/HANDOFF.json",
+   "sha256": "bdb65b98abe868fe4ce78c3efd3064c7acfffa5d9cf6e0f98fa22ca66a1d47c7",
+   "accepted_entries": 1,
+   "entries_referenced": 1
+  },
+  {
+   "name": "new_shapes",
+   "path": "/data1/yspark/sim/icra/hope-new-shapes-v1/HANDOFF.json",
+   "sha256": "7616cb952497615691c28dde42fe6fc603c32d3474a5230edc53e3031fbd6a05",
+   "accepted_entries": 0,
+   "entries_referenced": 0
+  },
+  {
+   "name": "new_shapes_missing_reproduction",
+   "path": "/data1/yspark/sim/icra/hope-new-shapes-v1/missing-reproduction/HANDOFF.json",
+   "sha256": "692ba5cdfbc04e383528ca9e1125748b8896fb3327b2b9c620ef5369330e69ea",
+   "accepted_entries": null,
+   "entries_referenced": 0
+  },
+  {
+   "name": "hand_edit",
+   "path": "/data1/yspark/sim/icra/hope-hand-edit-v1/HANDOFF.json",
+   "sha256": "c0700630e46105c085e881604bf026a41bd5df50841bdd114f05e0c26760d94f",
+   "accepted_entries": 0,
+   "entries_referenced": 0
+  },
+  {
+   "name": "wrist_edit",
+   "path": "/data1/yspark/sim/icra/hope-wrist-edit-v1/HANDOFF.json",
+   "sha256": "bb311b739535f80f2cec57f4fde84315a5672ad4c73268c036bb7b6c26775e52",
+   "accepted_entries": 0,
+   "entries_referenced": 0
+  }
+ ],
+ "entries": [
+  {
+   "source": "hope_pilot",
+   "object": "AlphabetSoup",
+   "placement": "centre",
+   "condition": "single",
+   "physics": "A",
+   "candidate_sha256": "057c04e1d5755d4aa88bdc9cbe8bcebbc234b3d6c00da572cf8fc4bfd118f4bc",
+   "grasp_type": "10_Power_Disk",
+   "episode": "/home/yspark/projects/ICRA/out/hope-pilot/AlphabetSoup/executed/episodes/teacher_0007_yaw_000.npz",
+   "episode_sha256": "2ad2b2647274105e2ed08a4cb96b39986a798c073ff52ba8de287567d0a031a4",
+   "model_sha256": "16f0700373ed43f1406b59cd2c8edd479d4462d5f7c1930d760f4146dd19d9a8",
+   "initial_state_sha256": "cdf7a3a3a9440861f625e004b7cce186468f3a3b3c87b3da84d3fac72da65a1c",
+   "scene_sha256": "ab716a577219f1753a9e92d006c171e045981ab7b71f5ccd81cf282f7e0eb63f",
+   "reproduced_identically": true,
+   "reproduction": "out/hope-pilot/AlphabetSoup/reproduce-centre/comparison.json",
+   "key": [
+    "AlphabetSoup",
+    "057c04e1d5755d4aa88bdc9cbe8bcebbc234b3d6c00da572cf8fc4bfd118f4bc",
+    "centre",
+    "single",
+    "A"
+   ],
+   "episode_file_sha256_now": "2ad2b2647274105e2ed08a4cb96b39986a798c073ff52ba8de287567d0a031a4",
+   "episode_file_matches": true,
+   "record": {
+    "model_sha256": "16f0700373ed43f1406b59cd2c8edd479d4462d5f7c1930d760f4146dd19d9a8",
+    "initial_state_sha256": "cdf7a3a3a9440861f625e004b7cce186468f3a3b3c87b3da84d3fac72da65a1c",
+    "compiled_profile": {
+     "mujoco_version": "3.3.3",
+     "timestep": 0.002,
+     "solver": 2,
+     "integrator": 3,
+     "iterations": 100,
+     "tolerance": 1e-08,
+     "target_mass_kg": 0.10628727130672606,
+     "actuator_kp": [
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      200.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0
+     ],
+     "actuator_kv": [
+      76.69613914658487,
+      76.61867714729803,
+      35.05071945329333,
+      49.486099138808804,
+      34.82238704850415,
+      37.646980286379545,
+      10.539745185258433,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0
+     ],
+     "actuator_force_limits": [
+      [
+       -61.4,
+       61.4
+      ],
+      [
+       -61.4,
+       61.4
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -5.1,
+       5.1
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ]
+     ],
+     "contact_solref": [
+      [
+       0.02,
+       1.0
+      ]
+     ],
+     "contact_solimp": [
+      [
+       0.9,
+       0.95,
+       0.001,
+       0.5,
+       2.0
+      ]
+     ],
+     "geom_friction": [
+      [
+       1.0,
+       0.005,
+       0.0001
+      ],
+      [
+       1.0,
+       0.05,
+       0.0001
+      ],
+      [
+       1.8,
+       0.005,
+       0.0001
+      ],
+      [
+       5.0,
+       1.0,
+       0.3
+      ]
+     ],
+     "geom_condim": [
+      3,
+      4
+     ],
+     "force_semantics": "sum of nonnegative contact-normal forces per whole digit, N",
+     "note": "object anti-spin friction also mixes into finger-object contacts; defaults unchanged"
+    },
+    "controller": {
+     "policy_dt": 0.02,
+     "standoff": 0.1,
+     "overhead": 0.15,
+     "lift_height": 0.15,
+     "transit_ticks": 150,
+     "descend_ticks": 100,
+     "approach_ticks": 200,
+     "arrive_ticks": 50,
+     "close_ticks": 600,
+     "lift_ticks": 300,
+     "hold_ticks": 50,
+     "ready_ticks": 25,
+     "lift_force": null,
+     "preview_ticks": 2,
+     "closure_speed": 0.008,
+     "preload": 2.0,
+     "hold_force": 4.0,
+     "penetration_margin": 0.75,
+     "residual": 0.35,
+     "geometry_feedback": true
+    },
+    "controller_source_sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94",
+    "contact_control_sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0",
+    "collector_sha256": "9b61dd09751db27068ab637bd5db8b1a8eb3d096a86258d2a4390a42ac95116f",
+    "teacher_hand_xml_sha256": "4db2e825d82904bc8299596120f416ba7bada2f59d1a66638c12961e33b6e3fe",
+    "scene_sha256": "ab716a577219f1753a9e92d006c171e045981ab7b71f5ccd81cf282f7e0eb63f"
+   }
+  },
+  {
+   "source": "hope_pilot",
+   "object": "AlphabetSoup",
+   "placement": "x_minus20mm",
+   "condition": "single",
+   "physics": "A",
+   "candidate_sha256": "057c04e1d5755d4aa88bdc9cbe8bcebbc234b3d6c00da572cf8fc4bfd118f4bc",
+   "grasp_type": "10_Power_Disk",
+   "episode": "/home/yspark/projects/ICRA/out/hope-pilot/AlphabetSoup/placement-x_minus20mm/episodes/teacher_0000_yaw_000.npz",
+   "episode_sha256": "49df6b4ad68029a1ef6a99143e9ae9ad08ea97eafb45b0f095d333326ee566d0",
+   "model_sha256": "49fce29c5b817176ee341e37aae8f394b6115357d08a44c77e90fe56a65dcd99",
+   "initial_state_sha256": "a8a57bfc1465cf0a24ccdcb768eac629c235befd6f619d6e997bcbda08a150fc",
+   "scene_sha256": "57010f05d5ba44c819e0f76e64e45908567a0b2c6b9dd3465ff4d15a9e38b110",
+   "reproduced_identically": true,
+   "reproduction": "out/hope-pilot/AlphabetSoup/reproduce-x_minus20mm/comparison.json",
+   "key": [
+    "AlphabetSoup",
+    "057c04e1d5755d4aa88bdc9cbe8bcebbc234b3d6c00da572cf8fc4bfd118f4bc",
+    "x_minus20mm",
+    "single",
+    "A"
+   ],
+   "episode_file_sha256_now": "49df6b4ad68029a1ef6a99143e9ae9ad08ea97eafb45b0f095d333326ee566d0",
+   "episode_file_matches": true,
+   "record": {
+    "model_sha256": "49fce29c5b817176ee341e37aae8f394b6115357d08a44c77e90fe56a65dcd99",
+    "initial_state_sha256": "a8a57bfc1465cf0a24ccdcb768eac629c235befd6f619d6e997bcbda08a150fc",
+    "compiled_profile": {
+     "mujoco_version": "3.3.3",
+     "timestep": 0.002,
+     "solver": 2,
+     "integrator": 3,
+     "iterations": 100,
+     "tolerance": 1e-08,
+     "target_mass_kg": 0.10628727130672606,
+     "actuator_kp": [
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      200.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0
+     ],
+     "actuator_kv": [
+      76.69613914658487,
+      76.61867714729803,
+      35.05071945329333,
+      49.486099138808804,
+      34.82238704850415,
+      37.646980286379545,
+      10.539745185258433,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0
+     ],
+     "actuator_force_limits": [
+      [
+       -61.4,
+       61.4
+      ],
+      [
+       -61.4,
+       61.4
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -5.1,
+       5.1
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ]
+     ],
+     "contact_solref": [
+      [
+       0.02,
+       1.0
+      ]
+     ],
+     "contact_solimp": [
+      [
+       0.9,
+       0.95,
+       0.001,
+       0.5,
+       2.0
+      ]
+     ],
+     "geom_friction": [
+      [
+       1.0,
+       0.005,
+       0.0001
+      ],
+      [
+       1.0,
+       0.05,
+       0.0001
+      ],
+      [
+       1.8,
+       0.005,
+       0.0001
+      ],
+      [
+       5.0,
+       1.0,
+       0.3
+      ]
+     ],
+     "geom_condim": [
+      3,
+      4
+     ],
+     "force_semantics": "sum of nonnegative contact-normal forces per whole digit, N",
+     "note": "object anti-spin friction also mixes into finger-object contacts; defaults unchanged"
+    },
+    "controller": {
+     "policy_dt": 0.02,
+     "standoff": 0.1,
+     "overhead": 0.15,
+     "lift_height": 0.15,
+     "transit_ticks": 150,
+     "descend_ticks": 100,
+     "approach_ticks": 200,
+     "arrive_ticks": 50,
+     "close_ticks": 600,
+     "lift_ticks": 300,
+     "hold_ticks": 50,
+     "ready_ticks": 25,
+     "lift_force": null,
+     "preview_ticks": 2,
+     "closure_speed": 0.008,
+     "preload": 2.0,
+     "hold_force": 4.0,
+     "penetration_margin": 0.75,
+     "residual": 0.35,
+     "geometry_feedback": true
+    },
+    "controller_source_sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94",
+    "contact_control_sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0",
+    "collector_sha256": "9b61dd09751db27068ab637bd5db8b1a8eb3d096a86258d2a4390a42ac95116f",
+    "teacher_hand_xml_sha256": "4db2e825d82904bc8299596120f416ba7bada2f59d1a66638c12961e33b6e3fe",
+    "scene_sha256": "57010f05d5ba44c819e0f76e64e45908567a0b2c6b9dd3465ff4d15a9e38b110"
+   }
+  },
+  {
+   "source": "hope_pilot",
+   "object": "AlphabetSoup",
+   "placement": "x_plus20mm",
+   "condition": "single",
+   "physics": "A",
+   "candidate_sha256": "057c04e1d5755d4aa88bdc9cbe8bcebbc234b3d6c00da572cf8fc4bfd118f4bc",
+   "grasp_type": "10_Power_Disk",
+   "episode": "/home/yspark/projects/ICRA/out/hope-pilot/AlphabetSoup/placement-x_plus20mm/episodes/teacher_0000_yaw_000.npz",
+   "episode_sha256": "d6f637c35dc0a0a52981bedf23f7869d9285e46bf931a501302c42bb264e409d",
+   "model_sha256": "9e36cd211ecee8da3477e559e0b8d80bba4f2371831729fb3c40f3f72f10f72e",
+   "initial_state_sha256": "29933e459b43a4312543adc7ea852739788b2958d4e80601681c203fa1e27d9a",
+   "scene_sha256": "a0f6796c7637d5f86393ef1d94a03728e410b3e61a2a0b2ac12313d9e721130c",
+   "reproduced_identically": true,
+   "reproduction": "out/hope-pilot/AlphabetSoup/reproduce-x_plus20mm/comparison.json",
+   "key": [
+    "AlphabetSoup",
+    "057c04e1d5755d4aa88bdc9cbe8bcebbc234b3d6c00da572cf8fc4bfd118f4bc",
+    "x_plus20mm",
+    "single",
+    "A"
+   ],
+   "episode_file_sha256_now": "d6f637c35dc0a0a52981bedf23f7869d9285e46bf931a501302c42bb264e409d",
+   "episode_file_matches": true,
+   "record": {
+    "model_sha256": "9e36cd211ecee8da3477e559e0b8d80bba4f2371831729fb3c40f3f72f10f72e",
+    "initial_state_sha256": "29933e459b43a4312543adc7ea852739788b2958d4e80601681c203fa1e27d9a",
+    "compiled_profile": {
+     "mujoco_version": "3.3.3",
+     "timestep": 0.002,
+     "solver": 2,
+     "integrator": 3,
+     "iterations": 100,
+     "tolerance": 1e-08,
+     "target_mass_kg": 0.10628727130672606,
+     "actuator_kp": [
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      200.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0
+     ],
+     "actuator_kv": [
+      76.69613914658487,
+      76.61867714729803,
+      35.05071945329333,
+      49.486099138808804,
+      34.82238704850415,
+      37.646980286379545,
+      10.539745185258433,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0
+     ],
+     "actuator_force_limits": [
+      [
+       -61.4,
+       61.4
+      ],
+      [
+       -61.4,
+       61.4
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -5.1,
+       5.1
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ]
+     ],
+     "contact_solref": [
+      [
+       0.02,
+       1.0
+      ]
+     ],
+     "contact_solimp": [
+      [
+       0.9,
+       0.95,
+       0.001,
+       0.5,
+       2.0
+      ]
+     ],
+     "geom_friction": [
+      [
+       1.0,
+       0.005,
+       0.0001
+      ],
+      [
+       1.0,
+       0.05,
+       0.0001
+      ],
+      [
+       1.8,
+       0.005,
+       0.0001
+      ],
+      [
+       5.0,
+       1.0,
+       0.3
+      ]
+     ],
+     "geom_condim": [
+      3,
+      4
+     ],
+     "force_semantics": "sum of nonnegative contact-normal forces per whole digit, N",
+     "note": "object anti-spin friction also mixes into finger-object contacts; defaults unchanged"
+    },
+    "controller": {
+     "policy_dt": 0.02,
+     "standoff": 0.1,
+     "overhead": 0.15,
+     "lift_height": 0.15,
+     "transit_ticks": 150,
+     "descend_ticks": 100,
+     "approach_ticks": 200,
+     "arrive_ticks": 50,
+     "close_ticks": 600,
+     "lift_ticks": 300,
+     "hold_ticks": 50,
+     "ready_ticks": 25,
+     "lift_force": null,
+     "preview_ticks": 2,
+     "closure_speed": 0.008,
+     "preload": 2.0,
+     "hold_force": 4.0,
+     "penetration_margin": 0.75,
+     "residual": 0.35,
+     "geometry_feedback": true
+    },
+    "controller_source_sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94",
+    "contact_control_sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0",
+    "collector_sha256": "9b61dd09751db27068ab637bd5db8b1a8eb3d096a86258d2a4390a42ac95116f",
+    "teacher_hand_xml_sha256": "4db2e825d82904bc8299596120f416ba7bada2f59d1a66638c12961e33b6e3fe",
+    "scene_sha256": "a0f6796c7637d5f86393ef1d94a03728e410b3e61a2a0b2ac12313d9e721130c"
+   }
+  },
+  {
+   "source": "hope_pilot",
+   "object": "AlphabetSoup",
+   "placement": "yaw_minus15",
+   "condition": "single",
+   "physics": "A",
+   "candidate_sha256": "057c04e1d5755d4aa88bdc9cbe8bcebbc234b3d6c00da572cf8fc4bfd118f4bc",
+   "grasp_type": "10_Power_Disk",
+   "episode": "/home/yspark/projects/ICRA/out/hope-pilot/AlphabetSoup/placement-yaw_minus15/episodes/teacher_0000_yaw_000.npz",
+   "episode_sha256": "54973e514e4a8ceb4e0fa56d382c7aeffb6c1f7e3277731e87442b120d5e6c5c",
+   "model_sha256": "a856d21dd2d8a75463ab7a70ffcbc41319f269ffca294841de66d511257e100c",
+   "initial_state_sha256": "1fe5d69bea9f67a90cf37895c93682b54599fb7a9afd678475726e8b2b6cebfa",
+   "scene_sha256": "9530dd42d6c0083521b0419460175a0c00a6ba822a44ae12853d7015782de421",
+   "reproduced_identically": true,
+   "reproduction": "out/hope-pilot/AlphabetSoup/reproduce-yaw_minus15/comparison.json",
+   "key": [
+    "AlphabetSoup",
+    "057c04e1d5755d4aa88bdc9cbe8bcebbc234b3d6c00da572cf8fc4bfd118f4bc",
+    "yaw_minus15",
+    "single",
+    "A"
+   ],
+   "episode_file_sha256_now": "54973e514e4a8ceb4e0fa56d382c7aeffb6c1f7e3277731e87442b120d5e6c5c",
+   "episode_file_matches": true,
+   "record": {
+    "model_sha256": "a856d21dd2d8a75463ab7a70ffcbc41319f269ffca294841de66d511257e100c",
+    "initial_state_sha256": "1fe5d69bea9f67a90cf37895c93682b54599fb7a9afd678475726e8b2b6cebfa",
+    "compiled_profile": {
+     "mujoco_version": "3.3.3",
+     "timestep": 0.002,
+     "solver": 2,
+     "integrator": 3,
+     "iterations": 100,
+     "tolerance": 1e-08,
+     "target_mass_kg": 0.10628727130672606,
+     "actuator_kp": [
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      200.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0
+     ],
+     "actuator_kv": [
+      76.69613914658487,
+      76.61867714729803,
+      35.05071945329333,
+      49.486099138808804,
+      34.82238704850415,
+      37.646980286379545,
+      10.539745185258433,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0
+     ],
+     "actuator_force_limits": [
+      [
+       -61.4,
+       61.4
+      ],
+      [
+       -61.4,
+       61.4
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -5.1,
+       5.1
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ]
+     ],
+     "contact_solref": [
+      [
+       0.02,
+       1.0
+      ]
+     ],
+     "contact_solimp": [
+      [
+       0.9,
+       0.95,
+       0.001,
+       0.5,
+       2.0
+      ]
+     ],
+     "geom_friction": [
+      [
+       1.0,
+       0.005,
+       0.0001
+      ],
+      [
+       1.0,
+       0.05,
+       0.0001
+      ],
+      [
+       1.8,
+       0.005,
+       0.0001
+      ],
+      [
+       5.0,
+       1.0,
+       0.3
+      ]
+     ],
+     "geom_condim": [
+      3,
+      4
+     ],
+     "force_semantics": "sum of nonnegative contact-normal forces per whole digit, N",
+     "note": "object anti-spin friction also mixes into finger-object contacts; defaults unchanged"
+    },
+    "controller": {
+     "policy_dt": 0.02,
+     "standoff": 0.1,
+     "overhead": 0.15,
+     "lift_height": 0.15,
+     "transit_ticks": 150,
+     "descend_ticks": 100,
+     "approach_ticks": 200,
+     "arrive_ticks": 50,
+     "close_ticks": 600,
+     "lift_ticks": 300,
+     "hold_ticks": 50,
+     "ready_ticks": 25,
+     "lift_force": null,
+     "preview_ticks": 2,
+     "closure_speed": 0.008,
+     "preload": 2.0,
+     "hold_force": 4.0,
+     "penetration_margin": 0.75,
+     "residual": 0.35,
+     "geometry_feedback": true
+    },
+    "controller_source_sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94",
+    "contact_control_sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0",
+    "collector_sha256": "9b61dd09751db27068ab637bd5db8b1a8eb3d096a86258d2a4390a42ac95116f",
+    "teacher_hand_xml_sha256": "4db2e825d82904bc8299596120f416ba7bada2f59d1a66638c12961e33b6e3fe",
+    "scene_sha256": "9530dd42d6c0083521b0419460175a0c00a6ba822a44ae12853d7015782de421"
+   }
+  },
+  {
+   "source": "hope_pilot",
+   "object": "Peaches",
+   "placement": "centre",
+   "condition": "single",
+   "physics": "A",
+   "candidate_sha256": "203b95f140d07f8aeadf7b5eaaac9b1e52c75bbfe21460751fc2526f39bcf586",
+   "grasp_type": "10_Power_Disk",
+   "episode": "/home/yspark/projects/ICRA/out/hope-pilot/Peaches/executed/episodes/teacher_0008_yaw_000.npz",
+   "episode_sha256": "3e88a9afedb4131265b6401afcc13e6a01d4f075ccbefb76b5a5de21483e04e2",
+   "model_sha256": "f711c25bfc5b949c080d1a434032dcc83178489df6cc178214d8cd456570d347",
+   "initial_state_sha256": "538414e596edd36acb6414b6600b4afe6d51568d54d48d4f68322af2005bdabe",
+   "scene_sha256": "ab716a577219f1753a9e92d006c171e045981ab7b71f5ccd81cf282f7e0eb63f",
+   "reproduced_identically": true,
+   "reproduction": "out/hope-pilot/Peaches/reproduce-centre/comparison.json",
+   "key": [
+    "Peaches",
+    "203b95f140d07f8aeadf7b5eaaac9b1e52c75bbfe21460751fc2526f39bcf586",
+    "centre",
+    "single",
+    "A"
+   ],
+   "episode_file_sha256_now": "3e88a9afedb4131265b6401afcc13e6a01d4f075ccbefb76b5a5de21483e04e2",
+   "episode_file_matches": true,
+   "record": {
+    "model_sha256": "f711c25bfc5b949c080d1a434032dcc83178489df6cc178214d8cd456570d347",
+    "initial_state_sha256": "538414e596edd36acb6414b6600b4afe6d51568d54d48d4f68322af2005bdabe",
+    "compiled_profile": {
+     "mujoco_version": "3.3.3",
+     "timestep": 0.002,
+     "solver": 2,
+     "integrator": 3,
+     "iterations": 100,
+     "tolerance": 1e-08,
+     "target_mass_kg": 0.10779018426348923,
+     "actuator_kp": [
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      200.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0
+     ],
+     "actuator_kv": [
+      76.69613914658487,
+      76.61867714729803,
+      35.05071945329333,
+      49.486099138808804,
+      34.82238704850415,
+      37.646980286379545,
+      10.539745185258433,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0
+     ],
+     "actuator_force_limits": [
+      [
+       -61.4,
+       61.4
+      ],
+      [
+       -61.4,
+       61.4
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -5.1,
+       5.1
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ]
+     ],
+     "contact_solref": [
+      [
+       0.02,
+       1.0
+      ]
+     ],
+     "contact_solimp": [
+      [
+       0.9,
+       0.95,
+       0.001,
+       0.5,
+       2.0
+      ]
+     ],
+     "geom_friction": [
+      [
+       1.0,
+       0.005,
+       0.0001
+      ],
+      [
+       1.0,
+       0.05,
+       0.0001
+      ],
+      [
+       1.8,
+       0.005,
+       0.0001
+      ],
+      [
+       5.0,
+       1.0,
+       0.3
+      ]
+     ],
+     "geom_condim": [
+      3,
+      4
+     ],
+     "force_semantics": "sum of nonnegative contact-normal forces per whole digit, N",
+     "note": "object anti-spin friction also mixes into finger-object contacts; defaults unchanged"
+    },
+    "controller": {
+     "policy_dt": 0.02,
+     "standoff": 0.1,
+     "overhead": 0.15,
+     "lift_height": 0.15,
+     "transit_ticks": 150,
+     "descend_ticks": 100,
+     "approach_ticks": 200,
+     "arrive_ticks": 50,
+     "close_ticks": 600,
+     "lift_ticks": 300,
+     "hold_ticks": 50,
+     "ready_ticks": 25,
+     "lift_force": null,
+     "preview_ticks": 2,
+     "closure_speed": 0.008,
+     "preload": 2.0,
+     "hold_force": 4.0,
+     "penetration_margin": 0.75,
+     "residual": 0.35,
+     "geometry_feedback": true
+    },
+    "controller_source_sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94",
+    "contact_control_sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0",
+    "collector_sha256": "9b61dd09751db27068ab637bd5db8b1a8eb3d096a86258d2a4390a42ac95116f",
+    "teacher_hand_xml_sha256": "4db2e825d82904bc8299596120f416ba7bada2f59d1a66638c12961e33b6e3fe",
+    "scene_sha256": "ab716a577219f1753a9e92d006c171e045981ab7b71f5ccd81cf282f7e0eb63f"
+   }
+  },
+  {
+   "source": "hope_pilot",
+   "object": "Peaches",
+   "placement": "x_plus20mm",
+   "condition": "single",
+   "physics": "A",
+   "candidate_sha256": "203b95f140d07f8aeadf7b5eaaac9b1e52c75bbfe21460751fc2526f39bcf586",
+   "grasp_type": "10_Power_Disk",
+   "episode": "/home/yspark/projects/ICRA/out/hope-pilot/Peaches/placement-x_plus20mm/episodes/teacher_0000_yaw_000.npz",
+   "episode_sha256": "ebcec15fe6b44c1277b7449d20d50018e9aa620540e136601439c62b79df0f81",
+   "model_sha256": "f36b8adfff5c3a36cee5d464409a9f596ace6e71df9e891fabd74628fac7d072",
+   "initial_state_sha256": "5ad305d58b370f9679cf96d88723df14ce680016008148957f66db2c71e3dd1e",
+   "scene_sha256": "a0f6796c7637d5f86393ef1d94a03728e410b3e61a2a0b2ac12313d9e721130c",
+   "reproduced_identically": true,
+   "reproduction": "out/hope-pilot/Peaches/reproduce-x_plus20mm/comparison.json",
+   "key": [
+    "Peaches",
+    "203b95f140d07f8aeadf7b5eaaac9b1e52c75bbfe21460751fc2526f39bcf586",
+    "x_plus20mm",
+    "single",
+    "A"
+   ],
+   "episode_file_sha256_now": "ebcec15fe6b44c1277b7449d20d50018e9aa620540e136601439c62b79df0f81",
+   "episode_file_matches": true,
+   "record": {
+    "model_sha256": "f36b8adfff5c3a36cee5d464409a9f596ace6e71df9e891fabd74628fac7d072",
+    "initial_state_sha256": "5ad305d58b370f9679cf96d88723df14ce680016008148957f66db2c71e3dd1e",
+    "compiled_profile": {
+     "mujoco_version": "3.3.3",
+     "timestep": 0.002,
+     "solver": 2,
+     "integrator": 3,
+     "iterations": 100,
+     "tolerance": 1e-08,
+     "target_mass_kg": 0.10779018426348923,
+     "actuator_kp": [
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      200.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0
+     ],
+     "actuator_kv": [
+      76.69613914658487,
+      76.61867714729803,
+      35.05071945329333,
+      49.486099138808804,
+      34.82238704850415,
+      37.646980286379545,
+      10.539745185258433,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0
+     ],
+     "actuator_force_limits": [
+      [
+       -61.4,
+       61.4
+      ],
+      [
+       -61.4,
+       61.4
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -5.1,
+       5.1
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ]
+     ],
+     "contact_solref": [
+      [
+       0.02,
+       1.0
+      ]
+     ],
+     "contact_solimp": [
+      [
+       0.9,
+       0.95,
+       0.001,
+       0.5,
+       2.0
+      ]
+     ],
+     "geom_friction": [
+      [
+       1.0,
+       0.005,
+       0.0001
+      ],
+      [
+       1.0,
+       0.05,
+       0.0001
+      ],
+      [
+       1.8,
+       0.005,
+       0.0001
+      ],
+      [
+       5.0,
+       1.0,
+       0.3
+      ]
+     ],
+     "geom_condim": [
+      3,
+      4
+     ],
+     "force_semantics": "sum of nonnegative contact-normal forces per whole digit, N",
+     "note": "object anti-spin friction also mixes into finger-object contacts; defaults unchanged"
+    },
+    "controller": {
+     "policy_dt": 0.02,
+     "standoff": 0.1,
+     "overhead": 0.15,
+     "lift_height": 0.15,
+     "transit_ticks": 150,
+     "descend_ticks": 100,
+     "approach_ticks": 200,
+     "arrive_ticks": 50,
+     "close_ticks": 600,
+     "lift_ticks": 300,
+     "hold_ticks": 50,
+     "ready_ticks": 25,
+     "lift_force": null,
+     "preview_ticks": 2,
+     "closure_speed": 0.008,
+     "preload": 2.0,
+     "hold_force": 4.0,
+     "penetration_margin": 0.75,
+     "residual": 0.35,
+     "geometry_feedback": true
+    },
+    "controller_source_sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94",
+    "contact_control_sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0",
+    "collector_sha256": "9b61dd09751db27068ab637bd5db8b1a8eb3d096a86258d2a4390a42ac95116f",
+    "teacher_hand_xml_sha256": "4db2e825d82904bc8299596120f416ba7bada2f59d1a66638c12961e33b6e3fe",
+    "scene_sha256": "a0f6796c7637d5f86393ef1d94a03728e410b3e61a2a0b2ac12313d9e721130c"
+   }
+  },
+  {
+   "source": "hope_pilot",
+   "object": "Raisins",
+   "placement": "centre",
+   "condition": "single",
+   "physics": "A",
+   "candidate_sha256": "0ddf3447c061b986c4ef421141d56bd8f1d430ee415040f59a61f8f9c53aac10",
+   "grasp_type": "1_Large_Diameter",
+   "episode": "/home/yspark/projects/ICRA/out/hope-pilot/Raisins/executed/episodes/teacher_0004_yaw_000.npz",
+   "episode_sha256": "fe233e9e22b1ffd0979c7ba820b86ee5da31c961bb87c5b2e8fa00286fca1c5b",
+   "model_sha256": "89121bacba2e3304d7b1e631795789cc98a79c4b00a1612687398f57e2d3e101",
+   "initial_state_sha256": "96713c98c9b3c533a6cdeb05dedfc0910fcfe9b9adfcab9cf2735b8e7591aebf",
+   "scene_sha256": "ab716a577219f1753a9e92d006c171e045981ab7b71f5ccd81cf282f7e0eb63f",
+   "reproduced_identically": true,
+   "reproduction": "out/hope-pilot/Raisins/reproduce-centre/comparison.json",
+   "key": [
+    "Raisins",
+    "0ddf3447c061b986c4ef421141d56bd8f1d430ee415040f59a61f8f9c53aac10",
+    "centre",
+    "single",
+    "A"
+   ],
+   "episode_file_sha256_now": "fe233e9e22b1ffd0979c7ba820b86ee5da31c961bb87c5b2e8fa00286fca1c5b",
+   "episode_file_matches": true,
+   "record": {
+    "model_sha256": "89121bacba2e3304d7b1e631795789cc98a79c4b00a1612687398f57e2d3e101",
+    "initial_state_sha256": "96713c98c9b3c533a6cdeb05dedfc0910fcfe9b9adfcab9cf2735b8e7591aebf",
+    "compiled_profile": {
+     "mujoco_version": "3.3.3",
+     "timestep": 0.002,
+     "solver": 2,
+     "integrator": 3,
+     "iterations": 100,
+     "tolerance": 1e-08,
+     "target_mass_kg": 0.10814156866000421,
+     "actuator_kp": [
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      200.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0
+     ],
+     "actuator_kv": [
+      76.69613914658487,
+      76.61867714729803,
+      35.05071945329333,
+      49.486099138808804,
+      34.82238704850415,
+      37.646980286379545,
+      10.539745185258433,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0
+     ],
+     "actuator_force_limits": [
+      [
+       -61.4,
+       61.4
+      ],
+      [
+       -61.4,
+       61.4
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -5.1,
+       5.1
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ]
+     ],
+     "contact_solref": [
+      [
+       0.02,
+       1.0
+      ]
+     ],
+     "contact_solimp": [
+      [
+       0.9,
+       0.95,
+       0.001,
+       0.5,
+       2.0
+      ]
+     ],
+     "geom_friction": [
+      [
+       1.0,
+       0.005,
+       0.0001
+      ],
+      [
+       1.0,
+       0.05,
+       0.0001
+      ],
+      [
+       1.8,
+       0.005,
+       0.0001
+      ],
+      [
+       5.0,
+       1.0,
+       0.3
+      ]
+     ],
+     "geom_condim": [
+      3,
+      4
+     ],
+     "force_semantics": "sum of nonnegative contact-normal forces per whole digit, N",
+     "note": "object anti-spin friction also mixes into finger-object contacts; defaults unchanged"
+    },
+    "controller": {
+     "policy_dt": 0.02,
+     "standoff": 0.1,
+     "overhead": 0.15,
+     "lift_height": 0.15,
+     "transit_ticks": 150,
+     "descend_ticks": 100,
+     "approach_ticks": 200,
+     "arrive_ticks": 50,
+     "close_ticks": 600,
+     "lift_ticks": 300,
+     "hold_ticks": 50,
+     "ready_ticks": 25,
+     "lift_force": null,
+     "preview_ticks": 2,
+     "closure_speed": 0.008,
+     "preload": 2.0,
+     "hold_force": 4.0,
+     "penetration_margin": 0.75,
+     "residual": 0.35,
+     "geometry_feedback": true
+    },
+    "controller_source_sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94",
+    "contact_control_sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0",
+    "collector_sha256": "9b61dd09751db27068ab637bd5db8b1a8eb3d096a86258d2a4390a42ac95116f",
+    "teacher_hand_xml_sha256": "4db2e825d82904bc8299596120f416ba7bada2f59d1a66638c12961e33b6e3fe",
+    "scene_sha256": "ab716a577219f1753a9e92d006c171e045981ab7b71f5ccd81cf282f7e0eb63f"
+   }
+  },
+  {
+   "source": "hope_pilot",
+   "object": "Raisins",
+   "placement": "yaw_plus15",
+   "condition": "single",
+   "physics": "A",
+   "candidate_sha256": "0ddf3447c061b986c4ef421141d56bd8f1d430ee415040f59a61f8f9c53aac10",
+   "grasp_type": "1_Large_Diameter",
+   "episode": "/home/yspark/projects/ICRA/out/hope-pilot/Raisins/placement-yaw_plus15/episodes/teacher_0000_yaw_000.npz",
+   "episode_sha256": "4089eeb6b9fc78e5cf0b3bb0b303b84cd0924cdb77ed201e900cdf0c4af00dee",
+   "model_sha256": "29a7b213ed2bf9b22d6e4862429cd349c2d62f9d66e81883605c04dccf89298c",
+   "initial_state_sha256": "c1f61a51c373913056129596834258d0fd4b34d79780095a7dba5beae7912964",
+   "scene_sha256": "a81f4f1dfdf1b319b1eca9215133ea7b0753b16256adf7cd2da6c3b9951a2bf5",
+   "reproduced_identically": true,
+   "reproduction": "out/hope-pilot/Raisins/reproduce-yaw_plus15/comparison.json",
+   "key": [
+    "Raisins",
+    "0ddf3447c061b986c4ef421141d56bd8f1d430ee415040f59a61f8f9c53aac10",
+    "yaw_plus15",
+    "single",
+    "A"
+   ],
+   "episode_file_sha256_now": "4089eeb6b9fc78e5cf0b3bb0b303b84cd0924cdb77ed201e900cdf0c4af00dee",
+   "episode_file_matches": true,
+   "record": {
+    "model_sha256": "29a7b213ed2bf9b22d6e4862429cd349c2d62f9d66e81883605c04dccf89298c",
+    "initial_state_sha256": "c1f61a51c373913056129596834258d0fd4b34d79780095a7dba5beae7912964",
+    "compiled_profile": {
+     "mujoco_version": "3.3.3",
+     "timestep": 0.002,
+     "solver": 2,
+     "integrator": 3,
+     "iterations": 100,
+     "tolerance": 1e-08,
+     "target_mass_kg": 0.10814156866000421,
+     "actuator_kp": [
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      200.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0
+     ],
+     "actuator_kv": [
+      76.69613914658487,
+      76.61867714729803,
+      35.05071945329333,
+      49.486099138808804,
+      34.82238704850415,
+      37.646980286379545,
+      10.539745185258433,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0
+     ],
+     "actuator_force_limits": [
+      [
+       -61.4,
+       61.4
+      ],
+      [
+       -61.4,
+       61.4
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -5.1,
+       5.1
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ]
+     ],
+     "contact_solref": [
+      [
+       0.02,
+       1.0
+      ]
+     ],
+     "contact_solimp": [
+      [
+       0.9,
+       0.95,
+       0.001,
+       0.5,
+       2.0
+      ]
+     ],
+     "geom_friction": [
+      [
+       1.0,
+       0.005,
+       0.0001
+      ],
+      [
+       1.0,
+       0.05,
+       0.0001
+      ],
+      [
+       1.8,
+       0.005,
+       0.0001
+      ],
+      [
+       5.0,
+       1.0,
+       0.3
+      ]
+     ],
+     "geom_condim": [
+      3,
+      4
+     ],
+     "force_semantics": "sum of nonnegative contact-normal forces per whole digit, N",
+     "note": "object anti-spin friction also mixes into finger-object contacts; defaults unchanged"
+    },
+    "controller": {
+     "policy_dt": 0.02,
+     "standoff": 0.1,
+     "overhead": 0.15,
+     "lift_height": 0.15,
+     "transit_ticks": 150,
+     "descend_ticks": 100,
+     "approach_ticks": 200,
+     "arrive_ticks": 50,
+     "close_ticks": 600,
+     "lift_ticks": 300,
+     "hold_ticks": 50,
+     "ready_ticks": 25,
+     "lift_force": null,
+     "preview_ticks": 2,
+     "closure_speed": 0.008,
+     "preload": 2.0,
+     "hold_force": 4.0,
+     "penetration_margin": 0.75,
+     "residual": 0.35,
+     "geometry_feedback": true
+    },
+    "controller_source_sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94",
+    "contact_control_sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0",
+    "collector_sha256": "9b61dd09751db27068ab637bd5db8b1a8eb3d096a86258d2a4390a42ac95116f",
+    "teacher_hand_xml_sha256": "4db2e825d82904bc8299596120f416ba7bada2f59d1a66638c12961e33b6e3fe",
+    "scene_sha256": "a81f4f1dfdf1b319b1eca9215133ea7b0753b16256adf7cd2da6c3b9951a2bf5"
+   }
+  },
+  {
+   "source": "candidate_diversity",
+   "object": "AlphabetSoup",
+   "placement": "centre",
+   "condition": "single",
+   "physics": "A",
+   "candidate_sha256": "1443cca6ceb82be8e441e021dd4747d35fa1efd1908a384b4089dd63fb7b7e71",
+   "grasp_type": "10_Power_Disk",
+   "episode": "/data1/yspark/sim/icra/hope-candidate-diversity-v1/runs/05-new-AlphabetSoup-centre-85eaed0f/episodes/teacher_0000_yaw_000.npz",
+   "episode_sha256": "e15f27809a660be57070908b45f644df363c4cf9cd7493eb251b77de6b33153d",
+   "model_sha256": "16f0700373ed43f1406b59cd2c8edd479d4462d5f7c1930d760f4146dd19d9a8",
+   "initial_state_sha256": "cdf7a3a3a9440861f625e004b7cce186468f3a3b3c87b3da84d3fac72da65a1c",
+   "scene_sha256": "ab716a577219f1753a9e92d006c171e045981ab7b71f5ccd81cf282f7e0eb63f",
+   "reproduced_identically": true,
+   "reproduction": {
+    "attempt_uuid": "64cd5d0f-f7d4-4858-ad60-54ee96cd311f",
+    "episode_sha256": "e15f27809a660be57070908b45f644df363c4cf9cd7493eb251b77de6b33153d",
+    "identical": true
+   },
+   "note": null,
+   "key": [
+    "AlphabetSoup",
+    "1443cca6ceb82be8e441e021dd4747d35fa1efd1908a384b4089dd63fb7b7e71",
+    "centre",
+    "single",
+    "A"
+   ],
+   "episode_file_sha256_now": "e15f27809a660be57070908b45f644df363c4cf9cd7493eb251b77de6b33153d",
+   "episode_file_matches": true,
+   "record": {
+    "model_sha256": "16f0700373ed43f1406b59cd2c8edd479d4462d5f7c1930d760f4146dd19d9a8",
+    "initial_state_sha256": "cdf7a3a3a9440861f625e004b7cce186468f3a3b3c87b3da84d3fac72da65a1c",
+    "compiled_profile": {
+     "mujoco_version": "3.3.3",
+     "timestep": 0.002,
+     "solver": 2,
+     "integrator": 3,
+     "iterations": 100,
+     "tolerance": 1e-08,
+     "target_mass_kg": 0.10628727130672606,
+     "actuator_kp": [
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      200.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0
+     ],
+     "actuator_kv": [
+      76.69613914658487,
+      76.61867714729803,
+      35.05071945329333,
+      49.486099138808804,
+      34.82238704850415,
+      37.646980286379545,
+      10.539745185258433,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0
+     ],
+     "actuator_force_limits": [
+      [
+       -61.4,
+       61.4
+      ],
+      [
+       -61.4,
+       61.4
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -5.1,
+       5.1
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ]
+     ],
+     "contact_solref": [
+      [
+       0.02,
+       1.0
+      ]
+     ],
+     "contact_solimp": [
+      [
+       0.9,
+       0.95,
+       0.001,
+       0.5,
+       2.0
+      ]
+     ],
+     "geom_friction": [
+      [
+       1.0,
+       0.005,
+       0.0001
+      ],
+      [
+       1.0,
+       0.05,
+       0.0001
+      ],
+      [
+       1.8,
+       0.005,
+       0.0001
+      ],
+      [
+       5.0,
+       1.0,
+       0.3
+      ]
+     ],
+     "geom_condim": [
+      3,
+      4
+     ],
+     "force_semantics": "sum of nonnegative contact-normal forces per whole digit, N",
+     "note": "object anti-spin friction also mixes into finger-object contacts; defaults unchanged"
+    },
+    "controller": {
+     "policy_dt": 0.02,
+     "standoff": 0.1,
+     "overhead": 0.15,
+     "lift_height": 0.15,
+     "transit_ticks": 150,
+     "descend_ticks": 100,
+     "approach_ticks": 200,
+     "arrive_ticks": 50,
+     "close_ticks": 600,
+     "lift_ticks": 300,
+     "hold_ticks": 50,
+     "ready_ticks": 25,
+     "lift_force": null,
+     "preview_ticks": 2,
+     "closure_speed": 0.008,
+     "preload": 2.0,
+     "hold_force": 4.0,
+     "penetration_margin": 0.75,
+     "residual": 0.35,
+     "geometry_feedback": true
+    },
+    "controller_source_sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94",
+    "contact_control_sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0",
+    "collector_sha256": "9b61dd09751db27068ab637bd5db8b1a8eb3d096a86258d2a4390a42ac95116f",
+    "teacher_hand_xml_sha256": "4db2e825d82904bc8299596120f416ba7bada2f59d1a66638c12961e33b6e3fe",
+    "scene_sha256": "ab716a577219f1753a9e92d006c171e045981ab7b71f5ccd81cf282f7e0eb63f"
+   }
+  },
+  {
+   "source": "candidate_diversity",
+   "object": "AlphabetSoup",
+   "placement": "yaw_plus15",
+   "condition": "single",
+   "physics": "A",
+   "candidate_sha256": "1443cca6ceb82be8e441e021dd4747d35fa1efd1908a384b4089dd63fb7b7e71",
+   "grasp_type": "10_Power_Disk",
+   "episode": "/data1/yspark/sim/icra/hope-candidate-diversity-v1/runs/08-placement-AlphabetSoup-yaw_plus15-757e4674/episodes/teacher_0000_yaw_000.npz",
+   "episode_sha256": "41d6c926176a30bb4fca51cb52109dca769563b46d619a8d374e955a1fcd858c",
+   "model_sha256": "b2a11e09f4ea22a739452bc7cd20ab9a6a0c7df3a53230821d41996b3047b768",
+   "initial_state_sha256": "7bc54813b6f5dc2e2a11ef4b8461b1825cc5e388e4e8974cecb7a65d99a98bbf",
+   "scene_sha256": "a81f4f1dfdf1b319b1eca9215133ea7b0753b16256adf7cd2da6c3b9951a2bf5",
+   "reproduced_identically": true,
+   "reproduction": {
+    "attempt_uuid": "1fdf8c2c-7586-4875-9c44-990af80bc4d4",
+    "episode_sha256": "41d6c926176a30bb4fca51cb52109dca769563b46d619a8d374e955a1fcd858c",
+    "identical": true
+   },
+   "note": null,
+   "key": [
+    "AlphabetSoup",
+    "1443cca6ceb82be8e441e021dd4747d35fa1efd1908a384b4089dd63fb7b7e71",
+    "yaw_plus15",
+    "single",
+    "A"
+   ],
+   "episode_file_sha256_now": "41d6c926176a30bb4fca51cb52109dca769563b46d619a8d374e955a1fcd858c",
+   "episode_file_matches": true,
+   "record": {
+    "model_sha256": "b2a11e09f4ea22a739452bc7cd20ab9a6a0c7df3a53230821d41996b3047b768",
+    "initial_state_sha256": "7bc54813b6f5dc2e2a11ef4b8461b1825cc5e388e4e8974cecb7a65d99a98bbf",
+    "compiled_profile": {
+     "mujoco_version": "3.3.3",
+     "timestep": 0.002,
+     "solver": 2,
+     "integrator": 3,
+     "iterations": 100,
+     "tolerance": 1e-08,
+     "target_mass_kg": 0.10628727130672606,
+     "actuator_kp": [
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      200.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0
+     ],
+     "actuator_kv": [
+      76.69613914658487,
+      76.61867714729803,
+      35.05071945329333,
+      49.486099138808804,
+      34.82238704850415,
+      37.646980286379545,
+      10.539745185258433,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0
+     ],
+     "actuator_force_limits": [
+      [
+       -61.4,
+       61.4
+      ],
+      [
+       -61.4,
+       61.4
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -5.1,
+       5.1
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ]
+     ],
+     "contact_solref": [
+      [
+       0.02,
+       1.0
+      ]
+     ],
+     "contact_solimp": [
+      [
+       0.9,
+       0.95,
+       0.001,
+       0.5,
+       2.0
+      ]
+     ],
+     "geom_friction": [
+      [
+       1.0,
+       0.005,
+       0.0001
+      ],
+      [
+       1.0,
+       0.05,
+       0.0001
+      ],
+      [
+       1.8,
+       0.005,
+       0.0001
+      ],
+      [
+       5.0,
+       1.0,
+       0.3
+      ]
+     ],
+     "geom_condim": [
+      3,
+      4
+     ],
+     "force_semantics": "sum of nonnegative contact-normal forces per whole digit, N",
+     "note": "object anti-spin friction also mixes into finger-object contacts; defaults unchanged"
+    },
+    "controller": {
+     "policy_dt": 0.02,
+     "standoff": 0.1,
+     "overhead": 0.15,
+     "lift_height": 0.15,
+     "transit_ticks": 150,
+     "descend_ticks": 100,
+     "approach_ticks": 200,
+     "arrive_ticks": 50,
+     "close_ticks": 600,
+     "lift_ticks": 300,
+     "hold_ticks": 50,
+     "ready_ticks": 25,
+     "lift_force": null,
+     "preview_ticks": 2,
+     "closure_speed": 0.008,
+     "preload": 2.0,
+     "hold_force": 4.0,
+     "penetration_margin": 0.75,
+     "residual": 0.35,
+     "geometry_feedback": true
+    },
+    "controller_source_sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94",
+    "contact_control_sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0",
+    "collector_sha256": "9b61dd09751db27068ab637bd5db8b1a8eb3d096a86258d2a4390a42ac95116f",
+    "teacher_hand_xml_sha256": "4db2e825d82904bc8299596120f416ba7bada2f59d1a66638c12961e33b6e3fe",
+    "scene_sha256": "a81f4f1dfdf1b319b1eca9215133ea7b0753b16256adf7cd2da6c3b9951a2bf5"
+   }
+  },
+  {
+   "source": "candidate_diversity",
+   "object": "AlphabetSoup",
+   "placement": "x_minus20mm",
+   "condition": "single",
+   "physics": "A",
+   "candidate_sha256": "1443cca6ceb82be8e441e021dd4747d35fa1efd1908a384b4089dd63fb7b7e71",
+   "grasp_type": "10_Power_Disk",
+   "episode": "/data1/yspark/sim/icra/hope-candidate-diversity-v1/runs/10-placement-AlphabetSoup-x_minus20mm-549c6a36/episodes/teacher_0000_yaw_000.npz",
+   "episode_sha256": "c38792a505944be8aa6fb0bb7797584615a449d1f72f8e0e548d9eaf6e35e311",
+   "model_sha256": "49fce29c5b817176ee341e37aae8f394b6115357d08a44c77e90fe56a65dcd99",
+   "initial_state_sha256": "a8a57bfc1465cf0a24ccdcb768eac629c235befd6f619d6e997bcbda08a150fc",
+   "scene_sha256": "57010f05d5ba44c819e0f76e64e45908567a0b2c6b9dd3465ff4d15a9e38b110",
+   "reproduced_identically": true,
+   "reproduction": {
+    "attempt_uuid": "b8428a92-8ce1-4158-80e5-e2a0d23ce731",
+    "episode_sha256": "c38792a505944be8aa6fb0bb7797584615a449d1f72f8e0e548d9eaf6e35e311",
+    "identical": true
+   },
+   "note": null,
+   "key": [
+    "AlphabetSoup",
+    "1443cca6ceb82be8e441e021dd4747d35fa1efd1908a384b4089dd63fb7b7e71",
+    "x_minus20mm",
+    "single",
+    "A"
+   ],
+   "episode_file_sha256_now": "c38792a505944be8aa6fb0bb7797584615a449d1f72f8e0e548d9eaf6e35e311",
+   "episode_file_matches": true,
+   "record": {
+    "model_sha256": "49fce29c5b817176ee341e37aae8f394b6115357d08a44c77e90fe56a65dcd99",
+    "initial_state_sha256": "a8a57bfc1465cf0a24ccdcb768eac629c235befd6f619d6e997bcbda08a150fc",
+    "compiled_profile": {
+     "mujoco_version": "3.3.3",
+     "timestep": 0.002,
+     "solver": 2,
+     "integrator": 3,
+     "iterations": 100,
+     "tolerance": 1e-08,
+     "target_mass_kg": 0.10628727130672606,
+     "actuator_kp": [
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      200.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0
+     ],
+     "actuator_kv": [
+      76.69613914658487,
+      76.61867714729803,
+      35.05071945329333,
+      49.486099138808804,
+      34.82238704850415,
+      37.646980286379545,
+      10.539745185258433,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0
+     ],
+     "actuator_force_limits": [
+      [
+       -61.4,
+       61.4
+      ],
+      [
+       -61.4,
+       61.4
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -5.1,
+       5.1
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ]
+     ],
+     "contact_solref": [
+      [
+       0.02,
+       1.0
+      ]
+     ],
+     "contact_solimp": [
+      [
+       0.9,
+       0.95,
+       0.001,
+       0.5,
+       2.0
+      ]
+     ],
+     "geom_friction": [
+      [
+       1.0,
+       0.005,
+       0.0001
+      ],
+      [
+       1.0,
+       0.05,
+       0.0001
+      ],
+      [
+       1.8,
+       0.005,
+       0.0001
+      ],
+      [
+       5.0,
+       1.0,
+       0.3
+      ]
+     ],
+     "geom_condim": [
+      3,
+      4
+     ],
+     "force_semantics": "sum of nonnegative contact-normal forces per whole digit, N",
+     "note": "object anti-spin friction also mixes into finger-object contacts; defaults unchanged"
+    },
+    "controller": {
+     "policy_dt": 0.02,
+     "standoff": 0.1,
+     "overhead": 0.15,
+     "lift_height": 0.15,
+     "transit_ticks": 150,
+     "descend_ticks": 100,
+     "approach_ticks": 200,
+     "arrive_ticks": 50,
+     "close_ticks": 600,
+     "lift_ticks": 300,
+     "hold_ticks": 50,
+     "ready_ticks": 25,
+     "lift_force": null,
+     "preview_ticks": 2,
+     "closure_speed": 0.008,
+     "preload": 2.0,
+     "hold_force": 4.0,
+     "penetration_margin": 0.75,
+     "residual": 0.35,
+     "geometry_feedback": true
+    },
+    "controller_source_sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94",
+    "contact_control_sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0",
+    "collector_sha256": "9b61dd09751db27068ab637bd5db8b1a8eb3d096a86258d2a4390a42ac95116f",
+    "teacher_hand_xml_sha256": "4db2e825d82904bc8299596120f416ba7bada2f59d1a66638c12961e33b6e3fe",
+    "scene_sha256": "57010f05d5ba44c819e0f76e64e45908567a0b2c6b9dd3465ff4d15a9e38b110"
+   }
+  },
+  {
+   "source": "candidate_diversity",
+   "object": "Raisins",
+   "placement": "centre",
+   "condition": "single",
+   "physics": "A",
+   "candidate_sha256": "3e8fa79936d8e9c10d2bd7d6c962e12fb6ed433f8adf0092d86fda2e0c3665e5",
+   "grasp_type": "1_Large_Diameter",
+   "episode": "/data1/yspark/sim/icra/hope-candidate-diversity-v1/runs/16-new-Raisins-centre-95d9999f/episodes/teacher_0000_yaw_000.npz",
+   "episode_sha256": "0c6b54becd4bbe643caec76c9a814032760cd34f808643cc85e754ac9e7f8a64",
+   "model_sha256": "89121bacba2e3304d7b1e631795789cc98a79c4b00a1612687398f57e2d3e101",
+   "initial_state_sha256": "96713c98c9b3c533a6cdeb05dedfc0910fcfe9b9adfcab9cf2735b8e7591aebf",
+   "scene_sha256": "ab716a577219f1753a9e92d006c171e045981ab7b71f5ccd81cf282f7e0eb63f",
+   "reproduced_identically": true,
+   "reproduction": {
+    "attempt_uuid": "145aee3b-9207-4343-8d3d-9a662d9987c1",
+    "episode_sha256": "0c6b54becd4bbe643caec76c9a814032760cd34f808643cc85e754ac9e7f8a64",
+    "identical": true
+   },
+   "note": null,
+   "key": [
+    "Raisins",
+    "3e8fa79936d8e9c10d2bd7d6c962e12fb6ed433f8adf0092d86fda2e0c3665e5",
+    "centre",
+    "single",
+    "A"
+   ],
+   "episode_file_sha256_now": "0c6b54becd4bbe643caec76c9a814032760cd34f808643cc85e754ac9e7f8a64",
+   "episode_file_matches": true,
+   "record": {
+    "model_sha256": "89121bacba2e3304d7b1e631795789cc98a79c4b00a1612687398f57e2d3e101",
+    "initial_state_sha256": "96713c98c9b3c533a6cdeb05dedfc0910fcfe9b9adfcab9cf2735b8e7591aebf",
+    "compiled_profile": {
+     "mujoco_version": "3.3.3",
+     "timestep": 0.002,
+     "solver": 2,
+     "integrator": 3,
+     "iterations": 100,
+     "tolerance": 1e-08,
+     "target_mass_kg": 0.10814156866000421,
+     "actuator_kp": [
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      200.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0
+     ],
+     "actuator_kv": [
+      76.69613914658487,
+      76.61867714729803,
+      35.05071945329333,
+      49.486099138808804,
+      34.82238704850415,
+      37.646980286379545,
+      10.539745185258433,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0
+     ],
+     "actuator_force_limits": [
+      [
+       -61.4,
+       61.4
+      ],
+      [
+       -61.4,
+       61.4
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -5.1,
+       5.1
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ]
+     ],
+     "contact_solref": [
+      [
+       0.02,
+       1.0
+      ]
+     ],
+     "contact_solimp": [
+      [
+       0.9,
+       0.95,
+       0.001,
+       0.5,
+       2.0
+      ]
+     ],
+     "geom_friction": [
+      [
+       1.0,
+       0.005,
+       0.0001
+      ],
+      [
+       1.0,
+       0.05,
+       0.0001
+      ],
+      [
+       1.8,
+       0.005,
+       0.0001
+      ],
+      [
+       5.0,
+       1.0,
+       0.3
+      ]
+     ],
+     "geom_condim": [
+      3,
+      4
+     ],
+     "force_semantics": "sum of nonnegative contact-normal forces per whole digit, N",
+     "note": "object anti-spin friction also mixes into finger-object contacts; defaults unchanged"
+    },
+    "controller": {
+     "policy_dt": 0.02,
+     "standoff": 0.1,
+     "overhead": 0.15,
+     "lift_height": 0.15,
+     "transit_ticks": 150,
+     "descend_ticks": 100,
+     "approach_ticks": 200,
+     "arrive_ticks": 50,
+     "close_ticks": 600,
+     "lift_ticks": 300,
+     "hold_ticks": 50,
+     "ready_ticks": 25,
+     "lift_force": null,
+     "preview_ticks": 2,
+     "closure_speed": 0.008,
+     "preload": 2.0,
+     "hold_force": 4.0,
+     "penetration_margin": 0.75,
+     "residual": 0.35,
+     "geometry_feedback": true
+    },
+    "controller_source_sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94",
+    "contact_control_sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0",
+    "collector_sha256": "9b61dd09751db27068ab637bd5db8b1a8eb3d096a86258d2a4390a42ac95116f",
+    "teacher_hand_xml_sha256": "4db2e825d82904bc8299596120f416ba7bada2f59d1a66638c12961e33b6e3fe",
+    "scene_sha256": "ab716a577219f1753a9e92d006c171e045981ab7b71f5ccd81cf282f7e0eb63f"
+   }
+  },
+  {
+   "source": "candidate_diversity",
+   "object": "Raisins",
+   "placement": "centre",
+   "condition": "single",
+   "physics": "A",
+   "candidate_sha256": "438146b501aa2b0c42d32832f7b18cb2c71bda52b746b43e0bfdeb1e783c3297",
+   "grasp_type": "1_Large_Diameter",
+   "episode": "/data1/yspark/sim/icra/hope-candidate-diversity-v1/runs/18-new-Raisins-centre-20d1bd33/episodes/teacher_0000_yaw_000.npz",
+   "episode_sha256": "668548823a64c48d9358eb6cd1a747be57ddb4bc158dbd22d34576df4702f683",
+   "model_sha256": "89121bacba2e3304d7b1e631795789cc98a79c4b00a1612687398f57e2d3e101",
+   "initial_state_sha256": "96713c98c9b3c533a6cdeb05dedfc0910fcfe9b9adfcab9cf2735b8e7591aebf",
+   "scene_sha256": "ab716a577219f1753a9e92d006c171e045981ab7b71f5ccd81cf282f7e0eb63f",
+   "reproduced_identically": true,
+   "reproduction": {
+    "attempt_uuid": "65c861ba-3f29-4d9c-9054-090ded92c91e",
+    "episode_sha256": "668548823a64c48d9358eb6cd1a747be57ddb4bc158dbd22d34576df4702f683",
+    "identical": true
+   },
+   "note": "repeated later by hope-new-shapes-v1/missing-reproduction",
+   "key": [
+    "Raisins",
+    "438146b501aa2b0c42d32832f7b18cb2c71bda52b746b43e0bfdeb1e783c3297",
+    "centre",
+    "single",
+    "A"
+   ],
+   "episode_file_sha256_now": "668548823a64c48d9358eb6cd1a747be57ddb4bc158dbd22d34576df4702f683",
+   "episode_file_matches": true,
+   "record": {
+    "model_sha256": "89121bacba2e3304d7b1e631795789cc98a79c4b00a1612687398f57e2d3e101",
+    "initial_state_sha256": "96713c98c9b3c533a6cdeb05dedfc0910fcfe9b9adfcab9cf2735b8e7591aebf",
+    "compiled_profile": {
+     "mujoco_version": "3.3.3",
+     "timestep": 0.002,
+     "solver": 2,
+     "integrator": 3,
+     "iterations": 100,
+     "tolerance": 1e-08,
+     "target_mass_kg": 0.10814156866000421,
+     "actuator_kp": [
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      200.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0
+     ],
+     "actuator_kv": [
+      76.69613914658487,
+      76.61867714729803,
+      35.05071945329333,
+      49.486099138808804,
+      34.82238704850415,
+      37.646980286379545,
+      10.539745185258433,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0
+     ],
+     "actuator_force_limits": [
+      [
+       -61.4,
+       61.4
+      ],
+      [
+       -61.4,
+       61.4
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -5.1,
+       5.1
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ]
+     ],
+     "contact_solref": [
+      [
+       0.02,
+       1.0
+      ]
+     ],
+     "contact_solimp": [
+      [
+       0.9,
+       0.95,
+       0.001,
+       0.5,
+       2.0
+      ]
+     ],
+     "geom_friction": [
+      [
+       1.0,
+       0.005,
+       0.0001
+      ],
+      [
+       1.0,
+       0.05,
+       0.0001
+      ],
+      [
+       1.8,
+       0.005,
+       0.0001
+      ],
+      [
+       5.0,
+       1.0,
+       0.3
+      ]
+     ],
+     "geom_condim": [
+      3,
+      4
+     ],
+     "force_semantics": "sum of nonnegative contact-normal forces per whole digit, N",
+     "note": "object anti-spin friction also mixes into finger-object contacts; defaults unchanged"
+    },
+    "controller": {
+     "policy_dt": 0.02,
+     "standoff": 0.1,
+     "overhead": 0.15,
+     "lift_height": 0.15,
+     "transit_ticks": 150,
+     "descend_ticks": 100,
+     "approach_ticks": 200,
+     "arrive_ticks": 50,
+     "close_ticks": 600,
+     "lift_ticks": 300,
+     "hold_ticks": 50,
+     "ready_ticks": 25,
+     "lift_force": null,
+     "preview_ticks": 2,
+     "closure_speed": 0.008,
+     "preload": 2.0,
+     "hold_force": 4.0,
+     "penetration_margin": 0.75,
+     "residual": 0.35,
+     "geometry_feedback": true
+    },
+    "controller_source_sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94",
+    "contact_control_sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0",
+    "collector_sha256": "9b61dd09751db27068ab637bd5db8b1a8eb3d096a86258d2a4390a42ac95116f",
+    "teacher_hand_xml_sha256": "4db2e825d82904bc8299596120f416ba7bada2f59d1a66638c12961e33b6e3fe",
+    "scene_sha256": "ab716a577219f1753a9e92d006c171e045981ab7b71f5ccd81cf282f7e0eb63f"
+   }
+  },
+  {
+   "source": "candidate_diversity",
+   "object": "Raisins",
+   "placement": "yaw_plus15",
+   "condition": "single",
+   "physics": "A",
+   "candidate_sha256": "3e8fa79936d8e9c10d2bd7d6c962e12fb6ed433f8adf0092d86fda2e0c3665e5",
+   "grasp_type": "1_Large_Diameter",
+   "episode": "/data1/yspark/sim/icra/hope-candidate-diversity-v1/runs/21-placement-Raisins-yaw_plus15-f27ecfce/episodes/teacher_0000_yaw_000.npz",
+   "episode_sha256": "06354bdd56f810c413572b3de6a2fdbec502a737f8cba7eec1624c96723a5619",
+   "model_sha256": "29a7b213ed2bf9b22d6e4862429cd349c2d62f9d66e81883605c04dccf89298c",
+   "initial_state_sha256": "c1f61a51c373913056129596834258d0fd4b34d79780095a7dba5beae7912964",
+   "scene_sha256": "a81f4f1dfdf1b319b1eca9215133ea7b0753b16256adf7cd2da6c3b9951a2bf5",
+   "reproduced_identically": true,
+   "reproduction": {
+    "attempt_uuid": "eddaea68-4c08-4a14-aaeb-7981bc3b8704",
+    "episode_sha256": "06354bdd56f810c413572b3de6a2fdbec502a737f8cba7eec1624c96723a5619",
+    "identical": true
+   },
+   "note": null,
+   "key": [
+    "Raisins",
+    "3e8fa79936d8e9c10d2bd7d6c962e12fb6ed433f8adf0092d86fda2e0c3665e5",
+    "yaw_plus15",
+    "single",
+    "A"
+   ],
+   "episode_file_sha256_now": "06354bdd56f810c413572b3de6a2fdbec502a737f8cba7eec1624c96723a5619",
+   "episode_file_matches": true,
+   "record": {
+    "model_sha256": "29a7b213ed2bf9b22d6e4862429cd349c2d62f9d66e81883605c04dccf89298c",
+    "initial_state_sha256": "c1f61a51c373913056129596834258d0fd4b34d79780095a7dba5beae7912964",
+    "compiled_profile": {
+     "mujoco_version": "3.3.3",
+     "timestep": 0.002,
+     "solver": 2,
+     "integrator": 3,
+     "iterations": 100,
+     "tolerance": 1e-08,
+     "target_mass_kg": 0.10814156866000421,
+     "actuator_kp": [
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      200.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0
+     ],
+     "actuator_kv": [
+      76.69613914658487,
+      76.61867714729803,
+      35.05071945329333,
+      49.486099138808804,
+      34.82238704850415,
+      37.646980286379545,
+      10.539745185258433,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0
+     ],
+     "actuator_force_limits": [
+      [
+       -61.4,
+       61.4
+      ],
+      [
+       -61.4,
+       61.4
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -5.1,
+       5.1
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ]
+     ],
+     "contact_solref": [
+      [
+       0.02,
+       1.0
+      ]
+     ],
+     "contact_solimp": [
+      [
+       0.9,
+       0.95,
+       0.001,
+       0.5,
+       2.0
+      ]
+     ],
+     "geom_friction": [
+      [
+       1.0,
+       0.005,
+       0.0001
+      ],
+      [
+       1.0,
+       0.05,
+       0.0001
+      ],
+      [
+       1.8,
+       0.005,
+       0.0001
+      ],
+      [
+       5.0,
+       1.0,
+       0.3
+      ]
+     ],
+     "geom_condim": [
+      3,
+      4
+     ],
+     "force_semantics": "sum of nonnegative contact-normal forces per whole digit, N",
+     "note": "object anti-spin friction also mixes into finger-object contacts; defaults unchanged"
+    },
+    "controller": {
+     "policy_dt": 0.02,
+     "standoff": 0.1,
+     "overhead": 0.15,
+     "lift_height": 0.15,
+     "transit_ticks": 150,
+     "descend_ticks": 100,
+     "approach_ticks": 200,
+     "arrive_ticks": 50,
+     "close_ticks": 600,
+     "lift_ticks": 300,
+     "hold_ticks": 50,
+     "ready_ticks": 25,
+     "lift_force": null,
+     "preview_ticks": 2,
+     "closure_speed": 0.008,
+     "preload": 2.0,
+     "hold_force": 4.0,
+     "penetration_margin": 0.75,
+     "residual": 0.35,
+     "geometry_feedback": true
+    },
+    "controller_source_sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94",
+    "contact_control_sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0",
+    "collector_sha256": "9b61dd09751db27068ab637bd5db8b1a8eb3d096a86258d2a4390a42ac95116f",
+    "teacher_hand_xml_sha256": "4db2e825d82904bc8299596120f416ba7bada2f59d1a66638c12961e33b6e3fe",
+    "scene_sha256": "a81f4f1dfdf1b319b1eca9215133ea7b0753b16256adf7cd2da6c3b9951a2bf5"
+   }
+  },
+  {
+   "source": "clutter",
+   "object": "Raisins",
+   "placement": "centre",
+   "condition": "one_distractor",
+   "physics": "A",
+   "candidate_sha256": "3e8fa79936d8e9c10d2bd7d6c962e12fb6ed433f8adf0092d86fda2e0c3665e5",
+   "grasp_type": "1_Large_Diameter",
+   "episode": "/data1/yspark/sim/icra/hope-clutter-v1/runs/07-clutter-Raisins-one_distractor/episodes/teacher_0000_yaw_000.npz",
+   "episode_sha256": "9528e5934c06afd7cf24b0b68302112fbc900bf99a930bc950634adc688abdb6",
+   "model_sha256": "54431fc6dddf9eae2ad5f47470101cd032f4212ce11c0f2cb496d44120b15c7e",
+   "initial_state_sha256": "2f543902e74ae10ff07f2ebc11fbb768136a5e2055434bafa7f9777ab0ed1653",
+   "scene_sha256": "ab716a577219f1753a9e92d006c171e045981ab7b71f5ccd81cf282f7e0eb63f",
+   "reproduced_identically": true,
+   "reproduction": {
+    "episode_sha256": "9528e5934c06afd7cf24b0b68302112fbc900bf99a930bc950634adc688abdb6",
+    "identical": true
+   },
+   "key": [
+    "Raisins",
+    "3e8fa79936d8e9c10d2bd7d6c962e12fb6ed433f8adf0092d86fda2e0c3665e5",
+    "centre",
+    "one_distractor",
+    "A"
+   ],
+   "episode_file_sha256_now": "9528e5934c06afd7cf24b0b68302112fbc900bf99a930bc950634adc688abdb6",
+   "episode_file_matches": true,
+   "record": {
+    "model_sha256": "54431fc6dddf9eae2ad5f47470101cd032f4212ce11c0f2cb496d44120b15c7e",
+    "initial_state_sha256": "2f543902e74ae10ff07f2ebc11fbb768136a5e2055434bafa7f9777ab0ed1653",
+    "compiled_profile": {
+     "mujoco_version": "3.3.3",
+     "timestep": 0.002,
+     "solver": 2,
+     "integrator": 3,
+     "iterations": 100,
+     "tolerance": 1e-08,
+     "target_mass_kg": 0.10814156866000421,
+     "actuator_kp": [
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      200.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0
+     ],
+     "actuator_kv": [
+      76.69613914658487,
+      76.61867714729803,
+      35.05071945329333,
+      49.486099138808804,
+      34.82238704850415,
+      37.646980286379545,
+      10.539745185258433,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0
+     ],
+     "actuator_force_limits": [
+      [
+       -61.4,
+       61.4
+      ],
+      [
+       -61.4,
+       61.4
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -5.1,
+       5.1
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ]
+     ],
+     "contact_solref": [
+      [
+       0.02,
+       1.0
+      ]
+     ],
+     "contact_solimp": [
+      [
+       0.9,
+       0.95,
+       0.001,
+       0.5,
+       2.0
+      ]
+     ],
+     "geom_friction": [
+      [
+       1.0,
+       0.005,
+       0.0001
+      ],
+      [
+       1.0,
+       0.05,
+       0.0001
+      ],
+      [
+       1.8,
+       0.005,
+       0.0001
+      ],
+      [
+       5.0,
+       1.0,
+       0.3
+      ]
+     ],
+     "geom_condim": [
+      3,
+      4
+     ],
+     "force_semantics": "sum of nonnegative contact-normal forces per whole digit, N",
+     "note": "object anti-spin friction also mixes into finger-object contacts; defaults unchanged"
+    },
+    "controller": {
+     "policy_dt": 0.02,
+     "standoff": 0.1,
+     "overhead": 0.15,
+     "lift_height": 0.15,
+     "transit_ticks": 150,
+     "descend_ticks": 100,
+     "approach_ticks": 200,
+     "arrive_ticks": 50,
+     "close_ticks": 600,
+     "lift_ticks": 300,
+     "hold_ticks": 50,
+     "ready_ticks": 25,
+     "lift_force": null,
+     "preview_ticks": 2,
+     "closure_speed": 0.008,
+     "preload": 2.0,
+     "hold_force": 4.0,
+     "penetration_margin": 0.75,
+     "residual": 0.35,
+     "geometry_feedback": true
+    },
+    "controller_source_sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94",
+    "contact_control_sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0",
+    "collector_sha256": "9b61dd09751db27068ab637bd5db8b1a8eb3d096a86258d2a4390a42ac95116f",
+    "teacher_hand_xml_sha256": "4db2e825d82904bc8299596120f416ba7bada2f59d1a66638c12961e33b6e3fe",
+    "scene_sha256": "ab716a577219f1753a9e92d006c171e045981ab7b71f5ccd81cf282f7e0eb63f"
+   }
+  },
+  {
+   "source": "clutter",
+   "object": "Raisins",
+   "placement": "centre",
+   "condition": "two_distractors",
+   "physics": "A",
+   "candidate_sha256": "3e8fa79936d8e9c10d2bd7d6c962e12fb6ed433f8adf0092d86fda2e0c3665e5",
+   "grasp_type": "1_Large_Diameter",
+   "episode": "/data1/yspark/sim/icra/hope-clutter-v1/runs/09-clutter-Raisins-two_distractors/episodes/teacher_0000_yaw_000.npz",
+   "episode_sha256": "ae908a80e11f864b25950b0a7dee21f7b59c4cccf8b8e37ac823b9599732a210",
+   "model_sha256": "66c2a56dbd398e75e86c2490c213805e1849804e7e112104c61d62f7f840f19f",
+   "initial_state_sha256": "b96bd8ad32291e8913b1d3f1f491ab36364fe8cb2e63d9d8c2d90ab6663afb3e",
+   "scene_sha256": "ab716a577219f1753a9e92d006c171e045981ab7b71f5ccd81cf282f7e0eb63f",
+   "reproduced_identically": true,
+   "reproduction": {
+    "episode_sha256": "ae908a80e11f864b25950b0a7dee21f7b59c4cccf8b8e37ac823b9599732a210",
+    "identical": true
+   },
+   "key": [
+    "Raisins",
+    "3e8fa79936d8e9c10d2bd7d6c962e12fb6ed433f8adf0092d86fda2e0c3665e5",
+    "centre",
+    "two_distractors",
+    "A"
+   ],
+   "episode_file_sha256_now": "ae908a80e11f864b25950b0a7dee21f7b59c4cccf8b8e37ac823b9599732a210",
+   "episode_file_matches": true,
+   "record": {
+    "model_sha256": "66c2a56dbd398e75e86c2490c213805e1849804e7e112104c61d62f7f840f19f",
+    "initial_state_sha256": "b96bd8ad32291e8913b1d3f1f491ab36364fe8cb2e63d9d8c2d90ab6663afb3e",
+    "compiled_profile": {
+     "mujoco_version": "3.3.3",
+     "timestep": 0.002,
+     "solver": 2,
+     "integrator": 3,
+     "iterations": 100,
+     "tolerance": 1e-08,
+     "target_mass_kg": 0.10814156866000421,
+     "actuator_kp": [
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      200.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0
+     ],
+     "actuator_kv": [
+      76.69613914658487,
+      76.61867714729803,
+      35.05071945329333,
+      49.486099138808804,
+      34.82238704850415,
+      37.646980286379545,
+      10.539745185258433,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0
+     ],
+     "actuator_force_limits": [
+      [
+       -61.4,
+       61.4
+      ],
+      [
+       -61.4,
+       61.4
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -5.1,
+       5.1
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ]
+     ],
+     "contact_solref": [
+      [
+       0.02,
+       1.0
+      ]
+     ],
+     "contact_solimp": [
+      [
+       0.9,
+       0.95,
+       0.001,
+       0.5,
+       2.0
+      ]
+     ],
+     "geom_friction": [
+      [
+       1.0,
+       0.005,
+       0.0001
+      ],
+      [
+       1.0,
+       0.05,
+       0.0001
+      ],
+      [
+       1.8,
+       0.005,
+       0.0001
+      ],
+      [
+       5.0,
+       1.0,
+       0.3
+      ]
+     ],
+     "geom_condim": [
+      3,
+      4
+     ],
+     "force_semantics": "sum of nonnegative contact-normal forces per whole digit, N",
+     "note": "object anti-spin friction also mixes into finger-object contacts; defaults unchanged"
+    },
+    "controller": {
+     "policy_dt": 0.02,
+     "standoff": 0.1,
+     "overhead": 0.15,
+     "lift_height": 0.15,
+     "transit_ticks": 150,
+     "descend_ticks": 100,
+     "approach_ticks": 200,
+     "arrive_ticks": 50,
+     "close_ticks": 600,
+     "lift_ticks": 300,
+     "hold_ticks": 50,
+     "ready_ticks": 25,
+     "lift_force": null,
+     "preview_ticks": 2,
+     "closure_speed": 0.008,
+     "preload": 2.0,
+     "hold_force": 4.0,
+     "penetration_margin": 0.75,
+     "residual": 0.35,
+     "geometry_feedback": true
+    },
+    "controller_source_sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94",
+    "contact_control_sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0",
+    "collector_sha256": "9b61dd09751db27068ab637bd5db8b1a8eb3d096a86258d2a4390a42ac95116f",
+    "teacher_hand_xml_sha256": "4db2e825d82904bc8299596120f416ba7bada2f59d1a66638c12961e33b6e3fe",
+    "scene_sha256": "ab716a577219f1753a9e92d006c171e045981ab7b71f5ccd81cf282f7e0eb63f"
+   }
+  },
+  {
+   "source": "milk_multiccd",
+   "object": "Milk",
+   "placement": "centre",
+   "condition": "single",
+   "physics": "B-multiccd",
+   "candidate_sha256": "3b754104a9e32abf2983fcabeb53eaa2cc8f565180b7f8e920eb6b375e130ab1",
+   "grasp_type": "10_Power_Disk",
+   "episode": "/data1/yspark/sim/icra/hope-milk-multiccd-v1/runs/08-new-Milk-centre-23a2d8fd/episodes/teacher_0000_yaw_000.npz",
+   "episode_sha256": "10916e763a3f955432be47db5451975eae95e0f7276d1bc676c86b84e156afdb",
+   "model_sha256": "8ad75c1433f9bc48c1cada30551e8a1ab4c95deebb642b7f8b5224e60a6779a7",
+   "initial_state_sha256": "ef1895cecec6f375e05e490847347f49e0016bc3dd54c8ca4267d9755012b23c",
+   "scene_sha256": "ab716a577219f1753a9e92d006c171e045981ab7b71f5ccd81cf282f7e0eb63f",
+   "reproduced_identically": true,
+   "reproduction": {
+    "episode_sha256": "10916e763a3f955432be47db5451975eae95e0f7276d1bc676c86b84e156afdb",
+    "identical": true
+   },
+   "note": "multiccd B physics; not to be merged with A data",
+   "key": [
+    "Milk",
+    "3b754104a9e32abf2983fcabeb53eaa2cc8f565180b7f8e920eb6b375e130ab1",
+    "centre",
+    "single",
+    "B-multiccd"
+   ],
+   "episode_file_sha256_now": "10916e763a3f955432be47db5451975eae95e0f7276d1bc676c86b84e156afdb",
+   "episode_file_matches": true,
+   "record": {
+    "model_sha256": "8ad75c1433f9bc48c1cada30551e8a1ab4c95deebb642b7f8b5224e60a6779a7",
+    "initial_state_sha256": "ef1895cecec6f375e05e490847347f49e0016bc3dd54c8ca4267d9755012b23c",
+    "compiled_profile": {
+     "mujoco_version": "3.3.3",
+     "timestep": 0.002,
+     "solver": 2,
+     "integrator": 3,
+     "iterations": 100,
+     "tolerance": 1e-08,
+     "target_mass_kg": 0.10902445918174038,
+     "actuator_kp": [
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      600.0,
+      200.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0,
+      500.0
+     ],
+     "actuator_kv": [
+      76.69613914658487,
+      76.61867714729803,
+      35.05071945329333,
+      49.486099138808804,
+      34.82238704850415,
+      37.646980286379545,
+      10.539745185258433,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0
+     ],
+     "actuator_force_limits": [
+      [
+       -61.4,
+       61.4
+      ],
+      [
+       -61.4,
+       61.4
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -31.7,
+       31.7
+      ],
+      [
+       -5.1,
+       5.1
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ],
+      [
+       -3.09,
+       3.09
+      ]
+     ],
+     "contact_solref": [
+      [
+       0.02,
+       1.0
+      ]
+     ],
+     "contact_solimp": [
+      [
+       0.9,
+       0.95,
+       0.001,
+       0.5,
+       2.0
+      ]
+     ],
+     "geom_friction": [
+      [
+       1.0,
+       0.005,
+       0.0001
+      ],
+      [
+       1.0,
+       0.05,
+       0.0001
+      ],
+      [
+       1.8,
+       0.005,
+       0.0001
+      ],
+      [
+       5.0,
+       1.0,
+       0.3
+      ]
+     ],
+     "geom_condim": [
+      3,
+      4
+     ],
+     "force_semantics": "sum of nonnegative contact-normal forces per whole digit, N",
+     "note": "object anti-spin friction also mixes into finger-object contacts; defaults unchanged"
+    },
+    "controller": {
+     "policy_dt": 0.02,
+     "standoff": 0.1,
+     "overhead": 0.15,
+     "lift_height": 0.15,
+     "transit_ticks": 150,
+     "descend_ticks": 100,
+     "approach_ticks": 200,
+     "arrive_ticks": 50,
+     "close_ticks": 600,
+     "lift_ticks": 300,
+     "hold_ticks": 50,
+     "ready_ticks": 25,
+     "lift_force": null,
+     "preview_ticks": 2,
+     "closure_speed": 0.008,
+     "preload": 2.0,
+     "hold_force": 4.0,
+     "penetration_margin": 0.75,
+     "residual": 0.35,
+     "geometry_feedback": true
+    },
+    "controller_source_sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94",
+    "contact_control_sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0",
+    "collector_sha256": "9b61dd09751db27068ab637bd5db8b1a8eb3d096a86258d2a4390a42ac95116f",
+    "teacher_hand_xml_sha256": "4db2e825d82904bc8299596120f416ba7bada2f59d1a66638c12961e33b6e3fe",
+    "scene_sha256": "ab716a577219f1753a9e92d006c171e045981ab7b71f5ccd81cf282f7e0eb63f"
+   }
+  }
+ ]
+}

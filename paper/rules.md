@@ -1,11 +1,16 @@
 # Manuscript scope, evidence, and submission preparation
 
+[RESEARCH_PLAN.md](../RESEARCH_PLAN.md) is the current scope authority (2026-09-12).
+
 ## Research scope
 
 The draft concerns transfer of Dexonomy grasp/contact/type knowledge through
 synthetic demonstrations into a DexGraspVLA-style visual policy. The main task is
-requested-object/part grasping in mild clutter on the FFW-SH5 / HX5-D20.
-RL is an optional executor component, not a mandatory contribution.
+requested-object grasping in mild clutter on the FFW-SH5 / HX5-D20.
+Stage 1 learns shape-conditioned Dexonomy type/candidate selection and demonstration adaptation,
+with demonstration-editing RL as the main proposed adaptation method. Stage 2 learns a visual
+action policy by BC. These learned stage-1 components are not yet validated. RL advantage must
+be measured, not assumed. Part requests and tool use are optional extensions.
 
 ICRA is the preferred venue fit. The submission cycle and year are undecided.
 Do not optimize the research around a presumed deadline. ICLR would require a
@@ -18,21 +23,37 @@ broader learning claim and appropriate evidence, not just different formatting.
 * Do not write a result in past tense, fill a performance table, or assert a
   contribution is established until reproducible experiments support it.
 * Old execution rates and the static-contact pose-tolerance claim are withdrawn;
-  see [the evidence audit](../results/2026-09-07/README.md).
+  see [the evidence audit](../records/experiments/2026-09-07/README.md).
 * A stored candidate count is not lift success; demonstrations are not learned
   policy results; simulation results are not hardware transfer.
 * Claim no newly collected real-robot grasp demonstrations, not no human
   information. Existing human-annotated templates and pretrained models remain.
-* Distinguish object selection from part/contact constraints and part grasping
+* Object selection is the core task; part/contact constraints are optional. Distinguish part grasping
   from demonstrated functional use.
 * “Any object,” “any hand,” guaranteed closed-loop recovery, and zero-shot
   sim-to-real are unestablished ambitions unless evaluated explicitly.
-* Cite primary work accurately. ClutterDexGrasp and DemoFunGrasp support the
-  direction and constrain novelty; neither can be omitted to invent an empty
-  synthetic/target-conditioned/closed-loop niche.
+* Cite primary work accurately. Dexonomy type selection/conditional generation and
+  DemoFunGrasp demonstration-editing PPO directly inform Stage 1. DemoFunGrasp
+  receives style as input; it does not supply automatic type selection.
+  ClutterDexGrasp informs privileged execution/distillation. From Grasps to
+  Dexterity is direct prior work on Dexonomy-based pretraining. None can be
+  omitted to invent an empty transfer or synthesis niche.
+* DexGraspVLA itself uses masks and DINO features. Distinguish adapting this
+  architecture from loading an upstream pretrained whole action policy.
+* Fixed-candidate approach PPO results are not evidence that the proposed
+  geometry-conditioned selection and demonstration-editing stage has failed.
 * Use matched student/data/compute controls, geometry-level splits before
   synthesis, explicit success criteria, failed-attempt denominators, seeds, and
   uncertainty. Keep historical raw logs unchanged.
+
+## Explicit hypothetical authoring request (2026-09-12)
+
+The user explicitly requested a completed-paper draft assuming the hypotheses and
+experiments succeed. That separate artifact is in [hypothetical-success](hypothetical-success/README.md).
+Completed-paper tense and invented example values are allowed there only as
+clearly marked hypothetical authoring. They are not measured evidence, an updated
+project status, or an instruction to start those experiments. The factual draft
+and evidence rules above remain unchanged for real research reporting.
 
 ## Writing and format
 

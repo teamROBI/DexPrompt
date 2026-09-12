@@ -1,0 +1,73 @@
+{
+  "completed": true,
+  "training_started": false,
+  "data": "/data1/yspark/sim/icra/hope-student-bundle-v1",
+  "cache": "/data1/yspark/sim/icra/hope-student-bundle-v1-cache",
+  "config": "/home/yspark/projects/ICRA/configs/hx5_student.single-bottle.lecun.json",
+  "stages": [
+    {
+      "name": "cache",
+      "command": [
+        "/home/yspark/projects/ICRA/.venv-student/bin/python",
+        "/home/yspark/projects/ICRA/scripts/train_hx5_student.py",
+        "prepare-cache",
+        "--data",
+        "/data1/yspark/sim/icra/hope-student-bundle-v1",
+        "--out",
+        "/data1/yspark/sim/icra/hope-student-bundle-v1-cache"
+      ],
+      "exit_code": 0,
+      "seconds": 58.671405834145844
+    },
+    {
+      "name": "audit",
+      "command": [
+        "/home/yspark/projects/ICRA/.venv-student/bin/python",
+        "/home/yspark/projects/ICRA/scripts/audit_visual_intake.py",
+        "--data",
+        "/data1/yspark/sim/icra/hope-student-bundle-v1",
+        "--cache",
+        "/data1/yspark/sim/icra/hope-student-bundle-v1-cache",
+        "--config",
+        "/home/yspark/projects/ICRA/configs/hx5_student.single-bottle.lecun.json",
+        "--out",
+        "/home/yspark/projects/ICRA/results/2026-09-11/student-next-diagnosis/local-bundle-checks/audit"
+      ],
+      "exit_code": 0,
+      "seconds": 64.43897289177403
+    },
+    {
+      "name": "controls",
+      "command": [
+        "/home/yspark/projects/ICRA/.venv-student/bin/python",
+        "/home/yspark/projects/ICRA/scripts/evaluate_student_suite.py",
+        "--data",
+        "/data1/yspark/sim/icra/hope-student-bundle-v1",
+        "--out",
+        "/home/yspark/projects/ICRA/results/2026-09-11/student-next-diagnosis/local-bundle-checks/controls",
+        "--check-controls"
+      ],
+      "exit_code": 0,
+      "seconds": 273.10666658030823
+    },
+    {
+      "name": "preflight",
+      "command": [
+        "/home/yspark/projects/ICRA/.venv-student/bin/python",
+        "/home/yspark/projects/ICRA/scripts/train_hx5_student.py",
+        "preflight",
+        "--data",
+        "/data1/yspark/sim/icra/hope-student-bundle-v1",
+        "--cache",
+        "/data1/yspark/sim/icra/hope-student-bundle-v1-cache",
+        "--config",
+        "/home/yspark/projects/ICRA/configs/hx5_student.single-bottle.lecun.json",
+        "--allow-train-only-diagnostic",
+        "--out",
+        "/home/yspark/projects/ICRA/results/2026-09-11/student-next-diagnosis/local-bundle-checks/preflight"
+      ],
+      "exit_code": 0,
+      "seconds": 60.98833339381963
+    }
+  ]
+}

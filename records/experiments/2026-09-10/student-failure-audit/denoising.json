@@ -1,0 +1,175 @@
+{
+  "training_started": false,
+  "checkpoint_sha256": "8d6ec064fa6e528f4699d63a2804b40ab376756d4e622c5f31ac2bdc7364550b",
+  "scope": "first bottle and can initial states; no closed-loop success claim",
+  "cases": [
+    {
+      "episode_id": "source0_teacher_0002_yaw_000",
+      "samples": [
+        {
+          "inference_steps": 16,
+          "seed": 1000,
+          "first_action_max_teacher_error_rad": 0.7081412678399722,
+          "eight_actions_rmse_rad": 0.21322340925635236,
+          "max_difference_from_saved_16_step_actions_rad": 0.0
+        },
+        {
+          "inference_steps": 16,
+          "seed": 1001,
+          "first_action_max_teacher_error_rad": 1.1869619162658513,
+          "eight_actions_rmse_rad": 0.35887800170987644,
+          "max_difference_from_saved_16_step_actions_rad": 0.0
+        },
+        {
+          "inference_steps": 16,
+          "seed": 1002,
+          "first_action_max_teacher_error_rad": 1.4507750874200502,
+          "eight_actions_rmse_rad": 0.4686350878950733,
+          "max_difference_from_saved_16_step_actions_rad": 0.0
+        },
+        {
+          "inference_steps": 50,
+          "seed": 1000,
+          "first_action_max_teacher_error_rad": 0.9051241284051578,
+          "eight_actions_rmse_rad": 0.262730620997922,
+          "max_difference_from_saved_16_step_actions_rad": 0.22331011295318604
+        },
+        {
+          "inference_steps": 50,
+          "seed": 1001,
+          "first_action_max_teacher_error_rad": 1.167954442081815,
+          "eight_actions_rmse_rad": 0.35283473710597446,
+          "max_difference_from_saved_16_step_actions_rad": 0.27016681432724
+        },
+        {
+          "inference_steps": 50,
+          "seed": 1002,
+          "first_action_max_teacher_error_rad": 1.3307762747445742,
+          "eight_actions_rmse_rad": 0.4242264801414497,
+          "max_difference_from_saved_16_step_actions_rad": 0.26832789182662964
+        }
+      ],
+      "teacher_noised_diagnostic": [
+        {
+          "timestep": 0,
+          "alpha_bar": 0.9982525110244751,
+          "epsilon_mse": 0.08141995966434479,
+          "clean_action_rmse_rad": 0.008982483297586441,
+          "first_action_max_teacher_error_rad": 0.015910349786281586
+        },
+        {
+          "timestep": 10,
+          "alpha_bar": 0.8791224956512451,
+          "epsilon_mse": 0.02373673766851425,
+          "clean_action_rmse_rad": 0.04484767094254494,
+          "first_action_max_teacher_error_rad": 0.11188381165266037
+        },
+        {
+          "timestep": 25,
+          "alpha_bar": 0.46270686388015747,
+          "epsilon_mse": 0.008629342541098595,
+          "clean_action_rmse_rad": 0.07177985459566116,
+          "first_action_max_teacher_error_rad": 0.33161938190460205
+        },
+        {
+          "timestep": 40,
+          "alpha_bar": 0.07664981484413147,
+          "epsilon_mse": 0.00400874949991703,
+          "clean_action_rmse_rad": 0.1018933355808258,
+          "first_action_max_teacher_error_rad": 0.33695703744888306
+        },
+        {
+          "timestep": 49,
+          "alpha_bar": 9.711930033518001e-07,
+          "epsilon_mse": 0.0051961676217615604,
+          "clean_action_rmse_rad": 0.4534803032875061,
+          "first_action_max_teacher_error_rad": 1.5632778406143188
+        }
+      ]
+    },
+    {
+      "episode_id": "source1_teacher_0008_yaw_000",
+      "samples": [
+        {
+          "inference_steps": 16,
+          "seed": 1000,
+          "first_action_max_teacher_error_rad": 0.8210504331470492,
+          "eight_actions_rmse_rad": 0.24317756079188552,
+          "max_difference_from_saved_16_step_actions_rad": 0.0
+        },
+        {
+          "inference_steps": 16,
+          "seed": 1001,
+          "first_action_max_teacher_error_rad": 0.9491286253715542,
+          "eight_actions_rmse_rad": 0.3784621994536805,
+          "max_difference_from_saved_16_step_actions_rad": 0.0
+        },
+        {
+          "inference_steps": 16,
+          "seed": 1002,
+          "first_action_max_teacher_error_rad": 1.6903794088245394,
+          "eight_actions_rmse_rad": 0.45866608118299035,
+          "max_difference_from_saved_16_step_actions_rad": 0.0
+        },
+        {
+          "inference_steps": 50,
+          "seed": 1000,
+          "first_action_max_teacher_error_rad": 1.0887319126010897,
+          "eight_actions_rmse_rad": 0.3004779163126533,
+          "max_difference_from_saved_16_step_actions_rad": 0.2676814794540405
+        },
+        {
+          "inference_steps": 50,
+          "seed": 1001,
+          "first_action_max_teacher_error_rad": 0.9782911815525057,
+          "eight_actions_rmse_rad": 0.3644596502926235,
+          "max_difference_from_saved_16_step_actions_rad": 0.2495381236076355
+        },
+        {
+          "inference_steps": 50,
+          "seed": 1002,
+          "first_action_max_teacher_error_rad": 1.5757726707340243,
+          "eight_actions_rmse_rad": 0.41880344830965405,
+          "max_difference_from_saved_16_step_actions_rad": 0.2971482276916504
+        }
+      ],
+      "teacher_noised_diagnostic": [
+        {
+          "timestep": 0,
+          "alpha_bar": 0.9982525110244751,
+          "epsilon_mse": 0.10390684753656387,
+          "clean_action_rmse_rad": 0.010330685414373875,
+          "first_action_max_teacher_error_rad": 0.03046443872153759
+        },
+        {
+          "timestep": 10,
+          "alpha_bar": 0.8791224956512451,
+          "epsilon_mse": 0.027195511385798454,
+          "clean_action_rmse_rad": 0.049043383449316025,
+          "first_action_max_teacher_error_rad": 0.0771661102771759
+        },
+        {
+          "timestep": 25,
+          "alpha_bar": 0.46270686388015747,
+          "epsilon_mse": 0.00963816698640585,
+          "clean_action_rmse_rad": 0.06772784888744354,
+          "first_action_max_teacher_error_rad": 0.2242015302181244
+        },
+        {
+          "timestep": 40,
+          "alpha_bar": 0.07664981484413147,
+          "epsilon_mse": 0.0047654807567596436,
+          "clean_action_rmse_rad": 0.10235588997602463,
+          "first_action_max_teacher_error_rad": 0.16548971831798553
+        },
+        {
+          "timestep": 49,
+          "alpha_bar": 9.711930033518001e-07,
+          "epsilon_mse": 0.004496627487242222,
+          "clean_action_rmse_rad": 0.5028252601623535,
+          "first_action_max_teacher_error_rad": 1.569435715675354
+        }
+      ]
+    }
+  ]
+}

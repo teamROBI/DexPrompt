@@ -1,0 +1,788 @@
+{
+  "schema_version": 1,
+  "root_name": "hope-student-bundle-v1",
+  "files": [
+    {
+      "path": "diagnostic.json",
+      "size": 841,
+      "sha256": "f7f5faa77effad10968cbaeb629a429b089e8e906c7ed4d3fabe98a1ffa5ac09"
+    },
+    {
+      "path": "episodes/source0_teacher_0008_yaw_000.json",
+      "size": 15396,
+      "sha256": "b9b68a42fa262dbe88c26a4506a54281dc83f55f861b9f04705f362e7520b2de"
+    },
+    {
+      "path": "episodes/source0_teacher_0008_yaw_000.npz",
+      "size": 25184627,
+      "sha256": "791711006eea1cab0adaf291fc4cf48abc9e3120247ee8bab813ed2dfc941354"
+    },
+    {
+      "path": "episodes/source1_teacher_0004_yaw_000.json",
+      "size": 15387,
+      "sha256": "be4c46a6bc876a438bf51530719975ce61d51d91c8b3b9cc997d1028680066de"
+    },
+    {
+      "path": "episodes/source1_teacher_0004_yaw_000.npz",
+      "size": 28929237,
+      "sha256": "99e46e55e53fffe0ac5da041f29dd10360ea31f8ce3d3db6093dee18b93a31bf"
+    },
+    {
+      "path": "episodes/source2_teacher_0000_yaw_000.json",
+      "size": 15982,
+      "sha256": "1cbbd424fec10661e71dd32208882c02618f7f703a5ea4a66f1a45143b741b3d"
+    },
+    {
+      "path": "episodes/source2_teacher_0000_yaw_000.npz",
+      "size": 27045786,
+      "sha256": "f0f8863f6a462df15607728b244a422fb5f165a580f4288ec0800bc91422b853"
+    },
+    {
+      "path": "episodes/source3_teacher_0000_yaw_000.json",
+      "size": 15411,
+      "sha256": "4ddbcaa3ef39bdc16e9c917fbeea300ce1a34f940eceffd882111aaf4a1fc6ca"
+    },
+    {
+      "path": "episodes/source3_teacher_0000_yaw_000.npz",
+      "size": 29707997,
+      "sha256": "fc5aabca99d99277e431d0a7086303af40ad2a56eb1c15e16c1a7588218ff1f9"
+    },
+    {
+      "path": "episodes/source4_teacher_0000_yaw_000.json",
+      "size": 15987,
+      "sha256": "4708d3b4f61bfbfd8399bb44d08ca53f2af065c0fb8996b53d65f9c6c2ad32ba"
+    },
+    {
+      "path": "episodes/source4_teacher_0000_yaw_000.npz",
+      "size": 28374307,
+      "sha256": "ff5c36dfe605b6d513a15c7a0c8d0b0f0fba3eab7105c247401cf3b8dfccd885"
+    },
+    {
+      "path": "episodes/source5_teacher_0000_yaw_000.json",
+      "size": 15458,
+      "sha256": "909229fff320c726c19a7d0c650c586e41183e653e64d972566ae7c97d37b9a4"
+    },
+    {
+      "path": "episodes/source5_teacher_0000_yaw_000.npz",
+      "size": 27721660,
+      "sha256": "96623008cc2b097975eac3c20d2cb045f3d23bc619fb26b0e2a4c3b64509283a"
+    },
+    {
+      "path": "episodes/source6_teacher_0000_yaw_000.json",
+      "size": 15419,
+      "sha256": "4aa0d2352d6c1a5ecf792211d607fbbcf22404c0feabf70f1a7bcd2a2ee3772b"
+    },
+    {
+      "path": "episodes/source6_teacher_0000_yaw_000.npz",
+      "size": 24815884,
+      "sha256": "572661f443372419304a00bae378d9ef292295c62864872170df07c0c1e9970b"
+    },
+    {
+      "path": "imports/source0/simulation/teacher_0008_yaw_000.mjb",
+      "size": 209819492,
+      "sha256": "d18bdf7faee3922b9ae2bdb2059116fc2a967f9942230deacec1d47fdf376d4c"
+    },
+    {
+      "path": "imports/source0/simulation/teacher_0008_yaw_000.npy",
+      "size": 6168,
+      "sha256": "538414e596edd36acb6414b6600b4afe6d51568d54d48d4f68322af2005bdabe"
+    },
+    {
+      "path": "imports/source0/sources/scripts/audit_mask_visibility.py",
+      "size": 14379,
+      "sha256": "5c50ff961076b5d17194d49f07ab2627f44bb3e3c293bcfbf747c61a1de38de7"
+    },
+    {
+      "path": "imports/source0/sources/scripts/collect_episodes.py",
+      "size": 54340,
+      "sha256": "ddac9c49c70d54af5e5868f82e3aa35c25405fd945edfe7f848a55ce1e7f822a"
+    },
+    {
+      "path": "imports/source0/sources/scripts/prepare_visual_dataset.py",
+      "size": 11798,
+      "sha256": "e7c2636bd8ba53ec890117af6a2d0ff09110597e34c29ebf36b00d8bab6be5f7"
+    },
+    {
+      "path": "imports/source0/sources/scripts/replay_hx5_student.py",
+      "size": 16240,
+      "sha256": "747062e1f4fd4f117eb28c5d865e31d68c6cf17879d340eab34d9f96893566e1"
+    },
+    {
+      "path": "imports/source0/sources/src/icra/execution.py",
+      "size": 30638,
+      "sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94"
+    },
+    {
+      "path": "imports/source0/sources/src/icra/simulation.py",
+      "size": 1519,
+      "sha256": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25"
+    },
+    {
+      "path": "imports/source0/sources/src/icra/visual_observation.py",
+      "size": 4516,
+      "sha256": "513523968710d257c666df1b2ecd8127beba0b4bac59a227725d8754e1355f55"
+    },
+    {
+      "path": "imports/source0/teacher_sources/scripts/collect_episodes.py",
+      "size": 54340,
+      "sha256": "ddac9c49c70d54af5e5868f82e3aa35c25405fd945edfe7f848a55ce1e7f822a"
+    },
+    {
+      "path": "imports/source0/teacher_sources/scripts/collect_teacher_dataset.py",
+      "size": 20497,
+      "sha256": "9b61dd09751db27068ab637bd5db8b1a8eb3d096a86258d2a4390a42ac95116f"
+    },
+    {
+      "path": "imports/source0/teacher_sources/src/icra/arm.py",
+      "size": 6838,
+      "sha256": "54ea9a88d552204586347b17fc1cb6cedbd733a621df32a888f7702df2cabf67"
+    },
+    {
+      "path": "imports/source0/teacher_sources/src/icra/conditioning.py",
+      "size": 10533,
+      "sha256": "6dbe8661c015ac006755132f801660092f8666336461ce9fa9be29eec776d2a4"
+    },
+    {
+      "path": "imports/source0/teacher_sources/src/icra/contact_control.py",
+      "size": 9553,
+      "sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0"
+    },
+    {
+      "path": "imports/source0/teacher_sources/src/icra/dataset.py",
+      "size": 30207,
+      "sha256": "95091ac9d209843a96f48460592d3e1369809684ebbcd9efc35e0b0ac9aa8cea"
+    },
+    {
+      "path": "imports/source0/teacher_sources/src/icra/execution.py",
+      "size": 30638,
+      "sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94"
+    },
+    {
+      "path": "imports/source0/teacher_sources/src/icra/objects.py",
+      "size": 8491,
+      "sha256": "6efe3c2d8739ba0f42e53f6a4b0de2cbf6e5179248549bdc612ed5c46d32daaa"
+    },
+    {
+      "path": "imports/source0/teacher_sources/src/icra/scene.py",
+      "size": 34992,
+      "sha256": "fe2a3c8c36640674f02d82f6f7dff44509058fa8c59c3d5f553ea47b71070f7b"
+    },
+    {
+      "path": "imports/source0/teacher_sources/src/icra/simulation.py",
+      "size": 1519,
+      "sha256": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25"
+    },
+    {
+      "path": "imports/source0/teacher_sources/src/icra/visual_observation.py",
+      "size": 4516,
+      "sha256": "513523968710d257c666df1b2ecd8127beba0b4bac59a227725d8754e1355f55"
+    },
+    {
+      "path": "imports/source1/simulation/teacher_0004_yaw_000.mjb",
+      "size": 206396683,
+      "sha256": "6adf9bd2367e7618e26594c7ab01b2f08d5e09ff6e9fca6eece2b8c16797096c"
+    },
+    {
+      "path": "imports/source1/simulation/teacher_0004_yaw_000.npy",
+      "size": 6168,
+      "sha256": "96713c98c9b3c533a6cdeb05dedfc0910fcfe9b9adfcab9cf2735b8e7591aebf"
+    },
+    {
+      "path": "imports/source1/sources/scripts/audit_mask_visibility.py",
+      "size": 14379,
+      "sha256": "5c50ff961076b5d17194d49f07ab2627f44bb3e3c293bcfbf747c61a1de38de7"
+    },
+    {
+      "path": "imports/source1/sources/scripts/collect_episodes.py",
+      "size": 54340,
+      "sha256": "ddac9c49c70d54af5e5868f82e3aa35c25405fd945edfe7f848a55ce1e7f822a"
+    },
+    {
+      "path": "imports/source1/sources/scripts/prepare_visual_dataset.py",
+      "size": 11798,
+      "sha256": "e7c2636bd8ba53ec890117af6a2d0ff09110597e34c29ebf36b00d8bab6be5f7"
+    },
+    {
+      "path": "imports/source1/sources/scripts/replay_hx5_student.py",
+      "size": 16240,
+      "sha256": "747062e1f4fd4f117eb28c5d865e31d68c6cf17879d340eab34d9f96893566e1"
+    },
+    {
+      "path": "imports/source1/sources/src/icra/execution.py",
+      "size": 30638,
+      "sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94"
+    },
+    {
+      "path": "imports/source1/sources/src/icra/simulation.py",
+      "size": 1519,
+      "sha256": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25"
+    },
+    {
+      "path": "imports/source1/sources/src/icra/visual_observation.py",
+      "size": 4516,
+      "sha256": "513523968710d257c666df1b2ecd8127beba0b4bac59a227725d8754e1355f55"
+    },
+    {
+      "path": "imports/source1/teacher_sources/scripts/collect_episodes.py",
+      "size": 54340,
+      "sha256": "ddac9c49c70d54af5e5868f82e3aa35c25405fd945edfe7f848a55ce1e7f822a"
+    },
+    {
+      "path": "imports/source1/teacher_sources/scripts/collect_teacher_dataset.py",
+      "size": 20497,
+      "sha256": "9b61dd09751db27068ab637bd5db8b1a8eb3d096a86258d2a4390a42ac95116f"
+    },
+    {
+      "path": "imports/source1/teacher_sources/src/icra/arm.py",
+      "size": 6838,
+      "sha256": "54ea9a88d552204586347b17fc1cb6cedbd733a621df32a888f7702df2cabf67"
+    },
+    {
+      "path": "imports/source1/teacher_sources/src/icra/conditioning.py",
+      "size": 10533,
+      "sha256": "6dbe8661c015ac006755132f801660092f8666336461ce9fa9be29eec776d2a4"
+    },
+    {
+      "path": "imports/source1/teacher_sources/src/icra/contact_control.py",
+      "size": 9553,
+      "sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0"
+    },
+    {
+      "path": "imports/source1/teacher_sources/src/icra/dataset.py",
+      "size": 30207,
+      "sha256": "95091ac9d209843a96f48460592d3e1369809684ebbcd9efc35e0b0ac9aa8cea"
+    },
+    {
+      "path": "imports/source1/teacher_sources/src/icra/execution.py",
+      "size": 30638,
+      "sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94"
+    },
+    {
+      "path": "imports/source1/teacher_sources/src/icra/objects.py",
+      "size": 8491,
+      "sha256": "6efe3c2d8739ba0f42e53f6a4b0de2cbf6e5179248549bdc612ed5c46d32daaa"
+    },
+    {
+      "path": "imports/source1/teacher_sources/src/icra/scene.py",
+      "size": 34992,
+      "sha256": "fe2a3c8c36640674f02d82f6f7dff44509058fa8c59c3d5f553ea47b71070f7b"
+    },
+    {
+      "path": "imports/source1/teacher_sources/src/icra/simulation.py",
+      "size": 1519,
+      "sha256": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25"
+    },
+    {
+      "path": "imports/source1/teacher_sources/src/icra/visual_observation.py",
+      "size": 4516,
+      "sha256": "513523968710d257c666df1b2ecd8127beba0b4bac59a227725d8754e1355f55"
+    },
+    {
+      "path": "imports/source2/simulation/teacher_0000_yaw_000.mjb",
+      "size": 208851251,
+      "sha256": "6aa4644a1ccf0f787ec47ddbf3eaaf7d58a1c4733ac5bdf393e8ae13fa19a244"
+    },
+    {
+      "path": "imports/source2/simulation/teacher_0000_yaw_000.npy",
+      "size": 6168,
+      "sha256": "1fe5d69bea9f67a90cf37895c93682b54599fb7a9afd678475726e8b2b6cebfa"
+    },
+    {
+      "path": "imports/source2/sources/scripts/audit_mask_visibility.py",
+      "size": 14379,
+      "sha256": "5c50ff961076b5d17194d49f07ab2627f44bb3e3c293bcfbf747c61a1de38de7"
+    },
+    {
+      "path": "imports/source2/sources/scripts/collect_episodes.py",
+      "size": 54340,
+      "sha256": "ddac9c49c70d54af5e5868f82e3aa35c25405fd945edfe7f848a55ce1e7f822a"
+    },
+    {
+      "path": "imports/source2/sources/scripts/prepare_visual_dataset.py",
+      "size": 11798,
+      "sha256": "e7c2636bd8ba53ec890117af6a2d0ff09110597e34c29ebf36b00d8bab6be5f7"
+    },
+    {
+      "path": "imports/source2/sources/scripts/replay_hx5_student.py",
+      "size": 16240,
+      "sha256": "747062e1f4fd4f117eb28c5d865e31d68c6cf17879d340eab34d9f96893566e1"
+    },
+    {
+      "path": "imports/source2/sources/src/icra/execution.py",
+      "size": 30638,
+      "sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94"
+    },
+    {
+      "path": "imports/source2/sources/src/icra/simulation.py",
+      "size": 1519,
+      "sha256": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25"
+    },
+    {
+      "path": "imports/source2/sources/src/icra/visual_observation.py",
+      "size": 4516,
+      "sha256": "513523968710d257c666df1b2ecd8127beba0b4bac59a227725d8754e1355f55"
+    },
+    {
+      "path": "imports/source2/teacher_sources/scripts/collect_episodes.py",
+      "size": 54340,
+      "sha256": "ddac9c49c70d54af5e5868f82e3aa35c25405fd945edfe7f848a55ce1e7f822a"
+    },
+    {
+      "path": "imports/source2/teacher_sources/scripts/collect_teacher_dataset.py",
+      "size": 20497,
+      "sha256": "9b61dd09751db27068ab637bd5db8b1a8eb3d096a86258d2a4390a42ac95116f"
+    },
+    {
+      "path": "imports/source2/teacher_sources/src/icra/arm.py",
+      "size": 6838,
+      "sha256": "54ea9a88d552204586347b17fc1cb6cedbd733a621df32a888f7702df2cabf67"
+    },
+    {
+      "path": "imports/source2/teacher_sources/src/icra/conditioning.py",
+      "size": 10533,
+      "sha256": "6dbe8661c015ac006755132f801660092f8666336461ce9fa9be29eec776d2a4"
+    },
+    {
+      "path": "imports/source2/teacher_sources/src/icra/contact_control.py",
+      "size": 9553,
+      "sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0"
+    },
+    {
+      "path": "imports/source2/teacher_sources/src/icra/dataset.py",
+      "size": 30207,
+      "sha256": "95091ac9d209843a96f48460592d3e1369809684ebbcd9efc35e0b0ac9aa8cea"
+    },
+    {
+      "path": "imports/source2/teacher_sources/src/icra/execution.py",
+      "size": 30638,
+      "sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94"
+    },
+    {
+      "path": "imports/source2/teacher_sources/src/icra/objects.py",
+      "size": 8491,
+      "sha256": "6efe3c2d8739ba0f42e53f6a4b0de2cbf6e5179248549bdc612ed5c46d32daaa"
+    },
+    {
+      "path": "imports/source2/teacher_sources/src/icra/scene.py",
+      "size": 34992,
+      "sha256": "fe2a3c8c36640674f02d82f6f7dff44509058fa8c59c3d5f553ea47b71070f7b"
+    },
+    {
+      "path": "imports/source2/teacher_sources/src/icra/simulation.py",
+      "size": 1519,
+      "sha256": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25"
+    },
+    {
+      "path": "imports/source2/teacher_sources/src/icra/visual_observation.py",
+      "size": 4516,
+      "sha256": "513523968710d257c666df1b2ecd8127beba0b4bac59a227725d8754e1355f55"
+    },
+    {
+      "path": "imports/source3/simulation/teacher_0000_yaw_000.mjb",
+      "size": 206396683,
+      "sha256": "de6b5a73d15dd8394481ce79cb87165f3cbc827e5b46a09dc40f7e1c0d301106"
+    },
+    {
+      "path": "imports/source3/simulation/teacher_0000_yaw_000.npy",
+      "size": 6168,
+      "sha256": "c1f61a51c373913056129596834258d0fd4b34d79780095a7dba5beae7912964"
+    },
+    {
+      "path": "imports/source3/sources/scripts/audit_mask_visibility.py",
+      "size": 14379,
+      "sha256": "5c50ff961076b5d17194d49f07ab2627f44bb3e3c293bcfbf747c61a1de38de7"
+    },
+    {
+      "path": "imports/source3/sources/scripts/collect_episodes.py",
+      "size": 54340,
+      "sha256": "ddac9c49c70d54af5e5868f82e3aa35c25405fd945edfe7f848a55ce1e7f822a"
+    },
+    {
+      "path": "imports/source3/sources/scripts/prepare_visual_dataset.py",
+      "size": 11798,
+      "sha256": "e7c2636bd8ba53ec890117af6a2d0ff09110597e34c29ebf36b00d8bab6be5f7"
+    },
+    {
+      "path": "imports/source3/sources/scripts/replay_hx5_student.py",
+      "size": 16240,
+      "sha256": "747062e1f4fd4f117eb28c5d865e31d68c6cf17879d340eab34d9f96893566e1"
+    },
+    {
+      "path": "imports/source3/sources/src/icra/execution.py",
+      "size": 30638,
+      "sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94"
+    },
+    {
+      "path": "imports/source3/sources/src/icra/simulation.py",
+      "size": 1519,
+      "sha256": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25"
+    },
+    {
+      "path": "imports/source3/sources/src/icra/visual_observation.py",
+      "size": 4516,
+      "sha256": "513523968710d257c666df1b2ecd8127beba0b4bac59a227725d8754e1355f55"
+    },
+    {
+      "path": "imports/source3/teacher_sources/scripts/collect_episodes.py",
+      "size": 54340,
+      "sha256": "ddac9c49c70d54af5e5868f82e3aa35c25405fd945edfe7f848a55ce1e7f822a"
+    },
+    {
+      "path": "imports/source3/teacher_sources/scripts/collect_teacher_dataset.py",
+      "size": 20497,
+      "sha256": "9b61dd09751db27068ab637bd5db8b1a8eb3d096a86258d2a4390a42ac95116f"
+    },
+    {
+      "path": "imports/source3/teacher_sources/src/icra/arm.py",
+      "size": 6838,
+      "sha256": "54ea9a88d552204586347b17fc1cb6cedbd733a621df32a888f7702df2cabf67"
+    },
+    {
+      "path": "imports/source3/teacher_sources/src/icra/conditioning.py",
+      "size": 10533,
+      "sha256": "6dbe8661c015ac006755132f801660092f8666336461ce9fa9be29eec776d2a4"
+    },
+    {
+      "path": "imports/source3/teacher_sources/src/icra/contact_control.py",
+      "size": 9553,
+      "sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0"
+    },
+    {
+      "path": "imports/source3/teacher_sources/src/icra/dataset.py",
+      "size": 30207,
+      "sha256": "95091ac9d209843a96f48460592d3e1369809684ebbcd9efc35e0b0ac9aa8cea"
+    },
+    {
+      "path": "imports/source3/teacher_sources/src/icra/execution.py",
+      "size": 30638,
+      "sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94"
+    },
+    {
+      "path": "imports/source3/teacher_sources/src/icra/objects.py",
+      "size": 8491,
+      "sha256": "6efe3c2d8739ba0f42e53f6a4b0de2cbf6e5179248549bdc612ed5c46d32daaa"
+    },
+    {
+      "path": "imports/source3/teacher_sources/src/icra/scene.py",
+      "size": 34992,
+      "sha256": "fe2a3c8c36640674f02d82f6f7dff44509058fa8c59c3d5f553ea47b71070f7b"
+    },
+    {
+      "path": "imports/source3/teacher_sources/src/icra/simulation.py",
+      "size": 1519,
+      "sha256": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25"
+    },
+    {
+      "path": "imports/source3/teacher_sources/src/icra/visual_observation.py",
+      "size": 4516,
+      "sha256": "513523968710d257c666df1b2ecd8127beba0b4bac59a227725d8754e1355f55"
+    },
+    {
+      "path": "imports/source4/simulation/teacher_0000_yaw_000.mjb",
+      "size": 208851251,
+      "sha256": "a71be2a8c4bba8c3a69f8674f2b017f16ca0812fe8506863562a397e335ddfb4"
+    },
+    {
+      "path": "imports/source4/simulation/teacher_0000_yaw_000.npy",
+      "size": 6168,
+      "sha256": "a8a57bfc1465cf0a24ccdcb768eac629c235befd6f619d6e997bcbda08a150fc"
+    },
+    {
+      "path": "imports/source4/sources/scripts/audit_mask_visibility.py",
+      "size": 14379,
+      "sha256": "5c50ff961076b5d17194d49f07ab2627f44bb3e3c293bcfbf747c61a1de38de7"
+    },
+    {
+      "path": "imports/source4/sources/scripts/collect_episodes.py",
+      "size": 54340,
+      "sha256": "ddac9c49c70d54af5e5868f82e3aa35c25405fd945edfe7f848a55ce1e7f822a"
+    },
+    {
+      "path": "imports/source4/sources/scripts/prepare_visual_dataset.py",
+      "size": 11798,
+      "sha256": "e7c2636bd8ba53ec890117af6a2d0ff09110597e34c29ebf36b00d8bab6be5f7"
+    },
+    {
+      "path": "imports/source4/sources/scripts/replay_hx5_student.py",
+      "size": 16240,
+      "sha256": "747062e1f4fd4f117eb28c5d865e31d68c6cf17879d340eab34d9f96893566e1"
+    },
+    {
+      "path": "imports/source4/sources/src/icra/execution.py",
+      "size": 30638,
+      "sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94"
+    },
+    {
+      "path": "imports/source4/sources/src/icra/simulation.py",
+      "size": 1519,
+      "sha256": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25"
+    },
+    {
+      "path": "imports/source4/sources/src/icra/visual_observation.py",
+      "size": 4516,
+      "sha256": "513523968710d257c666df1b2ecd8127beba0b4bac59a227725d8754e1355f55"
+    },
+    {
+      "path": "imports/source4/teacher_sources/scripts/collect_episodes.py",
+      "size": 54340,
+      "sha256": "ddac9c49c70d54af5e5868f82e3aa35c25405fd945edfe7f848a55ce1e7f822a"
+    },
+    {
+      "path": "imports/source4/teacher_sources/scripts/collect_teacher_dataset.py",
+      "size": 20497,
+      "sha256": "9b61dd09751db27068ab637bd5db8b1a8eb3d096a86258d2a4390a42ac95116f"
+    },
+    {
+      "path": "imports/source4/teacher_sources/src/icra/arm.py",
+      "size": 6838,
+      "sha256": "54ea9a88d552204586347b17fc1cb6cedbd733a621df32a888f7702df2cabf67"
+    },
+    {
+      "path": "imports/source4/teacher_sources/src/icra/conditioning.py",
+      "size": 10533,
+      "sha256": "6dbe8661c015ac006755132f801660092f8666336461ce9fa9be29eec776d2a4"
+    },
+    {
+      "path": "imports/source4/teacher_sources/src/icra/contact_control.py",
+      "size": 9553,
+      "sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0"
+    },
+    {
+      "path": "imports/source4/teacher_sources/src/icra/dataset.py",
+      "size": 30207,
+      "sha256": "95091ac9d209843a96f48460592d3e1369809684ebbcd9efc35e0b0ac9aa8cea"
+    },
+    {
+      "path": "imports/source4/teacher_sources/src/icra/execution.py",
+      "size": 30638,
+      "sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94"
+    },
+    {
+      "path": "imports/source4/teacher_sources/src/icra/objects.py",
+      "size": 8491,
+      "sha256": "6efe3c2d8739ba0f42e53f6a4b0de2cbf6e5179248549bdc612ed5c46d32daaa"
+    },
+    {
+      "path": "imports/source4/teacher_sources/src/icra/scene.py",
+      "size": 34992,
+      "sha256": "fe2a3c8c36640674f02d82f6f7dff44509058fa8c59c3d5f553ea47b71070f7b"
+    },
+    {
+      "path": "imports/source4/teacher_sources/src/icra/simulation.py",
+      "size": 1519,
+      "sha256": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25"
+    },
+    {
+      "path": "imports/source4/teacher_sources/src/icra/visual_observation.py",
+      "size": 4516,
+      "sha256": "513523968710d257c666df1b2ecd8127beba0b4bac59a227725d8754e1355f55"
+    },
+    {
+      "path": "imports/source5/simulation/teacher_0000_yaw_000.mjb",
+      "size": 208851251,
+      "sha256": "2e3d46aa8f306a377ef9f2f78f3479d332944ea8e0f360ed07b3c4e29b28129c"
+    },
+    {
+      "path": "imports/source5/simulation/teacher_0000_yaw_000.npy",
+      "size": 6168,
+      "sha256": "29933e459b43a4312543adc7ea852739788b2958d4e80601681c203fa1e27d9a"
+    },
+    {
+      "path": "imports/source5/sources/scripts/audit_mask_visibility.py",
+      "size": 14379,
+      "sha256": "5c50ff961076b5d17194d49f07ab2627f44bb3e3c293bcfbf747c61a1de38de7"
+    },
+    {
+      "path": "imports/source5/sources/scripts/collect_episodes.py",
+      "size": 54340,
+      "sha256": "ddac9c49c70d54af5e5868f82e3aa35c25405fd945edfe7f848a55ce1e7f822a"
+    },
+    {
+      "path": "imports/source5/sources/scripts/prepare_visual_dataset.py",
+      "size": 11798,
+      "sha256": "e7c2636bd8ba53ec890117af6a2d0ff09110597e34c29ebf36b00d8bab6be5f7"
+    },
+    {
+      "path": "imports/source5/sources/scripts/replay_hx5_student.py",
+      "size": 16240,
+      "sha256": "747062e1f4fd4f117eb28c5d865e31d68c6cf17879d340eab34d9f96893566e1"
+    },
+    {
+      "path": "imports/source5/sources/src/icra/execution.py",
+      "size": 30638,
+      "sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94"
+    },
+    {
+      "path": "imports/source5/sources/src/icra/simulation.py",
+      "size": 1519,
+      "sha256": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25"
+    },
+    {
+      "path": "imports/source5/sources/src/icra/visual_observation.py",
+      "size": 4516,
+      "sha256": "513523968710d257c666df1b2ecd8127beba0b4bac59a227725d8754e1355f55"
+    },
+    {
+      "path": "imports/source5/teacher_sources/scripts/collect_episodes.py",
+      "size": 54340,
+      "sha256": "ddac9c49c70d54af5e5868f82e3aa35c25405fd945edfe7f848a55ce1e7f822a"
+    },
+    {
+      "path": "imports/source5/teacher_sources/scripts/collect_teacher_dataset.py",
+      "size": 20497,
+      "sha256": "9b61dd09751db27068ab637bd5db8b1a8eb3d096a86258d2a4390a42ac95116f"
+    },
+    {
+      "path": "imports/source5/teacher_sources/src/icra/arm.py",
+      "size": 6838,
+      "sha256": "54ea9a88d552204586347b17fc1cb6cedbd733a621df32a888f7702df2cabf67"
+    },
+    {
+      "path": "imports/source5/teacher_sources/src/icra/conditioning.py",
+      "size": 10533,
+      "sha256": "6dbe8661c015ac006755132f801660092f8666336461ce9fa9be29eec776d2a4"
+    },
+    {
+      "path": "imports/source5/teacher_sources/src/icra/contact_control.py",
+      "size": 9553,
+      "sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0"
+    },
+    {
+      "path": "imports/source5/teacher_sources/src/icra/dataset.py",
+      "size": 30207,
+      "sha256": "95091ac9d209843a96f48460592d3e1369809684ebbcd9efc35e0b0ac9aa8cea"
+    },
+    {
+      "path": "imports/source5/teacher_sources/src/icra/execution.py",
+      "size": 30638,
+      "sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94"
+    },
+    {
+      "path": "imports/source5/teacher_sources/src/icra/objects.py",
+      "size": 8491,
+      "sha256": "6efe3c2d8739ba0f42e53f6a4b0de2cbf6e5179248549bdc612ed5c46d32daaa"
+    },
+    {
+      "path": "imports/source5/teacher_sources/src/icra/scene.py",
+      "size": 34992,
+      "sha256": "fe2a3c8c36640674f02d82f6f7dff44509058fa8c59c3d5f553ea47b71070f7b"
+    },
+    {
+      "path": "imports/source5/teacher_sources/src/icra/simulation.py",
+      "size": 1519,
+      "sha256": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25"
+    },
+    {
+      "path": "imports/source5/teacher_sources/src/icra/visual_observation.py",
+      "size": 4516,
+      "sha256": "513523968710d257c666df1b2ecd8127beba0b4bac59a227725d8754e1355f55"
+    },
+    {
+      "path": "imports/source6/simulation/teacher_0000_yaw_000.mjb",
+      "size": 209819492,
+      "sha256": "df1e9be43fbbc25e3c20613da41984682f99d8ec2096adb7be61f6f3c6790c9a"
+    },
+    {
+      "path": "imports/source6/simulation/teacher_0000_yaw_000.npy",
+      "size": 6168,
+      "sha256": "5ad305d58b370f9679cf96d88723df14ce680016008148957f66db2c71e3dd1e"
+    },
+    {
+      "path": "imports/source6/sources/scripts/audit_mask_visibility.py",
+      "size": 14379,
+      "sha256": "5c50ff961076b5d17194d49f07ab2627f44bb3e3c293bcfbf747c61a1de38de7"
+    },
+    {
+      "path": "imports/source6/sources/scripts/collect_episodes.py",
+      "size": 54340,
+      "sha256": "ddac9c49c70d54af5e5868f82e3aa35c25405fd945edfe7f848a55ce1e7f822a"
+    },
+    {
+      "path": "imports/source6/sources/scripts/prepare_visual_dataset.py",
+      "size": 11798,
+      "sha256": "e7c2636bd8ba53ec890117af6a2d0ff09110597e34c29ebf36b00d8bab6be5f7"
+    },
+    {
+      "path": "imports/source6/sources/scripts/replay_hx5_student.py",
+      "size": 16240,
+      "sha256": "747062e1f4fd4f117eb28c5d865e31d68c6cf17879d340eab34d9f96893566e1"
+    },
+    {
+      "path": "imports/source6/sources/src/icra/execution.py",
+      "size": 30638,
+      "sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94"
+    },
+    {
+      "path": "imports/source6/sources/src/icra/simulation.py",
+      "size": 1519,
+      "sha256": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25"
+    },
+    {
+      "path": "imports/source6/sources/src/icra/visual_observation.py",
+      "size": 4516,
+      "sha256": "513523968710d257c666df1b2ecd8127beba0b4bac59a227725d8754e1355f55"
+    },
+    {
+      "path": "imports/source6/teacher_sources/scripts/collect_episodes.py",
+      "size": 54340,
+      "sha256": "ddac9c49c70d54af5e5868f82e3aa35c25405fd945edfe7f848a55ce1e7f822a"
+    },
+    {
+      "path": "imports/source6/teacher_sources/scripts/collect_teacher_dataset.py",
+      "size": 20497,
+      "sha256": "9b61dd09751db27068ab637bd5db8b1a8eb3d096a86258d2a4390a42ac95116f"
+    },
+    {
+      "path": "imports/source6/teacher_sources/src/icra/arm.py",
+      "size": 6838,
+      "sha256": "54ea9a88d552204586347b17fc1cb6cedbd733a621df32a888f7702df2cabf67"
+    },
+    {
+      "path": "imports/source6/teacher_sources/src/icra/conditioning.py",
+      "size": 10533,
+      "sha256": "6dbe8661c015ac006755132f801660092f8666336461ce9fa9be29eec776d2a4"
+    },
+    {
+      "path": "imports/source6/teacher_sources/src/icra/contact_control.py",
+      "size": 9553,
+      "sha256": "3c2726814f66ee02258760f0834e8b743355d53a2b270102dd2ced6961acedf0"
+    },
+    {
+      "path": "imports/source6/teacher_sources/src/icra/dataset.py",
+      "size": 30207,
+      "sha256": "95091ac9d209843a96f48460592d3e1369809684ebbcd9efc35e0b0ac9aa8cea"
+    },
+    {
+      "path": "imports/source6/teacher_sources/src/icra/execution.py",
+      "size": 30638,
+      "sha256": "fe2434f4e03e346513de372c0da1153a037e2f1f4239014be36df93d12b3af94"
+    },
+    {
+      "path": "imports/source6/teacher_sources/src/icra/objects.py",
+      "size": 8491,
+      "sha256": "6efe3c2d8739ba0f42e53f6a4b0de2cbf6e5179248549bdc612ed5c46d32daaa"
+    },
+    {
+      "path": "imports/source6/teacher_sources/src/icra/scene.py",
+      "size": 34992,
+      "sha256": "fe2a3c8c36640674f02d82f6f7dff44509058fa8c59c3d5f553ea47b71070f7b"
+    },
+    {
+      "path": "imports/source6/teacher_sources/src/icra/simulation.py",
+      "size": 1519,
+      "sha256": "a4639adcc521ae4f1dd3ab01bbfaf88f7957a4af3c85ecc854bf5bf50fbe2f25"
+    },
+    {
+      "path": "imports/source6/teacher_sources/src/icra/visual_observation.py",
+      "size": 4516,
+      "sha256": "513523968710d257c666df1b2ecd8127beba0b4bac59a227725d8754e1355f55"
+    },
+    {
+      "path": "manifest.json",
+      "size": 126450,
+      "sha256": "d9e98792ad21856287a69b99c7653ec74fd13ca9612495b6ff1e7734e02ddf66"
+    }
+  ],
+  "file_count": 156,
+  "total_bytes": 1653463986
+}

@@ -1,0 +1,71 @@
+{
+  "architecture": "hx5_dexgraspvla_style_rdt",
+  "data_scope": "accepted training episodes; forward-only",
+  "data_io": "verified_memmap",
+  "cache_sha256": "bad6aba5e5b243200428bdae2941f58ff10286f040cff5172bc237f86051e62d",
+  "vision": "local pretrained DINOv2",
+  "full_training_architecture_checked": true,
+  "optimizer_steps": 0,
+  "backward_calls": 0,
+  "model_unchanged": true,
+  "loss_finite": true,
+  "random_initialization_loss": 1.1956645250320435,
+  "prediction_shape": [
+    2,
+    64,
+    27
+  ],
+  "parameter_count": 557518875,
+  "config": {
+    "architecture": "hx5_dexgraspvla_style_rdt",
+    "action_dim": 27,
+    "state_dim": 27,
+    "action_horizon": 64,
+    "execute_steps": 8,
+    "image_size": 518,
+    "patch_size": 14,
+    "embedding_dim": 1024,
+    "layers": 12,
+    "heads": 8,
+    "mask_layers": 4,
+    "dropout": 0.1,
+    "diffusion_steps": 50,
+    "inference_steps": 16,
+    "noise_assignment": true,
+    "vision": {
+      "backend": "dinov2_local",
+      "source": "out/student-assets/dinov2",
+      "head_model": "dinov2_vitb14",
+      "head_weights": "out/student-assets/dinov2_vitb14_pretrain.pth",
+      "wrist_model": "dinov2_vitl14",
+      "wrist_weights": "out/student-assets/dinov2_vitl14_pretrain.pth"
+    },
+    "training": {
+      "seed": 42,
+      "batch_size": 2,
+      "num_workers": 0,
+      "epochs": 13,
+      "learning_rate": 0.0001,
+      "weight_decay": 0.0001,
+      "betas": [
+        0.95,
+        0.999
+      ],
+      "warmup_steps": 100,
+      "gradient_clip": 1.0
+    },
+    "observation_version": 2,
+    "goal_image_size": 224,
+    "goal_reference_policy": {
+      "min_pixels": 64,
+      "min_extent": 4,
+      "border_margin": 2,
+      "max_border_fraction": 0.1
+    },
+    "prediction_type": "x0",
+    "low_noise_loss": {
+      "steps": 10,
+      "relative_weight": 4.0
+    }
+  }
+}

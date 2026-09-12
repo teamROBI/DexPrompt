@@ -1,0 +1,55 @@
+{
+  "removed_regenerable_caches": [
+    {
+      "path": ".pytest_cache",
+      "files": 5,
+      "bytes": 66556
+    },
+    {
+      "path": ".ruff_cache",
+      "files": 30,
+      "bytes": 23494
+    },
+    {
+      "path": "scripts/__pycache__",
+      "files": 89,
+      "bytes": 1018182
+    },
+    {
+      "path": "scripts/dexonomy_multiccd/__pycache__",
+      "files": 2,
+      "bytes": 13734
+    },
+    {
+      "path": "scripts/dexonomy_table_scene/__pycache__",
+      "files": 1,
+      "bytes": 4596
+    },
+    {
+      "path": "scripts/dexonomy_admm_probe/__pycache__",
+      "files": 1,
+      "bytes": 8027
+    },
+    {
+      "path": "src/icra/__pycache__",
+      "files": 32,
+      "bytes": 305464
+    },
+    {
+      "path": "tests/__pycache__",
+      "files": 109,
+      "bytes": 1016479
+    }
+  ],
+  "archived_root_debug": [
+    {
+      "from": "debug.xml",
+      "to": "results/2026-09-12/workspace-cleanup/root-debug/debug.xml"
+    },
+    {
+      "from": "MUJOCO_LOG.TXT",
+      "to": "results/2026-09-12/workspace-cleanup/root-debug/MUJOCO_LOG.TXT"
+    }
+  ],
+  "bytes": 2456532
+}

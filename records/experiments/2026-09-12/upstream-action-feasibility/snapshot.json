@@ -1,0 +1,186 @@
+{
+  "queried_at": 1789190012.214617,
+  "status": {
+    "stage": "completed",
+    "running": false,
+    "updated_at": 1789190008.2805843
+  },
+  "result": {
+    "completed": true,
+    "attempts": 3,
+    "compliant_successes": 0,
+    "sustained_lifts": 0
+  },
+  "stages": [
+    {
+      "stage": "backend-check",
+      "command": [
+        "/home/yspark/projects/DexPrompt/.venv-student/bin/python",
+        "scripts/check_upstream_action.py",
+        "--config",
+        "/data1/yspark/projects/dexprompt/student-checks/upstream-action-v1/config.json",
+        "--out",
+        "/data1/yspark/projects/dexprompt/student-checks/upstream-action-v1/backend-check.json"
+      ],
+      "started_at": 1789186065.1334543,
+      "pid": 2244512,
+      "timed_out": false,
+      "exit_code": 0,
+      "finished_at": 1789186068.5235403
+    },
+    {
+      "stage": "preflight",
+      "command": [
+        "/home/yspark/projects/DexPrompt/.venv-student/bin/python",
+        "scripts/train_hx5_student.py",
+        "preflight",
+        "--config",
+        "/data1/yspark/projects/dexprompt/student-checks/upstream-action-v1/config.json",
+        "--data",
+        "/home/yspark/projects/DexPrompt/out/student-single-bottle-v1",
+        "--cache",
+        "/home/yspark/projects/DexPrompt/out/student-single-bottle-v1-cache",
+        "--allow-train-only-diagnostic",
+        "--out",
+        "/data1/yspark/projects/dexprompt/student-checks/upstream-action-v1/preflight"
+      ],
+      "started_at": 1789186068.524787,
+      "pid": 2244515,
+      "timed_out": false,
+      "exit_code": 0,
+      "finished_at": 1789186081.944146
+    },
+    {
+      "stage": "controls",
+      "command": [
+        "/home/yspark/projects/DexPrompt/.venv-student/bin/python",
+        "scripts/evaluate_student_suite.py",
+        "--data",
+        "/home/yspark/projects/DexPrompt/out/student-single-bottle-v1",
+        "--out",
+        "/data1/yspark/projects/dexprompt/student-checks/upstream-action-v1/controls",
+        "--check-controls"
+      ],
+      "started_at": 1789186081.945681,
+      "pid": 2244658,
+      "timed_out": false,
+      "exit_code": 0,
+      "finished_at": 1789186122.864689
+    },
+    {
+      "stage": "train",
+      "command": [
+        "/home/yspark/projects/DexPrompt/.venv-student/bin/python",
+        "scripts/train_hx5_student.py",
+        "train",
+        "--config",
+        "/data1/yspark/projects/dexprompt/student-checks/upstream-action-v1/config.json",
+        "--data",
+        "/home/yspark/projects/DexPrompt/out/student-single-bottle-v1",
+        "--cache",
+        "/home/yspark/projects/DexPrompt/out/student-single-bottle-v1-cache",
+        "--allow-train-only-diagnostic",
+        "--out",
+        "/data1/yspark/projects/dexprompt/student-runs/upstream-action-v1",
+        "--device",
+        "cuda:0",
+        "--cuda-memory-fraction",
+        "0.90"
+      ],
+      "started_at": 1789186122.8663096,
+      "pid": 2244897,
+      "timed_out": false,
+      "exit_code": 0,
+      "finished_at": 1789189485.8292146
+    },
+    {
+      "stage": "evaluate",
+      "command": [
+        "/home/yspark/projects/DexPrompt/.venv-student/bin/python",
+        "scripts/evaluate_student_suite.py",
+        "--data",
+        "/home/yspark/projects/DexPrompt/out/student-single-bottle-v1",
+        "--out",
+        "/data1/yspark/projects/dexprompt/student-checks/upstream-action-v1/evaluation",
+        "--checkpoint",
+        "/data1/yspark/projects/dexprompt/student-runs/upstream-action-v1/epoch_0012.pt",
+        "--device",
+        "cuda:0",
+        "--repeats",
+        "3",
+        "--seed",
+        "1000",
+        "--train-task-diagnostic"
+      ],
+      "started_at": 1789189485.8351364,
+      "pid": 2256741,
+      "timed_out": false,
+      "exit_code": 0,
+      "finished_at": 1789190008.2788131
+    }
+  ],
+  "backend-check": {
+    "passed": true,
+    "matched_weight_original_norm_max_error": 0.006165027618408203,
+    "matched_weight_and_norm_max_error": 0.0,
+    "timm_1_0_12_norm": "sample variance, not mean square; upstream behavior retained",
+    "condition_gradient_nonzero": true,
+    "backward_finite": true,
+    "optimizer_coverage": true,
+    "ddim_timesteps": [
+      45,
+      42,
+      39,
+      36,
+      33,
+      30,
+      27,
+      24,
+      21,
+      18,
+      15,
+      12,
+      9,
+      6,
+      3,
+      0
+    ],
+    "alpha_schedule_matches": true,
+    "optimizer_steps": 0
+  },
+  "replays": [
+    {
+      "seed": 1000,
+      "ticks": 974,
+      "failure_reason": null,
+      "contact_acquisition_tick": null,
+      "teacher_compliant_lift": false,
+      "max_height_m": 4.924585579324514e-07
+    },
+    {
+      "seed": 1001,
+      "ticks": 974,
+      "failure_reason": null,
+      "contact_acquisition_tick": null,
+      "teacher_compliant_lift": false,
+      "max_height_m": 4.924585580434737e-07
+    },
+    {
+      "seed": 1002,
+      "ticks": 974,
+      "failure_reason": null,
+      "contact_acquisition_tick": null,
+      "teacher_compliant_lift": false,
+      "max_height_m": 4.924585580434737e-07
+    }
+  ],
+  "progress": {
+    "epoch": 12,
+    "optimizer_steps": 6330,
+    "total_steps": 6331,
+    "train_loss": 0.0007069404554971521,
+    "elapsed_seconds": 3330.753454289981,
+    "seconds_per_step": 0.5261853798246415,
+    "estimated_remaining_seconds": 0.5261853798246415
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "status": "HYPOTHETICAL_AUTHORING_FIXTURE_NOT_MEASURED",
+  "purpose": "Illustrate a successful completed paper at the user's explicit request. No values are experimental evidence, forecasts, or acceptance targets.",
+  "protocol_assumptions": {
+    "train_geometries": 120,
+    "development_geometries": 20,
+    "held_out_geometries": 40,
+    "candidate_pool_per_scene": 16,
+    "executions_per_scene": 4,
+    "teacher_scenes": 1200,
+    "teacher_attempts_per_method": 4800,
+    "student_demonstrations_per_method": 12000,
+    "student_training_seeds": 5,
+    "simulation_trials_per_seed_per_request_mode": 400,
+    "real_objects": 20,
+    "real_trials_per_request_mode": 60,
+    "action_dimension": 27,
+    "action_chunk": 64,
+    "execution_prefix": 8
+  },
+  "methods": ["Uniform", "Selection", "Editing", "DexPrompt"],
+  "teacher_success_counts": [1680, 2304, 2592, 3408],
+  "teacher_failure_counts": {
+    "approach": [960, 576, 864, 336],
+    "closure": [1440, 1200, 864, 672],
+    "carry_hold": [720, 720, 480, 384]
+  },
+  "student_success_percent_by_seed": {
+    "Uniform": [52, 54, 57, 53, 54],
+    "Selection": [61, 63, 65, 62, 64],
+    "Editing": [67, 69, 72, 68, 69],
+    "DexPrompt": [80, 82, 85, 81, 82]
+  },
+  "data_efficiency": {
+    "demonstrations": [500, 2000, 6000, 12000],
+    "Uniform": [18, 30, 44, 54],
+    "DexPrompt": [31, 55, 73, 82]
+  },
+  "clutter": {
+    "distractors": [0, 2, 4],
+    "Uniform": [69, 54, 37],
+    "DexPrompt": [91, 82, 72]
+  },
+  "ablations_percent": {
+    "Full": 82,
+    "No type feature": 76,
+    "No contact edit cost": 70,
+    "Wrist-only editing": 73,
+    "No visual goal memory": 68
+  },
+  "sim_goal_modes_percent": {
+    "oracle_mask": [100, 84],
+    "provided_initial_mask_and_tracking": [100, 82],
+    "point": [98, 80],
+    "language": [96, 78]
+  },
+  "sim_goal_mode_columns": ["correct_initial_grounding", "end_to_end_grasp"],
+  "real_success_counts_of_60": {
+    "Uniform": [40, 38, 36],
+    "DexPrompt": [52, 50, 48]
+  },
+  "real_goal_modes": ["mask", "point", "language"]
+}

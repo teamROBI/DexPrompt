@@ -1,0 +1,56 @@
+[
+  {
+    "stage": "replay",
+    "command": [
+      "/home/yspark/projects/DexPrompt/.venv-student/bin/python",
+      "-m",
+      "stage1_dp3.experiment",
+      "replay",
+      "--package",
+      "/data1/yspark/projects/dexprompt/stage1-dp3-v1/package",
+      "--out",
+      "/data1/yspark/projects/dexprompt/stage1-dp3-v1/run"
+    ],
+    "started_at": 1789221812.0749207,
+    "timeout": false,
+    "pid": 2402098,
+    "exit_code": 0,
+    "finished_at": 1789221868.6779838
+  },
+  {
+    "stage": "train",
+    "command": [
+      "/home/yspark/projects/DexPrompt/.venv-student/bin/python",
+      "-m",
+      "stage1_dp3.experiment",
+      "train",
+      "--package",
+      "/data1/yspark/projects/dexprompt/stage1-dp3-v1/package",
+      "--out",
+      "/data1/yspark/projects/dexprompt/stage1-dp3-v1/run"
+    ],
+    "started_at": 1789221868.6791446,
+    "timeout": false,
+    "pid": 2402333,
+    "exit_code": 0,
+    "finished_at": 1789222190.8345757
+  },
+  {
+    "stage": "evaluate",
+    "command": [
+      "/home/yspark/projects/DexPrompt/.venv-student/bin/python",
+      "-m",
+      "stage1_dp3.experiment",
+      "evaluate",
+      "--package",
+      "/data1/yspark/projects/dexprompt/stage1-dp3-v1/package",
+      "--out",
+      "/data1/yspark/projects/dexprompt/stage1-dp3-v1/run"
+    ],
+    "started_at": 1789222190.835454,
+    "timeout": false,
+    "pid": 2403589,
+    "exit_code": 0,
+    "finished_at": 1789222452.9810026
+  }
+]

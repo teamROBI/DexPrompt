@@ -1,0 +1,407 @@
+{
+  "handoff_sha256": "22e6c6452139538c6e1b9e22b847a6a5949ea92796d9043f37a5e8e9a366f6ab",
+  "ledger_sha256": "c13269dc4eddd1c5542ee5d33f86272837c1c74d1889653cfc9e10c764fd0402",
+  "episodes": [
+    {
+      "role": "new",
+      "object": "AlphabetSoup",
+      "placement": "centre",
+      "attempt_uuid": "85eaed0f-8510-43fd-b8f8-d9a71becc19c",
+      "episode": "/data1/yspark/sim/icra/hope-candidate-diversity-v1/runs/05-new-AlphabetSoup-centre-85eaed0f/episodes/teacher_0000_yaw_000.npz",
+      "episode_sha256": "e15f27809a660be57070908b45f644df363c4cf9cd7493eb251b77de6b33153d",
+      "model": "/data1/yspark/sim/icra/hope-candidate-diversity-v1/runs/05-new-AlphabetSoup-centre-85eaed0f/simulation/model_0000.mjb",
+      "model_sha256": "16f0700373ed43f1406b59cd2c8edd479d4462d5f7c1930d760f4146dd19d9a8",
+      "initial_state": "/data1/yspark/sim/icra/hope-candidate-diversity-v1/runs/05-new-AlphabetSoup-centre-85eaed0f/simulation/teacher_0000_yaw_000_initial.npy",
+      "initial_state_sha256": "cdf7a3a3a9440861f625e004b7cce186468f3a3b3c87b3da84d3fac72da65a1c",
+      "scene": "out/hope-pilot-v1/checks-v3/AlphabetSoup/centre/scene.yaml",
+      "scene_sha256": "ab716a577219f1753a9e92d006c171e045981ab7b71f5ccd81cf282f7e0eb63f",
+      "mesh_sha256": "2ce98dbb16c57ba7f7660bc45bbcb16cc4ec5a1ca43ac39609316be6f594cb0f",
+      "template_hashes": {
+        "10_Power_Disk": "218d1c0448a68c3d89f9a4602129a9403895ba1093372fed9b6d113647821d87",
+        "1_Large_Diameter": "08f364dfe14160d07980f09b64ada1be541a22f016e7ca7b86a80d86aadb46da"
+      },
+      "candidate_sha256": "1443cca6ceb82be8e441e021dd4747d35fa1efd1908a384b4089dd63fb7b7e71",
+      "grasp_type": "10_Power_Disk",
+      "parents": [
+        {
+          "manifest": "AlphabetSoup-10_Power_Disk-s2.json",
+          "template": "10_Power_Disk",
+          "source": "/home/yspark/projects/Dexonomy/output/hopeAlphabetSoup_10_Power_Disk_s2_hx5_d20/grasp_data/10_Power_Disk/AlphabetSoup/0_18_grasp.npy"
+        }
+      ],
+      "reproduction": {
+        "attempt_uuid": "64cd5d0f-f7d4-4858-ad60-54ee96cd311f",
+        "episode_sha256": "e15f27809a660be57070908b45f644df363c4cf9cd7493eb251b77de6b33153d",
+        "identical": true
+      },
+      "reproduction_note": null,
+      "control_this_session": {
+        "attempt_uuid": "d1dc49dd-9572-4a1a-b3f4-f81fcfecb404",
+        "episode_sha256": "2ad2b2647274105e2ed08a4cb96b39986a798c073ff52ba8de287567d0a031a4",
+        "reproduces_original": true
+      },
+      "margins": {
+        "outcome": "completed",
+        "accepted": true,
+        "reasons": [],
+        "max_groups_at_once": 5,
+        "groups_at_end": 5,
+        "required_groups": 5,
+        "all_groups_seconds_total": 7.48,
+        "all_groups_seconds_longest": 7.48,
+        "peak_rise_mm": 144.25772264353654,
+        "final_rise_mm": 144.17054475798386,
+        "lifted_while_held_seconds": 2.64,
+        "max_penetration_mm": 1.9996325435148832,
+        "penetration_margin_mm": 0.0003674564851168828,
+        "max_digit_force_N": 29.942162888453396,
+        "force_margin_N": 0.05783711154660409,
+        "max_table_penetration_mm": 0.0,
+        "approach_displacement_mm": 2.435336190386361e-14,
+        "xy_moved_before_held_half_second_mm": 1.0765828778282478,
+        "held_half_second_from_tick": 605,
+        "near_limit_fraction_by_phase": {
+          "close": {
+            "ticks": 130,
+            "penetration_ge_1_9mm": 0.17692307692307693,
+            "force_ge_29N": 0.06923076923076923
+          },
+          "lift": {
+            "ticks": 299,
+            "penetration_ge_1_9mm": 0.020066889632107024,
+            "force_ge_29N": 0.0
+          },
+          "hold": {
+            "ticks": 50,
+            "penetration_ge_1_9mm": 0.0,
+            "force_ge_29N": 0.0
+          }
+        }
+      },
+      "source_manifest": "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-job-v1/source/runs/05-new-AlphabetSoup-centre-85eaed0f/manifest.json",
+      "source_manifest_sha256": "96a0f5f6afe363e0d7d06a09faea64ccbb0b8f4ad2968ad92dc0be886423baf0"
+    },
+    {
+      "role": "placement",
+      "object": "AlphabetSoup",
+      "placement": "yaw_plus15",
+      "attempt_uuid": "757e4674-4667-428b-9667-9c30c1ef44ff",
+      "episode": "/data1/yspark/sim/icra/hope-candidate-diversity-v1/runs/08-placement-AlphabetSoup-yaw_plus15-757e4674/episodes/teacher_0000_yaw_000.npz",
+      "episode_sha256": "41d6c926176a30bb4fca51cb52109dca769563b46d619a8d374e955a1fcd858c",
+      "model": "/data1/yspark/sim/icra/hope-candidate-diversity-v1/runs/08-placement-AlphabetSoup-yaw_plus15-757e4674/simulation/model_0000.mjb",
+      "model_sha256": "b2a11e09f4ea22a739452bc7cd20ab9a6a0c7df3a53230821d41996b3047b768",
+      "initial_state": "/data1/yspark/sim/icra/hope-candidate-diversity-v1/runs/08-placement-AlphabetSoup-yaw_plus15-757e4674/simulation/teacher_0000_yaw_000_initial.npy",
+      "initial_state_sha256": "7bc54813b6f5dc2e2a11ef4b8461b1825cc5e388e4e8974cecb7a65d99a98bbf",
+      "scene": "out/hope-pilot-v1/checks-v3/AlphabetSoup/yaw_plus15/scene.yaml",
+      "scene_sha256": "a81f4f1dfdf1b319b1eca9215133ea7b0753b16256adf7cd2da6c3b9951a2bf5",
+      "mesh_sha256": "2ce98dbb16c57ba7f7660bc45bbcb16cc4ec5a1ca43ac39609316be6f594cb0f",
+      "template_hashes": {
+        "10_Power_Disk": "218d1c0448a68c3d89f9a4602129a9403895ba1093372fed9b6d113647821d87",
+        "1_Large_Diameter": "08f364dfe14160d07980f09b64ada1be541a22f016e7ca7b86a80d86aadb46da"
+      },
+      "candidate_sha256": "1443cca6ceb82be8e441e021dd4747d35fa1efd1908a384b4089dd63fb7b7e71",
+      "grasp_type": "10_Power_Disk",
+      "parents": [
+        {
+          "manifest": "AlphabetSoup-10_Power_Disk-s2.json",
+          "template": "10_Power_Disk",
+          "source": "/home/yspark/projects/Dexonomy/output/hopeAlphabetSoup_10_Power_Disk_s2_hx5_d20/grasp_data/10_Power_Disk/AlphabetSoup/0_18_grasp.npy"
+        }
+      ],
+      "reproduction": {
+        "attempt_uuid": "1fdf8c2c-7586-4875-9c44-990af80bc4d4",
+        "episode_sha256": "41d6c926176a30bb4fca51cb52109dca769563b46d619a8d374e955a1fcd858c",
+        "identical": true
+      },
+      "reproduction_note": null,
+      "control_this_session": {
+        "attempt_uuid": "d1dc49dd-9572-4a1a-b3f4-f81fcfecb404",
+        "episode_sha256": "2ad2b2647274105e2ed08a4cb96b39986a798c073ff52ba8de287567d0a031a4",
+        "reproduces_original": true
+      },
+      "margins": {
+        "outcome": "completed",
+        "accepted": true,
+        "reasons": [],
+        "max_groups_at_once": 5,
+        "groups_at_end": 5,
+        "required_groups": 5,
+        "all_groups_seconds_total": 7.46,
+        "all_groups_seconds_longest": 6.74,
+        "peak_rise_mm": 144.71893032728633,
+        "final_rise_mm": 144.54597696444227,
+        "lifted_while_held_seconds": 2.66,
+        "max_penetration_mm": 1.9851658703454378,
+        "penetration_margin_mm": 0.014834129654562288,
+        "max_digit_force_N": 29.266708436687303,
+        "force_margin_N": 0.7332915633126973,
+        "max_table_penetration_mm": 0.0,
+        "approach_displacement_mm": 1.9044212330032858e-14,
+        "xy_moved_before_held_half_second_mm": 1.124817593165967,
+        "held_half_second_from_tick": 608,
+        "near_limit_fraction_by_phase": {
+          "close": {
+            "ticks": 133,
+            "penetration_ge_1_9mm": 0.06015037593984962,
+            "force_ge_29N": 0.007518796992481203
+          },
+          "lift": {
+            "ticks": 300,
+            "penetration_ge_1_9mm": 0.013333333333333334,
+            "force_ge_29N": 0.0
+          },
+          "hold": {
+            "ticks": 50,
+            "penetration_ge_1_9mm": 0.0,
+            "force_ge_29N": 0.0
+          }
+        }
+      },
+      "source_manifest": "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-job-v1/source/runs/08-placement-AlphabetSoup-yaw_plus15-757e4674/manifest.json",
+      "source_manifest_sha256": "103e114f2a1afaa7edcf4e6dec42b162b7d19cdea5d139b48c2005a6acda5fa4"
+    },
+    {
+      "role": "placement",
+      "object": "AlphabetSoup",
+      "placement": "x_minus20mm",
+      "attempt_uuid": "549c6a36-3bbc-4f61-851c-68a8a7264542",
+      "episode": "/data1/yspark/sim/icra/hope-candidate-diversity-v1/runs/10-placement-AlphabetSoup-x_minus20mm-549c6a36/episodes/teacher_0000_yaw_000.npz",
+      "episode_sha256": "c38792a505944be8aa6fb0bb7797584615a449d1f72f8e0e548d9eaf6e35e311",
+      "model": "/data1/yspark/sim/icra/hope-candidate-diversity-v1/runs/10-placement-AlphabetSoup-x_minus20mm-549c6a36/simulation/model_0000.mjb",
+      "model_sha256": "49fce29c5b817176ee341e37aae8f394b6115357d08a44c77e90fe56a65dcd99",
+      "initial_state": "/data1/yspark/sim/icra/hope-candidate-diversity-v1/runs/10-placement-AlphabetSoup-x_minus20mm-549c6a36/simulation/teacher_0000_yaw_000_initial.npy",
+      "initial_state_sha256": "a8a57bfc1465cf0a24ccdcb768eac629c235befd6f619d6e997bcbda08a150fc",
+      "scene": "out/hope-pilot-v1/checks-v3/AlphabetSoup/x_minus20mm/scene.yaml",
+      "scene_sha256": "57010f05d5ba44c819e0f76e64e45908567a0b2c6b9dd3465ff4d15a9e38b110",
+      "mesh_sha256": "2ce98dbb16c57ba7f7660bc45bbcb16cc4ec5a1ca43ac39609316be6f594cb0f",
+      "template_hashes": {
+        "10_Power_Disk": "218d1c0448a68c3d89f9a4602129a9403895ba1093372fed9b6d113647821d87",
+        "1_Large_Diameter": "08f364dfe14160d07980f09b64ada1be541a22f016e7ca7b86a80d86aadb46da"
+      },
+      "candidate_sha256": "1443cca6ceb82be8e441e021dd4747d35fa1efd1908a384b4089dd63fb7b7e71",
+      "grasp_type": "10_Power_Disk",
+      "parents": [
+        {
+          "manifest": "AlphabetSoup-10_Power_Disk-s2.json",
+          "template": "10_Power_Disk",
+          "source": "/home/yspark/projects/Dexonomy/output/hopeAlphabetSoup_10_Power_Disk_s2_hx5_d20/grasp_data/10_Power_Disk/AlphabetSoup/0_18_grasp.npy"
+        }
+      ],
+      "reproduction": {
+        "attempt_uuid": "b8428a92-8ce1-4158-80e5-e2a0d23ce731",
+        "episode_sha256": "c38792a505944be8aa6fb0bb7797584615a449d1f72f8e0e548d9eaf6e35e311",
+        "identical": true
+      },
+      "reproduction_note": null,
+      "control_this_session": {
+        "attempt_uuid": "d1dc49dd-9572-4a1a-b3f4-f81fcfecb404",
+        "episode_sha256": "2ad2b2647274105e2ed08a4cb96b39986a798c073ff52ba8de287567d0a031a4",
+        "reproduces_original": true
+      },
+      "margins": {
+        "outcome": "completed",
+        "accepted": true,
+        "reasons": [],
+        "max_groups_at_once": 5,
+        "groups_at_end": 5,
+        "required_groups": 5,
+        "all_groups_seconds_total": 7.48,
+        "all_groups_seconds_longest": 7.48,
+        "peak_rise_mm": 144.40120916729347,
+        "final_rise_mm": 144.2589991390697,
+        "lifted_while_held_seconds": 2.64,
+        "max_penetration_mm": 1.9995964041424805,
+        "penetration_margin_mm": 0.0004035958575195238,
+        "max_digit_force_N": 29.9017117306883,
+        "force_margin_N": 0.09828826931169843,
+        "max_table_penetration_mm": 0.0,
+        "approach_displacement_mm": 7.952315885737795e-15,
+        "xy_moved_before_held_half_second_mm": 1.227858292416361,
+        "held_half_second_from_tick": 607,
+        "near_limit_fraction_by_phase": {
+          "close": {
+            "ticks": 132,
+            "penetration_ge_1_9mm": 0.11363636363636363,
+            "force_ge_29N": 0.022727272727272728
+          },
+          "lift": {
+            "ticks": 299,
+            "penetration_ge_1_9mm": 0.0,
+            "force_ge_29N": 0.0
+          },
+          "hold": {
+            "ticks": 50,
+            "penetration_ge_1_9mm": 0.0,
+            "force_ge_29N": 0.0
+          }
+        }
+      },
+      "source_manifest": "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-job-v1/source/runs/10-placement-AlphabetSoup-x_minus20mm-549c6a36/manifest.json",
+      "source_manifest_sha256": "a044ff58feba76c5ee7e2d5e2b00d03e8451cc1854e1f07f876065de012a91a1"
+    },
+    {
+      "role": "new",
+      "object": "Raisins",
+      "placement": "centre",
+      "attempt_uuid": "95d9999f-19e7-4d40-bd78-31f6ae579e49",
+      "episode": "/data1/yspark/sim/icra/hope-candidate-diversity-v1/runs/16-new-Raisins-centre-95d9999f/episodes/teacher_0000_yaw_000.npz",
+      "episode_sha256": "0c6b54becd4bbe643caec76c9a814032760cd34f808643cc85e754ac9e7f8a64",
+      "model": "/data1/yspark/sim/icra/hope-candidate-diversity-v1/runs/16-new-Raisins-centre-95d9999f/simulation/model_0000.mjb",
+      "model_sha256": "89121bacba2e3304d7b1e631795789cc98a79c4b00a1612687398f57e2d3e101",
+      "initial_state": "/data1/yspark/sim/icra/hope-candidate-diversity-v1/runs/16-new-Raisins-centre-95d9999f/simulation/teacher_0000_yaw_000_initial.npy",
+      "initial_state_sha256": "96713c98c9b3c533a6cdeb05dedfc0910fcfe9b9adfcab9cf2735b8e7591aebf",
+      "scene": "out/hope-pilot-v1/checks-v3/Raisins/centre/scene.yaml",
+      "scene_sha256": "ab716a577219f1753a9e92d006c171e045981ab7b71f5ccd81cf282f7e0eb63f",
+      "mesh_sha256": "ccb4e3cce996940aa8c4640af1cf0e4022ba7e201a1bc04221188d580555e63f",
+      "template_hashes": {
+        "9_Palmar_Pinch": "4daa9e4a5fda742c63e5f1c6840b2eb099fd96e5d3dd1d4a3663732c97c9cd68",
+        "1_Large_Diameter": "08f364dfe14160d07980f09b64ada1be541a22f016e7ca7b86a80d86aadb46da"
+      },
+      "candidate_sha256": "3e8fa79936d8e9c10d2bd7d6c962e12fb6ed433f8adf0092d86fda2e0c3665e5",
+      "grasp_type": "1_Large_Diameter",
+      "parents": [
+        {
+          "manifest": "Raisins-1_Large_Diameter-s0.json",
+          "template": "1_Large_Diameter",
+          "source": "/home/yspark/projects/Dexonomy/output/hopeRaisins_1_Large_Diameter_s0_hx5_d20/grasp_data/1_Large_Diameter/Raisins/0_31_grasp.npy"
+        }
+      ],
+      "reproduction": {
+        "attempt_uuid": "145aee3b-9207-4343-8d3d-9a662d9987c1",
+        "episode_sha256": "0c6b54becd4bbe643caec76c9a814032760cd34f808643cc85e754ac9e7f8a64",
+        "identical": true
+      },
+      "reproduction_note": null,
+      "control_this_session": {
+        "attempt_uuid": "703c27cd-feec-4f8e-a1db-48fa8569ddcd",
+        "episode_sha256": "fe233e9e22b1ffd0979c7ba820b86ee5da31c961bb87c5b2e8fa00286fca1c5b",
+        "reproduces_original": true
+      },
+      "margins": {
+        "outcome": "completed",
+        "accepted": true,
+        "reasons": [],
+        "max_groups_at_once": 5,
+        "groups_at_end": 5,
+        "required_groups": 5,
+        "all_groups_seconds_total": 8.02,
+        "all_groups_seconds_longest": 6.2,
+        "peak_rise_mm": 128.61480784360134,
+        "final_rise_mm": 128.61480784360134,
+        "lifted_while_held_seconds": 2.6,
+        "max_penetration_mm": 1.6777759304360786,
+        "penetration_margin_mm": 0.3222240695639213,
+        "max_digit_force_N": 9.801307460336336,
+        "force_margin_N": 20.198692539663664,
+        "max_table_penetration_mm": 0.0,
+        "approach_displacement_mm": 6.277890567693654e-14,
+        "xy_moved_before_held_half_second_mm": 0.876991472684622,
+        "held_half_second_from_tick": 642,
+        "near_limit_fraction_by_phase": {
+          "close": {
+            "ticks": 167,
+            "penetration_ge_1_9mm": 0.0,
+            "force_ge_29N": 0.0
+          },
+          "lift": {
+            "ticks": 329,
+            "penetration_ge_1_9mm": 0.0,
+            "force_ge_29N": 0.0
+          },
+          "hold": {
+            "ticks": 50,
+            "penetration_ge_1_9mm": 0.0,
+            "force_ge_29N": 0.0
+          }
+        }
+      },
+      "source_manifest": "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-job-v1/source/runs/16-new-Raisins-centre-95d9999f/manifest.json",
+      "source_manifest_sha256": "5bcb031801d57892536ed7f0b4d9a64d43812898ebf22fca9d47005d4790c69d"
+    },
+    {
+      "role": "placement",
+      "object": "Raisins",
+      "placement": "yaw_plus15",
+      "attempt_uuid": "f27ecfce-0a60-4edd-81c6-933c78875bde",
+      "episode": "/data1/yspark/sim/icra/hope-candidate-diversity-v1/runs/21-placement-Raisins-yaw_plus15-f27ecfce/episodes/teacher_0000_yaw_000.npz",
+      "episode_sha256": "06354bdd56f810c413572b3de6a2fdbec502a737f8cba7eec1624c96723a5619",
+      "model": "/data1/yspark/sim/icra/hope-candidate-diversity-v1/runs/21-placement-Raisins-yaw_plus15-f27ecfce/simulation/model_0000.mjb",
+      "model_sha256": "29a7b213ed2bf9b22d6e4862429cd349c2d62f9d66e81883605c04dccf89298c",
+      "initial_state": "/data1/yspark/sim/icra/hope-candidate-diversity-v1/runs/21-placement-Raisins-yaw_plus15-f27ecfce/simulation/teacher_0000_yaw_000_initial.npy",
+      "initial_state_sha256": "c1f61a51c373913056129596834258d0fd4b34d79780095a7dba5beae7912964",
+      "scene": "out/hope-pilot-v1/checks-v3/Raisins/yaw_plus15/scene.yaml",
+      "scene_sha256": "a81f4f1dfdf1b319b1eca9215133ea7b0753b16256adf7cd2da6c3b9951a2bf5",
+      "mesh_sha256": "ccb4e3cce996940aa8c4640af1cf0e4022ba7e201a1bc04221188d580555e63f",
+      "template_hashes": {
+        "9_Palmar_Pinch": "4daa9e4a5fda742c63e5f1c6840b2eb099fd96e5d3dd1d4a3663732c97c9cd68",
+        "1_Large_Diameter": "08f364dfe14160d07980f09b64ada1be541a22f016e7ca7b86a80d86aadb46da"
+      },
+      "candidate_sha256": "3e8fa79936d8e9c10d2bd7d6c962e12fb6ed433f8adf0092d86fda2e0c3665e5",
+      "grasp_type": "1_Large_Diameter",
+      "parents": [
+        {
+          "manifest": "Raisins-1_Large_Diameter-s0.json",
+          "template": "1_Large_Diameter",
+          "source": "/home/yspark/projects/Dexonomy/output/hopeRaisins_1_Large_Diameter_s0_hx5_d20/grasp_data/1_Large_Diameter/Raisins/0_31_grasp.npy"
+        }
+      ],
+      "reproduction": {
+        "attempt_uuid": "eddaea68-4c08-4a14-aaeb-7981bc3b8704",
+        "episode_sha256": "06354bdd56f810c413572b3de6a2fdbec502a737f8cba7eec1624c96723a5619",
+        "identical": true
+      },
+      "reproduction_note": null,
+      "control_this_session": {
+        "attempt_uuid": "703c27cd-feec-4f8e-a1db-48fa8569ddcd",
+        "episode_sha256": "fe233e9e22b1ffd0979c7ba820b86ee5da31c961bb87c5b2e8fa00286fca1c5b",
+        "reproduces_original": true
+      },
+      "margins": {
+        "outcome": "completed",
+        "accepted": true,
+        "reasons": [],
+        "max_groups_at_once": 5,
+        "groups_at_end": 5,
+        "required_groups": 5,
+        "all_groups_seconds_total": 7.5200000000000005,
+        "all_groups_seconds_longest": 5.96,
+        "peak_rise_mm": 140.93935742145237,
+        "final_rise_mm": 140.28157139899523,
+        "lifted_while_held_seconds": 2.56,
+        "max_penetration_mm": 1.5611576652135917,
+        "penetration_margin_mm": 0.4388423347864083,
+        "max_digit_force_N": 9.886158115776187,
+        "force_margin_N": 20.113841884223813,
+        "max_table_penetration_mm": 0.0,
+        "approach_displacement_mm": 2.8158551540285147e-14,
+        "xy_moved_before_held_half_second_mm": 0.793779274421856,
+        "held_half_second_from_tick": 641,
+        "near_limit_fraction_by_phase": {
+          "close": {
+            "ticks": 166,
+            "penetration_ge_1_9mm": 0.0,
+            "force_ge_29N": 0.0
+          },
+          "lift": {
+            "ticks": 306,
+            "penetration_ge_1_9mm": 0.0,
+            "force_ge_29N": 0.0
+          },
+          "hold": {
+            "ticks": 50,
+            "penetration_ge_1_9mm": 0.0,
+            "force_ge_29N": 0.0
+          }
+        }
+      },
+      "source_manifest": "/data1/yspark/projects/dexprompt/student-checks/diversity-intake-job-v1/source/runs/21-placement-Raisins-yaw_plus15-f27ecfce/manifest.json",
+      "source_manifest_sha256": "37586b75b4c51e91f271ed1b61336b0d8ff1e95d4947c6cd73fa80ed1efe5b55"
+    }
+  ],
+  "training_started": false,
+  "scope": "separate diagnostic intake; fixed7 unchanged",
+  "renderer": {
+    "backend": "egl",
+    "egl_device": 1
+  }
+}

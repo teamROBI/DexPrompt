@@ -1,0 +1,585 @@
+{
+  "source": "https://github.com/swtyree/hope-dataset",
+  "archives": [
+    {
+      "filename": "hope_meshes_full.zip",
+      "url": "https://drive.google.com/uc?id=1MFv54QAoPwVp6IrsqGmfMXAQwbBnEAX_",
+      "dest": "meshes/full",
+      "md5": "1aa801890359e5e5931821f1e2eb6acb",
+      "group": "meshes_full",
+      "sha256": "bf0483c1f712a62523cdd85c1f8742a7305dfedef0a0d9da0b5d624627df0d95"
+    },
+    {
+      "filename": "hope_meshes_eval.zip",
+      "url": "https://drive.google.com/uc?id=1Y6Jo7EVM0ANjcWmYOKdGy7LWpld1VWfc",
+      "dest": "meshes/eval",
+      "md5": "619ee0142016369554e26592d0368a78",
+      "group": "meshes_eval",
+      "sha256": "976fb9d5631e94128544a481103315cbd0c39a93e958a25678d2b25688420940"
+    }
+  ],
+  "objects": [
+    {
+      "object": "AlphabetSoup",
+      "full_mesh_sha256": "545beda7b87c97a90816df6e1578b3fad5a6a1ad91dc74a244dbd22861341968",
+      "eval_mesh_sha256": "c055933b33de4c8b5d6a448a1d433223c69b2a59983b7db725d474aace96579f",
+      "full_unit_to_m": 0.001,
+      "eval_unit_to_m": 0.01,
+      "upright_width_depth_height_mm": [
+        66.055726,
+        71.120544,
+        83.554607
+      ],
+      "full_eval_extent_disagreement_mm": 0.16271399999999403,
+      "texture_present": true,
+      "watertight": false,
+      "collision_assets_present": false
+    },
+    {
+      "object": "BBQSauce",
+      "full_mesh_sha256": "7a8c57fab8a99bb544cd3f755388ae9547bda65a52c92694726fef1fe020e2fc",
+      "eval_mesh_sha256": "c880787863145b6848f1830093a2640816aa1466912d3c1b35573dfce8ea8f34",
+      "full_unit_to_m": 0.001,
+      "eval_unit_to_m": 0.01,
+      "upright_width_depth_height_mm": [
+        64.632142,
+        43.479248,
+        148.328948
+      ],
+      "full_eval_extent_disagreement_mm": 0.032197999999993954,
+      "texture_present": true,
+      "watertight": false,
+      "collision_assets_present": false
+    },
+    {
+      "object": "Butter",
+      "full_mesh_sha256": "d93edd6e7f017bb957972114da1116ff7f6733328fdb9e676a6a6509b21b43e5",
+      "eval_mesh_sha256": "e18c51c81f98eda0f746c8d7b12ee5ab35e1f48d1c3c84d0109b84ba1bd24989",
+      "full_unit_to_m": 0.001,
+      "eval_unit_to_m": 0.01,
+      "upright_width_depth_height_mm": [
+        103.301368,
+        23.93628,
+        52.826382
+      ],
+      "full_eval_extent_disagreement_mm": 8.000000008223651e-06,
+      "texture_present": true,
+      "watertight": false,
+      "collision_assets_present": false
+    },
+    {
+      "object": "Cherries",
+      "full_mesh_sha256": "d7bac86396d282f69cb4bb0e71ee58bd27a17752a7bc6a1fe351c3f94cd68766",
+      "eval_mesh_sha256": "60a8473f5bde6f5a4c63c7d80f2002c9c213455fefbf21ab4c32c00efec02d96",
+      "full_unit_to_m": 0.001,
+      "eval_unit_to_m": 0.01,
+      "upright_width_depth_height_mm": [
+        66.167176,
+        71.123168,
+        58.215894
+      ],
+      "full_eval_extent_disagreement_mm": 0.0307380000000137,
+      "texture_present": true,
+      "watertight": false,
+      "collision_assets_present": false
+    },
+    {
+      "object": "ChocolatePudding",
+      "full_mesh_sha256": "a7666f48f521e7056eacdfe95986596cc5ee3f1c4ced7eeb5a61e155fb13ccd5",
+      "eval_mesh_sha256": "6c6fd5c0f50b30d627b973572079dcaa3339921cc3b608314b2346dfde40c719",
+      "full_unit_to_m": 0.001,
+      "eval_unit_to_m": 0.01,
+      "upright_width_depth_height_mm": [
+        83.497604,
+        29.92331,
+        49.471748000000005
+      ],
+      "full_eval_extent_disagreement_mm": 0.010328000000001225,
+      "texture_present": true,
+      "watertight": false,
+      "collision_assets_present": true,
+      "graspgenx_copy_byte_identical": true,
+      "compiled_input_scale": 1.0,
+      "built_extent_disagreement_mm": 3.999999989900971e-06,
+      "compiled_body_mass_kg": 0.10704026124897946,
+      "compiled_body_inertia_kg_m2": [
+        8.222984005989983e-05,
+        6.87560763967495e-05,
+        2.9160604739306556e-05
+      ],
+      "compiled_visual_material_id": -1,
+      "initial_world_origin_m": [
+        0.35,
+        0.0,
+        0.8
+      ]
+    },
+    {
+      "object": "Cookies",
+      "full_mesh_sha256": "170a7aa24d183514b1b713d7bbdda076e634cfc6104327f295ae77e295fffd0a",
+      "eval_mesh_sha256": "2dcf7ee9064432d27e4d7781d2a31eb8d4ef8fa0b2fbfeb989c7f3eacbb7c32b",
+      "full_unit_to_m": 0.001,
+      "eval_unit_to_m": 0.01,
+      "upright_width_depth_height_mm": [
+        122.74560199999999,
+        40.152161,
+        167.242775
+      ],
+      "full_eval_extent_disagreement_mm": 0.05481499999999073,
+      "texture_present": true,
+      "watertight": false,
+      "collision_assets_present": false
+    },
+    {
+      "object": "Corn",
+      "full_mesh_sha256": "bfe176cf6c32fbd4eec8ef227e1294f1d398a6eb594e5473d42326eefb507996",
+      "eval_mesh_sha256": "3b8531a1b3ec4b4cc25dc929d2f42a6b66c4b06362bfeb0935fb728ab6e50806",
+      "full_unit_to_m": 0.001,
+      "eval_unit_to_m": 0.01,
+      "upright_width_depth_height_mm": [
+        66.102089,
+        70.908508,
+        58.039116
+      ],
+      "full_eval_extent_disagreement_mm": 0.0004160000000013042,
+      "texture_present": true,
+      "watertight": false,
+      "collision_assets_present": false
+    },
+    {
+      "object": "CreamCheese",
+      "full_mesh_sha256": "e92102ca3cdbdbd52c0a17505ee82c870aaacbd4298d5ad37a78d767c785b5ee",
+      "eval_mesh_sha256": "db648fb24c8ba55fd961a790c4bd5f38de53570ceb8141ce51303f5f8fa82066",
+      "full_unit_to_m": 0.001,
+      "eval_unit_to_m": 0.01,
+      "upright_width_depth_height_mm": [
+        103.59030899999999,
+        24.231144999999998,
+        53.205791
+      ],
+      "full_eval_extent_disagreement_mm": 0.009330999999995981,
+      "texture_present": true,
+      "watertight": false,
+      "collision_assets_present": false
+    },
+    {
+      "object": "GranolaBars",
+      "full_mesh_sha256": "a91082a901a4ecfe53dd35a38fe583ada03d38e4ba5b33019c22cb1c19af3674",
+      "eval_mesh_sha256": "31084b94fb8ec0241a1a30337fc014791f2f044ca4ca0ef6074ec883cc3d644c",
+      "full_unit_to_m": 0.001,
+      "eval_unit_to_m": 0.01,
+      "upright_width_depth_height_mm": [
+        165.338356,
+        38.738464,
+        124.00553099999999
+      ],
+      "full_eval_extent_disagreement_mm": 0.02084400000000386,
+      "texture_present": true,
+      "watertight": false,
+      "collision_assets_present": true,
+      "graspgenx_copy_byte_identical": true,
+      "compiled_input_scale": 1.0,
+      "built_extent_disagreement_mm": 5.999999999062311e-06,
+      "compiled_body_mass_kg": 0.10833770685248621,
+      "compiled_body_inertia_kg_m2": [
+        0.0003830931364543986,
+        0.00025927623930085963,
+        0.0001515435894712059
+      ],
+      "compiled_visual_material_id": -1,
+      "initial_world_origin_m": [
+        0.35,
+        0.0,
+        0.8
+      ]
+    },
+    {
+      "object": "GreenBeans",
+      "full_mesh_sha256": "68a9a14c66be868d4feeeae8c8eca2fa501b17345db6a2a18196251f80fcbc5b",
+      "eval_mesh_sha256": "06297cba7657fae2d5db8c5c1e81fa3b9efcf0a744f66bfd5856258b06cbff99",
+      "full_unit_to_m": 0.001,
+      "eval_unit_to_m": 0.01,
+      "upright_width_depth_height_mm": [
+        65.731773,
+        70.60791,
+        57.587413999999995
+      ],
+      "full_eval_extent_disagreement_mm": 0.009893000000005259,
+      "texture_present": true,
+      "watertight": false,
+      "collision_assets_present": false
+    },
+    {
+      "object": "Ketchup",
+      "full_mesh_sha256": "23752f879d2eb2c2acb34dabe232e028471bfec6a9c357d21c765e9dfed6ceb2",
+      "eval_mesh_sha256": "63811b357cf60c8c77675665bebafad35473bb3ffbf23216ef7e376de556345f",
+      "full_unit_to_m": 0.001,
+      "eval_unit_to_m": 0.01,
+      "upright_width_depth_height_mm": [
+        64.51375999999999,
+        43.368194,
+        148.607765
+      ],
+      "full_eval_extent_disagreement_mm": 0.016375000000010687,
+      "texture_present": true,
+      "watertight": false,
+      "collision_assets_present": false
+    },
+    {
+      "object": "MacaroniAndCheese",
+      "full_mesh_sha256": "3f1d152e5bc8053d04a29bac15ffee5977233c4e03a544d6deaa5f22ea85c815",
+      "eval_mesh_sha256": "b73e21c5344fed3123eb8b1bb84a374126ec7dfc0c494a2be4299baea32c2804",
+      "full_unit_to_m": 0.001,
+      "eval_unit_to_m": 0.01,
+      "upright_width_depth_height_mm": [
+        123.509075,
+        40.180847,
+        166.256279
+      ],
+      "full_eval_extent_disagreement_mm": 0.016176999999998998,
+      "texture_present": true,
+      "watertight": false,
+      "collision_assets_present": false
+    },
+    {
+      "object": "Mayo",
+      "full_mesh_sha256": "d516484187ac96c509824bfcfab8318f92c1560c07d806f04dcea111b133767b",
+      "eval_mesh_sha256": "4a47939f36e4c858ba96dce5315c35787a11afdc55bcf23570070fc2f7b4e210",
+      "full_unit_to_m": 0.001,
+      "eval_unit_to_m": 0.01,
+      "upright_width_depth_height_mm": [
+        64.541442,
+        41.031066,
+        147.902367
+      ],
+      "full_eval_extent_disagreement_mm": 5.999999999062311e-06,
+      "texture_present": true,
+      "watertight": false,
+      "collision_assets_present": false
+    },
+    {
+      "object": "Milk",
+      "full_mesh_sha256": "401f090d442f0c1f1868d786a1d701e058b154c27caf3ef5989e94323ac9312a",
+      "eval_mesh_sha256": "4d31ee8750b2d745b4011652d6b16138b1e405e9ba3eadcbba688b73a8f6e257",
+      "full_unit_to_m": 0.001,
+      "eval_unit_to_m": 0.01,
+      "upright_width_depth_height_mm": [
+        72.154594,
+        73.262146,
+        190.357796
+      ],
+      "full_eval_extent_disagreement_mm": 0.03677600000000325,
+      "texture_present": true,
+      "watertight": false,
+      "collision_assets_present": false
+    },
+    {
+      "object": "Mushrooms",
+      "full_mesh_sha256": "fc577066e03484a0b82b991def7f80707265e7dfb0850a2899bed353724d72a7",
+      "eval_mesh_sha256": "21ffe81bfe8aee0a0eadccc5e35eb9c93aa0daf2007901efa45ad12016f8f017",
+      "full_unit_to_m": 0.001,
+      "eval_unit_to_m": 0.01,
+      "upright_width_depth_height_mm": [
+        65.869892,
+        70.79861500000001,
+        33.321573
+      ],
+      "full_eval_extent_disagreement_mm": 0.009622999999997717,
+      "texture_present": true,
+      "watertight": false,
+      "collision_assets_present": false
+    },
+    {
+      "object": "Mustard",
+      "full_mesh_sha256": "2ed5664a3175243d0e6ae35efe5ad4f34d2efabcf3d0cb47408553d0f5d594cf",
+      "eval_mesh_sha256": "8d6fc4b75311143cf163f105445d689e6367a9344834ed7d184a5a6b1f92d8f8",
+      "full_unit_to_m": 0.001,
+      "eval_unit_to_m": 0.01,
+      "upright_width_depth_height_mm": [
+        65.13324,
+        48.57428,
+        160.050453
+      ],
+      "full_eval_extent_disagreement_mm": 0.13442299999999818,
+      "texture_present": true,
+      "watertight": false,
+      "collision_assets_present": true,
+      "graspgenx_copy_byte_identical": true,
+      "compiled_input_scale": 1.0,
+      "built_extent_disagreement_mm": 2.999999992425728e-06,
+      "compiled_body_mass_kg": 0.10933279710890834,
+      "compiled_body_inertia_kg_m2": [
+        0.00016636602224175576,
+        0.00015660084981603318,
+        4.527739839491055e-05
+      ],
+      "compiled_visual_material_id": -1,
+      "initial_world_origin_m": [
+        0.35,
+        0.0,
+        0.8
+      ]
+    },
+    {
+      "object": "OrangeJuice",
+      "full_mesh_sha256": "49ae10cbc7ab1bff54e743e941046dca00bd96c9eb9f5fa5cd11e2692755bf37",
+      "eval_mesh_sha256": "267b312cc6b7e0b69da7de963cabbfb16587a1b9046075de839628a225de7839",
+      "full_unit_to_m": 0.001,
+      "eval_unit_to_m": 0.01,
+      "upright_width_depth_height_mm": [
+        71.583401,
+        72.78149400000001,
+        192.482887
+      ],
+      "full_eval_extent_disagreement_mm": 0.03723700000000463,
+      "texture_present": true,
+      "watertight": false,
+      "collision_assets_present": false
+    },
+    {
+      "object": "Parmesan",
+      "full_mesh_sha256": "2cb1221c5083bab22492332982eccecc61aa545e52aad4640e21931125c27136",
+      "eval_mesh_sha256": "0081cdee0abc08f117d308b692cf865ee20132fdaa23912804b9a0d6532accd5",
+      "full_unit_to_m": 0.001,
+      "eval_unit_to_m": 0.01,
+      "upright_width_depth_height_mm": [
+        71.11689799999999,
+        66.09286499999999,
+        102.862499
+      ],
+      "full_eval_extent_disagreement_mm": 0.0743049999999954,
+      "texture_present": true,
+      "watertight": false,
+      "collision_assets_present": false
+    },
+    {
+      "object": "Peaches",
+      "full_mesh_sha256": "bdbbaee7f79ba80a65351ce54051a387ecbe985e369235f14d852d91c017f491",
+      "eval_mesh_sha256": "fca6548d3d573d1e5e1645ff9079e27c3f48bb632f9329a128eb80c54f514b7b",
+      "full_unit_to_m": 0.001,
+      "eval_unit_to_m": 0.01,
+      "upright_width_depth_height_mm": [
+        65.92611299999999,
+        70.962158,
+        57.781054
+      ],
+      "full_eval_extent_disagreement_mm": 0.09618799999999794,
+      "texture_present": true,
+      "watertight": false,
+      "collision_assets_present": false
+    },
+    {
+      "object": "PeasAndCarrots",
+      "full_mesh_sha256": "06cc06d4b0ffd41ce0faaf0dfee30e04c869e3f891c1c4f707abeaf8142929a8",
+      "eval_mesh_sha256": "1458d48e0545dc119e49fb42283d50584073d6b327feca684b072eb8a0ede3bf",
+      "full_unit_to_m": 0.001,
+      "eval_unit_to_m": 0.01,
+      "upright_width_depth_height_mm": [
+        65.918171,
+        70.635712,
+        58.512163
+      ],
+      "full_eval_extent_disagreement_mm": 0.040161999999995146,
+      "texture_present": true,
+      "watertight": false,
+      "collision_assets_present": false
+    },
+    {
+      "object": "Pineapple",
+      "full_mesh_sha256": "49ea1f2e441a2cb9e353b4a6a1a4f4176e972f58a3f079306782698f23f32fa1",
+      "eval_mesh_sha256": "4604d3a7ad2e6f475fa293c7e6be226b0da9778eafe6f45384270e963560e150",
+      "full_unit_to_m": 0.001,
+      "eval_unit_to_m": 0.01,
+      "upright_width_depth_height_mm": [
+        65.67509100000001,
+        69.599366,
+        57.622516000000005
+      ],
+      "full_eval_extent_disagreement_mm": 0.02634100000001638,
+      "texture_present": true,
+      "watertight": false,
+      "collision_assets_present": false
+    },
+    {
+      "object": "Popcorn",
+      "full_mesh_sha256": "68ba719c905ad9edb88371db9a74b6a2c0d10bf5c7981a0a9bdaf47b0b189d71",
+      "eval_mesh_sha256": "15bc657369cc63ac64fb61a30e9be91c56d24c9a0d7260fbc47b5a9396891529",
+      "full_unit_to_m": 0.001,
+      "eval_unit_to_m": 0.01,
+      "upright_width_depth_height_mm": [
+        126.49192,
+        38.252410999999995,
+        84.977081
+      ],
+      "full_eval_extent_disagreement_mm": 0.008080999999997118,
+      "texture_present": true,
+      "watertight": false,
+      "collision_assets_present": false
+    },
+    {
+      "object": "Raisins",
+      "full_mesh_sha256": "c294af2b5e6e0e21d9d228826fb7e51ca4a784cbd6978adbb8a08284fab95d53",
+      "eval_mesh_sha256": "94dcc7eb6237094b32f9c4247c59642b50623944baeed992d792484612d6fb73",
+      "full_unit_to_m": 0.001,
+      "eval_unit_to_m": 0.01,
+      "upright_width_depth_height_mm": [
+        85.875091,
+        39.751739,
+        123.17538400000001
+      ],
+      "full_eval_extent_disagreement_mm": 0.02331399999999917,
+      "texture_present": true,
+      "watertight": false,
+      "collision_assets_present": false
+    },
+    {
+      "object": "SaladDressing",
+      "full_mesh_sha256": "bb44c2db8fe3a4cb75abf3e186c6500de60bb5d221aa0a9a07d8427620b371e2",
+      "eval_mesh_sha256": "773ce48b301d9fab4cba90619419cbab1471d27f3de1245aac035a30e5275d85",
+      "full_unit_to_m": 0.001,
+      "eval_unit_to_m": 0.01,
+      "upright_width_depth_height_mm": [
+        64.039015,
+        43.695618,
+        147.440628
+      ],
+      "full_eval_extent_disagreement_mm": 0.02242799999999079,
+      "texture_present": true,
+      "watertight": false,
+      "collision_assets_present": false
+    },
+    {
+      "object": "Spaghetti",
+      "full_mesh_sha256": "432a0b05ec257d2f3605ce58eb7414e451b79b8a4d7df875bd0351d662a8c41d",
+      "eval_mesh_sha256": "48ffacf41e8e74608a8ae4eecfb98915d4482289340f1e5196a7a88f9f31f19c",
+      "full_unit_to_m": 0.001,
+      "eval_unit_to_m": 0.01,
+      "upright_width_depth_height_mm": [
+        249.880706,
+        28.492676,
+        49.836838
+      ],
+      "full_eval_extent_disagreement_mm": 0.02114599999999811,
+      "texture_present": true,
+      "watertight": false,
+      "collision_assets_present": false
+    },
+    {
+      "object": "TomatoSauce",
+      "full_mesh_sha256": "733d8a99b41fa32e3da46c47d404776eb066422d3d6026e048e5a1bb8d023d5e",
+      "eval_mesh_sha256": "8c3b2f715d52234053f2b78efe062faf8db0114d6508ba271114c965422b7d6d",
+      "full_unit_to_m": 0.001,
+      "eval_unit_to_m": 0.01,
+      "upright_width_depth_height_mm": [
+        66.469802,
+        70.19821200000001,
+        82.84671
+      ],
+      "full_eval_extent_disagreement_mm": 0.003900000000001569,
+      "texture_present": true,
+      "watertight": false,
+      "collision_assets_present": false
+    },
+    {
+      "object": "Tuna",
+      "full_mesh_sha256": "31ae3580238ac175b1bf82c2ed6516d5a8ee2cf0375a43ff2aa4dc9e260b9964",
+      "eval_mesh_sha256": "6c551e278a80e052473137142fb8dc30eb2769cd2591e4225613025d4c648707",
+      "full_unit_to_m": 0.001,
+      "eval_unit_to_m": 0.01,
+      "upright_width_depth_height_mm": [
+        65.836746,
+        70.806427,
+        32.570798999999994
+      ],
+      "full_eval_extent_disagreement_mm": 0.10130899999999343,
+      "texture_present": true,
+      "watertight": false,
+      "collision_assets_present": false
+    },
+    {
+      "object": "Yogurt",
+      "full_mesh_sha256": "a6e4680d4891be3e9cb2d601083c474cf6d348d5ca91927740cc1f473575036c",
+      "eval_mesh_sha256": "ec42c8bca1fca3514923112bc90cce57c8a0109093e4149abb7f8e0b16c04d2f",
+      "full_unit_to_m": 0.001,
+      "eval_unit_to_m": 0.01,
+      "upright_width_depth_height_mm": [
+        67.915413,
+        67.962006,
+        53.67699
+      ],
+      "full_eval_extent_disagreement_mm": 0.027435999999994465,
+      "texture_present": true,
+      "watertight": false,
+      "collision_assets_present": false
+    }
+  ],
+  "dgn_scale_contrasts": [
+    {
+      "object": "core_bowl_2e545ccae1cdc69d879b85bd5ada6e71",
+      "scale": 0.05,
+      "default_fitting_scale": 0.05,
+      "rest_index": 0,
+      "mesh_sha256": "d62d0e031ecec8da34d2bb26be284b18f97749765c47ad4f4e365ccba9e0f324",
+      "body_frame_extents_mm": [
+        69.9854735,
+        21.731216,
+        69.76227150000001
+      ],
+      "rest_frame_xyz_extents_mm": [
+        69.76268734237354,
+        69.9867333153808,
+        21.73127450375144
+      ],
+      "rest_frame_z_bounds_mm": [
+        -0.08721993996826938,
+        21.64405456378317
+      ],
+      "physical_size_calibrated": false
+    },
+    {
+      "object": "core_bowl_2e545ccae1cdc69d879b85bd5ada6e71",
+      "scale": 0.08,
+      "default_fitting_scale": 0.05,
+      "rest_index": 0,
+      "mesh_sha256": "d62d0e031ecec8da34d2bb26be284b18f97749765c47ad4f4e365ccba9e0f324",
+      "body_frame_extents_mm": [
+        111.97675759999998,
+        34.76994560000001,
+        111.61963440000001
+      ],
+      "rest_frame_xyz_extents_mm": [
+        111.62029974779766,
+        111.97877330460926,
+        34.7700392060023
+      ],
+      "rest_frame_z_bounds_mm": [
+        -0.13955190394923309,
+        34.63048730205307
+      ],
+      "physical_size_calibrated": false
+    },
+    {
+      "object": "ddg_gd_hammer_poisson_005",
+      "scale": 0.08,
+      "default_fitting_scale": 0.08,
+      "rest_index": 0,
+      "mesh_sha256": "6dced944e19ca82fc4f6b7a53ce31a93bb89d8c7457dcde4224b26fc773e1f91",
+      "body_frame_extents_mm": [
+        61.32585040000001,
+        33.203359199999994,
+        144.1657216
+      ],
+      "rest_frame_xyz_extents_mm": [
+        122.27844986324757,
+        113.73158395917622,
+        27.85801796890891
+      ],
+      "rest_frame_z_bounds_mm": [
+        -0.34769624643978153,
+        27.51032172246913
+      ],
+      "physical_size_calibrated": false
+    }
+  ],
+  "scope": "geometry inventory and three existing compiled scenes; no grasp or visibility validation"
+}
